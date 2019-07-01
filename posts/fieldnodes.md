@@ -16,15 +16,16 @@ We're planning on beginning by creating two instrumentation setups, one at each 
 <img src="/img/field_1/config_1.png">
 
 -----
-*June 26, 2019*
 
 ## Cellular Posting to FarmOS
 
-*-- Update, 18.00 --*
+*-- June 26, 2019, 18.00 --*
 
 We'll begin by setting up a quick 'end-to-end' test system for transmitting data from a Quahog to FarmOS via a cellular modem (the Adafruit FONA cellular module). 
 
 Because the FONA can only use TSL 1.0, and FarmOS is setup to require higher than TSL 1.0 to POST, we'll be using a 'relay server' -- a very simple NodeJS script, [farmos-relay](https://github.com/edgecollective/farmos-relay), that receives POSTs from the FONA (accepting TSL 1.0) and then re-broadcasts to FarmOS.  (Note: we should look into the security of doing things this way.)
+
+<img src="/img/field_1/prototype_1.jpeg">
 
 *-- Update, 18:55 --* 
 
@@ -44,7 +45,12 @@ I've got the Quahog receiving the Feather data via LoRa, and printing it out on 
 
 *-- Update, 20:06 --*
 
-Cool! We've got the end-to-end demo (with faked data) now:  Remote Node -- (LoRa radio) --> Quahog -- (cellular) --> relay server --> FarmOS!  The relevant code is [this version](https://github.com/edgecollective/knuth-soil-remote/blob/a53c40da56e1735645031fd489de680767c98ef1/quahog/rad_relay.py) of rad_relay.py on the Quahog.
+Cool! We've got the end-to-end demo (with faked data) now!  
+
+```
+Remote Node -- (LoRa radio) --> Quahog -- (cellular) --> relay server --> FarmOS
+```
+The relevant code is [this version](https://github.com/edgecollective/knuth-soil-remote/blob/a53c40da56e1735645031fd489de680767c98ef1/quahog/rad_relay.py) of rad_relay.py on the Quahog.
 
 <img src="/img/field_1/end_to_end.png" width=300>
 
@@ -61,11 +67,123 @@ TODO:
 
 *-- Update, 21.:01 --*
 
-Alright, looks like we're consistently posting!  The latest code is:
+Alright, looks like we're consistently posting -- with real temp data!  The latest code is:
 
 - Feather: [rad_onewire.py](https://github.com/edgecollective/knuth-soil-remote/blob/master/feather/rad_onewire.py) (copied as main.py onto the Feather so that it runs on boot)
 - Quahog: [rad_relay.py](https://github.com/edgecollective/knuth-soil-remote/blob/master/quahog/rad_relay.py)
 - FarmOS data: [test data](https://wolfesneck.farmos.net/farm/sensor/knuthtestone) at the Wolfesneck FarmOS instance.  
+
+<img src="/img/field_1/temp_1.png">
+
+Still have the remaining todo:
+
+- Detecting the network status of the FONA and waiting until it's connected to attempt to post.
+
+
+*-- June 27, 2019, 10:20 --*
+
+
+The cellular modem system has been running overnight without a hitch, posting temperature data every two minutes to FarmOS!  I downloaded a csv file from FarmOS.  Because the format is:
+
+```
+timestamp 1, key1, value1
+timestamp 1, key2, value2
+timestamp 2, key1, value1
+tiemstamp 2, key2, value2
+```
+
+I used a little script I found online to remove every other line (so that I could focus on temp data only and graph it easily):
+
+```
+sed -e n\;d <file
+```
+
+Worked nicely.  Plot of the resultant data (using LibreOffice) is here:
+
+<img src="/img/field_1/plot_overnight.png">
+
+**Cellular network status**. I saw some notes online that the network status of the SIM800 module (on which the Fona is based) isn't particularly revealing about the actual network status.  I'll at least try to assess its status, but not sure yet whether it makes sense to write any logic around it; it might be better to just attempt to send, and then if fail, go back to sleep -- rather than wasting battery on re-attempts.  Perhaps the network status *is* reliable upon wakeup -- when it first transitions from "not available" to "available" -- in which case we can at least keep attempting to post before a TIMEOUT is reached.
+
+**Power**. The next big step is to think about the optimal way to do battery power.  The complication is that the FONA module really wants a 3.7V rechargeable battery input.  What this might mean is that the rest of the system ought to get designed around that; or (less elegantly), that we have a separate charging system for the 3.7V battery, and then another one for the Quahog + sensor.  The sensor will likely require 3.6 - 12V.  The Quahog's 3.3V regulator requires 4.7V input, and its 5V regulator requires over 6V, I believe.  Other than these voltage considerations, I believe the circuit for turning the entire system on and off is well-designed at this point; it's really just a matter of figuring out how to generate the required voltages nicely and simply.
+
+*-- Update 10:57 --*
+
+Okay, this might be a 'simple' solution:  If I use a 5xAA battery pack, I get 5x1.5 volts = 7.5V input to the Quahog. This means that both the 3.3V and the 5V regulators on the Quahog will be happy.  The 5V regulator output can then be used to recharge the 3.7V battery on the FONA (which has an onboard charger circuit).  The question is whether I'll be charging it rapidly enough while the system is on to counteract the depletion due to FONA usage.  
+
+So a next step (which is necessary ultimately anyway) is to transmit the FONA battery voltage. I'll work on that today.  That way we'll be able to check how we're doing on keeping that battery charged.  Then power otherwise isn't as complicated.
+
+[Nice reference](https://www.electroschematics.com/13548/introducingsim800l/) for the SIM800 module.
+
+And here's a link to the [SIM800 manual](https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf). 
+
+Specific information about the SIM800 battery command [here](https://m2msupport.net/m2msupport/atcbc-battery-charge/).
+
+*-- Update 11:41 --*
+
+Okay!  Was able to capture the cellular battery voltage using a function I slapped together, and made a new version of the Quahog code: [rad_relay_batt.py](https://github.com/edgecollective/knuth-soil-remote/blob/master/quahog/rad_relay_batt.py).  
+
+I realized in the process that the "relay server" is currently "hard-coded" to accept and relay only two parameters: temp and soil moisture.  So for this test, I'm just going to stuff the battery voltage into the moisture variable -- this will allow me to track the voltage values over time for a few hours.  Meanwhile, I'll work on making the relay server on mosspig.club more generic if I can (perhaps making the cellular code into HTTP POST).  And I'l also work on the power circuit.
+
+*-- Update 20:34 --*
+
+Okay, I've been running the cellular system for 24 hours straight, more or less; and keeping track of the cellular battery voltage for the last 10 or more.  Here's a snapshot of the last 3 hours.  It's what one would expect from a lithium ion battery charger:  the battery discharges, the control circuit sees a threshold crossed and charges it back up again:
+
+<img src="/img/field_1/cell_batt_recharging.png">
+
+(And the temp has been going strong ...)
+
+<img src="/img/field_1/farmos_moisture_temp.png">
+
+What I'd like to know is: what's a similarly 'clean' way of measuring voltage on other batteries? Whenever I've tried with a voltage divider, I've gotten such a noisy signal ... I'll look into it.
+
+*-- Update 23:48 --* 
+
+I've swapped in a Ting mobile SIM card -- just involved changing the APN in Quahog code to "wholesale" instead of "fast.t-mobile.com" (for the previous T Mobile card I was using).  Works nicely.
+
+One option that might be easier around the "relay" code on the server is to simply accept an arbitrary number of additonal "GET" parameters.  So then I don't have to worry about doing a "POST" on the SIM800 side -- I can just form a long GET url, and then construct a POST on the server side that will interact with FarmOS.
+
+Next step: migrate from Wolfesneck FarmOS to Edge Collective FarmOS instance (deep thanks to Mike Stenta!).
+
+*-- Update Jun 28, 00:57 --*
+
+Neat!  I've got the relay code on the server grabbing all of the GET params and posting them to FarmOS.
+
+I've also migrated to the Edge Collective FarmOS instance.
+A next step might be to pass the FarmOS base url as a GET param, so that I don't have to touch the server code when migrating ...
+
+*-- Update 01:42 --*
+
+Things are running solidly now.  I'm using the FarmOS base url as a GET param, as suggested above.  
+
+The relay code on the server side is [relay_get_post.js](https://github.com/edgecollective/knuth-soil-remote/blob/master/server_relay/relay_get_post.js), and the latest Quahog code is [rad_relay_batt.py](https://github.com/edgecollective/knuth-soil-remote/blob/master/quahog/rad_relay_batt.py).
+
+<img src="/img/field_1/edge_cell_blog.png">
+
+Next steps:
+
+- See if I can resurrect the Iowa Decagon hardware;
+- Look into the optimal power circuit for the Quahog + Cellular
+- Add a "KEY" functionality to the cellular modem code to make sure it resets properly on boot
+- Resurrect the timer circuit
+
+## Power circuit
+
+*-- Update Une 29, 22:55 --*
+
+Okay, today I:
+
+- Resurrected the timer circuit, and incorporated it.
+- Figured out what (I think) is a workable power circuit that only requires one rechargeable battery
+- Simply connected the 'KEY' pin to ground, which seems to work nicely with the power circuit
+- Added in the 'DONE' timer functionality
+- redid the LoRa antennae on each device
+
+I'm connecting the 3.7V battery to the FONA directly; and I'm then using the solar charging circuit directly on the "BAT" pin of the FONA.  This isn't crazy if one looks at the FONA schematic; as long as I don't apply power to '5V / USB in' on the FONA, I'm not powering its charger chip -- so I should be fine charging it on my own.
+
+Oddly -- I would think that I ought to be able to connect the battery to the "BATT" JST on the solar lipo, and that this would be equivalent.  But this didn't seem to work -- the FONA kept resetting.  So, instead I'm running wires from the "B" pin on the solar lipo into the "BAT" pin on the FONA. Could it be the length of the wires?  I should check the solar charger schematic to see why this might be the case.
+
+
+
 
 
 
