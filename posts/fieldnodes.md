@@ -168,7 +168,7 @@ Next steps:
 
 ## Power circuit
 
-*-- Update Une 29, 22:55 --*
+*-- Update June 29, 22:55 --*
 
 Okay, today I:
 
@@ -181,6 +181,88 @@ Okay, today I:
 I'm connecting the 3.7V battery to the FONA directly; and I'm then using the solar charging circuit directly on the "BAT" pin of the FONA.  This isn't crazy if one looks at the FONA schematic; as long as I don't apply power to '5V / USB in' on the FONA, I'm not powering its charger chip -- so I should be fine charging it on my own.
 
 Oddly -- I would think that I ought to be able to connect the battery to the "BATT" JST on the solar lipo, and that this would be equivalent.  But this didn't seem to work -- the FONA kept resetting.  So, instead I'm running wires from the "B" pin on the solar lipo into the "BAT" pin on the FONA. Could it be the length of the wires?  I should check the solar charger schematic to see why this might be the case.
+
+*-- Update June 30, 22:02 --*
+
+Tested circuit -- it works!  It recharged during the sunlight hours today.  Given the specs on the FONA, it won't work with a battery voltage below 3.4V, so it simply shuts down when that happens. 
+
+After I recharged today, here's a picture of the battery recharging again in the sun, then draining in the dark:
+
+<img src="/img/field_1/cellular_battery.png" width=500>
+
+Once it drains down to 3.4V, it will stop.
+
+There are two ways of mitigating this:
+
+- select a larger lithium-ion battery, with greater capacity, and hope for more sun;
+- have a way to introduce a battery backup, like a car battery.
+
+So I've arranged to do both! 
+
+The [circuit thus far](https://github.com/edgecollective/knuth-soil-remote/blob/master/gateway/gateway_circuit.png) is here:
+
+<img src="/img/field_1/gateway_circuit.png" width=500>
+
+Need to look up [adafruit solar lipo](https://www.adafruit.com/product/390) [schematic](https://cdn-learn.adafruit.com/assets/assets/000/010/372/original/projects_solarv2.png?1396904194) to see what USB in does, how it relates to DCIN.  Done:  looks like there's a limiting resistor on the USB input. Might want to stick that in. (Done).
+
+I'm using a [5V switching regulator](https://www.digikey.com/product-detail/en/cui-inc/VX7805-500/102-4244-ND/7350283) ([datasheet](https://www.cui.com/product/resource/vx78-500.pdf)) that can take 36V input in the board design.
+
+So, TODO over the next couple of days:
+
+- make a milled board for the Gateway circuit
+- work on connected the Decagon soil moisture sensors to the Feather side of things (will require rewriting the Gateway code, too)
+- prototype the remote instrument with the timer chip included
+- design a milled board for the Remote instrument (including a solar panel?)
+- Order a larger lithium ion battery or two
+
+Aside: the relay server, as written, is also useful for the satellite modem. It'll be fun to prototype that in the future.
+
+Note: it'd be more generally useful if I swap over the regular SIM 800 FONA board.  That'll require a little hot glue tomorrow.
+
+*-- Update Jul 1st, 2019, 18.31 --*
+
+Spent the afternoon at artisan's prototyping the cellular gateway circuit:
+
+<img src="/img/field_1/cell_circuit_prototye.JPG" width=400>
+
+For now, I'm simply taping the pieces into a cardboard box in order to test them:
+
+<img src="/img/field_1/solar_circuit.JPG" width=400>
+
+It was raining yesterday in between bouts of sunshine, so I used a low-tech solution -- a trashbag:
+
+<img src="/img/field_1/trashbag.JPG" width=400>
+
+Meanwhile, while at Artisan's I found a nice spare project box for outdoor use:
+
+<img src="/img/field_1/tork.JPG" width=400>
+
+<img src="/img/field_1/tork2.JPG" width=400>
+
+Doesn't seem to have rubber gaskets, but should be fine for at least the initial prototyping. 
+
+The solar charging setup is working. The battery is relatively low capacity -- 1200 mAH, compared to ~6000 mAH available on Adafruit -- and I haven't been keeping it outdoors in the mornings, so the pattern now is: it charges enough to work, and then discharges after sunset until it's no longer working.  Then, when there's sunlight again, it comes back on.  (You can see that in the below graph of cellular battery voltage over time.) I'll try a larger battery; but I've also designed the adapter circuit to allow for 6.5-36V input that will charge the solar battery and provide its own power.
+
+<img src="/img/field_1/cell_battery_returns.png" width=400>
+
+## Gateway Board
+
+I've also started working on the layout for the "Gateway Board" that will connect cellular modem, solar charger, power booster, and timer circuit together -- intended for a milled board at Artisan's:
+
+<img src="/img/field_1/cellular_layout.png" width=400>
+
+<img src="/img/field_1/knuth_adapter.png" width=400>
+
+I'm trying something new -- rather than spend inordinate amounts of time trying to lay out a one-layer board, I'm using the standard technique of 'vias':
+
+<img src="/img/field_1/vias_layout_upclose.png" width=400>
+
+This will simply mean that I need to use my own 'jumper wires' between these vias (you can see them in the above layout diagram as white lines connecting vias). Should work out fine, as long as the OtherMill recognizes these vias.  
+
+<img src="/img/field_1/vias_upclose.png" width=400>
+
+Going to double check the schematic tonight, then plan to mill the board out tomorrow. 
+
 
 
 
