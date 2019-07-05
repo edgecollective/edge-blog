@@ -263,10 +263,28 @@ This will simply mean that I need to use my own 'jumper wires' between these via
 
 Going to double check the schematic tonight, then plan to mill the board out tomorrow. 
 
+*-- Update July 5, 2019 --*
 
+On Wednesday I milled out the boards.  Made two small mistakes: the footprint on the powerboost included some extra pins; and the orientation on the FONA 808 module was flipped.  But when I wired it up modulo these changes, it all works nicely!  
 
+<img src="/img/field_1/bantam.JPG" width=600>
 
+<img src="/img/field_1/milling.JPG" width=600>
 
+<img src="/img/field_1/milled_board.JPG" width=400>
 
+<img src="/img/field_1/cell_milled.JPG" width=400>
+
+<img src="/img/field_1/cell_kit.JPG" width=600>
+
+On Monday I'll be able to redo the milled board -- and this time I might also design around the enclosure to make for a nice fit.
+
+Todo: 
+
+- re-mill the board, with changes
+- attempt to use the Decagon soil moisture sensors I've got, and figure out power for the Feather boards
+- order a larger lithium ion battery
+- order a higher-charging-rate Powerboost
+- look into handheld soil moisture probes
 
 
