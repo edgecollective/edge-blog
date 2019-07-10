@@ -61,4 +61,39 @@ Ordered TIP42 PNPs from Mouser. Need to find SMT equiv.
 
 [Coin battery holder](https://www.digikey.com/product-detail/en/keystone-electronics/3000TR/36-3000CT-ND/1532229) is a Keystone 3000, intended for 12 mm coin cell batteries -- 1216, 1220, 1225 
 
+-----
+
+## Projects
+
+Urban agriculture.
+
+What's the FAO study on the prevalence / importance / role of urban agriculture world-wide?
+
+Find argument (in Twitter thread) that urban agriculture and gardens should have a greater role.
+
+Idea: combined infrastructure for urban ag, urban disaster-resistence comm, and flooding -- community - owned.
+
+Focus on satellite communications, next.
+
+Next design sprints:
+
+- Redesign cellular module add-on for Quahog
+- Feather Decagon breakout board
+- Footprint for BMP388
+- Satellite module design (based on cellular)
+- PyRu board
+
+Down the line:
+
+- A nicer solar charging solution
+- Electric fence module
+
+**classes**
+
+KiCad
+SMT
+Milling
+
+P2P
+
 
