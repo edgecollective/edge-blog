@@ -1,5 +1,5 @@
 ---
-pageTitle: R&D Notes vol 1
+pageTitle: R&D Notes Vol 1
 layout: layout.njk
 ---
 
@@ -95,5 +95,27 @@ SMT
 Milling
 
 P2P
+
+---
+
+## Four Probe
+
+[Four Point Probe instruments](http://four-point-probes.com/)
+
+---
+
+## Knuth
+
+The Adafruit Feather headers are 11.43 mm apart, measured from pin centers
+
+<img src="/img/rvol1/feather_foot.png">
+
+<img src="/img/rvol1/feather_board.png">
+
+<img src="/img/rvol1/feather_schem.png">
+
+---
+
+
 
 
