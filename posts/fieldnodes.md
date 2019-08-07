@@ -287,4 +287,45 @@ Todo:
 - order a higher-charging-rate Powerboost
 - look into handheld soil moisture probes
 
+*-- Update Jul 21, 2019 --*
+
+Updates:
+
+- Decagon 5TE soil moisture successfully connected and tested.
+- Wasn't able to resurrect both; only have one to use. Will use for calibration.
+- Now trying to hook up EC-5 sensor
+
+<img src="/img/field_1/ec_5.png" width=50%>
+
+[EC-5 manual](http://manuals.decagon.com/Manuals/13876_EC-5_Web.pdf)
+
+BOSSAC install for Circuitpython: https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation
+
+```
+sudo ./bossac -p /dev/ttyACM1 -e -w -v -R --offset=0x2000 ./adafruit-circuitpython-feather_m0_rfm9x-en_US-4.0.2.bin 
+```
+
+https://learn.adafruit.com/circuitpython-essentials/circuitpython-analog-in
+
+
+```
+import board
+import time
+
+from analogio import AnalogIn
+analog_in = AnalogIn(board.A2)
+
+while True:
+    print(analog_in.value*3.3/65536)
+    time.sleep(1)
+```
+
+<img src="/img/field_1/ec_5.png" width=50%>
+<img src="/img/field_1/ec_5_test.png" width=50%>
+<img src="/img/field_1/ec_5_test_2.png" width=50%>
+
+Onewire code:
+
+https://github.com/adafruit/Adafruit_CircuitPython_OneWire/releases
+
 
