@@ -1,6 +1,7 @@
 ---
 pageTitle: Remote Soil Moisture Monitoring 
 layout: layout.njk
+date: 2019-07-25
 ---
 
 -----

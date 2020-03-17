@@ -1,6 +1,7 @@
 ---
 pageTitle: R&D Notes Vol 1
 layout: layout.njk
+date: 2019-06-30
 ---
 
 ---
