@@ -36,10 +36,24 @@ layout: front.njk
 </ul>
 
 <h2> Research Blog </h2>
+<div class="posts-area">
 {% for post in collections.posts %}
-<h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
-<em>{{ post.date | date: "%Y-%m-%d" }}</em>
+  <div class="post">
+    <div class="post-contents">
+      <div class="image">
+        <a href="" src="{{ post.url }}">
+          <img src="{{ post.data.image }}"/>
+        </a>
+      </div>
+      <div class="text">
+        <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
+        <p>{{ post.data.blurb }}</p>
+        <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+      </div>
+    </div>
+  </div>
 {% endfor %}
+</div>
 
 
 <!--
