@@ -1,8 +1,9 @@
 ---
-pageTitle: R&D Notes Vol 1
+pageTitle: Other stuff
 layout: layout.njk
 date: 2019-06-30
-image: /img/rvol1/bmp388_wiring.png
+image: /img/rvol1/feather_board.png
+blurb:
 ---
 
 ---
