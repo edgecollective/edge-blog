@@ -2,57 +2,58 @@
 layout: front.njk
 ---
 
-<img src="/img/edge_logo.png" id="profile_pic"/>
+<div id="intro">
+  <img src="/img/edge_logo.png" id="profile-pic"/>
 
-<h1> Edge Collective </h1>
+  <h1> Edge Collective </h1>
 
-<p><a href="http://edgecollective.io">edgecollective.io</a> | dat://edgecollective.hashbase.io</p>
+  <p><a href="http://edgecollective.io">edgecollective.io</a> | dat://edgecollective.hashbase.io</p>
 
-<p>Edge Collective promotes <b>technological sovereignty</b> for communities living at ‘the edge’, including vulnerable cities, rural townships, farming communities, and islands.</p>
+  <p>Edge Collective promotes <b>technological sovereignty</b> for communities living at ‘the edge’, including vulnerable cities, rural townships, farming communities, and islands.</p>
 
-<p>Edge Collective strives to use science and technology in <b>cooperative</b> ways in order to enhance <b>well-being, freedom</b>, and <b>solidarity.</b>
+  <p>Edge Collective strives to use science and technology in <b>cooperative</b> ways in order to enhance <b>well-being, freedom</b>, and <b>solidarity.</b>
 
-<p>We facilitate and produce <b>workshops, trainings</b>, and <b>free and open source technologies</b> with the goal of building locally-owned, resilient municipal and community infrastructure -- using a friendly and collaborative design process. </p>
+  <p>We facilitate and produce <b>workshops, trainings</b>, and <b>free and open source technologies</b> with the goal of building locally-owned, resilient municipal and community infrastructure -- using a friendly and collaborative design process. </p>
 
-<p>Recent projects include:</p>
+  <p>Recent projects include:</p>
 
-<ul>
-<li>resilient communication systems</li>
-<li>off-grid water monitoring (flood, drought, salinity)</li>
-<li>retrofitting greenhouse control systems</li>
-<li>capturing soil health data from remote farm fields</li>
-</ul>
-
-
-
+  <ul>
+    <li>resilient communication systems</li>
+    <li>off-grid water monitoring (flood, drought, salinity)</li>
+    <li>retrofitting greenhouse control systems</li>
+    <li>capturing soil health data from remote farm fields</li>
+  </ul>
 
 
-<p>All of our <b>designs</b> and <b>code</b> are freely available <a href="http://github.com/edgecollective">online</a>, following the principles of commons-based <a href="https://wiki.p2pfoundation.net/Peer_Production"><b>peer production</b>.</a></p>
+  <p>All of our <b>designs</b> and <b>code</b> are freely available <a href="http://github.com/edgecollective">online</a>, following the principles of commons-based <a href="https://wiki.p2pfoundation.net/Peer_Production"><b>peer production</b>.</a></p>
 
-<p>If you'd like to <b>collaborate on a project</b>, or to <b>arrange for a workshop</b>, please contact us: </p>
-<ul>
-<li>via email at collaborate at edgecollective dot io</li>
-<li>via <a href="https://cabal.chat">cabal</a> at cabal://5da062c4abca9c3a1f6fad4cccfed64314b61ae70750ab61f739445b80b28221
-</ul>
+  <p>If you'd like to <b>collaborate on a project</b>, or to <b>arrange for a workshop</b>, please contact us: </p>
+  <ul>
+    <li>via email at collaborate at edgecollective dot io</li>
+    <li>via <a href="https://cabal.chat">cabal</a> at cabal://5da062c4abca9c3a1f6fad4cccfed64314b61ae70750ab61f739445b80b28221
+  </ul>
+</div>
 
-<h2> Research Blog </h2>
-<div class="posts-area">
-{% for post in collections.posts %}
-  <div class="post">
-    <div class="post-contents">
-      <div class="image">
-        <a href="" src="{{ post.url }}">
-          <img src="{{ post.data.image }}"/>
-        </a>
-      </div>
-      <div class="text">
-        <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
-        <p>{{ post.data.blurb }}</p>
-        <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+<div id="blog">
+  <h2> Research Blog </h2>
+  <div class="posts-area">
+    {% for post in collections.posts %}
+    <div class="post">
+      <div class="post-contents">
+        <div class="image">
+          <a href="" src="{{ post.url }}">
+            <img src="{{ post.data.image }}"/>
+          </a>
+        </div>
+        <div class="text">
+          <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
+          <p>{{ post.data.blurb }}</p>
+          <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+        </div>
       </div>
     </div>
+  {% endfor %}
   </div>
-{% endfor %}
 </div>
 
 

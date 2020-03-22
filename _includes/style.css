@@ -8,7 +8,11 @@ body {
     padding-top: 15px
 }
 
-#profile_pic {
+#intro {
+    max-width: 800px;
+}
+
+#profile-pic {
  float:right;
  margin:0em 0em 1em 1em;
  }
@@ -58,7 +62,7 @@ a:visited{
 .post {
     float: left;
     width: 33.33%;
-    padding-right: 20px;
+    padding: 0 20px 20px 0;
 }
 
 .post .post-contents {
@@ -86,5 +90,9 @@ a:visited{
 @media (max-width: 680px) {
     .post {
         width: 100%;
+    }
+
+    #profile-pic {
+        float: none;
     }
 }
