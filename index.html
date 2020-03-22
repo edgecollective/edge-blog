@@ -35,7 +35,7 @@ layout: front.njk
 <li>via <a href="https://cabal.chat">cabal</a> at cabal://5da062c4abca9c3a1f6fad4cccfed64314b61ae70750ab61f739445b80b28221
 </ul>
 
-<h2> Research Blog </h2>
+<h2> Research Projects </h2>
 <div class="posts-area">
 {% for post in collections.posts %}
   <div class="post">
@@ -48,7 +48,7 @@ layout: front.njk
       <div class="text">
         <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
         <p>{{ post.data.blurb }}</p>
-        <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ post.data.updated | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>

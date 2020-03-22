@@ -1,7 +1,8 @@
 ---
-pageTitle: Remote Soil Moisture Monitoring 
+pageTitle: Knuth Remote Soil Moisture Monitoring 
 layout: layout.njk
 date: 2019-07-25
+updated: 2020-03-22
 image: /img/field_1/cell_kit.JPG
 blurb: Baseline soil measurements around tree planting sites
 ---
