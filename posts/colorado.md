@@ -17,7 +17,6 @@ Now that we have a field relay node design for capturing the soil moisture data 
 Several resources are available online around this.  I'll record them here later; but in particular, the tutorial I found particularly relevant was this one by Andreas Spiess:  ["What you always wanted to know about Antennas and nobody told you"](https://www.youtube.com/watch?v=J3PBL9oLPX8).  Summary lessons from this video:
 
 - **Minimize the length of cable connecting the gateway to the external antenna**. 10s of feet of cable connecting the gateway to an external antenna -- even high quality, low-loss cable -- can reduce the signal range significantly (in kilometers).  Best to minimize this connection cable to the extent possible.
-- **The greater the antenna gain, the more directional it is.** This means that if we want 'omnidirectional', we actually don't want particularly high gain. 
 - **With good line of sight, very long distances should be possible.**
 - **The 'Fresnel effect'** means that line of sight actually requires some margin above / below the direct line of sight.
 - **Always connect an antenna to the sender**.  Without an antenna, energy is reflected back into the sender, potentially damaging the electronics.
