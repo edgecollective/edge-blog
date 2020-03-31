@@ -130,9 +130,9 @@ This will require three steps:
 
 ----
 
-## Improving Range
-
 *30 March 2020*
+
+## Improving Range
 
 Recent range data collected by Patrick in Alamosa:
 
@@ -158,12 +158,7 @@ In order to achieve longer ranges and try to get good signal, there are two main
 
 <img src='/img/harold/fresnel_zone.png'>
 
-<img src='/img/harold/fresnel_zone_clearance.png'>
-
 Note: [at some point in above Youtube tutorial](https://youtu.be/HWOivbJjw7s?t=201), they say that beyond 40% blockage, signal loss can be significant.  
-
-
-
 
 See final section of that video for doing calculation for curavature of earth + 60% fresnel zone:
 
@@ -177,7 +172,9 @@ See final section of that video for doing calculation for curavature of earth + 
 
 <img src='/img/harold/combined_clearance.png'>
 
-Our own [Google Sheets calculator for 60% fresnel + earth curvature allowance](https://docs.google.com/spreadsheets/d/15O40_eHUN_d248oSiVjxt9VtMPI3uyhlUJkn8tA6q6Q/edit?usp=sharing)
+Our own [Google Sheets calculator for 60% fresnel + earth curvature allowance](https://docs.google.com/spreadsheets/d/15O40_eHUN_d248oSiVjxt9VtMPI3uyhlUJkn8tA6q6Q/edit?usp=sharing):
+
+<img src='/img/harold/fresnel_zone_clearance.png'>
 
 Results:
 - for 1 mile range, want about 30 feet of clearance at midpoint of ellipsoid;
