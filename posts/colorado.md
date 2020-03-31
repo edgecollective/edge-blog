@@ -142,12 +142,31 @@ This will require three steps:
 
 <img src='/img/harold/fresnel_zone_diag.png'>
 
+<img src='/img/harold/fresnel_zone.png'>
+
 <img src='/img/harold/fresnel_zone_clearance.png'>
 
+Note: [at some point in above Youtube tutorial](https://youtu.be/HWOivbJjw7s?t=201), they say that beyond 40% blockage, signal loss can be significant.  
 
 
 
 
+See final section of that video for doing calculation for curavature of earth + 60% fresnel zone:
 
+
+Tutorial [also covers](https://youtu.be/HWOivbJjw7s?t=184) the allowance in meters needed to accommodate the curvature of the earth:
+
+<img src='/img/harold/allowed_height_curvature.png'>
+
+
+See final section of that video for doing calculation for curavature of earth + 60% fresnel zone:
+
+<img src='/img/harold/combined_clearance.png'>
+
+Our own [Google Sheets calculator for 60% fresnel + earth curvature allowance](https://docs.google.com/spreadsheets/d/15O40_eHUN_d248oSiVjxt9VtMPI3uyhlUJkn8tA6q6Q/edit?usp=sharing)
+
+Results:
+- for 1 mile range, want about 30 feet of clearance at midpoint of ellipsoid;
+- for 5 miles range, we want about 70 feet of clearance at midpoint of ellipsoid. 
 
 
