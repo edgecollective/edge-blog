@@ -134,6 +134,14 @@ This will require three steps:
 
 *30 March 2020*
 
+Recent range data collected by Patrick in Alamosa:
+
+- [Range experiment #1](https://drive.google.com/open?id=1L66-6L24E-b7gR6uZBGTuaOYzaxpjdGj&usp=sharing)
+
+- [Range experiment #2](https://drive.google.com/open?id=1GUdRaIr8wg-sFx9wFG-MiGC3SF0N2OKv&usp=sharing)
+
+**Overview of Fresnel Zones**:
+
 <img src="/img/harold/fresnel_overview.png">
 
 In order to achieve longer ranges and try to get good signal, there are two main issues to consider when placing the antenna:
