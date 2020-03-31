@@ -134,6 +134,8 @@ This will require three steps:
 
 *30 March 2020*
 
+<img src="/img/harold/fresnel_overview.png">
+
 In order to achieve longer ranges and try to get good signal, there are two main issues to consider when placing the antenna:
 - The first is the curvature of the earth -- this is relatively minor at short distances of course; but at a distance of 5 miles, you need the antenna to be at least 4 feet higher than the node to get line-of-sight -- assuming no other obstacles in between.
 - The second is what's called the "Fresnel zone": you should try to maintain an ellipsoidal / football-shaped zone of clearance between the antenna and the node; or else a significant amount of the radio transmission that strikes surfaces inside that zone can bounce and self-interfere.  
