@@ -90,6 +90,59 @@ Otherwise, there are quite standard enclosures to be found online, with hinges, 
 - For this reason an additional enclosure outside for the gateway may be a good purchase at this stage.
 - Note that the Sigfox setup in Olathe may already be something we can leverage for the RAK gateway system, if the cable end matches, as it likely uses the same 900 Mhz ISM band, and the antenna is already nicely mounted on the roof.
 
+-----
+*March 28, 2020*
+
+
+## LSN50 + Vegetronix
+
+[LSN50](https://www.dragino.com/products/lora-lorawan-end-node/item/128-lsn50.html)
+
+[User Manual + Case Study](https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.6.3.pdf)
+
+[AT Commands](https://www.dragino.com/downloads/downloads/LSN50-LoRaST/DRAGINO_LSN50_AT_Commands_v1.6.3.pdf)
+
+<img src="/img/lsn50/pinout_1_2.png">
+
+<img src="/img/lsn50/pin_functions.png">
+
+What worked with the CP2104:
+
+- RXD --> P02
+- TXD --> P03
+- GND --> GND
+
+Seems to take about 2 minutes to join network at start.
+
+Command for changing interval (in units of milliseconds) to 60 seconds:
+
+```
+AT+TDC=60000
+```
+
+## Burning a MicroSD card image of the RAK OS
+
+This will require three steps:
+
+1. **Reformatting the microSD card**.  To do this on a MAC, you can follow [this guide](https://apple.stackexchange.com/questions/226016/how-to-remove-partition-on-sd-card-using-a-mac), which is demonstrated in [this video](https://www.youtube.com/watch?v=NY0Aqtx9BSQ).  
+
+2. **Burning the RAK image** to the formatted microSD card, using [Balena Etcher](https://www.balena.io/etcher/).   The image you'll want to download and burn is [here](https://drive.google.com/file/d/19H8hP0pc4SMgFN5tfnBUKg9ZB8RsXnZf/view?usp=sharing).
+
+----
+
+## Improving Range
+
+*30 March 2020*
+
+[Nice post](https://ham.stackexchange.com/questions/12149/antenna-height-for-lorawan-gateway) on calculating line-of-sight horizon and Fresnel zone:
+
+<img src='/img/harold/horizon.png'>
+
+[Fresnel Zone Tutorial on Youtube](https://www.youtube.com/watch?v=HWOivbJjw7s)  by Mobile Fish
+
+<img src='/img/harold/fresnel_zone_diag.png'>
+
+<img src='/img/harold/fresnel_zone_clearance.png'>
 
 
 
