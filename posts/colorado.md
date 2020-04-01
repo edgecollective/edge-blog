@@ -27,13 +27,13 @@ The above leads me to think that our $50 [Sparkfun LoRa Fiberglass Antenna](http
 
 If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.B08F21](https://www.digikey.com/product-detail/en/taoglas-limited/OMB-915-B08F21/931-1519-ND/8275277), for $161. The datasheet indicates that it is still a fairly uniform / 'omni' antenna (which leads me to believe that our 5 dBi antenna, for which we don't have a datasheet, is likely even more uniform):
 
-<a href="/img/harold/taoglas_radiation.png"><img src="/img/harold/taoglas_radiation.png" width=50%></a>
+<a href="/img/harold/taoglas_radiation.png"><img src="/img/harold/taoglas_radiation.png" ></a>
 
-## Mounting the atenna
+## Mounting the antenna
 
 Nootropic Design has a [nice short article](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/)  describing their deployment of a RAK gateway outdoors. We can ignore the GPS antenna;  this might be a cheap option for getting the fiberglass antenna mounted as high as possible.
 
-<a href="/img/harold/antenna_sm.jpg"><img src="/img/harold/antenna_sm.jpg" width=50%></a>
+<a href="/img/harold/antenna_sm.jpg"><img src="/img/harold/antenna_sm.jpg" ></a>
 
 
 ## Cable options
@@ -47,11 +47,11 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 - [50 feet](https://www.amazon.com/Low-Loss-Coax-Extension-Cable-Ohm/dp/B013CY0IRU/ref=sr_1_22?keywords=sma+cable+extender&qid=1584733047&s=electronics&sr=1-22) ($86) -- 2.2 dBi loss
 
 
-<a href="/img/harold/cable_wrapped.png"><img src="/img/harold/cable_wrapped.png" width=50%></a>
+<a href="/img/harold/cable_wrapped.png"><img src="/img/harold/cable_wrapped.png" ></a>
 
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
-<a href="/img/harold/cable_loss.png"><img src="/img/harold/cable_loss.png" width=50%></a>
+<a href="/img/harold/cable_loss.png"><img src="/img/harold/cable_loss.png" ></a>
 
 (Note: a general reference for signal loss per foot through various cable types at various frequences can be found [here](https://www.w4rp.com/ref/coax.html)).
 
@@ -62,7 +62,7 @@ I believe that this loss can simply be subtracted from whatever RSSI value we wo
 
 ## WiFi Extension Options
 
-<a href="/img/harold/tp-link.png"><img src="/img/harold/tp-link.png" width=50%></a>
+<a href="/img/harold/tp-link.png"><img src="/img/harold/tp-link.png" ></a>
 
 Even if we use a cable, we will still need to connect the gateway to the wifi network, and this may require extending its range with a WiFi range extender.  
 
@@ -74,13 +74,13 @@ Two options that seemed to be promising were:
 
 If we do opt to place the gateway outdoords, many options here could work for housing the gateway outdoors.  If wind is a concern, a round PVC pipe might be a good option, as in this design from the Things network:
 
-<a href="/img/harold/gateway_outdoors.jpeg"><img src="/img/harold/gateway_outdoors.jpeg" width=50%></a>
+<a href="/img/harold/gateway_outdoors.jpeg"><img src="/img/harold/gateway_outdoors.jpeg" ></a>
 
 Otherwise, there are quite standard enclosures to be found online, with hinges, like this one used by [Nootropic Design](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/):
 
-<a href="/img/harold/baseStation1_lg.jpg"><img src="/img/harold/baseStation1_lg.jpg" width=50%></a>
+<a href="/img/harold/baseStation1_lg.jpg"><img src="/img/harold/baseStation1_lg.jpg" ></a>
 
-<a href="/img/harold/pi_outdoors.jpg"><img src="/img/harold/pi_outdoors.jpg" width=50%></a>
+<a href="/img/harold/pi_outdoors.jpg"><img src="/img/harold/pi_outdoors.jpg" ></a>
 
 
 ## Overall Recommendedations
