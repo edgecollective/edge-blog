@@ -61,6 +61,13 @@ a:visited{
     padding-right: 20px;
 }
 
+.contribute {
+
+width: 100%;
+padding-top: 10px;
+
+
+}
 .post .post-contents {
     background: #f7f7f7;
     border-radius: 5px;
