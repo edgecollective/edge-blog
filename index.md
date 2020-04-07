@@ -11,10 +11,6 @@ layout: front.njk
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 <p>::: collaborate @ edgecollective.io :::</p>
 
-<h2> Support our work </h2>
-
-<p>We're able to develop and disseminate our designs and documentation to everyone free-of-charge because of financial contributions from folks like you. If you'd like to contribute, you can <a href="/support">click here</a> to support our work. Thank you! </p>
-
 <h2> What we do </h2>
 
 <p>Our mission is to help people <b>gain greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>. </p>
@@ -36,6 +32,9 @@ layout: front.njk
 	<li><b>Salinity monitoring</b> for salt contamination of freshwater sources</li>
 </ul>
 
+<h2> Support our work </h2>
+
+<p>We're able to develop and disseminate our designs and documentation to everyone free-of-charge because of financial contributions from folks like you. If you'd like to contribute, you can <a href="/support">click here</a> to support our work. Thank you! </p>
 
 <!--
 <p>Funding goals: </p>
