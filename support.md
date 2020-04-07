@@ -1,5 +1,5 @@
 ---
-pageTitle: Support Edge Collective
+pageTitle: Supporting Edge Collective
 layout: layout.njk
 ---
 
