@@ -9,9 +9,9 @@ blurb: Caputuring data from SDI-12 Soil Moisture sensors, using a DIY LoRa netwo
 
 Topics covered below:
 
-- [LSN50](#lsn50) Vegetronix temperature sensor setup
-- [Gateway](#gateway) setup
-
+- [LSN50 Vegetronix temperature sensor setup](#lsn50)
+- [Gateway setup](#gateway)
+- [Improving range](#range)
 -----
 *March 22, 2020*
 
@@ -150,7 +150,7 @@ This will require three steps:
 
 *30 March 2020*
 
-## Improving Range
+## Improving <a name="range">Range</a>
 
 Recent range data collected by Patrick in Alamosa:
 
