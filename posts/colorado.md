@@ -10,7 +10,7 @@ blurb: Caputuring data from SDI-12 Soil Moisture sensors, using a DIY LoRa netwo
 -----
 *March 22, 2020*
 
-## Gatway Setup
+## Gateway Setup
 
 Now that we have a field relay node design for capturing the soil moisture data and sending it to a LoRa gateway (based on the RAK / Raspberry Pi gateway), we are looking to optimize signal strength in the system.
 
@@ -83,7 +83,7 @@ Otherwise, there are quite standard enclosures to be found online, with hinges, 
 <a href="/img/harold/pi_outdoors.jpg"><img src="/img/harold/pi_outdoors.jpg" ></a>
 
 
-## Overall Recommendedations
+## Overall Recommendations
 
 - If it is possible to situate the external antenna within line of sight of the relay nodes, having a longer cable connector might not be so much of an issue.  At the Olathe site, the antenna location on the roof may have line-of-sight to most of the fields.
 - Therefore, the recommended purchase at this point will be both the cable and the wifi extender.  The cable can be tried first; if it is of insufficient signal strength, then the wifi extender can be used to extend the wifi signal, and the gateway can be housed outdoors.
@@ -94,7 +94,7 @@ Otherwise, there are quite standard enclosures to be found online, with hinges, 
 *March 28, 2020*
 
 
-## LSN50 + Vegetronix
+## <a name="lsn50">LSN50</a> Vegetronix
 
 [LSN50](https://www.dragino.com/products/lora-lorawan-end-node/item/128-lsn50.html)
 
@@ -179,7 +179,6 @@ See final section of that video for doing calculation for curavature of earth + 
 Tutorial [also covers](https://youtu.be/HWOivbJjw7s?t=184) the allowance in meters needed to accommodate the curvature of the earth:
 
 <img src='/img/harold/allowed_height_curvature.png'>
-
 
 See final section of that video for doing calculation for curavature of earth + 60% fresnel zone:
 
