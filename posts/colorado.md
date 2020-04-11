@@ -7,10 +7,15 @@ image: /img/harold/feather_milled.JPG
 blurb: Caputuring data from SDI-12 Soil Moisture sensors, using a DIY LoRa network.
 ---
 
+Topics covered below:
+
+- [LSN50](#lsn50) Vegetronix temperature sensor setup
+- [Gateway](#gateway) setup
+
 -----
 *March 22, 2020*
 
-## Gateway Setup
+## <a name="gateway">Gateway</a> Setup
 
 Now that we have a field relay node design for capturing the soil moisture data and sending it to a LoRa gateway (based on the RAK / Raspberry Pi gateway), we are looking to optimize signal strength in the system.
 
