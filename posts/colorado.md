@@ -120,6 +120,19 @@ Command for changing interval (in units of milliseconds) to 60 seconds:
 AT+TDC=60000
 ```
 
+The [Vegetronix VH400](https://www.vegetronix.com/Products/VH400/) provides temperature via analog output from 0.0 - 3.3V.  Note: needs be powered with 3.5 - 20V.  Wiring is as follows: 
+
+<img src="/img/harold/vegetronix_pinout.png">
+
+This means that to connect a VH400 to the LSN50, the wiring is as follows:
+
+Vegetronix --> LSN50
+- 'bare' -- GND
+- 'red' -- 5V
+- 'black' -- PA0
+
+as per above LSN50 pinout / terminal diagram.
+
 ## Burning a MicroSD card image of the RAK OS
 
 This will require three steps:
