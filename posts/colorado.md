@@ -12,6 +12,8 @@ Topics covered below:
 - [LSN50 Vegetronix temperature sensor setup](#lsn50)
 - [Gateway setup](#gateway)
 - [Improving range](#range)
+- [LSN50 data capture](#lsn50_pattern)
+
 -----
 *March 22, 2020*
 
@@ -197,4 +199,12 @@ Results:
 - for 1 mile range, want about 30 feet of clearance at midpoint of ellipsoid;
 - for 5 miles range, we want about 70 feet of clearance at midpoint of ellipsoid. 
 
+----
 
+*12 April 2020*
+
+## <a name="lsn50_pattern">LSN50 data capture</a>
+
+Got timestamps working properly with data in Plotly.  Interesting that an initial experiment with the LSN50 seems to show some periodic 'gaps' in the data when broadcasting at 30 second intervals.  Wonder if this is inherent to the LSN50, to the gateway, or to some other part of the system:
+
+<img src='/img/harold/lsn50_pattern.png'>
