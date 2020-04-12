@@ -208,3 +208,9 @@ Results:
 Got timestamps working properly with data in Plotly.  Interesting that an initial experiment with the LSN50 seems to show some periodic 'gaps' in the data when broadcasting at 30 second intervals.  Wonder if this is inherent to the LSN50, to the gateway, or to some other part of the system:
 
 <img src='/img/harold/lsn50_pattern.png'>
+
+## <a name="drone_airspace">Drone Airspace Regulations</a>
+
+When using drones, important to check the local airspace rules. This map is really useful:
+
+http://knowbeforeyoufly.org/air-space-map/
