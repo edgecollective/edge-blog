@@ -9,7 +9,7 @@ layout: layout.njk
 - Speculative design generally
 - History of utopian thought, relationship to things actually built
 - Cooperative economics
-- 'Freek Market Anti-Capitalism' and those folks
+- 'Free Market Anti-Capitalism' and those folks
 - Soil moisture science and how it relates to accurate sensor readings
 - Radio comm -- lora, ham, wifi, satellite -- pros / cons 
 - Water science -- water quality, monitoring
