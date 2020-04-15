@@ -1,3 +1,3 @@
 #!/bin/bash
 
-convert input.jpg +dither -colors 4 -normalize output.gif
+convert $1 +dither -colors 5 -normalize $2 
