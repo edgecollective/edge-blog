@@ -33,6 +33,16 @@ Below are some eclectic reading selections that provide a few entry points into 
 
 - Paul Frazee presentation at JSCOnf, July 2018: ["Formalizing User Rights on the Web"](https://www.youtube.com/watch?v=x-ffpAkviM0)
 
+## Open Source Technology in Agriculture
+
+- The website of the non-profit [FarmHack.org](https://farmhack.org/tools)
+
+>> "We are a worldwide community of farmers that build and modify our own tools. We share our hacks online and at meet ups because we become better farmers when we work together."
+
+- Aaron Orlowski, article posted on civileats.com on 12 Feb 2019: ["Open Source Technology Could Be a Boon to Farmers"](https://civileats.com/2019/12/02/open-source-technology-could-be-a-boon-to-farmers/)
+
+>> "The growing ag tech sector can be pricey and ill-suited for smaller operations. These new companies aim to make it free, fair, and more accessible."
+
 ## The Solarpunk Movement
 
 - Elvia Wilk article in e-flux architecture: ["Is Ornamenting Solar Panels a Crime?"](https://www.e-flux.com/architecture/positions/191258/is-ornamenting-solar-panels-a-crime/)
