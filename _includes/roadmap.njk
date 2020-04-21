@@ -1,0 +1,33 @@
+---
+title: Edge Collective
+---
+
+{% set css %}
+  {% include "reset.css" %}
+  {% include "roadmap.css" %}
+{% endset %}
+<!-- feed it through our cssmin filter to minify -->
+<style>
+  {{ css | cssmin | safe }}
+</style>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="/img/edge_favicon.png" />
+
+    <title>{{ title }}</title>
+  </head>
+  <body>
+
+
+  <a href="/">Edge Collective</a>
+        <h1>{{ pageTitle }}</h1>
+
+<!--  {{ content | toc }}-->
+  
+  {{ content | safe }}
+  </body>
+</html>
