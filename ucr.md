@@ -9,7 +9,7 @@ Below are some eclectic reading selections that provide a few entry points into 
 
 - Michael Kwet article on aljazeera.com, 13 Mar 2019:  ["Digital Colonialism is Threatening the Global South"](https://www.aljazeera.com/indepth/opinion/digital-colonialism-threatening-global-south-190129140828809.html).  
 
->> "Similar to the technical architecture of classic colonialism, digital colonialism is rooted in the design of the tech ecosystem for the purposes of profit and plunder. If the railways and maritime trade routes were the "open veins" of the Global South back then, today, digital infrastructure takes on the same role: Big Tech corporations use proprietary software, corporate clouds, and centralised Internet services to spy on users, process their data, and spit back manufactured services to subjects of their data fiefdoms."
+>> "Similar to the technical architecture of classic colonialism, digital colonialism is rooted in the design of the tech ecosystem for the purposes of profit and plunder. If the railways and maritime trade routes were the "open veins" of the Global South back then, today, digital infrastructure takes on the same role: Big Tech corporations use proprietary software, corporate clouds, and centralised Internet services to spy on users, process their data, and spit back manufactured services to subjects of their data fiefdoms." 
 
 - Jaron Lanier interview in The Guardian's Science Weekly, 18 Mar 2013:  ["Who Owns the Future"](https://www.theguardian.com/science/audio/2013/mar/18/science-weekly-podcast-jaron-lanier).  
 
