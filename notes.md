@@ -20,4 +20,6 @@ layout: layout.njk
 - A R Brown and her sci fi utopian thinking based on Octavia Butler
 - Interconnected supply chains
 
+## Misc
 
+- WIll Wilkinson and Lew Daly chat about ['just deserts'](https://willwilkinson.net/2009/02/02/new-at-free-will-lew-daly-and-unjust-deserts/)

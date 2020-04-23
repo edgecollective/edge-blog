@@ -13,6 +13,7 @@ Topics covered below:
 - [Gateway setup](#gateway)
 - [Improving range](#range)
 - [LSN50 data capture](#lsn50_pattern)
+- [LSN50 onewire](#lsn50_onewire)
 
 -----
 *March 22, 2020*
@@ -203,7 +204,7 @@ Results:
 
 *12 April 2020*
 
-## <a name="lsn50_pattern">LSN50 data capture</a>
+## <a name="lsn50_onewire">LSN50 data capture</a>
 
 Got timestamps working properly with data in Plotly.  Interesting that an initial experiment with the LSN50 seems to show some periodic 'gaps' in the data when broadcasting at 30 second intervals.  Wonder if this is inherent to the LSN50, to the gateway, or to some other part of the system:
 
@@ -214,3 +215,14 @@ Got timestamps working properly with data in Plotly.  Interesting that an initia
 When using drones, important to check the local airspace rules. This map is really useful:
 
 http://knowbeforeyoufly.org/air-space-map/
+
+
+-----
+*April 22, 2020*
+
+
+## <a name="lsn50_onewire">LSN50</a> and Onewire ds18b20
+
+<img src='/img/lsn50/lsn50_onewire.png'>
+
+<img src='/img/lsn50/pinout_1_2.png'>
