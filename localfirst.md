@@ -17,4 +17,5 @@ Here below is an example data flow for the typical 'cloud first' sensor gateway 
 
 ## 'Local First'
 
+[<img width=500 src="/img/roadmap/localfirst_thumb.png">](/img/roadmap/farm_local_present.svg)
 
