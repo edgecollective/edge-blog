@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-03-22
 updated: 2020-03-22
 image: /img/harold/feather_milled.JPG
-blurb: Caputuring data from SDI-12 Soil Moisture sensors, using a DIY LoRa network.
+blurb: Capturing data from SDI-12 Soil Moisture sensors, using a DIY LoRa network.
 ---
 
 Topics covered below:

@@ -13,7 +13,7 @@ layout: front.njk
 
 <h2> What we do </h2>
 
-<p>Our mission is to help people <b>gain greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>. </p>
+<p>Our mission is to help people gain <b>greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>. </p>
 
 <p>We do this by: <p>
 
