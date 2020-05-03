@@ -238,6 +238,7 @@ http://knowbeforeyoufly.org/air-space-map/
 
 ## Procedure for Acclima field deployment
 
+You can find a video demonstrating the below procedure, [here](https://photos.app.goo.gl/uQazq1F5i3KaB7JC7).
 
 <a href="https://photos.app.goo.gl/uQazq1F5i3KaB7JC7"><img src="/img/harold/acclima_diagram.png"></a>
 
