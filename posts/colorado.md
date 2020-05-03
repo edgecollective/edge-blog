@@ -232,7 +232,7 @@ http://knowbeforeyoufly.org/air-space-map/
 
 ## <a name="acclima_deploy">Notes on Acclima Relay Field Test and Deployment</a> 
 
-**Data graphs / links**. Links to LSN50 and Acclima data (from Kelly and from Don) here:  <a href="http://olathe.edgecollective.io">olathe.edgecollective.io</a>.)
+**Data graphs / links**. Links to LSN50 and Acclima data (from Kelly and from Don) at [olathe.edgecollective.io](http://olathe.edgecollective.io).
 
 **Field testing and deployment.** Below is a procedure for 'field deployment' of the EC Acclima relay -- it's a way of testing the LoRa connection in the field quickly (short sleep interval, i.e. 'LOW') with visual feedback (LEDs on), making sure that things are working properly, then setting it up for long-term deployments (LEDs off to save power, sleep interval 'HIGH', typically one hour).
 
