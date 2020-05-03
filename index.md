@@ -52,7 +52,7 @@ layout: front.njk
   <div class="post">
     <div class="post-contents">
       <div class="image">
-        <a href="" src="{{ post.url }}">
+        <a href="{{ post.url }}">
           <img src="{{ post.data.image }}"/>
         </a>
       </div>
