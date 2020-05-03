@@ -14,7 +14,7 @@ Topics covered below:
 - [Improving range](#range)
 - [LSN50 data capture](#lsn50_pattern)
 - [LSN50 onewire](#lsn50_onewire)
-
+- [Acclima relay node](#acclima_deploy)
 -----
 *March 22, 2020*
 
@@ -226,3 +226,28 @@ http://knowbeforeyoufly.org/air-space-map/
 <img src='/img/lsn50/lsn50_onewire.png'>
 
 <img src='/img/lsn50/pinout_1_2.png'>
+
+-----
+*May 03, 2020*
+
+## <a name="acclima_deploy">Notes on Acclima Relay Field Test and Deployment</a> 
+
+**Data graphs / links**. Links to LSN50 and Acclima data (from Kelly and from Don) here:  <a href="http://olathe.edgecollective.io">olathe.edgecollective.io</a>.)
+
+**Field testing and deployment.** Below is a procedure for 'field deployment' of the EC Acclima relay -- it's a way of testing the LoRa connection in the field quickly (short sleep interval, i.e. 'LOW') with visual feedback (LEDs on), making sure that things are working properly, then setting it up for long-term deployments (LEDs off to save power, sleep interval 'HIGH', typically one hour).
+
+## Procedure for Acclima field deployment
+
+
+<a href="https://photos.app.goo.gl/uQazq1F5i3KaB7JC7"><img src="/img/harold/acclima_relay.png"></a>
+
+0. Switch the device power OFF
+1. Put the "LED ON" switch to "ON" so the indicator LEDs work (they should generally be switched to 'OFF' for long deployments on battery). 
+2. Put the interval to "LOW" (30 sec)
+3. Turn the device power ON
+4. Watch the LEDs  to make sure it gives you a JOIN and a SENT (explanation video here: https://photos.app.goo.gl/GSyRos8Y2sWa53QJ9). Should JOIN within a minute or two, then should cycle through every 30 sec or so. You might wait for one or two cycles to make sure.
+5. Check http://64.227.0.108:8200/ (you'll want to refresh the page) to see that you got new data values. It might take a minute.  You might need to refresh the web page.
+6. Rejoice if you did see new values; curse if you didn't
+7. **If you did** -- then put the LEDs to OFF (to save battery), put the interval to HIGH (sleep interval to 1 hour instead of 30 sec), and replace the cover.
+8. **If you didn't** -- maybe it's out of range? (signal strength 'RSSI' below about 120); maybe it's low on batteries? Maybe the sensor wire is loose (it won't transmit if sensor wire is loose).  Check those things and go back to step # 0 above ...
+
