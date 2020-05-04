@@ -252,12 +252,35 @@ You can find a video demonstrating the below procedure, [here](https://photos.ap
 7. **If you did** -- then put the LEDs to OFF (to save battery), put the interval to HIGH (sleep interval to 1 hour instead of 30 sec), and replace the cover.
 8. **If you didn't** -- maybe it's out of range? (signal strength 'RSSI' below about 120); maybe it's low on batteries? Maybe the sensor wire is loose (it won't transmit if sensor wire is loose).  Check those things and go back to step # 0 above ...
 
-## Testing
+## Testing the EC Acclima relay.
 
-3/4 mile from gateway
+Witnessed odd behavior with the EC Acclima relay -- was not connecting.  On power cycling, it connected, but sent odd data (values way out of bounds).  [TO DO: POST PICS].  
+
+Then noticed that battery level was close to / just below recommended voltage for Acclima sensor.  
+
+Provisional diagnosis:  the sensor was underpowered; this meant that originally it was causing the relay to fail to transmit to the gateway (the current firmware requires successful sensor data acquisition before transmit.  TODO: rewrite so that it transmits 'error codes' (integers?)?).  
+
+Relay batteries were replaced, and now sensor is broadcasting regularly. 
+
+EC Acclima Relay was placed 3/4 mile from gateway.  Prior, probe was placed directly in water (generating ~ %100 VWC readings).  At new location, probe was placed in soil, which is generating readings of 14% VWC.
 
 <img src="/img/harold/vwc_2020_may_03_site.png">
 </br>
 <img src="/img/harold/vwc_2020_may_03_signal_b.png">
 </br>
 <img src="/img/harold/vwc_2020_may_03_dip.png">
+
+-------
+
+*May 04, 2020*
+
+## Periodically dropped data points?
+
+All of the sensors currently deployed in Colorado seem to exhibit a similar behavior -- a periodic 'missing data point':
+
+<img src="/img/harold/2020_may_04_acclima_skip.png">
+</br>
+<img src="/img/harold/2020_may_04_acclima_skip.png">
+</br>
+
+Merits investigation to see whether the issue is on the gateway (likely) or has to do with some periodic feature of the local internet connectivity.  
