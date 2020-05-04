@@ -252,3 +252,11 @@ You can find a video demonstrating the below procedure, [here](https://photos.ap
 7. **If you did** -- then put the LEDs to OFF (to save battery), put the interval to HIGH (sleep interval to 1 hour instead of 30 sec), and replace the cover.
 8. **If you didn't** -- maybe it's out of range? (signal strength 'RSSI' below about 120); maybe it's low on batteries? Maybe the sensor wire is loose (it won't transmit if sensor wire is loose).  Check those things and go back to step # 0 above ...
 
+## Testing
+
+3/4 mile from gateway
+<img src="/img/harold/vwc_2020_may_03_site.png">
+</br>
+<img src="/img/harold/vwc_2020_may_03_signal_b.png">
+</br>
+<img src="/img/harold/vwc_2020_may_03_dip.png">
