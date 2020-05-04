@@ -283,4 +283,12 @@ All of the sensors currently deployed in Colorado seem to exhibit a similar beha
 <img src="/img/harold/2020_may_04_acclima_skip.png">
 </br>
 
-Merits investigation to see whether the issue is on the gateway (likely) or has to do with some periodic feature of the local internet connectivity.  
+Merits investigation to see whether the issue is on the gateway (likely) or has to do with some periodic feature of the local internet connectivity. 
+
+## Latest EC Acclima Relay Code
+
+Note the Acclima relay code being used in CO currently is [here](https://github.com/edgecollective/feather-ttn-rak/tree/sdi_failsafe/ttn-otaa-feather-us915-sleep-cayenne-acclima).  It uses the 'Cayenne' protocol in the OTAA mode. Also take care to note that this is in the 'sdi_failsafe' branch.
+
+  
+
+ 
