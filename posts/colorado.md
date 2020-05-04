@@ -255,6 +255,7 @@ You can find a video demonstrating the below procedure, [here](https://photos.ap
 ## Testing
 
 3/4 mile from gateway
+
 <img src="/img/harold/vwc_2020_may_03_site.png">
 </br>
 <img src="/img/harold/vwc_2020_may_03_signal_b.png">
