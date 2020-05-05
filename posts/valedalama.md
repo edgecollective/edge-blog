@@ -106,3 +106,13 @@ Second:
 - change the sketch lib folder project_config file to 868 (for good measure)
 - comment out LMIC_selectSubBand(1);
 
+## Wiring Adafruit Feather to BME280
+
+As per instructions [here](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/arduino-test):
+
+**BME280 ---> Feather**
+- VIN --> 3V
+- GND --> GND
+- SCK --> SCL
+- SDI --> SDA
+
