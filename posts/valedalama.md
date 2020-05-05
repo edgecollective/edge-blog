@@ -67,3 +67,42 @@ See the below snippet from the [Adafruit Feather M0 LoRa 900 Mhz product page](h
 See this example serial output:
 
 <img src="/img/valedalama/rejoin.png">
+
+## Needed tweak on Adafruit for EU band
+
+See the forum post [here](https://www.thethingsnetwork.org/forum/t/solved-adafruit-feather-m0-to-connect-to-ttn-over-otaa-unknown-event-20/29990/15):
+
+<img src="/img/valedalama/eu_band_adafruit_tweak.png">
+
+[This](https://www.hackster.io/Amedee/the-things-network-node-for-ttnmapper-org-a8bcd4) might be a useful reference for setting up 868 band.
+
+Current impression is that RAK hardware does indeed distinguish between 868 and 915 Mhz bands ... ?
+
+05 May 2020 13:27 Update:  there is a 'project_config' file located in the 'src' folder on in the lmic library folder itself -- and it's set to the US band -- perhaps this is overriding the project files? Trying setting it to EU and the RAK to EU.  One open question is how specific the RAK Pi Hat is re: freq bands ... can it handle 868?
+
+So the current thinking for getting 868 band to work is:
+- change the Arduino lib folder project_config file to 868
+- change the sketch lib folder project_config file to 868 (for good measure)
+- comment out LMIC_selectSubBand(1);
+
+Meanwhile, note that upload via bossac did work on the Pi. 
+
+Confirmed -- was able to get upload on RAK in US '915' version by setting to '868' following above steps.  Key seems to have been the Arduino library project_config folder issue.  
+
+Note: we are using [mcci-catena arduino-lmic 2.3.2 version](https://github.com/mcci-catena/arduino-lmic/releases/tag/v2.3.2) of library with success.  Later versions haven't always worked. Stick with that for now. 
+
+## Strategy
+
+First:
+
+- set up RAK to 868 via sudo gateway-config
+- try loading binary to Feather via RAK
+
+
+Second:
+
+- make sure we're using proper version of lmic library (see above)
+- change the Arduino lib folder project_config file to 868
+- change the sketch lib folder project_config file to 868 (for good measure)
+- comment out LMIC_selectSubBand(1);
+
