@@ -126,3 +126,4 @@ As per instructions [here](https://learn.adafruit.com/adafruit-bme280-humidity-b
 - SCK --> SCL
 - SDI --> SDA
 
+<img src="/img/valedalama/bme_280_feather_wiring.png">
