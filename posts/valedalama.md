@@ -110,6 +110,12 @@ Second:
 
 As per instructions [here](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/arduino-test):
 
+<img src="/img/valedalama/feather_pinouts.jpg">
+
+</br>
+
+<img src="/img/valedalama/bme_280_pins.jpg">
+
 **BME280 ---> Feather**
 - VIN --> 3V
 - GND --> GND
