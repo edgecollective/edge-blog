@@ -7,6 +7,10 @@ image: /img/valedalama/cover.JPG
 blurb: Farm monitoring infrastructure in Portugal 
 ---
 
+Highlights:
+
+-  [Wiring a BME280 to a Feather](#bme280_wiring)
+
 -----
 *April 13, 2020*
 
@@ -106,7 +110,7 @@ Second:
 - change the sketch lib folder project_config file to 868 (for good measure)
 - comment out LMIC_selectSubBand(1);
 
-## Wiring Adafruit Feather to BME280
+## <a name="bme280_wiring">Wiring Adafruit Feather to BME280</a>
 
 As per instructions [here](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/arduino-test):
 
