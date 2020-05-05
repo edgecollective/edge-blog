@@ -18,3 +18,38 @@ Great [talk on Sqllite](https://www.youtube.com/watch?v=Jib2AmRb_rk), arguing th
 *24 Apr 2020*
 
 [Simple test code](https://gist.github.com/dwblair/c18edaaa2de9a8d5e3a6b47c48797d98)  for Adafruit Feather + RAK 
+
+------
+*05 May 2020*
+
+## Configuring the region on the RAK
+
+General setup for the RAK 7243 + Pi firmware is [here](https://doc.rakwireless.com/rak7243c-lorawan-developer-gateway/device-firmware-setup).
+
+Information about the configuration file is [here](https://www.chirpstack.io/network-server/install/config/).
+
+The firmware we're using is [here](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Firmware/).
+
+Can use 'gateway-config' command line script on RAK to set the region. 
+
+This script modifies this file:
+
+```
+/etc/chirpstack-network-server/chirpstack-network-server.toml
+```
+
+## Basic Arduino Test Code
+
+Basic test code for sending data to the RAK in OTAA mode
+
+https://gist.github.com/dwblair/f6a0c3dd07fc3ae073fad3914f77af64
+
+## Configuring the region on the Arduino
+
+Changing the region on the Arduino requires modifing a special header file.  
+
+See the Adafruit Arduino tutorial [here](https://learn.adafruit.com/the-things-network-for-feather?view=all#region-configuration).
+
+
+
+
