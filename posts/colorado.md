@@ -300,4 +300,10 @@ To figure this out, there is some math to be done about the relative phases, and
 
 <img src="/img/harold/vwc_2020_may_05.png">
 
+---------
+*May 6, 2020*
+
+Hit snag with dhcpcd.conf file -- the version that RAK OS provides is intended, it seems, to provide a static IP address / WAP / etc when connected to eth0. Solution seems to be to comment out all of the last 5-ish lines in the /etc/dhcpcd.conf
+
+TODO: remove the 'zoom' controls from the EC Acclima online display ...
  

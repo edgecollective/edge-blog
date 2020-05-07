@@ -127,3 +127,23 @@ As per instructions [here](https://learn.adafruit.com/adafruit-bme280-humidity-b
 - SDI --> SDA
 
 <img src="/img/valedalama/bme_280_feather_wiring.png">
+
+## Code for BME280 + Feather M0 LoRa
+
+Using the BME280 can be accomplished by using the [Adafruit BME280 Arduino Library](https://github.com/adafruit/Adafruit_BME280_Library), which also requires using the [Adafruit Sensor Library](https://github.com/adafruit/Adafruit_Sensor).
+
+## Uplaoding firmware to Adafruit Feather M0 via command line (bossac)
+
+An Adafruit tutorial is [here](https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation).  Note that we need the 'arduino' branch of the bossac tool on github, which is version 1.7.X.
+
+```
+sudo bossac -p /dev/ttyACM0 -e -w -v -R firmware.bin
+```
+
+## Debugging the BME280 sensor
+
+Sensor not working on Walt's RAK.  Q: is it because of connection to Feather / problem with Feather, or is it because of some setting on the Gateway?
+
+Diagnostic:  some basic BME280 test code, non-LoRa -- just prints values out to serial port.  Wrote the binary, and then sent it to Walt's feather remotely -- and got back an error:
+
+<img src="/img/valedalama/bme_test.png">
