@@ -1,12 +1,18 @@
-# mosspig-posts
+# edge-blog 
 
-## compile
+Uses [eleventy.js](https://www.11ty.dev/) to generate a static blog site. Markdown files and images are compiled into html using templates and CSS, and a ready-serve website is placed in the '_site' folder. 
 
-eleventy
+## install
 
-(results in _site)
+npm install
 
-## serve
+(missing a css module I think; need to add that to package.json I think?)
 
-eleventy --serve
-      
+## compile and serve up page
+
+./serve.sh
+
+## deploy online
+
+./deploy.sh
+ 
