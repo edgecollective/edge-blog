@@ -2,7 +2,7 @@
 pageTitle: Valedalama 
 layout: layout.njk
 date: 2020-04-13
-updated: 2020-04-13
+updated: 2020-05-09
 image: /img/valedalama/cover.JPG
 blurb: Farm monitoring infrastructure in Portugal 
 ---
@@ -147,3 +147,38 @@ Sensor not working on Walt's RAK.  Q: is it because of connection to Feather / p
 Diagnostic:  some basic BME280 test code, non-LoRa -- just prints values out to serial port.  Wrote the binary, and then sent it to Walt's feather remotely -- and got back an error:
 
 <img src="/img/valedalama/bme_test.png">
+
+------
+*09 May 2020*
+
+## BME280 Node Fixed
+
+Walt was able to fix the BME280 node by re-soldering nad re-wiring:
+
+<img src="/img/valedalama/success_bme280.png">
+</br>
+</br>
+
+## Local Sqlite database on USB
+
+We've been able to get a local sqlite database up and running now, stored on a USB flash drive on the RAK:
+
+<img src="/img/valedalama/local_first_iteration_1.png">
+</br>
+</br>
+<img src="/img/valedalama/local_first_iteration_1_rak.png">
+</br>
+</br>
+<img src="/img/valedalama/local_first_node_red.png">
+</br>
+</br>
+
+## Human-readable date format
+
+And we added a field to the database that provides a human-readable date.
+
+<img src="/img/valedalama/human_readable_date.png">
+</br>
+</br>
+
+
