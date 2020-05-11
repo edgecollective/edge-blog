@@ -1,10 +1,10 @@
 ---
-pageTitle: Colorado -- Soil Moisture Monitoring
+pageTitle: Soil Monitoring System in Olathe, Colorado (USA)
 layout: layout.njk
 date: 2020-03-22
-updated: 2020-03-22
+updated: 2020-05-11
 image: /img/harold/feather_milled.JPG
-blurb: Capturing data from SDI-12 Soil Moisture sensors, using a DIY LoRa network.
+blurb: Developing a Free and Open Source LoRa-based system (softwarre, hardware); prototyping a remote node for caputring relaying data from an SDI-12 - based soil moisture sensor. 
 ---
 
 Topics covered below:
@@ -306,4 +306,13 @@ To figure this out, there is some math to be done about the relative phases, and
 Hit snag with dhcpcd.conf file -- the version that RAK OS provides is intended, it seems, to provide a static IP address / WAP / etc when connected to eth0. Solution seems to be to comment out all of the last 5-ish lines in the /etc/dhcpcd.conf
 
 TODO: remove the 'zoom' controls from the EC Acclima online display ...
+
+(Update: was able to do this. But ultimately switched over to ChartsJS for now, see below).
+
+---------
+*May 11, 2020*
+
+Couldn't quickly figure out odd dropped points bug when using Plotlyjs (should file a bug report?); switched over to Charts.js:
+
+<img src="/img/harold/chartjs_upgrade.png">
  

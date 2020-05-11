@@ -1,10 +1,10 @@
 ---
-pageTitle: Nebraska -- Soil Moisture Monitoring
+pageTitle: Soil Monitoring System in Mead, Nebraska (USA)
 layout: layout.njk
 date: 2019-07-25
 updated: 2019-07-25
 image: /img/field_1/cell_kit.JPG
-blurb: Baseline soil measurements around tree planting sites, using wifi, LoRa, and the cellular network.
+blurb: Developing a system for capturing soil moisture measurements from a remote field site, using wifi, LoRa, and cellular communications.  
 ---
 
 -----

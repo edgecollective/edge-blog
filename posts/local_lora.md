@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-05-02
 updated: 2020-05-02
 image: img/local_first_lora/local_first_snap.png
-blurb: Designing and implementing a 'local first' approach to LoRa networks for farming.
+blurb: Developing a design for a 'local first' approach to farm networking.
 ---
 
 
