@@ -1,5 +1,5 @@
 ---
-pageTitle: The FloodSense Project
+pageTitle: NOLA Flotilla -- The FloodSense Project
 layout: layout.njk
 ---
 
@@ -9,7 +9,7 @@ layout: layout.njk
 
 ## Overview
 
-**FloodSense**  is an ongoing collaboration with **NOLA Flotilla**, an emerging organization in New Olreans focused on local resilience and adaptation. Below is a description of the initial framing and orientation of the goals of the **FloodSense** Project.
+**FloodSense**  is an emerging Edge Collective collaboration with **NOLA Flotilla**, an organization in New Olreans focused on local resilience and adaptation. Below is a description of the initial framing and orientation of the goals of the **FloodSense** Project.
 
 The core objective of **FloodSense** is to provide free and accessible water level data to the general public. Creating and installing this system of flood sensor nodes will be done in collaboration with the communities of New Orleans in which these sensor networks will reside.
 
