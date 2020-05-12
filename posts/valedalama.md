@@ -7,7 +7,11 @@ image: /img/valedalama/cover.JPG
 blurb: Prototyping a LoRa- and wifi-based system for Soil moisture and temperature, as well as ambient temperature humidty and soil temperture inside a greenhouse.
 ---
 
-Highlights:
+## Overview
+
+All of this research and prototyping is occurring at [Quinta Vale Da Lama](https://www.valedalama.net/en/).
+
+## Highlights
 
 -  [Wiring a BME280 to a Feather](#bme280_wiring)
 

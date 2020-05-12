@@ -13,6 +13,10 @@ layout: layout.njk
 
 The core objective of **FloodSense** is to provide free and accessible water level data to the general public. Creating and installing this system of flood sensor nodes will be done in collaboration with the communities of New Orleans in which these sensor networks will reside.
 
+## Online Resources
+
+Our prototype software and hardware designs will be posted at [https://github.com/edgecollective/flood-sense](https://github.com/edgecollective/flood-sense).
+
 ## Why?
 
 Like a brooding storm, the ecological issues looming over New Orleans are vast and reflect the numerous climate issues we are currently facing as a planet. The city is a microcosm of these ecological challenges. And water management is its top priority.
