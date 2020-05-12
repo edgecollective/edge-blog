@@ -7,7 +7,6 @@ image: img/local_first_lora/local_first_snap.png
 blurb: Developing a design for a 'local first' approach to farm networking.
 ---
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7oVNl8lRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The LoRa radio protocol has emerged in recent years as a long-range, low-power, inexpensive approach to capture sensor data.  Usually, farmers and resource managers have been deploying LoRa gateways that send their data directly to the cloud.  There are many cases, however, in which it is desirable to store data locally, on-site, before sending it the cloud via internet:  the site may not have a reliable internet connection;  the cloud-based database may be unreliable, or unavailable; or the user may be concerned about their data privacy.
