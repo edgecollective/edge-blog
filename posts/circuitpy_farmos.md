@@ -1,5 +1,5 @@
 ---
-pageTitle: Circuitpython Demo, Remote -- Gateway -- FarmOS
+pageTitle: Using Circuitpython to send data to FarmOS
 layout: layout.njk
 date: 2020-05-16
 updated: 2020-05-16
