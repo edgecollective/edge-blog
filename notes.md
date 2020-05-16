@@ -4,6 +4,15 @@ layout: layout.njk
 ---
 
 ----
+16 May 2020
+
+Rationale ...
+
+- tech sovereignty -- local, distributed
+
+
+
+----
 12 May 2020
 
 ## Wolfesneck
