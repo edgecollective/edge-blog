@@ -1,5 +1,5 @@
 ---
-pageTitle: Misc Notes 
+pageTitle: EC Notes 
 layout: layout.njk
 ---
 

@@ -315,4 +315,11 @@ TODO: remove the 'zoom' controls from the EC Acclima online display ...
 Couldn't quickly figure out odd dropped points bug when using Plotlyjs (should file a bug report?); switched over to Charts.js:
 
 <img src="/img/harold/chartjs_upgrade.png">
- 
+
+----------
+
+*May 16, 2020*
+
+Acclima node now reading a higher VWC:
+
+<img src="/img/harold/vwc_spike_may_16_2020.png">
