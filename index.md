@@ -11,28 +11,35 @@ layout: front.njk
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 <p>::: collaborate @ edgecollective.io :::</p>
 
-<h2> What we do </h2>
+----
+
+<h2> What we do ...</h2>
 
 <p>Our mission is to help people gain <b>greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>. </p>
 
 <p>We do this by: <p>
 
 <ul>
-        <li><b>Developing free, open designs</b> -- software, hardware, mechanical</li>
-        <li><b>Retro-fitting / repairing / enhancing</b> existing infrastructure (e.g. resurrecting bricked 'smart greenhouse' vent motors)</li>
-        <li><b>Teaching and training</b> (videos, online documentation, in-person workshops)</li>
+        <li>Developing free, open designs -- software, hardware, mechanical</li>
+        <li>Retro-fitting / repairing / enhancing existing infrastructure (e.g. resurrecting bricked 'smart greenhouse' vent motors)</li>
+        <li>Teaching and training (videos, online documentation, in-person workshops)</li>
 
 </ul>
 
 <p> Recently, we've focused on:</p> 
 
 <ul>
-	<li><b>Off-grid farming</b> (e.g. monitoring soil moisture, greenhouse temperature)</li>
-	<li><b>Flooding alerts</b> for cities, towns, or boating (sent via email / sms / satellite modem)</li>
-	<li><b>Salinity monitoring</b> for salt contamination of freshwater sources</li>
+	<li>Off-grid farming (e.g. monitoring soil moisture, greenhouse temperature)</li>
+	<li>Flooding alerts for cities, towns, or boating (sent via email / sms / satellite modem)</li>
+	<li>Salinity monitoring for salt contamination of freshwater sources</li>
 </ul>
 
-<h2> Work with us </h2>
+<h2> Designs, Software, Hardware ... </h2>
+
+You can find all of our code and hardware designs online [here](https://github.com/edgecollective).
+
+
+<h2> Let's Work Together!</h2>
 
 <p>We're able to develop and disseminate our designs and documentation to everyone free-of-charge because of contributions (both collaborative work, and monetary!) from folks like you.</p>
 
@@ -49,6 +56,7 @@ layout: front.njk
 </ul>
 -->
 
+-----
 
 <h2> Research & Projects </h2>
 <div class="posts-area">
