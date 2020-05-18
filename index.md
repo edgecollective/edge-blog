@@ -34,7 +34,7 @@ layout: front.njk
 	<li>Salinity monitoring for salt contamination of freshwater sources</li>
 </ul>
 
-<h2> Designs, Software, Hardware ... </h2>
+<h2> Designs, Workshops, Software, Hardware ... </h2>
 
 You can find all of our code and hardware designs online [here](https://github.com/edgecollective).
 
