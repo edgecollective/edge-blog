@@ -9,6 +9,8 @@ blurb: Collaborating on the FloodSense project with NOLAFlotilla.
 
 <img src="/img/nola/gateway_option_a.png">
 
+## Prototyping
+
 <img src="/img/nola/enclosure.jpeg">
 
 <img src="/img/nola/circuitpytest.jpeg">
@@ -22,6 +24,10 @@ blurb: Collaborating on the FloodSense project with NOLAFlotilla.
 <img src="/img/nola/proto1.jpeg">
 
 <img src="/img/nola/proto1b.jpeg">
+
+## Gateway options 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oT0rrirHWP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
