@@ -6,43 +6,47 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-<p><b> Technological sovereignty for communities living at ‘the edge’</b> </p>
+> "Technological **sovereignty** and **solidarity** for communities living at ‘the edge'". 
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
-<p>::: collaborate @ edgecollective.io :::</p>
+> **collaborate @ edgecollective.io**
 
-----
+
+<h2> Who we are ... </h2>
+
+We're a distributed research, development, support and training cooperative that works to help folks develop greater 'tech sovereignty and solidarity'. 
+
+Our mission is to help people gain <b>greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>.
+
 
 <h2> What we do ...</h2>
 
-<p>Our mission is to help people gain <b>greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>. </p>
-
-<p>We do this by: <p>
+We work to accomplish our mission by:
 
 <ul>
         <li>Developing free, open designs -- software, hardware, mechanical</li>
-        <li>Retro-fitting / repairing / enhancing existing infrastructure (e.g. resurrecting bricked 'smart greenhouse' vent motors)</li>
-        <li>Teaching and training (videos, online documentation, in-person workshops)</li>
+        <li>Retro-fitting / repairing / enhancing existing infrastructure </li>
+        <li>Offering workshops, teaching and training (videos, online documentation, remote or in-person meet-ups)</li>
 
 </ul>
 
-<p> Recently, we've focused on:</p> 
+<p> Recently we've been focused on:</p> 
 
 <ul>
-	<li>Off-grid farming (e.g. monitoring soil moisture, greenhouse temperature)</li>
-	<li>Flooding alerts for cities, towns, or boating (sent via email / sms / satellite modem)</li>
-	<li>Salinity monitoring for salt contamination of freshwater sources</li>
+	<li>Off-grid farming -- monitoring soil moisture, greenhouse temperature)</li>
+	<li>Flood mitigation -- designing flood alert systems for coastal or urban municipalities (sent via email / sms / satellite modem);</li>
+	<li>Water quality -- salinity monitoring to mitigate saltwater contamination of freshwater sources, and to support oceanographic research;</li>
+  <li>Conservation ecology -- assessing the impact of climate change on various vulnerable species (e.g. diamond back terrapins)</li>
 </ul>
 
-<h2> Designs, Workshops, Software, Hardware ... </h2>
+<h2> Designs, Projects, Workshops, Software, Hardware ... </h2>
 
-You can find all of our code and hardware designs online [here](https://github.com/edgecollective).
+You can find all of our code and hardware designs online [here](https://github.com/edgecollective). (Not all of it is very well-documented -- sorry, we're working on it :))
 
 
-<h2> Let's Work Together!</h2>
+<h2>Let's Work Together!</h2>
 
-<p>We're able to develop and disseminate our designs and documentation to everyone free-of-charge because of contributions (both collaborative work, and monetary!) from folks like you.</p>
-
+We are dedicated to creating opportunities for developing and sharing useful knowledge & helping others to do the same. We'd love to hear from you!
 <!--- If you'd like to help provide funding, you can <a href="/support">click here</a> to support our work. Thank you! -->
 - If you'd like to collaborate on a project, or would like us to design or build something for you, drop us a line at **collaborate@edgecollective.io**.
 - If you'd like to help provide funding, you can use our <a href="/support">Open Collective</a> account. Thank you!
@@ -58,7 +62,7 @@ You can find all of our code and hardware designs online [here](https://github.c
 
 -----
 
-<h2> Research & Projects </h2>
+<h2> Current Projects</h2>
 <div class="posts-area">
 {% for post in collections.posts %}
   <div class="post">

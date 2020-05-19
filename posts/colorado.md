@@ -335,3 +335,4 @@ Added RSSI to new Acclima graph display; increased span of datapoints:
 Note battery level -- we might last longer than original slope indicated, due to 's-shape' of AA-discharge curves ...
 
 <img src="/img/harold/aa_discharge_curve.png">
+
