@@ -14,10 +14,9 @@ layout: front.njk
 
 <h2> Who we are ... </h2>
 
-We're a distributed research, development, support and training cooperative that works to help folks develop greater 'tech sovereignty and solidarity'. 
+We're a distributed research / development / support / training cooperative that has been working with individuals and communities to build the capacity of their vital <b>food, water, energy, and communications infrastructure</b> so that they can better adapt to a rapidly changing, stochastic environment (both climate and economic).  
 
-Our mission is to help people gain <b>greater control</b> over their vital <b>food, water, energy, and communications infrastructure</b>.
-
+Our collective shares a dedication to increasing **local sovereignty** (autonomy, control) while also promoting **global solidarity** (collaboration, mutual aid).  
 
 <h2> What we do ...</h2>
 
