@@ -323,3 +323,15 @@ Couldn't quickly figure out odd dropped points bug when using Plotlyjs (should f
 Acclima node now reading a higher VWC:
 
 <img src="/img/harold/vwc_spike_may_16_2020.png">
+
+--------
+
+*May 19, 2020*
+
+Added RSSI to new Acclima graph display; increased span of datapoints:
+
+<img src="/img/harold/acclima_update_2020_05_19.png">
+
+Note battery level -- we might last longer than original slope indicated, due to 's-shape' of AA-discharge curves ...
+
+<img src="/img/harold/aa_discharge_curve.png">
