@@ -3,7 +3,7 @@ pageTitle: Soil Monitoring System in Olathe, Colorado (USA)
 layout: layout.njk
 date: 2020-03-22
 updated: 2020-05-11
-image: /img/harold/feather_milled.JPG
+image: /img/harold/fields.jpg
 blurb: Developing a Free and Open Source LoRa-based system (softwarre, hardware); prototyping a remote node for caputring relaying data from an SDI-12 - based soil moisture sensor. 
 ---
 
