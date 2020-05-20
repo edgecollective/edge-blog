@@ -78,6 +78,6 @@ The Quahog version 0.1 schematic is [here](/img/quahog/hog32a.pdf); you can find
 <img src="/img/quahog/board1.JPG" width=30%>
 
  
-More [pics](sldkjf) of the Quahog.
+More [pics](https://edgecollective.io/quahog_pics.html) of the Quahog.
 
 
