@@ -7,7 +7,7 @@ layout: layout.njk
 
 Contact:  collaborate @ edgecollective.io
 
-Hi!  Welcome to our page for the **Quahog**, a ruggedized,  microcontroller intended for use on farms for monitoring important assets remotely:  the temperature of a greenhouse (on- or off-grid), the temperature of a freezer, soil moisture in the field, water level, etc.
+Hello!  Welcome to our page for the **Quahog**, a ruggedized,  microcontroller intended for use on farms for monitoring important assets remotely:  the temperature of a greenhouse (on- or off-grid), the temperature of a freezer, soil moisture in the field, water level, etc.
 
 ---
 
