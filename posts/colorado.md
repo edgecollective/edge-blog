@@ -336,3 +336,13 @@ Note battery level -- we might last longer than original slope indicated, due to
 
 <img src="/img/harold/aa_discharge_curve.png">
 
+---------
+*May 20, 2020*
+
+Testing another antenna on the remote node:
+
+<img src="/img/harold/node_antenna_test.jpeg">
+
+Checking to see whether David's Rak's NodeRed is piping data to Kelly's AWS NodeRed -- indeed it should be (ignore "no response from server" msg):
+
+<img src="/img/harold/david_nodered.png">
