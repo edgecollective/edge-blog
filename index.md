@@ -14,9 +14,9 @@ layout: front.njk
 
 <h2> Who we are ... </h2>
 
-We're a distributed research / development / support / training cooperative that has been working with individuals and communities to build the capacity of their vital <b>food, water, energy, and communications infrastructure</b> so that they can better adapt to a rapidly changing, stochastic environment (both climate and economic).  
+We're a distributed R&D, teaching, and training cooperative working to help individuals and communities increase the capacity of their vital <b>food, water, energy, and communications infrastructure</b> to adapt to changing environmental conditions. 
 
-Our collective shares a dedication to increasing **local sovereignty** (autonomy, control) while also promoting **global solidarity** (collaboration, mutual aid).  
+We share a dedication to increasing **local sovereignty** (autonomy, control) while also promoting **global solidarity** (collaboration, mutual aid).  
 
 <h2> What we do ...</h2>
 
