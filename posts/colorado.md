@@ -346,3 +346,7 @@ Testing another antenna on the remote node:
 Checking to see whether David's Rak's NodeRed is piping data to Kelly's AWS NodeRed -- indeed it should be (ignore "no response from server" msg):
 
 <img src="/img/harold/david_nodered.png">
+
+Looks like antenna switch resulted in signal drop.  Also note that times on graph are in Mountain Time, not EST:
+
+<img src="/img/harold/latest_hours_acclima.png">
