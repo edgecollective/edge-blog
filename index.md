@@ -81,3 +81,6 @@ We are dedicated to creating opportunities for developing and sharing useful kno
 {% endfor %}
 </div>
 
+-----
+
+Edge Collective logo is based on Mike Bostock's ['Radial Dendrogram' visualization](https://observablehq.com/@d3/radial-dendrogram).
