@@ -2,7 +2,7 @@
 layout: front.njk
 ---
 
-<img src="/img/edge_logo.png" id="profile_pic"/>
+<img src="/img/ec_flower_logo_small_color.png" id="profile_pic"/>
 
 <h1> Edge Collective </h1>
 
