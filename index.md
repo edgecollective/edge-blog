@@ -61,7 +61,7 @@ We are dedicated to creating opportunities for developing and sharing useful kno
 
 -----
 
-<h2> Current Projects</h2>
+<h2> Notes on Current Projects:</h2>
 <div class="posts-area">
 {% for post in collections.posts %}
   <div class="post">
