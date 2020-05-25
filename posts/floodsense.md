@@ -51,5 +51,7 @@ Using the demo repo [here](https://github.com/edgecollective/flood-sense/tree/ma
 
 <img src="/img/nola/pinout.jpeg"></br>
 
-<img src="/img/nola/floodsense_farmos_data.png">
+<img src="/img/nola/floodsense_farmos_data.png"></br>
+
+<img src="/img/nola/floodsense_farmos_distance_data.png"></br>
 

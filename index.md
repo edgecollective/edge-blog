@@ -2,14 +2,19 @@
 layout: front.njk
 ---
 
-<img src="/img/edge_flower_tiny.png" id="profile_pic"/>
+<!--<img src="/img/edge_flower_tiny.png" id="profile_pic"/>-->
+
+<img src="/img/edge_flower_small.png">
+
+
 
 <h1> Edge Collective </h1>
 
-> "Technological **sovereignty** and **solidarity** for communities living at ‘the edge'". 
+"Technological **sovereignty** and **solidarity** for communities living at ‘the edge'". 
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
-> **collaborate @ edgecollective.io**
+
+> --> We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io**
 
 
 <h2> Who we are ... </h2>
