@@ -2,11 +2,9 @@
 layout: front.njk
 ---
 
-<!--<img src="/img/edge_flower_tiny.png" id="profile_pic"/>-->
+<!--<img src="/img/edge_medium.png" id="profile_pic"/>-->
 
-<img src="/img/edge_flower_small.png">
-
-
+<img src="/img/edge_flower_medium.png">
 
 <h1> Edge Collective </h1>
 
@@ -15,7 +13,6 @@ layout: front.njk
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
 > --> We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io**
-
 
 <h2> Who we are ... </h2>
 
