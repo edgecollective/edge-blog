@@ -38,5 +38,9 @@ blurb: Collaborating on the FloodSense project with NOLAFlotilla.
 
 <img src="/img/nola/itsy_power.png">
 
+## Posting to FarmOS using CircuitPython
 
+Using the demo repo [here](https://github.com/edgecollective/flood-sense/tree/master/circuitpython/remote_and_gateway_demo), which provides code for a remote Itsy M4 LoRa node, and an Itsy M4 + Airlift (Wifi) + Lora gateway:
+
+<img src="/img/nola/floodsense_farmos_data.png">
 
