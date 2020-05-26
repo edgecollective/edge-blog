@@ -12,7 +12,7 @@ layout: front.njk
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
-> --> We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io**
+---->   We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io** <----
 
 <h2> Who we are ... </h2>
 
