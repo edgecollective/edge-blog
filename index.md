@@ -8,24 +8,24 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-"Technological **sovereignty** and **solidarity** for communities living at ‘the edge'". 
+> Climate-adaptive infrastructure for communities living at ‘the edge' -- including rural and off-grid farms, urban areas vulnerable to flooding, and island communities.
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
----->   We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io** <----
+> We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io**
 
 <h2> Who we are ... </h2>
 
 We're a distributed R&D, teaching, and training cooperative working to help individuals and communities increase the capacity of their vital <b>food, water, energy, and communications infrastructure</b> to adapt to changing environmental conditions. 
 
-We share a dedication to increasing **local sovereignty** (autonomy, control) while also promoting **global solidarity** (collaboration, mutual aid).  
+More broadly, our work aims to enhance **local technological sovereignty** (autonomy, control) while also promoting **global technological solidarity** (collaboration, mutual aid).  
 
 <h2> What we do ...</h2>
 
 We work to accomplish our mission by:
 
 <ul>
-        <li>Developing free, open designs -- software, hardware, mechanical</li>
+        <li>Developing <b>free and open source</b> designs -- software, hardware, mechanical</li>
         <li>Retro-fitting / repairing / enhancing existing infrastructure </li>
         <li>Offering workshops, teaching and training (videos, online documentation, remote or in-person meet-ups)</li>
 

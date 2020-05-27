@@ -41,6 +41,8 @@ blurb: Collaborating on the FloodSense project with NOLAFlotilla.
 
 ## Ultrasonic PVC Pipe Floater Prototype
 
+<img src="/img/nola/pvc_design.png"></br>
+
 <img src="/img/nola/pipe.jpeg"></br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0kGw_RZJFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br>
