@@ -14,6 +14,8 @@ blurb: Setting up a LoRa- and WiFi- based greenhouse monitoring system.
 
 ## Relay prototype
 
+Repository for the relay prototype is [here](https://github.com/edgecollective/wnf-greenhouse/tree/master/hardware/relay).  Some pictures:
+
 <img src="/img/wnf/relay_schem.png">
 
 <img src="/img/wnf/relay_board.png">
@@ -21,3 +23,5 @@ blurb: Setting up a LoRa- and WiFi- based greenhouse monitoring system.
 <img src="/img/wnf/relay_3d.png">
 
 <img src="/img/wnf/relay_3d_back.png">
+
+<img src="/img/wnf/farmos_data.png">
