@@ -63,6 +63,11 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 ![Cable wrapped](/img/harold/cable_wrapped.png#caption)
 *Low-loss signal cable.*
 
+
+| ![Cable wrapped](/img/harold/cable_wrapped.png#caption) |
+|:--:|
+|Low-loss signal cable.|
+
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
 <div class='img-with-caption'>
