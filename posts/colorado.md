@@ -37,6 +37,9 @@ If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.
 
 <div class='img-with-caption'>
 <a href="/img/harold/taoglas_radiation.png"><img src="/img/harold/taoglas_radiation.png" ></a>
+
+Signal amplification in the horizontal plane.
+
 </div>
 
 ## Mounting the antenna
@@ -45,6 +48,8 @@ Nootropic Design has a [nice short article](https://nootropicdesign.com/projectl
 
 <div class='img-with-caption'>
 <a href="/img/harold/antenna_sm.jpg"><img src="/img/harold/antenna_sm.jpg" ></a>
+
+Example outdoor antenna mounting.
 
 </div>
 
@@ -62,12 +67,17 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 <div class='img-with-caption'>
 <a href="/img/harold/cable_wrapped.png"><img src="/img/harold/cable_wrapped.png" ></a>
 
+Low-loss signal cable.
+
 </div>
 
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
 <div class='img-with-caption'>
 <a href="/img/harold/cable_loss.png"><img src="/img/harold/cable_loss.png" ></a>
+
+Example of calculated values for signal loss in a particular cable.
+
 </div>
 
 (Note: a general reference for signal loss per foot through various cable types at various frequences can be found [here](https://www.w4rp.com/ref/coax.html)).
@@ -81,6 +91,9 @@ I believe that this loss can simply be subtracted from whatever RSSI value we wo
 
 <div class='img-with-caption'>
 <a href="/img/harold/tp-link.png"><img src="/img/harold/tp-link.png" ></a>
+
+Example of a WiFi extender -- the TP-Link AC1750.
+
 </div>
 
 Even if we use a cable, we will still need to connect the gateway to the wifi network, and this may require extending its range with a WiFi range extender.  
@@ -95,14 +108,26 @@ If we do opt to place the gateway outdoords, many options here could work for ho
 
 <div class='img-with-caption'>
 <a href="/img/harold/gateway_outdoors.jpeg"><img src="/img/harold/gateway_outdoors.jpeg" ></a>
+
+An outdoor LoRa gateway.
 </div>
 
 Otherwise, there are quite standard enclosures to be found online, with hinges, like this one used by [Nootropic Design](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/):
 
+<div class='img-with-caption'>
+
 <a href="/img/harold/baseStation1_lg.jpg"><img src="/img/harold/baseStation1_lg.jpg" ></a>
 
+Another outdoor LoRa gateway.
+
+</div>
+
+<div class='img-with-caption'>
 <a href="/img/harold/pi_outdoors.jpg"><img src="/img/harold/pi_outdoors.jpg" ></a>
 
+The RAK inside the above enclosure. 
+
+</div>
 
 ## Overall Recommendations
 
