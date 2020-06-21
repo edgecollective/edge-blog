@@ -102,12 +102,11 @@ I believe that this loss can simply be subtracted from whatever RSSI value we wo
 
 ## WiFi Extension Options
 
-<div class='img-with-caption'>
-<a href="/img/harold/tp-link.png"><img src="/img/harold/tp-link.png" ></a>
 
-Example of a WiFi extender -- the TP-Link AC1750.
+| ![tp link](/img/harold/tp-link.png) |
+|:--:|
+|TP-Link: an example of a Wifi Extender.|
 
-</div>
 
 Even if we use a cable, we will still need to connect the gateway to the wifi network, and this may require extending its range with a WiFi range extender.  
 
@@ -119,11 +118,9 @@ Two options that seemed to be promising were:
 
 If we do opt to place the gateway outdoords, many options here could work for housing the gateway outdoors.  If wind is a concern, a round PVC pipe might be a good option, as in this design from the Things network:
 
-<div class='img-with-caption'>
-<a href="/img/harold/gateway_outdoors.jpeg"><img src="/img/harold/gateway_outdoors.jpeg" ></a>
-
-An outdoor LoRa gateway.
-</div>
+| ![Outdoor gateway](/img/harold/gateway_outdoors.jpeg)|
+|:--:|
+|An outdoor LoRa gateway.|
 
 Otherwise, there are quite standard enclosures to be found online, with hinges, like this one used by [Nootropic Design](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/):
 
