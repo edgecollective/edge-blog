@@ -42,16 +42,16 @@ Signal amplification in the horizontal plane.
 
 </div>
 
+![Taoglas Radiation](/img/harold/taoglas_radiation.png#caption)
+*Signal amplification in the horizontal plane.*
+
+
 ## Mounting the antenna
 
 Nootropic Design has a [nice short article](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/)  describing their deployment of a RAK gateway outdoors. We can ignore the GPS antenna;  this might be a cheap option for getting the fiberglass antenna mounted as high as possible.
 
-<div class='img-with-caption'>
-<a href="/img/harold/antenna_sm.jpg"><img src="/img/harold/antenna_sm.jpg" ></a>
-
-Example outdoor antenna mounting.
-
-</div>
+![Example Mounting](/img/harold/antenna_sm.jpg#caption)
+*Example outdoor antenna mounting.*
 
 ## Cable options
 
