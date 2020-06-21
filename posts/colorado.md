@@ -36,8 +36,9 @@ The above leads me to think that our $50 [Sparkfun LoRa Fiberglass Antenna](http
 If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.B08F21](https://www.digikey.com/product-detail/en/taoglas-limited/OMB-915-B08F21/931-1519-ND/8275277), for $161. The datasheet indicates that it is still a fairly uniform / 'omni' antenna (which leads me to believe that our 5 dBi antenna, for which we don't have a datasheet, is likely even more uniform):
 
 
-![Taoglas Radiation](/img/harold/taoglas_radiation.png#caption)
-*Signal amplification in the horizontal plane.*
+| ![Taoglas Radiation](/img/harold/taoglas_radiation.png) |
+|:--:|
+|Signal amplification in the horizontal plane.|
 
 
 
@@ -46,8 +47,9 @@ If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.
 
 Nootropic Design has a [nice short article](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/)  describing their deployment of a RAK gateway outdoors. We can ignore the GPS antenna;  this might be a cheap option for getting the fiberglass antenna mounted as high as possible.
 
-![Example Mounting](/img/harold/antenna_sm.jpg#caption)
-*Example outdoor antenna mounting.*
+| ![Example Mounting](/img/harold/antenna_sm.jpg#caption) |
+|:--:|
+|Example outdoor antenna mounting.|
 
 ## Cable options
 
@@ -59,6 +61,7 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 - [36 feet](https://www.amazon.com/Low-Loss-Coax-Extension-Cable-Ohm/dp/B07RLJ25GW/ref=sr_1_22?keywords=sma%2Bcable%2Bextender&qid=1584733047&s=electronics&sr=1-22&th=1) ($67) -- 1.6 dBi loss (Note:  are this and the previous figures swapped in the table above?)
 - [50 feet](https://www.amazon.com/Low-Loss-Coax-Extension-Cable-Ohm/dp/B013CY0IRU/ref=sr_1_22?keywords=sma+cable+extender&qid=1584733047&s=electronics&sr=1-22) ($86) -- 2.2 dBi loss
 
+<!--
 
 ![Cable wrapped](/img/harold/cable_wrapped.png#caption)
 *Low-loss signal cable.*
@@ -67,15 +70,28 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 | ![Cable wrapped](/img/harold/cable_wrapped.png#caption) |
 |:--:|
 |Low-loss signal cable.|
+-->
+
+
+| ![Cable wrapped](/img/harold/cable_wrapped.png) |
+|:--:|
+|Low-loss signal cable.|
+
 
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
+<!--
 <div class='img-with-caption'>
 <a href="/img/harold/cable_loss.png"><img src="/img/harold/cable_loss.png" ></a>
 
 Example of calculated values for signal loss in a particular cable.
 
 </div>
+-->
+
+| ![Calculated](/img/harold/cable_loss.png) | 
+|:--:|
+|Example of calculated values for signal loss in a particular cable.|
 
 (Note: a general reference for signal loss per foot through various cable types at various frequences can be found [here](https://www.w4rp.com/ref/coax.html)).
 

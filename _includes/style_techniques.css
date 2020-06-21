@@ -114,9 +114,30 @@ img {
    
 }
 
+img[src*="#caption"] {
+max-height: 500px;
+max-width: 100%;
+margin: 20 auto 10 auto;
+background-color:F1F1F1;
+padding: 10px;
+display: block;
+ }
+
+ img[src*="#caption"] + em {
+    #max-height: 500px;
+    #max-width: 100%;
+ #margin: 20 0;
+ #background-color:F1F1F1;
+ #padding: 10px;
+ display: block;
+    font-size:14px;
+    text-align:center;
+    margin-bottom: 30;
+ }
+
 table {
     background-color: F1F1F1;
-    margin: 30 auto 30 auto;
+    margin: 20 auto 10 auto;
 }
 
 td { 
