@@ -4,6 +4,7 @@ layout: front.njk
 
 <!--<img src="/img/edge_medium.png" id="profile_pic"/>-->
 
+<div id='intro'>
 <img src="/img/edge_flower_medium.png">
 
 <h1> Edge Collective </h1>
@@ -60,6 +61,8 @@ We are dedicated to creating opportunities for developing and sharing useful kno
 	<li><b>Full-time developer</b> -- $3,000 per month</li>
 </ul>
 -->
+
+</div>
 
 -----
 

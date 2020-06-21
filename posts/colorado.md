@@ -35,14 +35,18 @@ The above leads me to think that our $50 [Sparkfun LoRa Fiberglass Antenna](http
 
 If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.B08F21](https://www.digikey.com/product-detail/en/taoglas-limited/OMB-915-B08F21/931-1519-ND/8275277), for $161. The datasheet indicates that it is still a fairly uniform / 'omni' antenna (which leads me to believe that our 5 dBi antenna, for which we don't have a datasheet, is likely even more uniform):
 
+<div class='img-with-caption'>
 <a href="/img/harold/taoglas_radiation.png"><img src="/img/harold/taoglas_radiation.png" ></a>
+</div>
 
 ## Mounting the antenna
 
 Nootropic Design has a [nice short article](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/)  describing their deployment of a RAK gateway outdoors. We can ignore the GPS antenna;  this might be a cheap option for getting the fiberglass antenna mounted as high as possible.
 
+<div class='img-with-caption'>
 <a href="/img/harold/antenna_sm.jpg"><img src="/img/harold/antenna_sm.jpg" ></a>
 
+</div>
 
 ## Cable options
 
@@ -55,11 +59,16 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 - [50 feet](https://www.amazon.com/Low-Loss-Coax-Extension-Cable-Ohm/dp/B013CY0IRU/ref=sr_1_22?keywords=sma+cable+extender&qid=1584733047&s=electronics&sr=1-22) ($86) -- 2.2 dBi loss
 
 
+<div class='img-with-caption'>
 <a href="/img/harold/cable_wrapped.png"><img src="/img/harold/cable_wrapped.png" ></a>
+
+</div>
 
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
+<div class='img-with-caption'>
 <a href="/img/harold/cable_loss.png"><img src="/img/harold/cable_loss.png" ></a>
+</div>
 
 (Note: a general reference for signal loss per foot through various cable types at various frequences can be found [here](https://www.w4rp.com/ref/coax.html)).
 
@@ -70,7 +79,9 @@ I believe that this loss can simply be subtracted from whatever RSSI value we wo
 
 ## WiFi Extension Options
 
+<div class='img-with-caption'>
 <a href="/img/harold/tp-link.png"><img src="/img/harold/tp-link.png" ></a>
+</div>
 
 Even if we use a cable, we will still need to connect the gateway to the wifi network, and this may require extending its range with a WiFi range extender.  
 
@@ -82,7 +93,9 @@ Two options that seemed to be promising were:
 
 If we do opt to place the gateway outdoords, many options here could work for housing the gateway outdoors.  If wind is a concern, a round PVC pipe might be a good option, as in this design from the Things network:
 
+<div class='img-with-caption'>
 <a href="/img/harold/gateway_outdoors.jpeg"><img src="/img/harold/gateway_outdoors.jpeg" ></a>
+</div>
 
 Otherwise, there are quite standard enclosures to be found online, with hinges, like this one used by [Nootropic Design](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/):
 
@@ -163,7 +176,9 @@ Recent range data collected by Patrick in Alamosa:
 
 **Overview of Fresnel Zones**:
 
+<div class='img-with-caption'>
 <img src="/img/harold/fresnel_overview.png">
+</div>
 
 In order to achieve longer ranges and try to get good signal, there are two main issues to consider when placing the antenna:
 - The first is the curvature of the earth -- this is relatively minor at short distances of course; but at a distance of 5 miles, you need the antenna to be at least 4 feet higher than the node to get line-of-sight -- assuming no other obstacles in between.
@@ -171,7 +186,9 @@ In order to achieve longer ranges and try to get good signal, there are two main
 
 [Nice post](https://ham.stackexchange.com/questions/12149/antenna-height-for-lorawan-gateway) on calculating line-of-sight horizon and Fresnel zone:
 
+<div class='img-with-caption'>
 <img src='/img/harold/horizon.png'>
+</div>
 
 [Fresnel Zone Tutorial on Youtube](https://www.youtube.com/watch?v=HWOivbJjw7s)  by Mobile Fish
 

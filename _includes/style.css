@@ -1,12 +1,26 @@
 body {
     font-family: ubuntu, sans-serif;
     margin: 10px;
-    #font-size: 1.1em;
-    width: 90%;
+    font-size: 15px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding-top: 15px
 }
+
+.img-with-caption {
+font-size:14px;
+text-align:center;
+margin: 20 0;
+background-color:F1F1F1;
+padding: 10px;
+}
+
+#intro,#post-content {
+max-width:800px;
+}
+
+
 
 #profile_pic {
  float:right;
@@ -23,9 +37,16 @@ h2 {
     margin-bottom: 1px;
 }
 h3 {
-    font-size:small;
+    font-size:medium;
     margin-bottom: 1px;
 }
+
+ul,ol {
+
+    max-width:650px;
+}
+
+
 
 a {
     text-decoration: none;
@@ -89,6 +110,7 @@ padding-top: 10px;
 
 img {
    max-height: 500px;
+   max-width: 100%;
 }
 
 

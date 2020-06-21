@@ -157,3 +157,22 @@ No graphs yet on server (very soon!) but can test to see whether new data is arr
 Here's a 'traffic accident and street flooding' app that is being used currently in NOLA -- they allow for users to report accidents or flooding:
 
 [Streetwise](http://streetwise.nola.gov/)
+
+## Version 3
+
+vl6180x Microlidar sensor from adafruit 
+
+Tutorial on using the sensor (with arduino code) [here](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/wiring-and-test)
+
+```
+{ batt: '3.680274',
+  dist: '0',
+  rssi: -25,
+  lux: '9.09',
+  status: '7' }
+```
+
+
+
+
+
