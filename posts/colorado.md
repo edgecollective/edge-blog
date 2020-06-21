@@ -35,15 +35,11 @@ The above leads me to think that our $50 [Sparkfun LoRa Fiberglass Antenna](http
 
 If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.B08F21](https://www.digikey.com/product-detail/en/taoglas-limited/OMB-915-B08F21/931-1519-ND/8275277), for $161. The datasheet indicates that it is still a fairly uniform / 'omni' antenna (which leads me to believe that our 5 dBi antenna, for which we don't have a datasheet, is likely even more uniform):
 
-<div class='img-with-caption'>
-<a href="/img/harold/taoglas_radiation.png"><img src="/img/harold/taoglas_radiation.png" ></a>
-
-Signal amplification in the horizontal plane.
-
-</div>
 
 ![Taoglas Radiation](/img/harold/taoglas_radiation.png#caption)
 *Signal amplification in the horizontal plane.*
+
+
 
 
 ## Mounting the antenna
@@ -64,12 +60,8 @@ If we need to use a long antenna extension cable, I've found some ["Proxicast" L
 - [50 feet](https://www.amazon.com/Low-Loss-Coax-Extension-Cable-Ohm/dp/B013CY0IRU/ref=sr_1_22?keywords=sma+cable+extender&qid=1584733047&s=electronics&sr=1-22) ($86) -- 2.2 dBi loss
 
 
-<div class='img-with-caption'>
-<a href="/img/harold/cable_wrapped.png"><img src="/img/harold/cable_wrapped.png" ></a>
-
-Low-loss signal cable.
-
-</div>
+![Cable wrapped](/img/harold/cable_wrapped.png#caption)
+*Low-loss signal cable.*
 
 The seller provides a chart with the "total signal loss" over the course of the cable: 
 
