@@ -45,7 +45,7 @@ We work to accomplish our mission by:
 
 <h2> Designs, Projects, Workshops, Software, Hardware ... </h2>
 
-You can find all of our code and hardware designs online [here](https://github.com/edgecollective). (Not all of it is very well-documented -- sorry, we're working on it :))
+You can find **all of our code and hardware designs** online [here](https://github.com/edgecollective). (Not all of it is very well-documented -- sorry, we're working on it :))
 
 
 <h2>Let's Work Together!</h2>
