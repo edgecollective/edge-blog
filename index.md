@@ -25,21 +25,19 @@ More broadly, our work aims to enhance **local technological sovereignty** (auto
 
 We work to accomplish our mission by:
 
-<ul>
-        <li>Developing <b>free and open source</b> designs -- software, hardware, mechanical</li>
-        <li>Retro-fitting / repairing / enhancing existing infrastructure </li>
-        <li>Offering workshops, teaching and training (videos, online documentation, remote or in-person meet-ups)</li>
 
-</ul>
+- Developing <b>free and open source</b> designs -- software, hardware, mechanical
+- **Retro-fitting** / repairing / enhancing existing infrastructure 
+- Offering **workshops**, teaching and training (videos, online documentation, remote or in-person meet-ups)
+
+
 
 <p> Recently we've been focused on:</p> 
 
-<ul>
-	<li>Off-grid farming -- monitoring soil moisture, greenhouse temperature)</li>
-	<li>Flood mitigation -- designing flood alert systems for coastal or urban municipalities (sent via email / sms / satellite modem);</li>
-	<li>Water quality -- salinity monitoring to mitigate saltwater contamination of freshwater sources, and to support oceanographic research;</li>
-  <li>Conservation ecology -- assessing the impact of climate change on various vulnerable species (e.g. diamond back terrapins)</li>
-</ul>
+- **Off-grid farming** -- monitoring soil moisture, greenhouse temperature)
+- **Flood mitigation** -- designing flood alert systems for coastal or urban municipalities (sent via email / sms / satellite modem);
+- **Water quality** -- salinity monitoring to mitigate saltwater contamination of freshwater sources, and to support oceanographic research;
+- **Conservation ecology** -- assessing the impact of climate change on various vulnerable species (e.g. diamond back terrapins)
 
 <h2> Designs, Projects, Workshops, Software, Hardware ... </h2>
 
@@ -57,8 +55,8 @@ We are dedicated to creating opportunities for developing and sharing useful kno
 <p>Funding goals: </p>
 
 <ul>
-	<li><b>Part-time developer</b> -- $3000 per month or less <b>CURRENT STATUS</b></li>
-	<li><b>Full-time developer</b> -- $3,000 per month</li>
+	<b>Part-time developer</b> -- $3000 per month or less <b>CURRENT STATUS</b>
+	<b>Full-time developer</b> -- $3,000 per month
 </ul>
 -->
 
