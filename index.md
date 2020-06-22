@@ -9,11 +9,15 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-> Climate-adaptive infrastructure for communities living at ‘the edge' -- including rural and off-grid farms, urban areas vulnerable to flooding, and island communities.
+| Climate-adaptive infrastructure for communities living at ‘the edge'. |
+|:--:|
+
+| We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io** | 
+|:--:|
+
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
-> We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io**
 
 <h2> Who we are ... </h2>
 
