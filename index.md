@@ -10,13 +10,13 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-*Climate-adaptive infrastructure for communities living at ‘the edge'.*
+**Please contact us at**: collaborate@edgecollective.io
 
-| We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io** | 
+| Climate-adaptive infrastructure for communities living at ‘the edge'. | 
 |:--:|
 
-
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
+
 
 
 <h2> Who we are ... </h2>
@@ -38,7 +38,7 @@ We work to accomplish our mission by:
 
 <p> Recently we've been focused on:</p> 
 
-- **Off-grid farming** -- monitoring soil moisture, greenhouse temperature)
+- **Off-grid farming** -- monitoring soil moisture, greenhouse temperature);
 - **Flood mitigation** -- designing flood alert systems for coastal or urban municipalities (sent via email / sms / satellite modem);
 - **Water quality** -- salinity monitoring to mitigate saltwater contamination of freshwater sources, and to support oceanographic research;
 - **Conservation ecology** -- assessing the impact of climate change on various vulnerable species (e.g. diamond back terrapins)

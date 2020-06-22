@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    #font-family: "Open Sans",sans-serif;
     #font-family: ubuntu, sans-serif;
     margin: 10px;
     #font-size: 15px;
@@ -8,7 +9,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 15px;
-    line-height:150%;
+    line-height:140%;
 }
 
 .img-with-caption {
