@@ -152,15 +152,22 @@ The RAK inside the above enclosure.
 
 ## <a name="lsn50">LSN50</a> Vegetronix
 
+
 [LSN50](https://www.dragino.com/products/lora-lorawan-end-node/item/128-lsn50.html)
 
 [User Manual + Case Study](https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.6.3.pdf)
 
 [AT Commands](https://www.dragino.com/downloads/downloads/LSN50-LoRaST/DRAGINO_LSN50_AT_Commands_v1.6.3.pdf)
 
-<img src="/img/lsn50/pinout_1_2.png">
+| ![LSN50](/img/lsn50/pinout_1_2.png) | 
+|:--:|
+|The LSN50 version 1.2, with pins labeled.|
 
-<img src="/img/lsn50/pin_functions.png">
+
+| ![LSN50 Pin Functions](/img/lsn50/pin_functions.png) | 
+|:--:|
+|Pin functions of some typically-used pins on the LSN50.|
+
 
 What worked with the CP2104:
 
@@ -178,7 +185,9 @@ AT+TDC=60000
 
 The [Vegetronix VH400](https://www.vegetronix.com/Products/VH400/) provides temperature via analog output from 0.0 - 3.3V.  Note: needs be powered with 3.5 - 20V.  Wiring is as follows: 
 
-<img src="/img/harold/vegetronix_pinout.png">
+| ![vegetronix](/img/harold/vegetronix_pinout.png) |
+|:--:|
+| Pin hookup for the Vegetronix soil temperature sensor (graphic shows 'soil moisture' but same applies to temeprature sensor). |
 
 This means that to connect a VH400 to the LSN50, the wiring is as follows:
 
@@ -211,19 +220,20 @@ Recent range data collected by Patrick in Alamosa:
 
 **Overview of Fresnel Zones**:
 
-<div class='img-with-caption'>
-<img src="/img/harold/fresnel_overview.png">
-</div>
+| ![Fresnel](/img/harold/fresnel_overview.png) |
+|:--:|
+| The 'Fresnel Zone' for radio transmission close to the earth's surface. | 
 
-In order to achieve longer ranges and try to get good signal, there are two main issues to consider when placing the antenna:
+**The Fresnel Zone**. In order to achieve longer ranges and try to get good signal, there are two main issues to consider when placing the antenna:
 - The first is the curvature of the earth -- this is relatively minor at short distances of course; but at a distance of 5 miles, you need the antenna to be at least 4 feet higher than the node to get line-of-sight -- assuming no other obstacles in between.
 - The second is what's called the "Fresnel zone": you should try to maintain an ellipsoidal / football-shaped zone of clearance between the antenna and the node; or else a significant amount of the radio transmission that strikes surfaces inside that zone can bounce and self-interfere.  
 
-[Nice post](https://ham.stackexchange.com/questions/12149/antenna-height-for-lorawan-gateway) on calculating line-of-sight horizon and Fresnel zone:
+There's a [nice post](https://ham.stackexchange.com/questions/12149/antenna-height-for-lorawan-gateway) on calculating line-of-sight horizon and Fresnel zone, which provides the following equations:
 
-<div class='img-with-caption'>
-<img src='/img/harold/horizon.png'>
-</div>
+| ![Horizon](/img/harold/horizon.png) |
+|:--:|
+| Calculation of the Fresnel Zone geometry. |
+
 
 [Fresnel Zone Tutorial on Youtube](https://www.youtube.com/watch?v=HWOivbJjw7s)  by Mobile Fish
 
@@ -393,7 +403,10 @@ Note battery level -- we might last longer than original slope indicated, due to
 
 Testing another antenna on the remote node:
 
-<img src="/img/harold/node_antenna_test.jpeg">
+| ![Harold test](/img/harold/node_antenna_test.jpeg) |
+|:--:|
+| Remote node experiment on David Harold's farm.|
+
 
 Checking to see whether David's Rak's NodeRed is piping data to Kelly's AWS NodeRed -- indeed it should be (ignore "no response from server" msg):
 

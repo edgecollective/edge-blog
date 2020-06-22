@@ -10,9 +10,10 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-**Please contact us at**: collaborate@edgecollective.io
+Climate-adaptive infrastructure for communities living at ‘the edge'.
 
-| Climate-adaptive infrastructure for communities living at ‘the edge'. | 
+
+| We'd love to hear from you!  You can reach us at: collaborate@edgecollective.io | 
 |:--:|
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
