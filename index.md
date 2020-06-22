@@ -7,10 +7,10 @@ layout: front.njk
 <div id='intro'>
 <img src="/img/edge_flower_medium.png">
 
+
 <h1> Edge Collective </h1>
 
-| Climate-adaptive infrastructure for communities living at ‘the edge'. |
-|:--:|
+*Climate-adaptive infrastructure for communities living at ‘the edge'.*
 
 | We'd love to hear from you!  You can reach us at: **collaborate @ edgecollective.io** | 
 |:--:|
