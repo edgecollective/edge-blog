@@ -4,7 +4,8 @@ body {
     #font-family: ubuntu, sans-serif;
     margin: 10px;
     #font-size: 15px;
-    font-size: small;
+    #font-size: small;
+    font-size:14;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -121,10 +122,12 @@ img {
 table {
     background-color: F1F1F1;
     margin: 30 auto 30 auto;
+    padding: 10px;
+    max-width: 50%;
 }
 
 td { 
-    padding: 20px;
+    padding: 10px;
     #font-style: italic;
     font-size:14;
 }
