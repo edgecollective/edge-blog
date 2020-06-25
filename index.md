@@ -13,7 +13,7 @@ layout: front.njk
 Climate-adaptive infrastructure for communities living at ‘the edge'.
 
 
-| We'd love to hear from you!  You can reach us at: collaborate@edgecollective.io | 
+| We'd love to hear from you!  You can reach us at: collaborate at edgecollective dot io | 
 |:--:|
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
