@@ -121,7 +121,7 @@ padding-top: 10px;
     #background: #f7f7f7;
     background: lightblue;
     border-radius: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 10px 20px;
 }
 
 .post .pedagogy-contents {
@@ -177,12 +177,12 @@ td {
 
 .post .text {
     min-height: 250px;
-    padding: 20px;
+    padding: 5px;
 }
 
 .post .inter-text {
     height: 250px;
-    padding: 20px;
+    #padding: 20px;
     #color: white;
 }
 

@@ -45,6 +45,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
       <div class="text">
         <h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
         <p>{{ project.data.blurb }}</p>
+        <hr>
         <em>Updated: {{ project.data.updated | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
@@ -67,6 +68,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
       <div class="text">
         <h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
         <p>{{ workshop.data.blurb }}</p>
+                <hr>
         <em>Updated: {{ workshop.data.updated | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
@@ -88,6 +90,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
       <div class="text">
         <h3><a href="{{ talk.url }}">{{ talk.data.pageTitle }}</a></h3>
         <p>{{ talk.data.blurb }}</p>
+                <hr>
         <em>Updated: {{ workstalkhop.data.updated | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
