@@ -91,7 +91,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
         <h3><a href="{{ talk.url }}">{{ talk.data.pageTitle }}</a></h3>
         <p>{{ talk.data.blurb }}</p>
                 <hr>
-        <em>Updated: {{ workstalkhop.data.updated | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ talk.data.updated | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
