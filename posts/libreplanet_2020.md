@@ -2,6 +2,7 @@
 pageTitle: Stewarding Technological Freedom in Agriculture
 layout: layout.njk
 date: 2020-04-15
+tags: talks 
 updated: 2020-04-15
 image: img/notes/stewarding.png
 blurb: Video of talk presented at the LibrePlanet2020 conference by Mike Stenta, Jamie Gaehring, and Don Blair 

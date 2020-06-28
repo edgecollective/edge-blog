@@ -2,6 +2,7 @@
 pageTitle: Simple Circuitpython LoRa Demo
 layout: layout.njk
 date: 2020-05-12
+tags: pedagogy
 updated: 2020-05-12
 image: img/circuitpy_lora/circuitpy_lora_demo.png
 blurb: Simple Circuipython LoRa radio send & receive demo.

@@ -3,6 +3,7 @@ pageTitle: Flood Sensing in New Orleans, Louisiana (USA)
 layout: layout.njk
 date: 2020-04-14
 updated: 2020-05-12
+tags: projects
 image: img/nola/flood_sensor.png
 blurb: Collaborating on the FloodSense project with NOLAFlotilla.
 ---

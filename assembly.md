@@ -5,7 +5,7 @@ layout: layout.njk
 
 This is some ideas. Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy.
 
-| 1. Find the thingy. |
+| 1. Assembling the Feather M0 LoRa |
 |:--|
 | Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy. Place the sensor widget on top of the thingy. |
 |![Taoglas Radiation](/img/nola/circuit1a.jpeg)|

@@ -2,6 +2,7 @@
 pageTitle: FarmOS -- Creating a New Sensor Feed
 layout: layout.njk
 date: 2020-04-24
+tags: pedgagogy
 updated: 2020-04-24
 image: img/add_sensor.png
 blurb: Creating a new sensor feed on FarmOS.

@@ -3,6 +3,7 @@ pageTitle: Local First Lora Networks
 layout: layout.njk
 date: 2020-05-02
 updated: 2020-05-02
+tags: pedagogy
 image: img/local_first_lora/local_first_snap.png
 blurb: Developing a design for a 'local first' approach to farm networking.
 ---
