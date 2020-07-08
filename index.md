@@ -12,12 +12,12 @@ layout: front.njk
 <h1> Edge Collective </h1>
 
 
-*Climate-adaptive infrastructure for communities living at ‘the edge'.*
+*Accessible infrastructure for communities living at ‘the edge'.*
 
 <div id='intro'>
 
 
-[Edge Collective](/about) is a distributed **research, teaching**, and **facilitation** cooperative working to help individuals and communities increase the capacity of their vital **food, water, energy**, and **communications** infrastructure to adapt to a changing environment.
+[Edge Collective](/about) is a distributed **research, teaching**, and **facilitation** cooperative working to help individuals and communities increase the capacity of their vital **food, water, energy**, and **communications** infrastructure to adapt and flourish.
 
 Any of the research, designs, and code that we produce are [freely available](https://github.com/edgecollective) as **Free and Open Source** / **Creative Commons**.
 
