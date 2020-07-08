@@ -30,3 +30,9 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 ## Diana's version
 
 <img src="/img/wnf/diana_schem.png">
+
+## WNF Visit July 07 2020
+
+[Photo Album](https://photos.app.goo.gl/JcmCqubvK7mDYiEe7)
+
+

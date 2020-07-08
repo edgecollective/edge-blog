@@ -94,3 +94,19 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
   </div>
 {% endfor %}
 </div>
+
+
+# Notes 
+
+<div class="posts-area">
+{% for note in collections.notes %}
+  <div class="post">
+    <div class="project-contents">
+      <div class="text">
+        <h3>Note {{ note.data.id }}</h3>
+        <p>{{ note.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
