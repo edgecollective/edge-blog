@@ -35,4 +35,5 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 
 [Photo Album](https://photos.app.goo.gl/JcmCqubvK7mDYiEe7)
 
+<img src="/img/wnf/wnf_temps.png">
 
