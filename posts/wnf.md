@@ -35,7 +35,7 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 
 [Photo Album](https://photos.app.goo.gl/JcmCqubvK7mDYiEe7)
 
-| ![Temp differences](/img/wnf/wnf_temps.png) |
+| ![Temp differences](/img/wnf/wnf_greenhouse_daily.png) |
 |:--|
 | **Mini-greenhouse**. Placed one of the external probes next to the relay node -- very large temp difference -- indicating that the enclosure is acting like a mini-greenhouse on the BME280 sensor inside the enclosure ... and that we should only use external temp and humidity sensors from now on.
  |
