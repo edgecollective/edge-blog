@@ -95,7 +95,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 {% endfor %}
 </div>
 
-
+<!--
 # Notes 
 
 <div class="posts-area">
@@ -110,3 +110,4 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
   </div>
 {% endfor %}
 </div>
+-->
