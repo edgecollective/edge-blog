@@ -4,8 +4,8 @@ layout: layout.njk
 date: 2020-07-18
 updated: 2020-07-18
 tags: projects
-image: img/nola/flood_sensor.png
-blurb: Collaborating on the FloodSense project with NOLAFlotilla.
+image: img/chappy/chap_front.jpg
+blurb: Radio + WiFi + Ultrasonic tide monitoring
 ---
 
 <img src="/img/chappy/ultrasonic_final.png">
