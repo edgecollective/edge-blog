@@ -42,6 +42,25 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 
 ## Humidity Testing
 
-| ![calibration](/img/wnf/humidity_toptobottom_b_db_s_da_3sec.png) |
+Reference for cross-comparison among similar sensors [here](http://www.kandrsmith.org/RJS/Misc/Hygrometers/calib_many.html).
+
+Reference for calibrating using salt [here](https://www.famous-smoke.com/cigaradvisor/how-do-you-calibrate-a-hygrometer).
+
+| [![exp1](/img/wnf/humidity_exp_1_three_sec_intervals.png)](/img/wnf/humidity_exp_1_three_sec_intervals.png) |
 |:--|
-| %RH Comparison. From top to bottom:  BME280, DHT22_B, SHT10, DHT22_A.  Each count on the bottom is associated with a three second interval;  i.e. '100' is 300 seconds.  Spike is after blowing on sensor. |
+| **Exp 1.**  A: DHT22 #1; B: DHT22 #2. |
+
+| [![exp2](/img/wnf/humidity_exp_2_three_sec_intervals.png)](/img/wnf/humidity_exp_2_three_sec_intervals.png) |
+|:--|
+| **Exp 2.** A: DHT22 #3; B: DHT22 #2. |
+
+| [![exp3](/img/wnf/humidity_exp_3_three_sec_intervals.png)](/img/wnf/humidity_exp_3_three_sec_intervals.png) |
+|:--|
+| **Exp 3.** A: DHT22 #4; B: DHT22 #2. |
+
+| [![exp3](/img/wnf/humidity_exp_4_three_sec_intervals.png)](/img/wnf/humidity_exp_4_three_sec_intervals.png) |
+|:--|
+| **Exp 4.** A: DHT22 #4; B: DHT22 #3. |
+
+
+
