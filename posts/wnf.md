@@ -40,4 +40,8 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 | **Mini-greenhouse**. Placed one of the external probes next to the relay node -- very large temp difference -- indicating that the enclosure is acting like a mini-greenhouse on the BME280 sensor inside the enclosure ... and that we should only use external temp and humidity sensors from now on.
  |
 
+## Humidity Testing
 
+| ![calibration](/img/wnf/humidity_toptobottom_b_db_s_da_3sec.png) |
+|:--|
+| %RH Comparison. From top to bottom:  BME280, DHT22_B, SHT10, DHT22_A.  Each count on the bottom is associated with a three second interval;  i.e. '100' is 300 seconds.  Spike is after blowing on sensor. |
