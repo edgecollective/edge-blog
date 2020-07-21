@@ -44,8 +44,6 @@ Repository for the relay prototype is [here](https://github.com/edgecollective/w
 
 Reference for cross-comparison among similar sensors [here](http://www.kandrsmith.org/RJS/Misc/Hygrometers/calib_many.html).
 
-Reference for calibrating using salt [here](https://www.famous-smoke.com/cigaradvisor/how-do-you-calibrate-a-hygrometer).
-
 | [![exp1](/img/wnf/humidity_exp_1_three_sec_intervals.png)](/img/wnf/humidity_exp_1_three_sec_intervals.png) |
 |:--|
 | **Exp 1.**  A: DHT22 #1; B: DHT22 #2. |
@@ -58,9 +56,15 @@ Reference for calibrating using salt [here](https://www.famous-smoke.com/cigarad
 |:--|
 | **Exp 3.** A: DHT22 #4; B: DHT22 #2. |
 
-| [![exp3](/img/wnf/humidity_exp_4_three_sec_intervals.png)](/img/wnf/humidity_exp_4_three_sec_intervals.png) |
+| [![exp4](/img/wnf/humidity_exp_4_three_sec_intervals.png)](/img/wnf/humidity_exp_4_three_sec_intervals.png) |
 |:--|
 | **Exp 4.** A: DHT22 #4; B: DHT22 #3. |
 
+## Salt test
 
+Using a trick for calibrating a hygrometer, following the method described [here](https://www.famous-smoke.com/cigaradvisor/how-do-you-calibrate-a-hygrometer) and [here](https://www.neptunecigar.com/tips/how-to-calibrate-your-hygrometer).  For NaCl at room temp, we expect 75% RH.   
+
+| [![exp5](/img/wnf/salt_overnight.png)](/img/wnf/salt_overnight.png) |
+|:--|
+| **Exp 5.** Overnight table salt test. For NaCl at room temp, we expect 75% RH.   Note that around 7 AM there was a sudden temp fluctuation, likely due to some direct sunlight on the system (sitting near a window). |
 
