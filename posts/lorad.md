@@ -4,9 +4,15 @@ layout: layout.njk
 date: 2020-08-04
 updated: 2020-08-04
 tags: projects
-image: img/lorad/node.jpg
+image: img/lorad/rough.jpg
 blurb: Building radio nodes with an eye towards easy assembly and easy sourcing of parts.
 ---
+
+## Rough prototype
+
+Using a JeeNode and a LoRA FeatherWing ... sleeping at 6 uA!
+
+![jee](/img/lorad/rough.jpg)
 
 ## LoRa Ra-01
 [LoRa Ra-01](https://www.openhardware.io/view/395/LoRa-Ra-01-ATmega328P-Node)
