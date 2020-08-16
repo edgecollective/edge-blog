@@ -1,11 +1,11 @@
 ---
-pageTitle: Meshtastic 
+pageTitle: LoRa Mesh + Chat
 layout: layout.njk
 date: 2020-08-04
 updated: 2020-08-04
 tags: notes 
-image: img/lorad/rough.jpg
-blurb: Building radio nodes with an eye towards easy assembly and easy sourcing of parts.
+image: img/mesh/hello.png
+blurb: Experimenting with the 'meshtastic' system for Android + Bluetooth + LoRa mesh networking.
 ---
 
 |[ ![receiving](/img/mesh/receiving.png)](/img/mesh/receiving.png)|
