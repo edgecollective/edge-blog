@@ -21,7 +21,7 @@ layout: front.njk
 
 Any of the research, designs, and code that we produce are [freely available](https://github.com/edgecollective) as **Free and Open Source** / **Creative Commons**.
 
-We support our work through [donations](https://opencollective.com/edgecollective), and via 'pay-as-you-can' arrangements. 
+We support our work through [donations](https://opencollective.com/edgecollective) and via 'pay-as-you-can' arrangements. 
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
