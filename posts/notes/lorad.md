@@ -3,7 +3,7 @@ pageTitle: DIY Low Power Radio Nodes
 layout: layout.njk
 date: 2020-08-04
 updated: 2020-08-04
-tags: projects
+tags: notes 
 image: img/lorad/rough.jpg
 blurb: Building radio nodes with an eye towards easy assembly and easy sourcing of parts.
 ---
@@ -32,3 +32,7 @@ https://jeelabs.org/2009/12/06/building-the-jeenode-v4/)
 [MiniBrick](https://www.tindie.com/products/lps/lorawan-minibrick/)
 
 ![minibrick](/img/lorad/minibrick.jpg)
+
+## Misc Notes
+
+Using the 328p's internal crystal;  and adding a bootloader -- described [here](https://www.hackster.io/techmirtz/arduino-without-external-clock-crystal-on-atmega328-d4fcc4).
