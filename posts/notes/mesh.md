@@ -8,6 +8,16 @@ image: img/mesh/hello.png
 blurb: Experimenting with the 'meshtastic' system for Android + Bluetooth + LoRa mesh networking.
 ---
 
+## Overview
+
+Some notes on our experiments with the [Meshtastic Project](https://www.meshtastic.org/).  
+
+Check out their [beginner's guide](https://meshtastic.letstalkthis.com/), and their [discussion forum](https://meshtastic.discourse.group/), and watch Andreas Spiess' review of the project:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TY6m6fS8bxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Prototyping 
+
 |[ ![receiving](/img/mesh/receiving.png)](/img/mesh/receiving.png)|
 |:--:|
 |  |
