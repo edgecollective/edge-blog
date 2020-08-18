@@ -56,7 +56,7 @@ Check out their [beginner's guide](https://meshtastic.letstalkthis.com/), and th
 
 ## Quahog
 
-Got Meshtastic up and running on the Quahog -- simplified board with ESP32 + RFM9X chip.  Just required modifying the 'heltec' GPIO settings in configuration.h in the source code and compiling, as per suggestions on the Meshtastic discourse forum.
+Got Meshtastic up and running on a Quahog -- a relatively easy-to-assemble ESP32 + RFM9X design.  Just required modifying the 'heltec' LoRa radio GPIO settings in configuration.h in the source code and compiling using Platform.io, as per suggestions on the Meshtastic discourse forum.
 
 |[ ![meshtastic](/img/mesh/meshtastic.jpeg)](/img/mesh/meshtastic.jpeg)|
 |:--:|
