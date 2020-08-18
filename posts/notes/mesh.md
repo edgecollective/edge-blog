@@ -8,7 +8,7 @@ image: img/mesh/hello.png
 blurb: Experimenting with the 'meshtastic' system for Android + Bluetooth + LoRa mesh networking.
 ---
 
-## Overview
+## Meshtastic Overview
 
 Some notes on our experiments with the [Meshtastic Project](https://www.meshtastic.org/).  
 
@@ -16,24 +16,18 @@ Check out their [beginner's guide](https://meshtastic.letstalkthis.com/), and th
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TY6m6fS8bxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Prototyping 
+|[ ![arrow](/img/mesh/arrow.png)](/img/mesh/arrow.png)|
+|:--:|
+|  |
+
+## Heltec Boards
 
 |[ ![receiving](/img/mesh/receiving.png)](/img/mesh/receiving.png)|
 |:--:|
 |  |
 
 
-|[ ![meshtastic](/img/mesh/meshtastic.jpeg)](/img/mesh/meshtastic.jpeg)|
-|:--:|
-|  |
-
-
 |[ ![sender_code](/img/mesh/sender_code.png)](/img/mesh/sender_code.png)|
-|:--:|
-|  |
-
-
-|[ ![arrow](/img/mesh/arrow.png)](/img/mesh/arrow.png)|
 |:--:|
 |  |
 
@@ -59,3 +53,15 @@ Check out their [beginner's guide](https://meshtastic.letstalkthis.com/), and th
 |[ ![Screenshot_2020-08-16_12-06-16](/img/mesh/update2/Screenshot_2020-08-16_12-06-16.png)](/img/mesh/update2/Screenshot_2020-08-16_12-06-16.png)|
 |:--:|
 |  |
+
+## Quahog
+
+Got Meshtastic up and running on the Quahog -- simplified board with ESP32 + RFM9X chip.  Just required modifying the 'heltec' GPIO settings in configuration.h in the source code and compiling, as per suggestions on the Meshtastic discourse forum.
+
+|[ ![meshtastic](/img/mesh/meshtastic.jpeg)](/img/mesh/meshtastic.jpeg)|
+|:--:|
+|  Meshtastic running on a Quahog. |
+
+|[ ![qtest](/img/mesh/update3/qtest.jpg)](/img/mesh/update3/qtest.jpg)|
+|:--:|
+| First message received on the Quahog. |
