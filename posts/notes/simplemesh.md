@@ -12,7 +12,9 @@ blurb: Experiments with the Radiohead RHMesh approach.
 
 LoRa connectivity (ISM band 900 Mhz in the US) is highly dependent on line-of-sight.  This can be a challenge in many topologies of interest (urban, with buildings; rural, with trees / hills). The typical solution -- mounting a gateway at a very high location, in an attempt to achieve line-of-sight to remote nodes -- is not always feasible.  
 
-This is why a 'mesh' networking setup for lora sensor nodes is very appealing.
+Non line-of-sight connections are still possible -- they are just very unreliable, and signal strength / connectivity may fluctuate based on the precise orientation and location of any intermediate objects / ground cover.  
+
+This is why a 'mesh' networking setup for lora sensor nodes becomes very appealing; one might be able to deploy 'self-healing' collections of nodes that can pass messages along via a chain of connections.  
 
 ## References 
 
