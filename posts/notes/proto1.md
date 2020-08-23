@@ -1,11 +1,11 @@
 ---
-pageTitle: SAMD21 Low power 
+pageTitle: Low Power experiments with SAMD21 
 layout: layout.njk
 date: 2020-08-23
 updated: 2020-08-23
 tags: notes 
 image: /img/proto1/proto.jpg
-blurb: Low power experiments 
+blurb: Seeing what low current sleep modes are possible with various hardware designs. 
 ---
 
 ## Sparkfun SAMD21 breakout
@@ -20,7 +20,12 @@ Experimenting with the [Sparkfun SAMD21 Mini Breakout](https://www.sparkfun.com/
 
 ## Adafruit Feather
 
-Have only been able to achieve 0.2 mA sleep current on this.  Somehow disabling the voltage regulator by pulling EN to ground, and powering the device on the 3V line, results in even higher sleep currents.  
+Have only been able to achieve 0.2 mA sleep current on this.  Somehow disabling the voltage regulator by pulling EN to ground, and powering the device on the 3V line, results in even higher sleep currents. 
+
+
+## Arm Programming
+
+Nice [notes on ARM programming](https://learn.sparkfun.com/tutorials/arm-programming?_ga=2.31674685.2071070740.1598130081-351514117.1580570302) from Sparkfun. 
 
 
 
