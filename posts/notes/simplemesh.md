@@ -20,6 +20,10 @@ This is why a 'mesh' networking setup for lora sensor nodes becomes very appeali
 
 Basing my experiments on a fantastic writeup by nootropicdesign -- [LoRa Mesh Networking with Simple Arduino-Based Modules](https://nootropicdesign.com/projectlab/2018/10/20/lora-mesh-networking/), and its associated [source code on github](https://github.com/nootropicdesign/lora-mesh).
 
+Also note that there is an RH MESH client example [here](https://www.airspayce.com/mikem/arduino/RadioHead/rf22_mesh_client_8pde-example.html) -- though it is currently based on the RF22 radio. 
+
+Also notice the other examples of mesh servers and clients [here](https://www.airspayce.com/mikem/arduino/RadioHead/examples.html).
+ 
 ## Near-term Goals
 
 - Understanding the flow of data through the mesh to a target node from a source node;
@@ -28,8 +32,19 @@ Basing my experiments on a fantastic writeup by nootropicdesign -- [LoRa Mesh Ne
 - Testing the memory impact on the 328p of using N nodes
 
 
+## Experiments
 
+I believe that the standard appproach to mesh networking might be simpler than the nootropic design example.  It might simply involve a mesh 'server', and then mesh 'clients'.  
 
+A simple verison might only have two types of node: 
+- a [simple server](https://www.airspayce.com/mikem/arduino/RadioHead/rf22_mesh_server1_8pde-example.html); and 
+- a [simple client](https://www.airspayce.com/mikem/arduino/RadioHead/rf22_mesh_client_8pde-example.html).
+
+Server side:
+![simple works server](/img/proto2/simple_works_server.png)
+
+Client side:
+![simple works](/img/proto2/simple_works.png)
 
  
 
