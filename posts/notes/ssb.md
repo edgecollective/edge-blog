@@ -1,5 +1,5 @@
 ---
-pageTitle: Custom Location for Secure Scuttlebutt 
+pageTitle: Custom Location for Secure Scuttlebutt Data
 layout: layout.njk
 date: 2020-08-27
 updated: 2020-08-27
@@ -8,27 +8,41 @@ image: /img/Hermies.png
 blurb: How to set up a custom database directory location for Secure Scuttlebutt (SSB) (enabling e.g. storage of SSB on a portable drive). 
 ---
 
-Goal: to run Secure Scuttlebutt off a USB stick.  
+## Setting up a custom SSB database location
 
-Followed the advice [here](https://github.com/ssbc/patchwork/issues/822) -- seems to work!
+[Secure Scuttlebutt](https://scuttlebutt.nz) (SSB) is a peer-to-peer (p2p) social network -- akin to Facebook, but fully decentralized and owned by noone.  Connecting to the SSB network requires a client -- for example, [Patchwork](https://github.com/ssbc/patchwork). 
 
-**Note**: ran into separate issue when trying to install [Patwork]() on Ubuntu, locally --  got an error when doing an ‘npm install’ -- turns out that I first needed to install these packages:
+One feature of this p2p network is that you store all of your peer data (your posts, and posts from friends) on your local drive -- which is neat, because it means that all of your data since your last sync is available even if you're offline.  
 
-```
-sudo apt install libx11-dev libxkbfile-dev
-```
+One related caveat is that this means storing a lot of data locally; so it's good to have options for where to store it. 
 
-**In any case**, once you have a working local Patchwork install, you can convince it to store its data (in the '.ssb' folder) somewhere other than the default (home directory) by using:
+By default, all of your SSB data is stored in your home directory (an obvious location in Linux-based systems; not sure where the default is in Windows / Mac), in a directory called '.ssb'.  
+
+If you'd like to store it elsewhere, you can invoke a local installation of Patchwork (at least installations installed via npm) like so:
 
 ```
 npm start -- --path ~/Documents/myssb/.ssb
 ```
 
-where in this case '~/Documenst/myssb/.ssb' is the custom location (could be external USB drive) for your '.ssb' folder. Seems to work!
+where in this case '~/Documenst/myssb/.ssb' is your custom (SSB) data directory location (could be external USB drive) for your '.ssb' folder. Seems to work!
 
-(Posted a [gist](https://gist.github.com/dwblair/951df80d31d2940e55db70b7fd99e5fe) with the startup script I use.)
+Credit for this method goes to an online discussion thread [here](https://github.com/ssbc/patchwork/issues/822).
 
- 
+(To make this easier to invoke on a regular basis, I've posted a [gist](https://gist.github.com/dwblair/951df80d31d2940e55db70b7fd99e5fe) with the startup script I use.)
+
+## Dependencies for Patchwork on Ubuntu / Linux-based systems
+
+Note: I found a hiccup when trying to install Patchwork via npm on my Ubuntu system via 'npm install'.  It was solved by first installing these dependencies:
+
+```
+sudo apt install libx11-dev libxkbfile-dev
+```
+
+ ## Further Resources / Links
+
+- [Secure Scuttlebutt](https://scuttlebutt.nz/) -- main site for the p2p networking protocol
+ - [Secure Scuttlebutt Pub Servers](https://github.com/ssbc/ssb-server/wiki/pub-servers) -- list of servers you can join with a Secure Scuttlebutt 'client'
+ - [Patchwork](https://github.com/ssbc/patchwork) -- a 'client' for Secure Scuttlebutt
 
 
 
