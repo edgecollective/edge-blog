@@ -26,7 +26,7 @@ npm start -- --path ~/Documents/myssb/.ssb
 
 where in this case '~/Documenst/myssb/.ssb' is the custom location (could be external USB drive) for your '.ssb' folder. Seems to work!
 
-
+(Posted a [gist](https://gist.github.com/dwblair/951df80d31d2940e55db70b7fd99e5fe) with the startup script I use.)
 
  
 
