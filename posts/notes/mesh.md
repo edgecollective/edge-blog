@@ -24,6 +24,8 @@ Check out their [beginner's guide](https://meshtastic.letstalkthis.com/), and th
 
 Picked up some [Heltec WiFi LoRa 32 V2](https://heltec.org/project/wifi-lora-32/) boards -- one of the official ports of the Meshtastic project.  Was very easy to get up and running.  Did a quick test by controlling one of the devices (taped in my home window) via a Python script on a PC (using the Meshtastic-python API), and using it to send out pings every 10 seconds to the network; meanwhile I drove around the neighborhood with the other device connected to my Android phone via Bluetooth.  
 
+Here's a nice description of the [Heltec pinout](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125).
+
 |[ ![receiving](/img/mesh/receiving.png)](/img/mesh/receiving.png)|
 |:--:|
 |  |
