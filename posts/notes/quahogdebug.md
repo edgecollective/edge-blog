@@ -2,7 +2,7 @@
 pageTitle: Quahog Debug
 layout: layout.njk
 date: 2020-08-22
-updated: 2020-08-22
+updated: 2020-08-28
 tags: notes 
 image: img/notebook/quahog_debug/q_debug.png
 blurb: Revising the Quahog ESP32 + LoRa circuit
@@ -51,6 +51,9 @@ If I first erase the chip using:
 And then use 'adafruit esp32 feather' in the board setup in arduino ide, it seems to just work.  Not sure if I needed simply to erase the flash beforehand.
 
 
+## Button on Meshtastic
+
+I was getting 'button press functionality' when running Meshtastic on the Quahog.  I needed to change the quahog Mestastic-device code so that the 'button' was no longer GPIO 0 (default), but GPIO 19 (other pins may also work for this).  This corresponds to 'release/latest/quahog_firmware_v3.bin' in Meshtastic-device-quahog on github.
 
 
 
