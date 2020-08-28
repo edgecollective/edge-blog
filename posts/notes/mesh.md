@@ -1,11 +1,11 @@
 ---
-pageTitle: LoRa Mesh + Chat
+pageTitle: Meshtastic LoRa Mesh Chat
 layout: layout.njk
 date: 2020-08-04
 updated: 2020-08-04
 tags: notes 
 image: img/mesh/hello.png
-blurb: Experimenting with the 'meshtastic' system for Android + Bluetooth + LoRa mesh networking.
+blurb: Experimenting with the Meshtastic system for Android + Bluetooth + LoRa mesh networking.
 ---
 
 ## Meshtastic Overview
@@ -58,7 +58,7 @@ Picked up some [Heltec WiFi LoRa 32 V2](https://heltec.org/project/wifi-lora-32/
 
 ## Quahog
 
-Got Meshtastic up and running on a Quahog -- a relatively easy-to-assemble ESP32 + RFM9X design.  Just required modifying the 'heltec' LoRa radio GPIO settings in configuration.h in the source code and compiling using Platform.io, as per suggestions on the Meshtastic discourse forum.
+Got Meshtastic up and running on a [Quahog](https://edgecollective.io/post/notes/mesh/) -- a relatively easy-to-assemble ESP32 + RFM9X design.  Just required modifying the 'heltec' LoRa radio GPIO settings in configuration.h in the source code and compiling using Platform.io, as per suggestions on the Meshtastic discourse forum.
 
 |[ ![meshtastic](/img/mesh/meshtastic.jpeg)](/img/mesh/meshtastic.jpeg)|
 |:--:|
