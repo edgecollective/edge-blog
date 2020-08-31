@@ -16,7 +16,7 @@ This weekend we used the [Meshtastic Python API](https://github.com/meshtastic/M
 
 |[ ![locations.png](/img/newfound/locations.png)](/img/newfound/locations.png)|
 |:--:|
-| The locations of various nodes in this experiment. With respect to the **base station** node, the **kayak** node is in a landscape-induced 'radio shadow', so that the only viable LoRa radio path from base station to kayak is via the **relay** node. |
+| The locations of various nodes in this experiment. With respect to the **base station** node, the **kayak** node is in a landscape-induced 'radio shadow' (the coast has steep hillsides), so that the only viable LoRa radio path from base station to kayak is via the **relay** node. |
 
 ## Background
 
