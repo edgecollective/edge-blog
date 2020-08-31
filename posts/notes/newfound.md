@@ -14,6 +14,10 @@ This weekend we used the [Meshtastic Python API](https://github.com/meshtastic/M
 |:--:|
 | [Heltec](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125) widget set up as a automated [Meshtastic](https://www.meshtastic.org/) LoRa mesh 'base station' node in a cabin on a lake. It's run by a [Mesthastic-python](https://github.com/meshtastic/Meshtastic-python) script that replies to any messages sent to it with the SNR of the incoming message. |
 
+|[ ![locations.png](/img/newfound/locations.png)](/img/newfound/locations.png)|
+|:--:|
+| The locations of various nodes in this experiment. With respect to the **base station** node, the **kayak** node is in a landscape-induced 'radio shadow', so that the only viable LoRa radio path from base station to kayak is via the **relay** node. |
+
 ## Background
 
 The goal was to test ‘hop’ dynamics with a system of 3 Meshtastic nodes, by first setting up a ‘base station sender’ and a ‘target receiver’ on opposite sides of a hill that blocks direct LoRa transmission; and then placing a ‘relay’ node on the ‘corner’ of that hill, so that messages might ‘hop’ around it.
