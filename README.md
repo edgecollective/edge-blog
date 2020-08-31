@@ -15,4 +15,10 @@ npm install
 ## deploy online
 
 ./deploy.sh
+
+## syntax highlighting (WIP)
+
+[EleventyJS syntax highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/#installation)
+
+
  
