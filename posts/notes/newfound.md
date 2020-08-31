@@ -15,9 +15,11 @@ blurb: Using the Meshtastic Python API to perform some basic range tests of the 
 
 This weekend we used the [Meshtastic Python API](https://github.com/meshtastic/Meshtastic-python) to perform some basic range tests of the [Meshtastic](https://www.meshtastic.org/) LoRa mesh networking communications system, around the lake at Newfound Lake in Bristol, NH.   
 
-A link to some of the Meshtastic-Python scripts we played with is [here](https://github.com/edgecollective/meshtastic-python-experiments). 
+Below are some hastily-assembled data and scripts; will hope to organize this into a narrative account ASAP.
 
-## Example script
+## Example Mesthastic-Python script
+
+A link to some of the Meshtastic-Python scripts we played with is [here](https://github.com/edgecollective/meshtastic-python-experiments). 
 
 ```python
 import meshtastic
@@ -44,7 +46,7 @@ pub.subscribe(onConnection, "meshtastic.connection.established")
 interface = meshtastic.StreamInterface()
 ```
 
-## Example output
+## Example Mesthastic-Python script output
 
 > Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDc=', 'text': 'test7'}}, 'id': 2204634416, 'rxSnr': 3.0, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
 
@@ -53,6 +55,50 @@ interface = meshtastic.StreamInterface()
 > Sending reply:  got msg 'test7' with rxSnr: 3.0 and hopLimit: 1
 
 ## Pics
+
+|[ ![Screenshot_20200830-123404](/img/newfound/screen/Screenshot_20200830-123404.png)](/img/newfound/screen/Screenshot_20200830-123404.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-121357](/img/newfound/screen/Screenshot_20200830-121357.png)](/img/newfound/screen/Screenshot_20200830-121357.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-123413](/img/newfound/screen/Screenshot_20200830-123413.png)](/img/newfound/screen/Screenshot_20200830-123413.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-112105](/img/newfound/screen/Screenshot_20200830-112105.png)](/img/newfound/screen/Screenshot_20200830-112105.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-124655](/img/newfound/screen/Screenshot_20200830-124655.png)](/img/newfound/screen/Screenshot_20200830-124655.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-115555](/img/newfound/screen/Screenshot_20200830-115555.png)](/img/newfound/screen/Screenshot_20200830-115555.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-121245](/img/newfound/screen/Screenshot_20200830-121245.png)](/img/newfound/screen/Screenshot_20200830-121245.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-122047](/img/newfound/screen/Screenshot_20200830-122047.png)](/img/newfound/screen/Screenshot_20200830-122047.png)|
+|:--:|
+|  |
+
+
+|[ ![Screenshot_20200830-115714](/img/newfound/screen/Screenshot_20200830-115714.png)](/img/newfound/screen/Screenshot_20200830-115714.png)|
+|:--:|
+|  |
 
 |[ ![IMG_20200830_114603940](/img/newfound/IMG_20200830_114603940.jpg)](/img/newfound/IMG_20200830_114603940.jpg)|
 |:--:|
