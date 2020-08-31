@@ -8,12 +8,19 @@ image: img/newfound/IMG_20200830_111611868_HDR.jpg
 blurb: Using the Meshtastic Python API to perform some basic range tests of the Meshtastic system at Newfound Lake in Bristol, NH.
 ---
 
+This weekend we used the [Meshtastic Python API](https://github.com/meshtastic/Meshtastic-python) to perform some basic range tests of the [Meshtastic](https://www.meshtastic.org/) LoRa mesh networking communications system, around the lake at Newfound Lake in Bristol, NH.   
+
 |[ ![IMG_20200830_111617074_HDR](/img/newfound/IMG_20200830_111617074_HDR.jpg)](/img/newfound/IMG_20200830_111617074_HDR.jpg)|
 |:--:|
 | [Heltec](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125) widget set up as a automated [Meshtastic](https://www.meshtastic.org/) LoRa mesh 'base station' node in a cabin on a lake. It's run by a [Mesthastic-python](https://github.com/meshtastic/Meshtastic-python) script that replies to any messages sent to it with the SNR of the incoming message. |
 
+## Background
 
-This weekend we used the [Meshtastic Python API](https://github.com/meshtastic/Meshtastic-python) to perform some basic range tests of the [Meshtastic](https://www.meshtastic.org/) LoRa mesh networking communications system, around the lake at Newfound Lake in Bristol, NH.   
+The goal was to test ‘hop’ dynamics with a system of 3 Meshtastic nodes, by first setting up a ‘base station sender’ and a ‘target receiver’ on opposite sides of a hill that blocks direct LoRa transmission; and then placing a ‘relay’ node on the ‘corner’ of that hill, so that messages might ‘hop’ around it.
+
+The ‘sender’ was located in a cabin on a lake, and was controlled by Meshtastic-python, using a script (linked to in the above post) that would ‘reply’ to received messages with the SNR of the incoming message. The idea was that from the field I could send messages from my ‘end node’ (controlled via the Android app), and if the ‘relay’ node was able to relay my message via a ‘hop’ to the ‘base station sender’, I might ultimately get a reply relayed back to me at the end node.
+
+I was able to nicely communicate among all the nodes directly; but in my quick test wasn’t able to accomplish a ‘hop’. Not yet sure why, but my test was a bit goofy and rushed, so I might have been doing something dumb. The ‘hop_limit’ parameter seems to have been set to ‘1’ – which should allow a single hop beyond the immediately adjacent nodes, from what I understand ... need to dig in further.
 
 Below are some hastily-assembled data and scripts; will hope to organize this into a narrative account ASAP.
 
@@ -54,7 +61,8 @@ interface = meshtastic.StreamInterface()
 
 > Sending reply:  got msg 'test7' with rxSnr: 3.0 and hopLimit: 1
 
-## Pics
+---
+
 
 |[ ![Screenshot_20200830-123404](/img/newfound/screen/Screenshot_20200830-123404.png)](/img/newfound/screen/Screenshot_20200830-123404.png)|
 |:--:|
@@ -261,6 +269,10 @@ interface = meshtastic.StreamInterface()
 
 
 |[ ![IMG_20200830_114338715](/img/newfound/IMG_20200830_114338715.jpg)](/img/newfound/IMG_20200830_114338715.jpg)|
+|:--:|
+|  |
+
+|[ ![arrival.jpg](/img/newfound/arrival.jpg)](/img/newfound/arrival.jpg)|
 |:--:|
 |  |
 
