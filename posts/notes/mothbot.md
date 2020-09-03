@@ -18,7 +18,7 @@ blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote mon
 |  |
 
 
-## Misc Notes
+## First Build Notes / Revision Ideas
 
 - Should we break out a 0.1" i2c header, compatible with an SSD1306 display?  Maybe that's overkill for this project ...
 - The footprints for the resistors should be longer 
