@@ -9,11 +9,11 @@ image: /img/mothbot/mothbot.png
 blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote monitoring applications.
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3588DGfwW04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## First Build of the Mothbot
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFzX0aoHLn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3588DGfwW04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 |[ ![parts.jpg](/img/mothbot/parts.jpg)](/img/mothbot/parts.jpg)|
 |:--:|
