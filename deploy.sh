@@ -2,7 +2,7 @@
 
 git add *
 git commit -m 'update'
-git push
+git push --no-verify
 cp -r _site/* ../edgecollective.github.io/
 cd ../edgecollective.github.io/
 git add *	
