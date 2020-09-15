@@ -1,7 +1,7 @@
 ---
 pageTitle: Low Power experiments with SAMD21 
 layout: layout.njk
-date: 2020-08-23
+date: Last Modified
 updated: 2020-09-15
 tags: notes 
 image: /img/proto1/proto.jpg

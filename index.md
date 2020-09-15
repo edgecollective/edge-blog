@@ -34,7 +34,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 # Notebook  
 
 <div class="posts-area">
-{% for note in collections.notes %}
+{% for note in collections.notes reversed%}
   <div class="post">
     <div class="note-contents">
       <div class="image">
@@ -57,7 +57,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 # Projects
 
 <div class="posts-area">
-{% for project in collections.projects %}
+{% for project in collections.projects reversed %}
   <div class="post">
     <div class="project-contents">
       <div class="image">
@@ -79,7 +79,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 
 
 <div class="posts-area">
-{% for workshop in collections.pedagogy %}
+{% for workshop in collections.pedagogy reversed %}
   <div class="post">
     <div class="pedagogy-contents">
       <div class="image">
@@ -100,7 +100,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 # Talks
 
 <div class="posts-area">
-{% for talk in collections.talks %}
+{% for talk in collections.talks reversed %}
   <div class="post">
     <div class="talk-contents">
       <div class="image">
