@@ -21,7 +21,7 @@ By powering it directly on the 3V line, we avoid the regulator. Was able to achi
 
 Have only been able to achieve 0.2 mA sleep current on this. Somehow disabling the voltage regulator by pulling EN to ground, and powering the device on the 3V line, results in even higher sleep currents.
 
-**Update 15 Sep 2020**. Using [this code](https://gist.github.com/dwblair/b69a20dcf87314348bac970db574a723) -- on a Feather M0 LoRa without any sensors attached -- was able to get down to 0.09 mA (90 uA). This isn't so far away from what one might expect for the AP2112K LDO used on the Feather (~ 60 uA), plus the M0 itself in standby sleep mode (~ 10 uA), plus the RFM95 radio in sleep mode (a few uA, I believe). Next steps: test sleep current with common sensors, with GPS, etc.
+**Update 15 Sep 2020**. Using [this code](https://gist.github.com/dwblair/b69a20dcf87314348bac970db574a723) -- on a Feather M0 LoRa without any sensors attached -- was able to get down to 0.09 mA (90 uA). This isn't so far away from what one might expect for the AP2112K LDO used on the Feather (~ 60 uA), plus the M0 itself in standby sleep mode (~ 10 uA), plus the RFM95 radio in sleep mode (a few uA, I believe). Next steps: test sleep current with common sensors, with GPS, etc. 
 
 ![radio](/img/radio.jpg)
 
