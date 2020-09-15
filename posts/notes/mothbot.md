@@ -27,3 +27,6 @@ blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote mon
 - soldermask on the antenna hole -- no good -- need to use another approach for making that hole
 - add pinout for the higher-voltage DC-DC?  maybe it feeds directly into the 3.3V LDO, too ... or can add jumpers
 - radio configuration where there's a relay that is constantly 'on' on top of a pole ... powered by 12V bat ... 12V bat being the go-to off-grid battery ... 
+- reorient the power VIN + GND so that the cable will trail / orient towards the ground allowing a vertical antenna? add a mechanical relief location?
+- **BIG** -- caps on power circuit should be 1uF.  Pin order messed up on MCP1700.
+- soldering the RFM95 -- really need to 'flood' the casselated pins in order for them to be connected properly -- would be good to have a diagnostic
