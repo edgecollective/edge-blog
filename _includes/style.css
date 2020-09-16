@@ -178,12 +178,14 @@ table {
     margin: 30 auto 30 auto;
     padding: 10px;
     max-width: 50%;
+    text-align: left;
 }
 
 td { 
     padding: 10px;
     #font-style: italic;
     font-size:14;
+    text-align: left;
 }
 
 .post .text {
