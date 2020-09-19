@@ -29,4 +29,27 @@ What you can see in the [animation of the trial data](https://edgecollective.io/
 
 You can also observe that at some point in our journey -- with Node #2, walking away from Node #1 -- we regain our connection to Node #1 (likely because we went up a hill, and regained line-of-sight).  We believe that the Radiohead algorithm will simply stick with whatever route was most recently successful until it fails; so perhaps this means that when we see Node #2 and Node #3 connecting, the connection between Node #2 and Node #3 must have dropped, prior. will look into this.
 
+## Trial Pics
+
+|[ ![two_nodes](/img/lincoln/snaps//two_nodes.jpg)](/img/lincoln/snaps//two_nodes.jpg)|
+|:--:|
+| Node 2 (left) and Node 3 (right) before the field test. |
+
+
+|[ ![node_2](/img/lincoln/snaps//node_2.jpg)](/img/lincoln/snaps//node_2.jpg)|
+|:--:|
+| Node 2 -- the 'red' node in the animation above -- that traveled the furthest distance away from Node 1. |
+
+|[ ![node_2_a](/img/lincoln/snaps//node_2_a.jpg)](/img/lincoln/snaps//node_2_a.jpg)|
+|:--:|
+| Node 2 on the road ...  |
+
+|[ ![node_3](/img/lincoln/snaps//node_3.jpg)](/img/lincoln/snaps//node_3.jpg)|
+|:--:|
+|  Node 3, placed in on a stone wall to serve as a 'relay node' between Node 1 and Node 2. |
+
+|[ ![node_3_closeup](/img/lincoln/snaps//node_3_closeup.jpg)](/img/lincoln/snaps//node_3_closeup.jpg)|
+|:--:|
+| Closeup of Node 3.  |
+
 
