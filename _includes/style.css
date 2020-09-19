@@ -177,7 +177,7 @@ table {
     background-color: HoneyDew;
     margin: 30 auto 30 auto;
     padding: 10px;
-    max-width: 60%;
+    width: 60%;
     text-align: left;
 }
 
@@ -203,7 +203,7 @@ td {
     .post {
         width: 100%;
     }
-    .table {
-    max-width: 100%;
+    table {
+        width: 100%;
     }
 }
