@@ -2,7 +2,7 @@
 pageTitle: Mothbot Prototyping
 layout: layout.njk
 date: 2020-09-02
-updated: 2020-09-02
+updated: 2020-09-20
 tags: notes
 #image: img/ec_flower_logo_small.png
 image: /img/mothbot/mothbot.png
@@ -30,3 +30,53 @@ blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote mon
 - reorient the power VIN + GND so that the cable will trail / orient towards the ground allowing a vertical antenna? add a mechanical relief location?
 - **BIG** -- caps on power circuit should be 1uF.  Pin order messed up on MCP1700.
 - soldering the RFM95 -- really need to 'flood' the casselated pins in order for them to be connected properly -- would be good to have a diagnostic
+
+## KiCAD notes
+
+### Custom footprint as logo in KiCAD
+
+Use the 'Bitmap to component converter' in the main KiCad window (the bitmappy-looking 'a' in the below screenshot) to convert a bitmap to a footprint.  Then you can import this footprint directly to the PCB layout (no need to have an associated symbol), as a logo. 
+
+|[ ![parts.jpg](/img/mothbot/converter.png)](/img/mothbot/converter.png)|
+|:--:|
+|  Screenshot highlighting the 'bitmap to component converter' |
+
+### Design Rules / Templates for OSHPark
+
+[This guide](https://docs.oshpark.com/design-tools/kicad/kicad-design-rules/) has some nice info.
+
+## Reference for QWIIC connector
+
+|[ ![parts.jpg](/img/mothbot/qwiic.png)](/img/mothbot/qwiic.png)|
+|:--:|
+|  Sparkfun 'QWIIC' I2C Connector |
+
+|[ ![parts.jpg](/img/mothbot/qwiic_board.png)](/img/mothbot/qwiic_board.png)|
+|:--:|
+|  Sparkfun 'QWIIC' I2C Connector |
+
+[Sparkfun QWIIC reference](https://www.sparkfun.com/qwiic)
+
+[JST SH 4 Pin Connector](https://www.adafruit.com/product/4208)
+
+[Adafruit reference for JST SH 4 Pin QWIIC Pin Ordering](https://www.adafruit.com/product/4210)
+
+## Adding a reset button
+
+|[ ![parts.jpg](/img/mothbot/reset_button.png)](/img/mothbot/reset_button.png)|
+|:--:|
+|  Footprint for KMR2 pushbutton |
+
+## Adding a DC-DC converter footprint
+
+[TSR12450 Converter](https://www.adafruit.com/product/1065) -- 5V output
+
+[TSR12433 Converter](https://www.adafruit.com/product/1066) -- 3.3V output
+
+|[ ![parts.jpg](/img/mothbot/dc_dc.png)](/img/mothbot/dc_dc.png)|
+|:--:|
+|  Pinout for DC-DC |
+
+|[ ![parts.jpg](/img/mothbot/dcdc_bottom.png)](/img/mothbot/dcdc_bottom.png)|
+|:--:|
+|  Footprint for DC-DC |
