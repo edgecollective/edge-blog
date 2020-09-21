@@ -56,5 +56,9 @@ And then use 'adafruit esp32 feather' in the board setup in arduino ide, it seem
 I was getting 'button press functionality' when running Meshtastic on the Quahog.  I needed to change the quahog Mestastic-device code so that the 'button' was no longer GPIO 0 (default), but GPIO 19 (other pins may also work for this).  This corresponds to 'release/latest/quahog_firmware_v3.bin' in Meshtastic-device-quahog on github.
 
 
+## Rationale for Quahog
 
+'Off-grid wifi gateway' ... is this useful? 
+
+I guess if you want the Quahog up on a pole ... up to 100 feet away from the wifi gateway... then it can be powered by 12V ... so that might be useful in some circumstances ... 
 

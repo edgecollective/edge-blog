@@ -17,6 +17,7 @@ layout: front.njk
 <div id='intro'>
 
 
+
 [Edge Collective](/about) is a distributed **research, teaching**, and **facilitation** cooperative working to help individuals and communities increase the capacity of their vital **food, water, energy**, and **communications** infrastructure to adapt to challenging environments.
 
 Any of the research, designs, and code that we produce are [freely available](https://github.com/edgecollective) as **Free and Open Source** / **Creative Commons**.
@@ -34,7 +35,8 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 # Notebook  
 
 <div class="posts-area">
-{% for note in collections.notes reversed%}
+
+{% for note in collections.notes reversed %}
   <div class="post">
     <div class="note-contents">
       <div class="image">

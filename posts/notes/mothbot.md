@@ -80,3 +80,22 @@ Use the 'Bitmap to component converter' in the main KiCad window (the bitmappy-l
 |[ ![parts.jpg](/img/mothbot/dcdc_bottom.png)](/img/mothbot/dcdc_bottom.png)|
 |:--:|
 |  Footprint for DC-DC |
+
+## Sensor notes
+
+### HC-SR04
+
+[Adafruit page](https://www.adafruit.com/product/3942)
+
+### SHT10
+
+[Adafruit page](https://www.adafruit.com/product/1298)
+
+### AM2315
+
+[Adafruit page](https://www.adafruit.com/product/1298)
+
+
+## Version 1.0 Notes
+
+Made explicit i2c header that will allow for display.  But this means that certain i2c sensors are no longer useful via screw terminal.  But, added a 'qwiic' connector for i2c ... so maybe what we do is to make a qwiic adapter for AM2315 (i2c version).  
