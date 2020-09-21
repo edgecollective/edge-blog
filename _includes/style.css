@@ -178,7 +178,7 @@ img {
 
 table {
     #background-color: F1F1F1;
-    background-color: HoneyDew;
+    #background-color: HoneyDew;
     margin: 30 auto 30 auto;
     padding: 10px;
     width: 60%;
@@ -188,7 +188,7 @@ table {
 td { 
     padding: 10px;
     #font-style: italic;
-    font-size:14;
+    #font-size:14;
     text-align: left;
     font-size:12;
 }
@@ -204,7 +204,7 @@ td {
     #color: white;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1100px) {
     .post {
         width: 100%;
     }
