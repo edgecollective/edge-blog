@@ -18,11 +18,15 @@ layout: front.njk
 
 
 
-[Edge Collective](/about) is a distributed **research, teaching**, and **facilitation** cooperative working to help individuals and communities increase the capacity of their vital **food, water, energy**, and **communications** infrastructure to adapt to challenging environments.
+**Edge Collective** is a distributed research, teaching, and facilitation cooperative working to help individuals and communities increase the capacity of their vital food, water, energy, and communications infrastructure to adapt to challenging environments. 
 
-Any of the research, designs, and code that we produce are [freely available](https://github.com/edgecollective) as **Free and Open Source** / **Creative Commons**.
+All of the research, designs, and code that we produce are freely available in our [archives](https://github.com/edgecollective) as Free and Open Source / Creative Commons.
+
+You can read more about our philosophy [here](/about).
 
 We support our work through [donations](https://opencollective.com/edgecollective) and via 'pay-as-you-can' arrangements. 
+
+Cheers!
 
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
