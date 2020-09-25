@@ -35,7 +35,7 @@ WiFi scan worked.
 
 [Heltec Wifi Lora 32](https://heltec.org/project/wifi-lora-32/)
 
-## Coding and Setup
+## Coding and Setup Debugging ...
 
 [Instructable](https://www.instructables.com/id/Introduction-to-ESP32-WiFi-LoRa/) that has a nice set of diagrams of pinouts
 
@@ -58,3 +58,6 @@ Follow [Robot Zero One LoRa receiver demo](https://robotzero.one/heltec-wifi-lor
 use [this LoRa library](https://github.com/sandeepmistry/arduino-LoRa);
 
 And [this example](https://gist.github.com/dwblair/cfe9bfb895d4ad72d88ed91fb76ded47).
+
+**Receive and display**. Can get it posted on the display using [this example](https://gist.github.com/dwblair/9da853fb274c184f89f3f14123b9e032) with [U8g2 display library](https://github.com/olikraus/u8g2) -- basically works.
+
