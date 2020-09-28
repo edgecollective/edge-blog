@@ -98,7 +98,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 </div>
 
 
-# Notebook  
+# Research Notebook  
 
 <div class="posts-area">
 
