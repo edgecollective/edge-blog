@@ -2,7 +2,7 @@
 pageTitle: Mothbot Prototyping
 layout: layout.njk
 date: 2020-09-02
-updated: 2020-09-20
+updated: 2020-09-28
 tags: notes
 #image: img/ec_flower_logo_small.png
 image: /img/mothbot/mothbot.png
@@ -93,9 +93,18 @@ Use the 'Bitmap to component converter' in the main KiCad window (the bitmappy-l
 
 ### AM2315
 
-[Adafruit page](https://www.adafruit.com/product/1298)
+[Adafruit library](https://github.com/adafruit/Adafruit_AM2315)
+
+
+### Arduino Libraries
+
+Adafruit tutorail on installing Arduino libraries [here](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use).
 
 
 ## Version 1.0 Notes
 
 Made explicit i2c header that will allow for display.  But this means that certain i2c sensors are no longer useful via screw terminal.  But, added a 'qwiic' connector for i2c ... so maybe what we do is to make a qwiic adapter for AM2315 (i2c version).  
+
+Might need to change screw terminal size to 5mm, as they're far easier to source, it seems ...
+
+Consider placing mounting holes at proper separation for 3XAA battery holder mounting holes ...

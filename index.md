@@ -33,6 +33,28 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 </div>
 
 
+# Podcast Episodes
+
+<div class="posts-area">
+{% for podcast in collections.podcasts reversed %}
+  <div class="post">
+    <div class="podcast-contents">
+      <div class="image">
+        <a href="{{ podcast.url }}">
+          <img src="{{ podcast.data.image }}"/>
+        </a>
+      </div>
+      <div class="text">
+        <h3><a href="{{ podcast.url }}">{{ podcast.data.pageTitle }}</a></h3>
+        <p>{{ podcast.data.blurb }}</p>
+        <em>Recorded: {{ podcast.data.updated | date: "%Y-%m-%d" }}</em>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
 # Projects
 
 <div class="posts-area">
