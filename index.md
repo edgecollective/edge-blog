@@ -35,6 +35,8 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 
 # Podcast Episodes
 
+If you'd like to help support our podcast, you can now do so via [Patreon](https://www.patreon.com/edgecollective). Thanks!
+
 <div class="posts-area">
 {% for podcast in collections.podcasts reversed %}
   <div class="post">
@@ -56,6 +58,8 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 
 
 # Projects
+
+If you'd like to support our projects or educational work, you can now do so via our [Open Collective](https://opencollective.com/edgecollective) page. Cheers!
 
 <div class="posts-area">
 {% for project in collections.projects reversed %}
