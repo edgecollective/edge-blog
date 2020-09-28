@@ -100,3 +100,38 @@ Using dummy variables, not yet parsing incoming radio, code is [here](https://gi
 
 Feather sends JSON data; Heltec receives, parses, posts to FarmOS; code is [here](https://github.com/edgecollective/heltec-32-lora-v2-farmos/tree/master/ver1).
 
+
+## 1-wire temp sensor on remote
+
+[Tutorial](https://lastminuteengineers.com/ds18b20-arduino-tutorial/)
+
+## Sleep Modes for ESP32
+
+Some nice notes [here](https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/#:~:text=ESP32%20Sleep%20mode%20is%20a,it%20to%20retain%20its%20data.)
+
+Deep sleep [example code](https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/)
+
+Able to get about 2 mA in deep sleep using Heltec. ...
+
+.. then turned off lora radio and got 1 mA.
+
+gist of the code to do this is [here](https://gist.github.com/dwblair/5bd69024c8536780fa1e3bf835f1d8fb)
+
+
+Further discussion of low power modes [here](https://www.reddit.com/r/esp32/comments/gx8fxk/hibernatepower_off/).
+
+## ESP32 Data logging
+
+[Nice tutorial here](https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/)
+
+## Single-channel gateway guides
+
+[Using ESP8266](https://github.com/things4u/ESP-1ch-Gateway)
+
+[From Sparkfun](https://learn.sparkfun.com/tutorials/esp32-lora-1-ch-gateway-lorawan-and-the-things-network/all)
+
+[Appcodelabs using MQTT](https://appcodelabs.com/introduction-to-iot-building-a-budget-single-channel-lora-gateway)
+
+[From CNX Software](https://www.cnx-software.com/2018/08/21/how-to-make-cheap-single-channel-gateway-lora-esp32-board/) -- looks like they use dozens of nodes here.
+
+
