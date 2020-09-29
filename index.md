@@ -30,7 +30,7 @@ layout: front.njk
 </div>
 
 
-# <a name="podcast"></a>Podcast Episodes
+# <a name="podcast"></a>Podcast
 
 If you'd like to help support our podcast, you can now do so via [Patreon](https://www.patreon.com/edgecollective). Thanks!
 
