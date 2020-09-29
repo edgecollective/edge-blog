@@ -11,10 +11,11 @@ layout: front.njk
 
 <h1> Edge Collective </h1>
 
-
+<!--
 *Accessible infrastructure for communities living at ‘the edge'.*
+-->
 
-[Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Talks](#talks) | [Research Blog](#notebook)
+[Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research Blog](#notebook)
 
 <div id='intro'>
 
@@ -97,7 +98,7 @@ If you'd like to support our projects or educational work, you can now do so via
 {% endfor %}
 </div>
 
-# <a name="talks"></a>Talks
+# <a name="talks"></a>Presentations
 
 <div class="posts-area">
 {% for talk in collections.talks reversed %}
