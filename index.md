@@ -24,8 +24,6 @@ layout: front.njk
 <!-- <p><a href="http://edgecollective.io">edgecollective.io</a> | contact us at: collaborate @ edgecollective.io</p>-->
 
 
-
-
 </div>
 </div>
 
@@ -54,8 +52,6 @@ If you'd like to help support our podcast, you can now do so via [Patreon](https
 </div>
 
 # <a name="projects"></a>Projects
-
-If you'd like to support our projects or educational work, you can now do so via our [Open Collective](https://opencollective.com/edgecollective) page. Cheers!
 
 <div class="posts-area">
 {% for project in collections.projects reversed %}
