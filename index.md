@@ -14,11 +14,11 @@ layout: front.njk
 
 *Accessible infrastructure for communities living at ‘the edge'.*
 
+[Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Talks](#talks) | [Research Blog](#notebook)
+
 <div id='intro'>
 
-
-
-**Edge Collective** is a distributed research, teaching, and facilitation cooperative working to help individuals and communities increase the capacity of their vital food, water, energy, and communications infrastructure to adapt to challenging environments. 
+**About Edge Collective**. We're a distributed research, teaching, and facilitation cooperative working to help individuals and communities increase the capacity of their vital food, water, energy, and communications infrastructure to adapt to challenging environments. 
 
 All of the research, designs, and code that we produce are freely available in our [archives](https://github.com/edgecollective) as Free and Open Source / Creative Commons. (You can read more about our philosophy [here](/about).)
 
@@ -33,7 +33,7 @@ We support our work through [donations](https://opencollective.com/edgecollectiv
 </div>
 
 
-# Podcast Episodes
+# <a name="podcast"></a>Podcast Episodes
 
 If you'd like to help support our podcast, you can now do so via [Patreon](https://www.patreon.com/edgecollective). Thanks!
 
@@ -56,8 +56,7 @@ If you'd like to help support our podcast, you can now do so via [Patreon](https
 {% endfor %}
 </div>
 
-
-# Projects
+# <a name="projects"></a>Projects
 
 If you'd like to support our projects or educational work, you can now do so via our [Open Collective](https://opencollective.com/edgecollective) page. Cheers!
 
@@ -80,7 +79,7 @@ If you'd like to support our projects or educational work, you can now do so via
 {% endfor %}
 </div>
 
-# Workshops and Tutorials
+# <a name="guides"></a>Guides
 
 
 <div class="posts-area">
@@ -102,7 +101,7 @@ If you'd like to support our projects or educational work, you can now do so via
 {% endfor %}
 </div>
 
-# Talks
+# <a name="talks"></a>Talks
 
 <div class="posts-area">
 {% for talk in collections.talks reversed %}
@@ -124,7 +123,7 @@ If you'd like to support our projects or educational work, you can now do so via
 </div>
 
 
-# Research Notebook  
+# <a name="notebook"></a>Research Blog
 
 <div class="posts-area">
 
