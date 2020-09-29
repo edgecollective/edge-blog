@@ -211,6 +211,11 @@ td {
     #color: white;
 }
 
+audio {
+    width: 100%;
+}
+
+
 @media (max-width: 1100px) {
     .post {
         width: 100%;
@@ -218,4 +223,5 @@ td {
     table {
         width: 100%;
     }
+    
 }
