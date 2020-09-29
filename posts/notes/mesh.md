@@ -2,7 +2,7 @@
 pageTitle: Meshtastic LoRa Mesh Chat
 layout: layout.njk
 date: 2020-08-04
-updated: 2020-08-04
+updated: 2020-09-28
 tags: notes 
 image: img/mesh/hello.png
 blurb: Experimenting with the Meshtastic system for Android + Bluetooth + LoRa mesh networking.
