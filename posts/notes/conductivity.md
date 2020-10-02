@@ -28,3 +28,12 @@ Craig's latest 4pstat is [here](https://gitlab.com/p-v-o-s/echem/4pstat/-/blob/m
 
 Don's simplified 4 probe based on an earlier design is [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.1/four_probe.pdf)
 
+## Craig comments
+
+> What I found that seems to work well on the driven shield lines was to use some RC snubbers to ground after the 50 Ohm output resistor.  Values like 10 Ohm and 100nF give you a corner frequency of 160kHz - if your bandwidth is 10kHz that should likely work out.
+
+> Don, if you use my design, there are lots of mods needed to stop it from oscillating.
+
+> If you are doing a virtual ground, I suggest using the [in-the-loop compensation circuit I got from AoE3](https://gitlab.com/p-v-o-s/echem/4pstat/-/issues/7#note_364944285)
+
+> Actually I wonder if the corner frequency is actually 6X lower because of the added 50 Ohm resistor? If that is the case, it might be better to back off the capacitance a bit And what about output resistance from the opamp (Mike, I'm looking at you)? If that's like around 100 Ohm maybe we'd be smart using an even smaller cap. This could be why I did not make my intended bandwidth of 100kHz on the bodged up 4pstat.
