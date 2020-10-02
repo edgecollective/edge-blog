@@ -15,7 +15,7 @@ layout: front.njk
 *Accessible infrastructure for communities living at ‘the edge'.*
 -->
 
-[Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research Blog](#notebook)
+[Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research](#notebook)
 
 <div id='intro'>
 
@@ -116,7 +116,7 @@ If you'd like to help support our podcast, you can now do so via [Patreon](https
 </div>
 
 
-# <a name="notebook"></a>Research Blog
+# <a name="notebook"></a>Research Notebook
 
 <div class="posts-area">
 
