@@ -37,3 +37,12 @@ Don's simplified 4 probe based on an earlier design is [here](https://gitlab.com
 > If you are doing a virtual ground, I suggest using the [in-the-loop compensation circuit I got from AoE3](https://gitlab.com/p-v-o-s/echem/4pstat/-/issues/7#note_364944285)
 
 > Actually I wonder if the corner frequency is actually 6X lower because of the added 50 Ohm resistor? If that is the case, it might be better to back off the capacitance a bit And what about output resistance from the opamp (Mike, I'm looking at you)? If that's like around 100 Ohm maybe we'd be smart using an even smaller cap. This could be why I did not make my intended bandwidth of 100kHz on the bodged up 4pstat.
+
+## Current Plans
+
+As of 10-02-2020:
+
+- use an OPA281 for the TIA (current measurement)
+- use an INA2331 for the INAMP (voltage measurement)
+- add the driven shield, snubs, and in-the-loop compensation as per Craig's design & mods
+- use through-hole headers for any passives we might want to swap (avoiding the MUX chip for now) to simplify the board
