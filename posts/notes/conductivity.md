@@ -20,7 +20,7 @@ blurb: Notes on devlepment of DIY conductivity sensors
 
 [Arduino Waveform Generator](https://www.instructables.com/Arduino-Waveform-Generator/)
 
-## Schematic Review
+## Prior Art Among Us
 
 Don's last version in January, based off Craig's 4pstat is [here](https://gitlab.com/p-v-o-s/echem/4pstat/-/blob/4p-v1/kicad-pcb/pdf/4pstat.pdf)
 
@@ -42,10 +42,7 @@ Don's simplified 4 probe based on an earlier design is [here](https://gitlab.com
 
 > Actually I wonder if the corner frequency is actually 6X lower because of the added 50 Ohm resistor? If that is the case, it might be better to back off the capacitance a bit And what about output resistance from the opamp (Mike, I'm looking at you)? If that's like around 100 Ohm maybe we'd be smart using an even smaller cap. This could be why I did not make my intended bandwidth of 100kHz on the bodged up 4pstat.
 
-
-
-
-## Current Plans
+## Current Work
 
 As of 10-02-2020:
 
@@ -53,3 +50,6 @@ As of 10-02-2020:
 - use an INA2331 for the INAMP (voltage measurement)
 - add the driven shield, snubs, and in-the-loop compensation as per Craig's design & mods
 - use through-hole headers for any passives we might want to swap (avoiding the MUX chip for now) to simplify the board
+
+Don's current attempt at the above is [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.3/pdf/ec-4p.pdf).
+
