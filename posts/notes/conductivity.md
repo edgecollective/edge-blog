@@ -36,7 +36,14 @@ Don's simplified 4 probe based on an earlier design is [here](https://gitlab.com
 
 > If you are doing a virtual ground, I suggest using the [in-the-loop compensation circuit I got from AoE3](https://gitlab.com/p-v-o-s/echem/4pstat/-/issues/7#note_364944285)
 
+|[ ![fig2](/img/intheloop.jpg)](/img/intheloop.jpg)|
+|:--:|
+| In-the-loop compensation scheme suggested by Craig [here](https://gitlab.com/p-v-o-s/echem/4pstat/-/issues/7#note_364944285). |
+
 > Actually I wonder if the corner frequency is actually 6X lower because of the added 50 Ohm resistor? If that is the case, it might be better to back off the capacitance a bit And what about output resistance from the opamp (Mike, I'm looking at you)? If that's like around 100 Ohm maybe we'd be smart using an even smaller cap. This could be why I did not make my intended bandwidth of 100kHz on the bodged up 4pstat.
+
+
+
 
 ## Current Plans
 
