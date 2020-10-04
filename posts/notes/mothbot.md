@@ -2,7 +2,7 @@
 pageTitle: Mothbot Prototyping
 layout: layout.njk
 date: 2020-09-02
-updated: 2020-09-28
+updated: 2020-10-03
 tags: notes
 #image: img/ec_flower_logo_small.png
 image: /img/mothbot/mothbot.png
@@ -108,3 +108,14 @@ Made explicit i2c header that will allow for display.  But this means that certa
 Might need to change screw terminal size to 5mm, as they're far easier to source, it seems ...
 
 Consider placing mounting holes at proper separation for 3XAA battery holder mounting holes ...
+
+## Version 2.0 Notes
+
+1. Need bigger spacing on MCP1700 footprint
+2. Need C1 & R1 to be 0.1 uF and 10K (as they are), apparently, for bootloader to auto-reset properly (timing issue?)
+3. Note: I cannibalized C1 from a ver 1.0 Mothbot, need to replace!
+4. Reset button doesn't seem to work?
+5. Swapped A4 & A5 (they are SDA and SCL, not SCL and SDA, respectively) -- need to fix in order for monitor to work
+6. Add 0.1" headers for all terminals, as per i2c ... space as per breadboard?
+7. Match mounting hole spacing to battery pack?
+
