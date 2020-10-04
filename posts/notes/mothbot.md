@@ -118,4 +118,11 @@ Consider placing mounting holes at proper separation for 3XAA battery holder mou
 5. Swapped A4 & A5 (they are SDA and SCL, not SCL and SDA, respectively) -- need to fix in order for monitor to work
 6. Add 0.1" headers for all terminals, as per i2c ... space as per breadboard?
 7. Match mounting hole spacing to battery pack?
+8. Nice [note](https://jeelabs.org/2013/05/16/measuring-the-battery-without-draining-it/index.html) on measuring the battery level without draining it.
 
+
+Nice note on [STM32 boards](https://jeelabs.org/2015/11/25/pi-based-stm32f103-development/index.html) from Jeenode, by the way.
+
+## AM2315 Sensor
+
+[Adafruit library](https://github.com/adafruit/Adafruit_AM2315). 
