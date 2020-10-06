@@ -126,3 +126,19 @@ Nice note on [STM32 boards](https://jeelabs.org/2015/11/25/pi-based-stm32f103-de
 ## AM2315 Sensor
 
 [Adafruit library](https://github.com/adafruit/Adafruit_AM2315). 
+
+
+## Version 3
+
+|[ ![parts.jpg](/img/mothbot/version3_draft.png)](/img/mothbot/version3_draft.png)|
+|:--:|
+|  First stab at version 3. |
+
+
+|[ ![parts.jpg](/img/mothbot/3drender.png)](/img/mothbot/3drender.png)|
+|:--:|
+|  3D Render of Final for Verison 3. |
+
+|[ ![parts.jpg](/img/mothbot/mothbot_top.png)](/img/mothbot/mothbot_top.png)|
+|:--:|
+|  Final of version 3, as submitted to OSHPARK. Board design files are [here](https://github.com/edgecollective/dippy-slim/tree/master/ver3) |
