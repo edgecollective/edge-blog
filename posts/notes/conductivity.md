@@ -42,7 +42,9 @@ Don's simplified 4 probe based on an earlier design is [here](https://gitlab.com
 
 > Actually I wonder if the corner frequency is actually 6X lower because of the added 50 Ohm resistor? If that is the case, it might be better to back off the capacitance a bit And what about output resistance from the opamp (Mike, I'm looking at you)? If that's like around 100 Ohm maybe we'd be smart using an even smaller cap. This could be why I did not make my intended bandwidth of 100kHz on the bodged up 4pstat.
 
-## Current Work
+## Revision Notes
+
+----
 
 As of 10-02-2020:
 
@@ -53,9 +55,11 @@ As of 10-02-2020:
 
 Don's current attempt at the above is [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.3/pdf/ec-4p.pdf).
 
+----
+
 As of 10-06-2020:
 
-Made suggested modifications by C.V. & M.B..  Resultant schematic is [version 0.4](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.4/pdf/ec-4p.pdf).
+- Made suggested modifications by C.V. & M.B..  Resultant schematic is [version 0.4](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.4/pdf/ec-4p.pdf).
 
 ## References / Datasheets
 
