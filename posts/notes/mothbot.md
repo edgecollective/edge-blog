@@ -2,7 +2,7 @@
 pageTitle: Mothbot Prototyping
 layout: layout.njk
 date: 2020-09-02
-updated: 2020-10-03
+updated: 2020-10-06
 tags: notes
 #image: img/ec_flower_logo_small.png
 image: /img/mothbot/mothbot.png
