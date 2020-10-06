@@ -53,6 +53,10 @@ As of 10-02-2020:
 
 Don's current attempt at the above is [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.3/pdf/ec-4p.pdf).
 
+As of 10-06-2020:
+
+Made suggested modifications by C.V. & M.B..  Resultant schematic is [version 0.4](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.4/pdf/ec-4p.pdf).
+
 ## References / Datasheets
 
 [INA331](https://www.ti.com/lit/ds/symlink/ina2331.pdf?ts=1602019726489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA2331%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DINA2331%2526ds_k%253DINA2331%2526DCM%253Dyes%2526gclid%253DCjwKCAjwq_D7BRADEiwAVMDdHqgen4POVfQNUaSvv1tTeDEJar15NgWLAQamLzuEf4j7nOT6NZ4iQBoCoFYQAvD_BwE%2526gclsrc%253Daw.ds)
@@ -60,4 +64,6 @@ Don's current attempt at the above is [here](https://gitlab.com/p-v-o-s/echem/ec
 [OPA831 / OPA2381](https://www.ti.com/lit/ds/symlink/opa381.pdf?ts=1602019570296&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA381)
 
 [LMC6484](https://www.ti.com/lit/ds/symlink/lmc6484.pdf?ts=1602019481665)
+
+
 
