@@ -5,7 +5,7 @@ date: 2020-10-02
 updated: 2020-10-02
 tags: notes 
 image: img/placeholder.png
-blurb: Notes on devlepment of DIY conductivity sensors
+blurb: Notes on development of DIY conductivity sensors
 ---
 
 ## Temperature Measurement
