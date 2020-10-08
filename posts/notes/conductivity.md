@@ -61,6 +61,18 @@ As of 10-06-2020:
 
 - Made suggested modifications by C.V. & M.B..  Resultant schematic is [version 0.4](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/master/v_0.4/pdf/ec-4p.pdf).
 
+As of 10-07-2020:
+
+- Mike: 'Do you want a power supply decoupling cap on the current sense TIA, U3?'
+- Craig: 'What's driving P1 in this circuit?  Shouldn't we have some amp here?'
+
+'Adder inputs' section of Craig's 4PSTAT schematic:
+
+|[ ![fig2](/img/conductivity/adder_inputs.png)](/img/conductivity/adder_inputs.png)|
+|:--:|
+| From Craig's schematic [here](https://gitlab.com/p-v-o-s/echem/4pstat/-/blob/master/kicad-pcb/pdf/4pstat.pdf). |
+
+
 ## References / Datasheets
 
 [INA331](https://www.ti.com/lit/ds/symlink/ina2331.pdf?ts=1602019726489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA2331%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DINA2331%2526ds_k%253DINA2331%2526DCM%253Dyes%2526gclid%253DCjwKCAjwq_D7BRADEiwAVMDdHqgen4POVfQNUaSvv1tTeDEJar15NgWLAQamLzuEf4j7nOT6NZ4iQBoCoFYQAvD_BwE%2526gclsrc%253Daw.ds)

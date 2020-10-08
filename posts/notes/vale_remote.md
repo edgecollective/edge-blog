@@ -46,3 +46,12 @@ Ah -- update -- can't reassign the pins because of the 'pad constraint', see the
 |[ ![fig2](/img/valedalama/remote_v4_board.png)](/img/valedalama/remote_v4_board.png)|
 |:--:|
 | Remote board, version 4. |
+
+## FAB Farm
+
+[Location](https://www.google.com/maps?q=37.160365,-8.774516&shorturl=1)
+
+
+|[ ![fig2](/img/valedalama/fabfarm.png)](/img/valedalama/fabfarm.png)|
+|:--:|
+| Lucio's FAB Farm. |
