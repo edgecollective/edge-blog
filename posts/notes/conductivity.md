@@ -73,6 +73,15 @@ As of 10-07-2020:
 | From Craig's schematic [here](https://gitlab.com/p-v-o-s/echem/4pstat/-/blob/master/kicad-pcb/pdf/4pstat.pdf). |
 
 
+As of Oct 9 2020:
+
+|[ ![fig2](/img/conductivity/p1_feedback_circuit.png)](/img/conductivity/p1_feedback_circuit.png)|
+|:--:|
+| Revision A of the 0.4 EC-4P circuit: attempt at a simpler 'conductivity' measurement with adder amp feedback coming directly from the the amp output. See discussion [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/issues/6). |
+
+
+
+
 ## References / Datasheets
 
 [INA331](https://www.ti.com/lit/ds/symlink/ina2331.pdf?ts=1602019726489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA2331%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DINA2331%2526ds_k%253DINA2331%2526DCM%253Dyes%2526gclid%253DCjwKCAjwq_D7BRADEiwAVMDdHqgen4POVfQNUaSvv1tTeDEJar15NgWLAQamLzuEf4j7nOT6NZ4iQBoCoFYQAvD_BwE%2526gclsrc%253Daw.ds)
