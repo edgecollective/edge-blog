@@ -18,9 +18,15 @@ Click [here](#gatewaysetup) to jump to the latest remote CO2 node + gateway setu
 
 [K30 Datasheet](http://co2meters.com/Documentation/Datasheets/DS_SE_0118_CM_0024_Revised9%20(1).pdf)
 
-Needs 5V power minimum.
+Needs 5V power minimum (actually, looks like it's best run at 6-9V); meanwhile, **Logic levels for the UART are at 3.3V**.
 
-Logic levels are 3.3V
+Useful info on logic levels / etc from the datasheet:
+
+|[ ![fig2](/img/co2/logic_levels.png)](/img/co2/logic_levels.png)|
+|:--:|
+| Table 1 from the [K30 datasheet](http://co2meters.com/Documentation/Datasheets/DS_SE_0118_CM_0024_Revised9%20(1).pdf). |
+
+Meanwhile, though -- good advice on connecting to signals that run at higher voltage from JeeLab, [here](https://jeelabs.org/2010/12/16/voltage-3-3-vs-5/index.html).  Punchline -- can add a 1K resistor in series with signal as protection.
 
 |[ ![fig2](/img/co2/fig2.png)](/img/co2/fig2.png)|
 |:--:|
@@ -50,6 +56,8 @@ Datasheet says: should avoid connecting analog and digital ground pins externall
 This suggests using 6 to 9V input. (Might be good to upgrade the spec on the MCP1702 voltage reg so we can take > 6V input on the Mothbot).  Needs to be able to provide 500mA.  So: direct from battery power is likely best.
 
 ### Via UART
+
+Note: **Logic levels for the UART are at 3.3V**.
 
 [Connecting a K30 to an Arduino via UART](http://www.co2meters.com/Documentation/AppNotes/AN126-K3x-sensor-arduino-uart.pdf)
 

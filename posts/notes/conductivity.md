@@ -77,8 +77,26 @@ As of Oct 9 2020:
 
 |[ ![fig2](/img/conductivity/p1_feedback_circuit.png)](/img/conductivity/p1_feedback_circuit.png)|
 |:--:|
-| Revision A of the 0.4 EC-4P circuit: attempt at a simpler 'conductivity' measurement with adder amp feedback coming directly from the the amp output. See discussion [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/issues/6). |
+| Revision A of the 0.4 EC-4P circuit: attempt at a simpler 'conductivity' measurement with adder amp feedback coming directly from the the amp output. See discussion [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/issues/6#note_427124136). |
 
+
+[Adder circuit](https://en.wikipedia.org/wiki/Adder_(electronics)) explanation on wikipedia.
+
+Oops.  Above places C16 incorrectly:
+
+Craig:
+
+> It looks like you are shorting out C16.  Instead C16 should go across R21 to the summing junction.
+
+> Think of it this way, your gain at DC for each adder pathway (e0-e3) should be R21/Rn.  What the feedback capacitor C16 does is to short out R21 for high frequency signals where its impedance is small; thus it rolls off the gain at high frequencies, the corner frequency being 1/(2*pi*R21*C16).  Just set that, say 5X, above your highest intended signal frequency and you will have smoothed DAC signals and more stability.
+
+Correction:
+
+
+
+|[ ![fig2](/img/conductivity/p1_feedback_circuit_REV-B.png)](/img/conductivity/p1_feedback_circuit_REV-B.png)|
+|:--:|
+| [Revision B](https://gitlab.com/p-v-o-s/echem/ec-4p/-/blob/d616fd5467dd4cd1d415cf019640ec242f7dc668/v_0.4/pdf/ec-4p.pdf) of the 0.4 EC-4P circuit: attempt at a simpler 'conductivity' measurement with adder amp feedback coming directly from the the amp output. See discussion [here](https://gitlab.com/p-v-o-s/echem/ec-4p/-/issues/6#note_427124136). |
 
 
 
@@ -90,5 +108,8 @@ As of Oct 9 2020:
 
 [LMC6484](https://www.ti.com/lit/ds/symlink/lmc6484.pdf?ts=1602019481665)
 
+## Useful misc info
 
+[via Stackoverflow](https://stackoverflow.com/questions/15677439/command-to-get-latest-git-commit-hash-from-a-branch): Command to get latest URL for remote commit:
 
+```git ls-remote git://github.com/<user>/<project>.git```
