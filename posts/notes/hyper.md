@@ -12,25 +12,6 @@ blurb: Experiments with the Hyper Protocol
 
 ## Hyperssh
 
-### Usage
-
-(Copied from the [Hyperssh README](https://github.com/mafintosh/hyperssh))
-
-On a server or some laptop with ssh-server running run
-
-```sh
-hyperssh-server
-```
-
-This will print out the ssh fingerprint and start announcing the server
-on the Hyperswarm network under this fingerprint.
-
-To connect to the server on another computer simply pass in the fingerprint
-and the user you want to connect as to hyperssh
-
-```sh
-hyperssh ssh-ed25519 AAAA.... maf
-```
 ### Installing hyperssh on Ubuntu 18.04
 
 1. First install openssh-server if not present:
@@ -50,6 +31,27 @@ hyperssh ssh-ed25519 AAAA.... maf
 4. Create symbolic links for nicer command-line usage:
 
 > ```npm link```
+
+### Using hyperssh
+
+(Copied from the [Hyperssh README](https://github.com/mafintosh/hyperssh))
+
+On a server or some laptop with ssh-server running run
+
+```sh
+hyperssh-server
+```
+
+This will print out the ssh fingerprint and start announcing the server
+on the Hyperswarm network under this fingerprint.
+
+To connect to the server on another computer simply pass in the fingerprint
+and the user you want to connect as to hyperssh
+
+```sh
+hyperssh ssh-ed25519 AAAA.... maf
+```
+
 
 ---
 
