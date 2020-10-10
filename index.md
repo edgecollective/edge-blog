@@ -30,7 +30,11 @@ layout: front.njk
 
 # <a name="podcast"></a>Podcast
 
-If you'd like to help support our podcast, you can now do so via [Patreon](https://www.patreon.com/edgecollective). Thanks!
+
+To subscribe, copy the following feed link into your favorite podcast app: ```https://edgecollective.io/podcast/feed.xml```  
+
+And if you'd like to help support our podcast, you can now do so via [Patreon](https://www.patreon.com/edgecollective). Thanks!  
+
 
 <div class="posts-area">
 {% for podcast in collections.podcasts reversed %}
