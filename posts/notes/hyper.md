@@ -12,6 +12,8 @@ blurb: Experiments with the Hyper Protocol
 
 ## Hyperssh
 
+The following is all based on the excellent [hyperssh](https://github.com/mafintosh/hyperssh) NodeJs package by @mafintosh.
+
 ### Installing hyperssh on Ubuntu 18.04
 
 1. First install openssh-server if not present:
@@ -20,7 +22,7 @@ blurb: Experiments with the Hyper Protocol
 
 2. Grab the hyperssh repo:
 
-> ```git clone https://github.com/mafintosh/hyperssh```
+> ```git clone https://github.com/mafintosh/hyperssh.git```
 
 3. Enter the hyperssh directory; then install it:
 
