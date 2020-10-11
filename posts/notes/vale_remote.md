@@ -55,3 +55,14 @@ Ah -- update -- can't reassign the pins because of the 'pad constraint', see the
 |[ ![fig2](/img/valedalama/fabfarm.png)](/img/valedalama/fabfarm.png)|
 |:--:|
 | Lucio's FAB Farm. |
+
+## Feather BME280 data export from server
+
+One can grab CSV data from the Valedalama server like thus:
+
+> ```http://64.227.0.108:8100/api/csv?limit=1000```
+
+where the 'limit=N' parameter gives the 'most recent N values'.
+
+A snapshot of all of the historical data from "Valedalama BME280 Feather" from the earliest collection date (July 10 2020) up through Oct 10 2020 can be downloaded [here](/data/historical_bme280_as_of_10_oct_2020.csv).
+
