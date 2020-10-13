@@ -155,6 +155,15 @@ Recreating the prototype but using a Feather M0 instead ...
 
 now we want to use Hardware Serial instead of Software Serial ...
 
+We noticed a [Twitter thread](https://twitter.com/linseymarr/status/1314582969168920577?s=20) by Linsey Marr on Oct 8 2020 that references using a CO2 monitor to assess activity in a space re: COVID-19; they use the HOBO CO2 monitor pictured in Fig C below.
+
+
+|[ ![figC](/img/co2/hobo_c02.jpeg)](/img/co2/hobo_c02.jpeg)|
+|:--:|
+| Fig C. HOBO CO2 Logger used to assess activity level / air turnover in a college gym.  |
+
+
+
 ### <a name="feather"></a>Feather Hookup Guide for K30
 
 Feather firmware is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/v1/featherm0_K30).
@@ -175,4 +184,6 @@ Wiring for test:
 
 |[ ![figB](/img/co2/feather_co2_decay_test.png)](/img/co2/feather_co2_decay_test.png)|
 |:--:|
-| FigB.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor twice (began recording right after initial breath) and watching decay. |
+| Fig B.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor at a particular time and and watching decay. Time interval unit is 2 seconds.|
+
+
