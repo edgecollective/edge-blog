@@ -8,6 +8,12 @@ image: img/placeholder.png
 blurb: Notes on inexpensive CO2 monitoring options
 ---
 
+## Table of contents
+
+[Feather Hookup Guide for K30](#feather)
+
+## Background
+
 Below is a development notebook for constructing a DIY CO2 monitor.  
 
 Click [here](#gatewaysetup) to jump to the latest remote CO2 node + gateway setup.
@@ -135,15 +141,38 @@ Would be nice to develop useful ways of connecting to some standard hardware (e.
 
 ## Ongoing work / research
 
+----
+
 Oct 9 2020:
 
 Maybe a good configuraiton is to have the sensor powered via a 7.4V rechargeable lith-ion, while the micro attached has its separate battery voltage?
 
+----
+
+oct 13 2020:
+
+Recreating the prototype but using a Feather M0 instead ...
+
+now we want to use Hardware Serial instead of Software Serial ...
+
+### <a name="feather"></a>Feather Hookup Guide for K30
+
+Feather firmware is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/v1/featherm0_K30).
+
+Wiring for test:
+
+- Connect TXD (K30, see Fig A below) to RX0 (Feather);
+- Connect RXD (K30, see Fig A below) to TX1 (Feather);
+- Connect Feather GND to 6V Battery GND;
+- Connect 6V battery Power to Feather to K30 Power in (labeled "5V" in fig A below)
+- Power Feather via USB (for initial test)
+
+|[ ![figA](/img/co2/uart_closeup.png)](/img/co2/uart_closeup.png)|
+|:--:|
+| Fig A.  UART connection on the K30.  When connecting to the Feather, connect TXD (K30) to RX0 (Feather) and RXD (K30) to TX1 (Feather). |
 
 
 
-
-
-
-
-
+|[ ![figB](/img/co2/feather_co2_decay_test.png)](/img/co2/feather_co2_decay_test.png)|
+|:--:|
+| FigB.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor twice (began recording right after initial breath) and watching decay. |
