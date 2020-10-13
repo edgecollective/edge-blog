@@ -162,6 +162,11 @@ We noticed a [Twitter thread](https://twitter.com/linseymarr/status/131458296916
 |:--:|
 | Fig C. HOBO CO2 Logger used to assess activity level / air turnover in a college gym.  |
 
+Note: some power options (if plugging into the wall):  use a 9V power wall wart, and drop down voltage to 5V; or use a 5V wall wart (more commong), and boost up to 9V.
+
+If the latter, probably need to check on current (mA) requirements of the K30.
+
+Offhand, seems like drop down is easier; boosting to 6V / 9V is a bit odd.
 
 
 ### <a name="feather"></a>Feather Hookup Guide for K30
@@ -190,4 +195,9 @@ Wiring for test:
 |[ ![figB](/img/co2/feather_co2_decay_test.png)](/img/co2/feather_co2_decay_test.png)|
 |:--:|
 | Fig B.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor at a particular time and and watching decay. Time interval unit is 2 seconds.|
+
+## Z19 CO2 Sensor
+
+For sale on [Banggood](
+https://usa.banggood.com/MH-Z19-MH-Z19B-Infrared-CO2-Sensor-Module-Carbon-Dioxide-Gas-Sensor-for-CO2-Monitor-0-5000ppm-MH-Z19B-NDIR-with-Pin-p-1693604.html) for $20.
 
