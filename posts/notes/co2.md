@@ -166,6 +166,12 @@ We noticed a [Twitter thread](https://twitter.com/linseymarr/status/131458296916
 
 ### <a name="feather"></a>Feather Hookup Guide for K30
 
+
+|[ ![figA2](/img/co2/feather_setup.jpg)](/img/co2/feather_setup.jpg)|
+|:--:|
+| Fig A2.  Feather M0 connected to a K30 sensor. |
+
+
 Feather firmware is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/v1/featherm0_K30).
 
 Wiring for test:
@@ -181,9 +187,7 @@ Wiring for test:
 | Fig A.  UART connection on the K30.  When connecting to the Feather, connect TXD (K30) to RX0 (Feather) and RXD (K30) to TX1 (Feather). |
 
 
-
 |[ ![figB](/img/co2/feather_co2_decay_test.png)](/img/co2/feather_co2_decay_test.png)|
 |:--:|
 | Fig B.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor at a particular time and and watching decay. Time interval unit is 2 seconds.|
-
 
