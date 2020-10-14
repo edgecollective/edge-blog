@@ -256,3 +256,11 @@ Add this to Boards Manager:
 ```https://adafruit.github.io/arduino-board-index/package_adafruit_index.json```
 
 
+## CO2 with K30 to FarmOS
+
+Oct 14 2020
+
+|[ ![figB](/img/co2/co2_farmos.png)](/img/co2/co2_farmos.png)|
+|:--:|
+| Posting CO2 PPM data from a K30 to FarmOS. |
+
