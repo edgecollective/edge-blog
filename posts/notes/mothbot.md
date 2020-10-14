@@ -86,6 +86,22 @@ Use the 'Bitmap to component converter' in the main KiCad window (the bitmappy-l
 |:--:|
 |  Footprint for DC-DC |
 
+---
+
+## Misc Notes
+
+### Aside on STM32
+
+Nice note on [STM32 boards](https://jeelabs.org/2015/11/25/pi-based-stm32f103-development/index.html) from Jeenode, by the way.
+
+
+### Installing Arduino Libraries
+
+Adafruit tutorail on installing Arduino libraries [here](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use).
+
+
+---
+
 ## Sensor notes
 
 ### HC-SR04
@@ -100,13 +116,9 @@ Use the 'Bitmap to component converter' in the main KiCad window (the bitmappy-l
 
 [Adafruit library](https://github.com/adafruit/Adafruit_AM2315)
 
+---
 
-### Arduino Libraries
-
-Adafruit tutorail on installing Arduino libraries [here](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use).
-
-
-## Version 1.0 Notes
+## Mothbot Version 1.0 Notes
 
 Made explicit i2c header that will allow for display.  But this means that certain i2c sensors are no longer useful via screw terminal.  But, added a 'qwiic' connector for i2c ... so maybe what we do is to make a qwiic adapter for AM2315 (i2c version).  
 
@@ -114,7 +126,9 @@ Might need to change screw terminal size to 5mm, as they're far easier to source
 
 Consider placing mounting holes at proper separation for 3XAA battery holder mounting holes ...
 
-## Version 2.0 Notes
+---
+
+## Mothbot Version 2.0 Notes
 
 1. Need bigger spacing on MCP1700 footprint
 2. Need C1 & R1 to be 0.1 uF and 10K (as they are), apparently, for bootloader to auto-reset properly (timing issue?)
@@ -125,15 +139,9 @@ Consider placing mounting holes at proper separation for 3XAA battery holder mou
 7. Match mounting hole spacing to battery pack?
 8. Nice [note](https://jeelabs.org/2013/05/16/measuring-the-battery-without-draining-it/index.html) on measuring the battery level without draining it.
 
+----
 
-Nice note on [STM32 boards](https://jeelabs.org/2015/11/25/pi-based-stm32f103-development/index.html) from Jeenode, by the way.
-
-## AM2315 Sensor
-
-[Adafruit library](https://github.com/adafruit/Adafruit_AM2315). 
-
-
-## Version 3
+## Mothbot Version 3.0 Notes
 
 |[ ![parts.jpg](/img/mothbot/version3_draft.png)](/img/mothbot/version3_draft.png)|
 |:--:|
@@ -157,6 +165,14 @@ Update (13 OCT 2020):  Version 3 passed the following tests:
 - i2c Screen
 - D4 works
 
+### Notes on Display
+
+- Current (larger) display is nice, but prevents access to screw terminals. Uses 'VCC GND SCL SDA'
+- Can add a rearranged i2c port at the 'top' of U3 (the ATMEGA), arranged as 'GND VCC SCL SDA', and accommodate a [smaller screen](https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=sr_1_8?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-8).  
+- Note: 'GND VCC SCL SDA' [is also common](https://www.amazon.com/Display-Module-SSD1306-Du-pont-Arduino/dp/B07VDXYDVY/ref=sr_1_9?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-9) for the larger displays. 
+
+So, maybe we switch over to 'GND VCC SCL SDA' in general, move pins to above U3. 
+
 |[ ![figA2](/img/mothbot/ver3_success.png)](/img/mothbot/ver3_success.png)|
 |:--:|
 | Mothbot Version 3 seems to work! See the Mothbot Version 3 [initial build video](https://youtu.be/YAIVfK-kL4o).|
@@ -173,13 +189,6 @@ Things to change:
 
 
 
-### Display
-
-- Current (larger) display is nice, but prevents access to screw terminals. Uses 'VCC GND SCL SDA'
-- Can add a rearranged i2c port at the 'top' of U3 (the ATMEGA), arranged as 'GND VCC SCL SDA', and accommodate a [smaller screen](https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=sr_1_8?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-8).  
-- Note: 'GND VCC SCL SDA' [is also common](https://www.amazon.com/Display-Module-SSD1306-Du-pont-Arduino/dp/B07VDXYDVY/ref=sr_1_9?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-9) for the larger displays. 
-
-So, maybe we switch over to 'GND VCC SCL SDA' in general, move pins to above U3. 
 
 
 
