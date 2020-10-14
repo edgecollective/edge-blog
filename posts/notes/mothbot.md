@@ -14,6 +14,19 @@ blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote mon
 
 - [Mothbot Version 3 Parts List](#mothbot_ver3_parts)
 
+## Background
+
+Mothbot is based on the initial JeeNode design by JeeLabs.
+
+It's similar to many 'minimal Arduino' designs.  For example:
+- Jameco 'build your own arduino' [kit](https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2151259_-1)
+- associated [tutorial](https://www.jameco.com/jameco/workshop/jamecobuilds/arduinocircuit.html)
+
+## Burning a bootloader on a 328P using a 328P
+
+Guide [here](http://www.vwlowen.co.uk/arduino/bootloader/page2.htm)
+
+
 ## First Build of the Mothbot
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3588DGfwW04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
