@@ -165,13 +165,11 @@ Update (13 OCT 2020):  Version 3 passed the following tests:
 - i2c Screen
 - D4 works
 
-### Notes on Display
 
-- Current (larger) display is nice, but prevents access to screw terminals. Uses 'VCC GND SCL SDA'
-- Can add a rearranged i2c port at the 'top' of U3 (the ATMEGA), arranged as 'GND VCC SCL SDA', and accommodate a [smaller screen](https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=sr_1_8?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-8).  
-- Note: 'GND VCC SCL SDA' [is also common](https://www.amazon.com/Display-Module-SSD1306-Du-pont-Arduino/dp/B07VDXYDVY/ref=sr_1_9?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-9) for the larger displays. 
+|[ ![figA2](/img/mothbot/mothbot_v3_mvp.png)](/img/mothbot/mothbot_v3_mvp.png)|
+|:--:|
+| Minimal version of the Mothbot version 3. |
 
-So, maybe we switch over to 'GND VCC SCL SDA' in general, move pins to above U3. 
 
 |[ ![figA2](/img/mothbot/ver3_success.png)](/img/mothbot/ver3_success.png)|
 |:--:|
@@ -181,6 +179,14 @@ Things to change:
 - make the resistor footprints longer so that they can lie flat
 - larger text for the scre terminals
 - J1 and J3 terminals are obscured by i2c display -- move stuff?
+
+### Notes on Display
+
+- Current (larger) display is nice, but prevents access to screw terminals. Uses 'VCC GND SCL SDA'
+- Can add a rearranged i2c port at the 'top' of U3 (the ATMEGA), arranged as 'GND VCC SCL SDA', and accommodate a [smaller screen](https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=sr_1_8?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-8).  
+- Note: 'GND VCC SCL SDA' [is also common](https://www.amazon.com/Display-Module-SSD1306-Du-pont-Arduino/dp/B07VDXYDVY/ref=sr_1_9?dchild=1&keywords=SSD1306&qid=1602675432&sr=8-9) for the larger displays. 
+
+So, maybe we switch over to 'GND VCC SCL SDA' in general, move pins to above U3. 
 
 ### <a name="mothbot_ver3_parts"></a> Mothbot Version 3 Parts List / BOM
 
