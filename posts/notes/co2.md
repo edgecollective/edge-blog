@@ -8,6 +8,13 @@ image: img/placeholder.png
 blurb: Notes on inexpensive CO2 monitoring options
 ---
 
+## TODO
+
+14 OCT 2020
+- set up / test heltec gateway again
+- use [this article](https://www.circuits.dk/testing-mh-z19-ndir-co2-sensor-module/) and make an arduino module for reading from the Z19.
+
+
 ## Table of contents
 
 [Feather Hookup Guide for K30](#feather)
@@ -223,10 +230,29 @@ Another option
 
 Mentions infrared. This is the one that Craig used / that I have in my possession now.
 
-
 For sale on [Banggood](
 https://usa.banggood.com/MH-Z19-MH-Z19B-Infrared-CO2-Sensor-Module-Carbon-Dioxide-Gas-Sensor-for-CO2-Monitor-0-5000ppm-MH-Z19B-NDIR-with-Pin-p-1693604.html) for $20.
 
 Goal as of 13 OCT 2020: get this up and running in parallel to the K30 and see how they compare with the 'ambient' test.
 
 Nice [article](https://www.circuits.dk/testing-mh-z19-ndir-co2-sensor-module/) on testing out the Z19.
+
+## Programming the Heltec Gateway
+
+[Guide to using ESP32 in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+
+[Another guide from Sparkfun](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md)
+
+Add this to Boards Manager:
+
+```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
+
+Select 'Heltec Wifi Lora (v2)'
+
+## Programming with Feather
+
+Add this to Boards Manager:
+
+```https://adafruit.github.io/arduino-board-index/package_adafruit_index.json```
+
+
