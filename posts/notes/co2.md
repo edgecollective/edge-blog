@@ -196,10 +196,37 @@ Wiring for test:
 |:--:|
 | Fig B.  Data from Feather, plotted in Arduino plotter utility.  Data shows breathing on sensor at a particular time and and watching decay. Time interval unit is 2 seconds.|
 
-## Z19 CO2 Sensor
+UPDATE: looks like the K30 can be powered by up to 14V.  So a 12V boost, or power supply, could be an option.
+
+Started by closing door, sitting next to sensor.   At 150 time mark, opened door and left room.  Then At 250 time mark, reentered room and closed door. At 280 time mark, started a conversation.
+
+Cf. 'room_test.png'.
+
+'room_test_later.png' -- had a phone call
+
+'room_test_later_2.png' -- left room for a bit with door open, then emilie came back and worked with the door open.
+
+## Reference for typical / expected CO2 values
+
+Nice discussion [here](https://inspectapedia.com/hazmat/CO2_Typical_Levels.php), thanks to Laura P.
+
+## Other CO2 Sensors
+
+### MH-Z14:
+
+Specifically mentions NDIR.
+
+For sale on [Banggood](https://usa.banggood.com/NDIR-CO2-Sensor-MH-Z14A-PWM-NDIR-Infrared-Carbon-Dioxide-Sensor-Module-Serial-Port-0-5000PPM-Controller-p-1248270.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=US&utm_content=minha&utm_campaign=minha-usg-pc&currency=USD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=frank&utm_campaign=frank-ssc-us-all-1108&ad_id=395572890419&cur_warehouse=CN).
+Another option 
+
+### MH-Z19:
+
+Mentions infrared. This is the one that Craig used / that I have in my possession now.
+
 
 For sale on [Banggood](
 https://usa.banggood.com/MH-Z19-MH-Z19B-Infrared-CO2-Sensor-Module-Carbon-Dioxide-Gas-Sensor-for-CO2-Monitor-0-5000ppm-MH-Z19B-NDIR-with-Pin-p-1693604.html) for $20.
 
 Goal as of 13 OCT 2020: get this up and running in parallel to the K30 and see how they compare with the 'ambient' test.
 
+Nice [article](https://www.circuits.dk/testing-mh-z19-ndir-co2-sensor-module/) on testing out the Z19.

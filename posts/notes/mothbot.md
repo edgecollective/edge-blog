@@ -142,3 +142,18 @@ Nice note on [STM32 boards](https://jeelabs.org/2015/11/25/pi-based-stm32f103-de
 |[ ![parts.jpg](/img/mothbot/mothbot_top.png)](/img/mothbot/mothbot_top.png)|
 |:--:|
 |  Final of version 3, as submitted to OSHPARK. Board design files are [here](https://github.com/edgecollective/dippy-slim/tree/master/ver3) |
+
+Update (13 OCT 2020):  Version 3 passed the following tests:
+
+- Power
+- Programmable
+- LoRa Radio
+- i2c port
+- i2c Screen
+- D4 works
+
+
+
+|[ ![figA2](/img/mothbot/ver3_success.png)](/img/mothbot/ver3_success.png)|
+|:--:|
+| Mothbot Version 3 seems to work! |
