@@ -264,3 +264,9 @@ Oct 14 2020
 |:--:|
 | Posting CO2 PPM data from a K30 to FarmOS. |
 
+## CO2 with custom server
+
+(TODO: set up using chappy-server as a model?)
+
+
+
