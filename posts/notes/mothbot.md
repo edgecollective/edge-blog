@@ -14,6 +14,10 @@ blurb: Prototyping the Mothbot -- an Arduino-compatible LoRa node for remote mon
 
 - [Mothbot Version 3 Parts List](#mothbot_ver3_parts)
 
+## TODO
+
+- Cite the JeeLab post on running the 328p at 3.3V and 16MHz, using UNO bootloader 
+
 ## Background
 
 Mothbot is based on the initial JeeNode design by JeeLabs.
