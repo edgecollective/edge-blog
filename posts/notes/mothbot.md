@@ -152,8 +152,11 @@ Update (13 OCT 2020):  Version 3 passed the following tests:
 - i2c Screen
 - D4 works
 
-
-
 |[ ![figA2](/img/mothbot/ver3_success.png)](/img/mothbot/ver3_success.png)|
 |:--:|
-| Mothbot Version 3 seems to work! |
+| Mothbot Version 3 seems to work!
+
+Things to change:
+- make the resistor footprints longer so that they can lie flat
+- larger text for the scre terminals
+- J1 and J3 terminals are obscured by i2c display -- move stuff?
