@@ -222,6 +222,13 @@ Aside: some of the Mothbot parts via Amazon:
 Also: 
 - [Heltec Wifi + Lora based on ESP32](https://www.amazon.com/gp/product/B076MSLFC9/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
 
+
+Update 14 OCT 2020:
+
+|[ ![figA2](/img/mothbot/mothbot_success.png)](/img/mothbot/feather_and_mothbot_talking.mp4)|
+|:--:|
+| Sands Fish's build of the Mothbot! |
+
 ----
 
 ## Misc
@@ -231,6 +238,10 @@ Using Electron to talk to serial port:
 - [Electron boilerplates](https://www.electronjs.org/community#boilerplates)
 - [Read the serialport using NodeJS](https://hackernoon.com/arduino-serial-data-796c4f7d27ce)
 - [Full project on using Electron with serialport](https://girishjoshi.io/post/access-serialport-from-electron-application-and-creating-gui-for-micropython-repl-on-esp8266/) <--- this is the one to try
+
+
+
+
 
 
 
