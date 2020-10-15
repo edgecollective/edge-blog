@@ -11,7 +11,8 @@ blurb: Notes on inexpensive CO2 monitoring options
 ## TODO
 
 14 OCT 2020
-- set up / test heltec gateway again
+- set up / test heltec gateway again to send to FarmOS [X]
+- also send to custom server on DO;
 - use [this article](https://www.circuits.dk/testing-mh-z19-ndir-co2-sensor-module/) and make an arduino module for reading from the Z19.
 
 
@@ -256,13 +257,13 @@ Add this to Boards Manager:
 ```https://adafruit.github.io/arduino-board-index/package_adafruit_index.json```
 
 
-## CO2 with K30 to FarmOS
+## <a name="co2_farmos_overnight"></a> CO2 with K30 to FarmOS
 
 Oct 14 2020
 
 |[ ![figB](/img/co2/co2_farmos.png)](/img/co2/co2_farmos.png)|
 |:--:|
-| Posting CO2 PPM data from a K30 to FarmOS. |
+| Posting CO2 PPM data from a K30 to FarmOS, measuring overnight from 14 OCT to 15 OCT 2020. |
 
 ## CO2 with custom server
 
