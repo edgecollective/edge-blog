@@ -351,4 +351,4 @@ The calibration assumption with these meters seems to be that they use the lowes
 
 Also: readings for NDIR are temp, humidity, and pressure dependent.  My sense is that all the sensors measure these variables and compensate; the SCD30 also allows for feeding it the current ambient pressure and using it for calibration.
 
-
+My current thought is the SCD30 would be a good one to get, along with an ambient pressure sensor.
