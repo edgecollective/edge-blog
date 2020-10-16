@@ -2,7 +2,7 @@
 pageTitle: DIY CO2 Monitoring
 layout: layout.njk
 date: 2020-09-29
-updated: 2020-09-29
+updated: 2020-10-16
 tags: notes 
 image: img/placeholder.png
 blurb: Notes on inexpensive CO2 monitoring options
@@ -352,3 +352,12 @@ The calibration assumption with these meters seems to be that they use the lowes
 Also: readings for NDIR are temp, humidity, and pressure dependent.  My sense is that all the sensors measure these variables and compensate; the SCD30 also allows for feeding it the current ambient pressure and using it for calibration.
 
 My current thought is the SCD30 would be a good one to get, along with an ambient pressure sensor.
+
+----
+
+OCT 16 2020
+
+[Example](https://www.amazon.com/DFROBOT-Gravity-Analog-Sensor-Arduino/dp/B00R5CCH7U/ref=pd_lpo_469_t_0/147-7195648-8919536?_encoding=UTF8&pd_rd_i=B00R5CCH7U&pd_rd_r=8568e96f-b65d-4703-880d-17fe796d82cb&pd_rd_w=zJnfI&pd_rd_wg=LWVMI&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=2CT08KJ5JB9PC3GFSM38&psc=1&refRID=2CT08KJ5JB9PC3GFSM38) of an electrochemical CO2 sensor.
+
+Really [nice collection of references](https://www.co2meter.com/pages/indoor-air-quality-links) from co2meter.com 
+
