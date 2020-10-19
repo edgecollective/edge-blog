@@ -31,4 +31,6 @@ List of itunes podcast categories [here](https://www.podcastinsights.com/itunes-
 ----
 18 OCT 2020
 
+add episodes to the 'episodes' folder in YAML format
+
 use './gen_podcast_feed.sh' to generate the feed, which is called 'podcast.xml'
