@@ -8,6 +8,10 @@ image: img/placeholder.png
 blurb: Notes on setting up podcasting infrastructure
 ---
 
+## TODO
+
+- use python feedgen script to print out list of podcasts locally, and descriptions, to test the code.
+
 ## Misc notes
 
 [yaml generator in python](https://github.com/yaml/pyyaml)
