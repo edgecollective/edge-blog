@@ -412,11 +412,16 @@ OCT 23 2020
 
 [Field calibration guide for SCD30](/data/CD_AN_SCD30_Field_Calibration_D2.pdf)
 
-
+#### Manual Field Calibration
 
 |[ ![figB](/img/co2/scd30_frc.png)](/img/co2/scd30_frc.png)|
 |:--:|
-| Effect of 'forced recalibration' (FRC) of SCD30 as described in [this doc](/data/CD_AN_SCD30_Field_Calibration_D2.pdf)|
+| Effect of 'forced recalibration' (FRC) of SCD30 as described in the [SCD30 ield calibration guide](/data/CD_AN_SCD30_Field_Calibration_D2.pdf.)|
 
+##### Automatic Field Calibration
+
+|[ ![figB](/img/co2/scd30_asc_calibration.png)](/img/co2/scd30_asc_calibration.png)|
+|:--:|
+| Effect of automatic self-calibration (ASC) algorithm used in SCD30 as described in the [SCD30 ield calibration guide](/data/CD_AN_SCD30_Field_Calibration_D2.pdf).|
 
 
