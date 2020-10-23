@@ -2,7 +2,7 @@
 pageTitle: DIY CO2 Monitoring
 layout: layout.njk
 date: 2020-09-29
-updated: 2020-10-16
+updated: 2020-10-23
 tags: notes 
 image: img/placeholder.png
 blurb: Notes on inexpensive CO2 monitoring options
@@ -407,6 +407,9 @@ Seems like this latter mode would work best.
 
 OCT 23 2020
 
-[Field guide for SCD30](/data/CD_AN_SCD30_Field_Calibration_D2.pdf)
+
+### SCD30 Field Calibration 
+
+[Field calibration guide for SCD30](/data/CD_AN_SCD30_Field_Calibration_D2.pdf)
 
 
