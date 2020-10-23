@@ -361,3 +361,52 @@ OCT 16 2020
 
 Really [nice collection of references](https://www.co2meter.com/pages/indoor-air-quality-links) from co2meter.com 
 
+----
+
+OCT 21 2020
+
+Looks like the SCD30 can run off 3.3V, requiring max current of 80mA -- that's well within range of Feather LDO I believe!
+
+SCD30 [datasheet](https://cdn.sparkfun.com/assets/1/a/7/9/9/Sensirion_CO2_Sensors_SCD30_Preliminary-Datasheet.pdf) has the following table:
+
+SCD30 [handling and assembly guide](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Assembly_Guideline.pdf)
+
+|[ ![figB](/img/co2/electric_scd30.png)](/img/co2/electric_scd30.png)|
+|:--:|
+| Electrical characeristics of SCD30. |
+
+Listing for th SCD30 on Amazon, [here](https://www.amazon.com/SCD30-CO2-SENSOR-MODULE-Detection/dp/B07R1KCJ8F). 
+
+And on Digikey, [here](https://www.digikey.com/en/products/detail/sensirion-ag/SCD30/8445334?utm_adgroup=Gas%20Sensors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Sensors%2C%20Transducers&utm_term=&utm_content=Gas%20Sensors&gclid=Cj0KCQjwuL_8BRCXARIsAGiC51DYiI4bJ21_4XyMzXfu4_-hHUoTJMfTvMqc2sEJYov2--rf9fmn45IaAsNcEALw_wcB).
+
+Note: should likely pair with a precision pressure sensor like the BME280 or better. 
+
+----
+
+OCT 22 2020
+
+CO2Meter note on calibration [here](https://www.co2meter.com/blogs/news/7512282-co2-sensor-calibration-what-you-need-to-know)
+
+Calibration for the SCD30 sensor document [here](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf) p. 7 / 10.
+
+|[ ![figB](/img/co2/scd30_calibration.png)](/img/co2/scd30_calibration.png)|
+|:--:|
+| Calibration of the SCD30, via [this document](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf)|
+
+Upshot:  seems as though with the ABC algorithm, sensor needs to see at least 1 hour of fresh air daily. 
+With the 'manual' mode, can run it for 2 minutes outdoors and press button saying 'calibrate' and set it to '400ppm'.  
+Seems like this latter mode would work best. 
+
+### Assembly of SCD30
+
+|[ ![figB](/img/co2/scd30_assembly.png)](/img/co2/scd30_assembly.png)|
+|:--:|
+| Assembly of SCD30 PCB, via [this doc](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Assembly_Guideline.pdf)|
+
+-----
+
+OCT 23 2020
+
+[Field guide for SCD30](/data/CD_AN_SCD30_Field_Calibration_D2.pdf)
+
+

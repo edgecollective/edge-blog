@@ -17,8 +17,20 @@ A useful associted 'PUT' script is [here](https://gist.github.com/dwblair/4cfbcc
 
 Adding headers to esp32 explanation [here](https://techtutorialsx.com/2018/01/03/esp32-arduino-basic-authentication/)
 
+Making a PUT request [here](https://techtutorialsx.com/2019/01/07/esp32-arduino-http-put-request/).
+
+Using ArduinoJSON with HTTPClient [here](https://arduinojson.org/v6/how-to/use-arduinojson-with-httpclient/).
+
+Creating nested json objects in ArduinoJSON [here](https://arduinojson.org/v5/faq/how-to-create-complex-nested-objects/).
+
 ## Work Log
 
 ---
 
-21 OCT 2020 -- fixed sqlite3 missing module.
+21 OCT 2020
+
+Fixed sqlite3 missing module.
+
+Got an ESP32 to post data via JSON, [here](https://github.com/edgecollective/esp32-p2p-farm/tree/main/test_put_json).
+
+
