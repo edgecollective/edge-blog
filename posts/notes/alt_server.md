@@ -34,3 +34,22 @@ Fixed sqlite3 missing module.
 Got an ESP32 to post data via JSON, [here](https://github.com/edgecollective/esp32-p2p-farm/tree/main/test_put_json).
 
 
+---
+
+23 OCT 2020
+
+Trying to use [this fastify basic auth module](https://github.com/fastify/fastify-basic-auth) as part of the codebase.
+
+ ... implemented!
+
+----
+
+24 OCT 2020
+
+Some next steps:
+- Make a video explanation of the idea.
+- Work out the storage math, and the economics of storage space. 
+- This might provide a motivation for using the hyper protocol!
+- Put demo code on the site for using Python, and ESP32, CircuitPy, curl to upload data.
+- Put it at EC subdomain, or something separate.
+
