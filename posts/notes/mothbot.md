@@ -239,10 +239,12 @@ Using Electron to talk to serial port:
 - [Read the serialport using NodeJS](https://hackernoon.com/arduino-serial-data-796c4f7d27ce)
 - [Full project on using Electron with serialport](https://girishjoshi.io/post/access-serialport-from-electron-application-and-creating-gui-for-micropython-repl-on-esp8266/) <--- this is the one to try
 
+## Work Log
 
+---
 
+Oct 24 2020
 
-
-
+Created dimensions document for Mothbot ver 0.1, [here](https://github.com/edgecollective/dippy-slim/blob/master/ver1/mothbot_dim/mothbot_dim.pdf).
 
 

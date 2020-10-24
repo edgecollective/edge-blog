@@ -52,4 +52,12 @@ Some next steps:
 - This might provide a motivation for using the hyper protocol!
 - Put demo code on the site for using Python, and ESP32, CircuitPy, curl to upload data.
 - Put it at EC subdomain, or something separate.
+- Add CSV export
+- Add JSON export (already there mostly)
+- Add simple graphing
+- Add simple metrics (size of file, timespan of datafile, num datapoints)
+- Add human-readable timestamp (at least e.g. in CSV export)
+
+
+
 
