@@ -25,6 +25,8 @@ Need designs for:
 
 ## Overview
 
+[Assembly Guide for Version 4](#version_4_assembly).
+
 [Video explanation](https://youtu.be/LljqFv8GzxA) of the current status as of Oct 07 2020  ..
 
 ## AM2315 and 'new' i2c on Feather M0
