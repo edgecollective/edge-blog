@@ -14,13 +14,22 @@ blurb: Instructions for End-to-End Greenhouse monitoring stack
 
 ## Overview 
 
-The following is a prototype for a free and open source 'end-to-end' system for monitoring greenhouse parameters.  It consists of three main parts:
+Here we're going to be describing how to set up a basic 'Greenhouse Monitoring' system, which consists of three main parts:
 
-- **Remote node** -- consisting of a microcontroller + sensor, that captures a signal (e.g. temperature) and relays this data via low-power radio to a wifi gateway
+|[ ![figA2](/img/valedalama/greenhouse_stack.png)](/img/valedalama/greenhouse_stack.png)|
+|:--:|
+| Overview of the flow of data in this system. |
+
+- **Remote Node** -- consisting of a microcontroller + sensor, that captures a signal (e.g. temperature) and relays this data via low-power radio to a wifi gateway
 - **Gateway** -- which relays this incoming sensor data to a server
-- **Server** -- which stores this sensor data in a database.
+- **Server** -- a server which receives data from the gateway and stores it in a database.
 
-The following guide helps to set up this system, in a series of steps.
+## Materials / software used in this example
+
+- **Remote Node**: A [Feather M0 LoRa](https://www.adafruit.com/product/3178), an [AM2315 Temp + Humidity sensor](https://www.adafruit.com/product/1293), and a [PVOS 'Lama' Board Ver 5](https://oshpark.com/shared_projects/vQ5JTv0Z).
+- **Gateway**: A ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/project/wifi-lora-32/).
+- **Server**: the Bayou cooperative sensor data platform.
+
 
 ---
 
@@ -33,6 +42,8 @@ The following guide helps to set up this system, in a series of steps.
 ---
 
 ## <a name="micro"></a> 1. Server setup
+
+![figA2](/img/valedalama/stack_server.png)
 
 We will be covering two different server options:
 
@@ -54,6 +65,7 @@ For example, a typical URL with the keys actually inserted looks like this:
 ```
 https://edgecollective.farmos.net/farm/sensor/listener/0ce692a8fd8474137839535dd7997a28?private_key=ba0c7dbfd4321b3abaa7851457dc12ef
 ```
+
 Find this URL (with the keys inserted) for your sensor feed, and take note of it (keep the relevant FarmOS browser tab open, or copy-paste this URL into a text file.) It will be used in the  [Gateway Setup](#gateway) section below.
 
 ### Bayou
@@ -71,6 +83,8 @@ This will generate a **public key** and a **private key**.
 ---
 
 ## <a name="micro"></a> 2. Remote Node setup
+
+![figA2](/img/valedalama/stack_node.png)
 
 In our example setup for this guide, the Remote node consists of:
 
@@ -113,5 +127,11 @@ Note that all resistors (4.7K or 10K) should also be soldered to the board.
 
 ## 3. Gateway setup
 
+![figA2](/img/valedalama/stack_gateway.png)
+
+You can purchase a Heltec Wifi-Lora 32 v2 [here](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=asc_df_B076MSLFC9/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=&hvnetw=g&hvrand=4477519221563307865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-570414542843&psc=1).
+
 Sample code for esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
+
+Example of data posted [here](http://159.65.226.222:3000/drives/1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba5e)
 
