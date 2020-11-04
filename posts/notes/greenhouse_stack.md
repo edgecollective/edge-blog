@@ -18,17 +18,24 @@ Here we're going to be describing how to set up a basic 'Greenhouse Monitoring' 
 
 |[ ![figA2](/img/valedalama/greenhouse_stack.png)](/img/valedalama/greenhouse_stack.png)|
 |:--:|
-| Overview of the flow of data in this system. |
+| Overview of the flow of data in the greenhouse monitoring 'stack'. |
 
-- **Remote Node** -- consisting of a microcontroller + sensor, that captures a signal (e.g. temperature) and relays this data via low-power radio to a wifi gateway
-- **Gateway** -- which relays this incoming sensor data to a server
-- **Server** -- a server which receives data from the gateway and stores it in a database.
+1. **Remote Node** -- consisting of a microcontroller + sensor, that captures a signal (e.g. temperature) and relays this data via low-power radio to a wifi gateway
+2. **Gateway** -- which relays this incoming sensor data to a server
+3. **Server** -- a server which receives data from the gateway and stores it in a database.
 
 ## Materials / software used in this example
 
-- **Remote Node**: A [Feather M0 LoRa](https://www.adafruit.com/product/3178), an [AM2315 Temp + Humidity sensor](https://www.adafruit.com/product/1293), and a [PVOS 'Lama' Board Ver 5](https://oshpark.com/shared_projects/vQ5JTv0Z).
-- **Gateway**: A ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/project/wifi-lora-32/).
-- **Server**: the Bayou cooperative sensor data platform.
+**Remote Node**. In order to build the remote node used in this example, you'll need to acquire:
+- a [Feather M0 LoRa](https://www.adafruit.com/product/3178) (link allows purchase via Adafruit, Digikey, or etc.);
+- an [AM2315 Temp + Humidity sensor](https://www.adafruit.com/product/1293) (purchase via Adafruit, Digikey, or etc.);
+- and a [PVOS 'Lama' Board Ver 5](https://oshpark.com/shared_projects/vQ5JTv0Z) (purchase via OSHPARK, JLCPCB, etc.). 
+
+Some simple hand-soldering (beginner level) and wire stripping is required. 
+
+**Gateway**:  The gateway we'll be using is a ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/project/wifi-lora-32/), it is available widely online, including [here](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=asc_df_B076MSLFC9/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=&hvnetw=g&hvrand=4477519221563307865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-570414542843&psc=1). No soldering is required.
+
+**Server**: the [Bayou cooperative sensor data platform](http://159.65.226.222:3000/). This donation-based data service allows users to set up free sensor data feeds. Email collaborate at edgecollective dot io to request a password.
 
 
 ---
@@ -41,7 +48,7 @@ Here we're going to be describing how to set up a basic 'Greenhouse Monitoring' 
 
 ---
 
-## <a name="micro"></a> 1. Server setup
+## <a name="server"></a> 1. Server setup
 
 ![figA2](/img/valedalama/stack_server.png)
 
@@ -117,19 +124,20 @@ Note that all resistors (4.7K or 10K) should also be soldered to the board.
 
 ### Sensor Test
 
-[feather + am2315 TODO]
+[TODO feather + am2315]
 
 ### Radio Setup
 
-[feather + am2315 + lora radio]
+[TODO feather + am2315 + lora]
 
 ---
 
-## 3. Gateway setup
+## <a name="gateway"></a> 3. Gateway setup
+
+[TODO ]
 
 ![figA2](/img/valedalama/stack_gateway.png)
 
-You can purchase a Heltec Wifi-Lora 32 v2 [here](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=asc_df_B076MSLFC9/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=&hvnetw=g&hvrand=4477519221563307865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-570414542843&psc=1).
 
 Sample code for esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
 
