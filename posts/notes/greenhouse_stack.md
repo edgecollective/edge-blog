@@ -113,5 +113,5 @@ Note that all resistors (4.7K or 10K) should also be soldered to the board.
 
 ## 3. Gateway setup
 
-[esp32 gateway]
+Sample code for esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
 
