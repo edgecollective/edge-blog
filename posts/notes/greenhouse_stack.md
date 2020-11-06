@@ -29,8 +29,9 @@ Here we're going to be describing how to set up a basic 'Greenhouse Monitoring' 
 ## Table of Contents 
 
 1. [Setting up the **Server**](#server)
-2. [Setting up the **Remote Node**](#micro)
-3. [Setting up the **Gateway**](#gateway)
+2. [Setting up the **Arduino IDE**](#arduino)
+3. [Setting up the **Remote Node**](#micro)
+4. [Setting up the **Gateway**](#gateway)
 
 ---
 
@@ -77,7 +78,51 @@ This will generate a **public key** and a **private key**.
 
 ---
 
-## <a name="micro"></a> 2. Remote Node setup
+## <a name="arduino"></a> 2. Setting up the Arduino IDE
+
+In order to load firmware onto the Remote Node and the Gateway, we'll need to set up the Arduino IDE to program the Feather M0 (for the Remote node, which uses a Feather M0 LoRa), and an ESP32-based device (for the Gateway, which uses an ESP32-based Heltec device). 
+
+(You can download the Arduino IDE for your operating system [here]().)
+
+We can configure the Arduino IDE to talk to these boards using the instructions below.
+
+In the Arduino IDE, go to **File: Preferences** menu.  You will see an "Additional Boards Manager URLs" dialog box:
+
+![figA2](/img/valedalama/preferences.png)
+
+Enter the following URLS into this dialog box (note, this contains two URLs separated by a comma):
+
+```
+https://adafruit.github.io/arduino-board-index/package_adafruit_index.json, https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+```
+After entering them, it might look something like this:
+
+![figA2](/img/valedalama/pref_comma.png)
+
+Hit "OK".  
+
+Now go to "Tools: Board: Boards Manager" menu.
+
+(Note that the following installation process can take several minutes for each board setup.)
+
+You need to install functionality for:
+
+- The Arduino SAMD board definitions (search, and click 'Install'):
+
+![figA2](/img/valedalama/arduino_samd.png)
+
+- the Adafruit SAMD board definitions (search, and click 'Install'):
+
+![figA2](/img/valedalama/adafruit_samd.png)
+
+
+- and the ESP32 board definitions (search, and click 'Install'):
+
+![figA2](/img/valedalama/esp32.png)
+
+---
+
+## <a name="micro"></a> 3. Remote Node setup
 
 ![figA2](/img/valedalama/stack_node.png)
 
@@ -86,6 +131,12 @@ In our example setup for this guide, the Remote node consists of:
 - **Sensor**: an AM2315 Temperature and Humidity Sensor
 - **Microcontroller**: a Feather M0 LoRa
 - **Additional Hardware**: a PVOS Greenhouse Motherboard Version 4 or Version 5.
+
+### Configuring the Arduino IDE to program Feather M0 LoRa
+
+- **Board selection**. From the Arduino IDE Tools menu, select: "Tools:Board:Adafruit SAMD:Adafruit Feather M0"
+
+- **Port selection**. From the Arduino IDE Tools: Port menu, select the port to which your Feather M0 is connected via USB.
 
 ### Assembling the Remote Node
 
@@ -150,14 +201,19 @@ Code for adding sleep functionality is [here](https://github.com/edgecollective/
 
 ---
 
-## <a name="gateway"></a> 3. Gateway setup
-
-[TODO ]
-
-**Gateway**:  The gateway we'll be using is a ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/project/wifi-lora-32/), it is available widely online, including [here](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=asc_df_B076MSLFC9/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=&hvnetw=g&hvrand=4477519221563307865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-570414542843&psc=1). No soldering is required.
+## <a name="gateway"></a> 4. Gateway setup
 
 ![figA2](/img/valedalama/stack_gateway.png)
 
+The gateway we'll be using is a ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/project/wifi-lora-32/), it is available widely online, including [here](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=asc_df_B076MSLFC9/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=&hvnetw=g&hvrand=4477519221563307865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-570414542843&psc=1). No soldering is required.
+
+### Configuring the Arduino IDE to program Heltec ESP32-LoRa V2
+
+- **Board selection**. From the Arduino IDE Tools menu, select: "Tools:Board:ESP 32 Arduino:Heltec Wifi LoRa (V2)"
+
+- **Port selection**. From the Arduino IDE Tools: Port menu, select the port to which your Heltec is connected via USB.
+
+### Uploading Gateway Firmware
 
 Sample code for esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
 
