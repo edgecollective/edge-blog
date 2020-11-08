@@ -193,9 +193,16 @@ Note that all resistors (4.7K or 10K) should also be soldered to the board.
 
 Code for testing the AM2315 with the Feather is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/remote/feather_firmware/featherm0_am2315).
 
+![](/img/valedalama/featherm0_am2315.png)
+
+
 ### Radio Setup
 
 Code for measuring the AM2315 and sending it via LoRa is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/remote/feather_firmware/featherm0_am2315_lora).
+
+Note: you'll need to modify the code to match the radio frequency you're using:
+
+![](/img/valedalama/featherm0_am2315_radio_freq.png)
 
 Code for adding sleep functionality is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/remote/feather_firmware/featherm0_am2315_lora_sleep).
 
@@ -209,13 +216,36 @@ The gateway we'll be using is a ['Heltec Wifi-LoRa 32 v2'](https://heltec.org/pr
 
 ### Configuring the Arduino IDE to program Heltec ESP32-LoRa V2
 
+After the initial setup process described above for configuring the Arduino IDE to work with the Heltec and Feather device, you can easily select the proper Port and Board settings in the Arduino IDE as follows:
+
 - **Board selection**. From the Arduino IDE Tools menu, select: "Tools:Board:ESP 32 Arduino:Heltec Wifi LoRa (V2)"
 
 - **Port selection**. From the Arduino IDE Tools: Port menu, select the port to which your Heltec is connected via USB.
 
 ### Uploading Gateway Firmware
 
-Sample code for esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
+Sample code for your esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
 
-Example of data posted [here](http://159.65.226.222:3000/drives/1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba5e)
+First, set up the configuration file, ```configuration.h```, which is located in your gateway arduino code folder.  If you open the folder in the Arduino IDE,  configuration.h should open automatically in a separate tab
+
+Click on that tab in order to edit your credentials.
+
+![](/img/valedalama/heltec_credentials.png)
+
+Here you can enter your wifi credentials.  You can also enter the FarmOS and/or Bayou credentials that you took not of in previous setup steps above.
+
+Next, you'll need to modify the LoRa radio frequency to match your setup:
+
+
+![](/img/valedalama/heltec_wifi_lora_gateway_freq.png)
+
+NOTE:  As of this writing, the code only works with *either* Bayou *or* FarmOS.  You may need to comment the relevant other upload section accordingly.
+
+Finally, click on the 'upload' button.
+
+You should expect to see your device connecting to your wifi, then receiving data from the Feather and posting it to Bayou / FarmOS.
+
+### Example data 
+
+Example of Bayou server data [here](http://159.65.226.222:3000/drives/1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba5e)
 
