@@ -283,7 +283,9 @@ public key: 1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba53
 private key: db84537367d8e9026e93b97cfef3adc11781d90abb56f24d96ee12e7ce899344
 ```
 
-Then you'd modify the ```configuraiton.h``` file to look like this:
+Then your 'bayou_url' is formed by pre-pending ```http://157.230.188.100:3000/api/drives/``` to your public key, and your bayou_privkey is simply your private key.
+
+In our example, you'd modify the ```configuration.h``` file to look like this:
 
 ```
 const char *SSID = "(YOUR WIFI SSID)";
