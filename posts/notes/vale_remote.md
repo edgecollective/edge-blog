@@ -135,5 +135,20 @@ The associated [version 5 kicad pcb file]() is easy to upload to [Aisler](aisler
 
 ![](/img/valedalama/aisler_v5.png)
 
+----
+
+2020 Nov 11
+
+Lucio's setup, with his milled board:
+
+![](/img/valedalama/lucio_setup.jpeg)
+
+Sensor working with the feather:
+
+![](/img/valedalama/feather_working.jpeg)
+
+Data flowing through to Bayou:
+
+![](/img/valedalama/bayou_data.png)
 
 
