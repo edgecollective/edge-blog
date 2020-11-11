@@ -125,6 +125,15 @@ It is obvious from the footprints on the board which of the above go where :)
 
 Note: the ESP32 device only requires that the accompanying antenna that came with the baord be plugged into it (it's a bit fiddly, but no soldering required). 
 
+-----
+
+2020 Nov 10
+
+![](/img/valedalama/v5_success.png)
+
+The associated [version 5 kicad pcb file]() is easy to upload to [Aisler](aisler.net) (German PCB producer) -- about $25 euros for 3 PCBs, 3-5 day turnaround:
+
+![](/img/valedalama/aisler_v5.png)
 
 
 

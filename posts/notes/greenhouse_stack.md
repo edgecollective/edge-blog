@@ -70,11 +70,32 @@ You can watch a short video on setting up a [Bayou](http://159.65.226.222:3000/)
 
 The basic steps are:
 
-- visit [Bayou](http://159.65.226.222:3000/) (you can get a login via word-of-mouth), and fill in the forms for 'Create a data feed'.  
+1. Visit [Bayou](http://159.65.226.222:3000/).  There may be a 'username' and 'password' required to access the site -- contact collaborate@edgecollective.io to request a login!
 
-This will generate a **public key** and a **private key**.  
+|[ ![figA2](/img/valedalama/bayou_landing.png)](/img/valedalama/bayou.png)|
+|:--:|
+| The Bayou main site.|
 
-- take note of these; you will use them in your gateway configuration file in the [Gateway Setup](#gateway) step below.
+2. To create a new data feed, enter new values for your feed in the 'name' and 'description' fields, and click Create.
+
+|[ ![figA2](/img/valedalama/bayou_create.png)](/img/valedalama/bayou_create.png)|
+|:--:|
+| Create a new data feed on Bayou by entering a 'name' and 'description' for the feed, and then pressing the 'Create' button. |
+
+3. This will generate a **public key** and a **private key**. 
+
+> **IMPORTANT:  Take note of these keys!** Copy them to a separate text file for safekeeping -- you will use them in your gateway configuration file in the [Gateway Setup](#gateway) step below. 
+
+|[ ![figA2](/img/valedalama/bayou_keys_highlight.png)](/img/valedalama/bayou_keys_highlight.png)|
+|:--:|
+| After clicking 'create', you'll be shown a Public Key and Private Key.  Take note of these! |
+
+4. To view a feed you've created, enter the **public key** into the 'View a data feed!' section, in the 'key' field, and click View.
+
+|[ ![figA2](/img/valedalama/bayou_view.png)](/img/valedalama/bayou_view.png)|
+|:--:|
+| To view a feed you've created, enter the **public key** into the 'View a data feed!' section, in the 'key' field, and click View. |
+
 
 ---
 
