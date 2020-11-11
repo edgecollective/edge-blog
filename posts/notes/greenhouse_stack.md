@@ -96,7 +96,6 @@ The basic steps are:
 |:--:|
 | To view a feed you've created, enter the **public key** into the 'View a data feed!' section, in the 'key' field, and click View. |
 
-
 ---
 
 ## <a name="arduino"></a> 2. Setting up the Arduino IDE
@@ -245,18 +244,60 @@ After the initial setup process described above for configuring the Arduino IDE 
 
 ### Uploading Gateway Firmware
 
-Sample code for your esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos)
+Sample code for your esp32-lora gateway is [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/gateway/heltec_wifi_lora_bayou_farmos).  You should download this folder and open it up in the ArduinoIDE.  
 
-First, set up the configuration file, ```configuration.h```, which is located in your gateway arduino code folder.  If you open the folder in the Arduino IDE,  configuration.h should open automatically in a separate tab
-
-Click on that tab in order to edit your credentials.
+First, set up the configuration file, ```configuration.h```, which is located in your gateway arduino code folder.  If you open the folder in the Arduino IDE,  configuration.h should open automatically in a separate tab. Click on that tab in order to edit your credentials.
 
 ![](/img/valedalama/heltec_credentials.png)
 
-Here you can enter your wifi credentials.  You can also enter the FarmOS and/or Bayou credentials that you took not of in previous setup steps above.
+
+The ```configuration.h``` file has the following fields:
+
+```
+const char *SSID = "(YOUR WIFI SSID)";
+const char *WiFiPassword = "(YOUR WIFI PASSWORD)";
+const char* bayou_url = "(YOUR BAYOU URL)";
+const char* bayou_privkey = "(YOUR BAYOU PRIVATE KEY)";
+const char* farmOS_url = "(YOUR FARMOS URL)";
+```
+
+#### Setting up wifi
+
+In the credentials.h file, you'll see a place to enter your wifi credentials.  For example, if your wifi's name were 'Nancy' and your password were 'Drew1234', you'd edit the configurations.h file to look like the following:
+
+```
+const char *SSID = "Nancy";
+const char *WiFiPassword = "Drew1234";
+const char* bayou_url = "(YOUR BAYOU URL)";
+const char* bayou_privkey = "(YOUR BAYOU PRIVATE KEY)";
+const char* farmOS_url = "(YOUR FARMOS URL)";
+```
+#### Setting up Bayou credentials
+
+If you're posting to Bayou, you'll want to use the Bayou publickey and private you created above, and enter them into the configuration.h file. 
+
+For examle, if your Bayou public key / private key pair (generated in the server setup above) were:
+
+```
+public key: 1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba53
+private key: db84537367d8e9026e93b97cfef3adc11781d90abb56f24d96ee12e7ce899344
+```
+
+Then you'd modify the ```configuraiton.h``` file to look like this:
+
+```
+const char *SSID = "(YOUR WIFI SSID)";
+const char *WiFiPassword = "(YOUR WIFI PASSWORD)";
+const char* bayou_url = "http://157.230.188.100:3000/api/drives/1a142aee9702045f3049325318f14fab10d24ce3e0c8a387d092759c0594ba53";
+const char* bayou_privkey = "db84537367d8e9026e93b97cfef3adc11781d90abb56f24d96ee12e7ce899344";
+const char* farmOS_url = "(YOUR FARMOS URL)";
+```
+
+ (Note, you don't need to modify the FarmOS parameters in configuration.h if you're not posting to FarmOS.)
+
+#### Setting the LoRa frequency
 
 Next, you'll need to modify the LoRa radio frequency to match your setup:
-
 
 ![](/img/valedalama/heltec_wifi_lora_gateway_freq.png)
 
