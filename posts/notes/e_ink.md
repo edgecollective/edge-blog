@@ -38,3 +38,17 @@ which is explained along with other code [here](https://github.com/yy502/ePaperD
 
 ## Working code, SD card to itsym0 4.2 in e-ink
 
+Code on github is [here](
+https://github.com/edgecollective/eink-map/tree/main/GxEPD_SD_itsym0)
+
+## Converting images
+
+Great little tutorial [here](https://steve.fi/hardware/d1-epaper/)
+
+```
+convert Lenna.png -monochrome lenna-1.png
+```
+
+```
+convert lenna.png -monochrome -resize 200x320\! lenna4.bmp
+```

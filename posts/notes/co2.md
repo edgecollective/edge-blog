@@ -431,3 +431,87 @@ OCT 24 2020
 Might consider adding a high-precision pressure sensor to any SCD30 breakout board; the SCD30 can compensate for pressure if sent values directly.  E.g. the [BMP388 breakout from Adafruit](https://www.adafruit.com/product/3966).
 
 
+----
+
+NOV 12 2020
+
+Quick task: Feather-based breakout for SCD30 + BMP388 or equiv. 
+- can run on USB or lithium ion battery
+- mount for SCD30
+
+Any other useful things to add?  
+- i2c and uart breakouts?
+- display header -- oled to show graph of last few hours, w/ normal range?
+
+Should we use the ESP32?
+
+If we use Heltec, it could be a remote node *or* a gateway ...
+
+That's an argument for using the Heltec ...
+
+Looks like SCD30 can use i2c ... 
+... other sensors can use i2c (break it out!) or UART ...
+
+which library does Sparkfun use?
+
+### SCD30 library and pinout
+
+**Sparkfun SCD30 library** Ah, here's the [Sparkfun SCD30 CO2 Library](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).  They use i2c, great!
+
+**SCD30 pinout** From the [SCD30 datasheet](https://cdn.sparkfun.com/assets/1/a/7/9/9/Sensirion_CO2_Sensors_SCD30_Preliminary-Datasheet.pdf):
+
+[![](/img/co2/scd30_pinout.png)](/img/co2/scd30_pinout.png)
+
+### Making a breakout
+
+Pinout for [BMP388](https://www.adafruit.com/product/3966), precision temp + pressure ...
+
+[![](/img/co2/bmp388.jpg)](/img/co2/bmp388.jpg)
+
+Current thinking: make a place for the i2c oled displays, both the thin and the larger versions.
+
+Ahhh ... [BM390](https://www.adafruit.com/product/4816) has even greater precision, why not go for that. Looks like same pinout, in fact.
+
+#### BMP390 Pinout
+
+(Same as BMP380)
+
+[![](/img/co2/bmp390.jpg)](/img/co2/bmp390.jpg)
+
+Question -- do we need the INT pin assigned to a feather pin?
+
+Looks like it might only be for SPI -- see Adafruit description of [pinout](https://learn.adafruit.com/adafruit-bmp388-bmp390-bmp3xx/pinouts). In any case, not used in their libraries, so don't assign for now.
+
+#### Feather M0 pinout
+
+[![](/img/co2/feather_m0_pinout.jpg)](/img/co2/feather_m0_pinout.jpg)
+
+#### Adding a second UART to the Feather M0
+
+Guide is [here](https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports/creating-a-new-serial)
+
+They give an example with D10 as TX and D11 as RX.  So, break out those pins.
+
+#### Display
+
+- [Small i2c display] is 38x12mm.
+
+- [Large i2c display](https://www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/ref=psdc_306754011_t2_B0761LV1SD) is 27mm x 27mm.
+
+##### Breakout REV A
+
+Current breakout board is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/atkins).
+
+
+
+
+
+
+
+
+
+
+
+
+
+

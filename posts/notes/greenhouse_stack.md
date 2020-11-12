@@ -297,6 +297,8 @@ const char* farmOS_url = "(YOUR FARMOS URL)";
 
  (Note, you don't need to modify the FarmOS parameters in configuration.h if you're not posting to FarmOS.)
 
+ **NOTE**:  you must rename "sample_configuration.h" to "configuration.h"!
+
 #### Setting the LoRa frequency
 
 Next, you'll need to modify the LoRa radio frequency to match your setup:
