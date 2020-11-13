@@ -502,7 +502,7 @@ They give an example with D10 as TX and D11 as RX.  So, break out those pins.
 
 Current breakout board is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/atkins).
 
-
+[![](/img/co2/co2_3drender.png)](/img/co2/co2_3drender.png)
 
 
 
