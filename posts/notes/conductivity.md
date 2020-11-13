@@ -113,3 +113,11 @@ Correction:
 [via Stackoverflow](https://stackoverflow.com/questions/15677439/command-to-get-latest-git-commit-hash-from-a-branch): Command to get latest URL for remote commit:
 
 ```git ls-remote git://github.com/<user>/<project>.git```
+
+---
+
+2020 NOV 12
+
+HOBO Freshwater datalogger product page [here](https://www.onsetcomp.com/products/data-loggers/u24-001/).
+
+[![](/img/conductivity/hobo_specs.png)](/img/conductivity/hobo_specs.png)
