@@ -505,7 +505,223 @@ Current breakout board is [here](https://github.com/edgecollective/co2-remote-an
 [![](/img/co2/co2_3drender.png)](/img/co2/co2_3drender.png)
 
 
+----
 
+2020 NOV 13
+
+Lithium Ion battery that fits nicely inside of feather, [here](https://www.adafruit.com/product/3898).
+
+Sizing logos in Kicad, article [here](https://www.defproc.co.uk/tutorial/sizing-logos-in-kicad/).
+
+---
+
+2020 NOV 14
+
+Nice guide to trace width [here](https://bayareacircuits.com/picking-the-right-trace-width-for-your-next-pcb-design/).
+
+Trace width calculator link [here](https://www.4pcb.com/trace-width-calculator.html), and [here](https://docs.oshpark.com/design-tools/eagle/design-rules-files/).
+
+
+### Calculating trace width 
+
+Based on [this link at OSHPark](https://docs.oshpark.com/services/two-layer-hhdc/), the typical copper thickness for a 2-layer board is 2oz. 
+
+Then, 
+
+- For 1 Amp current, we get .4 mm trace width.
+- For 200 mA (.2 Amps), we get .04 mm trace width.
+- For 20 mA (.02 Amps), we get .002 mm trace width.
+
+I think the CO2 board won't source more than 0.2 Amps. 
+
+Ah!  Note that JLCPCB uses 1 oz copper by default.  This means:
+
+- 1 Amp --> .78 mm trace width
+- 200 mA --> .09 mm trace width
+- 20 mA --> .004 mm trace width
+
+
+## CO2 Motherboard REV A
+
+Idea:  develop footprint for K30 and Z19, to co-deploy the sensors and test them out.  
+
+On the other hand: nice to have a board that is smaller, that can connect to these other boards, but is ready to start deploying as its own sensor. 
+
+Here's a version (REV_A) that does the latter.
+
+[![](/img/co2/scd30_breakout_3drender.png)](/img/co2/scd30_breakout_3drender.png)
+
+Now, need to ask again: can we turn off the autocalibration for the Z19 and the K30?
+
+Z19, I believe it's straightforward -- need to review.
+
+K30 -- here are the links sent via email from CO2Meter:
+
+- ['Downloads'](https://www.co2meter.com/pages/downloads
+)
+- ['K30 Web page'](https://www.co2meter.com/collections/sensors/products/k-30-co2-sensor-module) (cf 'Documents' tab)
+- ['connecting K30 to an Arduino'](http://co2meters.com/Documentation/Other/AN_SE_0018_AN_126_Revised8.pdf)
+
+Screenshot of gaslab software from CO2Meter, showing serial interface to turn ABC off:
+
+[![](/img/co2/k30_abc_off.png)](/img/co2/k30_abc_off.png)
+
+
+Turning off ABC in K30 via i2c (found in ['Communications Protocols Manuals'](http://co2meters.com/Documentation/Other/SenseAirCommGuide.zip), in the i2c folder.  Specific document stored in our archives [here](/img/co2/I2C_comm_guide_2_15.pdf).
+
+[![](/img/co2/abc_control_k30.png)](/img/co2/abc_control_k30.png)
+
+
+Communicating with K30 via I2C + Arduino guide, [here]().  Example below:
+
+```
+// CO2 Meter K-series Example Interface
+// Revised by Marv Kausch, 7/2016 at CO2 Meter <co2meter.com>
+// Talks via I2C to K30/K22/K33/Logger sensors and displays CO2 values
+// 12/31/09
+#include <Wire.h>
+// We will be using the I2C hardware interface on the Arduino in
+// combination with the built-in Wire library to interface.
+// Arduino analog input 5 - I2C SCL
+// Arduino analog input 4 - I2C SDA
+/*
+  In this example we will do a basic read of the CO2 value and checksum verification.
+  For more advanced applications please see the I2C Comm guide.
+*/
+int co2Addr = 0x68;
+// This is the default address of the CO2 sensor, 7bits shifted left.
+void setup() {
+  Serial.begin(9600);
+  Wire.begin ();
+  pinMode(13, OUTPUT); // address of the Arduino LED indicator
+  Serial.println("Application Note AN-102: Interface Arduino to K-30");
+}
+///////////////////////////////////////////////////////////////////
+// Function : int readCO2()
+// Returns : CO2 Value upon success, 0 upon checksum failure
+// Assumes : - Wire library has been imported successfully.
+// - LED is connected to IO pin 13
+// - CO2 sensor address is defined in co2_addr
+///////////////////////////////////////////////////////////////////
+int readCO2()
+{
+  int co2_value = 0;  // We will store the CO2 value inside this variable.
+
+  digitalWrite(13, HIGH);  // turn on LED
+  // On most Arduino platforms this pin is used as an indicator light.
+
+  //////////////////////////
+  /* Begin Write Sequence */
+  //////////////////////////
+
+  Wire.beginTransmission(co2Addr);
+  Wire.write(0x22);
+  Wire.write(0x00);
+  Wire.write(0x08);
+  Wire.write(0x2A);
+
+  Wire.endTransmission();
+
+  /////////////////////////
+  /* End Write Sequence. */
+  /////////////////////////
+
+  /*
+    We wait 10ms for the sensor to process our command.
+    The sensors's primary duties are to accurately
+    measure CO2 values. Waiting 10ms will ensure the
+    data is properly written to RAM
+
+  */
+
+  delay(10);
+
+  /////////////////////////
+  /* Begin Read Sequence */
+  /////////////////////////
+
+  /*
+    Since we requested 2 bytes from the sensor we must
+    read in 4 bytes. This includes the payload, checksum,
+    and command status byte.
+
+  */
+
+  Wire.requestFrom(co2Addr, 4);
+
+  byte i = 0;
+  byte buffer[4] = {0, 0, 0, 0};
+
+  /*
+    Wire.available() is not nessessary. Implementation is obscure but we leave
+    it in here for portability and to future proof our code
+  */
+  while (Wire.available())
+  {
+    buffer[i] = Wire.read();
+    i++;
+  }
+
+  ///////////////////////
+  /* End Read Sequence */
+  ///////////////////////
+
+  /*
+    Using some bitwise manipulation we will shift our buffer
+    into an integer for general consumption
+  */
+
+  co2_value = 0;
+  co2_value |= buffer[1] & 0xFF;
+  co2_value = co2_value << 8;
+  co2_value |= buffer[2] & 0xFF;
+
+
+  byte sum = 0; //Checksum Byte
+  sum = buffer[0] + buffer[1] + buffer[2]; //Byte addition utilizes overflow
+
+  if (sum == buffer[3])
+  {
+    // Success!
+    digitalWrite(13, LOW);
+    return co2_value;
+  }
+  else
+  {
+    // Failure!
+    /*
+      Checksum failure can be due to a number of factors,
+      fuzzy electrons, sensor busy, etc.
+    */
+
+    digitalWrite(13, LOW);
+    return 0;
+  }
+}
+void loop() {
+
+  int co2Value = readCO2();
+  if (co2Value > 0)
+  {
+    Serial.print("CO2 Value: ");
+    Serial.println(co2Value);
+  }
+  else
+  {
+    Serial.println("Checksum failed / Communication failure");
+  }
+  delay(2000);
+}
+```
+### CO2 Motherboard Update NOV 14 2020
+
+'Final' REV_A version (ordered on JLCPCB on 14 NOV) is here:
+
+![](/img/co2/co2_reva_schematic.png)
+
+![](/img/co2/co2_reva_3drender.png)
+
+Repo for REV_A schematic and board file is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/atkins). 
 
 
 
