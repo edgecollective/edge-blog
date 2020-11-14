@@ -717,9 +717,9 @@ void loop() {
 
 'Final' REV_A version (ordered on JLCPCB on 14 NOV) is here:
 
-![](/img/co2/co2_reva_schematic.png)
+[![](/img/co2/co2_reva_schematic.png)](/img/co2/co2_reva_schematic.png)
 
-![](/img/co2/co2_reva_3drender.png)
+[![](/img/co2/co2_reva_3drender.png)](/img/co2/co2_reva_3drender.png)
 
 Repo for REV_A schematic and board file is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/atkins). 
 
