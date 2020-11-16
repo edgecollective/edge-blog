@@ -17,12 +17,10 @@ blurb: Notes on inexpensive CO2 monitoring options
 - turn off autocalibration on the Z19 []
 - turn off autocalibration on the K30 []
 
-
-
 ## Table of contents
 
 - [Feather Hookup Guide for K30](#feather)
-- [Peng & Jimenez paper on CO2 and COVID infection probability](#peng)
+- [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
 
 ## Background
 
@@ -729,7 +727,7 @@ Repo for REV_A schematic and board file is [here](https://github.com/edgecollect
 
 2020 NOV 16
 
-## <a name="#peng"></a>Research paper by Peng and Jimenez on CO2 and indoor transmission rates
+### <a name="jimenez"></a>Research paper on CO2 and COVID safety by Peng et al
 
 Really nice research paper by Peng and Jimenez that yields CO2 thresholds for indoor activity, with thresholds based on activity / mask use / etc -- linked [here](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf)
 
