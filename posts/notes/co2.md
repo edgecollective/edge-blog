@@ -735,7 +735,7 @@ Really nice research paper by Peng and Jimenez that yields CO2 thresholds for in
 
 This is the key figure (Fig 2) to understand from the paper:
 
-[![](/img/co2/peng_fig2.png)](/img/co2/peng_fig2.png)
+[![](/img/co2/peng_fig2_small.png)](/img/co2/peng_fig2.png)
 
 
 An online aersol transmission calculator based on the paper is [here](https://docs.google.com/spreadsheets/d/16K1OQkLD4BjgBdO8ePj6ytf-RpPMlJ6aXFg3PrIQBbQ/edit#gid=519189277).
