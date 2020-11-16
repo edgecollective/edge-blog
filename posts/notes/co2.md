@@ -21,7 +21,8 @@ blurb: Notes on inexpensive CO2 monitoring options
 
 ## Table of contents
 
-[Feather Hookup Guide for K30](#feather)
+- [Feather Hookup Guide for K30](#feather)
+- [Peng & Jimenez paper on CO2 and COVID infection probability](#peng)
 
 ## Background
 
@@ -722,6 +723,31 @@ void loop() {
 [![](/img/co2/co2_reva_3drender.png)](/img/co2/co2_reva_3drender.png)
 
 Repo for REV_A schematic and board file is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/atkins). 
+
+
+----
+
+2020 NOV 16
+
+## <a name="#peng"></a>Research paper by Peng and Jimenez on CO2 and indoor transmission rates
+
+Really nice research paper by Peng and Jimenez that yields CO2 thresholds for indoor activity, with thresholds based on activity / mask use / etc -- linked [here](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf)
+
+This is the key figure (Fig 2) to understand from the paper:
+
+[![](/img/co2/peng_fig2.png)](/img/co2/peng_fig2.png)
+
+
+An online aersol transmission calculator based on the paper is [here](https://docs.google.com/spreadsheets/d/16K1OQkLD4BjgBdO8ePj6ytf-RpPMlJ6aXFg3PrIQBbQ/edit#gid=519189277).
+
+The tweet broadcasting the tool is [here](https://twitter.com/jljcolorado/status/1275466006312304640).
+
+The lead author on the paper, an expert on aerosol transmission, is [here](https://twitter.com/jljcolorado).
+
+Some of the feedback on the paper & tool was from Linsey Marr, the NYTimes-quoted air expert on COVID transmission.  Her Twitter profile is [here](https://twitter.com/linseymarr).
+
+
+
 
 
 

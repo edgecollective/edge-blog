@@ -151,4 +151,42 @@ Data flowing through to Bayou:
 
 ![](/img/valedalama/bayou_data.png)
 
+----
+
+2020 Nov 14
+
+Next steps:
+
+- Modify Bayou to allow for inputing date ranges
+- Figure out reflashing of boards from command line via Pi
+- Figure out setting wifi credentials (and OTA firmware) on ESP via bluetooth
+- NRF52 bluetooth OTA firmware update in Arduino possible? If so maybe switch to NRF52 feather
+- List the remote board and the esp32 gateway combo -- make a breakout board for the Heltec
+
+Can offer ...
+
+Remote:
+- Mothbot
+- Feather motherboard (add power input 12V or higher)
+
+Gateway
+- Heltec
+- Heltec + motherboard (with timer chip)
+- Quahog (advantage of power input 12V or higher)
+
+Database:
+- FarmOS
+- Bayou
+
+
+So -- all off-the-shelf, o r fully custom.
+Along with guides for all of this.
+
+
+### OTA for the remote node?
+
+NRF52 OTA programming link (weather buoy project) [here](https://opensourceoceanweatherbuoy.wordpress.com/2018/03/11/nrf52-program-sketches-over-the-air/)
+
+
+
 

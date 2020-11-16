@@ -51,4 +51,18 @@ convert Lenna.png -monochrome lenna-1.png
 
 ```
 convert lenna.png -monochrome -resize 200x320\! lenna4.bmp
+
 ```
+### Compass
+
+Good quality compass offered [here](https://www.amazon.com/gp/product/B07CK8B3R3/ref=ox_sc_saved_title_1?smid=A2LLNHIZM5ZWNT&psc=1)
+
+### Map tiles
+
+Typical map tile size is 256x265 -- reference [here](https://wiki.openstreetmap.org/wiki/Tiles#:~:text=Graphical%20Map%20Tiles,-Map%20tiles%20are&text=512%C3%97512%20pixel%20seems,and%20also%20several%20zoom%20levels.)
+
+Guide to creating your own tiles [here](https://wiki.openstreetmap.org/wiki/Creating_your_own_tiles)
+
+Browsing local tiles guide [here](https://wiki.openstreetmap.org/wiki/OpenLayers_Local_Tiles_Example) <---- this seems like a great guide to dive into.
+
+More basic guide to OSM tiles [here](https://wiki.openstreetmap.org/wiki/Tiles).
