@@ -187,6 +187,11 @@ Along with guides for all of this.
 
 NRF52 OTA programming link (weather buoy project) [here](https://opensourceoceanweatherbuoy.wordpress.com/2018/03/11/nrf52-program-sketches-over-the-air/)
 
+### Features to add in REV_C
+
+- Heltec wifi connection debug on display
+- Easy way to set up wifi & bayou on Heltec -- via bluetooth, or via 'router setup' / wifi
+- Remote node should send status message whether or not the sensors worked
 
 
 

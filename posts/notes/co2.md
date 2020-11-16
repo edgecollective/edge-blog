@@ -729,11 +729,18 @@ Repo for REV_A schematic and board file is [here](https://github.com/edgecollect
 
 ### <a name="jimenez"></a>Research paper on CO2 and COVID safety by Peng et al
 
-Really nice research paper by Peng and Jimenez that yields CO2 thresholds for indoor activity, with thresholds based on activity / mask use / etc -- linked [here](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf)
+Really nice research paper by Peng and Jimenez that yields CO2 thresholds for indoor activity, with thresholds based on activity / mask use / etc -- linked [here](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf).
+
+
+|[![](/img/co2/jimenez_abstract.png)](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf)|
+|:--:|
+| Abstract from [Peng and Jimenez 2020](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf). |
 
 This is the key figure (Fig 2) to understand from the paper:
 
-[![](/img/co2/peng_fig2_small.png)](/img/co2/peng_fig2.png)
+|[![](/img/co2/peng_fig2_small.png)](/img/co2/peng_fig2.png)|
+|:--:|
+| Figure 2. from [Peng and Jimenez 2020](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf). |
 
 
 An online aersol transmission calculator based on the paper is [here](https://docs.google.com/spreadsheets/d/16K1OQkLD4BjgBdO8ePj6ytf-RpPMlJ6aXFg3PrIQBbQ/edit#gid=519189277).
