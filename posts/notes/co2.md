@@ -773,14 +773,38 @@ NRF52 + LoRa wing setup --
 
 ![](/img/co2/sparkfun_pushbutton.png)
 
-### REV_B -- Added Buttons
+---
+
+2020 NOV 17 
+
+### REV_B -- Based on Feather, adds buttons
 
 REVB board 3D rendering:
 
 ![](/img/co2/co2_revb_3drender.png)
 
-Design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/atkins).
+REV_B KiCAD design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/atkins).
 
+
+----
+
+2020 NOV 18
+
+Heltec version of CO2 board ... 'REV_C' ...
+
+[![](/img/valedalama/heltec_pinout.png)](/img/valedalama/heltec_pinout.png)
+
+Aside -- interesting 'hiveyes' project using the Heltec, might have interesting code associated with it, [here](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125).  Nice collection of github code [here](https://github.com/hiveeyes), including weight scales!
+
+Interesting radio protocol [here](https://github.com/hiveeyes/beradio).
+
+Radio protocols -- another way in which efficiency might be in tradeoff with legibility. 
+
+### REV_C of board -- based on Heltec 
+
+![](/img/co2/co2_revc_3drender.png)
+
+Kicad design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/atkins).
 
 
 

@@ -211,5 +211,17 @@ bayou_longer.png
 
 Pagination strategies with pouchdb -- useful for setting up the server, [here](https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html)
 
+### Humidity sensor issue?
+
+Looks like the Humidity tends to get pegged ...
+
+![](/img/valedalama/humidity_issue.png)
+
+### Date Conversion formula in Excel
+
+Example is [here[(https://docs.google.com/spreadsheets/d/1yDYKKenBeMRpYumavZ4Df_dnJOKyFEXB-Inp_YYGFdY/edit?usp=sharing).
+
+
+
 
 
