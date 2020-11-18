@@ -193,5 +193,23 @@ NRF52 OTA programming link (weather buoy project) [here](https://opensourceocean
 - Easy way to set up wifi & bayou on Heltec -- via bluetooth, or via 'router setup' / wifi
 - Remote node should send status message whether or not the sensors worked
 
+### TODO
+
+- Change Feather send frequency to every 10 minutes
+- Change the radio frequency to 868 to match Walt's order
+
+---
+
+2020 Nov 17
+
+|[ ![fig2](/img/valedalama/temp_valedalama.png)](/img/valedalama/temp_valedalama.png)|
+|:--:|
+| Data coming in from first deploymend of milled board version of the remote node. |
+
+bayou_longer.png
+### Server
+
+Pagination strategies with pouchdb -- useful for setting up the server, [here](https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html)
+
 
 

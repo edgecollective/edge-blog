@@ -751,6 +751,35 @@ The lead author on the paper, an expert on aerosol transmission, is [here](https
 
 Some of the feedback on the paper & tool was from Linsey Marr, the NYTimes-quoted air expert on COVID transmission.  Her Twitter profile is [here](https://twitter.com/linseymarr).
 
+TODO: 
+
+Need to add buttons!!  For calibration, and other navigation.
+
+Sensiron SCD30 [available on Amazon UK](https://www.amazon.co.uk/X-SCD30-Air-Quality-Sensors/dp/B07WRJD4TN/ref=sr_1_2?dchild=1&keywords=scd30&qid=1605562830&sr=8-2)
+
+NRF52 + LoRa wing setup --
+
+- B / 11 -- RST
+- D / 30 -- CS
+- E / 27 -- IRQ
+
+[![](/img/co2/nrf52_pinout.jpg)](/img/co2/nrf52_pinout.jpg)
+
+### Button
+
+![](/img/valedalama/kicad_button.png)
+
+![](/img/valedalama/button_wiring.png)
+
+![](/img/co2/sparkfun_pushbutton.png)
+
+### REV_B -- Added Buttons
+
+REVB board 3D rendering:
+
+![](/img/co2/co2_revb_3drender.png)
+
+Design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/atkins).
 
 
 

@@ -247,4 +247,11 @@ Oct 24 2020
 
 Created dimensions document for Mothbot ver 0.1, [here](https://github.com/edgecollective/dippy-slim/blob/master/ver1/mothbot_dim/mothbot_dim.pdf).
 
+---
+
+NOV 16 2020
+
+Photo of latest version in action here:
+
+![](/img/mothbot/mothbot_am2315.jpg)
 

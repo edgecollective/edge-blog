@@ -66,3 +66,19 @@ Guide to creating your own tiles [here](https://wiki.openstreetmap.org/wiki/Crea
 Browsing local tiles guide [here](https://wiki.openstreetmap.org/wiki/OpenLayers_Local_Tiles_Example) <---- this seems like a great guide to dive into.
 
 More basic guide to OSM tiles [here](https://wiki.openstreetmap.org/wiki/Tiles).
+
+### PCB Antennas for GPS
+
+Guide [here](https://resources.altium.com/p/gps-antennas-in-your-pcb-design-you-won-t-get-lost-again)
+
+
+Design considerations for UBlox [here](GNSS-Antennas_AppNote_UBX-15030289.pdf)
+
+|[![](/img/eink/chip_antenna_vs_patch.png)](/img/eink/chip_antenna_vs_patch.png)|
+|:--:|
+| Fig 9 from the UBlox [App Note](GNSS-Antennas_AppNote_UBX-15030289.pdf) mentioned above.|
+
+
+### Offline maps
+
+Nice discussion and review [here](https://meshtastic.discourse.group/t/offline-maps-on-meshtastic/137/20)
