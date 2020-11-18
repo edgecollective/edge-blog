@@ -806,6 +806,7 @@ Radio protocols -- another way in which efficiency might be in tradeoff with leg
 
 Kicad design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/atkins).
 
+Thread [here](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247/43) on the battery connector type for the Heltec -- "Micro JST 1.25 mm".
 
 
 
