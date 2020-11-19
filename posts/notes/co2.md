@@ -809,10 +809,16 @@ Kicad design files are [here](https://github.com/edgecollective/co2-remote-and-g
 Thread [here](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247/43) on the battery connector type for the Heltec -- "Micro JST 1.25 mm".
 
 
+### CO2 Calibration via Gas Cylinder
+
+Example of 1000 ppm cylinder [here](http://www.calgasdirect.com/gasco-17l-37-1000-carbon-dioxide-calibration-gas-co2-1000-ppm-balance-air-in-a-17-liter-steel-disposable-cylinder/)
 
 
+### Aranet: Bluetooth E-Ink CO2 Sensor
 
+Product [here](https://www.amazon.com/Aranet4-Home-Temperature-Ink-Configuration/dp/B07YY7BH2W/ref=cm_cr_arp_d_product_top?ie=UTF8)
 
+Manual [here](https://images-na.ssl-images-amazon.com/images/I/A1ubqWpxeiL.pdf)
 
 
 

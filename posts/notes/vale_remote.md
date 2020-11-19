@@ -221,7 +221,23 @@ Looks like the Humidity tends to get pegged ...
 
 Example is [here[(https://docs.google.com/spreadsheets/d/1yDYKKenBeMRpYumavZ4Df_dnJOKyFEXB-Inp_YYGFdY/edit?usp=sharing).
 
+----
 
+2020 NOV 19
+
+### Added 'hop' parameter and modified units on Bayou display
+
+[![](/img/valedalama/temp_hopped.png)](/img/valedalama/temp_hopped.png)
+
+NOTE:  running the branch 'ticks', code on gitlab [here](https://gitlab.com/dwblair/p2p-farm-server/-/tree/ticks).  Might need to tweak if a new sensor is added, because the ticks currently do only every hour.  
+
+### Humidity sensor details
+
+AM2315 temp + humidity sensor tech details:
+
+[![](/img/valedalama/am2315_details.png)](/img/valedalama/am2315_details.png)
+
+AM2315 [datasheet](https://cdn-shop.adafruit.com/datasheets/AM2315.pdf)
 
 
 
