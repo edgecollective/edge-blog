@@ -802,7 +802,7 @@ Radio protocols -- another way in which efficiency might be in tradeoff with leg
 
 ### REV_C of board -- based on Heltec 
 
-![](/img/co2/co2_revc_3drender.png)
+[![](/img/co2/co2_revc_3drender.png)](/img/co2/co2_revc_3drender.png)
 
 Kicad design files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/atkins).
 

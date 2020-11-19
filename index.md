@@ -27,7 +27,7 @@ layout: front.njk
 </div>
 </div>
 
-
+<!--
 # <a name="podcast"></a>Podcast
 
 
@@ -54,6 +54,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
   </div>
 {% endfor %}
 </div>
+-->
 
 # <a name="projects"></a>Projects
 
