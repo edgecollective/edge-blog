@@ -15,7 +15,11 @@ layout: front.njk
 *Accessible infrastructure for communities living at ‘the edge'.*
 -->
 
+<!--
 [Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research](#notebook)
+-->
+
+[Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research](#notebook)
 
 <div id='intro'>
 
