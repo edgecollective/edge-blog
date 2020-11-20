@@ -147,7 +147,12 @@ Using the web, [here](https://lastminuteengineers.com/esp32-ota-web-updater-ardu
 Espressif github example of web-based OTA [here](https://github.com/espressif/esp-idf/tree/master/examples/system/ota).
 
 Modified example worked nicely, code is [here](https://github.com/edgecollective/heltec-ota)
+
+Login page:
+
 ![](/img/heltec/heltec_login.png)
+
+And it works!
 
 ![](/img/heltec/ota_progress.png)
 
