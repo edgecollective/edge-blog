@@ -150,11 +150,15 @@ Modified example worked nicely, code is [here](https://github.com/edgecollective
 
 Login page:
 
-![](/img/heltec/heltec_login.png)
+|![](/img/heltec/heltec_login.png)|
+|:--:|
+| Initial login page to ESP32. |
 
 And it works!
 
-![](/img/heltec/ota_progress.png)
+| ![](/img/heltec/ota_progress.png) |
+|:--:|
+| Progress after uploading. |
 
 
 
