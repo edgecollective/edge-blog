@@ -134,4 +134,23 @@ Further discussion of low power modes [here](https://www.reddit.com/r/esp32/comm
 
 [From CNX Software](https://www.cnx-software.com/2018/08/21/how-to-make-cheap-single-channel-gateway-lora-esp32-board/) -- looks like they use dozens of nodes here.
 
+### Heltec Deep Sleep
+
+Thread [here](http://community.heltec.cn/t/wifi-lora-32-v2-deep-sleep-low-power-test/101).
+
+### Heltec OTA updates
+
+Lastminuteengineer description using Arduino IDE is [here](https://lastminuteengineers.com/esp32-ota-updates-arduino-ide/).
+
+Using the web, [here](https://lastminuteengineers.com/esp32-ota-web-updater-arduino-ide/).
+
+Espressif github example of web-based OTA [here](https://github.com/espressif/esp-idf/tree/master/examples/system/ota).
+
+Modified example worked nicely, code is [here](https://github.com/edgecollective/heltec-ota)
+![](/img/heltec/heltec_login.png)
+
+![](/img/heltec/ota_progress.png)
+
+
+
 

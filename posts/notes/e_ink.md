@@ -1,5 +1,5 @@
 ---
-pageTitle: E-Ink Display Prototyping
+pageTitle: E-Ink Map Display Prototyping
 layout: layout.njk
 date: 2020-11-09
 updated: 2020-11-09
@@ -82,3 +82,11 @@ Design considerations for UBlox [here](GNSS-Antennas_AppNote_UBX-15030289.pdf)
 ### Offline maps
 
 Nice discussion and review [here](https://meshtastic.discourse.group/t/offline-maps-on-meshtastic/137/20)
+
+### Open Map Tiles 
+
+Main project description is [here](https://openmaptiles.com/).
+
+Open map tiles project update is [here](https://www.maptiler.com/news/2020/05/the-future-of-openmaptiles-project/)
+
+OMT is compatible with Stamen's Toner -- post [here](https://www.maptiler.com/news/2020/04/long-live-toner/).
