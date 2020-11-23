@@ -119,7 +119,11 @@ Tutorial on using ESP32 deep sleep [here](https://lastminuteengineers.com/esp32-
 
 In particular, wakeup from external pin [here](https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/#ext0-external-wakeup-source). 
 
-## Low-power ESP32: E-Pulse
+## Low-power ESP32:
 
-Project [here](https://thingpulse.com/product/epulse-low-power-esp32-development-board/#:~:text=ePulse%2C%20the%20low%20power%20ESP32,and%2035uA%20(at%2012V).
+- TinyPic project is [here](https://www.tinypico.com/), on sale at Amazon [here](https://www.amazon.com/gp/product/B07ZZKZDGQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+- E-Pulse project is [here](https://thingpulse.com/product/epulse-low-power-esp32-development-board/#:~:text=ePulse%2C%20the%20low%20power%20ESP32,and%2035uA%20(at%2012V).
+
+
 

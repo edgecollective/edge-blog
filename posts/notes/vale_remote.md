@@ -287,6 +287,19 @@ Getting sleepy dog to work, [here](https://github.com/adafruit/Adafruit_SleepyDo
 
 Another blog post on it [here](https://bitknitting.wordpress.com/2016/08/02/backyard-automatic-watering-using-a-featherarduino/).
 
+
+### AVR Watchdog timers
+
+Another article on the watchdog timer for AVRs is [here](https://create.arduino.cc/projecthub/rafitc/what-is-watchdog-timer-fffe20).
+
+And yet another nice article for WDTs in AVRs is [here](https://circuits4you.com/2018/01/24/tutorial-on-arduino-watchdog-timer-setup/).
+
+Good point made in [this tutorial](https://www.instructables.com/The-Arduino-Hang-Guardian-Arduino-Watchdog-Timer-T/):
+
+> One possible issue with the watchdog timer, depending on the bootloader of your Arduino is that if the watchdog timer value is too low and the bootloader does not reset the timer when uploading new code, you may end up damaging your Arduino board in a way that it will always be stuck in the boot phase. The bootloader will try to start, but the timer will keep resetting the board, never allowing it to properly start. To prevent issues like this, make sure to always use threshold intervals of 2 seconds or more.
+
+Another good description by Electronic Wings, [here](https://www.electronicwings.com/arduino/watchdog-in-arduino).
+
 ### Powerdown Sleep
 
 Nice post from Tony D, [here](https://learn.adafruit.com/low-power-wifi-datalogging/power-down-sleep).
@@ -300,6 +313,53 @@ Check out some of the libraries [here](https://www.ardu-badge.com/).
 - Remote
 - Gateway
 - Server
+
+### Remote access to Pis
+
+- TeamViewer
+- RealVNC
+- UV4L.  Discussion [here](https://www.raspberrypi.org/forums/viewtopic.php?t=177028#p1128706).  RPI videoconference setup [here](https://www.linux-projects.org/download/rpi-videoconference-os-image/).
+
+Indeed, this looks like cool software -- browser-based.  Check it [here](https://www.linux-projects.org/uv4l/tutorials/rpi-webapp-screen-audio-keyboard-sharing/).
+
+Ah, a better, RPi-specific set of options is [here](https://raspberrytips.com/remote-desktop-raspberry-pi/).
+
+Jim Spark's guide to port forwarding / SSH with Pis  [here](https://medium.com/@jimip6c12/raspberry-pi-dummy-tutorial-on-port-forwarding-and-ssh-to-pi-remotely-d4fbc2ed3bdf).
+
+He says it's very dangerous to do; and that cloud proxy is better. His guide [here](https://medium.com/@jimip6c12/raspberry-pi-tutorial-on-the-most-secure-way-to-connect-to-your-pi-cloud-proxy-server-11867ddaac95).
+
+pre-burning an image on the pi from remote.it, [here](https://remote.it/blog/how-to-use-a-raspberry-pi-to-remotely-access-your-office-network/).
+
+#### Copy-paste in RealVNC
+
+Descriptive link is [here](https://help.realvnc.com/hc/en-us/articles/360002253738-Copying-and-Pasting-Text).
+
+
+### Remote Access via hyperssh
+
+Diff of dwblair's hyperssh and mafintosh's versions, [here](https://github.com/mafintosh/hyperssh/compare/master...dwblair:master).
+
+----
+
+2020 NOV 23
+
+REV_A of the 'greenhouse' system uses the following code:
+
+- remote: featherm0_am2315_lora_sleep
+- gateway: heltec_wifi_lora_bayou_farmos
+
+Going to try a watchdog timer on the feather ...
+
+Implemented very basic watchdog [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/remote/feather_firmware/featherm0_am2315_lora_watchdog).
+
+![](/img/valedalama/watchdog_attempt.png)
+
+
+Data [here](http://159.65.226.222:3000/drives/3a28c09fa93ccf15513a055984148b02b0709f545c12013aaf25252f73626f62).
+
+
+
+
 
 
 
