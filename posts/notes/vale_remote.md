@@ -239,5 +239,69 @@ AM2315 temp + humidity sensor tech details:
 
 AM2315 [datasheet](https://cdn-shop.adafruit.com/datasheets/AM2315.pdf)
 
+## Architecture Idea
+
+Gateway is Heltec.  Can do AP wifi credentials and FarmOS / Bayou configuration.  
+
+Remote node is Feather / Mothbot.  Has a DIP switch to modify the node ID. 
+
+Both might allow for serial configuration, or OTA programming (need to add SPI Memory to Mothbot if so).
+
+### Battery holders
+
+3XAA holder [here](https://www.amazon.com/LampVPath-Battery-Holder-Leads-Wires/dp/B07WRQ3XTJ/ref=sr_1_7?dchild=1&keywords=3XAA+holder&qid=1605969565&s=electronics&sr=1-7).
+
+Guide to battery holders and mounts [here](https://uk.rs-online.com/web/generalDisplay.html?id=ideas-and-advice/battery-holders-guide).
+
+### Adafruit guide to using the battery on the Feather
+
+Do's and don't's, [here](https://learn.adafruit.com/adafruit-feather-m0-adalogger/power-management).
+
+What if we put use 3.3V regulator and power the Feather this way?  Try this experiment out at home.  Turning a Feather into a lower-power device would be a win.  
+
+Breakout boards for:
+- Feather M0 LoRa
+- Moteino , and Moteino M0
+
+Using: dip switch + MCP1700
+
+---
+
+2020 NOV 22
+
+Looks like remote node (Feather) is requiring reset periodically (every few days) -- doesn't appear to be a battery issue.  Might be in the code -- e.g. if it doesn't read from sensor successfully.
+
+### ESP32 Watchdog timer
+
+Guide [here](https://iotassistant.io/esp32/enable-hardware-watchdog-timer-esp32-arduino-ide/).
+
+Also, working code [here](https://medium.com/@supotsaeea/esp32-reboot-system-when-watchdog-timeout-4f3536bf17ef). <--- this looks like the proper setup.  Great!
+
+### SAMD21 Watchdog timer
+
+There's a discussion [here](https://eugeniopace.org/arduino/resiliency/2020/05/11/Using-a-Watchdog-to-fix-all-issues.html) <<-- this is a GREAT discussion.
+
+Note that he's also got an e-ink project running, [here](https://eugeniopace.org/arduino/epaper/eink/stoicism/2020/01/18/A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.html).
+
+Getting sleepy dog to work, [here](https://github.com/adafruit/Adafruit_SleepyDog/issues/9).
+
+Another blog post on it [here](https://bitknitting.wordpress.com/2016/08/02/backyard-automatic-watering-using-a-featherarduino/).
+
+### Powerdown Sleep
+
+Nice post from Tony D, [here](https://learn.adafruit.com/low-power-wifi-datalogging/power-down-sleep).
+
+### ArduBadge system for Arduino libraries
+
+Check out some of the libraries [here](https://www.ardu-badge.com/).
+
+### Overview of system architecture
+
+- Remote
+- Gateway
+- Server
+
+
+
 
 

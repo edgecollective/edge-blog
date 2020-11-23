@@ -160,6 +160,41 @@ And it works!
 |:--:|
 | Progress after uploading. |
 
+### General Heltec guides
+
+Great guide to Heltec, [here](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
+
+### Config Portal setup for wifi on ESP32 
+
+WiFi Manager library [here](https://github.com/khoih-prog/ESP_WiFiManager)
+
+I think the relevant section is [here](https://github.com/khoih-prog/ESP_WiFiManager#howto-open-config-portal)
+
+Nice guide for Config Portal [here](https://www.instructables.com/ESP8266-and-ESP32-With-WiFiManager/)
+- This library [here](https://github.com/zhouhan0126/WIFIMANAGER-ESP32) is the relevant one in the above guide.
+
+Nice set of utilities around AutoConnect and etc for ESP32 by 'hieromon', [here](https://hieromon.github.io/AutoConnect/index.html)
+
+Maybe [this](https://github.com/Hieromon/AutoConnect), by 'Hieromon' is the latest lib <---- yes, this is it!!
+
+Getting started page [here](https://hieromon.github.io/AutoConnect/gettingstarted.html) <---- Great place to start with autoconnect.  
+
+### Working Autoconfig code
+
+This is the code that I took from that link just above, and I put it [here](https://github.com/edgecollective/heltec-ota/tree/main/autoconfig_getting_started) And it worked!
+
+![](/img/heltec/autoconnect_worked.png)
+
+Easiest to install AutoConnect via ArduinoIDE -- it then prompts for other necessary libraries.
+
+Can use AutoConnect 'Credential' example to erase currently-saved WiFi credentials.
+
+### Embedding autoconfig
+
+How to embed Autoconnect, [here](https://hieromon.github.io/AutoConnect/howtoembed.html).
+
+
+
 
 
 

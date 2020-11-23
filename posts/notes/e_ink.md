@@ -90,3 +90,36 @@ Main project description is [here](https://openmaptiles.com/).
 Open map tiles project update is [here](https://www.maptiler.com/news/2020/05/the-future-of-openmaptiles-project/)
 
 OMT is compatible with Stamen's Toner -- post [here](https://www.maptiler.com/news/2020/04/long-live-toner/).
+
+### Grayscale / B&W image
+
+Thread discussion [here](https://www.imagemagick.org/discourse-server/viewtopic.php?t=21264).
+
+Doing it without dithering:
+
+```
+convert bone.png -colorspace gray -threshold 80% -type bilevel -resize 200x320\! bone4.bmp
+```
+
+## Caltopo 
+
+[Caltopo](https://caltopo.com/)
+
+## E-Ink setup
+
+Link to waveshare guide for 4.2 in e-ink [here](https://www.waveshare.com/wiki/4.2inch_e-Paper_Module)
+
+Datasheet is [here](https://www.waveshare.com/w/upload/6/6a/4.2inch-e-paper-specification.pdf).
+
+## ESP32 Low-power modes
+
+There's a nice description [here](https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/).
+
+Tutorial on using ESP32 deep sleep [here](https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/).
+
+In particular, wakeup from external pin [here](https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/#ext0-external-wakeup-source). 
+
+## Low-power ESP32: E-Pulse
+
+Project [here](https://thingpulse.com/product/epulse-low-power-esp32-development-board/#:~:text=ePulse%2C%20the%20low%20power%20ESP32,and%2035uA%20(at%2012V).
+
