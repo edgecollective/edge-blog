@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-11-16
 updated: 2020-11-16
 tags: notes 
-image: img/placeholder.png
+image: /img/co2/nrf52_pinout.jpg
 blurb: Experiments with Bluetooth microcontrollers
 ---
 

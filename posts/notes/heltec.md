@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-09-25
 updated: 2020-09-25
 tags: notes 
-image: img/placeholder.png
+image: /img/heltec/heltec_login.png
 blurb: Notes on setting up a Heltec device.
 ---
 
@@ -192,6 +192,8 @@ Can use AutoConnect 'Credential' example to erase currently-saved WiFi credentia
 ### Embedding autoconfig
 
 How to embed Autoconnect, [here](https://hieromon.github.io/AutoConnect/howtoembed.html).
+
+
 
 
 

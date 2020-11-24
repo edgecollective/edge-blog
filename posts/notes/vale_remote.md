@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-07
 updated: 2020-10-21
 tags: notes 
-image: img/placeholder.png
+image: /img/valedalama/3d_render.png
 blurb: Greenhouse monitoring electronics at Vale da Lama
 ---
 

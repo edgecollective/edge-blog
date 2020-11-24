@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-11-03
 updated: 2020-11-03
 tags: notes 
-image: img/placeholder.png
+image: /img/valedalama/greenhouse_stack.png
 blurb: Instructions for End-to-End Greenhouse monitoring stack
 ---
 

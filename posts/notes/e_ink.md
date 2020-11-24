@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-11-09
 updated: 2020-11-09
 tags: notes 
-image: img/placeholder.png
+image: /img/eink/map_proto.jpg
 blurb: Setting up a (low power?) E-Ink display with a micro
 ---
 
@@ -126,4 +126,6 @@ In particular, wakeup from external pin [here](https://lastminuteengineers.com/e
 - E-Pulse project is [here](https://thingpulse.com/product/epulse-low-power-esp32-development-board/#:~:text=ePulse%2C%20the%20low%20power%20ESP32,and%2035uA%20(at%2012V).
 
 
+### Eink experiments
 
+![](/img/eink/map_proto.jpg)
