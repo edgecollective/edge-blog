@@ -860,6 +860,17 @@ Quick impression -- seems like we're going to want to average readings over a mi
 
 ---
 
+<!--
+
+Basic captioned image formatting structure:
+
+| [![](/img/[FOLDER]/[FILENAME])](/img/[FOLDER]/[FILENAME]) |
+|:--:|
+| [CAPTION] |
+
+-->
+
+
 2020 NOV 24
 
 Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated these graphs as of 4:30 AM:
