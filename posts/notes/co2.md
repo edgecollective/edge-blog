@@ -858,6 +858,16 @@ Quick impression -- seems like we're going to want to average readings over a mi
 - switch to set measurement interval?
 - dip switch to set node ID
 
+---
+
+2020 NOV 24
+
+Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated this graph as of 4:30 AM:
+
+![](/img/co2/co2_nov23_night.png)
+
+
+
 
 
 
