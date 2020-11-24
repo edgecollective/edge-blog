@@ -866,7 +866,7 @@ Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right 
 
 ![](/img/co2/co2_nov23_night.png)
 
-
+**Comment**. Note the correlation between temperature and CO2.  The temperature pattern likely due to the HVAC system.  Unless the HVAC is in fact bringing in air with higher concentration of CO2, this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
 
 
 
