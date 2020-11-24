@@ -878,7 +878,7 @@ Also took sensor outside for a few minutes.  It fluctuated a lot.  Seems like we
 
 2020 NOV 24
 
-Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated these graphs as of 4:30 AM:
+**Results of overnight test on NOV 23.**  Out of three people in apartment, two went to bed at around 8 PM, the final person at around 10:30 PM.  One person (me) woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated these graphs as of 4:30 AM:
 
 | [![](/img/co2/co2_nov23_night.png)](/img/co2/co2_nov23_night.png) |
 |:--:|
@@ -890,9 +890,9 @@ Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right 
 
 **Comment**. Note the correlation between temperature and CO2, with co-occurring peaks around 12 AM and 1:30 AM. The temperature pattern likely due to the HVAC system.  (The spike in CO2 and temperature at 4:30 AM are likely simply due to my presence near the sensor.) Unless the HVAC is in fact bringing in air with higher concentration of CO2, perhaps this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
 
-Reference for effect of temperature and pressure on CO2, [here](https://www.bapihvac.com/application_note/effects-of-temperature-and-barometric-pressure-on-co2-sensors-application-note/).
+Found nice reference for effect of temperature and pressure on CO2, [here](https://www.bapihvac.com/application_note/effects-of-temperature-and-barometric-pressure-on-co2-sensors-application-note/).
 
-Ah, here's a key passage:
+Key passage:
 
 > The size of the NDIR sampling chamber is fixed and is open to the atmosphere so that air can move in and out.  As explained above, the number of air molecules in a given volume is affected by temperature and air pressure but not the concentration of CO2.  At low pressures or high temperatures, there will be fewer air molecules in the sample chamber, so there will also be fewer CO2 molecules, even though the ppm of CO2 hasn’t changed.  Fewer CO2 molecules “fools” the sensor into thinking that the CO2 concentration is lower than it really is.  At high pressures or low temperatures, there are more air molecules in the sample chamber and more CO2 molecules, even though the CO2 concentration hasn’t changed.  More CO2 molecules “fools” the sensor into thinking that the CO2 concentration is higher than it really is. Therefore a CO2 sensor calibration will only be accurate at one temperature and one air pressure.
 
@@ -900,8 +900,19 @@ This would suggest:
 - higher pressures & lower pressures--> more air (and thus more CO2) molecules in the chamber --> higher CO2 readings
 - lower pressures & higher temperatures --> less air (and thus less CO2) molecules in chamber --> lower CO2 readings
 
-This fluctuation is due to pressure inside the apartment, when the HVAC system turns on?  Now worth attempting to compensate with external pressure sensor ...
+This fluctuation is due to pressure inside the apartment, when the HVAC system turns on?  Now worth attempting to compensate with external pressure sensor.
 
+**Addendum**.  I've now replaced the above graphs so that we can see the readings from 0430 to 0530, during which time I sat close to sensor.  Note that the temperature rose less than during some of the nightly spikes, but CO2 rose more, as one might expect given my proximity to the sensor. This perhaps leads to more confidence in the temperature-compensation of the SCD30. 
+
+**Thoughts on calibration, and baselines.**  The key metric in the 2020 paper by [Peng et al](#jimenez) is 'PPM above baseline'.  So, perhaps absolute calibration isn't really an important metric, here.  The more interesting thing would be to establish a 'baseline', algorithmically, display it graphically, and allow the user to adjust based on their interpretation. 
+
+Key passage from page one of [Peng et al](#jimenez):
+
+> Indoor CO2 has been suggested as a practical proxy of respiratory infectious disease transmission
+risk (8), as pathogen-containing aerosols and CO2 are co-exhaled by those infected (Fig. 1).
+Since background (ambient) CO2 level is stable and indoor excess CO2 is usually only from
+human exhalation, measurements of indoor CO2 concentration by low-cost CO2 sensors can
+often be good indicators of infection risk and suitable for mass deployment (9, 10). 
 
 
 
