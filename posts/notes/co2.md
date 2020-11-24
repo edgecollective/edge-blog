@@ -21,6 +21,7 @@ blurb: Notes on inexpensive CO2 monitoring options
 
 - [Feather Hookup Guide for K30](#feather)
 - [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
+- [Rev_A build of Feather-based SCD30 board](#rev_a_build)
 
 ## Background
 
@@ -834,17 +835,31 @@ Link on Amazon [here](https://www.amazon.com/dp/B0784TZFRW/ref=syn_sp_syn_da_des
 
 Link on Amazon [here](https://www.amazon.com/dp/B0861777SL/ref=syn_sd_onsite_desktop_96?psc=1&uh_it=831b79d927acc84ecbf32f6df054d07c_CT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVTRMWFREU1pUUzY2JmVuY3J5cHRlZElkPUEwODkxNTcyMzZCWFc3OFZISDdWJmVuY3J5cHRlZEFkSWQ9QTAwNTk2NzcyUVJRR0NaVU80M09ZJndpZGdldE5hbWU9c2Rfb25zaXRlX2Rlc2t0b3AmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl).
 
-### Carbon Dioxide Board Rev_A
+### <a name="rev_a_build"></a>Carbon Dioxide Board Rev_A
 
 Sparkfun SCD30 i2c library is [here](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
 
 First version with display, lora, screen, scd30 is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/firmware/feather_m0_scd30_batt_lora_display).
 
-![](/img/co2/rev_a_proto.jpg)
+![](/img/co2/rev_a_proto.jpeg)
 
 Associated gateway code is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_a/firmware/gateway/heltec_wifi_lora_bayou_farmos).
 
-Online data is currently posting [here](http://159.65.226.222:3000/drives/d6c65d7da4439a296513e6b3d1b2bdcd9f3e73fba03e367e6bec3fb77dbff9ed).
+Online data is currently posting [here](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).
+
+![](/img/co2/rev_a_data.png)
+
+Quick impression -- seems like we're going to want to average readings over a minute or or more to get some stable value when the CO2 is low -- it fluctuates a lot.  Though, that could've been the wind, too.  Might need to suggest that people get out of wind if they calibrate outside.  Or, to tell folks to wait til the reading stabilizes before hitting calibrate.  Or even have this happen automatically.
+
+### TODO
+
+- Add watchdog to remote node and to gateway
+- Add calibration procedure
+- switch to set measurement interval?
+- dip switch to set node ID
+
+
+
 
 
 
