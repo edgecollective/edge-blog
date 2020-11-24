@@ -929,15 +929,15 @@ often be good indicators of infection risk and suitable for mass deployment (9, 
 
  > This fancy microphone amplifier module is a step above the rest, with built in automatic gain control. The AGC in the amplifier means that nearby 'loud' sounds will be quieted so they don't overwhelm & 'clip' the amplifier, and even quiet, far-away sounds will be amplified. This amplifier is great for when you want to record or detect audio in a setting where levels change and you don't want to have to tweak the amplifier gain all the time.
 
- **Thoughts.**  Using a simple, auto-amplified microphone in this context seems useful.  The raw data can be presented online, and used in an attempt to discern baseline thresholds.  No algorithm needs to be applied at first; or, the user community can supply the algorithm. 
+ **Design.**  Using a simple, auto-amplified microphone in this context seems useful.  The raw data can be presented online, and used in an attempt to discern baseline thresholds.  No algorithm needs to be applied at first; or, the user community can supply the algorithm. 
 
- This leads to a sensor in the following configuration:
+ This leads to an instrument in the following **Designer PCB** configuration:
 
  - ESP32 ($3)
  - USB chip ($2)
  - Lithium ion charging ($1)
  - OLED display (larger if possible) ($3)
- - microphone (with switch to turn power off) ($2)
+ - microphone (MAX9814 with switch to turn power off) ($2) -- MAX9814 datasheet is [here](https://www.mouser.com/datasheet/2/256/MAX9814-1516143.pdf); chip is listed [here](https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX9814ETD%2BT?qs=1THa7WoU59HUZGorIAH%2Frw%3D%3D&gclid=CjwKCAiA-_L9BRBQEiwA-bm5fu4Xw3jLMp2pgE2Dl_CsuoqKs4_FdG-qEZDOrhAV2GQXbrhy5HwSVRoCcXMQAvD_BwE).
  - SCD30 ($50)
  - BMP388 or 390 ($5)
  - a button or two ($2)
@@ -945,7 +945,7 @@ often be good indicators of infection risk and suitable for mass deployment (9, 
 
  Total: $72
 
-This can be designed as a separate board, or accomplished via, e.g.:
+This can also be accomplished by a more **DIY Version**:
 
 - ESP32 + OLED + USB (Heltec) ($20)
 - microphone (adafruit MAX9814) ($8)
@@ -957,8 +957,34 @@ Total: $98
 
 Likely best to produce this latter version immediately, and then take time, if available, to make the inexpensive version.
 
+**Philosophy.**  
 
+This is an open hardware project in the realm of home-based IOT; a highly-contested area around privacy.  In this case, for example, a microphone levels can probably serve a useful proxy for indoor occupancy status. Usually, this would lead to anxieties about privacy.  But because we can produce this device in an open hardware manner, we can avoid an entire class of such concerns.  (Not all such concerns:  there's still the possibility that other surveillance software made it onto the device).  
 
+By making this a FOSS/H project, we allow more eyes onto the design to evaluate.  
 
+Switch on microphone.
 
+Ability to deploy mic without CO2, if just want to monitor activity levels in an area.
+
+Ability to deploy CO2 without mic, in order to secure privacy.
+
+### MAX9814 Adafruit module
+
+Listing for product is [here](https://www.adafruit.com/product/1713).
+
+Schematic is [here](https://cdn-learn.adafruit.com/assets/assets/000/014/290/large1024/adafruit_products_max9814sch.gif?1448049933).
+
+### Note on confounding factors
+
+From page 2 of Peng 2020:
+
+> If there are no other significant CO2 sources/sinks (e.g., gas/coal stove and pets/plants), i.e., if
+indoor excess CO2 (relative to the background outdoor level) production is only due to human
+exhalation and its loss is ventilation, similar quantities for CO2 can be expressed as follows (see
+Materials and Methods for the derivation)
+
+Gas stove or pets can be a source; plants can be a sink.
+
+Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2020, as per experiment above.
 
