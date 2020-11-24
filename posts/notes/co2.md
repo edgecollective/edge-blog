@@ -862,11 +862,17 @@ Quick impression -- seems like we're going to want to average readings over a mi
 
 2020 NOV 24
 
-Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated this graph as of 4:30 AM:
+Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated these graphs as of 4:30 AM:
 
-![](/img/co2/co2_nov23_night.png)
+| [![](/img/co2/co2_nov23_night.png)](/img/co2/co2_nov23_night.png) |
+|:--:|
+| CO2 concentration in PPM, 2020 NOV 23 overnight. |
 
-**Comment**. Note the correlation between temperature and CO2.  The temperature pattern likely due to the HVAC system.  Unless the HVAC is in fact bringing in air with higher concentration of CO2, perhaps this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
+| [![](/img/co2/temp_nov23_night.png)](/img/co2/temp_nov23_night.png) |
+|:--:|
+| Temperature in C, 2020 NOV 23 overnight. |
+
+**Comment**. Note the correlation between temperature and CO2, with co-occurring peaks around 12 AM and 1:30 AM. The temperature pattern likely due to the HVAC system.  (The spike in CO2 and temperature at 4:30 AM are likely simply due to my presence near the sensor.) Unless the HVAC is in fact bringing in air with higher concentration of CO2, perhaps this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
 
 Reference for effect of temperature and pressure on CO2, [here](https://www.bapihvac.com/application_note/effects-of-temperature-and-barometric-pressure-on-co2-sensors-application-note/).
 
