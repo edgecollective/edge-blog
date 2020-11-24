@@ -32,7 +32,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Description of remote node + gateway setup](#gatewaysetup).
 - [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
 - [Rev_A build of Feather-based SCD30 board](#rev_a_build)
-- [Thoughts on calibration](#calibration)
+- [Thoughts on calibration as of 24 NOV 2020](#calibration)
 
 --- 
 2020 SEPT 29
@@ -917,6 +917,45 @@ Since background (ambient) CO2 level is stable and indoor excess CO2 is usually 
 human exhalation, measurements of indoor CO2 concentration by low-cost CO2 sensors can
 often be good indicators of infection risk and suitable for mass deployment (9, 10). 
 
+### Use of microphones to detect ambient activity
+
+- Electret MAX4466 (manual gain) listed on Adafruit, [here](https://www.adafruit.com/product/1063).
+- Electret MAX9814 (auto gain) listed on Adafruit, [here](https://www.adafruit.com/product/1713).
+- Adafruit Silicon MEMS Microphone Breakout - SPW2430, [here](https://www.adafruit.com/product/2716)
+
+ Nice [tutorial](https://learn.adafruit.com/adafruit-microphone-amplifier-breakout/overview) on measuring sound levels using the MAX4466.  This might be the way to go if we're going to use ambient audio data to determine in-room activity. 
+
+ Tutorial on using the [auto-gain](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814) mic, which might be even better ...
+
+ > This fancy microphone amplifier module is a step above the rest, with built in automatic gain control. The AGC in the amplifier means that nearby 'loud' sounds will be quieted so they don't overwhelm & 'clip' the amplifier, and even quiet, far-away sounds will be amplified. This amplifier is great for when you want to record or detect audio in a setting where levels change and you don't want to have to tweak the amplifier gain all the time.
+
+ **Thoughts.**  Using a simple, auto-amplified microphone in this context seems useful.  The raw data can be presented online, and used in an attempt to discern baseline thresholds.  No algorithm needs to be applied at first; or, the user community can supply the algorithm. 
+
+ This leads to a sensor in the following configuration:
+
+ - ESP32 ($3)
+ - USB chip ($2)
+ - Lithium ion charging ($1)
+ - OLED display (larger if possible) ($3)
+ - microphone (with switch to turn power off) ($2)
+ - SCD30 ($50)
+ - BMP388 or 390 ($5)
+ - a button or two ($2)
+ - PCB ($4)
+
+ Total: $72
+
+This can be designed as a separate board, or accomplished via, e.g.:
+
+- ESP32 + OLED + USB (Heltec) ($20)
+- microphone (adafruit MAX9814) ($8)
+- SCD30 ($50)
+- pressure sensor (adafruit BMP388) ($10)
+- PCB ($10)
+
+Total: $98
+
+Likely best to produce this latter version immediately, and then take time, if available, to make the inexpensive version.
 
 
 
