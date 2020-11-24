@@ -997,4 +997,17 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 | CO2 (PPM).  Note: made lunch around noon on Nov 24 (gas stove).  Left house around 12:30 / 12:45 on Nov 24. |
 
 
+### Microphone pinouts
+
+| [![](/img/co2/max9814.jpg)](/img/co2/max9814.jpg) |
+|:--:|
+| MAX9814 Auto-gain audio board from Adafruit. |
+
+| [![](/img/co2/max4466.jpg)](/img/co2/max4466.jpg) |
+|:--:|
+| MAX4466 adjustible audio board from Adafruit. |
+
+
+
+
 
