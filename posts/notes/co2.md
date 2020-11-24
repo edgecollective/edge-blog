@@ -866,7 +866,21 @@ Went to bed NOV 23 at around 10:30 PM; woke up and started using computer right 
 
 ![](/img/co2/co2_nov23_night.png)
 
-**Comment**. Note the correlation between temperature and CO2.  The temperature pattern likely due to the HVAC system.  Unless the HVAC is in fact bringing in air with higher concentration of CO2, this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
+**Comment**. Note the correlation between temperature and CO2.  The temperature pattern likely due to the HVAC system.  Unless the HVAC is in fact bringing in air with higher concentration of CO2, perhaps this indicates the range of fluctuation in CO2 reading due to temperature.  Do we expect CO2 to rise with temperature for this NDIR sensor type?
+
+Reference for effect of temperature and pressure on CO2, [here](https://www.bapihvac.com/application_note/effects-of-temperature-and-barometric-pressure-on-co2-sensors-application-note/).
+
+Ah, here's a key passage:
+
+> The size of the NDIR sampling chamber is fixed and is open to the atmosphere so that air can move in and out.  As explained above, the number of air molecules in a given volume is affected by temperature and air pressure but not the concentration of CO2.  At low pressures or high temperatures, there will be fewer air molecules in the sample chamber, so there will also be fewer CO2 molecules, even though the ppm of CO2 hasn’t changed.  Fewer CO2 molecules “fools” the sensor into thinking that the CO2 concentration is lower than it really is.  At high pressures or low temperatures, there are more air molecules in the sample chamber and more CO2 molecules, even though the CO2 concentration hasn’t changed.  More CO2 molecules “fools” the sensor into thinking that the CO2 concentration is higher than it really is. Therefore a CO2 sensor calibration will only be accurate at one temperature and one air pressure.
+
+This would suggest:
+- higher pressures & lower pressures--> more air (and thus more CO2) molecules in the chamber --> higher CO2 readings
+- lower pressures & higher temperatures --> less air (and thus less CO2) molecules in chamber --> lower CO2 readings
+
+This fluctuation is due to pressure inside the apartment, when the HVAC system turns on?  Now worth attempting to compensate with external pressure sensor ...
+
+
 
 
 
