@@ -8,28 +8,35 @@ image: img/placeholder.png
 blurb: Notes on inexpensive CO2 monitoring options
 ---
 
-## TODO
+<!--
 
-14 OCT 2020
-- set up / test heltec gateway again to send to FarmOS [X]
-- also send to custom server on DO;
-- get Z19 up and running [X]
-- turn off autocalibration on the Z19 []
-- turn off autocalibration on the K30 []
+Basic captioned image formatting structure:
 
-## Table of contents
+| [![](/img/[FOLDER]/[FILENAME])](/img/[FOLDER]/[FILENAME]) |
+|:--:|
+| [CAPTION] |
 
-- [Feather Hookup Guide for K30](#feather)
-- [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
-- [Rev_A build of Feather-based SCD30 board](#rev_a_build)
+-->
+
+---
 
 ## Background
 
-Below is a development notebook for constructing a DIY CO2 monitor.  
+The following is a development notebook for constructing a DIY CO2 monitor.  
 
-Click [here](#gatewaysetup) to jump to the latest remote CO2 node + gateway setup.
+## Table of contents
 
-## CO2METER.COM K30
+More or less random bookmarks into the notes file, for reference:
+
+- [Feather Hookup Guide for K30](#feather)
+- [Description of remote node + gateway setup](#gatewaysetup).
+- [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
+- [Rev_A build of Feather-based SCD30 board](#rev_a_build)
+
+--- 
+2020 SEPT 29
+
+## Experiments with K30 from CO2METER.com
 
 [Online description of K30](https://www.co2meter.com/products/k-30-co2-sensor-module)
 
@@ -149,8 +156,6 @@ Would be nice to develop useful ways of connecting to some standard hardware (e.
 [Article](https://www.greenhousegrower.com/production/monitoring-carbon-dioxide-in-the-greenhouse/) on measuring CO2 in greenhouses:
 
 > Until recently, the vast majority of growers in the U.S. did not measure CO2 or use it to enrich their greenhouses. However, during the winter, CO2 levels can quickly become limiting in unventilated greenhouses full of plants on cold and sunny days. Over the past 10 years, we have also seen greenhouse growers seal up their greenhouses in an effort to control their heating bills during the winter. Other growers, especially in northern latitudes, have invested in supplemental lighting because of the numerous benefits, from improved quality and yields to reduced production time. An apparent result of tightly sealing the greenhouse is increased humidity and condensation. A not-so-apparent result of reducing air infiltration is a reduction of CO2 levels within the greenhouse below ambient levels found outdoors.
-
-## Ongoing work / research
 
 ----
 
@@ -286,9 +291,11 @@ Oct 14 2020
 
 (TODO: set up using chappy-server as a model?)
 
-## Ongoing Work Log
+---
 
-As Of 15 OCT 2020 10:42 AM -- K30 is autocalibrating, Z19 is not. 
+15 OCT 2020 10:42 AM 
+
+K30 is autocalibrating, Z19 is not. 
 
 Ah -- looks like the K30 also can give temp, and RH!  Cf the example [here](https://gist.github.com/pkourany/53415d7f0c354a6d1e05). 
 
@@ -835,7 +842,13 @@ Link on Amazon [here](https://www.amazon.com/dp/B0784TZFRW/ref=syn_sp_syn_da_des
 
 Link on Amazon [here](https://www.amazon.com/dp/B0861777SL/ref=syn_sd_onsite_desktop_96?psc=1&uh_it=831b79d927acc84ecbf32f6df054d07c_CT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVTRMWFREU1pUUzY2JmVuY3J5cHRlZElkPUEwODkxNTcyMzZCWFc3OFZISDdWJmVuY3J5cHRlZEFkSWQ9QTAwNTk2NzcyUVJRR0NaVU80M09ZJndpZGdldE5hbWU9c2Rfb25zaXRlX2Rlc2t0b3AmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl).
 
+---
+
+2020 NOV 23
+
 ### <a name="rev_a_build"></a>Carbon Dioxide Board Rev_A
+
+REV_A Boards have arrived in the mail.  Assembly and initial code tests! 
 
 Sparkfun SCD30 i2c library is [here](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).
 
@@ -847,9 +860,12 @@ Associated gateway code is [here](https://github.com/edgecollective/co2-remote-a
 
 Online data is currently posting [here](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).
 
-![](/img/co2/rev_a_data.png)
 
-Quick impression -- seems like we're going to want to average readings over a minute or or more to get some stable value when the CO2 is low -- it fluctuates a lot.  Though, that could've been the wind, too.  Might need to suggest that people get out of wind if they calibrate outside.  Or, to tell folks to wait til the reading stabilizes before hitting calibrate.  Or even have this happen automatically.
+| [![](/img/co2/rev_a_data.png)](/img/co2/rev_a_data.png) |
+|:--:|
+| Quick indoor test of REV_A board. |
+
+Also took sensor outside for a few minutes.  It fluctuated a lot.  Seems like we're going to want to average readings over a minute or or more to get some stable value when the CO2 is low.  Might have been due to wind. Might need to suggest that people get out of wind if they calibrate outside.  Or, to tell folks to wait til the reading stabilizes before hitting calibrate.  Or even have this happen automatically.
 
 ### TODO
 
@@ -859,17 +875,6 @@ Quick impression -- seems like we're going to want to average readings over a mi
 - dip switch to set node ID
 
 ---
-
-<!--
-
-Basic captioned image formatting structure:
-
-| [![](/img/[FOLDER]/[FILENAME])](/img/[FOLDER]/[FILENAME]) |
-|:--:|
-| [CAPTION] |
-
--->
-
 
 2020 NOV 24
 
