@@ -879,7 +879,7 @@ Also took sensor outside for a few minutes.  It fluctuated a lot.  Seems like we
 
 2020 NOV 24
 
-**Results of overnight test on NOV 23.**  Out of three people in apartment, two went to bed at around 8 PM, the final person at around 10:30 PM.  One person (me) woke up and started using computer right next to CO2 sensor at 4:30 AM. Generated these graphs as of 4:30 AM:
+**Results of overnight test on NOV 23.**  Out of three people in apartment, two went to bed at around 8 PM, the final person at around 10:30 PM.  One person (me) woke up and started using computer right next to CO2 sensor at 4:30 AM. Collecting data in [this Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de), generated these graphs as of 4:30 AM:
 
 | [![](/img/co2/co2_nov23_night.png)](/img/co2/co2_nov23_night.png) |
 |:--:|
@@ -987,4 +987,14 @@ Materials and Methods for the derivation)
 Gas stove or pets can be a source; plants can be a sink.
 
 Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2020, as per experiment above.
+
+---
+
+24 NOV 2020 Update @ 14:30
+
+| [![](/img/co2/nov_24_left_house.png)](/img/co2/nov_24_left_house.png) |
+|:--:|
+| CO2 (PPM).  Note: made lunch around noon on Nov 24 (gas stove).  Left house around 12:30 / 12:45 on Nov 24. |
+
+
 
