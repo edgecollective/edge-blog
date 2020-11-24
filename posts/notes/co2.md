@@ -32,6 +32,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Description of remote node + gateway setup](#gatewaysetup).
 - [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
 - [Rev_A build of Feather-based SCD30 board](#rev_a_build)
+- [Thoughts on calibration](#calibration)
 
 --- 
 2020 SEPT 29
@@ -904,7 +905,9 @@ This fluctuation is due to pressure inside the apartment, when the HVAC system t
 
 **Addendum**.  I've now replaced the above graphs so that we can see the readings from 0430 to 0530, during which time I sat close to sensor.  Note that the temperature rose less than during some of the nightly spikes, but CO2 rose more, as one might expect given my proximity to the sensor. This perhaps leads to more confidence in the temperature-compensation of the SCD30. 
 
-**Thoughts on calibration, and baselines.**  The key metric in the 2020 paper by [Peng et al](#jimenez) is 'PPM above baseline'.  So, perhaps absolute calibration isn't really an important metric, here.  The more interesting thing would be to establish a 'baseline', algorithmically, display it graphically, and allow the user to adjust based on their interpretation. 
+<a name="calibration"></a> 
+
+**Thoughts on calibration, and baselines.**  The key metric in the 2020 paper by [Peng et al](#jimenez) is 'PPM above baseline'.  So, perhaps absolute calibration isn't really an important metric, here; more useful and interesting might be to establish a 'baseline', algorithmically; display it graphically; and allow the user to adjust based on their interpretation. 
 
 Key passage from page one of [Peng et al](#jimenez):
 
