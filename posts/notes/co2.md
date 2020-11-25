@@ -33,6 +33,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Peng and Jimenez paper on CO2 and COVID infection probability](#jimenez)
 - [Rev_A build of Feather-based SCD30 board](#rev_a_build)
 - [Thoughts on calibration as of 24 NOV 2020](#calibration)
+- [Nov 25 update](#nov25)
 
 --- 
 2020 SEPT 29
@@ -1014,4 +1015,18 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 | [![](/img/co2/co2_nov24_full.png)](/img/co2/co2_nov24_full.png) |
 |:--:|
 | Arrived back home at 5:30 PM Nov 24th. Interesting that the ambient CO2 decreased in our absence to a value lower than overnight in the apartment with us sleeping there. |
+
+----
+
+<a name="nov25"></a> 
+
+2020 NOV 25 
+
+| [![](/img/co2/nov25_over.png)](/img/co2/nov25_over.png) |
+|:--:|
+| Nov 245th through morning of Nov 25th.  Spikes on Nov 24th at 7:30 AM, 10:30 AM, 12 PM, and on Nov 25th at 8 AM, are perhaps due to use of propane stove for cooking.  Apartment was unoccupied on Nov 24th from about 12:30 PM until 5:30 PM. |
+
+
+
+
 
