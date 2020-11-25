@@ -129,3 +129,67 @@ In particular, wakeup from external pin [here](https://lastminuteengineers.com/e
 ### Eink experiments
 
 ![](/img/eink/map_proto.jpg)
+
+### Inspiring projects
+
+Arduino APRS project, [here](http://9w2svt.blogspot.com/2014/12/aprs-arduino-with-map-display.html).
+
+**Key project**. Marinus, and APRS display project, [here](http://hamradioprojects.com/authors/wa5znu/+marinus/). Great set of links, here!
+
+Online code to generate OSM tiles for download is [here](http://hamradioprojects.com/authors/wa5znu/+marinus/osm/).
+
+Ham Radio for Arduino and Picaxe book --- [Description](http://www.arrl.org/shop/Ham-Radio-for-Arduino-and-PICAXE/), [Amazon](https://www.amazon.com/Ham-Radio-Arduino-Picaxe-Arrl/dp/087259324X).
+
+Source code for generating tiles from OSM is [here](http://hamradioprojects.com/authors/wa5znu/+marinus/code/)
+
+Grid square locator on above site is broken; perhaps [this](https://www.k2dsl.com/2008/08/27/finding-grid-square-locators/) works?
+
+Grid square locator [here](http://www.arrl.org/grid-squares).
+
+Computing lat / lon [here](https://stevemorse.org/jcal/latlon.php).
+
+Conant road lat / lon: 42.41158	-71.2983
+
+Grid square utility [here](http://www.levinecentral.com/ham/grid_square.php) works, but doesn't give 10 character grid squares ...
+
+Another tool is [here](https://dxcluster.ha8tks.hu/hamgeocoding/), which generates a nice overlay ... <-- this is the tool to use!
+
+So, the combined tools are:
+- identifying your grid square in ham radio, [here](https://dxcluster.ha8tks.hu/hamgeocoding/).
+- using a python script to grab the tiles, [here](http://hamradioprojects.com/authors/wa5znu/+marinus/osm/) -- seems to be broken.
+
+Example grid square: 
+
+FN42IK44LP
+
+### Grid Squares
+
+Generator [here](https://dxcluster.ha8tks.hu/hamgeocoding/).
+
+![](/img/eink/gridquare.png)
+
+![](/img/eink/weston.png)
+
+Reference on gridsquares [here](https://www.amsat.org/amsat-new/tools/grids.php)
+
+Ham radio chat on grid squares [here](https://www.youtube.com/watch?v=3w2SPj5Hs5Q).
+
+General term for this is the [Maidenhead Gridsquare System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System).
+
+(Alternative:  the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System))
+
+Nice [explanation](https://www.hamradio.in/circuits/grid_locator_system.php) of the grid locator system.
+
+Nice [historical background](http://www.jonit.com/fieldlist/maidenhead.htm) on the system. 
+
+Really nice [video explanation](https://www.youtube.com/watch?v=rlkUAHGw_Sg) of grid squares.
+
+### OSM Tiles
+
+Guide to tiles [here](https://wiki.openstreetmap.org/wiki/Tiles).
+
+Tutorial on how to use OSM tiles in an application, [here](https://switch2osm.org/using-tiles/).
+
+Leaflet providers [here](http://leaflet-extras.github.io/leaflet-providers/preview/) <-- really useful survey of free tile providers.
+
+Good list of [hiking maps](https://wiki.openstreetmap.org/wiki/Hiking_Maps)

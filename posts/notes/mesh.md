@@ -69,3 +69,9 @@ Got Meshtastic up and running on a [Quahog](https://edgecollective.io/post/notes
 |[ ![qtest](/img/mesh/update3/qtest.jpg)](/img/mesh/update3/qtest.jpg)|
 |:--:|
 | First message received on the Quahog. |
+
+## Meshtastic to connect isolated villages
+
+Project by Luandro, [here](https://meshtastic.discourse.group/t/meshtastic-to-connect-isolated-villages/1191).
+
+Luandro's public key on Scuttlebutt is here: ```@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519```

@@ -1007,7 +1007,11 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 |:--:|
 | MAX4466 adjustible audio board from Adafruit. |
 
+---
 
+2020 NOV 24 Update 22:10
 
-
+| [![](/img/co2/co2_nov24_full.png)](/img/co2/co2_nov24_full.png) |
+|:--:|
+| Arrived back home at 5:30 PM Nov 24th. Interesting that the ambient CO2 decreased in our absence to a value lower than overnight in the apartment with us sleeping there. |
 
