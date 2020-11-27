@@ -164,7 +164,7 @@ FN42IK44LP
 
 ### Grid Squares
 
-Generator [here](https://dxcluster.ha8tks.hu/hamgeocoding/).
+Generator [here](https://dxcluster.ha8tks.hu/hamgeocoding/).  Uses a nice open source [geocoding app](https://nominatim.org/) that works with OSM.  The author, [ha8tks](https://twitter.com/ha8tks?lang=en), has a [repo on github](https://github.com/ha8tks/Leaflet.Maidenhead) that applies the GridSquare layout in Leaflet.
 
 ![](/img/eink/gridquare.png)
 
@@ -193,3 +193,60 @@ Tutorial on how to use OSM tiles in an application, [here](https://switch2osm.or
 Leaflet providers [here](http://leaflet-extras.github.io/leaflet-providers/preview/) <-- really useful survey of free tile providers.
 
 Good list of [hiking maps](https://wiki.openstreetmap.org/wiki/Hiking_Maps)
+
+---
+2020-11-25 10:50:31
+
+Would be nice to include the GridSquare system in an offline map.  Easily switch between a device and a paper printout.  
+
+How would one overlap on a 'regular' map? Might be neat to try to do via features.  Would need same project I suppose. 
+
+Note that there's a TTGO EINK+ESP32 module [here](https://www.amazon.com/WEMS-ESP32-EPaper-Module-Speakers/dp/B07B9V1K7H).
+
+E-ink calendar display project [here](https://github.com/martinberlin/eink-calendar) for ESP32. 
+
+### Quick tally of hardware costs
+
+If custom board:
+- pcb: $10
+- display: $30
+- gps: $5
+- micro+passives: $5
+- misc: $5
+- **total**: $55
+
+can sell for 4X to support project, or around $200? 
+
+If DIY kit:
+- pcb: $10
+- display: $30
+- microcontroller: $20
+- SD card: $5
+- GPS: $5
+
+Can sell the PCB + SD card + GPS + screen as a kit for (10+30+5+5)*4 = $200 ... hmm. Maybe if also sell a case ...
+
+### GPS
+
+Sparkfun [ublox library](https://www.arduino.cc/reference/en/libraries/sparkfun-ublox-arduino-library/).
+
+Various Sparkfun [ublox products](https://www.sparkfun.com/categories/tags/u-blox).
+
+I think the cheap chip vis a vis ublox is the NEO-6M. That's on the meshtastic, and that's what I'm using via Amazon. E.g. [here](https://www.amazon.com/DIYmall-AeroQuad-Antenna-Arduino-Aircraft/dp/B01H5FNA4K/ref=sr_1_7?dchild=1&keywords=GPS+U-blox+NEO-6M+Module&qid=1606324327&refinements=p_76%3A2661625011&rps=1&sr=8-7).
+
+This is the 'NEO-6M' item I've been using, [here](https://www.amazon.com/DIYmall-AeroQuad-Antenna-Arduino-Aircraft/dp/B01H5FNA4K/ref=pd_lpo_147_t_0/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B01H5FNA4K&pd_rd_r=4c20784f-c1a2-486c-b9dc-aa87c28e8ace&pd_rd_w=oiq9h&pd_rd_wg=sPeQk&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=TE8WSNWNZTAYDY5AT2RK&psc=1&refRID=TE8WSNWNZTAYDY5AT2RK).
+### Designing a PCB for the waveshare
+
+Module description is [here](https://www.waveshare.com/4.2inch-e-paper-module.htm).
+
+Dimensions of module are thus:
+
+![](/img/eink/4.2inch-e-Paper-Module-size.jpg)
+
+[5-way tactile switch](https://www.sparkfun.com/products/10063)
+
+Sparfkun [thumb slide joystick](https://www.sparkfun.com/products/9426).
+
+Two-axis analog thumb joystick [from adafruit](https://www.adafruit.com/product/3103?gclid=CjwKCAiAnvj9BRA4EiwAuUMDf3G_fkelMEeerVZsKheGOKmEEHHC8dTNP6ZO3IY1C-4tmHcKU-vbJBoC7bUQAvD_BwE).
+
+

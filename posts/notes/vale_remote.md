@@ -357,8 +357,18 @@ Implemented very basic watchdog [here](https://github.com/edgecollective/valedal
 
 Data [here](http://159.65.226.222:3000/drives/3a28c09fa93ccf15513a055984148b02b0709f545c12013aaf25252f73626f62).
 
+---
+2020-11-26 20:33:48
 
+### Design notes
 
+Interesting Things Network post on a BME280 outdoor LoRa node, [here](https://www.thethingsnetwork.org/forum/t/lora-bme280-environmental-node-with-webbased-backend/9264).
+
+Relies on a really low power LoRa node design based on an Atmel 328p -- elegant! -- [here](https://www.thethingsnetwork.org/forum/t/full-arduino-mini-lorawan-below-1ua-sleep-mode/8059) 
+
+Nice post on OLED sleep current, [here](https://bitbanksoftware.blogspot.com/2019/06/how-much-current-do-oled-displays-use.html).  Looks like the 128x65 display I favor uses around 25 uA when asleep.
+
+A nice general review of OLEDs and various libraries and use-cases, [here](https://bengoncalves.wordpress.com/2015/10/01/oled-display-and-arduino-with-power-save-mode/).  Includes code for putting the OLED to sleep.
 
 
 

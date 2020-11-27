@@ -40,9 +40,14 @@ By [Parker](https://github.com/pswoodworth)!
 
 [Web app](https://github.com/pswoodworth/ble-micro-web-interface)
 
+---
+2020-11-26 14:57:25
 
+Experimenting with [Parker's Arduino BLE code](https://github.com/edgecollective/esp32-ble-interface) ...
 
+Compiles nicely for Heltec Wifi LoRa 32 v2!  But interesting that for ESP32 Feather, we get:
 
+![](/img/bluetooth/adafruit_feather_32_error.png)
 
 
 

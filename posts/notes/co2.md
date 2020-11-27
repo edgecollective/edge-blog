@@ -8,18 +8,6 @@ image: /img/co2/rev_a_proto.jpeg
 blurb: Notes on inexpensive CO2 monitoring options
 ---
 
-<!--
-
-Basic captioned image formatting structure:
-
-| [![](/img/[FOLDER]/[FILENAME])](/img/[FOLDER]/[FILENAME]) |
-|:--:|
-| [CAPTION] |
-
--->
-
----
-
 ## Background
 
 The following is a development notebook for constructing a DIY CO2 monitor.  
@@ -1008,8 +996,6 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 |:--:|
 | MAX4466 adjustible audio board from Adafruit. |
 
----
-
 2020 NOV 24 Update 22:10
 
 | [![](/img/co2/co2_nov24_full.png)](/img/co2/co2_nov24_full.png) |
@@ -1024,7 +1010,7 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 
 | [![](/img/co2/nov25_over.png)](/img/co2/nov25_over.png) |
 |:--:|
-| Nov 245th through morning of Nov 25th.  Spikes on Nov 24th at 7:30 AM, 10:30 AM, 12 PM, and on Nov 25th at 8 AM, are perhaps due to use of propane stove for cooking.  Apartment was unoccupied on Nov 24th from about 12:30 PM until 5:30 PM. |
+| **CO2 (PPM) measured on Nov 245th through morning of Nov 25th.**  Spikes on Nov 24th at 7:30 AM, 10:30 AM, 12 PM, and on Nov 25th at 8 AM, are perhaps due to use of propane stove for cooking.  Apartment was unoccupied on Nov 24th from about 12:30 PM until 5:30 PM. |
 
 
 
