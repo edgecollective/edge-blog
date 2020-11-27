@@ -1012,7 +1012,12 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 |:--:|
 | **CO2 (PPM) measured on Nov 245th through morning of Nov 25th.**  Spikes on Nov 24th at 7:30 AM, 10:30 AM, 12 PM, and on Nov 25th at 8 AM, are perhaps due to use of propane stove for cooking.  Apartment was unoccupied on Nov 24th from about 12:30 PM until 5:30 PM. |
 
+---
+2020-11-27 17:20:40
 
 
 
+| [![](/img/co2/co2_nov26_nov27.png)](/img/co2/co2_nov26_nov27.png) |
+|:--:|
+| **Snapshot from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).**  Left house around 9 AM on Nov 26th.  Visitors likely in house, late morning of Nov 27th. Returned home a little before 5 PM, and started using gas stove. |
 
