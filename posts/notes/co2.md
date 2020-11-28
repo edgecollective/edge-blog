@@ -22,7 +22,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Rev_A build of Feather-based SCD30 board](#rev_a_build)
 - [Thoughts on calibration as of 24 NOV 2020](#calibration)
 - [Nov 25 update](#nov25)
-- [Initial Microphone Experiment](#mic_experiment)
+- [Initial Microphone Experiment Nov 28](#mic_experiment)
 
 --- 
 2020 SEPT 29
@@ -1096,7 +1096,7 @@ Formula for converting unix timestamp to date in Excel / Sheets is discussed [he
 =(((A1/60)/60/24)+DATE(1970,1,1)
 ``` 
 
-### <a name="mic_experiment"></a> CO2 and Mic data by hour during morning
+## <a name="mic_experiment"></a> Analysis of Initial CO2 and Microphone Data
 
 | [![](/img/co2/mic_and_co2_unix_hours.png)](/img/co2/mic_and_co2_unix_hours.png) |
 |:--:|
