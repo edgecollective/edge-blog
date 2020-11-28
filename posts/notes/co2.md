@@ -1057,6 +1057,10 @@ Light sensors:
 
 ### REV_B + MAX4466 Experiment
 
+![](/img/co2/rev_b.jpg)
+
+![](/img/co2/co2_and_mic.jpg)
+
 REV_B appears to work!
 
 Now testing microphone ...
@@ -1187,6 +1191,8 @@ The reason given online for this is that the inexpensive enclosures are often ma
 - Cardboard enclosure?
 - Partnering institutions who'd like to help evaluate and test. Peng et al are an initial candidate. Others?  
 - Online documentation for assembly and use of kit.
+
+Interesting [Makerportal](https://makersportal.com/store) setup.
 
 
 
