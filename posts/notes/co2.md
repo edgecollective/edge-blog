@@ -22,6 +22,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Rev_A build of Feather-based SCD30 board](#rev_a_build)
 - [Thoughts on calibration as of 24 NOV 2020](#calibration)
 - [Nov 25 update](#nov25)
+- [Initial Microphone Experiment](#mic_experiment)
 
 --- 
 2020 SEPT 29
@@ -908,7 +909,7 @@ often be good indicators of infection risk and suitable for mass deployment (9, 
 
 ### Use of microphones to detect ambient activity
 
-- Electret MAX4466 (manual gain) listed on Adafruit, [here](https://www.adafruit.com/product/1063).
+- Electret MAX4466 (manual gain) listed on Adafruit, [here](https://www.adafruit.com/product/1063). Note that it's also widely avail on [Amazon](https://www.amazon.com/dp/B08CV2X658/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B08CV2X658&pd_rd_w=e4Wqd&pf_rd_p=7d37a48b-2b1a-4373-8c1a-bdcc5da66be9&pd_rd_wg=jK4OK&pf_rd_r=0WTC7Z5H34N5NVXD75YE&pd_rd_r=e8a78340-09f3-4f09-a9fe-63e5a2dae57b&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTE85RlYxVU5SWkRZJmVuY3J5cHRlZElkPUEwNjE5ODUyMlE5MEhGNUFEMzlDWSZlbmNyeXB0ZWRBZElkPUEwMzEwMzMxMUxTNEZUR1k2NTJCVCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 - Electret MAX9814 (auto gain) listed on Adafruit, [here](https://www.adafruit.com/product/1713).
 - Adafruit Silicon MEMS Microphone Breakout - SPW2430, [here](https://www.adafruit.com/product/2716)
 
@@ -1020,4 +1021,86 @@ Indeed, looks like I may have seen this effect using a propane stove on Nov 24 2
 | [![](/img/co2/co2_nov26_nov27.png)](/img/co2/co2_nov26_nov27.png) |
 |:--:|
 | **Snapshot from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).**  Left house around 9 AM on Nov 26th.  Visitors likely in house, late morning of Nov 27th. Returned home a little before 5 PM, and started using gas stove. |
+
+### Light sensors
+
+Vishay light sensor [here](https://www.adafruit.com/product/4162).
+
+Simple, cheap analog light sensor breakout [here](https://www.adafruit.com/product/2748).
+
+BH1750 [here](https://www.adafruit.com/product/4681),seemed to be recommended for ambient light sensing ... but difficult to solder.  Note though that this seems widely available on Amazon as breakout boards.  [This description](https://makersportal.com/shop/ambient-light-sensor-bh1750-16-bit) also indicates that it's a good candidate for this application; and in fact, the leads don't look too small.
+
+### Microphones
+
+MEMS mic from Adafruit, the [SPW2430](https://www.adafruit.com/product/2716?gclid=CjwKCAiA5IL-BRAzEiwA0lcWYmVgg-sFYvw2DV5d3ki49VliOATt6F7_MmGSpVRBbz_hWldCvHzw-BoCmDgQAvD_BwE)
+
+Looks like: use the electret verison for the DIY solderable verison; use the SPW2430 or similar for custom PCB.
+
+[MAX4466 from Amazon](https://www.amazon.com/dp/B08CV2X658/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B08CV2X658&pd_rd_w=e4Wqd&pf_rd_p=7d37a48b-2b1a-4373-8c1a-bdcc5da66be9&pd_rd_wg=jK4OK&pf_rd_r=0WTC7Z5H34N5NVXD75YE&pd_rd_r=e8a78340-09f3-4f09-a9fe-63e5a2dae57b&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTE85RlYxVU5SWkRZJmVuY3J5cHRlZElkPUEwNjE5ODUyMlE5MEhGNUFEMzlDWSZlbmNyeXB0ZWRBZElkPUEwMzEwMzMxMUxTNEZUR1k2NTJCVCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=):
+
+![](/img/co2/max4466_amazon.png)  
+
+Nice [post](https://www.cuidevices.com/blog/comparing-mems-and-electret-condenser-microphones) on comparing MEMS and Electret microphones.
+
+Tutorial on measuring sound levels with the MAX4466 by Adafruit [here](https://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels).
+
+### Design Review 
+
+2020-11-27 20:18:07
+
+Microphones:
+- for DIY version: use electret, b/c cheap and widely available. Also use SPW2430 breakout from Adafruit.
+- for artisanal verison: use SPW2430.
+
+Light sensors:
+- for both DIY and artisanal versions, use BH1750 boards / chips.
+
+### REV_B + MAX4466 Experiment
+
+REV_B appears to work!
+
+Now testing microphone ...
+
+Connecting analog out of mic to A0 on REV_B (one of the button pins) ...
+
+Running overnight on Nov 27th with mic sampling of 10 sec ...
+
+Test code is [here](
+
+Data will appear [here](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).
+
+---
+
+2020-11-28 04:22:39
+
+My impression is that this mic will require additional signal conditioning to pick up ambient noise; perhaps this can be done with an op-amp and a potentiometer that allows experimentation; or maybe a light sensor is the best next step.  Or maybe auto-gain is best, the idea being that it will attempt to acquire *any* signal.  That said, I'd think that 'max gain' on this system would do the trick, if that would work.  All depends on the circuit and the mic.
+
+[MAX4466 Datasheet](https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf).  
+
+
+| [![](/img/co2/mic_morning_nov28.png)](/img/co2/mic_morning_nov28.png) |
+|:--:|
+| **Snapshot of mic data from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).**  Woke up at 5 AM.  Note that pattern of sampling shown is a bit odd.  Need to dive back in an look at how data is captured and how it should be averaged.|
+
+
+| [![](/img/co2/mic_sampled_nov28_unix.png)](/img/co2/mic_sampled_nov28_unix.png) |
+|:--:|
+| **Higher sampling rate of mic data from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).**   Working to convert this to proper dates (see below) ...|
+
+
+### Aside: converting unix timestamps in Sheets 
+
+Formula for converting unix timestamp to date in Excel / Sheets is discussed [here](https://websiteseochecker.com/blog/what-is-timestamp/);  if the timestamp is in cell 'A1', the formula for the date is:
+
+```
+=(((A1/60)/60/24)+DATE(1970,1,1)
+``` 
+
+### <a name="mic_experiment"></a> CO2 and Mic data by hour during morning
+
+| [![](/img/co2/mic_and_co2_unix_hours.png)](/img/co2/mic_and_co2_unix_hours.png) |
+|:--:|
+| **CO2 and Mic data from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).** Microphone data is "highest p-p amplitude over 10 sec interval".  Note -- entered room with sensor around 4:30 AM.  Generally mic data seems to precipitate rise in CO2 level.  At some point gas stove was used;  from this data, I would surmise around 6:40 AM, but unsure. Need to track this next round. |
+
+
 
