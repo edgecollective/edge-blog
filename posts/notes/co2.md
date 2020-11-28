@@ -1102,5 +1102,78 @@ Formula for converting unix timestamp to date in Excel / Sheets is discussed [he
 |:--:|
 | **CO2 and Mic data from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).** Microphone data is "highest p-p amplitude over 10 sec interval".  Note -- entered room with sensor around 4:30 AM.  Generally mic data seems to precipitate rise in CO2 level.  At some point gas stove was used;  from this data, I would surmise around 6:40 AM, but unsure. Need to track this next round. |
 
+### Enclosure options
+
+115 x 90 x 55mm for $10 w/ transparent screw cover [here](ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNlY3TlNQTks4WTY0JmVuY3J5cHRlZElkPUEwMTcyOTc0M1A5OTBMNE1DV0E4SyZlbmNyeXB0ZWRBZElkPUEwNTEwMzQ1SkY1MDYwQ0ZMQzBBJndpZGdldE5hbWU9c3BfZGV0YWlsMiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU).
+
+Popular 200 x120 x56 mm for $15 w/ transparent screw cover [here](https://www.amazon.com/LeMotech-Dustproof-Waterproof-Electrical-Enclosure/dp/B07BPPJZBG/ref=pd_sbs_60_1/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07BPPJZBG&pd_rd_r=86924a94-2620-4e15-91d7-f9a01104fb4f&pd_rd_w=VUfCX&pd_rd_wg=tdXB2&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=M5FYKR285RHNS1H54ZFB&psc=1&refRID=M5FYKR285RHNS1H54ZFB)
+
+5.9 x 3.9 x 2.8inch w latching cover [here](https://www.amazon.com/LMioEtool-Dustproof-Waterproof-Electrical-Transparent/dp/B07PK8K8S2/ref=pd_lpo_60_t_2/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07PK8K8S2&pd_rd_r=105ea24a-0322-41f7-8b9f-6d5b31591072&pd_rd_w=xO7n2&pd_rd_wg=5A7XY&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=M5FYKR285RHNS1H54ZFB&psc=1&refRID=M5FYKR285RHNS1H54ZFB)
+
+Would be nice to have 'wings' for mounting ...
+
+This one has wings, [here](https://www.amazon.com/YXQ-83x58x33mm-Junction-Waterproof-Enclosure/dp/B07JH8LNHY/ref=pd_sbs_60_4/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07JH8LNHY&pd_rd_r=86924a94-2620-4e15-91d7-f9a01104fb4f&pd_rd_w=VUfCX&pd_rd_wg=tdXB2&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=M5FYKR285RHNS1H54ZFB&psc=1&refRID=M5FYKR285RHNS1H54ZFB).
+
+In fact, seems to be part of a pretty standard and well-rated series, [here](https://www.amazon.com/Awclub-Junction-Dustproof-Weatherproof-Electrical/dp/B07NSTW7QB/ref=pd_di_sccai_4/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07NSTW7QB&pd_rd_r=a2c81e3d-386a-43ae-a847-00ab2f985575&pd_rd_w=WY4y1&pd_rd_wg=V0jWO&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=HE1G91ZWD43Y8H33FZJ3&psc=1&refRID=HE1G91ZWD43Y8H33FZJ3)
+
+In particular, the [4.5"x3.3"x1.4"(115x85x35mm)](https://www.amazon.com/Awclub-Junction-Dustproof-Weatherproof-Electrical/dp/B07NSV7CSM/ref=pd_di_sccai_4/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07NSTW7QB&pd_rd_r=a2c81e3d-386a-43ae-a847-00ab2f985575&pd_rd_w=WY4y1&pd_rd_wg=V0jWO&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=HE1G91ZWD43Y8H33FZJ3&refRID=HE1G91ZWD43Y8H33FZJ3&th=1) size looks good, for $10.  But: maybe too flat to drill holes for cables. And will require fairly large PCB.
+
+From comments, the comparison is between Awclub and LeMotech on Amazon, favoring LeMotech for quality. Likely to find some analysis of sizes and design in hobby projects online (or better: datasheets) given how popular the brands are. 
+
+Plan: first assess how large the project will likely be by laying out some PCBs, and order an enclosure. 
+
+Review of best projecte enclosures [here](https://diabeteshealthequity.org/arduino-project-enclosure/)
+
+Apparently the 'wings' I'm referring to are termed 'ears'.
+
+E.g.: for the [4.5 x 3.5 x 2.68 inch(115 x 90 x 68 mm) 'ear' Lemotech version](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G58SLB1?th=1), the  PCB is essentially 84 mm by 89 mm.  
+
+This might be a good case size to shoot for.  I think I can accommodate it. A larger PCB might be expensive, anyway.
+
+Datasheet for this enclosure is [here](https://images-na.ssl-images-amazon.com/images/I/61P4XQPyJyL.pdf). 
+
+Need to accommodate a USB cable.
+
+Alright: let's lay out a PCB for testing, and if it looks plausible, order one of these.
+
+Note that the  6.2"x3.5"x1.8" version of LeMotech has a nice drawing by a user. Also has same price as smallest version.  
+
+Suggestion to make panel mounting oneself.  
+
+This is in keeping with previous ideas.
+
+From what I can tell online, the most effective & inexpensive / adaptable approach to enclosures might be:
+- design a PCB to be as small as possible, with mounting holes for standard screw sizes
+- find a nice inexpensive enclosure design
+- make a 'mounting plate' that fits snugly inside the enclosure, with mounting holes for one's PCB
+
+The reason given online for this is that the inexpensive enclosures are often made from 'recycled molds' that have poor tolerances.  So it really isn't a great idea to design a custom PCB for them.  Rather, lasercut inexpensive (ideally, drillable, as backup) mounting plates.
+
+
+### Large, Flat LeMotech enclosure
+
+> Outside Size (approx.): 6.2"x3.5"x1.8"(158mmx90mmx46mm)/(L*W*H); Inner size (approx.): 5.9"x3.3"x1.6"(151mmx84mmx42mm)/(L*W*H)- - (Allowable Error: 2mm); Screw Thread Size: M4
+
+| [![](/img/co2/larger_lemotech.png)](/img/co2/larger_lemotech.png) |
+|:--:|
+| Lemotech enclosure, [6.2 x 3.5 x 1.8 inch (158 x 90 x 46 mm)](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G4VT33D?th=1). |
+
+| [![](/img/co2/larger_lemotech_drawing.png)](/img/co2/larger_lemotech_drawing.png) |
+|:--:|
+| Customer-provided CAD drawings for Lemotech enclosure, [6.2 x 3.5 x 1.8 inch (158 x 90 x 46 mm)](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G4VT33D?th=1). |
+
+### Smallest LeMotech enclosure
+
+> Outside Size (approx.): 4.5"x3.5"x2.68"/(115mmx90mmx68mm)(L*W*H); Inner size (approx.): 4.3"x3.3"x2.44"/(111mmx86mmx62mm) (L*W*H)- -(Allowable Error: 2mm); Screw Thread Dia.: 4mm/0.16"
+
+| [![](/img/co2/smallest_lemotech.png)](/img/co2/smallest_lemotech.png) |
+|:--:|
+| Lemotech enclosure, [4.5"x3.5"x2.68"/(115mmx90mmx68mm)](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G58SLB1?th=1). |
+
+
+
+
+
+
 
 
