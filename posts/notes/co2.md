@@ -1078,6 +1078,9 @@ My impression is that this mic will require additional signal conditioning to pi
 [MAX4466 Datasheet](https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf).  
 
 
+Data from the Bayou feed, overnight Nov 27th -- Nov 28th in CSV format has a snapshot [here](https://docs.google.com/spreadsheets/d/11WYxWyIDqpz9qTyOSo6GRbPs4L-iIx42mY1tSCSNI58/edit?usp=sharing). This analysis is necessary because the current graphical display in Bayou is configured to who only every 10th data point;  we'd like to see the higher-density data. 
+
+
 | [![](/img/co2/mic_morning_nov28.png)](/img/co2/mic_morning_nov28.png) |
 |:--:|
 | **Snapshot of mic data from the [Bayou feed](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de).**  Woke up at 5 AM.  Note that pattern of sampling shown is a bit odd.  Need to dive back in an look at how data is captured and how it should be averaged.|
@@ -1169,6 +1172,23 @@ The reason given online for this is that the inexpensive enclosures are often ma
 | [![](/img/co2/smallest_lemotech.png)](/img/co2/smallest_lemotech.png) |
 |:--:|
 | Lemotech enclosure, [4.5"x3.5"x2.68"/(115mmx90mmx68mm)](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G58SLB1?th=1). |
+
+---
+2020-11-28 15:37:00
+
+**Overall framing / todos.**
+
+- Donation-based server setup?  How difficult to arrange for logins?
+- How to display threshold guide information (if at all)
+- Wifi configuration setup
+- Firmware update configuration.  (Perhaps it's best to start with folks who are familiar with Arduino, so that they can help refine / test the workflow.)
+- Cheaper artisanal pcb version.  Likely based on ESP32.  using as many SMT parts as possible. 
+- Laser-cut mount for electronics. Or something that can be cut out from stiff paper / etc.
+- Cardboard enclosure?
+- Partnering institutions who'd like to help evaluate and test. Peng et al are an initial candidate. Others?  
+- Online documentation for assembly and use of kit.
+
+
 
 
 
