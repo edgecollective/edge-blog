@@ -392,9 +392,10 @@ There are two things we might consider doing immediately:
 
 **Proposed next steps**.  
 - On 30 NOV or so, I will test a procedure for accomplishing (1) above -- increasing the remote node sleep time -- locally here in the US, attempting to increase the sleep time on the remote node to approx. 10 minutes.  
-- If the code works, we can upload it to the remote node (via the RAK), and test it overnight.  
+- If the code works, we can upload it to the remote node (via the RAK). This will require putting the remote node / Feather in 'bootloader' mode -- i.e. a 'double tap' on the RESET button, resulting in a pulsing red LED.  I will attempt to upload the new code remotely. We can then test this overnight, making sure that the remote node sends data every 10 minutes. 
 - If that works, we can then move the remote node to the greenhouse. 
-- Meanwhile, I will test locally the procedure for accomplishing (2) above -- adding battery level monitoring to the remote node.
+
+Meanwhile, I will test locally the procedure for accomplishing (2) above -- adding battery level monitoring to the remote node.
 
 
 
