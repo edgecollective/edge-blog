@@ -388,9 +388,13 @@ There are two things we might consider doing immediately:
 
 **Discussion**.  (1) Above (increasing the sleep time between measurements / broadcasts) is an quick fix, which can be accomplished with the Feather plugged into the RAK, and the process has been done before, and recently.  The process for (2) should be straightforward, but hasn't been done before via the RAK.  It could require some fiddling, iterating, back-and-forth, and risks 'breaking' the system until the Arduino IDE is used; and we currently don't have an on-site way of using the Arduino IDE to reprogram the ESP32 (ran into security issues installing ESP32 on Walt's computer).  
 
-**Recommendation**.  My recommendation at this point is: let's do (1) above (increase the sleep time), and wait on (2) (adding battery level).
+**Recommendation**.  In following Lucio's philosophy of making minimal changes in-place to a system that is mostly working, my recommendatoin at this point would be: let's do (1) above (increase the sleep time), and wait on (2) (adding battery level). While it would be nice to measure battery level, adding the feature increases the risk that we'll have a somewhat 'bricked' system for a bit, and it seems that there's a fairly high chance of success if we can sleep the node for 10 minutes (and higher still if we can sleep longer, as we'd be even less likely to run the battery down).  In the meantime, I can work on workflow / testing for (2). 
 
-**Next steps**.  On 30 NOV or so, I will test out (1) locally here in the US, increasing the sleep time on the remote node to approx. 10 minutes.  If the code works, we can upload it to the remote node (via the RAK), and test it overnight.  If that works, we can then move the remote node to the greenhouse. 
+**Proposed next steps**.  
+- On 30 NOV or so, I will test a procedure for accomplishing (1) above -- increasing the remote node sleep time -- locally here in the US, attempting to increase the sleep time on the remote node to approx. 10 minutes.  
+- If the code works, we can upload it to the remote node (via the RAK), and test it overnight.  
+- If that works, we can then move the remote node to the greenhouse. 
+- Meanwhile, I will test locally the procedure for accomplishing (2) above -- adding battery level monitoring to the remote node.
 
 
 
