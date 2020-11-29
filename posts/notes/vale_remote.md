@@ -8,6 +8,10 @@ image: /img/valedalama/3d_render.png
 blurb: Greenhouse monitoring electronics at Vale da Lama
 ---
 
+## Table of Contents
+
+- [Update 29 NOV 2020](#update_nov29)
+
 ## TODO
 
 - Make a mill-able PCB design in Eagle CAD for Lucio to mill [X]
@@ -370,6 +374,23 @@ Nice post on OLED sleep current, [here](https://bitbanksoftware.blogspot.com/201
 
 A nice general review of OLEDs and various libraries and use-cases, [here](https://bengoncalves.wordpress.com/2015/10/01/oled-display-and-arduino-with-power-save-mode/).  Includes code for putting the OLED to sleep.
 
+---
+2020-11-29 04:42:55
+
+# <a name="update_nov29"></a> Update NOV 29 2020
+
+**Current situation.**  Adding the watchdog timer seems to have made the remote node more robust; it has been operating non-stop for several days now, plugged into the RAK Pi. We'd like to move to installing the device into the greenhouse.  Are there any things we ought to do first to improve the likelihood of success there?
+
+There are two things we might consider doing immediately:  
+
+1. **Reduce remote node power consumption.** The remote node is currently broadcasting every 10 seconds or so, and sleeping in between.  This is far more data than is useful, and will unnecessarily drain the battery.  We should change this to an interval of about 10 minutes or so.
+2. **Add remote node battery measurement**.  It would be helpful to add remote battery level measurement to the remote node, so we can better assess the solar charging statistics.  Note: doing so would require re-programming the gateway, as well, to accommodate the additional parameter.   
+
+**Discussion**.  (1) Above (increasing the sleep time between measurements / broadcasts) is an quick fix, which can be accomplished with the Feather plugged into the RAK, and the process has been done before, and recently.  The process for (2) should be straightforward, but hasn't been done before via the RAK.  It could require some fiddling, iterating, back-and-forth, and risks 'breaking' the system until the Arduino IDE is used; and we currently don't have an on-site way of using the Arduino IDE to reprogram the ESP32 (ran into security issues installing ESP32 on Walt's computer).  
+
+**Recommendation**.  My recommendation at this point is: let's do (1) above (increase the sleep time), and wait on (2) (adding battery level).
+
+**Next steps**.  On 30 NOV or so, I will test out (1) locally here in the US, increasing the sleep time on the remote node to approx. 10 minutes.  If the code works, we can upload it to the remote node (via the RAK), and test it overnight.  If that works, we can then move the remote node to the greenhouse. 
 
 
 
