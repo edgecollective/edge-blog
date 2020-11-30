@@ -107,3 +107,32 @@ interesting angle mentioned in ["Transform response of fastify-static served fil
 
 Ah -- I think I've got it working with the basicAuth branch, now!
 
+---
+2020-11-29 08:51:40
+
+Adding authentication to NodeJS, [here](https://www.youtube.com/watch?v=Ud5xKCYQTjM)
+
+Using Auth0 and Fastify [here](https://medium.com/better-programming/how-to-add-authentication-to-your-fastify-rest-api-using-auth0-cddc7eacc90) -- ah, blocked --
+
+But there's a repo, [here](https://github.com/nearform/fastify-auth0-verify).
+
+
+---
+2020-11-29 16:43:16
+
+[Jupyter dashboard](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130) via voila -- [gallery of examples](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130)
+
+gesis notebooks, [here](https://notebooks.gesis.org/)
+
+guide to voila, [here](https://analyticsindiamag.com/complete-guide-to-voila-to-turn-a-jupyter-notebook-into-a-standalone-web-application/)
+
+Dashboarding options in Jupyter discussed [here](https://medium.com/informatics-lab/jupyter-dashboarding-some-thoughts-on-voila-panel-and-dash-b84df9c9482f)
+
+User authentication with nodejs and passport [here](https://www.freecodecamp.org/news/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e/)
+
+Rolling your own authentication, [here](https://developer.okta.com/blog/2019/10/03/painless-node-authentication).
+
+React and Auth0 ...
+- [Third party guide here](https://www.smashingmagazine.com/2020/11/authenticating-react-apps-auth0/)
+and
+- [Auth0 guide here](https://auth0.com/blog/complete-guide-to-react-user-authentication/)

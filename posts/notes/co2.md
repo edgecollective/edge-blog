@@ -1192,6 +1192,20 @@ The reason given online for this is that the inexpensive enclosures are often ma
 - Partnering institutions who'd like to help evaluate and test. Peng et al are an initial candidate. Others?  
 - Online documentation for assembly and use of kit.
 
+---
+2020-11-29 21:52:45
+
+### Dashboards
+
+
+[Jupyter dashboard](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130) via voila -- [gallery of examples](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130)
+
+gesis notebooks, [here](https://notebooks.gesis.org/)
+
+guide to voila, [here](https://analyticsindiamag.com/complete-guide-to-voila-to-turn-a-jupyter-notebook-into-a-standalone-web-application/)
+
+Dashboarding options in Jupyter discussed [here](https://medium.com/informatics-lab/jupyter-dashboarding-some-thoughts-on-voila-panel-and-dash-b84df9c9482f)
+
 
 
 
