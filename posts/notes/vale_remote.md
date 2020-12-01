@@ -397,7 +397,36 @@ There are two things we might consider doing immediately:
 
 Meanwhile, I will test locally the procedure for accomplishing (2) above -- adding battery level monitoring to the remote node.
 
+----
+2020-11-30 08:57:54
 
+### Watchdog Sleep
 
+Use Moteino M0 sleep code as a reference, [here](https://lowpowerlab.com/guide/moteino/moteinom0/).
+
+Test feed [here](http://159.65.226.222:3000/api/drives/0b15fcbcc3a7332e3bb061a7739398ffb2322f7feb9556bcc63e1879f0750ad7/csv)
+
+Alright, looking for every 5 min, after 1606774953 ...
+
+Checking:
+- initial: 1606774953 -- Monday, November 30, 2020 5:22:33 PM
+- next: 1606775266 -- Monday, November 30, 2020 5:27:46 PM
+
+Works!  When get home will try for 10 minute intervals, and test the power consumption ...
+
+---
+2020-12-01 07:36:47
+
+Update on code ...
+
+timestamp difference:
+- initial: 1606821668 -- Tuesday, December 1, 2020 6:21:08 AM
+- final: 1606822287 -- Tuesday, December 1, 2020 6:31:27 AM
+
+10 minute intervals!
+
+Working code is part of "REV_A" greenhouse suite, [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/remote/feather_firmware/30_NOV/featherm0_am2315_lora_watchdog_sleep).
+
+Also have improved REV_A gateway code that displays wifi status (sort of), [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/gateway/heltec_wifi_lora_bayou_farmos_monitorwifi).
 
 
