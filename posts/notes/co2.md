@@ -1223,6 +1223,10 @@ Dashboarding options in Jupyter discussed [here](https://medium.com/informatics-
 ---
 2020-12-01 16:17:24
 
+Continuing research for REV_D ...
+
+### Quahog circuit (ESP32 + RFM95) ...
+
 [![](/img/hog32.png)](/img/hog32.pdf)
 
 Some changes that need to be made to the circuit:
@@ -1231,6 +1235,13 @@ Some changes that need to be made to the circuit:
 - need to connect pin 2 to ground (or it can float; but currently it is used in i2c, and is pulled high with a resistor, so we need to connect it to ground)
 - need to connect the 'DTR' pin on the CP2104 breakout to the DTR pin on the quahog
 
+### Heltec pinout (ESP32 + RFM95) ...
+
+[![](/img/co2/heltec_wifi_lora_v2_pinout.png)](/img/co2/heltec_wifi_lora_v2_pinout.png)
+
+### Heltec schematic 
+
+[![](/img/co2/heltec_schematic.png)](/img/co2/WIFI_LoRa_32_V2(868-915).PDF)
 
 
 
