@@ -1197,7 +1197,6 @@ The reason given online for this is that the inexpensive enclosures are often ma
 
 ### Dashboards
 
-
 [Jupyter dashboard](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130) via voila -- [gallery of examples](https://blog.jupyter.org/a-gallery-of-voil%C3%A0-examples-a2ce7ef99130)
 
 gesis notebooks, [here](https://notebooks.gesis.org/)
@@ -1206,9 +1205,31 @@ guide to voila, [here](https://analyticsindiamag.com/complete-guide-to-voila-to-
 
 Dashboarding options in Jupyter discussed [here](https://medium.com/informatics-lab/jupyter-dashboarding-some-thoughts-on-voila-panel-and-dash-b84df9c9482f)
 
+---
+2020-12-01 13:41:41
 
+### REV_D -- ESP32 + RFM95 SMT Version
 
+- FTDI / USB-TTL cable req'd for first version
+- mimic pinout of the heltec wifi 32 lora v2
+- auto-reset feature from Quahog revision
+- leds for mic level?
+- mic
+- light sensor
+- oled display
+- ultrasonic distance sensor breakout? or time of flight / i2c breakout?
+- qwik connector for i2c breakout for additional sensors
 
+---
+2020-12-01 16:17:24
+
+[![](/img/hog32.png)](/img/hog32.pdf)
+
+Some changes that need to be made to the circuit:
+- get rid of R4 and C4
+- place R1, C3, R2, R3, Q1, and Q2
+- need to connect pin 2 to ground (or it can float; but currently it is used in i2c, and is pulled high with a resistor, so we need to connect it to ground)
+- need to connect the 'DTR' pin on the CP2104 breakout to the DTR pin on the quahog
 
 
 

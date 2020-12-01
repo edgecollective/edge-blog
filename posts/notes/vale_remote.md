@@ -429,4 +429,7 @@ Working code is part of "REV_A" greenhouse suite, [here](https://github.com/edge
 
 Also have improved REV_A gateway code that displays wifi status (sort of), [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/gateway/heltec_wifi_lora_bayou_farmos_monitorwifi).
 
+---
+2020-12-01 13:37:55
 
+Note -- hadn't fully implemented the watchdog timer in previous REV_A version; and now we send a sensor reading on startup, which is easier for debugging -- latest version (ready for testing) [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/remote/feather_firmware/30_NOV/featherm0_am2315_lora_watchdog_sleep_countup)
