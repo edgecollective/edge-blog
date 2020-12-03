@@ -1243,5 +1243,28 @@ Some changes that need to be made to the circuit:
 
 [![](/img/co2/heltec_schematic.png)](/img/co2/WIFI_LoRa_32_V2(868-915).PDF)
 
+### Feather ESP32 Schematic
 
+[![](/img/co2/feather_esp32_schem.png)](/img/co2/feather_esp32_schem.png)
 
+### REV_C Notes
+
+Misjudged the header spaceings on the Heltec -- too far apart by one row!
+
+### REV_D Notes
+
+[MMBT2222 NPN Mosfet datasheet](https://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF) -- it's 'BEC' -- 1: BASE, 2: EMITTER, 3: COLLECTOR
+
+### BMP388 / 390
+
+Adafruit guide to BMP388 is [here](https://learn.adafruit.com/adafruit-bmp388-bmp390-bmp3xx).
+
+Breakout schematic:
+
+[![](/img/co2/sensors_BMP390_sch.png)](/img/co2/sensors_BMP390_sch.png)
+
+---
+2020-12-01 20:45:59
+
+### REV_D Initial Pass
+![](/img/co2/rev_d_3drender.png)

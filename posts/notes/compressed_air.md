@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-11-26
 updated: 2020-11-26
 tags: notes 
-image: /img/eink/map_proto.jpg
+image: img/placeholder.png
 blurb: Reserach into compressed air energy storage
 ---
 

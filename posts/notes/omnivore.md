@@ -1,5 +1,5 @@
 ---
-pageTitle: Omnivore
+pageTitle: Off-grid battery control
 layout: layout.njk
 date: 2020-11-20
 updated: 2020-11-20
