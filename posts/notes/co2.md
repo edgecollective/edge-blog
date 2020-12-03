@@ -1354,6 +1354,18 @@ Nice feature:  allows for use with ESP32, has special code for that ... (maybe j
 
 Looks like BMP388 code is working (using the lib from MartinL1, 'BMP388_DEV', [here](https://github.com/MartinL1/BMP388_DEV)).
 
+Also: having the device on a Feather LoRa, using a gateway, is a nice system -- can deploy several all over a building, or across a campus, even if no wifi available.  
+
+University systems have issues using wifi.  This way, can use where there is wifi.  Also: get *one* device registered on wifi network, rather than several.  (Typically, for IT on campus, would need to register every one).  
+
+Also note:  might be useful to have a PC with a heltec and a python script. That way the PC can be registered on the network, the heltec can be placed at a height. 
+
+Also: might be good to have a microsd on the heltec.
+
+Need to test soon in a university / high school class setting.
+
+Can we get serial input to a chromebook this way?
+
 
 
 
