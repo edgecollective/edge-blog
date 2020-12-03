@@ -1268,3 +1268,94 @@ Breakout schematic:
 
 ### REV_D Initial Pass
 ![](/img/co2/rev_d_3drender.png)
+
+---
+2020-12-02 20:41:42
+
+Upshot -- the SPW2430 mic is weak w/out an amplifier -- should check out tutorial for how to add it when doing SMT version ...
+
+Meanwhile, light sensor BH1750 tutorial is [here](https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor)
+
+Install hp_BH1750 library via Arduino IDE ...
+
+firmware that adds the light sensor is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/firmware/remote/feather_m0_scd30_batt_lora_display_max4466_bh1750)
+
+Resultant data feed [here](http://159.65.226.222:3000/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de)
+
+### Adding an amplifier to the SPW2430
+
+For reference, Eagle CAD for max4466 is [here](https://github.com/adafruit/Adafruit-MAX4466-Electret-Mic-Amplifier-PCBs) -- can likely use the amp setup they have ...
+
+---
+2020-12-03 08:25:40
+
+co2 sensor seems to have stopped last night? and reset on m0 didn't reset it -- needed to power cycle -- do we need a mosfet on it?
+
+if we use esp32 for mic, do we need to worry about analog performance / drift?
+
+Should SEL be floating to ground (or tied to ground) on SCD30? https://forum.sparkfun.com/viewtopic.php?t=48325
+
+issue where bh1750 library hangs [here](https://forum.mysensors.org/topic/9214/bh1750-library-hangs).
+
+tried co2 + bh1750 -- co2 freezes 
+
+can't reset, co2 still 'frozen'
+
+changed firmware to remove bh1750, but kept bh1750 on board, co2 freezes
+
+then removed wires of bh1750, no freezing yet
+
+I wonder if it's an 'address' issue with the bh1750?  can check.  info on the module i'm using is [here](https://www.amazon.com/SMAKN%C2%AE-BH1750-Digital-intensity-Arduino/dp/B014IP9V4I)
+
+BUT:  light sensor is of questionable use for now.  better perhaps to have breakout for i2c.  
+
+real next steps:
+
+- check esp32 feather functionality on rev_b breakout board
+- pull in bmp388 parameters [X]
+- how to incorprate the max4466 electret, or add amplification to the smt mic module? (the 'sw something')?
+
+Seems like the max4466 board avail on amazon ([here](https://www.amazon.com/uxcell-Electret-Microphone-Amplifier-Adjustable/dp/B07W3HV92Z/ref=sr_1_10?dchild=1&keywords=max4466&qid=1607006487&s=industrial&sr=1-10)) is fairly identical to that sold by Adafruit. wonder if the op-amp is similarly set up.
+
+So, design:
+- esp32
+- oled
+- bmp388
+- scd30
+- mic (electret or smt)
+- buttons 
+- leds to show mic level? or just: remove board
+- breakouts for avail pins
+- qwiic breakout
+
+i like how explicit the mic on the co2 sensor is ...
+and it's an analog reading -- if it's removed, just get 'zero' for analog measurement.
+
+that might be the place to start. simplify the design. part is avail on amazon, alternative to adafruit.  
+
+don't even need a switch -- just remove the part.
+
+Nice feature:  basic board that can be produced with SMT parts; then, add adafruit boards for pressure and/or mic as one likes.
+
+### Adding BMP388 functionality to REV_B
+
+Tutorial on Adafruit [here](https://learn.adafruit.com/adafruit-bmp388-bmp390-bmp3xx/arduino).
+
+Actually, confusing way to do the i2c / spi ... not sure how to hook up to Feather's i2c ...
+
+Shifting to Sparkfun library [here](https://www.sparkfun.com/products/17001) ....
+
+which leads to the library [here](https://github.com/MartinL1/BMP388_DEV)
+
+Nice feature:  allows for use with ESP32, has special code for that ... (maybe just picks particular pins?)
+
+---
+2020-12-03 10:10:13
+
+Looks like BMP388 code is working (using the lib from MartinL1, 'BMP388_DEV', [here](https://github.com/MartinL1/BMP388_DEV)).
+
+
+
+
+
+
