@@ -179,9 +179,13 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 
 ---
 
-## Lean Logic: A Dictionary for the Future and How to Survive It
+## David Fleming 
 
-[Book](https://www.amazon.com/Lean-Logic-Dictionary-Future-Survive/dp/1603586482) by David Fleming.
+[Lean Logic: A Dictionary for the Future and How to Survive It(Book)](https://www.amazon.com/Lean-Logic-Dictionary-Future-Survive/dp/1603586482)
+
+[Fleming: Surviving the Future: Culture, Carnival and Capital in the Aftermath of the Market Economy (book)](https://www.amazon.com/dp/B01JMXA1ZO/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+[Fleming Policy Center](http://flemingpolicycentre.org.uk/lean-logic-surviving-the-future/)
 
 ---
 
@@ -189,7 +193,9 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 
 [Enormous field! Need to pull out some faves -- ]
 
-- [Degrowth](https://www.amazon.com/dp/B07HCJJXT8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by Giorgos Kallis.
+- [Degrowth (book)](https://www.amazon.com/dp/B07HCJJXT8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by Giorgos Kallis.
+
+- ["Green growth vs degrowth: are we missing the point?" (article)](https://www.opendemocracy.net/en/oureconomy/green-growth-vs-degrowth-are-we-missing-point/) -- Beth Statford, Open Democracry
 
 ---
 
