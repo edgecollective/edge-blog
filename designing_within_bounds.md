@@ -137,6 +137,8 @@ Jackson, an economist, was commissioned by the UK government to write a report o
 
 [Baffler Article](https://thebaffler.com/salvos/of-flying-cars-and-the-declining-rate-of-profit) by the late David Graeber.
 
+Argues that the reason that we appear to have failed in the last decades to generate groundbreaking technologies as per earlier predictions and trends is that most of our societal energies have plunged into bureaucratic technologies of information and surveillance. 
+
 ---
 
 ## Cooperation Jackson
