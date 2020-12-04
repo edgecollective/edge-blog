@@ -110,6 +110,8 @@ Fantastic website / zine; the author is an engineer who analyzes everyday techno
 Some particularly choice articles:
 - An article on using [compressed air as energy storage](https://www.lowtechmagazine.com/compressed-air/).
 - [How sustainable is a solar powered website?](https://solar.lowtechmagazine.com/2020/01/how-sustainable-is-a-solar-powered-website.html)
+- [Power water networks](https://www.lowtechmagazine.com/2016/03/hydraulic-accumulator-power-water-networks.html)
+- [How to run the economy on the weather](https://www.lowtechmagazine.com/2017/09/how-to-run-the-economy-on-the-weather.html)
 
 ---
 
