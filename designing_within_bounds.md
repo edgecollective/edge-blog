@@ -19,6 +19,8 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 
 ## Small Farm Future
 
+(So much to say on this work.  Absolute favorite of the moment.)
+
 > “Making the case for a society built around local economies, self provisioning, agricultural diversity and a shared Earth.”
 - [Blog](https://smallfarmfuture.org.uk/).
 - [Book](https://www.chelseagreen.com/product/a-small-farm-future/).
@@ -60,6 +62,12 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 - [Margaret Killjoy](https://theanarchistlibrary.org/category/author/margaret-killjoy)
 - [Review](https://lareviewofbooks.org/article/salvagepunk-china-mievilles-railsea/) of China Mieville's "Railsea".
 - Zak Bronson, ["Living in the Wreckage"](https://lareviewofbooks.org/article/living-in-the-wreckage)
+
+---
+
+## Sustainable Energy Without the Hot Air
+
+[Book (PDF Download)](https://www.withouthotair.com/download.html) by David MacKay.
 
 ---
 
@@ -129,9 +137,19 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 
 ---
 
+## Lean Logic: A Dictionary for the Future and How to Survive It
+
+[Book](https://www.amazon.com/Lean-Logic-Dictionary-Future-Survive/dp/1603586482) by David Fleming.
+
+---
+
 ## Degrowth
 
-[Enormous field, needs work to digest down]
+[Enormous field! Need to pull out some faves -- ]
+
+- [Degrowth](https://www.amazon.com/dp/B07HCJJXT8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by Giorgos Kallis.
+
+---
 
 
 
