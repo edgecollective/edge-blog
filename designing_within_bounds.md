@@ -21,8 +21,6 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 
 So much to say on this work.  Absolute favorite of the moment.
 
-
-
 > “Making the case for a society built around local economies, self provisioning, agricultural diversity and a shared Earth.”
 
 - [Blog](https://smallfarmfuture.org.uk/).
@@ -38,6 +36,7 @@ Smaje has a lovely dialectical style.  The book begins with a review of ten 'cri
 [Novel](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel)) by Cory Doctorow.
 
 > "Set in our near-future, it is a story of walking away from "non-work", and surveillance and control by a brutal, immensely rich oligarchical elite; love and romance; a post-scarcity gift economy; revolution and eventual war; and a means of finally ending death."
+
 > -- from the [wikipedia article](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel))
 
 ---
@@ -89,11 +88,13 @@ Salvagepunk seems to be the darker cousin of Solarpunk.
 
 [Video lecture](https://www.youtube.com/watch?v=GFosQtEqzSE).
 
-The main strategy in this text is to attempt to render the concepts and metrics around energy production and consumption as accessible as possible, and it is briliantly executed.
+The main strategy in this text is to attempt to render the concepts and metrics around energy production and consumption as accessible as possible. Briliantly executed.
 
 ---
 
 ## A Planet to Win
+
+Fleshes out, in compelling language and with a convincing analysis, the key components of a possible Green New Deal.
 
 [A Planet to Win (Book)](https://www.versobooks.com/books/3107-a-planet-to-win).
 
