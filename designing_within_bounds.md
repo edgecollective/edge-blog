@@ -13,7 +13,11 @@ In the last few years, climate activism, especially among youth, has achieved an
 
 But if we hope to inhabit a future without fossil fuels, and live within a flourishing economy that respects planetary boundaries, we must complement our critique with a positive, guiding vision and agenda.  We must collectively design alternative, sustainable approaches to food systems, water infrastrucutre, housing, energy, communications -- everything, at every scale. 
 
-What follows is a hodge-podge collection of media, authors, and movements that seem to me to provide useful guidance or provocation.
+We can't accomplish any of that, at the scale and scope and with the global level of coordination that is required to mitigate disaster, without concrete plans for action.  We can't develop concrete plans for action without the sort of systematic, quantitative analyses and designs that we associate with sophisticated engineering projects.  And this engineering analysis and design -- massive in scope and dire in its urgency -- needs to be done by someone.  Conveying this need, framing and motivating the relevant problem statements, and pointing at useful entry points into the landscape of possible solutions should be, I think, a core focus of our engineering pedgogy.  
+
+But such a necessary engineering pedgagy is empty, pointless, and will fail its students, if it is not accompanied by socio-economic analyses that offer some explanation for the origins of our current predicament, as well as by promising alternative economic models that offer some hope of a different, better path forward. Without an economic critique, and without being presented with any positive alternatives, students will certainly resign themselves to the idea that 'there is no alternative', and go on to reproduce the system as it has been.  If we allow this to happen, they -- and we -- will suffer; it is a certainty that the system as it has been -- one that demands exponential economic growth -- cannot continue, whether or not we adapt or change our ways.  To avoid this truth in our teaching, and attempt to remain agnostic with respect to the economics that our students will practice, is to fail them, and to neglect our future selves, at once. 
+
+What follows is a hodge-podge collection of media, authors, and movements that seem to me to provide useful guidance or provocation on the subject of 'growth', its consequences, and some alternatives.
 
 ---
 
@@ -143,20 +147,29 @@ Argues that the reason that we appear to have failed in the last decades to gene
 
 ## Cooperation Jackson
 
+Inspiring alternative economic model. Need to collect more videos / documentation here.
+
+[Website](https://cooperationjackson.org/).
+
+> "Building a solidarity economy in Jackson, Mississippi, anchored by a network of cooperatives and worker-owned, democratically self-managed enterprises."
+
 - [American Climate Rebels Episode](https://www.youtube.com/watch?v=_Nt9Z2P7mPY) on Cooperation Jackson.
 
 ---
 
 ## Four Futures
 
+- [Four Futures: Life After Capitalism (Book)](https://www.amazon.com/Four-Futures-After-Capitalism-Jacobin/dp/1781688133)
+- [Four Futures: Essay](https://www.jacobinmag.com/2011/12/four-futures)
+
 In 'Four Futures', Peter Frase assumes that the rise of automation will necessarily undermine capitalism, and lays out a 'quadrant' analysis of possible post-capitalist futures that might result. The two axes are "authoritarian vs. non-authoritarian" and "scarcity vs. abundance". Of particular note are two quadrants: "non-authoritarian + abundance" -- the 'Star Trek' future, in which everyone can meet their needs in decentralized manner; and "authoritarian + abundance" -- the 'Anti- Star Trek' future, in which high technology is under centralized, corporate governance.
+
 
 | [![](/img/four_futures.png)](/img/four_futures.png) | 
 |:--:|
 |Illustration of the main concept from Frase's 'Four Futures'.|
 
-- [Four Futures: Life After Capitalism (Book)](https://www.amazon.com/Four-Futures-After-Capitalism-Jacobin/dp/1781688133)
-- [Four Futures: Essay](https://www.jacobinmag.com/2011/12/four-futures)
+
 
 ---
 
