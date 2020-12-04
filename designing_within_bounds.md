@@ -187,6 +187,9 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 
 [Fleming Policy Center](http://flemingpolicycentre.org.uk/lean-logic-surviving-the-future/)
 
+[Suriving the Future Online Course -- Jan 4th 2021](https://www.darkoptimism.org/2020/11/27/surviving-the-future-conversations-for-our-time-is-back-enrolments-now-open/)
+
+
 ---
 
 ## Degrowth
@@ -199,6 +202,24 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 
 - [Timothée Parrique profile page](https://www.stockholmresilience.org/contact-us/staff/2018-11-15-parrique.html)
 
+---
+
+## Transition Towns
+
+[TODO]
+
+---
+
+## Community Fridges / Pantries
+
+[TODO]
+
+---
+
+## Alternative Agriculture Technologies
+
+- [FarmHack](https://farmhack.org/tools)
+- [L'Atelier Paysan](https://www.latelierpaysan.org/English)
 
 ---
 
