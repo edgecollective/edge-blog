@@ -17,7 +17,7 @@ We can't accomplish any of that, at the scale and scope and with the global leve
 
 But such a necessary engineering pedgagy is empty, pointless, and will fail its students, if it is not accompanied by socio-economic analyses that offer some explanation for the origins of our current predicament, as well as by promising alternative economic models that offer some hope of a different, better path forward. Without an economic critique, and without being presented with any positive alternatives, students will certainly resign themselves to the idea that 'there is no alternative', and go on to reproduce the system as it has been.  If we allow this to happen, they -- and we -- will suffer; it is a certainty that the system as it has been -- one that demands exponential economic growth -- cannot continue, whether or not we adapt or change our ways.  To avoid this truth in our teaching, and attempt to remain agnostic with respect to the economics that our students will practice, is to fail them, and to neglect our future selves, at once. 
 
-What follows is a hodge-podge collection of media, authors, and movements that seem to me to provide useful guidance or provocation on the subject of 'growth', its consequences, and some alternatives.
+What follows is a hodge-podge collection of media, authors, and movements that seem to me to provide useful guidance or provocation on the subject of 'growth', its consequences, and some alternatives.  It certainly misses many important references (I'll hope to include more as I learn more); it attempts to lean towards accessible approaches to the subject that would appeal to engineering students with a pragmatic orientation. 
 
 ---
 
@@ -196,6 +196,9 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 - [Degrowth (book)](https://www.amazon.com/dp/B07HCJJXT8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by Giorgos Kallis.
 
 - ["Green growth vs degrowth: are we missing the point?" (article)](https://www.opendemocracy.net/en/oureconomy/green-growth-vs-degrowth-are-we-missing-point/) -- Beth Statford, Open Democracry
+
+- [Timothée Parrique profile page](https://www.stockholmresilience.org/contact-us/staff/2018-11-15-parrique.html)
+
 
 ---
 
