@@ -17,6 +17,15 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 
 ---
 
+## Small Farm Future
+
+> “Making the case for a society built around local economies, self provisioning, agricultural diversity and a shared Earth.”
+- [Blog](https://smallfarmfuture.org.uk/).
+- [Book](https://www.chelseagreen.com/product/a-small-farm-future/).
+- [Review](https://www.resilience.org/stories/2020-11-09/a-small-farm-future-review-2/) on Resilience.org.
+
+---
+
 ## Solarpunk
 
 > "By now, dystopia may have become a luxury genre. Indulging in miserable future scenarios is not something everyone has time for. William Gibson recently repurposed his own adage, “the future is here, it’s just not evenly distributed” to say that “dystopia is not very evenly distributed” either.2 For most, the dystopias the privileged entertain themselves with are old news. In the current political landscape, “when we are all living in the shadow of at least half a dozen wildly science fiction scenarios,” to quote Gibson again, and while Hollywood harps on every version of paranoia to construct a thousand dystopias according to formula, dwelling on dystopia could be seen as downright lazy.3 Along with the resources to sit around and ponder the future of humanity, shouldn’t there come the responsibility to invent actionable proposals as opposed to cautionary tales?"
@@ -123,4 +132,7 @@ In 'Four Futures', Peter Frase assumes that the rise of automation will necessar
 ## Degrowth
 
 [Enormous field, needs work to digest down]
+
+
+
 
