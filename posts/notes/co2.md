@@ -1366,6 +1366,18 @@ Need to test soon in a university / high school class setting.
 
 Can we get serial input to a chromebook this way?
 
+---
+2020-12-03 15:58:47
+
+Features to add:
+- DIP switch to identify the remote node, if feather lora based
+- access point signup w/ node id entry
+
+Another reason to do esp32 + rfm95 is to allow for access point configuration of device
+
+
+
+
 
 
 
