@@ -105,6 +105,8 @@ The main strategy in this text is to attempt to render the concepts and metrics 
 
 [lowtechmagazine.com](https://www.lowtechmagazine.com/)
 
+Fantastic website / zine; the author is an engineer who analyzes everyday technological solutions in terms of their environmental footprint, and then offers more sustainable solutions and design, often by way of resurrecting designs from 100 years ago.
+
 Some particularly choice articles:
 - An article on using [compressed air as energy storage](https://www.lowtechmagazine.com/compressed-air/).
 - [How sustainable is a solar powered website?](https://solar.lowtechmagazine.com/2020/01/how-sustainable-is-a-solar-powered-website.html)
