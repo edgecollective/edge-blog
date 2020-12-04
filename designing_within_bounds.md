@@ -19,16 +19,32 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 
 ## Small Farm Future
 
-(So much to say on this work.  Absolute favorite of the moment.)
+So much to say on this work.  Absolute favorite of the moment.
+
+
 
 > “Making the case for a society built around local economies, self provisioning, agricultural diversity and a shared Earth.”
+
 - [Blog](https://smallfarmfuture.org.uk/).
 - [Book](https://www.chelseagreen.com/product/a-small-farm-future/).
 - [Review](https://www.resilience.org/stories/2020-11-09/a-small-farm-future-review-2/) on Resilience.org.
 
+Smaje has a lovely dialectical style.  The book begins with a review of ten 'crises' that lead Smaje to argue that our best chance for a flourishing future involves many more people on small farms growing food for self-provisioning. He provides concrete guidance as to how we might achieve such a vision, including the transformation in cultural roles that would need to take place.  Fascinating, generative work.
+
+---
+
+## Walkaway
+
+[Novel](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel)) by Cory Doctorow.
+
+> "Set in our near-future, it is a story of walking away from "non-work", and surveillance and control by a brutal, immensely rich oligarchical elite; love and romance; a post-scarcity gift economy; revolution and eventual war; and a means of finally ending death."
+> -- from the [wikipedia article](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel))
+
 ---
 
 ## Solarpunk
+
+Solarpunk was initially a sci-fi genre; there are now many folks who consider themselves to be 'solarpunks'.  Solarpunk tends to try to be as optimistic as possible about possible visions ecologically sustainable, decentralized future.
 
 > "By now, dystopia may have become a luxury genre. Indulging in miserable future scenarios is not something everyone has time for. William Gibson recently repurposed his own adage, “the future is here, it’s just not evenly distributed” to say that “dystopia is not very evenly distributed” either.2 For most, the dystopias the privileged entertain themselves with are old news. In the current political landscape, “when we are all living in the shadow of at least half a dozen wildly science fiction scenarios,” to quote Gibson again, and while Hollywood harps on every version of paranoia to construct a thousand dystopias according to formula, dwelling on dystopia could be seen as downright lazy.3 Along with the resources to sit around and ponder the future of humanity, shouldn’t there come the responsibility to invent actionable proposals as opposed to cautionary tales?"
 
@@ -56,6 +72,8 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 
 ## Salvagepunk
 
+Salvagepunk seems to be the darker cousin of Solarpunk.
+
 - China Mieville, ["The limits of Utopia"](https://climateandcapitalism.com/2018/03/02/china-mieville-the-limits-of-utopia/)
 - [Salvage Magazine](http://salvage.zone)
 - ["What is salvagepunk?"](https://rhystranter.com/2016/02/14/what-is-salvagepunk-capitalism-philosophy/)
@@ -68,6 +86,10 @@ What follows is a hodge-podge collection of media, authors, and movements that s
 ## Sustainable Energy Without the Hot Air
 
 [Book (PDF Download)](https://www.withouthotair.com/download.html) by David MacKay.
+
+[Video lecture](https://www.youtube.com/watch?v=GFosQtEqzSE).
+
+The main strategy in this text is to attempt to render the concepts and metrics around energy production and consumption as accessible as possible, and it is briliantly executed.
 
 ---
 
