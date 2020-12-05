@@ -1375,6 +1375,15 @@ Features to add:
 
 Another reason to do esp32 + rfm95 is to allow for access point configuration of device
 
+---
+2020-12-04 22:21:45
+
+|[![](/img/co2/co2_mic_dec4_2020.png)](/img/co2/co2_mic_dec4_2020.png)|
+|:--:|
+| Red is mic data, blue is CO2.  Spreadsheet is [here](https://docs.google.com/spreadsheets/d/1y74CIL4FuVBikPx3nCTVWIgqVZ9oZfcVcnaa1pv78OU/edit?usp=sharing), based on feed [here](http://159.65.226.222:3000/api/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de/csv?limit=40000) (pulled on eve of Dec 4). |
+
+
+
 
 
 
