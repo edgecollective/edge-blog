@@ -1401,7 +1401,10 @@ SSD1306 with the u8x8 library tutorial [here](https://tronixstuff.com/2019/08/29
 
 List of u8x8 fonts [here](https://github.com/olikraus/u8g2/wiki/fntlist8x8)
 
-[Arduino code for heltec-based "rev_c" here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display_v2)
+[Arduino code for heltec-based "rev_c" with bmp388 is here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display_bmp388)
+
+[without bmp388 is here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display)
+
 
 ![](/img/co2/co2_rev_c.jpeg)
 
