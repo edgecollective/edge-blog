@@ -136,3 +136,43 @@ React and Auth0 ...
 - [Third party guide here](https://www.smashingmagazine.com/2020/11/authenticating-react-apps-auth0/)
 and
 - [Auth0 guide here](https://auth0.com/blog/complete-guide-to-react-user-authentication/)
+
+---
+2020-12-05 14:21:37
+
+## Node + Express + Postgresql
+
+[react + node + express + postgresql](https://blog.logrocket.com/getting-started-with-postgres-in-your-react-app/) -- short tutorial
+
+[react + node + express + postgresql](https://bezkoder.com/react-node-express-postgresql/) -- thorough tutorial
+
+[express + postgresql](https://expressjs.com/en/guide/database-integration.html#postgresql) -- from node guide
+
+[Creating a web application in your home with a Raspberry Pi, Express and PostgreSQL](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372) -- this looks like a great place to begin!
+
+[Getting started with authentication in Node.js with Passport and PostgresQL](https://medium.com/@timtamimi/getting-started-with-authentication-in-node-js-with-passport-and-postgresql-2219664b568c)
+
+[Sequelize](https://sequelize.org/) -- JSON that creates a database table
+
+[suggestion to use multi-row inserts to save time](https://stackoverflow.com/questions/43436755/best-way-to-save-data-that-keeps-coming-every-1-second-to-postgres-using-node-js)
+
+[designing a restful api with node and postgres](https://mherman.org/blog/designing-a-restful-api-with-node-and-postgres/)
+
+[ahhh -- part of a great series that seems to do all the things!  including graphing!](https://rike.dev/2019/04/20/setup-postgresql-database-and-api-for-node-js) -- the series is [here](https://rike.dev/2019/02/11/smart-home-setup-to-track-indoor-temperatures-and-humidity-with-sensors-raspberry-pi-mqtt-node-js-vue-js-and-chart-js)
+
+[using mqtt vs REST](https://www.mathworks.com/help/thingspeak/choose-between-rest-and-mqtt.html#:~:text=REST%20is%20a%20representational%20state,can%20be%20secured%20with%20SSL.)
+
+---
+2020-12-05 20:47:42
+
+following tutorial [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372), putting in Documents/able
+
+> sudo apt-get install postgresql
+
+psuser
+psps
+
+> sensor2=# INSERT INTO users (username, password) VALUES ('user1', 'bubbles');
+
+> INSERT INTO sensors (name) values ('NodeMCU  ESP32');
+

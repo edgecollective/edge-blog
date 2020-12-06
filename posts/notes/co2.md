@@ -1382,6 +1382,23 @@ Another reason to do esp32 + rfm95 is to allow for access point configuration of
 |:--:|
 | Red is mic data, blue is CO2.  Spreadsheet is [here](https://docs.google.com/spreadsheets/d/1y74CIL4FuVBikPx3nCTVWIgqVZ9oZfcVcnaa1pv78OU/edit?usp=sharing), based on feed [here](http://159.65.226.222:3000/api/drives/112a7b2a9d08f492a6736aba33de90c519b7966158f6a2682f9db5eb122c51de/csv?limit=40000) (pulled on eve of Dec 4). |
 
+---
+2020-12-06 09:54:24
+
+working on rev_C + Feather ESP32
+
+All systems go!
+
+![](/img/co2/feather_esp32_data_test.png)
+
+![](/img/co2/feather_esp32_test.jpeg)
+
+Feather scd30 code is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/feather_esp32_wifi_bayou_scd30_display)
+
+
+
+
+
 
 
 
