@@ -1403,10 +1403,11 @@ List of u8x8 fonts [here](https://github.com/olikraus/u8g2/wiki/fntlist8x8)
 
 [Arduino code for heltec-based "rev_c" here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display_v2)
 
+![](/img/co2/co2_rev_c.jpeg)
+
 ### Max4466 on ESP32
 
 [Adafruit tutorial](https://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels) on Max4466 
-
 
 ---
 2020-12-06 14:42:04
