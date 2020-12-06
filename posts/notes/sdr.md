@@ -16,3 +16,7 @@ blurb: Experiments in software defined radio.
 
 [Adafruit product page for RTL2832](https://www.adafruit.com/product/1497)
 
+[Radio hacking -- cars, hardware, more -- based on RTL2832](Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016)
+
+
+
