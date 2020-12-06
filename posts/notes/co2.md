@@ -1385,7 +1385,7 @@ Another reason to do esp32 + rfm95 is to allow for access point configuration of
 ---
 2020-12-06 09:54:24
 
-working on rev_C + Feather ESP32
+### Feather ESP32 remote wifi sensor ("REV_B")
 
 All systems go!
 
@@ -1395,9 +1395,13 @@ All systems go!
 
 Feather scd30 code is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/feather_esp32_wifi_bayou_scd30_display)
 
+### Heltec ESP32 + LoRa remote wifi sensor ("REV_C")
 
+SSD1306 with the u8x8 library tutorial [here](https://tronixstuff.com/2019/08/29/ssd1306-arduino-tutorial/)
 
+List of u8x8 fonts [here](https://github.com/olikraus/u8g2/wiki/fntlist8x8)
 
+[Arduino code for heltec-based "rev_c" here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display_v2)
 
 
 
