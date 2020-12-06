@@ -1393,7 +1393,7 @@ All systems go!
 
 ![](/img/co2/feather_esp32_test.jpeg)
 
-Feather scd30 code is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/feather_esp32_wifi_bayou_scd30_display)
+Feather scd30 code is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/firmware/wifi_sensor/feather_esp32_wifi_bayou_scd30_display)
 
 ### Heltec ESP32 + LoRa remote wifi sensor ("REV_C")
 
