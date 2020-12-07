@@ -1587,6 +1587,12 @@ I believe the airflow isolation issue is the reason for seeing such strong fluct
 
 ![](/img/co2/scd30_auto_self_calibration.png)
 
+---
+2020-12-07 11:53:18
+
+Resurrecting the React code ...
+
+![](/img/co2/react_experiments.png)
 
 
 
