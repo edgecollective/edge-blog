@@ -1470,8 +1470,8 @@ Tweet about aerosol transmission [here](https://twitter.com/kprather88/status/13
 - [Linsay Marr](https://twitter.com/linseymarr)
 - [Florian Krammer](https://twitter.com/florian_krammer)
 - [Ian Mackay](https://twitter.com/MackayIM)
-
-
+- [Joseph Allen](https://twitter.com/j_g_allen) -- 'Health Buildings'
+- [Marc Lipstich](https://twitter.com/mlipsitch)
 
 
 
