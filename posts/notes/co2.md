@@ -1421,6 +1421,33 @@ Updated code for REV_B Feather ESP32 is [here](https://github.com/edgecollective
 
 Posting data from REV_B with Feather esp32 ('wifi sensor' mode) [here](http://159.65.226.222:3000/api/drives/516d21cb12f7e724be7c3d1ea66b7113316fb9f4018d2a9345bacf4b05f00c74/csv).
 
+---
+2020-12-06 15:08:54
+
+Parallel tests:
+
+REV_C board (heltec) feed [here](http://159.65.226.222:3000/drives/8b3f9d89866ac91fd748e2d89e8005f96e77e6cdeef10ffd033d74aeff1105ab)
+
+REV_B board (with Feather ESP32) feed [here](http://159.65.226.222:3000/drives/516d21cb12f7e724be7c3d1ea66b7113316fb9f4018d2a9345bacf4b05f00c74)
+
+---
+2020-12-06 19:05:45
+
+Jupyter plotting csv file tutorial [here](https://towardsdatascience.com/plotting-with-pandas-an-introduction-to-data-visualization-8bd7c0831650)
+
+Another nice guide [here](https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/)
+
+plotting two data traces on the same graph: 
+
+```
+ax = df1.plot()
+df2.plot(ax=ax)
+```
+### Comparing two scd30 sensors
+
+|[![](/img/co2/scd30_cross/compare.png)](/img/co2/scd30_cross/compare.png)|
+|:--:|
+| Comparison of two side-by-side SCD30 CO2 sensors for a given time range.  Jupyter notebook used in the analysis is [here](/img/co2/scd30_cross/compare.ipynb). |
 
 
 
