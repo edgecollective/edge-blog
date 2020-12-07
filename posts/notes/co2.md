@@ -1444,6 +1444,10 @@ plotting two data traces on the same graph:
 ax = df1.plot()
 df2.plot(ax=ax)
 ```
+
+---
+2020-12-06 20:02:10
+
 ### <a name="compare_scd30"></a> Comparing two scd30 sensors
 
 **Procedure:** Sensors were placed side-by-side.  No effort was made to calibrate manually.  They had been operating for only a few seconds before data was collected; so the automatic calibration algorithm (which begins at 7 days) had not been in operation.  Next attempt will involve manually calibrating both in same fresh air conditions, and looking at resulting behavior.
@@ -1455,6 +1459,16 @@ df2.plot(ax=ax)
 |[![](/img/co2/scd30_cross/compare.png)](/img/co2/scd30_cross/compare.png)|
 |:--:|
 | Comparison of two side-by-side SCD30 CO2 sensors for a given time range.  Jupyter notebook used in the analysis is [here](/img/co2/scd30_cross/compare.ipynb). |
+
+Tweet about aerosol transmission [here](https://twitter.com/kprather88/status/1335738927156588547?s=20).
+
+## Aerosol / virus researchers
+
+- [Don Milton](https://twitter.com/Don_Milton)
+- [Kimberly Prather](https://twitter.com/kprather88)
+- [David Michaels](https://twitter.com/drdavidmichaels); [on Maddow](https://twitter.com/jksmith34/status/1333297370872819715?s=20)
+- [Linsay Marr](https://twitter.com/linseymarr)
+
 
 
 
