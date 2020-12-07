@@ -1525,9 +1525,20 @@ The [ultimate debouncer](https://github.com/craftmetrics/esp32-button) from Hack
 
 Following debounce [here](https://lastminuteengineers.com/handling-esp32-gpio-interrupts-tutorial/)
 
+---
+2020-12-06 21:37:07
 
+Meanwhile, verify that the forced calibration works.  Expectation:  if we do it after a few loops, the current CO2 value will suddenly appear to be whatever we force it to be.
 
+Force calibrate seems to work!
 
+![](/img/co2/force_calibrate.png) 
 
+Code (still working out a button debounce routine) [here]()
 
+overnight feeds as of 2020-12-06 22:13:47:
+
+[feather esp32 feed](http://159.65.226.222:3000/api/drives/516d21cb12f7e724be7c3d1ea66b7113316fb9f4018d2a9345bacf4b05f00c74/csv)
+
+[heltec (calibrated)](http://159.65.226.222:3000/api/drives/5bd89f163a158797ab86668e67ac92736905c4056ec03600b8c37b0296da6763/csv)
 
