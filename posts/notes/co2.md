@@ -23,6 +23,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Thoughts on calibration as of 24 NOV 2020](#calibration)
 - [Nov 25 update](#nov25)
 - [Initial Microphone Experiment Nov 28](#mic_experiment)
+- [Comparing two SCD30 sensors](#compare_scd30)
 
 --- 
 2020 SEPT 29
@@ -1443,7 +1444,11 @@ plotting two data traces on the same graph:
 ax = df1.plot()
 df2.plot(ax=ax)
 ```
-### Comparing two scd30 sensors
+### <a name="compare_scd30"></a> Comparing two scd30 sensors
+
+|![](/img/co2/scd30_cross/compare_hardware.jpg)|
+|:--:|
+| Using two SCD30 sensors, side-by-side.  Left: "REV_C" board using Heltec 32 Wifi LoRa v2 as micro. Right: "REV_B" board using Feather ESP32 as micro. | 
 
 |[![](/img/co2/scd30_cross/compare.png)](/img/co2/scd30_cross/compare.png)|
 |:--:|
