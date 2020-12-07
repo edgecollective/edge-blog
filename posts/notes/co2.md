@@ -1446,6 +1446,8 @@ df2.plot(ax=ax)
 ```
 ### <a name="compare_scd30"></a> Comparing two scd30 sensors
 
+**Procedure:** Sensors were placed side-by-side.  No effort was made to calibrate manually.  They had been operating for only a few seconds before data was collected; so the automatic calibration algorithm (which begins at 7 days) had not been in operation.  Next attempt will involve manually calibrating both in same fresh air conditions, and looking at resulting behavior.
+
 |![](/img/co2/scd30_cross/compare_hardware.jpg)|
 |:--:|
 | Using two SCD30 sensors, side-by-side.  Left: "REV_C" board using Heltec 32 Wifi LoRa v2 as micro. Right: "REV_B" board using Feather ESP32 as micro. | 
