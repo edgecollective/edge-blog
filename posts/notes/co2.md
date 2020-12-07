@@ -1468,6 +1468,9 @@ Tweet about aerosol transmission [here](https://twitter.com/kprather88/status/13
 - [Kimberly Prather](https://twitter.com/kprather88)
 - [David Michaels](https://twitter.com/drdavidmichaels); [on Maddow](https://twitter.com/jksmith34/status/1333297370872819715?s=20)
 - [Linsay Marr](https://twitter.com/linseymarr)
+- [Florian Krammer](https://twitter.com/florian_krammer)
+- [Ian Mackay](https://twitter.com/MackayIM)
+
 
 
 
