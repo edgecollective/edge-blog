@@ -1542,3 +1542,54 @@ overnight feeds as of 2020-12-06 22:13:47:
 
 [heltec (calibrated)](http://159.65.226.222:3000/api/drives/5bd89f163a158797ab86668e67ac92736905c4056ec03600b8c37b0296da6763/csv)
 
+---
+2020-12-07 09:35:29
+
+## Plan update
+
+- leaflet floormap
+
+---
+2020-12-07 10:23:27
+
+Further reading on temperature / other compensation for the SCD30, ["Low Power Mode for the SCD30"](https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf)
+
+Observation: when force calibrating the sensor outdoors in much lower temperature and assuming 410 ppm, it recovered inside to < 400 ppm.  This may be because of temperature effects. There is a temperature compensation function for the sensor.  It requires an external temperature reading for calibration.  This might be done with a 1-wire temp sensor attached to the device.
+
+So, advantages of the pvos device:
+- 1-wire external temp sensor compensation (similar in setup to maxbotix)
+- external pressure sensor compensation
+- microphone data
+- i2c and other breakout pins for additional setup
+- wifi, bluetooth, lora configurations
+- open hardware design
+
+---
+2020-12-07 10:37:03
+
+Blog on use of SCD30 [here](https://blog.devmobile.co.nz/tag/scd30/)
+
+TODO: need to find field calibration guide for SCD30.
+
+[SEEED wiki on SCD30](https://wiki.seeedstudio.com/Grove-CO2_Temperature_Humidity_Sensor-SCD30/)
+
+[SCD30 design-in guidelines](https://files.seeedstudio.com/wiki/Grove-CO2-Temperature-Humidity-Sensor-SCD30/res/CD_AN_SCD30_Design-In_Guidelines_D2.pdf)
+
+![](/img/co2/scd30_protection_from_light.png)
+
+I believe the airflow isolation issue is the reason for seeing such strong fluctuations of measurements when outdoors in wind, and is a strong argument for designing an enclosure:
+
+![](/img/co2/scd30_airflow_isolation.png)
+
+![](/img/co2/scd30_thermal_decoupling.png)
+
+![](/img/co2/scd30_coupling_ambient.png)
+
+![](/img/co2/scd30_auto_self_calibration.png)
+
+
+
+
+
+
+
