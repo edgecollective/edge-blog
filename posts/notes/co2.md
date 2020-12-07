@@ -1474,7 +1474,56 @@ Tweet about aerosol transmission [here](https://twitter.com/kprather88/status/13
 - [Marc Lipstich](https://twitter.com/mlipsitch)
 
 
+## SCD30 Pressure Correction and Calibration Disable
 
+Sparkfun SCD30 library is [here](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library), and has several relevant examples:
+- [Pressure correction](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library/blob/master/examples/Example2_SetOptions/Example2_SetOptions.ino)
+- [Disable autocalibration](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library/blob/master/examples/Example4_DisableCalibrate/Example4_DisableCalibrate.ino)
+- [Alternative i2c / Wire](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library/blob/master/examples/Example3_WireOptions/Example3_WireOptions.ino)
+
+[SCD30 datasheet](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library/blob/master/documents/Sensirion_CO2_Sensors_SCD30_Preliminary-Datasheet.pdf)
+
+### Forced calibration of SCD30
+
+See 1.3.7 (p. 7) of document:
+
+[SCD30 interface description](https://cdn.sparkfun.com/assets/d/c/0/7/2/SCD30_Interface_Description.pdf)
+
+For implementation, look at Sparkfun library and follow procedure for temperature / altitude compensation.
+
+E.g. altitude compensation code begins [here](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library/blob/0a6ca999ffcb725a9d528f98bc87881ac1688b35/src/SparkFun_SCD30_Arduino_Library.cpp#L139)
+
+```
+//Set the altitude compenstation. See 1.3.9.
+bool SCD30::setAltitudeCompensation(uint16_t altitude)
+{
+  return sendCommand(COMMAND_SET_ALTITUDE_COMPENSATION, altitude);
+}
+```
+
+Can we set this up with a button? Would be nice if it works mid-loop ... test with ESP32?
+
+ESP32 GPIO interrupts guide [here](https://lastminuteengineers.com/handling-esp32-gpio-interrupts-tutorial/)
+
+Fork of Sparkfun library [here](https://github.com/edgecollective/SparkFun_SCD30_Arduino_Library)
+
+Experimental feed is [here](http://159.65.226.222:3000/api/drives/5bd89f163a158797ab86668e67ac92736905c4056ec03600b8c37b0296da6763/csv)
+
+Update: the library already includes the functionality!
+
+```
+setForcedRecalibrationFactor(int co2_concentration_ppm)
+```
+
+the 'calibrate' button on rev_c is pin 36
+
+ESP32 debouncing a button w/ interrupts, [here](https://www.switchdoc.com/2018/04/esp32-tutorial-debouncing-a-button-press-using-interrupts/)
+
+The [ultimate debouncer](https://github.com/craftmetrics/esp32-button) from Hackaday
+
+[Heltec pinout discussion](http://community.heltec.cn/t/wifi-lora-32-v2-pinout-diagram-questions/1762)
+
+Following debounce [here](https://lastminuteengineers.com/handling-esp32-gpio-interrupts-tutorial/)
 
 
 
