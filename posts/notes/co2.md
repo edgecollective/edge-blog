@@ -1594,6 +1594,18 @@ Resurrecting the React code ...
 
 ![](/img/co2/react_experiments.png)
 
+React sparkines library [here](https://www.google.com/search?q=react+sparklines&oq=react+sparklines&aqs=chrome.0.35i39j69i59j0l5j69i60.1939j0j7&sourceid=chrome&ie=UTF-8)
+
+
+How to trigger a popup in Leaflet, [here](https://gis.stackexchange.com/questions/88273/triggering-click-event-on-leaflet-map)
+
+[React Leaflet documentation](https://react-leaflet.js.org/docs/example-external-state)
+
+Stack overflow for interacting with leaflet in React [here](https://stackoverflow.com/questions/38730152/popup-always-open-in-the-marker) -- with associated [fiddle](https://jsfiddle.net/jrcoq72t/)
+
+[Victory Chart](https://formidable.com/open-source/victory/docs/victory-chart/)
+
+
 
 
 

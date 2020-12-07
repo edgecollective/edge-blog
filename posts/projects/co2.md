@@ -14,7 +14,7 @@ blurb: Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
-Ongoing notes on development are posted [here](https://edgecollective:8080/posts/notes/co2/).
+Ongoing notes on development are posted [here](https://edgecollective.io/posts/notes/co2/).
 
 ---
 
