@@ -1605,9 +1605,77 @@ Stack overflow for interacting with leaflet in React [here](https://stackoverflo
 
 [Victory Chart](https://formidable.com/open-source/victory/docs/victory-chart/)
 
+[pswoodworth's code for poll / leaflet](https://github.com/pswoodworth/poll-watcher/blob/master/pages/index.js)
 
+[How to use React Leaflet](https://blog.logrocket.com/how-to-use-react-leaflet/)
 
+[Using Leaflet for non-map images](https://stackoverflow.com/questions/13110763/is-leaflet-a-good-tool-for-non-map-images)
 
+[Nice tutorial on using leaflet to zoom into images](https://build-failed.blogspot.com/2012/11/zoomable-image-with-leaflet.html) -- has some nice tiling programs!
 
+[Using leaflet to pan and zoom a big image](https://kempe.net/blog/2014/06/14/leaflet-pan-zoom-image.html)
+
+- working gist [here](https://gist.github.com/longhotsummer/ba9c96bb2abb304e4095ce00df17ae2f) -- nicely works (as 'start.html' in 
+
+## first go at non-geographical imagery 
+
+Based on: ["using leaflet with non-geographical imagery"](http://omarriott.com/aux/leaflet-js-non-geographical-imagery/) tutorial.
+
+Code in 'trial.html' [here](https://github.com/edgecollective/sensor-webclient/blob/main/trial.html)
+
+![](/img/co2/leaflet_crs.png)
+
+leaflet map in a flexbox layout [here](https://stackoverflow.com/questions/27240894/leaflet-map-in-a-flexbox-layout)
+
+See 'side.html' [here](https://github.com/edgecollective/sensor-webclient/blob/main/side.html):
+
+![](/img/co2/leaf_floor.png)
+
+Leaflet guide to non-geographic maps [here](https://leafletjs.com/examples/crs-simple/crs-simple.html)
+
+Using CRS in React-Leaflet [here](https://stackoverflow.com/questions/48185208/set-react-leaflet-map-crs-atribute)
+
+Example with imageoverlay and react-leaflet [here](https://codesandbox.io/s/react-leaflet-with-functional-components-and-imageoverlay-u225j?file=/src/Map.js)
+
+Note: "reg-leaf" branch of spark-leaf repo is a working example.
+
+Jamming on inserting code from [here](https://codesandbox.io/s/react-leaflet-with-functional-components-and-imageoverlay-forked-n57cu?file=/src/Map.js) into my current setup 
+
+hmm, this approach seems simple [here](https://stackoverflow.com/questions/48185208/set-react-leaflet-map-crs-atribute)
+
+support for non-geographical maps [here](https://github.com/PaulLeCam/react-leaflet/issues/311)
+
+---
+2020-12-07 21:23:59
+
+'clicknav' is a working branch.
+
+fetching data in react using hooks [here](https://blog.bitsrc.io/fetching-data-in-react-using-hooks-c6fdd71cb24a)
+
+another article [here](https://dev.to/nicomartin/the-right-way-to-fetch-data-with-react-hooks-48gc)
+
+much nicer guide [here](https://www.pluralsight.com/guides/fetching-data-updating-state-hooks)
+
+working with 'livedata' branch of spark-map currently ...
+
+using react and fetch [here](https://reactjs.org/docs/faq-ajax.html)
+
+---
+2020-12-08 10:58:47
+
+nice leaflet grid layer code for displaying lat / long [here](https://gist.github.com/letmaik/e71eae5b3ae9e09f8aeb288c3b95230b)
+
+Nice leaflet grid layer [here](http://bl.ocks.org/letmaik/e71eae5b3ae9e09f8aeb288c3b95230b)
+
+---
+2020-12-08 12:39:52
+
+running p2p-farm-server locally, branch: 'mappin'
+
+http://localhost:3050/drives/94dc05a75bc3ac9b064cbe1c2ae3264e96ca753ff05aef28303d1c5b752a1f4b/console
+
+reference putscript_local.sh for the appropriate keys and to add more data
+
+![](/img/co2/co2_console.png)
 
 
