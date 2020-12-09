@@ -16,6 +16,8 @@ Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 Ongoing notes on development are posted [here](https://edgecollective.io/posts/notes/co2/).
 
+---
+
 ## Goals for Version 1
 (Updated: 2020-12-09 08:31:32)
 
@@ -42,8 +44,8 @@ Key to assessment of work items:
 ### Client data viz / analysis
 - Initial simple graphing and location of sensors on a floorplan [X]
 - Feed graphs can be show in summary graphical form in a 'list' [X]
-- Client that takes in multiple data feeds from Bayou [LONG]
-- Client can choose which available parameters to display [LONG]
+- Client that takes in multiple data feeds from Bayou [HARD]
+- Client can choose which available parameters to display [HARD]
 - Feed location on a floorplan / map can be display and 'highlighted' by clicking on / hovering over feed list [MEDIUM]
 - Thresholds can be displayed on the graph as lines or bands [SHORT]
 - User can define / select thresholds on a per-graph basis [MEDIUM]
@@ -51,10 +53,12 @@ Key to assessment of work items:
 - Demo of using R to download and analyze data [MEDIUM] 
 
 ### Science / calibration / validation
-- Demonstrate calibration with 'fresh air'
-- Demonstrate calibration with CO2 cannister (and then matching fresh air on later measurement)
-- Comparison of scd30 modules against one another
-- Comparison of scd30 modules with k30, z19
+- Demonstrate calibration with 'fresh air' [EASY]
+- Demonstrate calibration with CO2 cannister (and then matching fresh air on later measurement) [HARD]
+- Comparison of scd30 modules against one another [EASY]
+- Comparison of scd30 modules with k30, z19 [MEDIUM]
+
+---
 
 ## Goals for Version 2
 
