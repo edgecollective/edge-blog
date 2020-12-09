@@ -16,6 +16,61 @@ Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 Ongoing notes on development are posted [here](https://edgecollective.io/posts/notes/co2/).
 
+## Goals for Version 1
+(Updated: 2020-12-09 08:31:32)
+
+Key to assessment of work items:
+- [X] -- "Done"
+- [EASY] -- Won't take much additional effort or time.  A day or two or work.
+- [MEDIUM] -- Straightforward, but could take up to a week of work.
+- [HARD] -- Will take a lot of time / effort.  May need to reconsider. 
+
+### Hardware + firmware
+- Ability to turn of autocalibration [X]
+- Ability to trigger calibration value in firmware [X]
+- Http PUT/POST to online server [X]
+- Gardware for pressure compensation [X]
+- Firmware compensation using pressure input [SHORT]
+- 'Calibrate' button that works on interrupt & is debounced  [MEDIUM]
+- Reasonable first pass at enclosure that respects the scd30 design guidelines [MEDIUM]
+
+### Data server
+- Initial prototype using 'nosql' data server with simple public key / private key design for accessing / posting to feeds [X]
+- Redo initial prototype using Node + Express + Postgresql server + database backend [MEDIUM]
+- Add simple user login to permit data feed creation [HARD]
+
+### Client data viz / analysis
+- Initial simple graphing and location of sensors on a floorplan [X]
+- Feed graphs can be show in summary graphical form in a 'list' [X]
+- Client that takes in multiple data feeds from Bayou [LONG]
+- Client can choose which available parameters to display [LONG]
+- Feed location on a floorplan / map can be display and 'highlighted' by clicking on / hovering over feed list [MEDIUM]
+- Thresholds can be displayed on the graph as lines or bands [SHORT]
+- User can define / select thresholds on a per-graph basis [MEDIUM]
+- Demo of using Jupyter to download and analyze data [EASY]
+- Demo of using R to download and analyze data [MEDIUM] 
+
+### Science / calibration / validation
+- Demonstrate calibration with 'fresh air'
+- Demonstrate calibration with CO2 cannister (and then matching fresh air on later measurement)
+- Comparison of scd30 modules against one another
+- Comparison of scd30 modules with k30, z19
+
+## Goals for Version 2
+
+### User data viz / analysis workflow
+- Client that takes in data feeds from multiple data feed sources (e.g. Adafruit.io)
+- Data feed parameters can be overlaid on same graph and compared
+
+### Hardware + firmware
+- bluetooth configuration of parameters
+- lora gateway + lora remote nodes
+- MQTT functionality
+
+### Science / calibration / validation
+- Import parameters from various air / infection 'models' and apply as thresholds to graph
+
+
 ---
 
 ## Update 2020-12-07

@@ -1678,4 +1678,18 @@ reference putscript_local.sh for the appropriate keys and to add more data
 
 ![](/img/co2/co2_console.png)
 
+SVG sparklines [here](https://github.com/fnando/sparkline)
 
+keeping popups open in leaflet [here](https://stackoverflow.com/questions/9047931/leaflet-js-open-all-popup-bubbles-on-page-load)
+
+intro to leaflet [here](https://leafletjs.com/examples/quick-start/)
+
+add and remove leaflet circle on click [here](https://gist.github.com/mollietaylor/8564724)
+
+assigning ids to markers in leaflet [here](https://stackoverflow.com/questions/25683871/assign-id-to-marker-in-leaflet)
+
+adding horizontal lines in chartjs [here](https://riptutorial.com/chart-js/example/22333/draw-horizonal-lines)
+
+![](/img/co2/console_demo.png)
+
+above is 'mappin' branch of p2p-farm-server on gitlab
