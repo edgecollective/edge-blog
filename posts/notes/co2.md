@@ -1693,3 +1693,30 @@ adding horizontal lines in chartjs [here](https://riptutorial.com/chart-js/examp
 ![](/img/co2/console_demo.png)
 
 above is 'mappin' branch of p2p-farm-server on gitlab
+
+---
+2020-12-09 17:39:11
+
+modfiying leaflet icon on mouseover [here](https://gis.stackexchange.com/questions/267400/highlight-l-divicon-on-mouseover-or-programmatically-in-leaflet-map)
+
+nice working example of buttons and overlap and highlighting [here](https://github.com/edgecollective/leaflet-highlight).
+
+https://www.providencejournal.com/story/news/coronavirus/2020/08/14/umass-professor-expands-on-risks-of-covid-19-and-how-to-avoid-them-in-schools/113968580/
+
+https://twitter.com/ErinBromage
+
+https://twitter.com/ErinBromage/status/1336769111922241539
+
+great writings collected here: https://twitter.com/JuliaLMarcus
+
+battery-powered datalogging, for use on e.g. planes?
+export to csv ...
+
+---
+2020-12-10 11:08:32
+
+## Curated Twitter list of air quality / covid / science
+
+Link [here](https://twitter.com/i/lists/1337064747762642947)
+
+Key organizing tweet by Jose-Luis Jimenez, [here](https://twitter.com/jljcolorado/status/1335025183493599232?s=20) and [here](https://twitter.com/jljcolorado/status/1337066415694733320?s=20).  Jimenez group [here](http://cires1.colorado.edu/jimenez/). 
