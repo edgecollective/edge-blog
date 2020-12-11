@@ -1848,7 +1848,7 @@ Differences:
 ---
 2020-12-11 09:25:16
 
-![](/img/co2/co_tst_color_6.png)
+![](/img/co2/co_test_color_6.png)
 
 ![](/img/co2/co2_differences_6.png)
 
