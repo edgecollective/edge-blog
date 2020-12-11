@@ -1848,8 +1848,17 @@ Differences:
 ---
 2020-12-11 09:25:16
 
+
 ![](/img/co2/co_test_color_6.png)
 
 ![](/img/co2/co2_differences_6.png)
+
+### Jupyter Lab setup
+
+Notebook for above analysis is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/master/analysis/cross_compare.ipynb)
+
+![](/img/co2/jupyter.png)
+
+
 
 
