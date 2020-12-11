@@ -1834,5 +1834,17 @@ Effects of automatic calibration (from guide):
 
 ![](/img/co2/asc_algorithm.png)
 
+---
+2020-12-11 08:03:52
+
+Updated scd30 comparison:
+
+![](/img/co2/co_test_color_5.png)
+
+Differences:
+
+![](/img/co2/co2_differences.png)
+
+
 
 
