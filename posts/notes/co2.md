@@ -1720,3 +1720,56 @@ export to csv ...
 Link [here](https://twitter.com/i/lists/1337064747762642947)
 
 Key organizing tweet by Jose-Luis Jimenez, [here](https://twitter.com/jljcolorado/status/1335025183493599232?s=20) and [here](https://twitter.com/jljcolorado/status/1337066415694733320?s=20).  Jimenez group [here](http://cires1.colorado.edu/jimenez/). 
+
+Jimenez group listing [here](http://cires1.colorado.edu/jimenez-group/)
+
+Aranet4 listing [here](https://www.amazon.com/Aranet4-Home-Temperature-Ink-Configuration/dp/B07YY7BH2W)
+
+Article covering Jimenez int'l org around air quality and covid [here](https://drive.google.com/file/d/1rBToRlgQfRoEPuY1WHhlwmIhcl5WrTye/view?usp=sharing)
+
+Online presentation [here](https://www.aireamos.org/presentacion-online-de-la-nueva-plataforma-aireamos/)
+
+----
+2020-12-10 13:42:11
+
+note on next steps:
+
+- see how the two scd30s compare after force calibration procedure, side-by-side (don't need to be calibrated outdoors, just cross-comparison)
+- make sure can force calibrate the k30 and z19 and then do cross-comparison -- if they work comparably, can be lower-cost option
+- end-to-end demo of tech, including floorplan viz
+- (storage to microSD? easy next step)
+- kit assembly instructions for heltec version and for feather version
+- make a video explaining the project and the status
+- show Jupyter and R workflows
+
+---
+2020-12-10 17:44:16
+
+## SCD30 Cross-comparison with force calibration
+
+- Heltec + REV_C using [this code](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_c/firmware/wifi_sensor/heltec_wifi_bayou_scd30_display_bmp388_calibrate) posting to [this feed](http://159.65.226.222:3000/api/drives/5bd89f163a158797ab86668e67ac92736905c4056ec03600b8c37b0296da6763/csv)
+- Feather ESP32 + REV_B using [this code](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_b/firmware/wifi_sensor/feather_esp32_wifi_bayou_scd30_display_calibrate) posting to [this feed](http://159.65.226.222:3000/api/drives/516d21cb12f7e724be7c3d1ea66b7113316fb9f4018d2a9345bacf4b05f00c74/csv)
+
+Note on experimental setup.  Code is set up to broadcast every 90 seconds; on third round, it force calibrates to 410 ppm; there is a parameter named 'forced' that is '0' initially and then '1' after forced calibration. Both devices were reset simultaneously, hopefully they will be relatively in sync when force calibrated.  need to check difference.  
+
+Update: no, better to force calibrate in beginning.  Send value right after force calibration, then reset to 0.  
+
+---
+2020-12-10 20:21:52
+
+- not sure that the force calibrate functions were simultaneous, might need to run again ...
+- but as a one-off the data looks spot-on right now ...
+
+---
+2020-12-10 22:03:01
+
+- the data was spot on because the devices were force calibrating every cycle :) so they were always at around 410 ppm.
+- edited code so that it would force calibrate only once, about 2 minutes into cycle of measuring every 30 sec.  Data is here:
+
+![](/img/co2/co_test.png)
+
+Note that the orange line is the FeatherESP2, and tracking the 'forced' parameter indicates that the device rebooted and then re-force calibrated to 410 ppm.  Not sure why it rebooted -- perhaps the power supply on the Feather is insufficient to handle the SCD30, or the memory?  Note that the readings were more variable for the Feather prior to the reboot.
+
+New experiment:  restart code, but swap the SCD30 modules.
+
+
