@@ -1817,6 +1817,6 @@ Last two resets are after readjusted enclosure.
 Results from overnight:
 ![](/img/co2/co_test_color_4.png)
 
-Wonder if any systematic difference is due to placement in box / closer to airflow opening.
+Systematic difference (red climbs faster) is perhaps due to placement in box / closer to airflow opening.
 
 
