@@ -1770,6 +1770,20 @@ Update: no, better to force calibrate in beginning.  Send value right after forc
 
 Note that the orange line is the FeatherESP2, and tracking the 'forced' parameter indicates that the device rebooted and then re-force calibrated to 410 ppm.  Not sure why it rebooted -- perhaps the power supply on the Feather is insufficient to handle the SCD30, or the memory?  Note that the readings were more variable for the Feather prior to the reboot.
 
+![](/img/co2/co_test_color.png)
+
+---
+2020-12-10 22:12:26
+
+Added legend, and the 'forced' parameter, to make it all more explicit. Here, the red line is the Feather32 data, the blue is the Heltec. The accompanying 'forced' data are shown, multiplied and shifted to show on scale.
+
 New experiment:  restart code, but swap the SCD30 modules.
+
+---
+2020-12-10 22:18:31
+
+Update:  swapped the scd30.  heltec didn't start up at first. realized that i placed the scd30, was shorting something.  so there may be some odd data out of the heltec now.  if there was something wrong with the scd30 module associated with the feather, it's on the heltec now.
+
+
 
 
