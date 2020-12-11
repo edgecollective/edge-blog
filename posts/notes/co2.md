@@ -1822,4 +1822,17 @@ Systematic difference (red climbs faster) is perhaps due to placement in box / c
 Plot of difference between the two traces above:
 ![](/img/co2/co_test_color_diff.png)
 
+### SCD30 Field Calibration Guide
+
+SCD30 Field Calibration Guide [here](/img/co2/CD_AN_SCD30_Field_Calibration_D2.pdf)
+
+Effects of forced recalibration (from guide):
+
+![](/img/co2/frc_field_calibration.png)
+
+Effects of automatic calibration (from guide):
+
+![](/img/co2/asc_algorithm.png)
+
+
 
