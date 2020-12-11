@@ -1814,9 +1814,12 @@ Last two resets are after readjusted enclosure.
 ---
 2020-12-11 06:14:27
 
-Results from overnight:
+Results from overnight, after initial force calibration on both sensors (as per above description):
 ![](/img/co2/co_test_color_4.png)
 
 Systematic difference (red climbs faster) is perhaps due to placement in box / closer to airflow opening.
+
+Plot of difference between the two traces above:
+![](/img/co2/co_test_color_diff.png)
 
 
