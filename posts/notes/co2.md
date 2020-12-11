@@ -1795,12 +1795,28 @@ Note -- if this immediate divergence is 'real', it could indicate that small var
 
 Reasons it might not be 'real' -- one of the sensors is underpowered b/c of a different micro ... the scd30 sampling rate is too high, or we're force calibrating too soon ... others?
 
+---
+2020-12-10 22:45:58
+
 ![](/img/co2/co_test_color_2.png)
 
 Ah -- after careful readjustment inside enclosure, looks like they did coincide more closely (or could be fluke) on restart (last restart / force calibration before the '80000' mark.) Will now monitor to see whether one of the devices exhibits odd behavior.
 
 Now that I've switched scd30 modules ... if the data from the Feather32 still exhibits odd behavior, then my guess would be that the problem is the power supply / memory of the Feather32.  If the data from the heltec exhibits odd behavior, then the problem may lie with that particular scd30 module.
 
+---
+2020-12-10 22:53:13
 
+![](/img/co2/co_test_color_3.png)
+
+Last two resets are after readjusted enclosure. 
+
+---
+2020-12-11 06:14:27
+
+Results from overnight:
+![](/img/co2/co_test_color_4.png)
+
+Wonder if any systematic difference is due to placement in box / closer to airflow opening.
 
 
