@@ -1784,6 +1784,23 @@ New experiment:  restart code, but swap the SCD30 modules.
 
 Update:  swapped the scd30.  heltec didn't start up at first. realized that i placed the scd30, was shorting something.  so there may be some odd data out of the heltec now.  if there was something wrong with the scd30 module associated with the feather, it's on the heltec now.
 
+- Last 'forced' dip before '53000' is beginning of above run.
+- 'forced' event in green (feather32) only at '55000', feather32 seemed to reset and then 'force' to 410 (as firmware demands on reset)
+- powered off, swapped scd30s, maybe shorted the one that was originally on the feather by plugging it in improperly to heltec.  result is at '56500', shows forced status.  but devices somehow immediately end up 30+ppm apart. So at a little after 57000, did another reset (devices had been powered on).
+- now they definitely do hit the same 410 mark, but diverge. could be oddness in enclosure setup -- one is closer to inlet.
+- going to readjust and then reset again.
+- readjusted box, performed another collective reset now at approx 1607657789
+
+Note -- if this immediate divergence is 'real', it could indicate that small variations in air flow are very important / and/or that one oughtn't to worry about fluctuations on order of approx 50 ppm.
+
+Reasons it might not be 'real' -- one of the sensors is underpowered b/c of a different micro ... the scd30 sampling rate is too high, or we're force calibrating too soon ... others?
+
+![](/img/co2/co_test_color_2.png)
+
+Ah -- after careful readjustment inside enclosure, looks like they did coincide more closely (or could be fluke) on restart (last restart / force calibration before the '80000' mark.) Will now monitor to see whether one of the devices exhibits odd behavior.
+
+Now that I've switched scd30 modules ... if the data from the Feather32 still exhibits odd behavior, then my guess would be that the problem is the power supply / memory of the Feather32.  If the data from the heltec exhibits odd behavior, then the problem may lie with that particular scd30 module.
+
 
 
 
