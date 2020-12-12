@@ -1663,6 +1663,8 @@ using react and fetch [here](https://reactjs.org/docs/faq-ajax.html)
 ---
 2020-12-08 10:58:47
 
+### interactive viz of data on map
+
 nice leaflet grid layer code for displaying lat / long [here](https://gist.github.com/letmaik/e71eae5b3ae9e09f8aeb288c3b95230b)
 
 Nice leaflet grid layer [here](http://bl.ocks.org/letmaik/e71eae5b3ae9e09f8aeb288c3b95230b)
@@ -1699,7 +1701,11 @@ above is 'mappin' branch of p2p-farm-server on gitlab
 
 modfiying leaflet icon on mouseover [here](https://gis.stackexchange.com/questions/267400/highlight-l-divicon-on-mouseover-or-programmatically-in-leaflet-map)
 
+### leaflet icon resize
+
 nice working example of buttons and overlap and highlighting [here](https://github.com/edgecollective/leaflet-highlight).
+
+### references for covid 19
 
 https://www.providencejournal.com/story/news/coronavirus/2020/08/14/umass-professor-expands-on-risks-of-covid-19-and-how-to-avoid-them-in-schools/113968580/
 
@@ -1865,6 +1871,32 @@ Notebook for above analysis is [here](https://github.com/edgecollective/co2-remo
 ![](/img/co2/co_test_color_7.png)
 
 ![](/img/co2/co2_differences_7.png)
+
+---
+2020-12-11 22:33:39
+
+### Revisiting the 'map' interface code
+
+p2p-farm-server/public/console.html is the latest code connected to the p2p-farm-server, which does floorplan side by side with the charts.  
+
+the route to visit is [here](http://0.0.0.0:3050/drives/94dc05a75bc3ac9b064cbe1c2ae3264e96ca753ff05aef28303d1c5b752a1f4b/console). 
+
+It's determined in p2p-farm-server/routes/index.js
+
+meanwhile, the code that connects buttons and highlights leaflet markers is [here](https://github.com/edgecollective/leaflet-highlight).  
+
+---
+2020-12-12 10:50:11
+
+Video of attempt at interactive code [here](https://youtu.be/otHVABif8Rs), and below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/otHVABif8Rs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Relevant code is in 'console.html', [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html); the routes portion of the server that handles that page is index.js, [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/routes/index.js).
+
+Note: was able to resolve CORS errors when prototyping locally by simply referencing the '0.0.0.0' address rather than 'localhost'.
+
+
 
 
 
