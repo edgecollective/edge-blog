@@ -12,7 +12,7 @@ blurb: Notes on inexpensive CO2 monitoring options
 
 The following is a development notebook for constructing a DIY CO2 monitor.  
 
-## Table of contents
+## Index
 
 More or less random bookmarks into the notes file, for reference:
 
@@ -24,6 +24,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Nov 25 update](#nov25)
 - [Initial Microphone Experiment Nov 28](#mic_experiment)
 - [Comparing two SCD30 sensors](#compare_scd30)
+- [Heltec Wifi Lora 32 v 2 -- Schematic and Pinouts](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125)
 
 --- 
 2020 SEPT 29
@@ -1888,6 +1889,8 @@ meanwhile, the code that connects buttons and highlights leaflet markers is [her
 ---
 2020-12-12 10:50:11
 
+## console update
+
 Video of attempt at interactive code [here](https://youtu.be/otHVABif8Rs), and below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/otHVABif8Rs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1895,6 +1898,96 @@ Video of attempt at interactive code [here](https://youtu.be/otHVABif8Rs), and b
 Relevant code is in 'console.html', [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html); the routes portion of the server that handles that page is index.js, [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/routes/index.js).
 
 Note: was able to resolve CORS errors when prototyping locally by simply referencing the '0.0.0.0' address rather than 'localhost'.
+
+Inspirational map flood network viz [here](https://flood.network/) (link to actual viz seems to be broken).
+
+---
+2020-12-12 14:04:25
+
+## Revisiting mic
+
+Adafruit max4466 is [here](https://www.adafruit.com/product/1063). 
+- Pinout from 'left to right' when mic is facing viewer and is oriented at 'bottom' is:  VCC GND OUT
+
+Typical Amazon cheaper product is [here](https://www.amazon.com/HiLetgo-Electret-Microphone-Amplifier-Adjustable/dp/B07DRGF8C2/ref=pd_lpo_147_t_0/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07DRGF8C2&pd_rd_r=dc81b1e9-e296-4ec2-8eee-8f102542b805&pd_rd_w=Octxo&pd_rd_wg=EnXDs&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=BYWGQV117YHEYJBE8WNE&psc=1&refRID=BYWGQV117YHEYJBE8WNE)
+- Pinout from 'left to right' when mic is facing viewer and is oriented at 'bottom' is also:  VCC GND OUT
+
+![](/img/co2/adafruit_electret_dim.png)
+
+Dimensions of board seem to be about (width x height) (15 mm x 22 mm). 
+
+## qwiic connector, right angle
+
+- listed on adafruit [here](https://www.adafruit.com/product/4208). "JST SH 4-pin" -- 'micro' / 'right angle' version.
+
+![](/img/co2/jst_sh_4_right.png)
+
+## qwiic connector, vertical
+
+listed on adafruit [here](https://www.adafruit.com/product/4328). "JST SH 4-pin" -- 'micro' / 'vertical' version.
+
+![](/img/co2/jst_sh_4_vertical.png)
+
+## tactile switch side / horizontal
+
+amazon listing [here](https://www.amazon.com/uxcell-Momentary-Pushbutton-Terminals-6mmx6mmx12mm/dp/B07JKWC6LH/ref=sr_1_18?dchild=1&keywords=tactile+switch+push&qid=1607805967&s=automotive&sr=1-18)
+
+![](/img/co2/tactile_side.png)
+
+For now: break out A0 and A1 pins to do the button measurement separately on a breakout if need be (to externalize the control, avoid interacting with scd30).  
+
+Aside: nice [neobit project](https://github.com/ppelleti/NeoBit)
+
+## battery for heltec 
+
+micro li-ion board on Amazon [here](https://www.amazon.com/MakerFocus-Rechargable-Protection-Insulated-Development/dp/B07CXNQ3ZR/ref=pd_bxgy_img_2/138-2479136-9655161?_encoding=UTF8&pd_rd_i=B07CXNQ3ZR&pd_rd_r=6e7cfcdc-c293-4378-aa63-5c7473b5b896&pd_rd_w=45JGk&pd_rd_wg=s7u5J&pf_rd_p=f325d01c-4658-4593-be83-3e12ca663f0e&pf_rd_r=YHBZ9KHHR1X6CY0GS3E2&psc=1&refRID=YHBZ9KHHR1X6CY0GS3E2) -- 'jst 1.25 connector 2 pin'
+
+Size: 8.5*25*40（mm）
+
+---
+2020-12-13 09:55:51
+
+## buttons
+
+mini pushbutton switch -- tall [via sparkfun](https://www.sparkfun.com/products/8605)
+
+10 mm tall. 
+
+How tall is a typical header?
+
+Assortment of pushbuttons [here](https://www.amazon.com/DaFuRui-250pcs-Tactile-Momentary-Assortment/dp/B07KGR7L9M/ref=asc_df_B07KGR7L9M/?tag=hyprod-20&linkCode=df0&hvadid=312112220877&hvpos=&hvnetw=g&hvrand=4606913672532958917&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9058138&hvtargid=pla-614560844137&psc=1)
+
+Omron B3F datasheet [here](https://4donline.ihs.com/images/VipMasterIC/IC/OMRN/OMRN-S-A0001309768/OMRN-S-A0001309768-1.pdf?hkey=52A5661711E402568146F3353EA87419)
+
+![](/img/co2/tactile_side_connectivity.png)
+
+need to swap out 'dual' switch for a single ..
+
+![](/img/co2/in_progress.png)
+
+
+## Guide for qwiic connectors
+
+Discussion [here](https://forum.kicad.info/t/hand-soldering-jst-sh-connector/12894)
+
+```
+Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled
+```
+
+Redo for easier hand soldering?
+
+![](/img/co2/rev_e.png)
+
+![](/img/co2/rev_e_3d.png)
+
+![](/img/co2/qwiic_pinout.png)
+
+[Qwiic adapter hookup guide](https://learn.sparkfun.com/tutorials/qwiic-adapter-hookup-guide/all)
+
+![](/img/co2/qwiic_pin_assignment.png)
+
+
+
 
 
 
