@@ -1997,11 +1997,20 @@ Redo for easier hand soldering?
 
 Datasheet for smaller enclosure is [here](https://images-na.ssl-images-amazon.com/images/I/61P4XQPyJyL.pdf)
 
+---
+2020-12-14 21:52:32
+
 ## PCB ordering for REV_E
 
 ![](/img/co2/rev_e_jlcpcb_render.png)
 
 Zipped Gerber files for REV_E are [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/master/rev_e/atkins/co2_rev_e_gerber.zip)
+
+## Next steps
+
+- **TOP PRIORITY**: wifi manager setup for heltec gateway
+- Attempt force calibration comparison, Z19 / K30 with SCD30
+- Online structure for viewing multiple feeds
 
 
 
