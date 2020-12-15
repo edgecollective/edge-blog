@@ -2004,7 +2004,10 @@ Datasheet for smaller enclosure is [here](https://images-na.ssl-images-amazon.co
 
 Github repo for REV_E is [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_e/)
 
+![](/img/co2/rev_3_3d_render.png)
+
 ![](/img/co2/rev_e_jlcpcb_render.png)
+
 
 Zipped Gerber files for REV_E are [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/master/rev_e/atkins/co2_rev_e_gerber.zip)
 
