@@ -1986,6 +1986,24 @@ Redo for easier hand soldering?
 
 ![](/img/co2/qwiic_pin_assignment.png)
 
+---
+2020-12-14 13:27:09
+
+## enclosure options
+
+[link to smaller enclosure](https://www.amazon.com/LeMotech-Junction-Dustproof-Weatherproof-Electrical/dp/B07G58SLB1?th=1)
+
+![](/img/co2/smaller_enclosure_co2.png)
+
+Datasheet for smaller enclosure is [here](https://images-na.ssl-images-amazon.com/images/I/61P4XQPyJyL.pdf)
+
+## PCB ordering for REV_E
+
+![](/img/co2/rev_e_jlcpcb_render.png)
+
+Zipped Gerber files for REV_E are [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/master/rev_e/atkins/co2_rev_e_gerber.zip)
+
+
 
 
 
