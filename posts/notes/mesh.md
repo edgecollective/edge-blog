@@ -1,5 +1,5 @@
 ---
-pageTitle: Meshtastic LoRa Mesh Chat
+pageTitle: LoRa Mesh Chat
 layout: layout.njk
 date: 2020-08-04
 updated: 2020-09-28
@@ -8,7 +8,7 @@ image: img/mesh/hello.png
 blurb: Experimenting with the Meshtastic system for Android + Bluetooth + LoRa mesh networking.
 ---
 
-## Meshtastic Overview
+## Meshtastic Project
 
 Some notes on our experiments with the [Meshtastic Project](https://www.meshtastic.org/).  
 
@@ -75,3 +75,12 @@ Got Meshtastic up and running on a [Quahog](https://edgecollective.io/post/notes
 Project by Luandro, [here](https://meshtastic.discourse.group/t/meshtastic-to-connect-isolated-villages/1191).
 
 Luandro's public key on Scuttlebutt is here: ```@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519```
+
+---
+2020-12-14 22:00:05
+
+## Cellsol -- IRC over LoRa + ESP32
+
+Hackaday article [here](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
+
+Project page [here](https://www.f3.to/cellsol/)
