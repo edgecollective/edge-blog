@@ -433,3 +433,29 @@ Also have improved REV_A gateway code that displays wifi status (sort of), [here
 2020-12-01 13:37:55
 
 Note -- hadn't fully implemented the watchdog timer in previous REV_A version; and now we send a sensor reading on startup, which is easier for debugging -- latest version (ready for testing) [here](https://github.com/edgecollective/valedalama/tree/master/greenhouse/REV_A/remote/feather_firmware/30_NOV/featherm0_am2315_lora_watchdog_sleep_countup)
+
+---
+2020-12-15 08:45:07
+
+![](/img/valedalama/connected.png)
+
+Next steps:
+- status of Feather code w/ watchdog and sleep?
+- possible to reprogram the gateway remotely?  test locally first ...
+- reconfigure the default Bayou graphing view so that appropriate for 10 min intervals, in anticipation of switching to 10 min from 10 sec intervals
+- download and save historical CSV data as backup beforehand
+
+Note: device is called walt-rak ... can connect via VNC viewer in Downloads ...
+
+---
+2020-12-15 12:25:29
+
+### Programming heltec from command line
+
+Guide [here](https://medium.com/jungletronics/esp-idf-programming-guide-wifi-lora-32-v2-53f89e12c96e)
+
+Code is [here](https://github.com/edgecollective/vale-gateway/tree/main/rev_c/heltec_wifi_lora_bayou_testdata_vale/bin)
+
+![](/img/valedalama/remote_1.png)
+
+![](/img/valedalama/remote_2.png)

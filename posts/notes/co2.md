@@ -2016,8 +2016,8 @@ Zipped Gerber files for REV_E are [here](https://github.com/edgecollective/co2-r
 - **TOP PRIORITY**: wifi manager setup for heltec gateway
 - Attempt force calibration comparison, Z19 / K30 with SCD30
 - Online structure for viewing multiple feeds
-
-
+- Things Network demo code (using RPi) w/ Heltec
+- Feather board setup -- enable Things Network by connection i01
 
 
 

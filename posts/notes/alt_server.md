@@ -176,3 +176,96 @@ psps
 
 > INSERT INTO sensors (name) values ('NodeMCU  ESP32');
 
+---
+2020-12-15 08:53:18
+
+[Building a simple API with Nodejs, Expressjs, PostgreSQL DB, and JWT - 3](https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-postgresql-db-and-jwt-3-mke10c5c5)
+
+[node + postgresql -- nice tutorial](https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8/)
+
+[node + postgresql + jwt](https://itnext.io/building-restful-api-with-node-js-express-js-and-postgresql-the-right-way-b2e718ad1c66)
+
+---
+
+2020-12-15 15:12:26
+
+Begin here:
+- [CRUD](https://bezkoder.com/node-express-sequelize-postgresql/)
+
+then add security here:
+- [adding jwt](https://bezkoder.com/node-js-jwt-authentication-postgresql/)
+
+Update: actually, begin with second tutorial ...
+
+Installing postgresql on ubuntu [here](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart)
+
+React + node + express + mongo w/ login page [here](https://bezkoder.com/react-node-mongodb-auth/)
+
+---
+2020-12-15 15:53:43
+
+Okay, here's the real deal:
+
+[Node.js Express & PostgreSQL: CRUD Rest APIs example with Sequelize](https://bezkoder.com/node-express-sequelize-postgresql/)
+
+Prior exapmel: 
+
+node, express, postgresql using sequelize [here](https://medium.com/codingtown/node-express-and-postgresql-using-sequelize-in-ubuntu-18-04-3-lts-bc8d2cde3796)
+
+Wow, really simple example [here](https://rike.dev/2019/04/20/setup-postgresql-database-and-api-for-node-js)
+
+postgres and ubuntu tutorial [here](https://itsfoss.com/install-postgresql-ubuntu/)
+
+---
+2020-12-15 17:12:48
+
+nodejs express mongodb jwt [here](https://www.npmjs.com/package/node-express-mongodb-jwt-rest-api-skeleton)
+
+---
+2020-12-16 11:26:24
+
+as another approach w/ node + postgres, trying out [this tutorial](https://rike.dev/2019/04/20/setup-postgresql-database-and-api-for-node-js)
+
+Nice intro tutorial on nodejs and postgres [here](https://stackabuse.com/using-postgresql-with-nodejs-and-node-postgres/)
+
+try out the github code [here](https://github.com/jkasun/sa-node-postgres)
+
+worked.
+
+New homework!  This is the thing to try: 
+
+"creating a web application in your home using nodes, rpi, express, postgresql" -- [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+NOTE:  'createdb -0 username dbname' should have -O instead of -0
+
+Associated github repo is [here](https://github.com/RhettTrickett/habitat)
+
+Grand. And then can add users / JWT with something like [this post](https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-postgresql-db-and-jwt-3-mke10c5c5)
+
+The first post for that series is [here](https://www.codementor.io/@olawalealadeusi896/building-simple-api-with-es6-krn8xx3k6)
+
+Full code for the latter is [here](https://github.com/olawalejarvis/reflection_app_server)
+
+And perhaps this shows how to combine the above with a front end -- [here](https://bezkoder.com/react-express-authentication-jwt/)
+
+### Good example!
+
+The following pairing of backend and frontend seems to work as a baseline structure. Running both, they even find one another on the proper ports.
+
+#### Backend w/ node + express + postgresql + JWT 
+
+Tutorial [here](https://bezkoder.com/node-js-jwt-authentication-postgresql/) with associated code on github [here](https://github.com/bezkoder/node-js-jwt-authentication-postgresql)
+
+#### Frontend 
+
+React front end [here](https://bezkoder.com/react-jwt-auth/), with github repo [here](https://github.com/bezkoder/react-jwt-auth)
+
+## Node + Express + Postgres + Sequelize
+
+Tutorial [here](https://www.robinwieruch.de/postgres-express-setup-tutorial).  Nice explanation. 
+
+Another nice tutorial [here](https://www.djamware.com/post/5b56a6cc80aca707dd4f65a9/nodejs-expressjs-sequelizejs-and-postgresql-restful-api), with associated code on github [here](https://github.com/didinj/node-express-postgresql-sequelize.git)
+
+Ahhhh, really nice tutorial on using sequelize, [here](https://blog.echobind.com/a-guide-for-restful-apis-with-node-sequelize-postgres-63636d026d5d)
+
+
