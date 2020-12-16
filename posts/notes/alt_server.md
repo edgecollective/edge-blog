@@ -268,4 +268,22 @@ Another nice tutorial [here](https://www.djamware.com/post/5b56a6cc80aca707dd4f6
 
 Ahhhh, really nice tutorial on using sequelize, [here](https://blog.echobind.com/a-guide-for-restful-apis-with-node-sequelize-postgres-63636d026d5d)
 
+---
+2020-12-16 13:31:56
+
+using quasar, vue, and chartjs [here](https://rike.dev/2019/02/11/display-smart-home-data-in-a-quasar-vue-js-and-chart-js-powered-web-application)
+
+---
+
+## Key links
+
+https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize#toc-sequelize-setup
+
+https://bezkoder.com/node-js-jwt-authentication-postgresql/
+
+https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-and-postgresql-db-masuu56t7
+
+
+
+
 
