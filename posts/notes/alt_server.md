@@ -283,6 +283,11 @@ https://bezkoder.com/node-js-jwt-authentication-postgresql/
 
 https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-and-postgresql-db-masuu56t7
 
+---
+2020-12-17 08:04:23
+
+arg for postgresql for iot [here](https://blog.timescale.com/blog/choose-postgresql-for-iot-19688efc60ca/)
+
 
 
 
