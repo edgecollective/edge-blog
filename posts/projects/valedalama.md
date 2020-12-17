@@ -1,5 +1,5 @@
 ---
-pageTitle: Soil and Greenhouse Monitoring in Odiáxere, Faro District (Portugal)
+pageTitle: Soil and Greenhouse Monitoring at Quinta Vale da Lama in Odiáxere, Faro District (Portugal)
 layout: layout.njk
 date: 2020-04-13
 tags: projects 
