@@ -288,6 +288,219 @@ https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-
 
 arg for postgresql for iot [here](https://blog.timescale.com/blog/choose-postgresql-for-iot-19688efc60ca/)
 
+----
+
+### (HICCUP IN NOTES FLOW)
+
+---
+2020-12-15 17:31:58
+
+[make your own iot data platform](https://www.digitaljunky.io/make-your-own-data-platform-for-the-internet-of-things-using-node-js-and-express-js/)
+
+mern stack [here](https://www.digitalocean.com/community/tutorials/getting-started-with-the-mern-stack)
+
+mean stack jwt [here](https://www.youtube.com/watch?v=T8qepiTbJi4)
+
+MERN full stack [here](https://github.com/praveenscience/JWT-MERN-FullStack)
+
+ooooooh this is good MERN! [here](https://github.com/praveenscience/JWT-MERN-FullStack)
+
+another good example [here](https://github.com/vishalnagda1/mern-jwt-auth)
+
+this worked!
+
+https://github.com/vishalnagda1/mern-jwt-auth
+
+broader tutorial on MERN [here](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
+
+
+MERN CRUD app tutorial [here](https://github.com/SinghDigamber/react-mernstack-crud)
+
+this looks like a nice example, using postgres -- [here](https://github.com/adrach/starter-postgres-express-react)
+
+---
+
+MERN:
+
+okay so this tutorial lets you create student records and view them -- [here](https://github.com/SinghDigamber/react-mernstack-crud)
+
+whereas [this tutorial](https://github.com/vishalnagda1/mern-jwt-auth) does user login stuff.
+
+
+---
+2020-12-15 20:59:54
+
+this pair of server (node + mongo + jwt) + client (angular) worked:
+- server [tutorial](https://jasonwatmore.com/post/2020/06/17/nodejs-mongodb-api-jwt-authentication-with-refresh-tokens) and [code](https://github.com/cornflourblue/node-mongo-jwt-refresh-tokens-api)
+- client [tutorial](https://github.com/cornflourblue/angular-9-jwt-refresh-tokens) and [code](https://github.com/cornflourblue/angular-9-jwt-refresh-tokens)
+
+reading about fastify [here](https://medium.com/@tarusharora/how-to-build-a-node-js-api-with-fastify-mongodb-docker-and-postman-f1ffab912ece)
+
+---
+2020-12-16 09:25:10
+
+this might be my starting place -- node express postgresql ubuntu [here](https://medium.com/codingtown/node-express-and-postgresql-using-sequelize-in-ubuntu-18-04-3-lts-bc8d2cde3796)
+
+also see post [here](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
+
+doing this in ~/Documents/postgres-express-react-node-tutorial
+
+notes on postgres and user auth [here](https://stackoverflow.com/questions/11919391/postgresql-error-fatal-role-username-does-not-exist)
+
+used this technique to change postgres password to 'i8buddha':
+linked [here](https://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install)
+
+sequelize import is not a function' -- https://stackoverflow.com/questions/62917111/sequelize-import-is-not-a-function
+
+associated github repo is [here](https://github.com/waiyaki/postgres-express-node-tutorial)
+
+---
+2020-12-16 10:16:16
+
+In the end, a nice codebase for postgres express and node is [here](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize#toc-sequelize-setup).  Note that this blog post is based on an earlier blog post by Michael Herman, [here](https://mherman.org/blog/node-postgres-sequelize/).
+
+
+with the github repo [here](https://github.com/waiyaki/postgres-express-node-tutorial)
+
+used this technique to change postgres password to 'i8buddha':
+linked [here](https://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install)
+
+which needed to be changed in server/config/config.json as per:
+
+{
+  "development": {
+    "username": "postgres",
+    "password": "i8buddha",
+    "database": "todos-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "i8buddha",
+    "database": "todos-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
+
+this was the only change needed in the github repo above.
+
+clone, then install with npm install, and run with npm run start:dev
+
+result: working todo api w/ sequelize. 
+
+---
+2020-12-16 11:26:24
+
+as another approach w/ node + postgres, trying out [this tutorial](https://rike.dev/2019/04/20/setup-postgresql-database-and-api-for-node-js)
+
+Nice intro tutorial on nodejs and postgres [here](https://stackabuse.com/using-postgresql-with-nodejs-and-node-postgres/)
+
+try out the github code [here](https://github.com/jkasun/sa-node-postgres)
+
+worked.
+
+New homework!  This is the thing to try: 
+
+"creating a web application in your home using nodes, rpi, express, postgresql" -- [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+NOTE:  'createdb -0 username dbname' should have -O instead of -0
+
+Associated github repo is [here](https://github.com/RhettTrickett/habitat)
+
+Grand. And then can add users / JWT with something like [this post](https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-postgresql-db-and-jwt-3-mke10c5c5)
+
+The first post for that series is [here](https://www.codementor.io/@olawalealadeusi896/building-simple-api-with-es6-krn8xx3k6)
+
+Full code for the latter is [here](https://github.com/olawalejarvis/reflection_app_server)
+
+And perhaps this shows how to combine the above with a front end -- [here](https://bezkoder.com/react-express-authentication-jwt/)
+
+### Good example!
+
+The following pairing of backend and frontend seems to work as a baseline structure. Running both, they even find one another on the proper ports.
+
+#### Backend w/ node + express + postgresql + JWT 
+
+Tutorial [here](https://bezkoder.com/node-js-jwt-authentication-postgresql/) with associated code on github [here](https://github.com/bezkoder/node-js-jwt-authentication-postgresql)
+
+#### Frontend 
+
+React front end [here](https://bezkoder.com/react-jwt-auth/), with github repo [here](https://github.com/bezkoder/react-jwt-auth)
+
+## Node + Express + Postgres + Sequelize
+
+Tutorial [here](https://www.robinwieruch.de/postgres-express-setup-tutorial).  Nice explanation. 
+
+Another nice tutorial [here](https://www.djamware.com/post/5b56a6cc80aca707dd4f65a9/nodejs-expressjs-sequelizejs-and-postgresql-restful-api), with associated code on github [here](https://github.com/didinj/node-express-postgresql-sequelize.git)
+
+Ahhhh, really nice tutorial on using sequelize, [here](https://blog.echobind.com/a-guide-for-restful-apis-with-node-sequelize-postgres-63636d026d5d)
+
+---
+2020-12-16 13:02:19
+
+ingesting real time data w/ nodejs and timescale db [here](https://stephanefrechette.dev/posts/ingest-real-time-streaming-data-for-time-series-analysis/)
+
+rike in berlin [here](https://dev.to/frankanka)
+
+getting a csv download from nodejs [here](https://dev.to/frankanka/get-a-csv-download-out-of-postgresql-or-lowdb-database-on-node-js-45k2)
+
+rike -- project -- maybe she'd help with corona -- [here](https://rike.dev/)
+
+----
+
+multiple users and reflections [here](https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-postgresql-db-and-jwt-3-mke10c5c5)
+
+this is a meaty post [here](https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-and-postgresql-db-masuu56t7)
+
+## Key links
+
+https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize#toc-sequelize-setup
+
+https://bezkoder.com/node-js-jwt-authentication-postgresql/
+
+https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-and-postgresql-db-masuu56t7
+
+this adds content to the node + express + postgres + sequelize [here](https://bezkoder.com/node-express-sequelize-postgresql/) w/ associated github repo [here](https://github.com/bezkoder/node-express-sequelize-postgresql)
+
+follow this first!  
+and see if you can make it appropriate for sensors ...
+
+and maybe if you can do a front end for it ...
+looks like they do have a front end in React example at the end [here](https://bezkoder.com/react-node-express-postgresql/) -- w/ associated github repo [here](https://github.com/bezkoder/react-crud-web-api)
+
+NOTE: have changed default port to something other than 8080, should go back to that ...
+
+so, plan of attack:
+1. return to that [.bio tutorial](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372) on sensors, and see how they set up the tables.  use that as an inspiration for how to create the postgresql table structure. 
+2. figure out best next thing to implement above; 'todo' or 'tutorials' examples; with or without jwt
+3. add jwt + users using the other tutorial.
+
+postgres tutorial [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+```
+sudo -i -u postgres
+```
+
+psql
+
+\q
+
+---
+2020-12-16 21:08:14
+
+next steps:
+- try to 'sequelize' the .bio example above, in order to understand how sequelize works ...
+- send sensor data to it
+- build it out like the 'tutorials' codebase that was associated with a react frontend
+- find a way to add JWT
+
+latest running code experimented with was [here](node-js-jwt-authentication-postgresql).
+
+going to experiment with the '.bio' code asap.
 
 
 

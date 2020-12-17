@@ -632,4 +632,26 @@ Code is [here](https://github.com/edgecollective/vale-gateway/tree/main/rev_c/he
 
 ![](/img/valedalama/remote_2.png)
 
+---
+2020-12-17 09:45:17
+
+looks like the p2p2-farm server code requires that hop>=1 in 'get-drives-data.js'
+
+this is now in 'fixhop' branch
+
+remote code sleeps at 0.15 mA
+
+latest remote node code is [here](https://github.com/edgecollective/vale-gateway/tree/main/rev_c/remote_node/featherm0_am2315_lora_watchdog_sleep_countup) -- sleeps at 0.15mA, uses watchdog timer.  
+
+latest gateway code is [here](https://github.com/edgecollective/vale-gateway/tree/main/rev_c/heltec_wifi_lora_bayou_farmos).  
+
+next steps:
+- generate binary file for heltec using local wifi, test.
+- generate binary file for heltec using vale wifi. load remotely.
+- generate binary file for feather.  load remotely.
+
+first: testing that code works at 10 min interval.
+
+command to load onto feather was: ./bossac -p /dev/ttyACM0 -e -w -v -R ./remote_watch_sleep_10min.ino.bin 
+
 
