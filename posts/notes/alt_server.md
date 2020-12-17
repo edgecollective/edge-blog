@@ -502,6 +502,39 @@ latest running code experimented with was [here](node-js-jwt-authentication-post
 
 going to experiment with the '.bio' code asap.
 
+[.bio tutorial](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
 
+creating new tables
 
+CREATE TABLE users (
+   user_id SERIAL PRIMARY KEY,
+   username VARCHAR(50),
+   password VARCHAR(255),
+   is_admin BOOLEAN DEFAULT FALSE
+);
 
+CREATE TABLE measurements(
+    id SERIAL PRIMARY KEY,
+    feed_id INT,
+    celcius FLOAT,
+    humidity FLOAT,
+    created TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feed
+        FOREIGN KEY(feed_id)
+            REFERENCES feeds(feed_id)
+);
+
+CREATE TABLE measurements(
+    id SERIAL PRIMARY KEY,
+    feed_id INT,
+    celcius FLOAT,
+    humidity FLOAT,
+    created TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feed
+        FOREIGN KEY(feed_id)
+            REFERENCES feeds(feed_id)
+);
+
+INSERT INTO users (username, password) VALUES ('bob', 'jones');
+
+INSERT INTO feeds (name) values ('NodeMCU  ESP32');

@@ -32,3 +32,9 @@ So, **NEXT STEPS** (as of 2020-12-17 08:32:54):
 5. Test this data flow for a few days with the remote node and gateway plugged into the RAK, so that any hiccups can be more easily fixed.
 6. Once the system is stable, bring the remote node out to the greenhouse to install.
 
+---
+## Update 2020-12-17 17:43:13
+
+Accomplished above, items 1-5. Remote node and gateway are connected to RAK, and remote node is posting data to this feed [here](http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080cadbfda6b468a9505835a82aadd5762c).
+
+
