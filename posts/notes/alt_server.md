@@ -513,15 +513,11 @@ CREATE TABLE users (
    is_admin BOOLEAN DEFAULT FALSE
 );
 
-CREATE TABLE measurements(
-    id SERIAL PRIMARY KEY,
-    feed_id INT,
-    celcius FLOAT,
-    humidity FLOAT,
-    created TIMESTAMP DEFAULT NOW(),
-    CONSTRAINT feed
-        FOREIGN KEY(feed_id)
-            REFERENCES feeds(feed_id)
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    private_key VARCHAR(255)
 );
 
 CREATE TABLE measurements(
@@ -538,3 +534,28 @@ CREATE TABLE measurements(
 INSERT INTO users (username, password) VALUES ('bob', 'jones');
 
 INSERT INTO feeds (name) values ('NodeMCU  ESP32');
+
+checking string status [here](https://stackoverflow.com/questions/60117067/javascript-regex-how-to-check-if-a-string-only-contains-letters-numbers-dash)
+
+---
+2020-12-17 20:03:39
+
+newfeed branch is [here](https://github.com/edgecollective/habitat/pull/new/newfeed)
+
+going to try for csv next using tutorial [here](https://dev.to/frankanka/get-a-csv-download-out-of-postgresql-or-lowdb-database-on-node-js-45k2)
+
+another tutorial on exporting csv w/ node and express [here](https://kb.objectrocket.com/postgresql/postgresql-export-csv-with-node-959)
+
+nice bezcoder tutorial [here](https://bezkoder.com/node-js-export-postgresql-csv-file/)
+
+---
+2020-12-17 22:09:41
+
+'heltec' is the latest branch.  accepts data from a heltec; includes firmware.
+
+![](/img/alt_server/feed_data.png)
+
+Server code is [here](https://github.com/edgecollective/habitat/tree/heltec); firmware is in 'firmware' directory.
+
+
+
