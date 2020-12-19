@@ -2090,7 +2090,9 @@ Look to see if it's also used for the Feather ESP32 -- and what its specs are --
 Q: 
 - what LDO is used on the Feather ESP32?
 - what are the current req's for this board?
-- footprint to use for AP2112K?  (SOT-25 assumed)
+- footprint to use for AP2112K?  (SOT-23-5 assumed)
+
+## LDO
 
 AP2112K-3.3 on [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746) and associated [datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
 
@@ -2098,7 +2100,91 @@ Looks like it can provide 600 mA.
 
 max input 6V
 
-Assume SOT-25 package on Adafruit 
+Assume SOT-23-5 package on Adafruit 
+
+![](/img/co2/feather_m0_power.png)
+
+
+## Battery charger
+
+Also add MCP73831.
+
+Feather M0 MCP7831:
+
+![](/img/co2/feather_m0_mcp7831.png)
+
+## FTDI
+
+Do FTDI board separately? yes b/c DTR might be needed 
+
+## Reset and GPIO0
+
+TODO: Need also to break out the reset and other button, in case ftdi cable someone uses doesn't expose dtr ...
+
+Buttons -- use SW_Push symbol ... with which SMT buttons? use adafruits?
+
+these are the KMR2 buttons from the Feather and etc.  datasheet is [here](https://www.ckswitches.com/media/1479/kmr2.pdf)
+
+look to see how adafruit did it with the huzzah board 
+
+![](/img/co2/huzzah_breakout.png)
+
+Ah, there we go -- GPIO0 is floating:
+
+![](/img/co2/huzzah_pin_schem.png)
+
+
+## Calibrate / other buttons
+
+TODO: add the side-mounted through-hole buttons that ordered on Amazon, and that were present on REV_E
+
+![](/img/co2/buttons_rev_e.png)
+
+## JST connectors
+
+Add connectors for micro and reg lithium ion?  Might be nice for folks used the world of feathers.
+
+Using standard Adafruit one (2-pin JST PH)
+
+as well as a micro one -- JST SH -- SM02B-SRSS-TB(LF)(SN) -- digikey link [here](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM02B-SRSS-TB-LF-SN/926708)
+
+![](/img/co2/jst_sh_2_horizontal.png)
+
+## microUSB
+
+this would simplify things. 
+
+Q: Possible to solder? Look at Feather ESP32 schematic / footprint. 
+
+Maybe this is a separate project -- make an ftdi header board.
+
+## Filtering / decoupling
+
+TODO Need to add caps from all relevant sub-circuits:
+- subcircuit (reference schem)
+- ESP32 (feather esp2)
+- RFM95 (feather M0)
+- MCP7381 (feather M0)
+- BMP388 (adafruit BMP388 breakout)
+- power (feather esp32 / m0)
+
+Possible to add footprint for USB chip *and* allow FTDI?
+
+Adafruit Feather ESP32 eagle files [on github](https://github.com/adafruit/Adafruit-HUZZAH32-ESP32-Feather-PCB)
+
+Feather ESP32 schematic:
+
+![](/img/co2/huzzah32_feather_schem.png)
+
+CP2104 subcircuit:
+
+![](/img/co2/cp2104_schem.png)
+
+
+
+
+
+
 
 
 
