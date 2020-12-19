@@ -2117,6 +2117,8 @@ Feather M0 MCP7831:
 
 Do FTDI board separately? yes b/c DTR might be needed 
 
+![](/img/co2/ftdi_plus.png)
+
 ## Reset and GPIO0
 
 TODO: Need also to break out the reset and other button, in case ftdi cable someone uses doesn't expose dtr ...
@@ -2157,6 +2159,9 @@ this would simplify things.
 Q: Possible to solder? Look at Feather ESP32 schematic / footprint. 
 
 Maybe this is a separate project -- make an ftdi header board.
+
+Need to decide on nice microUSB footprint. SMT would be nice, and fine for this context -- don't need through-hole. feather esp32 part should be fine. see if you can source them on digikey (or which smt parts are easy to source).
+
 
 ## Filtering / decoupling
 
