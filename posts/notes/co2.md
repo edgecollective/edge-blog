@@ -2019,7 +2019,26 @@ Zipped Gerber files for REV_E are [here](https://github.com/edgecollective/co2-r
 - Things Network demo code (using RPi) w/ Heltec
 - Feather board setup -- enable Things Network by connection i01
 
+---
+2020-12-19 08:07:40
 
+## Enclosures
+
+![](/img/co2/lemotech_a.png)
+
+![](/img/co2/lemotech_b.png)
+
+![](/img/co2/lemotech_c.png)
+
+---
+
+## Qwiic
+
+JST SH 4 pin micro -- vertical, [here](https://www.amazon.com/Micro-4-Pin-Connector-100mm-Female/dp/B01L5PSHDA/ref=sr_1_12?crid=J2RDX2QAWXZY&dchild=1&keywords=jst-sh+1.0mm&qid=1608386735&sprefix=jst-sh%2Caps%2C371&sr=8-12)
+
+horizontal (as placed on rev_e) [here](https://www.adafruit.com/product/4208)
+
+or as listed on sparkfun (horizontal) [here](https://www.sparkfun.com/products/14417)
 
 
 

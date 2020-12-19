@@ -557,5 +557,63 @@ nice bezcoder tutorial [here](https://bezkoder.com/node-js-export-postgresql-csv
 
 Server code is [here](https://github.com/edgecollective/habitat/tree/heltec); firmware is in 'firmware' directory.
 
+---
+2020-12-18 16:23:00
 
+
+ah, interesting code snippet:
+
+// https://github.com/auth0/express-jwt
+// Secure "protected" endpoints with JWT middleware
+app.use('/protected', jwtMiddleware({
+  secret: SECRET_TOKEN, // Use the same token that we used to sign the JWT above
+  // Let's allow our clients to provide the token in a variety of ways
+  getToken: function (req) {
+    if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') { // Authorization: Bearer g1jipjgi1ifjioj
+      // Handle token presented as a Bearer token in the Authorization header
+      return req.headers.authorization.split(' ')[1];
+    } else if (req.query && req.query.token) {
+      // Handle token presented as URI param
+      return req.query.token;
+    } else if (req.cookies && req.cookies.token) {
+      // Handle token presented as a cookie parameter
+      return req.cookies.token;
+    }
+    // If we return null, we couldn't find a token.
+    // In this case, the JWT middleware will return a 401 (unauthorized) to the client for this request
+    return null; 
+  }
+}));
+
+// A simple protected route for demo purposes
+app.get('/protected/data', function (req, res) {
+  console.log(req.user); // => { _id: <S
+
+----
+2020-12-18 16:26:03
+
+[Secure Rest api in nodejs](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
+
+[using OAuth](https://stormpath.com/blog/express-sample-api-key-management)
+
+
+[node api key](https://github.com/arkerone/api-key-auth#readme)
+
+api keys [here](https://dev.to/nagarjun/best-practices-to-generate-and-store-api-keys-using-nodejs-534d)
+
+nice tutorial on development of the stack [here](https://www.robinwieruch.de/node-express-server-rest-api)
+
+very nice tutorial on postgres + express dev [here](https://www.robinwieruch.de/postgres-express-setup-tutorial/)
+
+basic passport api key [here](http://www.passportjs.org/packages/passport-headerapikey/)
+
+passport and nestjs integration [here](https://medium.com/@Dee_Mayoor/apikey-authentication-for-nestjs-using-passport-js-6db467fc31f7)
+
+this looks like a good strategy [here](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/)
+
+nice strategy for token authentication and whatnot [here](https://gist.github.com/laurenfazah/f9343ae8577999d301334fc68179b485)
+
+--
+
+bezcode node + postgresql + express + react [here](https://bezkoder.com/node-js-jwt-authentication-postgresql/)
 
