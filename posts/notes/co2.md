@@ -2087,7 +2087,18 @@ Adafruit uses AP2112K-3.3 for the BMP390 breakout (more recent breakout). This a
 
 Look to see if it's also used for the Feather ESP32 -- and what its specs are -- if it can source sufficient current for the full CO2 board (which are ...?)
 
+Q: 
+- what LDO is used on the Feather ESP32?
+- what are the current req's for this board?
+- footprint to use for AP2112K?  (SOT-25 assumed)
 
+AP2112K-3.3 on [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746) and associated [datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
+
+Looks like it can provide 600 mA. 
+
+max input 6V
+
+Assume SOT-25 package on Adafruit 
 
 
 
