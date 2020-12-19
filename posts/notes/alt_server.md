@@ -617,3 +617,8 @@ nice strategy for token authentication and whatnot [here](https://gist.github.co
 
 bezcode node + postgresql + express + react [here](https://bezkoder.com/node-js-jwt-authentication-postgresql/)
 
+---
+2020-12-19 11:35:42
+
+inserting html form data into postgresql using nodejs [here](https://stackoverflow.com/questions/63618597/insert-html-form-data-into-heroku-postgresql-database-using-node-js)
+

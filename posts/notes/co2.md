@@ -2040,8 +2040,52 @@ horizontal (as placed on rev_e) [here](https://www.adafruit.com/product/4208)
 
 or as listed on sparkfun (horizontal) [here](https://www.sparkfun.com/products/14417)
 
+---
+2020-12-19 13:18:40
 
 
+
+## uFL connector
+
+adafruit uFL connector [here](https://www.adafruit.com/product/1661)
+
+looking at feather m0 lora pcb for uFL connector reference [here](https://github.com/adafruit/Adafruit-Feather-M0-RFM-LoRa-PCB.git)
+
+![](/img/co2/feather_m0_antenna.png)
+
+## BMP3XX
+
+BMP3XX adafruit firmware on github [here](https://github.com/adafruit/Adafruit_BMP3XX)
+
+BMP3XX adafruit hardware design files on github [here](https://github.com/adafruit/Adafruit-BMP3xx-PCB)
+
+## BMP390
+
+BMP390 datasheet [here](/img/co2/bst-bmp390-fl000.pdf)
+
+Adafruit BMP390 schematic:
+
+![](/img/co2/sensors_BMP390_sch.png)
+
+## BMP388
+
+BMP388 datasheet [here](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP388-DS001.pdf)
+
+Adafruit BMP388 schematic:
+
+![](/img/co2/sensors_BMP388_Sch.png)
+
+Question: do we need to add a power supply to board? Seems to be a common way of keeping the power supply clean for the pressure sensor chip.
+
+Reference: [here](https://community.bosch-sensortec.com/t5/MEMS-sensors-forum/BMP388-PCBs/td-p/16815)
+
+![](/img/co2/bmp388_regulator.png)
+
+Looks like we should add a regulator. Default to using the Adafruit part, change if something else seems better. 
+
+Adafruit uses AP2112K-3.3 for the BMP390 breakout (more recent breakout). This also seems to be used for the feather.
+
+Look to see if it's also used for the Feather ESP32 -- and what its specs are -- if it can source sufficient current for the full CO2 board (which are ...?)
 
 
 
