@@ -255,3 +255,6 @@ Photo of latest version in action here:
 
 ![](/img/mothbot/mothbot_am2315.jpg)
 
+## Web USB
+
+Nice description [here](https://learn.adafruit.com/using-webusb-with-arduino-and-tinyusb)

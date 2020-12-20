@@ -2162,6 +2162,29 @@ Maybe this is a separate project -- make an ftdi header board.
 
 Need to decide on nice microUSB footprint. SMT would be nice, and fine for this context -- don't need through-hole. feather esp32 part should be fine. see if you can source them on digikey (or which smt parts are easy to source).
 
+Adafruit microUSB part is the 4UConn 20329 v2, datasheet [here](https://cdn-shop.adafruit.com/datasheets/1833_MicroB_20329.pdf)
+
+Link to Adafruit microUSB part [here](https://www.adafruit.com/product/4023?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IKvJSYo8HQ0puhsz5kJ9BQRWiMQ9BnAQePovzEpwGElwPXCAUFrhMaAl0VEALw_wcB)
+
+MicroUSB B with KiCad footprints:
+
+- 105017-0001 on digikey [here](https://www.digikey.com/en/products/detail/molex/1050170001/2350832)
+
+the microUSB device used on the riffle is [here](https://www.digikey.com/en/products/detail/10104111-0001LF/609-4053-1-ND/2350359); datasheet is [here](https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf?__cf_chl_jschl_tk__=c05332b2f0e5b1a38d92708593c5ac3845744461-1608419698-0-ASmLq4QwyzKwGjwO6fdYVigeQ4gjdIX1gZ19ZX1NFBYK5yl0GJQcm1GwAE49yV3B46VJCLx2ZmTwBpWX84x49qPez9a0y5TxePaTPoF9bSIll5gLVEm1KTxXQ3kqQACaxgFW2nphPpOQcES3grOkdJYnxamcMMU7Lt-avOTf-no-QN4kinudAT-iKUxfIYQ40YgmVqNmlEo8KvScG_EaRo2kvadOApWRskv2XRxP_u5PhOz91YzkSa5flpq-PdCqmW0xeskIesEpQssduR1RFk26INRnvE5A39wt3CdFUvG4DYYrYAY-69sdn2puRzdnh346jUmxsGoCcGEnsaRzKZRVBgwYtBTPF2FJtC_ZlKW1cwqEgAPH0W-lPe0l4bZuKawRx4_ZO_QGBgK0SfsjGnnhmZOEOtS47U_3VH-CF6USoGkij080JGCsPQMSHCbWGiA0jl5NNzziUgrNat0vrnE)
+
+![](/img/co2/amphenol_diffs.png)
+
+above left: 10104110; above right: 10104111
+
+some optoins for footprints in kicad:
+- Molex 105017-0001 -- [digikey](https://www.digikey.com/en/products/detail/molex/1050170001/2350885); [datasheet](https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
+- Molex 105133-0001
+- Molex 105133-0031
+- Molex 47346-0001
+
+A recommended Amphenol part is [here](https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118194-0001LF/2785389)
+
+
 
 ## Filtering / decoupling
 
@@ -2184,6 +2207,34 @@ Feather ESP32 schematic:
 CP2104 subcircuit:
 
 ![](/img/co2/cp2104_schem.png)
+
+
+## microSD
+
+the microSD card used on the Riffle 0.1.8 is [here](https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515)
+
+---
+2020-12-19 19:00:53
+
+TODO: double check pin order on JST connectors ... 
+
+![](/img/co2/jst_pin_order.png)
+
+DMG3415U p-mosfet used in power circuit for Feather ESP32 [here](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768); [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DMG3415U.pdf); SOT23; 
+
+![](/img/co2/dmg3415u_data.png)
+
+to check orientation / pin assign for the pmos as part of the power circuit, here's what we see on the feather esp32:
+
+![](/img/co2/q3_feather_pmos.png)
+
+![](/img/co2/heltec_wifi_lora_v2_pintout.png)
+
+Diode -- MBR120 -- SOD-123FL -- [datasheet](https://www.digikey.com/en/products/detail/on-semiconductor/MBR120VLSFT1G/893861)
+
+Note: used KiCAD 123F rather than 123FL
+
+now I have all of them avail.  seems like sod 123FL is the most pop part on digikey.  but 123 and 123FL are avail. see [here](https://www.digikey.com/en/products/base-product/on-semiconductor/488/MBR120/31292)
 
 
 
