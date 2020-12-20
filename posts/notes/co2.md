@@ -2253,6 +2253,70 @@ TODO:
 
 ![](/img/co2/rev_d_3drender_dec_19.png)
 
+![](/img/co2/board_rev_d_process.png)
+
+
+if add a smt mic, add a switch
+otherwise: maybe just make it an optional DIP add-on ...
+
+---
+2020-12-20 08:21:38
+
+rather than replicate the mosfet on the power supply, maybe just have one at the intake?
+
+alright -- emulate feather 32 instead of heltec. we know that the circuit works, and it's the same esp32 module, with same pins avail.  
+
+iterate to fancier version of batt meas circuit.
+
+check against tinypico for power circuit
+
+nice reference for esp32 pinouts and which pins to use [here](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+
+default spi pins on esp32 for lora [here](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
+
+![](/img/co2/esp32_lora_random_nerd.png)
+
+Hog 32 schematic:
+
+![](/img/co2/hog32_schem.png)
+
+using the arduino ide + esp32 + sd card [here](http://www.iotsharing.com/2017/05/how-to-use-arduino-esp32-to-store-data-to-sdcard.html)
+
+update: heltec uses gpio5 for lora sck; feather esp32 uses gpio5 for sck; so that's fine. 
+default to using feather esp32 pinouts.
+
+pins 34,35,36,39 are input only.  use these on buttons.
+
+ref for using sd card featherwing with feather esp32 [here](https://learn.adafruit.com/adafruit-adalogger-featherwing/using-the-sd-card) -- cs is on gpio33
+
+## BMP388 wiring / connections
+
+nice reference [here](https://learn.adafruit.com/adafruit-bmp388-bmp390-bmp3xx/arduino)
+
+## Qwiic pin arrangement
+
+![](/img/co2/qwiic_arrangement.png)
+
+## Adalogger featherwing pin arrangement
+
+(mimic in rev_d)
+
+![](/img/co2/adalogger_featherwing.png)
+
+## Advice regarding microusb ground
+
+Reference [here](https://electronics.stackexchange.com/questions/4515/how-to-connect-usb-connector-shield)
+
+## SOD123 oddness?
+
+TODO: Look into changing footprint ...
+
+
+
+
+
+
+
 
 
 
