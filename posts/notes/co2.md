@@ -2245,6 +2245,14 @@ note: need to review and see if there are any remaining changes.
 
 might try to place a microSD on the board and guess at a CS pin; but also break out SPI + optional CS pins. If SPI conflict, might be able to start by only doing LoRa (SPI) OR microSD (SPI) on bus in any given firmware.
 
+TODO: 
+- look into adding a mic, or a header for one
+- add extension header
+- add qwiic connector
+- re-measure and redo the oled & scd30 outlines, to ensure enough space
+
+![](/img/co2/rev_d_3drender_dec_19.png)
+
 
 
 
