@@ -2236,6 +2236,15 @@ Note: used KiCAD 123F rather than 123FL
 
 now I have all of them avail.  seems like sod 123FL is the most pop part on digikey.  but 123 and 123FL are avail. see [here](https://www.digikey.com/en/products/base-product/on-semiconductor/488/MBR120/31292)
 
+---
+2020-12-19 20:37:04
+
+latest updates to board design ("REV_D") are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_d/atkins)
+
+note: need to review and see if there are any remaining changes.
+
+might try to place a microSD on the board and guess at a CS pin; but also break out SPI + optional CS pins. If SPI conflict, might be able to start by only doing LoRa (SPI) OR microSD (SPI) on bus in any given firmware.
+
 
 
 
