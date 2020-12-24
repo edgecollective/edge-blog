@@ -2348,7 +2348,7 @@ Test of the co2 board "rev_e"!
 
 Used firmware [here]()
 
-http://159.65.226.222:3000/drives/493074c83fde57d306e13d972739d8b4d2c7d1d7506835264b1e196f979a87ec
+bayou data feed is [here](http://159.65.226.222:3000/drives/493074c83fde57d306e13d972739d8b4d2c7d1d7506835264b1e196f979a87ec)
 
 ![](/img/co2/rev_e_test_bayou.png)
 
