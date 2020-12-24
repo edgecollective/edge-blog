@@ -661,5 +661,12 @@ bayou feed is located [here](http://159.65.226.222:3000/drives/b02f7797b045956e7
 
 ![](/img/valedalama/greenhouse_v_0.2.png)
 
+---
+2020-12-23 08:17:40
+
+Test of the battery level over a few days ...
+
+![](/img/valedalama/sunny_days.png)
+
 
 

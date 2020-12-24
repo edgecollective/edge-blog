@@ -2311,9 +2311,46 @@ Reference [here](https://electronics.stackexchange.com/questions/4515/how-to-con
 
 TODO: Look into changing footprint ...
 
+## Pad sizes
 
+![](/img/co2/pin_sizes.png)
 
+---
+2020-12-22 09:41:59
 
+for low power tests -- look up tinypico schematic
+
+schematic [here](https://cromwell-intl.com/open-source/raspberry-pi/sdr-getting-started.html)
+
+and in our own repo [here](/img/co2/TinyPICO_Schematic.pdf)
+
+key part is the power subcircuit:
+
+![](/img/co2/tinypico_power.png)
+
+This is the regulator they are using on the board [here](https://www.digikey.com/en/products/detail/on-semiconductor/NCP167BMX330TBG/9169761)
+
+and this is the mosfet [here](https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LP0404N3T5G_C172433.pdf)
+
+analysis: looks like we've got essentially an identical circuit; they make a different choice of mosfet, but we can probably dial that in easily ....
+
+---
+2020-12-22 10:00:06
+
+battery voltage meas reference on jeenode [here](https://jeelabs.org/2013/05/16/measuring-the-battery-without-draining-it/index.html)
+
+TODO: check reset subcircuit -- match feather 
+
+---
+2020-12-24 05:04:43
+
+Test of the co2 board "rev_e"!
+
+Used firmware [here]()
+
+http://159.65.226.222:3000/drives/493074c83fde57d306e13d972739d8b4d2c7d1d7506835264b1e196f979a87ec
+
+![](/img/co2/rev_e_test_bayou.png)
 
 
 
