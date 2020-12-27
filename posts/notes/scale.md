@@ -43,4 +43,12 @@ initial working github code is [here](https://github.com/edgecollective/esp32-sc
 
 updated code is [here](https://github.com/edgecollective/esp32-scale/tree/main/firmware/esp32_scale_solo)
 
+replacing a div content [here](https://stackoverflow.com/questions/121817/how-do-i-replace-text-inside-a-div-element)
+
+an updated version of the above tutorial [here](https://arduinodiy.wordpress.com/2019/08/05/esp8266-plot-sensor-readings-in-real-time-charts-on-a-web-server/)
+
+---
+2020-12-24 06:30:41
+
+dashboard for esp32 [here](https://github.com/ayushsharma82/ESP-DASH)
 

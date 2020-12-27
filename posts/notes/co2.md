@@ -2352,6 +2352,26 @@ bayou data feed is [here](http://159.65.226.222:3000/drives/493074c83fde57d306e1
 
 ![](/img/co2/rev_e_test_bayou.png)
 
+---
+2020-12-27 08:57:35
+
+Enclosure arriving today linked to on Amazon [here](https://www.amazon.com/gp/product/B07G58SLB1)
+
+![](/img/co2/small_enclose.png)
+
+example enclosure from pac-tec [here](https://www.pactecenclosures.com/product-detail.php?productid=165&seriesid=73&classid=28)
+
+free samples [here](https://www.pactecenclosures.com/free-samples.php)
+
+the OD43 looks good [here](https://www.pactecenclosures.com/product-detail.php?classid=36&seriesid=39&productid=202); drawing [here](https://www.pactecenclosures.com/pdfs/drw_OD43.pdf)
+
+![](/img/co2/rev_e_built.png)
+
+![](/img/co2/rev_e_soldered.png)
+
+![](/img/co2/rev_e_collection.png)
+
+
 
 
 

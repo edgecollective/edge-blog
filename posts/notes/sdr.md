@@ -18,5 +18,16 @@ blurb: Experiments in software defined radio.
 
 [Radio hacking -- cars, hardware, more -- based on RTL2832](Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016)
 
+2020-12-24 06:39:49
 
+practical tips and tricks w/ the radio [here](https://gqrx.dk/doc/practical-tricks-and-tips)
+
+radio faxes [here](https://www.weather.gov/marine/marshlatest)
+
+![](/img/radio/PLAZ01.tiff)
+
+
+national weatherfax service [here](https://www.weather.gov/marine/radiofax_charts)
+
+weatherfax [here](https://www.weather.gov/marine/marsh)
 
