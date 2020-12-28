@@ -2408,6 +2408,11 @@ Description of process of making an enclosure for Rev_E:
 
 The associated scad file for this video is [ver1c.scad](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c.scad)
 
+Separately rendered cover and bottom are here:
+- [ver1c_cover.stl](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_cover.stl)
+- [ver1c_bottom.stl](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_bottom.stl)
+
+
 
 
 
