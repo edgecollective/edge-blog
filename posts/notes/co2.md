@@ -25,6 +25,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Initial Microphone Experiment Nov 28](#mic_experiment)
 - [Comparing two SCD30 sensors](#compare_scd30)
 - [Heltec Wifi Lora 32 v 2 -- Schematic and Pinouts](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125)
+- [Making an OpenSCAD enclosure for Rev E](#openscad)
 
 --- 
 2020 SEPT 29
@@ -2370,6 +2371,43 @@ the OD43 looks good [here](https://www.pactecenclosures.com/product-detail.php?c
 ![](/img/co2/rev_e_soldered.png)
 
 ![](/img/co2/rev_e_collection.png)
+
+---
+2020-12-27 15:55:50
+
+Update:  small enclsoure arrived.  The shape is a bit awkward, and it was anyway broken.  If going with plastic enclosure, might be better to find another / a specific manufacturer.
+
+Rev_f was an attempt to re-spin rev_e in order to fit inside 
+New idea:  3d print a nice enclosure, and then also design a cardboard one.  Run them side-by-side for a few days to see any differences.  Humidity might be a factor; but can line inside with tape, and humidity is supposedly compensated for.  
+
+---
+2020-12-27 20:24:24
+
+openscad ...
+
+designing a [box](https://www.instructables.com/Creating-a-custom-sized-box-for-3D-printing-with-O/) with openscad
+
+3d printed enclosures with openscad [here](https://scholarslab.lib.virginia.edu/blog/3d-printed-enclosures-with-openscad/)
+
+---
+2020-12-28 07:28:38
+
+Test of REV_E system starting [here](http://159.65.226.222:3000/drives/f447b1c81ee96c7c0783fc4a7c1ac379cebe92bef8459803f89665f76b023465)
+
+nice info on openscad shapes / language [here](
+https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD   _Language#cube)
+
+---
+2020-12-28 11:52:02
+
+## <a name="openscad"></a> Making an enclosure for Rev_E using OpenSCAD
+
+Description of process of making an enclosure for Rev_E:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kqvc1j8dmJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The associated scad file for this video is [ver1c.scad](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c.scad)
+
 
 
 
