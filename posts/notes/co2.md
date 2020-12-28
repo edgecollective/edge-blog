@@ -2394,15 +2394,25 @@ designing a [box](https://www.instructables.com/Creating-a-custom-sized-box-for-
 
 Test of REV_E system starting [here](http://159.65.226.222:3000/drives/f447b1c81ee96c7c0783fc4a7c1ac379cebe92bef8459803f89665f76b023465)
 
-nice info on openscad shapes / language [here](
-https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD   _Language#cube)
+UPDATE: Looks like it never really went above initial baseline (which started around 8:10 AM on below graph):
+
+![](/img/co2/co2_10_conant.png)
+
+
+Aside: nice info on openscad shapes / language [here](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language#cube)
 
 ---
 2020-12-28 11:52:02
 
 ## <a name="openscad"></a> Making an enclosure for Rev_E using OpenSCAD
 
-Description of process of making an enclosure for Rev_E:
+Description of process of making an enclosure for Rev_E ([kicad board files for RevE](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins)):
+
+
+| [ ![figB](/img/co2/rev_e_measurements.png)](/img/co2/rev_e_measurements.png)|
+|:--:|
+| Dimensions for PVOS CO2 Rev_E (KiCAD board files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins). |
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kqvc1j8dmJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
