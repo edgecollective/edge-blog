@@ -2406,18 +2406,33 @@ Aside: nice info on openscad shapes / language [here](https://en.wikibooks.org/w
 
 ## <a name="openscad"></a> Making an enclosure for Rev_E using OpenSCAD
 
-Description of process of making an enclosure for Rev_E ([kicad board files for RevE](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins)):
-
-
-| [ ![figB](/img/co2/rev_e_measurements.png)](/img/co2/rev_e_measurements.png)|
-|:--:|
-| Dimensions for PVOS CO2 Rev_E (KiCAD board files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins). |
+Description of process of making an enclosure for Rev_E ([kicad board files for RevE](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins)) in the below video:
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kqvc1j8dmJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The associated scad file for this video is:
 - [ver1c.scad](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c.scad)
+
+Some additional files / information:
+
+| [ ![figB](/img/co2/rev_e_measurements.png)](/img/co2/rev_e_measurements.png)|
+|:--:|
+| Dimensions for PVOS CO2 Rev_E (KiCAD board files are [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/lay3/rev_e/atkins). |
+
+
+| [ ![figB](/img/co2/ver1c_render.png)](/img/co2/ver1c_render.png)|
+|:--:|
+| OpenSCAD rendering of an enclosure protype. Scad file is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c.scad). |
+
+| [ ![figB](/img/co2/ver1c_cover.png)](/img/co2/ver1c_cover.png)|
+|:--:|
+| STL file for cover is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_cover.stl). |
+
+| [ ![figB](/img/co2/ver1c_bottom.png)](/img/co2/ver1c_bottom.png)|
+|:--:|
+| STL file for bottom is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_bottom.stl). |
+
 
 Separately rendered cover and bottom are here:
 - [ver1c_cover.stl](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_cover.stl)
