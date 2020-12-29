@@ -2449,6 +2449,16 @@ Latest branch is "ver1d_holes", and the associated scad file is [here](https://g
 |:--:|
 | Latest version ("ver1d") of [OpenSCAD enclosure](https://github.com/edgecollective/co2-remote-and-gateway/blob/ver1d_holes/rev_e/enclosure/ver1d.scad). |
 
+---
+2020-12-28 20:34:24
+
+Meanwhile, working on box enclosure:
+
+| [ ![figB](/img/co2/box_enclosure.png)](/img/co2/box_enclosure.png)|
+|:--:|
+| Latest version 'box enclosure template' for REV_E. |
+
+
 
 
 
