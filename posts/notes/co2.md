@@ -2438,6 +2438,19 @@ Separately rendered cover and bottom are here:
 - [ver1c_cover.stl](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_cover.stl)
 - [ver1c_bottom.stl](https://github.com/edgecollective/co2-remote-and-gateway/blob/lay3/rev_e/enclosure/ver1c_bottom.stl)
 
+---
+2020-12-28 19:52:34
+
+Craig has now revamped the scad file considerably, allowing everything to be measured in 'pcb coordinates' much more readily.
+
+Latest branch is "ver1d_holes", and the associated scad file is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/ver1d_holes/rev_e/enclosure/ver1d.scad).
+
+| [ ![figB](/img/co2/pcb_place_holes.png)](/img/co2/pcb_place_holes.png)|
+|:--:|
+| Latest version ("ver1d") of [OpenSCAD enclosure](https://github.com/edgecollective/co2-remote-and-gateway/blob/ver1d_holes/rev_e/enclosure/ver1d.scad). |
+
+
+
 
 
 
