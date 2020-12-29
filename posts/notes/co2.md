@@ -2456,12 +2456,39 @@ Meanwhile, working on box enclosure:
 
 | [ ![figB](/img/co2/box_enclosure.png)](/img/co2/box_enclosure.png)|
 |:--:|
-| Latest version 'box enclosure template' for REV_E. |
+| Latest version 'box enclosure template' for REV_E. Scad file is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/ver1d_holes/rev_e/cardboard/ver1.scad)|
+
+---
+2020-12-29 10:59:16
+
+![](/img/co2/box_enclosure_printable.png)
+
+![](/img/co2/scad_reworked.png)
+
+---
+2020-12-29 13:53:04
+
+latest file with holes for screen, mic, buttons is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/ver1d_holes/rev_e/cardboard/ver1.scad) -- still need to add USB and lora holes
+
+![](/img/co2/screen_hole_cardboard.png)
+
+maybe should make cover a bit narrower to accomodate the bend ends ?
+
+---
+2020-12-29 16:59:44
+
+![](/img/co2/with_holes.png)
+
+## Cardboard update
+
+File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/cardboard/rev_e/cardboard/ver1.scad).
 
 
-
-
-
+![](/img/co2/b1.png)
+![](/img/co2/b2.png)
+![](/img/co2/b3.png)
+![](/img/co2/b4.png)
+![](/img/co2/b5.png)
 
 
 
