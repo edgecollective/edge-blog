@@ -2493,6 +2493,10 @@ File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/car
 
 ## REV_E 3D printed enclsoure update
 
+File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/master/rev_e/enclosure/ver1d.scad).
+
+![](/img/co2/3d_enclosure_render.png)
+
 
 
 
