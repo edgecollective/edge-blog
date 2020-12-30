@@ -2479,9 +2479,10 @@ maybe should make cover a bit narrower to accomodate the bend ends ?
 
 ![](/img/co2/with_holes.png)
 
-## Cardboard update
+## REV_E Cardboard enclosure update
+2020-12-29 20:13:52
 
-File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/cardboard/rev_e/cardboard/ver1.scad).
+File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/cardboard/rev_e/cardboard/ver1.scad) (note that it's in the 'cardboard' branch)
 
 
 ![](/img/co2/b1.png)
@@ -2489,6 +2490,8 @@ File is [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/car
 ![](/img/co2/b3.png)
 ![](/img/co2/b4.png)
 ![](/img/co2/b5.png)
+
+## REV_E 3D printed enclsoure update
 
 
 
