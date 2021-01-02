@@ -2608,6 +2608,17 @@ It displays the AP to visit, then once connected, displays the IP.
 
 Need to collect custom paramters ...
 
+---
+2021-01-02 10:45:37
+
+autocnnect wifi connect sending to bayou -- sort of an mvp -- [https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30](https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30)
+
+---
+2021-01-02 11:16:49
+
+basic landing page functionality here: [https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page](https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page)
+
+
 
 
 
