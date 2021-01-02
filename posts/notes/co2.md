@@ -2652,6 +2652,23 @@ For a user-config version, a nice starting point might be the code here:
 
 TODO: set the measurement interval in the config file.
 
+Some more todos:
+
+- get a nicer URL for bayou?
+- figure out how to capture Bayou parameters
+
+Initial rollout:
+- pre-flash Bayou credentials
+- aim for tweaks by Arduino folks
+- simplify the Autoconnect interface
+- SMT version soon
+
+Does the SMT need to be part of the rollout?
+
+Add an opencollective tier for:
+- hardware
+- data service
+
 
 
 
