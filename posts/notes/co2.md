@@ -2618,6 +2618,41 @@ autocnnect wifi connect sending to bayou -- sort of an mvp -- [https://github.co
 
 basic landing page functionality here: [https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page](https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page)
 
+![](/img/co2/landing_page.png)
+
+---
+2021-01-02 12:26:43
+
+Getting data form AutoConnect -- [https://hieromon.github.io/AutoConnect/achandling.html](https://hieromon.github.io/AutoConnect/achandling.html)
+
+---
+
+2021-01-02 13:40:42
+
+use of snprintf: [https://joequery.me/code/snprintf-c/](https://joequery.me/code/snprintf-c/)
+
+---
+2021-01-02 14:45:33
+
+A nice basic MVP, here: 
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page_config](https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page_config)
+
+![](/img/co2/co2_landing.png)
+
+It allows for configuring wifi. The Bayou credentials are set via 'credentials.h' (requires Arduino IDE).  There's an informative landing page.
+
+This would work for a version where the Bayou feed is flashed before the device is shipped, or by the user.
+
+For a user-config version, a nice starting point might be the code here:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page](https://github.com/edgecollective/co2-remote-and-gateway/tree/rev_e_wifi_config/rev_e/firmware/wifi_sensor/AutoConnect_Elements_display_scd30_landing_page)
+
+... where one might use the '/elements' page to capture Bayou feed credentials (and maybe set the measurement interval).
+
+TODO: set the measurement interval in the config file.
+
+
 
 
 
