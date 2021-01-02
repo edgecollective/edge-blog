@@ -668,5 +668,12 @@ Test of the battery level over a few days ...
 
 ![](/img/valedalama/sunny_days.png)
 
+---
+2021-01-01 17:48:29
 
+Battery level seems to be holding steady! 
+
+Feed [here](http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080cadbfda6b468a9505835a82aadd5762c):
+
+![](/img/valedalama/batt_jan2021.png)
 
