@@ -2678,9 +2678,11 @@ u8x8 fonts here: [https://github.com/olikraus/u8g2/wiki/fntlist8x8](https://gith
 ---
 2021-01-02 19:17:19
 
-Two button interface demo [here](https://youtu.be/w6CxT43gUV8)
+Two button interface video demo [here](https://youtu.be/w6CxT43gUV8)
 
 Code here: [https://github.com/edgecollective/co2-remote-and-gateway/tree/button/rev_e/firmware/wifi_sensor/two_buttons](https://github.com/edgecollective/co2-remote-and-gateway/tree/button/rev_e/firmware/wifi_sensor/two_buttons)
+
+NOTE: LED D1 doesn't seem to work -- perhaps value of resistor? 
 
 
 
