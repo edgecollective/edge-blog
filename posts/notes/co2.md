@@ -2654,6 +2654,7 @@ TODO: set the measurement interval in the config file.
 
 Some more todos:
 
+- BUTTON action!  A: wifi settings; B: calibration
 - get a nicer URL for bayou?
 - figure out how to capture Bayou parameters
 
@@ -2668,6 +2669,19 @@ Does the SMT need to be part of the rollout?
 Add an opencollective tier for:
 - hardware
 - data service
+
+---
+2021-01-02 18:35:56
+
+u8x8 fonts here: [https://github.com/olikraus/u8g2/wiki/fntlist8x8](https://github.com/olikraus/u8g2/wiki/fntlist8x8)
+
+---
+2021-01-02 19:17:19
+
+Two button interface demo [here](https://youtu.be/w6CxT43gUV8)
+
+Code here: [https://github.com/edgecollective/co2-remote-and-gateway/tree/button/rev_e/firmware/wifi_sensor/two_buttons](https://github.com/edgecollective/co2-remote-and-gateway/tree/button/rev_e/firmware/wifi_sensor/two_buttons)
+
 
 
 
