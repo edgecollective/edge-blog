@@ -28,7 +28,7 @@ After Dec 22nd, we can observe a slow decrease in baseline battery voltage, as t
 
 The minimum voltage at which the sensor might still function is probably around 3.5 or 3.6 Volts (perhaps as low as 3.5 V).  
 
-The discharge rate for lithium ion batteries is non-linear, so it's not straightforward to predict the rate of discharge -- it would be best to simply let the sensor run with a panel completely obscured, and see how long it lasted.  
+The discharge rate for lithium ion batteries is non-linear (see **Fig 2** below), so it's not straightforward to predict the rate of discharge -- it would be best to simply let the sensor run with a panel completely obscured, and see how long it lasted.  
 
 | [![](/img/valedalama/lion_discharge_curve.jpg)](/img/valedalama/lion_discharge_curve.jpg) |
  |:--:|
