@@ -2684,6 +2684,98 @@ Code here: [https://github.com/edgecollective/co2-remote-and-gateway/tree/button
 
 NOTE: LED D1 doesn't seem to work -- perhaps value of resistor? 
 
+---
+2021-01-02 21:01:25
+
+Idea: measure every X seconds; average these values; PUT every Y*X seconds so that the PUT interval is 5 or 10 min or more. The averaging will help smooth out the noise.  Every measurement, can blink the LED (optionally) and update the screen.  Indicate on screen when have sent data online.  
+
+Also: can embed videos & other 'heavy' material in the ESP32 landing page by pulling it from online such that it only shows up once there's an internet connection to the outside world ...
+
+---
+2021-01-03 10:54:43
+
+cap_params seems to work alright ...
+
+working on cap_params_load ...
+
+retrieving files from SPIFFS -- [https://techexplorations.com/blog/esp32/blog-esp32-how-to-retrieve-a-file-from-the-spiffs/](https://techexplorations.com/blog/esp32/blog-esp32-how-to-retrieve-a-file-from-the-spiffs/)
+
+---
+2021-01-03 11:55:47
+
+arduinojson read file -- [https://arduinojson.org/v6/example/config/](https://arduinojson.org/v6/example/config/)
+
+arduinojson read array -- [https://arduinojson.org/v6/api/jsonarray/](https://arduinojson.org/v6/api/jsonarray/)
+
+SPIFFS read and write examples [https://www.esp8266.com/viewtopic.php?f=29&t=8194](https://www.esp8266.com/viewtopic.php?f=29&t=8194)
+
+this is how i want to reference an element of the array i think [https://arduinojson.org/v6/api/jsonarray/subscript/](https://arduinojson.org/v6/api/jsonarray/subscript/)
+
+---
+2021-01-03 13:12:57
+
+Okay, this version of the code uses a file, elements.json, on the SPIFFS filesystem of the esp32 to configure things; and it can be modified by the esp32 as well.
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate)
+
+---
+2021-01-03 13:29:44
+
+Getting closer to capturing parameters data:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller)
+
+---
+2021-01-03 16:51:47
+
+params_fuller_FS is where it's at!
+
+warning regarding dynamic memory usage in micros here: [https://arduino.stackexchange.com/questions/1013/how-do-i-split-an-incoming-string](https://arduino.stackexchange.com/questions/1013/how-do-i-split-an-incoming-string)
+
+---
+2021-01-03 19:02:50
+
+This is getting really close now:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS)
+
+Need to get it to make some measurements; but basic interface seems to be in place now.
+
+---
+2021-01-04 08:52:08
+
+setting the AutConnect menu items [https://hieromon.github.io/AutoConnect/apiconfig.html#menuitems](https://hieromon.github.io/AutoConnect/apiconfig.html#menuitems)
+
+Captive portal IP address if captive doesn't work: 192.168.10.1
+
+configuration of autoconnect portal [here](https://hieromon.github.io/AutoConnect/apiconfig.html)
+
+customizing menu further [here](https://hieromon.github.io/AutoConnect/menu.html)
+
+IDEA: be able to modify 'force calibrate co2 value' from AutoConnect 
+
+[this](https://hieromon.github.io/AutoConnect/apiconfig.html#menuitems) is what I ended up using to customize the menu 
+
+resulting in [this commit for param_fuller_FS](https://github.com/edgecollective/co2-remote-and-gateway/tree/e49a35e0fe30a4b1170608f16184063047d8f5d6/rev_e/firmware/wifi_sensor/params_fuller_FS)
+
+TODO: 
+
+- combine cap_params_load code (measuring CO2) into params_fuller_FS
+- change /mqqt endpoint settings to e.g. 'data'
+- force calibration setting in autconnect
+- mic on/off in autoconnect
+- average co2 readings
+- use pressure values to compensate for co2
+
+- redesign through-hole board to match existing case on amazon
+- look at specs on amazon case
+- redesign SMT board -- with advantages (longer on battery, say, lower cost to produce)
+
+
+
+
+
+
 
 
 
