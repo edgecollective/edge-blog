@@ -30,6 +30,10 @@ The minimum voltage at which the sensor might still function is probably around 
 
 The discharge rate for lithium ion batteries is non-linear, so it's not straightforward to predict the rate of discharge -- it would be best to simply let the sensor run with a panel completely obscured, and see how long it lasted.  
 
+| [![](/img/valedalama/lion_discharge_curve.jpg)](/img/valedalama/lion_discharge_curve.jpg) |
+ |:--:|
+ | **Figure 2.** Typical Li-Ion discharge curve.  |
+
 But one could reasonably estimate, I think, that this sensor would continue to operate for at least another 10 days (likely much longer!) on minimal solar energy.  
 
 
