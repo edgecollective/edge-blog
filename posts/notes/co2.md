@@ -2771,6 +2771,183 @@ TODO:
 - look at specs on amazon case
 - redesign SMT board -- with advantages (longer on battery, say, lower cost to produce)
 
+---
+2021-01-04 13:30:08
+
+enclosure
+
+free enclosure from pac-tec: 
+
+interesting free enclosure option: 
+- page here: [https://www.pactecenclosures.com/product-detail.php?classid=36&seriesid=39&productid=198](https://www.pactecenclosures.com/product-detail.php?classid=36&seriesid=39&productid=198)
+- design drawings here: [https://www.pactecenclosures.com/pdfs/drw_OD43.pdf](https://www.pactecenclosures.com/pdfs/drw_OD43.pdf)
+
+PCB size (from design drawing above):
+
+![](/img/co2/pcb_board.png)
+
+Nice plastic enclosure -- hammond -- [https://www.newark.com/hammond/1591btcl/enclosure-multipurpose-pc-clear/dp/50H6344?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSaA4dpnCVFMKYrILm7lfwtSkz8Ny4HzIejUIkhMuzIm0uqSNvsL_kIaAiK8EALw_wcB&mckv=sFz5B29IT_dc|pcrid|434136793431|plid||kword||match||slid||product|50H6344|pgrid|100464451426|ptaid|pla-917181830621|&CMP=KNC-GUSA-GEN-Shopping-NewStructure-Enclosures-Racks-Cabinets](https://www.newark.com/hammond/1591btcl/enclosure-multipurpose-pc-clear/dp/50H6344?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSaA4dpnCVFMKYrILm7lfwtSkz8Ny4HzIejUIkhMuzIm0uqSNvsL_kIaAiK8EALw_wcB&mckv=sFz5B29IT_dc|pcrid|434136793431|plid||kword||match||slid||product|50H6344|pgrid|100464451426|ptaid|pla-917181830621|&CMP=KNC-GUSA-GEN-Shopping-NewStructure-Enclosures-Racks-Cabinets)
+
+Some nice options
+
+## Serpac 032C
+
+[https://www.digikey.com/en/products/detail/serpac/032CBK/2286005](https://www.digikey.com/en/products/detail/serpac/032CBK/2286005)
+
+Serpac 032C 
+- [here](https://www.serpac.com/userprints/032C_UP.pdf)
+- listing on serpace [here](https://www.serpac.com/s-series/032c.aspx)
+- circuit board drawing [here](https://www.serpac.com/userprints/circuit-board/330-430-cb.pdf)
+
+detachable wall mount! https://www.serpac.com/accessories/wall-mounts.aspx
+
+## Serpac wall mount
+
+[https://serpac.com/wm-series/wm072rc.aspx](https://serpac.com/wm-series/wm072rc.aspx)
+
+This could actually be cool -- 'main board' on left, 'proto board' on right
+
+--- but it's $20 :)
+
+---
+
+
+[https://www.digikey.com/en/products/detail/serpac/232CBK/2286017](https://www.digikey.com/en/products/detail/serpac/232CBK/2286017)
+
+
+hammond tiny enclosure -- [https://vetco.net/products/hammond-1551ltbu-translucent-blue-plastic-enclosure-3-15-in-x-1-58-in-x-0-59-in?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSbv12vGAESWYlcDZyyMR1AF3k45esmKYOVDSHDajJhLA6uLqX9A1j0aAqqiEALw_wcB](https://vetco.net/products/hammond-1551ltbu-translucent-blue-plastic-enclosure-3-15-in-x-1-58-in-x-0-59-in?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSbv12vGAESWYlcDZyyMR1AF3k45esmKYOVDSHDajJhLA6uLqX9A1j0aAqqiEALw_wcB)
+
+hammond clear enclosure -- [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769?utm_adgroup=Boxes&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Boxes%2C%20Enclosures%2C%20Racks&utm_term=&utm_content=Boxes&gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSbbCxZ7-93S11wYu57zYg54tGOrZ8DzqvXXx9VZYEySfmGR_M6y7EwaAtUCEALw_wcB](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769?utm_adgroup=Boxes&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Boxes%2C%20Enclosures%2C%20Racks&utm_term=&utm_content=Boxes&gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSbbCxZ7-93S11wYu57zYg54tGOrZ8DzqvXXx9VZYEySfmGR_M6y7EwaAtUCEALw_wcB)
+
+
+octopart enclosure listing [here](https://octopart.com/electronic-parts/tools-and-supplies/enclosures)
+
+bud industries BT-2723 [here](https://www.digikey.com/en/products/detail/bud-industries/BT-2723/1640952)
+
+
+---
+
+hammond 1551LTBU [here](https://www.digikey.com/en/products/detail/hammond-manufacturing/1551LTBU/2094883?utm_adgroup=Boxes&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Boxes%2C%20Enclosures%2C%20Racks_NEW&utm_term=&utm_content=Boxes&gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSZfDv_3hdnA2Bgk4ZCFI5cJm1E6USjf4TUefQBHqM_dZcB09cAH15MaArmaEALw_wcB)
+
+## hammond cheap boxes
+
+multipurpose translucent hammond boxes [here](https://www.hammfg.com/electronics/small-case/plastic/1591t)
+
+accessory plastic flanges avail!! 
+
+hammond 1591S -- 
+
+hammond economical enclosures [here](http://www.hammondmfg.com/dwg2p.htm)
+
+hammond 1591STCL on digikey [here](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591STCL/1646698?WT.z_cid=ref_neda_dkc_buynow&utm_source=ecia&utm_medium=aggregator&utm_campaign=buynow)
+
+
+really cool series, with accessories! [here](https://www.alliedelec.com/m/d/8e5ceccbb6067db9688b20d9a61de415.pdf)
+
+allows mounting of pc boards horizontally within enclosure [here](https://www.hammfg.com/electronics/small-case/plastic/1591.pdf)
+
+
+---
+
+shenzen enclosure [here](https://www.alibaba.com/pla/IP65-plastic-transparent-electronic-enclosure_60787051803.html?mark=google_shopping&biz=pla&src=sem_ggl&mark=shopping&cmpgn=11895329719&adgrp=112297194941&locintrst=&locphyscl=9001876&ntwrk=u&device=c&dvcmdl=&position=&pla_adtype=&pla_mrctid=298077247&pla_channel=online&pla_prdid=60787051803&pla_country=US&pla_lang=en&pla_group=1082573610178&pla_localcode=&gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSZ_AD4jOo1L0dAIOmYdCqo_sslhj_XRAkzLpZIJt1_IZvwRhUtqrNwaAvWBEALw_wcB#shopping-ads)
+
+
+this is worth ordering for testing -- enclosures for $4 ea here -- [https://www.alibaba.com/product-detail/IP65-plastic-transparent-electronic-enclosure_60787051803.html](https://www.alibaba.com/product-detail/IP65-plastic-transparent-electronic-enclosure_60787051803.html)
+
+
+
+---
+
+top candidates:
+
+hammond 1591STCL / 1591BTCL
+serpac  032C 
+
+
+listing for that whole hammond line is [here](https://www.alliedelec.com/m/d/bfcc0d7ad5cacf7a1b5d441385853eb4.pdf)
+
+avail on amazon!! [here](https://www.amazon.com/HAMMOND-1591ATCL-ENCLOSURE-MULTIPURPOSE-CLEAR/dp/B00CS2YP22)
+
+1591BTCL avail via amazon [here](https://www.amazon.com/HAMMOND-1591BTCL-ENCLOSURE-MULTIPURPOSE-CLEAR/dp/B00CSRW6UU/ref=pd_sbs_328_2/140-4251148-5297717?_encoding=UTF8&pd_rd_i=B00CSRW6UU&pd_rd_r=e29e6723-c035-4a65-b731-5646e915d7fd&pd_rd_w=VJlwF&pd_rd_wg=BhPDO&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=0FXQRA6Z4GJVPHEK1V91&psc=1&refRID=0FXQRA6Z4GJVPHEK1V91)
+
+1591BTCL datasheet is [here](https://www.hammfg.com/files/parts/pdf/1591BTCL.pdf)
+
+hammond page for 1591btcl is [here](https://www.hammfg.com/part/1591BTCL)
+
+the whole 1591 series is listed [here](https://www.hammfg.com/electronics/small-case/plastic/1591t)
+
+
+
+1591BTCL is avail for $5.10 ea at Hawk Electronics [here](https://www.hawkusa.com/manufacturers/hammond-mfg/enclosures/1591btcl?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSaw87aKUqNYWzVMJldf0uB6pPb4Coa40BlF7klpT3ivT919JQ_UndwaAlGpEALw_wcB)
+
+
+---
+
+1591STCL [here](https://www.hammfg.com/files/parts/pdf/1591STCL.pdf)
+
+
+1591DTCL -- would fit the REV_E board!
+
+meanwhile I think I can probably redesign and fit the 1591STCL or 1591BTCL (whichever is cheaper)
+
+1591STCL -- $10.50
+1591BTCL -- $7.80 
+1591DTCL -- $12.02
+
+
+---
+
+conclusion:
+
+
+1591BTCL ([datasheet](https://www.hammfg.com/files/parts/pdf/1591BTCL.pdf)) -- this is the target to design for.  
+1591DTCL ([datasheet](https://www.hammfg.com/files/parts/pdf/1591DTCL.pdf)) ([octopart](https://octopart.com/1591dtcl-hammond-40152)) ([digikey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591DTCL/1090771)) -- this is what I can buy to house the REV_E enclosure.
+
+1591DTCL avail via Powell electronics [here](https://www.powell.com/item/Hammond-Manufacturing-1591DTCL-Octoparts/4324663)
+
+DTCL arrives on jan 25 - ish [here](https://www.amazon.com/Enclosures-Boxes-Cases-5-9-Clear/dp/B00HKJ2NIG)
+
+
+If I do the BTCL, I'll need to find a clever way to include the battery ... maybe on top somehow. 
+ 
+ --
+
+
+---
+
+$10 aluminum enclosure bud insdustries -- https://www.digikey.com/en/products/detail/bud-industries/AN-1302-A/5804534?utm_adgroup=Boxes&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Boxes%2C%20Enclosures%2C%20Racks&utm_term=&utm_content=Boxes&gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSZDrdL__T4EZEguqhJTtaaFs6oxlLmh0ItZ9ZZeMTFqdDHsmJ5U4goaAiZJEALw_wcB
+
+1591STCL [here](https://www.amazon.com/Hammond-1591STCL-Translucent-Polycarbonate-Project/dp/B00D5T2O34/ref=pd_sbs_328_2/140-4251148-5297717?_encoding=UTF8&pd_rd_i=B00D5T2O34&pd_rd_r=814923ec-fe3d-46db-b8d6-240267bf9366&pd_rd_w=KcVgb&pd_rd_wg=PAHvC&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=TKVQ1DYPVZ0ZEDP9ZF6Q&psc=1&refRID=TKVQ1DYPVZ0ZEDP9ZF6Q)
+
+
+
+
+ ---
+ 2021-01-04 22:12:14
+
+
+ accessory flanges for 1591 series [here](https://www.hammfg.com/electronics/small-case/accessories/1591-flange?referer=1190&itm_type=accessory) -- 
+
+  digikey listing for the flange for the 1591DTCL [here](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FDBK/2357940)
+
+
+ 1591BSFLBK on newark [here](https://www.newark.com/hammond/1591bsflbk/enclosure-ip54-flanged-lid-multipurpose/dp/59M4600?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSZz1mDgGKX_sD6WUa7Sgvrvj9-YUlyoIPW0Z32FtEHSTPTfjOehGXUaAmbqEALw_wcB&mckv=sIRXRJZJt_dc|pcrid|434136793431|plid||kword||match||slid||product|59M4600|pgrid|100464451426|ptaid|pla-917181830541|&CMP=KNC-GUSA-GEN-Shopping-NewStructure-Enclosures-Racks-Cabinets)
+
+ adapter card pcb for 1591 series:
+ - description [hammond](http://hammondmfg.com/dwg2b.htm)
+ - 6 pack [digikey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z6/131165)
+ - 50 pack [digikey](https://www.digikey.com/en/products/detail/1591Z50/HM3997-ND/460666?itemSeq=349725590)
+
+
+1591DTCL enclosure diagram [here](https://www.hammfg.com/files/parts/pdf/1591DTCL.pdf)
+
+associated slot pcb mountings diagram [here](http://hammondmfg.com/dwg2b.htm)
+
+Likely should order some on Digikey tomorrow.  
+
+Interesting that it gives us some room for prototyping
+
+![](/img/co2/1591DTCL_lifesize.png)
 
 
 
