@@ -2943,21 +2943,46 @@ $10 aluminum enclosure bud insdustries -- https://www.digikey.com/en/products/de
 
 associated slot pcb mountings diagram [here](http://hammondmfg.com/dwg2b.htm)
 
+associated plastic flanges listed [here](https://www.hammfg.com/electronics/small-case/accessories/1591-flange?referer=1190&itm_type=accessory)
+
+
+
 Likely should order some on Digikey tomorrow.  
 
 Interesting that it gives us some room for prototyping
 
 ![](/img/co2/1591DTCL_lifesize.png)
 
+Epidemiologist around rapid testing [here](https://twitter.com/michaelmina_lab)
 
+TODO: add the flange to the digikey order and order tomorrow
 
+flange for the DTCL seems to be the 1591FDBK ([digikey](https://www.digikey.com/en/products/detail/1591FDBK/HM3903-ND/2357940?itemSeq=349727843) [drawing](https://www.digikey.com/en/products/detail/1591FDBK/HM3903-ND/2357940?itemSeq=349727843))
 
+Aside: gorgeous hammond enclosure 1590B die-cast aluminum ([amazon](https://www.amazon.com/HAMMOND-1590B-ENCLOSURE-DIECAST-60-5X112X31MM/dp/B0002BBRA4/ref=pd_sbs_21_3/140-4251148-5297717?_encoding=UTF8&pd_rd_i=B0002BBRA4&pd_rd_r=7b1cb10e-a0d9-4042-9d64-da960c05e6c3&pd_rd_w=4LW1Q&pd_rd_wg=zDW6J&pf_rd_p=d2a3ee7d-5d69-4331-b32f-a3ce40b5e0d3&pf_rd_r=P66MAJQ7KSDNJ98WAMR6&psc=1&refRID=P66MAJQ7KSDNJ98WAMR6))
 
+---
+2021-01-05 11:46:04
 
+to get: 
 
+- the spacers 
+- 1591BTCL flange in grey and black
+- 1591DTCL flange in gray and black
 
+update: gray is on backorder. going with black. 
 
+---
+2021-01-05 18:37:37
 
+this seems to be key -- how to set up the captive portal IP address -- need to check whether this works on a laptop [https://hieromon.github.io/AutoConnect/apiconfig.html#gateway](https://hieromon.github.io/AutoConnect/apiconfig.html#gateway)
+
+---
+2021-01-05 19:07:15
+
+Finished the AutoConnect switch-over of endpoint names -- now use 'bayou_settings' instead of 'mqtt_setting'.  
+
+Resultant working code is here (note branch): [https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS_endpoint](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS_endpoint)
 
 
 
