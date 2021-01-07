@@ -2984,7 +2984,51 @@ Finished the AutoConnect switch-over of endpoint names -- now use 'bayou_setting
 
 Resultant working code is here (note branch): [https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS_endpoint](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_e/firmware/wifi_sensor/params_fuller_FS_endpoint)
 
+---
+2021-01-06 16:27:47
 
+1591 enclosure guide for pcb [here](https://www.hammfg.com/files/products/1591/1591z-card-guide-instructions.pdf)
+
+might use a clear lid with a pre-flanged enclosure -- look [here](https://www.hammfg.com/electronics/small-case/plastic/1591)
+
+
+---
+2021-01-06 16:33:46
+
+Black 'B' enclosure with a flange [here](http://hammondmfg.com/pdf/1591BFL.pdf)
+
+
+direct link for pc board adapter [here](https://www.hammfg.com/part/1591Z6)
+
+and dimensions for pcb board adapter [here](https://www.hammfg.com/files/parts/pdf/1591Z6.pdf)
+
+catalog page for 1591 series [here](http://www.hammondmfg.com/pdf/9c2pg8-9.pdf)
+
+looks here as though the 'C' enclosures come between 'B' and 'D' (surprise) -- [hammond](https://www.hammfg.com/electronics/small-case/accessories/1591-flange)
+
+also: C is just slightly larger than B, it seems
+
+here are the C dimensions [pdf](http://www.hammondmfg.com/pdf/1591C.pdf) -- and on [amazon](https://www.amazon.com/Hammond-Manufacturing-1591CTCL-1591C-POLYCARBONATE/dp/B00CS2TWE8) and [digikey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591CTCL/1090770?s=N4IgTCBcDaIIwFYCccDCAVVAZEBdAvkA)
+
+---
+2021-01-07 11:36:19
+
+Document from Hammond re: the proper PCB size for the 1591B series here: [pdf](/img/co2/1591B_BOX_PCB.pdf) |  [dxf file](1591B_BOX_PCB.dxf) | [dxf file with dim](/img/co2/1591B_BOX_PCB_DIM.dxf)
+
+heltec dimensions 
+
+![](/img/co2/heltec_dimensions.jpg)
+
+---
+2021-01-07 14:08:27
+
+![](/img/co2/rev_f_layout.png)
+
+[https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_f/atkins](https://github.com/edgecollective/co2-remote-and-gateway/tree/cap_params/rev_f/atkins)
+
+particular commit here:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/commit/7a68c680fd23337fb4daf9bc859e6d312b616a8c#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa](https://github.com/edgecollective/co2-remote-and-gateway/commit/7a68c680fd23337fb4daf9bc859e6d312b616a8c#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa)
 
 
 

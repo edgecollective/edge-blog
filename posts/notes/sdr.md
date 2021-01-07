@@ -31,3 +31,19 @@ national weatherfax service [here](https://www.weather.gov/marine/radiofax_chart
 
 weatherfax [here](https://www.weather.gov/marine/marsh)
 
+---
+2021-01-05 21:01:32
+
+from Dave S.:
+
+here's a nice podcast called Foundations of Amateur Radio that consists of 5 min episodes.  Focused on getting started in the hobby and dealing with very practical topics and knowledge.  https://podcasts.vk6flab.com/podcasts/foundations
+
+Very interesting is this project to develop a small Arduino-based SDR transceiver for HF modes (voice, digital, etc) here.:
+  https://groups.io/g/ucx
+
+Here's a schematic: https://raw.githubusercontent.com/threeme3/QCX-SSB/master/ucx.png
+
+from Mat L:
+
+Check this stellar ham device. Its setup for low power and handling sensor inputs. http://picoaprs.de/index_en.html
+
