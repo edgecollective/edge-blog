@@ -3028,9 +3028,49 @@ heltec dimensions
 
 particular commit here:
 
-[https://github.com/edgecollective/co2-remote-and-gateway/commit/7a68c680fd23337fb4daf9bc859e6d312b616a8c#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa](https://github.com/edgecollective/co2-remote-and-gateway/commit/7a68c680fd23337fb4daf9bc859e6d312b616a8c#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa)
+[https://github.com/edgecollective/co2-remote-and-gateway/commit/37cfff4540a2506cf84b3bc35e8255eb14a25da0#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa](https://github.com/edgecollective/co2-remote-and-gateway/commit/37cfff4540a2506cf84b3bc35e8255eb14a25da0#diff-8b7e3d045d2effcb6738a35190e48460e3f8d084dc97983bb0b740101097caaa)
+
+---
+2021-01-07 15:07:44
+
+Update: Pin 34-39 on the ESP32 are not capable of output -- that's why pin 39 wasn't working as an LED control.
+
+looks like scd30 could use a 2.5 mm screw, ish;  the height of the screw would be about 8 mm.  so can guess at a standoff size perhaps.  
+
+nice material heltec [here](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125)
+
+full heltec tech specs [here](https://heltec.org/project/wifi-lora-32/)
+
+does look in the schematic that there's a battery divider already in place -- see discussion [here](http://community.heltec.cn/t/heltec-battery-power-example-not-working/1234/4)
+
+interesting code for heltec from a lot of perspectives re: optimal use of esp32, includes battery measurement here: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)
+
+pin 21 is external battery control -- low, ON -- 
+
+special pins on esp32 [here](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+
+pin 12 must be low during boot
+
+---
+2021-01-07 20:33:35
+
+PIR sensor [here](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor)
+
+just need 3V, GND, and an input pin ... maybe add a screw terminal? 
 
 
+"sh1.25" is perhaps the search term for relevant batteries on aliexpress [here](https://www.aliexpress.com/item/32923649233.html)
+
+----
+2021-01-08 11:54:39
+
+Rev_F board submitted to JLCPCB, order Order #: Y12-2489114A  // W202101090100951
+
+![](/img/co2/rev_f_board.png)
+
+board files github commit [here](https://github.com/edgecollective/co2-remote-and-gateway/tree/9067113e187eb8cbb6cef703900c8b911c834a40/rev_f/atkins)
+
+zipped gerber files in particular [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/9067113e187eb8cbb6cef703900c8b911c834a40/rev_f/atkins/rev_f_gerbers.zip)
 
 
 

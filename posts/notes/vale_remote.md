@@ -677,3 +677,12 @@ Feed [here](http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080ca
 
 ![](/img/valedalama/batt_jan2021.png)
 
+---
+2021-01-08 08:59:07
+
+Batt level continues to hold ... feed [here](http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080cadbfda6b468a9505835a82aadd5762c)
+
+![](/img/valedalama/vale_batt_jan8.png)
+
+
+
