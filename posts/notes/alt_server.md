@@ -622,3 +622,43 @@ bezcode node + postgresql + express + react [here](https://bezkoder.com/node-js-
 
 inserting html form data into postgresql using nodejs [here](https://stackoverflow.com/questions/63618597/insert-html-form-data-into-heroku-postgresql-database-using-node-js)
 
+
+---
+2021-01-08 15:34:05
+
+capturing form data with nodejs and express [here](https://stackoverflow.com/questions/15568851/node-js-how-to-send-data-from-html-to-express)
+
+
+working with forms in express [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
+
+
+## Forms example #1 
+even better version, with working code, [here](https://www.sitepoint.com/forms-file-uploads-security-node-express/)
+
+github repo [here](https://github.com/sitepoint-editors/node-forms)
+
+---
+2021-01-08 15:57:43
+
+This is the code to use and modify for habitat, [here](https://github.com/dwblair/node-forms/tree/finished), when trying to get forms up and running.
+
+Next step is to get habitat up and running -- the 'heltec' code -- which will likely require reconnecting / reconfiguring the postgres database ...
+
+---
+2021-01-08 19:32:35
+
+## Forms exmaple with SQLITE3
+
+![](/img/alt-server/adding_a_feed.png)
+
+[Read HTML Form Data Using GET and POST Method in Node.js](https://medium.com/swlh/read-html-form-data-using-get-and-post-method-in-node-js-8d2c7880adbf)
+
+forking their example [here](https://github.com/dwblair/crudApp_htmlForm)
+
+issue with sqlite3 -- covered [here](https://github.com/jansmolders86/mediacenterjs/issues/191)
+
+seems that [this approach](https://github.com/jansmolders86/mediacenterjs/issues/191#issuecomment-202340822) worked, i.e.:
+
+> npm install -g node-pre-gyp
+> npm install sqlite3 --save-dev
+
