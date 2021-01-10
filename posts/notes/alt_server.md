@@ -662,3 +662,33 @@ seems that [this approach](https://github.com/jansmolders86/mediacenterjs/issues
 > npm install -g node-pre-gyp
 > npm install sqlite3 --save-dev
 
+---
+2021-01-09 16:40:05
+
+Capturing which button was pressed in form submit [here](https://stackoverflow.com/questions/2066162/how-can-i-get-the-button-that-caused-the-submit-from-the-form-submit-event)
+
+Got basic forms working in the 'form' branch:
+
+[https://github.com/edgecollective/habitat/tree/form](https://github.com/edgecollective/habitat/tree/form)
+
+Going to try templates next. Also:
+
+
+understandin gnodejs express templating engines
+- [digitalocean](https://www.digitalocean.com/community/tutorials/nodejs-express-template-engines)
+
+---
+2021-01-09 17:44:55
+
+Got basic templating working: [https://github.com/edgecollective/habitat/tree/template](https://github.com/edgecollective/habitat/tree/template)
+
+TODOS:
+- need to extract and show 'feed ID' (via POSTGRESQL commands) to user when creating new feed (currently only show name and private key)
+- might want option of generating a hash for the feed id, rather than a simple incremented integer
+- need to handle case where the requested feed ID doesn't exist (will require looking up in database)
+- render a landing page for a new data feed that explains private key, allows for downloading the key id and private key, shows an example CURL, and links to online arduino examples.
+
+Going to need to figure out how to create a new table, and new fields.  Follow tutorial by Trickett (habitat creator) [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+
+
