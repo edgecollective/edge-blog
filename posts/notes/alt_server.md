@@ -692,3 +692,86 @@ Going to need to figure out how to create a new table, and new fields.  Follow t
 
 
 
+----
+2021-01-10 10:57:12
+
+setting up postgresql server ... creating tables ...
+
+- install postgresql [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+then follow instructions [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+> sudo -i -u postgres
+> psql
+
+can exit via \q
+
+CREATE TABLE users (
+   user_id SERIAL PRIMARY KEY,
+   username VARCHAR(50),
+   password VARCHAR(255),
+   is_admin BOOLEAN DEFAULT FALSE
+);
+
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255)
+);
+
+CREATE TABLE measurements(
+    id SERIAL PRIMARY KEY,
+    feed_id INT,
+    co2 FLOAT,
+    tempC FLOAT,
+    humidity FLOAT,
+    mic FLOAT,
+    auxpressure FLOAT,
+    auxTempC FLOAT,
+    aux001 FLOAT,
+    aux002 FLOAT,    
+    created TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feed
+        FOREIGN KEY(feed_id)
+            REFERENCES feeds(feed_id)
+);
+
+INSERT INTO users (username, password) VALUES ('bob', 'jones');
+
+INSERT INTO feeds (name) values ('NodeMCU  ESP32');
+
+pcat999
+
+how to handle: relation does not exist -- [here](https://stackoverflow.com/questions/19941922/error-relation-does-not-exist)
+
+---
+2021-01-10 12:09:36
+
+update: relation didn't exist b/c hadn't created the tables in the proper database.
+
+PORT=3000
+DB_NAME=hab1
+DB_USER=postgres
+DB_PASSWORD=pcat999
+DB_HOST=localhost
+DB_PORT=5432
+
+---
+2021-01-10 12:30:59
+
+Created a 'feed creation' landing page in the 'createfeed-landing' branch of habitat on github.com/edgecollective
+
+---
+2021-01-10 12:48:01
+
+using serial primary keys postgresql [here](https://www.postgresqltutorial.com/postgresql-serial/)
+
+postgresql random primary key [here](https://stackoverflow.com/questions/20890129/postgresql-random-primary-key)
+
+unique identifier in your postgresql database [here](https://itnext.io/how-to-have-unique-identifier-in-your-postgresql-database-using-primary-key-and-foreign-key-9d2ddd4efce2)
+
+advice here is not to use the public key as the unique identifier -- [here](https://dba.stackexchange.com/questions/94203/random-unguessable-primary-key-which-preserves-correct-order)
+
+
