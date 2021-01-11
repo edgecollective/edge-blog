@@ -774,4 +774,56 @@ unique identifier in your postgresql database [here](https://itnext.io/how-to-ha
 
 advice here is not to use the public key as the unique identifier -- [here](https://dba.stackexchange.com/questions/94203/random-unguessable-primary-key-which-preserves-correct-order)
 
+---
+2021-01-11 11:06:05
+
+error handling in express [here](https://expressjs.com/en/guide/error-h)
+
+TODO: refactor things based on the suggestions in that post. 
+
+in particular:
+
+```
+app.get('/user/:id', async function (req, res, next) {
+  var user = await getUserById(req.params.id)
+  res.send(user)
+})
+```
+
+---
+2021-01-11 11:16:08
+
+notes on api keys:
+
+nice article [here](https://stoplight.io/blog/api-keys-best-practices-to-authenticate-apis/)
+
+carto's policy [here](https://carto.com/developers/auth-api/guides/how-to-send-API-Keys/)
+
+maybe should now have authorization key in the header.  should just be a matter of checking on the "POST" ... getting a header.  can implement it after this round.
+
+---
+2021-01-11 11:25:41
+
+changing name of table in postgres
+
+```
+ALTER TABLE table_name 
+RENAME COLUMN column_name TO new_column_name;
+```
+tests:
+- case of incoming JSON matter? (likely yes) -- YES
+- case of postgres request matter? (likely no)
+- what if we don't send all the params?
+
+---
+2021-01-11 12:23:53
+
+writing an async function [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+guide to async programming [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+
+---
+2021-01-11 12:32:41
+
+'use-pubkey' is the latest branch.  
 
