@@ -3072,6 +3072,9 @@ board files github commit [here](https://github.com/edgecollective/co2-remote-an
 
 zipped gerber files in particular [here](https://github.com/edgecollective/co2-remote-and-gateway/blob/9067113e187eb8cbb6cef703900c8b911c834a40/rev_f/atkins/rev_f_gerbers.zip)
 
+---
+2021-01-12 14:40:22
 
+![](/img/co2/bayou_co2.png)
 
 
