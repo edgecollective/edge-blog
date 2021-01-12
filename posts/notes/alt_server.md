@@ -827,3 +827,26 @@ guide to async programming [here](https://developer.mozilla.org/en-US/docs/Learn
 
 'use-pubkey' is the latest branch.  
 
+using 'async await' in express [here](https://zellwk.com/blog/async-await-express/)
+
+and: definition of 'async / await' [here](https://zellwk.com/blog/async-await)
+
+w/ postgresql [here](https://stackoverflow.com/questions/53910835/using-async-await-with-node-postgres)
+
+started to use promises ...
+
+even better now would be to create a 'getFeedPrivateKey() function and use that in postNewMeasurement()
+
+---
+2021-01-11 17:13:28
+
+have now started some 'async' code in branch 'async'. that's the latest working branch.
+
+TODO:  the 'new feed' api should return JSON; the page we land on after creating a new feed in the form should leverage that api.
+
+---
+2021-01-11 17:25:43
+
+beginner's guide to pug [here](https://www.sitepoint.com/a-beginners-guide-to-pug/)
+
+cami -- simon's kid
