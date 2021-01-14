@@ -15,3 +15,5 @@ Dave S. assembled a Mothbot Version 4 and got to blinky!
 
 ![](/img/mothbot/mothbot_rev_4.jpg)
 
+The Mothbot repo has been moved now to [https://github.com/edgecollective/mothbot](https://github.com/edgecollective/mothbot).
+

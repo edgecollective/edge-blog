@@ -47,3 +47,12 @@ from Mat L:
 
 Check this stellar ham device. Its setup for low power and handling sensor inputs. http://picoaprs.de/index_en.html
 
+---
+2021-01-14 09:32:38
+
+SDR in a raspberry pi image [here](https://hackaday.com/2019/12/20/all-your-sdr-software-in-a-handy-raspberry-pi-image/)
+
+RPi SDR scanner via adafruit [here](https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner)
+
+Raspberry Pi websdr [here](https://github.com/reynico/raspberry-websdr)
+

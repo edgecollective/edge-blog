@@ -943,4 +943,26 @@ how to set up a firewall on ubuntu [here](https://www.digitalocean.com/community
 
 html to jade thing [here](https://html2jade.org/)
 
+---
+2021-01-13 19:20:23
 
+Interesting way to do a drop-down menu via Pug, here:
+
+div(class="choices")
+        h2
+        p I'm voting for:
+        select(class="form-control")
+            option 1
+            option 2
+            option 3
+            option 4
+            option 5
+
+---
+2021-01-14 08:49:52
+
+good example of chart setup here: [view-source:https://www.chartjs.org/samples/latest/charts/line/basic.html](view-source:https://www.chartjs.org/samples/latest/charts/line/basic.html)
+
+Reference for p2p-farm-server chartjs setup [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/fixhop/public/js/drive.js)
+
+perhaps-useful chartjs formatting [here](https://embed.plnkr.co/JOI1fpgWIS0lvTeLUxUp/)
