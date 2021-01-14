@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-12-07
 updated: 2020-12-07
 tags: projects
-image: img/placeholder.png
+image: img/co2/rev_e_built.png
 blurb: Developing an Free and Open Source end-to-end system for CO2 monitoring.
 ---
 
