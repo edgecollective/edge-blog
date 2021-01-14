@@ -728,7 +728,7 @@ CREATE TABLE measurements(
     tempC FLOAT,
     humidity FLOAT,
     mic FLOAT,
-    auxpressure FLOAT,
+    auxPressure FLOAT,
     auxTempC FLOAT,
     aux001 FLOAT,
     aux002 FLOAT,    
@@ -850,3 +850,97 @@ TODO:  the 'new feed' api should return JSON; the page we land on after creating
 beginner's guide to pug [here](https://www.sitepoint.com/a-beginners-guide-to-pug/)
 
 cami -- simon's kid
+
+---
+2021-01-12 19:02:12
+
+instructions for setting up postgres for habitat on digitalocean
+
+install postgres
+
+```
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+```
+
+> sudo -i -u postgres
+> createdb bay1
+> psql
+> \c bay1
+
+then:
+
+CREATE TABLE users (
+   user_id SERIAL PRIMARY KEY,
+   username VARCHAR(50),
+   password VARCHAR(255),
+   is_admin BOOLEAN DEFAULT FALSE
+);
+
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255)
+);
+
+CREATE TABLE measurements(
+    id SERIAL PRIMARY KEY,
+    feed_id INT,
+    co2 FLOAT,
+    tempC FLOAT,
+    humidity FLOAT,
+    mic FLOAT,
+    auxPressure FLOAT,
+    auxTempC FLOAT,
+    aux001 FLOAT,
+    aux002 FLOAT,    
+    created TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feed
+        FOREIGN KEY(feed_id)
+            REFERENCES feeds(feed_id)
+);
+
+check that all is well:
+
+> \dt
+
+change the user password:
+
+> ALTER USER postgres WITH PASSWORD 'pcat999'
+
+> \q
+> exit
+
+see better guide [here](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+need to make sure .env file is proper:
+
+PORT=3000
+DB_NAME=hab1
+DB_USER=postgres
+DB_PASSWORD=pcat999
+DB_HOST=localhost
+DB_PORT=5432
+
+key guide [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
+for deploying nodejs server on digitalocean.
+
+has section for adding additional apps on other ports!
+
+setting up nginx on digitalocean guide [here](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
+
+how to set up a firewall on ubuntu [here](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+
+---
+2021-01-13 08:05:11
+
+ Its creation was motivated by recent work (e.g. by <a href="https://www.medrxiv.org/content/10.1101/2020.06.15.20132027v2">Jimenez et al.</a>) indicating that monitoring indoor CO2 levels can (in some contexts) help to assess the risk of airborne SARS-CoV-2 transmission.
+
+---
+2021-01-13 11:59:26
+
+html to jade thing [here](https://html2jade.org/)
+
+

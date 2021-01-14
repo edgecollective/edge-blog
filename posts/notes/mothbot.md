@@ -258,3 +258,9 @@ Photo of latest version in action here:
 ## Web USB
 
 Nice description [here](https://learn.adafruit.com/using-webusb-with-arduino-and-tinyusb)
+
+---
+2021-01-13 18:46:49
+
+New repo for Mothbot design files and code [here](https://github.com/edgecollective/mothbot)
+
