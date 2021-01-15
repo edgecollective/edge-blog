@@ -264,3 +264,91 @@ Nice description [here](https://learn.adafruit.com/using-webusb-with-arduino-and
 
 New repo for Mothbot design files and code [here](https://github.com/edgecollective/mothbot)
 
+---
+2021-01-14 21:23:57
+
+If the mothbot isn't receiving, it might be because the 'INT' pin isn't soldered properly:
+e
+![](/img/mothbot/mothbot_rev4_int_d2_14_matchup.png)
+
+---
+2021-01-15 10:44:21
+
+Below pulled in from 'e-ink' notes ...
+
+
+### Grid Squares
+
+Ham Radio for Arduino and Picaxe book --- [Description](http://www.arrl.org/shop/Ham-Radio-for-Arduino-and-PICAXE/), [Amazon](https://www.amazon.com/Ham-Radio-Arduino-Picaxe-Arrl/dp/087259324X).
+
+Source code for generating tiles from OSM is [here](http://hamradioprojects.com/authors/wa5znu/+marinus/code/)
+
+Grid square locator on above site is broken; perhaps [this](https://www.k2dsl.com/2008/08/27/finding-grid-square-locators/) works?
+
+Grid square locator [here](http://www.arrl.org/grid-squares).
+
+Computing lat / lon [here](https://stevemorse.org/jcal/latlon.php).
+
+Conant road lat / lon: 42.41158	-71.2983
+
+Grid square utility [here](http://www.levinecentral.com/ham/grid_square.php) works, but doesn't give 10 character grid squares ...
+
+Another tool is [here](https://dxcluster.ha8tks.hu/hamgeocoding/), which generates a nice overlay ... <-- this is the tool to use!
+
+So, the combined tools are:
+- identifying your grid square in ham radio, [here](https://dxcluster.ha8tks.hu/hamgeocoding/).
+- using a python script to grab the tiles, [here](http://hamradioprojects.com/authors/wa5znu/+marinus/osm/) -- seems to be broken.
+
+Example grid square: 
+
+
+Finding gridsquares from lat / lon [here](https://www.amsat.org/amsat-new/tools/grids.php)
+
+
+Generator [here](https://dxcluster.ha8tks.hu/hamgeocoding/).  Uses a nice open source [geocoding app](https://nominatim.org/) that works with OSM.  The author, [ha8tks](https://twitter.com/ha8tks?lang=en), has a [repo on github](https://github.com/ha8tks/Leaflet.Maidenhead) that applies the GridSquare layout in Leaflet.
+
+![](/img/eink/gridquare.png)
+
+![](/img/eink/weston.png)
+
+Reference on gridsquares [here](https://www.amsat.org/amsat-new/tools/grids.php)
+
+Ham radio chat on grid squares [here](https://www.youtube.com/watch?v=3w2SPj5Hs5Q).
+
+General term for this is the [Maidenhead Gridsquare System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System).
+
+(Alternative:  the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System))
+
+Nice [explanation](https://www.hamradio.in/circuits/grid_locator_system.php) of the grid locator system.
+
+Nice [historical background](http://www.jonit.com/fieldlist/maidenhead.htm) on the system. 
+
+Really nice [video explanation](https://www.youtube.com/watch?v=rlkUAHGw_Sg) of grid squares.
+
+![](/img/eink/gridquare.png)
+
+![](/img/eink/weston.png)
+
+Reference on gridsquares [here](https://www.amsat.org/amsat-new/tools/grids.php)
+
+Ham radio chat on grid squares [here](https://www.youtube.com/watch?v=3w2SPj5Hs5Q).
+
+General term for this is the [Maidenhead Gridsquare System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System).
+
+(Alternative:  the [World Geodetic System](https://en.wikipedia.org/wiki/World_Geodetic_System))
+
+Nice [explanation](https://www.hamradio.in/circuits/grid_locator_system.php) of the grid locator system.
+
+Nice [historical background](http://www.jonit.com/fieldlist/maidenhead.htm) on the system. 
+
+Really nice [video explanation](https://www.youtube.com/watch?v=rlkUAHGw_Sg) of grid squares.
+
+---
+2021-01-15 10:48:51
+
+Leaflet + Maidenhead Locator system [here](https://github.com/ha8tks/Leaflet.Maidenhead)
+
+Key file is [here](https://github.com/ha8tks/Leaflet.Maidenhead/blob/master/src/L.Maidenhead.js) -- this is how to figure out GPS on the system.
+
+
+
