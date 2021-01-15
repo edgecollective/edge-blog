@@ -3081,3 +3081,25 @@ zipped gerber files in particular [here](https://github.com/edgecollective/co2-r
 2021-01-14 12:54:10
 
 ![](/img/co2/bayou_feed.png)
+
+---
+2021-01-15 11:25:38
+
+Feed Name: "asdfasdf"
+Feed Public Key: 9816e2df7cc14d64698d7012859080757780c73f22213bd1
+Feed Private Key: 7e633222f381a99170e370ea7476b43662507a5352077ade
+Feed Home Page: http://data.pvos.org/co2/data/9816e2df7cc14d64698d7012859080757780c73f22213bd1
+
+TODO: add a download from the feed page (CSV?)
+
+---
+2021-01-15 12:26:46
+
+Hammond flanged enclosures [here](https://www.digikey.com/en/products/detail/hammond-manufacturing/1551NFLBK/2094795?utm_adgroup=Boxes&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Boxes%2C%20Enclosures%2C%20Racks_NEW&utm_term=&utm_content=Boxes&gclid=CjwKCAiAl4WABhAJEiwATUnEF89YZ6J7mwMHrF8YBiMvPcSJYSGLQwPan4NlqhwElw8m3Iptas8XsBoCdrQQAvD_BwE)
+
+Main plastic enclosure page for Hammond [here](https://enclosurehub.com/collections/small-plast)
+
+[1557 series](https://enclosurehub.com/collections/small-plastic-enclosures/products/hammond-type-4-4x-6-6p-polycarbonate-and-abs-plastic-enclosures-1557-series-water-tight-multiple-mounting-features)
+
+Vented sensor enclosure! [here](https://enclosurehub.com/collections/hammond-enclosures/products/abs-plastic-miniature-enclosures-snap-fit-wall-mount-vented-sensor-enclosure)
+
