@@ -3103,3 +3103,8 @@ Main plastic enclosure page for Hammond [here](https://enclosurehub.com/collecti
 
 Vented sensor enclosure! [here](https://enclosurehub.com/collections/hammond-enclosures/products/abs-plastic-miniature-enclosures-snap-fit-wall-mount-vented-sensor-enclosure)
 
+---
+2021-01-15 21:52:47
+
+Latest firmware attempt is [here](https://github.com/p-v-o-s/co2-monitor/commit/1dd94116d17d0d8d63ebd13b496b2d24819e7d22).  Acquires actual CO2 values & uploads them to Bayou-CO2
+
