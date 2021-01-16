@@ -355,5 +355,4 @@ Key file is [here](https://github.com/ha8tks/Leaflet.Maidenhead/blob/master/src/
 
 ![](/img/mothbot/back_and_forth_mv4.png)
 
-
-
+![](/img/mothbot/433_900_compare.png)
