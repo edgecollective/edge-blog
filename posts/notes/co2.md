@@ -3108,3 +3108,4 @@ Vented sensor enclosure! [here](https://enclosurehub.com/collections/hammond-enc
 
 Latest firmware attempt is [here](https://github.com/p-v-o-s/co2-monitor/commit/1dd94116d17d0d8d63ebd13b496b2d24819e7d22).  Acquires actual CO2 values & uploads them to Bayou-CO2
 
+Test feed on Bayou-CO2 is [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
