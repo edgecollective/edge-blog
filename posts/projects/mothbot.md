@@ -17,3 +17,5 @@ Dave S. assembled a Mothbot Version 4 and got to blinky!
 
 The Mothbot repo has been moved now to [https://github.com/edgecollective/mothbot](https://github.com/edgecollective/mothbot).
 
+TODO: check to see whether [this code](https://github.com/edgecollective/dippy-slim/blob/master/firmware/mothbot_screentest/mothbot_screentest.ino) works to display text on MBv4 ...
+

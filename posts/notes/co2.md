@@ -3108,4 +3108,31 @@ Vented sensor enclosure! [here](https://enclosurehub.com/collections/hammond-enc
 
 Latest firmware attempt is [here](https://github.com/p-v-o-s/co2-monitor/commit/1dd94116d17d0d8d63ebd13b496b2d24819e7d22).  Acquires actual CO2 values & uploads them to Bayou-CO2
 
-Test feed on Bayou-CO2 is [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+Test feed on Bayou-CO2 'loft' is at [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+
+---
+2021-01-17 05:04:02
+
+**Loft test feed** continues: [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+
+![](/img/co2/bayou_loft_jan17.png)
+
+Notes on feed above:
+
+**jan 16**
+- had vid meeting in loft at 11 AM  (which involved picking up sensor and holding it near me)
+- cooking happened in morning and afternoon
+- left house for long walk mid-afternoon, return and went up to loft around 5 pm quickly, then left for dinner
+- returned back hom after 8 pm, went up to loft to do some work
+
+**jan 17**
+- got up at 4 AM went into kitchen / living room 
+- went up to loft at 5 AM
+- went back down to living room at 5:15 AM
+
+Note that it seems that when I walk around a bit and go upstairs to loft huffing and puffing, there's an initial spike; the co2 calms down when i start to settle and work at computer quietly.  then level decays further when I leave.
+
+UPDATE: after refreshing feed, not sure this is true; the 'spike' isn't that much higher than what is perhaps 'noise'; the CO2 level does seem to be fairly stably higher when I'm up in loft.
+
+Question: I wonder why there's an apparent dip below 'baseline' 6 PM to 830 PM on Jan 16?  Maybe the doors to house were open a bit?  interesting if we can show that baseline shifts considerably when crack open doors (experiment to be done)
+
