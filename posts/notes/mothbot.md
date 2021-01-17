@@ -373,3 +373,4 @@ Tiny pico power [schematic](https://github.com/tinypico/tinypico-hardware/blob/m
 
 ![](/img/mothbot/tinypico_power.png)
 
+associated p-channel (d-s) LP0404N3T5G mosfet -- [LP0404N3T5G datasheet](https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LP0404N3T5G_C172433.pdf)
