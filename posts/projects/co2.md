@@ -128,7 +128,7 @@ Next steps:
 - [3.7V Lithitum Rechargeable battery (NOTE! JST1.25 connector)](https://www.amazon.com/gp/product/B07CXNQ3ZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 - [Adafruit BMP388](https://www.adafruit.com/product/3966) (optional pressure sensor)
 - [Adafruit MAX4466](https://www.adafruit.com/product/1063) (optional mic)
-
+- 2 X [uxcell Momentary PCB Side Mounting Fixed Bracket Pushbutton Push Button Tact Tactile Switch DIP 2 Terminals 6mmx6mmx12mm](https://www.amazon.com/gp/product/B07JKWC6LH/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)
 
 
 
