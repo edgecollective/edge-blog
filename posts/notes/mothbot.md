@@ -356,3 +356,9 @@ Key file is [here](https://github.com/ha8tks/Leaflet.Maidenhead/blob/master/src/
 ![](/img/mothbot/back_and_forth_mv4.png)
 
 ![](/img/mothbot/433_900_compare.png)
+
+---
+2021-01-16 21:17:20
+
+Some cosmetic fixes, resulting in rev4B!  [github](https://github.com/edgecollective/mothbot/tree/main/ver4B/hardware) | [oshpark](https://oshpark.com/shared_projects/h7LluxAz)
+
