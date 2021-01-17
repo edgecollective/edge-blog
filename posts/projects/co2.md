@@ -117,7 +117,17 @@ Next steps:
 - Basic analysis / workflow leading to identification of peak values, averages, baseline.
 - Reproducing the workflow in R.
 
+---
+2021-01-16 21:19:52
 
+## REV_E Parts list
+
+- **PVOS CO2 Rev_E PCB** -- [oshpark](https://oshpark.com/shared_projects/Sqhe5YpQ) | [github](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_e/atkins)
+- [Sensirion SCD30 CO2 sensor](https://www.sparkfun.com/products/15112)
+- [Heltec Wifi 32 LoRa V2](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=sr_1_4?crid=1PRQFMZWK1EA9&dchild=1&keywords=heltec+lora+esp32&qid=1610850196&s=electronics&sprefix=heltec%2Celectronics%2C149&sr=1-4)
+- [3.7V Lithitum Rechargeable battery (NOTE! JST1.25 connector)](https://www.amazon.com/gp/product/B07CXNQ3ZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+- [Adafruit BMP388](https://www.adafruit.com/product/3966) (optional pressure sensor)
+- [Adafruit MAX4466](https://www.adafruit.com/product/1063) (optional mic)
 
 
 
