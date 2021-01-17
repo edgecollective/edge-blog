@@ -362,3 +362,14 @@ Key file is [here](https://github.com/ha8tks/Leaflet.Maidenhead/blob/master/src/
 
 Some cosmetic fixes, resulting in rev4B!  [github](https://github.com/edgecollective/mothbot/tree/main/ver4B/hardware) | [oshpark](https://oshpark.com/shared_projects/h7LluxAz)
 
+---
+2021-01-17 08:50:37
+
+Itsybitsy [schematic](https://cdn-learn.adafruit.com/assets/assets/000/054/505/original/adafruit_products_schem.png?1527457190), with power circuit:
+
+![](/img/mothbot/itsybitsy_power.png)
+
+Tiny pico power [schematic](https://github.com/tinypico/tinypico-hardware/blob/master/TinyPICO%20Release%20P3/TinyPICO_Schematic.pdf) and power circuit:
+
+![](/img/mothbot/tinypico_power.png)
+

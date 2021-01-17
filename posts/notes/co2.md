@@ -3136,3 +3136,9 @@ UPDATE: after refreshing feed, not sure this is true; the 'spike' isn't that muc
 
 Question: I wonder why there's an apparent dip below 'baseline' 6 PM to 830 PM on Jan 16?  Maybe the doors to house were open a bit?  interesting if we can show that baseline shifts considerably when crack open doors (experiment to be done)
 
+---
+2021-01-17 08:12:24
+
+Just re-entered loft w/ coleman now ...
+
+
