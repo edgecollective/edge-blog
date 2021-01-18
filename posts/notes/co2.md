@@ -3141,4 +3141,40 @@ Question: I wonder why there's an apparent dip below 'baseline' 6 PM to 830 PM o
 
 Just re-entered loft w/ coleman now ...
 
+went back down, then camb back around 8:30 ...
+
+---
+2021-01-18 11:59:52
+
+Working on pulling in parameters ... looks like this is how I did it here:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/blob/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate/cap_params_load_immediate.ino](https://github.com/edgecollective/co2-remote-and-gateway/blob/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate/cap_params_load_immediate.ino)
+
+---
+2021-01-18 12:06:20
+
+Requirements in Arduino IDE for CO2 monitor based on ESP32 ...
+
+IDE setup:
+
+- ESP32 board support in Arduino: [https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+- ESP32 file upload tool: [https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/). Tool is [here](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)
+
+Libraries:
+
+- [Bounce2](https://github.com/thomasfredericks/Bounce2) library (via IDE)
+- U8g2 (via IDE)
+- PubSubClient // https://github.com/knolleary/pubsubclient
+- BMP388_DEV (lindupp, via IDE)
+- Sparkfun SCD30 (via IDE)
+
+---
+2021-01-18 12:49:59
+
+Test feed here: [http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee](http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee)
+
+---
+2021-01-18 13:54:57
+
+Now reading in parameter file and displaying CO2 value with this commit: [https://github.com/p-v-o-s/co2-monitor/commit/39c589e08763c8f280da3e49c05ae70d059a7791](https://github.com/p-v-o-s/co2-monitor/commit/39c589e08763c8f280da3e49c05ae70d059a7791)
 

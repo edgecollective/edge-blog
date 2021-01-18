@@ -19,3 +19,17 @@ The Mothbot repo has been moved now to [https://github.com/edgecollective/mothbo
 
 TODO: check to see whether [this code](https://github.com/edgecollective/dippy-slim/blob/master/firmware/mothbot_screentest/mothbot_screentest.ino) works to display text on MBv4 ...
 
+---
+2021-01-17 10:12:58
+
+![](/img/mothbot/qwiic_breakout.jpg)
+
+Black = GND
+Red = 3.3V
+Blue = SDA
+Yellow = SCL
+
+---
+2021-01-17 11:11:35
+
+![](/img/mothbot/mbv5.png)
