@@ -684,5 +684,10 @@ Batt level continues to hold ... feed [here](http://159.65.226.222:3000/drives/b
 
 ![](/img/valedalama/vale_batt_jan8.png)
 
+---
+2021-01-18 06:59:00
+
+A month!  ![](/img/valedalama/vale_month.png)
+
 
 
