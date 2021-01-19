@@ -3210,3 +3210,46 @@ TODO: We should implement a watchdog that looks to see if successful post and/or
 
 TODO: Should also change the plotting style in Bayou-CO2 to *not* use bezier ...
 
+---
+2021-01-19 09:26:43
+
+More TODOS:
+
+- Watchdog ping every loop
+- Reset if no wifi connection after one iteration
+- autocalibration turn on in bayou settings
+- Bayou-CO2 -- download keys as CSV / JSON
+- Make a Feather ESP32 option? Can be ESP32 or lora feather
+
+ESP32 power req's ...
+
+Observation -- looks like heap stabilizes ...
+
+```
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":331,"tempC":22.7,"humidity":23.25,"mic":0,"auxPressure":1008.91,"auxTempC":19.61,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":328,"tempC":22.52,"humidity":23.64,"mic":0,"auxPressure":1008.86,"auxTempC":19.56,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":332,"tempC":22.65,"humidity":23.66,"mic":0,"auxPressure":1008.85,"auxTempC":19.59,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":348,"tempC":22.55,"humidity":24.13,"mic":0,"auxPressure":1008.89,"auxTempC":19.58,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+```
+
+
