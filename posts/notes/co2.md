@@ -3252,4 +3252,36 @@ http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
 Measurement recorded
 ```
 
+---
+2021-01-19 09:34:25
 
+Get calibration code working ...
+
+TODO: add force calibration value to the Bayou settings
+
+TODO: add field to database indicating whether force calibrated in the last round ...
+
+TODO: pull out configuration values as 'config' file (or put in json param file)
+
+---
+2021-01-19 10:40:54
+
+Looks like by default, SCD30 sensor measurement interval is 2 seconds ... and can't go lower.  
+
+SCD30 datasheet reference p 10 of [https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_AN_SCD30_Interface_Description_D1.pdf](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_AN_SCD30_Interface_Description_D1.pdf)
+
+Just checked -- in fact, it does work to ask if there is new CO2 data available -- that gives us a delay of about 2 sec.
+
+---
+2021-01-19 10:49:03
+
+Added calibration procedure with this commit: [https://github.com/p-v-o-s/co2-monitor/commit/68c467baa1c6b8c20b4b76a5eb5f6a89d55c9508](https://github.com/p-v-o-s/co2-monitor/commit/68c467baa1c6b8c20b4b76a5eb5f6a89d55c9508)
+
+---
+2021-01-19 10:56:50
+
+Fixed an interface bug with canceling forced calibration ...
+
+Now, after pressing the calibrate button, in any case we drop into a 'firstLoop' meausurement, so that we make a measurement, display it, and send it.  Probably a good feature anyway to have a way to send a value immediately.  Might want to indicate graphically that data has been sent ("200" on top right of screen or something)
+
+Also looks like the sensor needs at least a few seconds to warm up (check datasheet) ... maybe we should check for startup and display 'warming up' and show measurement every few seconds ..
