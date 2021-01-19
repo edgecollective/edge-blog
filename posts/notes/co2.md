@@ -3189,3 +3189,20 @@ NOTE: should try to do everything with non-blocking code. This button approach c
 
 TODO: implement this; also factor out display functions.
 
+---
+2021-01-19 04:57:51
+
+Got weird error message -- result seemed to be no wifi connection, but loop still ran and measurement was made / screen updated every measurement interval:
+
+> E (52119735) wifi: esf_buf: t=2 l=76 max:32, alloc:32 no eb, TXQ_BLOCK=0
+
+Really useful post on strings and esp32 and memory [here](https://esp8266life.wordpress.com/2019/01/13/memory-memory-always-memory/)
+
+Looks like free heap is okay.
+
+New test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9](http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9)
+
+Reading in measurement interval from param file initially still not working (fix).
+
+We should implement a watchdog that looks to see if successful post and/or connection and resets if not -- the error message I was seeing might be related to the wifi, apparently
+
