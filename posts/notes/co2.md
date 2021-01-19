@@ -3204,7 +3204,9 @@ New test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827
 
 The current version of the code is here: [https://github.com/p-v-o-s/co2-monitor/commit/af6c57182ef2486cf87aedc404f5fca257c330d0](https://github.com/p-v-o-s/co2-monitor/commit/af6c57182ef2486cf87aedc404f5fca257c330d0).
 
-Reading in measurement interval from param file initially still not working (fix).
+TODO: Reading in measurement interval from param file initially still not working (fix).
 
-We should implement a watchdog that looks to see if successful post and/or connection and resets if not -- the error message I was seeing might be related to the wifi, apparently
+TODO: We should implement a watchdog that looks to see if successful post and/or connection and resets if not -- the error message I was seeing might be related to the wifi, apparently
+
+TODO: Should also change the plotting style in Bayou-CO2 to *not* use bezier ...
 
