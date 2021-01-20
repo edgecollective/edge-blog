@@ -17,5 +17,9 @@ First pass at board:
 
 ![](/img/flood/tideboard.png)
 
-Design files here: [https://github.com/edgecollective/tide-board](https://github.com/edgecollective/tide-board).
+Design files here: [https://github.com/edgecollective/tide-board](https://github.com/edgecollective/tide-board)
+
+1/4 watt -- 10 mm or 0.4 inches 
+
+
 

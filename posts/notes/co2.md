@@ -3341,5 +3341,34 @@ oooh -- and it offers some auto-restart code ... will try that ...
 
 implemented in the 'restart' branch here: [https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor](https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor)
 
+---
+2021-01-20 10:47:23
+
+CORS and associated issues explained [here](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+
+---
+2021-01-20 11:00:02
+
+Ideas discussed w/ Mike:
+
+Bayou / deployment ideas:
+- Mapping out data on a floorplan
+- Deploying in various spaces but starting co-located as a test
+- Cardboard enclosures
+- Lending library
+- Classes on how to use / deploy
+
+Firmware ideas:
+- Add a 'LOG' field to Bayou for error messages / etc for a feed -- include calibration events, reset events, bad connection
+- Add a 'battery level' indicator in the feed, and on the display
+
+Hardware ideas:
+- Label the i2c resistors on the boards
+- Do a "Rev G" ...?
+
+Documentation:
+- Need to spin up pvos.org landing page, documentation, links
+- Need to put in place the web infrastructure on opencollective
+
 
 
