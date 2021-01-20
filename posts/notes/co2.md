@@ -3357,6 +3357,7 @@ Bayou / deployment ideas:
 - Cardboard enclosures
 - Lending library
 - Classes on how to use / deploy
+- Add 'let's encrypt' functionality
 
 Firmware ideas:
 - Add a 'LOG' field to Bayou for error messages / etc for a feed -- include calibration events, reset events, bad connection
@@ -3370,5 +3371,44 @@ Documentation:
 - Need to spin up pvos.org landing page, documentation, links
 - Need to put in place the web infrastructure on opencollective
 
+---
+2021-01-20 11:08:20
+
+How to upload and display an image in NodeJS here: [https://stackoverflow.com/questions/15772394/how-to-upload-display-and-save-images-using-node-js-and-express](https://stackoverflow.com/questions/15772394/how-to-upload-display-and-save-images-using-node-js-and-express)
+
+General impression I'm getting: store image files on file system; store their filenames / references in the relational database.
+
+Oh nice -- can use ImageMagic in NodeJs -- see this link here: [https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js](https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js)
+
+Or you can probe the image size without a full download here: [https://gitehub.com/nodeca/probe-image-size](https://github.com/nodeca/probe-image-size)
+
+One interim solution is: host your own image somewhere, and we can display feed data on top of it via URL ...
+
+How to start a nodejs project here: [https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/](https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/)
+
+---
+2021-01-20 11:40:26
+
+Trying to work in this repo here: [https://github.com/edgecollective/floorplan](https://github.com/edgecollective/floorplan)
+
+This is the file that seems to have been the demo file I was playing with around mapping: [https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html)
+
+
+Handling CORS [here](https://flaviocopes.com/express-cors/) -- good guide; and:
+
+good guide [here](https://expressjs.com/en/resources/middleware/cors.html#demo), which leads to:
+- [https://github.com/troygoode/node-cors-server/blob/master/server.js](https://github.com/troygoode/node-cors-server/blob/master/server.js)
+
+---
+2021-01-20 15:24:42
+
+Follwing this example [here](https://www.htmlgoodies.com/beyond/javascript/serve-external-content-from-your-express.js-apps.html)
+
+Guide to pug here: [https://www.sitepoint.com/a-beginners-guide-to-pug/](https://www.sitepoint.com/a-beginners-guide-to-pug/)
+
+---
+2021-01-20 16:57:33
+
+Good start on plotting data in separate Node server here: [https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733](https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733)
 
 
