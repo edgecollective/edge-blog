@@ -3337,3 +3337,7 @@ Another nice post about dropping the wifi here: [https://rntlab.com/question/wif
 
 oooh -- and it offers some auto-restart code ... will try that ...
 
+implemented in the 'restart' branch here: [https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor](https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor)
+
+
+
