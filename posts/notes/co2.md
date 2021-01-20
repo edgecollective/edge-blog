@@ -3319,6 +3319,8 @@ http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
 
 -- is this Bayou, or the monitor?
 
+UPDATE: answer -- it wasn't Bayou.
+
 Pressed reset, and it just worked.  Need to look into this as a bug; but this is another reason to set up a 'reset' if we don't a good connection to the server.
 
 Ah -- it could be that the IP address changes overnight.
