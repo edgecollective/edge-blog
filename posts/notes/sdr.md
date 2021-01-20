@@ -56,3 +56,7 @@ RPi SDR scanner via adafruit [here](https://learn.adafruit.com/freq-show-raspber
 
 Raspberry Pi websdr [here](https://github.com/reynico/raspberry-websdr)
 
+---
+2021-01-19 20:35:50
+
+Cheap ham antenna here: [https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)

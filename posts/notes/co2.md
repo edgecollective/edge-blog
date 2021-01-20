@@ -3285,3 +3285,55 @@ Fixed an interface bug with canceling forced calibration ...
 Now, after pressing the calibrate button, in any case we drop into a 'firstLoop' meausurement, so that we make a measurement, display it, and send it.  Probably a good feature anyway to have a way to send a value immediately.  Might want to indicate graphically that data has been sent ("200" on top right of screen or something)
 
 Also looks like the sensor needs at least a few seconds to warm up (check datasheet) ... maybe we should check for startup and display 'warming up' and show measurement every few seconds ..
+
+----
+2021-01-20 05:48:45
+
+Stopped working overnight:
+
+```
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":383,"tempC":18.98,"humidity":25.85,"mic":0,"auxPressure":1004.71,"auxTempC":19.74,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":376,"tempC":18.9,"humidity":25.87,"mic":0,"auxPressure":1004.66,"auxTempC":19.57,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":368,"tempC":19.02,"humidity":25.47,"mic":0,"auxPressure":1004.64,"auxTempC":19.62,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":363,"tempC":19.18,"humidity":25.34,"mic":0,"auxPressure":1004.58,"auxTempC":19.96,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":372,"tempC":19,"humidity":25.77,"mic":0,"auxPressure":1004.47,"auxTempC":19.8,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":377,"tempC":18.9,"humidity":25.87,"mic":0,"auxPressure":1004.4,"auxTempC":19.66,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+```
+
+-- is this Bayou, or the monitor?
+
+Pressed reset, and it just worked.  Need to look into this as a bug; but this is another reason to set up a 'reset' if we don't a good connection to the server.
+
+Ah -- it could be that the IP address changes overnight.
+
+Good thread on watchdog style approach here: [https://github.com/espressif/arduino-esp32/issues/653](https://github.com/espressif/arduino-esp32/issues/653)
+
+More on this here: [https://github.com/Hieromon/AutoConnect/issues/292](https://github.com/Hieromon/AutoConnect/issues/292)
+
+This might be the approach to take: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-757340418](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-757340418).  
+
+Skeleton code here: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-756634645](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-756634645)
+
+There is a patched release here: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-759202689](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-759202689) that might address the issue, and apparently release v1.2.3 will fix it?
+
+Another nice post about dropping the wifi here: [https://rntlab.com/question/wifi-connection-drops-auto-reconnect/](https://rntlab.com/question/wifi-connection-drops-auto-reconnect/)
+
+oooh -- and it offers some auto-restart code ... will try that ...
+
