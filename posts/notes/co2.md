@@ -3419,3 +3419,9 @@ Latest:  try this link: http://192.168.1.163:4000/map/cbb8d444591def61d4e59f9b53
 Some layout details here: [https://coder-coder.com/display-divs-side-by-side/](https://coder-coder.com/display-divs-side-by-side/)
 
 Latest attempt is at this commit of floorplan in the url-load branch, here: [https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf](https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf)
+
+---
+2021-01-20 20:59:49
+
+Ongoing test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9](http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9)
+
