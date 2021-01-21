@@ -1011,3 +1011,20 @@ Iteration in pug here: [https://pugjs.org/language/iteration.html](https://pugjs
 feed-map can now display a simple list of feeds here: [https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8](https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8)
 
 ![](/img/alt-server/feemap1.png)
+
+---
+2021-01-21 17:22:56
+
+Creating dynamic ides in a loop with pug here [https://www.dev-tips-and-tricks.com/create-dynamic-ids-in-a-loop-with-pug-jade](https://www.dev-tips-and-tricks.com/create-dynamic-ids-in-a-loop-with-pug-jade)
+
+Update: this commit shows the basic functionality!
+
+[https://github.com/edgecollective/feed-map/commit/765a9eec9b101e0e507075ec3b0e6aae8b9fec3b](https://github.com/edgecollective/feed-map/commit/765a9eec9b101e0e507075ec3b0e6aae8b9fec3b)
+
+![](/img/alt-server/feedmap1.png)
+
+Added nicer formatting:
+
+![](/img/alt-server/feedmap2.png)
+
+Associated git commit is here: [https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e](https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e)
