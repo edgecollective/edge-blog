@@ -3411,4 +3411,11 @@ Guide to pug here: [https://www.sitepoint.com/a-beginners-guide-to-pug/](https:/
 
 Good start on plotting data in separate Node server here: [https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733](https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733)
 
+---
+2021-01-20 20:38:45
 
+Latest:  try this link: http://192.168.1.163:4000/map/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee?key=co2
+
+Some layout details here: [https://coder-coder.com/display-divs-side-by-side/](https://coder-coder.com/display-divs-side-by-side/)
+
+Latest attempt is at this commit of floorplan in the url-load branch, here: [https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf](https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf)
