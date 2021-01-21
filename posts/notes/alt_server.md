@@ -966,3 +966,48 @@ good example of chart setup here: [view-source:https://www.chartjs.org/samples/l
 Reference for p2p-farm-server chartjs setup [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/fixhop/public/js/drive.js)
 
 perhaps-useful chartjs formatting [here](https://embed.plnkr.co/JOI1fpgWIS0lvTeLUxUp/)
+
+---
+2021-01-21 11:20:38
+
+Structure for a basic todo list app here: [https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c](https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c)
+
+Associated code on github here: [https://github.com/chisom5/nodejs-todoList](https://github.com/chisom5/nodejs-todoList)
+
+
+Idea:  
+- Make a similar system to Bayou
+- Each 'map' has an associated image file, a list of feeds, feed locations
+- So everything is indexed by the map, instead of the feed.  The map gets a 'mapkey' and a 'writekey'
+- Once you have a mapkey, you can add new feeds to the map, and change the map's metadata
+
+Idea: add nodemon for auto restart of bayou while developing
+
+Using React-like library 'Riot' here: [https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/](https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/), with associated code here: [https://github.com/revington/riot-express-todo-list}](https://github.com/revington/riot-express-todo-list)
+
+Drawing a grid on a canvas here [https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas](https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas)
+
+postgres tutorial again here: [https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+---
+2021-01-21 11:38:40
+
+
+Simpler todo app approach here -- these are the elements I think I need -- [https://medium.com/@atingenkay/creating-a-todo-app-with-node-js-express-8fa51f39b16f](https://medium.com/@atingenkay/creating-a-todo-app-with-node-js-express-8fa51f39b16f)
+
+And on github: [https://github.com/missating/nodejs-todo](https://github.com/missating/nodejs-todo)
+
+Okay -- TODO: redo that last repo, using pug.
+Then create feedmaps -- the equiv of bayou but by pulling in new feeds from various sources.  depending on the type of feed, can have various functionality.  so, add a 'feed type' variable -- e.g. bayou-co2 is one such type.
+
+---
+2021-01-21 12:10:58
+
+Iteration in pug here: [https://pugjs.org/language/iteration.html](https://pugjs.org/language/iteration.html)
+
+---
+2021-01-21 12:42:26
+
+feed-map can now display a simple list of feeds here: [https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8](https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8)
+
+![](/img/alt-server/feemap1.png)
