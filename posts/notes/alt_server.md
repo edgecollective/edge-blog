@@ -1090,4 +1090,16 @@ Now plotting multiple co2 plots!  at this commit: [https://github.com/edgecollec
 
 ![](/img/alt-server/feedmap4.png)
 
+---
+2021-01-22 18:42:23
 
+Hosting via google drive here: [https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website](https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website)
+
+---
+2021-01-22 18:56:25
+
+Add asylum map:
+
+![](/img/alt-server/feedmap_asylum.png)
+
+git commit: [https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80](https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80)
