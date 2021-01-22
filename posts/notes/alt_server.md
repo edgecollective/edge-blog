@@ -1056,6 +1056,38 @@ More formatting tweaks -- [https://github.com/edgecollective/feed-map/commit/2b8
 ---
 2021-01-22 11:16:31
 
-Created a 'checkbox' functionality, and also have charts graphed separately, in this branch: [https://github.com/edgecollective/feed-map/tree/checkbox-exploded](https://github.com/edgecollective/feed-map/tree/checkbox-exploded)
+Created a 'checkbox' functionality, and also have charts graphed separately, in this commit and branch: [https://github.com/edgecollective/feed-map/commit/e75252d43b287c398a6e82fa02e1599dfe307711](https://github.com/edgecollective/feed-map/commit/e75252d43b287c398a6e82fa02e1599dfe307711)
 
 ![](/img/alt-server/exploded.png)
+
+---
+2021-01-22 14:14:58
+
+Note: this is the nodejs-todo app I built feedmap upon, which has a nice 'delete note' functionality: [https://github.com/missating/nodejs-todo](https://github.com/missating/nodejs-todo)
+
+This code might be useful re: deleting items in postgres: [https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c](https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c)
+
+Here's a nice guide on using knex -- [https://medium.com/@tobie.tsuzuki/getting-started-with-node-js-express-and-knex-5640f595df98](https://medium.com/@tobie.tsuzuki/getting-started-with-node-js-express-and-knex-5640f595df98)
+
+Interesting post on sequelize vs knex vs objection.js here: [https://stackoverflow.com/questions/56028287/how-is-node-js-knex-similar-different-to-sequelize](https://stackoverflow.com/questions/56028287/how-is-node-js-knex-similar-different-to-sequelize)
+
+And an interesting link here: [https://www.jakso.me/blog/objection-to-orm-hatred](https://www.jakso.me/blog/objection-to-orm-hatred) -- looks like objection.js might be a great idea.
+
+---
+2021-01-22 14:31:57
+
+Overlay line on chart.js [https://stackoverflow.com/questions/28076525/overlay-line-on-chart-js-graph](https://stackoverflow.com/questions/28076525/overlay-line-on-chart-js-graph)
+
+---
+2021-01-22 14:43:27
+
+Good example of chartjs datasets: [https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/#2-line-chart](https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/#2-line-chart)
+
+---
+2021-01-22 18:34:46
+
+Now plotting multiple co2 plots!  at this commit: [https://github.com/edgecollective/feed-map/commit/91adae48079a21fcf9fcc286ccd85a7ac2a68e91](https://github.com/edgecollective/feed-map/commit/91adae48079a21fcf9fcc286ccd85a7ac2a68e91)
+
+![](/img/alt-server/feedmap4.png)
+
+

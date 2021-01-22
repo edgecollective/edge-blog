@@ -3441,3 +3441,20 @@ Mike B. comments on the SCD30:
 > Looks like a lamp at one end, and two legs are the two wavelengths - sensing, and reference;
 > 75mA when measuring implies about 70 Ohms for that lamp.
 
+## NDIR refrence circuit for Alphasense CO2 Sensor
+
+![](/img/co2/alphasense.png)
+
+Link here: [http://www.alphasense.com/WEB1213/wp-content/uploads/2016/01/AAN_202-04.pdf](http://www.alphasense.com/WEB1213/wp-content/uploads/2016/01/AAN_202-04.pdf)e
+
+--
+2021-01-22 14:28:56
+
+## Design Review w MB
+
+- Keep constant scale for all graphs, to aid comparison
+- Error bars and thresholds (if device is calibration -- maybe, make optional, with warning)
+- Several plots overlaid, for easy comparison
+- Deploy at least one 'baseline' reference sensor in a room that doesn't have people, if possible, for immediate comparison to 'baseline' 
+- Assess impact of pressure on device
+- Make a calibration rig, with source of CO2 (or Argon)
