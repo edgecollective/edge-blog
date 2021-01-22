@@ -1028,3 +1028,27 @@ Added nicer formatting:
 ![](/img/alt-server/feedmap2.png)
 
 Associated git commit is here: [https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e](https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e)
+
+---
+2021-01-21 18:28:59
+
+Nice reference for doing the map, via p2p-server code, here:
+
+[https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html)
+
+---
+2021-01-21 18:39:13
+
+Got image map working!  at this commit -- [https://github.com/edgecollective/feed-map/commit/72e90916c5bf5b21d748a5e4e54451f93a25c654](https://github.com/edgecollective/feed-map/commit/72e90916c5bf5b21d748a5e4e54451f93a25c654)
+
+---
+2021-01-21 18:46:53
+
+Got markers working! commit -- [https://github.com/edgecollective/feed-map/commit/2e4281fc405246c231ce817b35ee4f99f7d9b80c](https://github.com/edgecollective/feed-map/commit/2e4281fc405246c231ce817b35ee4f99f7d9b80c)
+
+---
+2021-01-21 19:01:20
+
+More formatting tweaks -- [https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce](https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce)
+
+![](/img/alt-server/feedmap3.png)
