@@ -3426,22 +3426,18 @@ Latest attempt is at this commit of floorplan in the url-load branch, here: [htt
 Ongoing test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9](http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9)
 
 ---
-2021-01-21 10:49:09
+2021-01-22 11:22:08
 
-Structure for a basic todo list app here: [https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c](https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c)
+## NDIR reference circuit
 
-Associated code on github here: [https://github.com/chisom5/nodejs-todoList](https://github.com/chisom5/nodejs-todoList)
+May be very similar to one used in SCD30 ...
 
+"Complete Gas Sensor Circuit Using Nondispersive Infrared (NDIR)":  link: [https://www.analog.com/media/en/analog-dialogue/volume-50/number-4/articles/complete-gas-sensor-circuit.pdf](https://www.analog.com/media/en/analog-dialogue/volume-50/number-4/articles/complete-gas-sensor-circuit.pdf)
 
-Idea:  
-- Make a similar system to Bayou
-- Each 'map' has an associated image file, a list of feeds, feed locations
-- So everything is indexed by the map, instead of the feed.  The map gets a 'mapkey' and a 'writekey'
-- Once you have a mapkey, you can add new feeds to the map, and change the map's metadata
+![](/img/co2/ad_ndir_ref.png)
 
-Idea: add nodemon for auto restart of bayou while developing
+Mike B. comments on the SCD30: 
 
-Using React-like library 'Riot' here: [https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/](https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/), with associated code here: [https://github.com/revington/riot-express-todo-list}](https://github.com/revington/riot-express-todo-list)
-
-Drawing a grid on a canvas here [https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas](https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas)
+> Looks like a lamp at one end, and two legs are the two wavelengths - sensing, and reference;
+> 75mA when measuring implies about 70 Ohms for that lamp.
 
