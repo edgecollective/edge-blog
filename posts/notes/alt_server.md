@@ -1052,3 +1052,10 @@ Got markers working! commit -- [https://github.com/edgecollective/feed-map/commi
 More formatting tweaks -- [https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce](https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce)
 
 ![](/img/alt-server/feedmap3.png)
+
+---
+2021-01-22 11:16:31
+
+Created a 'checkbox' functionality, and also have charts graphed separately, in this branch: [https://github.com/edgecollective/feed-map/tree/checkbox-exploded](https://github.com/edgecollective/feed-map/tree/checkbox-exploded)
+
+![](/img/alt-server/exploded.png)
