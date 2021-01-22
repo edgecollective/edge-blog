@@ -685,4 +685,12 @@ Batt level continues to hold ... feed [here](http://159.65.226.222:3000/drives/b
 ![](/img/valedalama/vale_batt_jan8.png)
 
 
+---
+2021-01-21 21:06:53
+
+Still going strong! feed [http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080cadbfda6b468a9505835a82aadd5762c](http://159.65.226.222:3000/drives/b02f7797b045956e79c019f889dfb080cadbfda6b468a9505835a82aadd5762c)
+
+
+![](/img/valedalama/longrunning.png)
+
 
