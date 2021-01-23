@@ -1103,3 +1103,10 @@ Add asylum map:
 ![](/img/alt-server/feedmap_asylum.png)
 
 git commit: [https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80](https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80)
+
+---
+2021-01-23 10:15:25
+
+Revisiting my own documentation / repo for a minimal node + sqlite endpoint here [https://github.com/edgecollective/nodejs-sqlite-endpoint](https://github.com/edgecollective/nodejs-sqlite-endpoint)
+
+

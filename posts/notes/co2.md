@@ -3458,3 +3458,13 @@ Link here: [http://www.alphasense.com/WEB1213/wp-content/uploads/2016/01/AAN_202
 - Deploy at least one 'baseline' reference sensor in a room that doesn't have people, if possible, for immediate comparison to 'baseline' 
 - Assess impact of pressure on device
 - Make a calibration rig, with source of CO2 (or Argon)
+
+---
+2021-01-23 11:52:42
+
+Current case for REV_E ... 1591BTCL
+
+- Case [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769)
+- Mounting flange [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902)
+- Adapter inserts [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666)
+
