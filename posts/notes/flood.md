@@ -21,5 +21,13 @@ Design files here: [https://github.com/edgecollective/tide-board](https://github
 
 1/4 watt -- 10 mm or 0.4 inches 
 
+---
+2021-01-24 09:16:27
+
+Dave S. in Belfast's successful test of the Maxbotix Ultrasonice + Heltec Wifi Lora 32 v2 -- [video](https://youtu.be/KpKlBCJnksk)
+
+![](/img/flood/heltec_maxbotix.png)
+
+
 
 
