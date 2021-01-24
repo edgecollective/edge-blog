@@ -1156,6 +1156,8 @@ New branch -- postgres -- mimics features of Bayou-CO2.
 
 Basic working setup here: [https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1](https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1)
 
+![](/img/alt-server/feedmap_manage.png)
+
 Notes:
 
 - Can do similar forms to 'create' and 'manage' a feedmap; to 'manage', need to enter pubkey and privkey -- can follow format of bayou-CO2 ...
