@@ -1109,4 +1109,61 @@ git commit: [https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee569
 
 Revisiting my own documentation / repo for a minimal node + sqlite endpoint here [https://github.com/edgecollective/nodejs-sqlite-endpoint](https://github.com/edgecollective/nodejs-sqlite-endpoint)
 
+---
+2021-01-23 15:38:16
+
+Good tutorial for sqlite3: [https://www.sqlitetutorial.net/sqlite-nodejs/query/](https://www.sqlitetutorial.net/sqlite-nodejs/query/)
+
+---
+2021-01-23 15:52:07
+
+Using sqlite3 with async await here: [https://www.scriptol.com/sql/sqlite-async-await.php](https://www.scriptol.com/sql/sqlite-async-await.php)
+
+---
+2021-01-23 16:12:29
+
+Switching back to postgres:
+
+> sudo -i -u postgres
+> createdb feedmap1;
+> psql feedmap1
+
+then:
+
+CREATE TABLE feedmaps(
+    feedmap_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255),
+    map_url VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    feedmap_id INT,
+    feed_base_url VARCHAR(255),
+    feed_public_key VARCHAR(255),
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feedmap
+        FOREIGN KEY(feedmap_id)
+            REFERENCES feedmaps(feedmap_id)
+);
+
+---
+2021-01-23 22:14:02
+
+New branch -- postgres -- mimics features of Bayou-CO2.
+
+Basic working setup here: [https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1](https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1)
+
+Notes:
+
+- Can do similar forms to 'create' and 'manage' a feedmap; to 'manage', need to enter pubkey and privkey -- can follow format of bayou-CO2 ...
+
+Flow:
+- Create a feedmap
+- Then, you get sent to the 'manage' page.  
+- You can also get to the 'manage' page by entering a pubkey and privkey for a feed. 
+- Perhaps there is a 'manage' button on the feed landing page, which then prompts for a privatekey, then takes you to the 'manage' page.
+- Would be nice to be able to change the map, and modify the feeds; but at first, okay if it's 'throwaway' and you need to start over ...
 
