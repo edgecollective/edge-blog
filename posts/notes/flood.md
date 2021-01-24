@@ -28,6 +28,12 @@ Dave S. in Belfast's successful test of the Maxbotix Ultrasonice + Heltec Wifi L
 
 ![](/img/flood/heltec_maxbotix.png)
 
+---
+2021-01-24 09:24:36
+
+Possible RTCZero support on the IBM4? [https://github.com/arduino-libraries/RTCZero/pull/66](https://github.com/arduino-libraries/RTCZero/pull/66).
+
+Issue prior: because the IBM4 is a 'crystal-less' design (I think the IBM0, too? But not the Feather version of these boards?) there was some additional code that needed to be written ... but looks like the above pull request purports to fix it ... worth trying!
 
 
 
