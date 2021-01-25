@@ -3468,3 +3468,9 @@ Current case for REV_E ... 1591BTCL
 - Mounting flange [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902)
 - Adapter inserts [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666)
 
+---
+2021-01-25 11:25:35
+
+v0.1-alpha release of the firmware for REV_F!
+
+[https://github.com/p-v-o-s/co2-monitor/releases](https://github.com/p-v-o-s/co2-monitor/releases)
