@@ -16,8 +16,6 @@ Named after the [Passagassawakeag_River](https://en.wikipedia.org/wiki/Passagass
 
 ### - [Notes on Kicad Part I](#kicad1)
 
-
-
 ---
 2021-01-26 09:17:35
 
@@ -70,14 +68,14 @@ Designing the device in KiCAD: [https://gitlab.com/edgecollective/pbot/pbot-hard
 
 After laying out symbols in the schematic editor, the next steps are:
 
-### Assign PCB footprints.
+### 1. Assign PCB footprints.
 
 In the *schematic editor*, select the "Assign PCB Footprints" button.  It'll bring up a dialog that allows you to assign footprints to the symbols you've got in the schematic editor.
 
 ![](/img/pbot/assign_footprints.png)
 
 
-### Update PCB from schematic.
+### 2. Update PCB from schematic.
 
 In the *pcb layout editor*, select the "Update PCB From Schematic" button.  It'll import any recent (saved) changes to the schematic.  You might need to fiddle with the dialog settings in order to have it do the proper thing.
 
