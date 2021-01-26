@@ -11,6 +11,14 @@ blurb: <b>Passagassawakeag Bot.</b> Environmental monitoring for education, farm
 Named after the [Passagassawakeag_River](https://en.wikipedia.org/wiki/Passagassawakeag_River) in Maine.
 
 ---
+
+## Misc Index
+
+### [Notes on Kicad Part I](#kicad1)
+
+
+
+---
 2021-01-26 09:17:35
 
 Collection of repositories on gitlab here: [https://gitlab.com/edgecollective/pbot](https://gitlab.com/edgecollective/pbot)
@@ -55,3 +63,22 @@ Designing the device in KiCAD: [https://gitlab.com/edgecollective/pbot/pbot-hard
 ![](/img/pbot/pbot_board.png)
 
 ![](/img/pbot/pbot_3d.png)
+
+## <a name="kicad1"></a>KiCAD notes: Assigning footprints and updating pcb 
+
+![](/img/pbot/update_pcb_from_schematic.png)
+
+After laying out symbols in the schematic editor, the next steps are:
+
+### Assign PCB footprints.
+
+In the *schematic editor*, select the "Assign PCB Footprints" button.  It'll bring up a dialog that allows you to assign footprints to the symbols you've got in the schematic editor.
+
+![](/img/pbot/assign_footprints.png)
+
+
+### Update PCB from schematic.
+
+In the *pcb layout editor*, select the "Update PCB From Schematic" button.  It'll import any recent (saved) changes to the schematic.  You might need to fiddle with the dialog settings in order to have it do the proper thing.
+
+![](/img/pbot/update_pcb_from_schematic.png)

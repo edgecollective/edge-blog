@@ -1169,3 +1169,8 @@ Flow:
 - Perhaps there is a 'manage' button on the feed landing page, which then prompts for a privatekey, then takes you to the 'manage' page.
 - Would be nice to be able to change the map, and modify the feeds; but at first, okay if it's 'throwaway' and you need to start over ...
 
+---
+2021-01-26 14:53:50
+
+Adding x,y coord display over image, here: [https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the](https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the)
+
