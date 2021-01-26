@@ -8,11 +8,10 @@ image: /img/placeholder.png
 blurb: <b>Passagassawakeag Bot.</b> Environmental monitoring for education, farming, water montoring.  Free and Open Source, modular; easy to assemble, easy to deploy, easy to redesign with open source tools.
 ---
 
-([Passagassawakeag_River](https://en.wikipedia.org/wiki/Passagassawakeag_River))
+Named after the [Passagassawakeag_River](https://en.wikipedia.org/wiki/Passagassawakeag_River) in Maine.
 
 ---
 2021-01-26 09:17:35
-
 
 Collection of repositories on gitlab here: [https://gitlab.com/edgecollective/pbot](https://gitlab.com/edgecollective/pbot)
 
@@ -30,11 +29,12 @@ The ItsyBitsy design by Adafruit -- similar to their Feather, or the Arduino Pro
 
 We base our 'PBot' design off the ItsyBitsy ...
 
-## Hardware
+---
+2021-01-26 10:47:19
 
 Designing the device in KiCAD: [https://gitlab.com/edgecollective/pbot/pbot-hardware](https://gitlab.com/edgecollective/pbot/pbot-hardware)
 
-### Itsy Bitsy M4
+## Itsy Bitsy M4
 
 [IBM4 on Adafruit](https://www.adafruit.com/product/3800)
 
@@ -42,11 +42,16 @@ Designing the device in KiCAD: [https://gitlab.com/edgecollective/pbot/pbot-hard
 
 ![](/img/pbot/itsybitsy_back.jpg)
 
-### RFM95 Breakout
+## RFM95 Breakout
 
 [RFM95 Breakout on Adafruit](https://www.adafruit.com/product/3072)
 
 ![](/img/pbot/rfm95_breakout.jpg)
 
+## First Pass at Schematic and Layout
 
+![](/img/pbot/base_schematic.png)
 
+![](/img/pbot/pbot_board.png)
+
+![](/img/pbot/pbot_3d.png)
