@@ -3474,3 +3474,11 @@ Current case for REV_E ... 1591BTCL
 v0.1-alpha release of the firmware for REV_F!
 
 [https://github.com/p-v-o-s/co2-monitor/releases](https://github.com/p-v-o-s/co2-monitor/releases)
+
+---
+2021-01-25 19:14:15
+
+Added more info to the screen!
+
+![](/img/co2/rev_f_mucho_info.png)
+
