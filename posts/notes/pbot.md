@@ -14,7 +14,7 @@ Named after the [Passagassawakeag_River](https://en.wikipedia.org/wiki/Passagass
 
 ## Misc Index
 
-### [Notes on Kicad Part I](#kicad1)
+### - [Notes on Kicad Part I](#kicad1)
 
 
 
