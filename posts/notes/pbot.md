@@ -20,5 +20,12 @@ Collection of repositories on gitlab here: [https://gitlab.com/edgecollective/pb
 
 Designing the device in KiCAD: [https://gitlab.com/edgecollective/pbot/pbot-hardware](https://gitlab.com/edgecollective/pbot/pbot-hardware)
 
+### Itsy Bitsy M4
+
+[IBM4 on Adafruit](https://www.adafruit.com/product/3800)
+
 ![](/img/pbot/itsybitsy.jpg)
+
+![](/img/pbot/itsybitsy_back.jpg)
+
 
