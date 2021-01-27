@@ -3483,7 +3483,23 @@ Added more info to the screen!
 ![](/img/co2/rev_f_mucho_info.png)
 
 ---
-2021-01-26 13:18:29
+2021-01-27 07:46:09
 
-![](/img/co2/pvos_co2_rev_f_display_sm_flip.jpg)
+Two devices:
+
+![](/img/co2/double_sm.jpg)
+
+ESP-1cfe
+posting to: [http://data.pvos.org/co2/data/a00aed3265bf99e1784168ac9b1b509f30adfe9d00a2918d](http://data.pvos.org/co2/data/a00aed3265bf99e1784168ac9b1b509f30adfe9d00a2918d)
+
+
+and
+
+ESP-2c7e
+posting to: [http://data.pvos.org/co2/data/e9d7a2df343e8e6d0bf6c169011be8721ee9c24707ad7347](http://data.pvos.org/co2/data/e9d7a2df343e8e6d0bf6c169011be8721ee9c24707ad7347)
+
+---
+2021-01-27 09:24:36
+
+SCD30 enclosure app note [https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg](https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg)
 
