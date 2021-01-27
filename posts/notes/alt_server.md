@@ -1174,3 +1174,17 @@ Flow:
 
 Adding x,y coord display over image, here: [https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the](https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the)
 
+---
+2021-01-26 20:59:05
+
+Getting close w/ feedmaps! [https://gitlab.com/p-v-o-s/co2/feedmap/-/commit/15b5d91c469c17b3fbbd03ba5ab6b6eaf0b70869](https://gitlab.com/p-v-o-s/co2/feedmap/-/commit/15b5d91c469c17b3fbbd03ba5ab6b6eaf0b70869)
+
+![](/img/alt-server/manage_feeds.png)
+
+The issue now is that we need to add "shortname" and "coords" to each feed listed in the feedmap database.  
+Need to modify the database.
+
+Also: need to remove "name" from the bayou-co2. Perhaps just use the first few chars as the "name".  
+
+
+
