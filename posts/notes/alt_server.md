@@ -1186,5 +1186,13 @@ Need to modify the database.
 
 Also: need to remove "name" from the bayou-co2. Perhaps just use the first few chars as the "name".  
 
+---
+2021-01-27 11:14:20
 
+![](/img/alt-server/manage_feeds_c.png)
 
+---
+2021-01-27 19:55:39
+
+Feedmap hacking:
+[http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba](http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba)

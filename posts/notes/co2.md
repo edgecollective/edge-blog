@@ -3503,3 +3503,7 @@ posting to: [http://data.pvos.org/co2/data/e9d7a2df343e8e6d0bf6c169011be8721ee9c
 
 SCD30 enclosure app note [https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg](https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg)
 
+---
+2021-01-27 19:57:10
+
+![](/img/co2/a2.png)
