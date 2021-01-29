@@ -3507,3 +3507,106 @@ SCD30 enclosure app note [https://www.google.com/url?q=https://www.sensirion.com
 2021-01-27 19:57:10
 
 ![](/img/co2/a2.png)
+
+---
+2021-01-28 08:21:57
+
+TODOS:
+- config.h pull in
+- do everything with char instead of strings (later?)
+- factor out 'display' function
+- present all info on main screen
+- unique esp32 ID (later?)
+- 'trim' the user input (later?)
+- add relevant fields to bayou-co2
+
+---
+2021-01-28 14:59:42
+
+Article on airborne covid and CO2 montoring [https://www.aol.com/article/lifestyle/2020/08/12/the-best-ways-to-reduce-the-risk-of-covid-19-indoors/24589315/](https://www.aol.com/article/lifestyle/2020/08/12/the-best-ways-to-reduce-the-risk-of-covid-19-indoors/24589315/)
+
+
+---
+2021-01-28 15:28:17
+
+![](/img/co2/force_fed.png)
+
+---
+2021-01-28 17:49:17
+
+Adding microSD functionality to the Heltec ...
+
+[https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/](https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/)
+
+First get the libraries ...
+
+Maybe it's possible to talk to SCD30 i2c over OLED i2c (as did on Quahog)?  see [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/SD/SD_Time/SD_Time.ino](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/SD/SD_Time/SD_Time.ino)
+
+Ah, SD card might require resistors!  See answer here: [https://stackoverflow.com/questions/57454066/how-to-use-2-spi-devices-lora-and-sd-card-on-esp32](https://stackoverflow.com/questions/57454066/how-to-use-2-spi-devices-lora-and-sd-card-on-esp32)
+
+Also this info here -- looks like it can get dug out!  [http://ldsrc.blogspot.com/2018/02/micro-sd-card-for-esp32.html](http://ldsrc.blogspot.com/2018/02/micro-sd-card-for-esp32.html)
+
+---
+2021-01-29 11:19:51
+
+Switching over to Feather ESP32 ...
+
+Arduino SD Card library + Feather breakout ... [https://learn.adafruit.com/adafruit-adalogger-featherwing/using-the-sd-card](https://learn.adafruit.com/adafruit-adalogger-featherwing/using-the-sd-card)
+
+[Adafruit microsd breakout board](https://www.adafruit.com/product/254)
+
+Trying Examples > SD > Cardinfo
+
+Note: important code for multiple SPI buses (for use later when doing microSD + lora): [https://github.com/jonashoechst/ttgo-lora-sd](https://github.com/jonashoechst/ttgo-lora-sd)
+
+works ...
+
+[1591 Page on Hammond](http://www.hammondmfg.com/dwg2.htm)
+[1591BTCL Listing on Digikey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769)
+[Enclosure datasheet with screw positions](http://www.hammondmfg.com/pdf/1591B.pdf)
+
+## from datasheet
+
+horizontal cover inside lip: 107.7
+horizontal screw distance: 98.3
+horizonal span (screw, inside lip): (107.7-98.3)/2 =
+
+vertical screw distance: 48.4
+vertical cover inside lip: 57.8
+vertical span (screw, inside lip): (57.8-48.4)/2 = 
+
+## sit inside enclosure
+
+horizontal span: 106 mm
+horiz screw dist: 98.3
+horiz screw center to edge: (106-98.3)/2 = 3.85
+
+vertical span: 56 mm
+vert screw dist: 48.4
+vert screw center to edge: (56-48.4)/2 = 3.8
+
+
+x,y:
+
+top left: 3.85,3.8
+top right: 3.85+98.3, 3.8 = 102.15,3.8
+bottom left: 3.85, 3.8+48.4 = 3.85, 52.2
+bottom right: 102.15, 52.2
+
+
+
+### USB "up angle"
+
+[Listing on amazon](https://www.amazon.com/StarTech-com-Micro-USB-Cable-Cord/dp/B00ENZDFQ4/ref=sr_1_5?dchild=1&keywords=micro%2Busb%2Bright%2Bangle&qid=1611948044&sr=8-5&th=1)
+
+[![](/img/co2/up_angle.png)](https://www.amazon.com/StarTech-com-Micro-USB-Cable-Cord/dp/B00ENZDFQ4/ref=sr_1_5?dchild=1&keywords=micro%2Busb%2Bright%2Bangle&qid=1611948044&sr=8-5&th=1)
+
+## Pi as Bridge
+
+[https://www.raspberrypi.org/documentation/configuration/wireless/access-point-bridged.md](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-bridged.md)
+
+[https://www.balena.io/blog/turn-a-raspberry-pi-into-a-wi-fi-access-point-or-repeater/](https://www.balena.io/blog/turn-a-raspberry-pi-into-a-wi-fi-access-point-or-repeater/)
+
+[https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6](https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6)
+
+[https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390](https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390)
