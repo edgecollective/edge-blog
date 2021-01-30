@@ -1129,6 +1129,8 @@ Installing postgres:
 > sudo apt update
 > sudo apt install postgresql postgresql-contrib
 
+Then:
+
 > sudo -i -u postgres
 > createdb feedmap1;
 > psql feedmap1
@@ -1201,3 +1203,50 @@ Also: need to remove "name" from the bayou-co2. Perhaps just use the first few c
 
 Feedmap hacking:
 [http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba](http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba)
+
+---
+2021-01-29 22:14:01
+
+
+# Setting up postgres on the Pi
+
+## Installing
+
+## Creating DB
+
+ > sudo -i -u postgres
+ > postgres@raspberrypi:~$ createdb hab1
+ > postgres@raspberrypi:~$ psql hab1
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+     public_key VARCHAR(255),
+     private_key VARCHAR(255)
+;
+
+CREATE TABLE
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT,    
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+;
+
+(exit psql and postgres with "exit" )
+
+## Changing password
+
+> sudo -i -u postgres
+> psql
+> postgres=# ALTER USER postgres WITH PASSWORD 'pcat999'
