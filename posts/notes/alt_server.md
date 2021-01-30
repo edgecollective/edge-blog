@@ -1124,6 +1124,11 @@ Using sqlite3 with async await here: [https://www.scriptol.com/sql/sqlite-async-
 
 Switching back to postgres:
 
+Installing postgres:
+
+> sudo apt update
+> sudo apt install postgresql postgresql-contrib
+
 > sudo -i -u postgres
 > createdb feedmap1;
 > psql feedmap1
