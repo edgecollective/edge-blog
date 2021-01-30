@@ -1212,6 +1212,9 @@ Feedmap hacking:
 
 ## Installing
 
+> sudo apt update
+> sudo apt install postgresql postgresql-contrib
+
 ## Creating DB
 
  > sudo -i -u postgres
