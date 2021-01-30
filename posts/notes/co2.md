@@ -3610,3 +3610,22 @@ bottom right: 102.15, 52.2
 [https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6](https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6)
 
 [https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390](https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390)
+
+---
+2021-01-29 17:12:36
+
+## deleting partitions using fdisk
+
+[https://www.pidramble.com/wiki/benchmarks/external-usb-drives](https://www.pidramble.com/wiki/benchmarks/external-usb-drives)
+
+This worked nicely: [https://www.nayab.xyz/linux-tools/partitioning-using-fdisk.html](https://www.nayab.xyz/linux-tools/partitioning-using-fdisk.html)
+
+Showing progress while zipping: [https://unix.stackexchange.com/questions/179563/when-i-use-zip-how-can-i-display-the-overall-progress-without-flooding-the-comm](https://unix.stackexchange.com/questions/179563/when-i-use-zip-how-can-i-display-the-overall-progress-without-flooding-the-comm)
+
+Back up raspberry pi image:
+
+> sudo dd bs=4M if=/dev/sdb of=pvosPi.img status=progress
+
+Zipping it afterwards:
+
+> zip -qr - pvosPi.img | pv -bep -s $(du -bs pvosPi.img | awk '{print $1}') > pvosPi.img.zip
