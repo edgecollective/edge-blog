@@ -16,6 +16,36 @@ Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 Ongoing notes on development are posted [here](https://edgecollective.io/posts/notes/co2/).
 
+
+---
+2021-01-30 08:54:11
+
+## Update 30 Jan 2021
+
+
+Bayou-CO2 up and running.
+
+Feedmaps prototyped.  Backend needs work.
+
+Pi set up as Bridge.  Can store data locally on Pi without internet connection.
+
+Heltec version, REV_F working.
+
+MicroSD seen as most reliable and accessible way to set up wifi + Bayou credentials on device.  Heltec difficult to set up this way. Pivoting to FeatherESP32 in next PCB design.  
+
+Next design: Feather ESP32-based, and designed as 'bottom plate' for a clear plastic enclosure (1591BT).  Right-angle USB pointing down and buttons on bottom.  (MicroSD on bottom too? Would allow for header to use Adafruit board if useful / option).  Stand-offs for mounting on wall. If doing this, could also put LoRa on bottom, too.  That way the SMT parts get soldered on one side, and can conserve space on other side.)
+
+Lending library design is main focus.  System that can collect data on-site.  Can also think about 'sync', with replication of feeds into the cloud.  
+
+Pi as bridge allows for local data storage, and optional sync to cloud.  Can use hotspot with ethernet jack (widely avail).  
+
+Same design could accomodate a Feather M0 LoRA as a remote node, with different firmware, taking credentials from microSD.  Or the codebase could use ESP32 + LoRa.  Might be easier to do that, with a software 'switch'. Not sure. Can prototype both ways.
+
+
+
+
+
+
 ---
 
 ## Goals for Version 1
