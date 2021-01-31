@@ -3666,3 +3666,16 @@ Working setup!
 
 Converting a board to a footprint [https://forum.kicad.info/t/converting-board-to-footprint/2781/5](https://forum.kicad.info/t/converting-board-to-footprint/2781/5)
 
+---
+2021-01-31 17:08:28
+
+M3 nylon standoffs amazon [here](https://www.amazon.com/SZHKM-Female-Standoff-Assorted-Assortment/dp/B07GCQYWL9/ref=sr_1_1_sspa?dchild=1&gclid=Cj0KCQiAx9mABhD0ARIsAEfpavQ0o24rxhCd0tVNEMhuFTPWDMMGpyovhGK3_XA-5L-Uh4Mjp9ryWHAaAiWNEALw_wcB&hvadid=409997218734&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=b&hvrand=2398038061527121721&hvtargid=kwd-503702966379&hydadcr=294_1012853961&keywords=m3+standoffs+nylon&qid=1612130881&sr=8-1-spons&tag=googhydr-20&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSDU0NlZaRUNNNjcyJmVuY3J5cHRlZElkPUEwMDY2MzQwMldEN1lLQjY0WVBJQiZlbmNyeXB0ZWRBZElkPUEwNjAzMzgxMlMwTThQM0VOTjBTMyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+---
+2021-01-31 17:50:52
+
+Initial version of REV_G!
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G)
+
+
