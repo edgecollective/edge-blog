@@ -3660,3 +3660,9 @@ Adding additional SPI buses [https://github.com/espressif/arduino-esp32/issues/1
 Working setup!
 
 [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30)
+
+---
+2021-01-31 09:13:44
+
+Converting a board to a footprint [https://forum.kicad.info/t/converting-board-to-footprint/2781/5](https://forum.kicad.info/t/converting-board-to-footprint/2781/5)
+
