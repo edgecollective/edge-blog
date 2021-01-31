@@ -3629,3 +3629,34 @@ Back up raspberry pi image:
 Zipping it afterwards:
 
 > zip -qr - pvosPi.img | pv -bep -s $(du -bs pvosPi.img | awk '{print $1}') > pvosPi.img.zip
+
+---
+2021-01-30 10:20:43
+
+![](/img/co2/pushbutton.png)
+
+![](/img/co2/button_wiring.png)
+
+---
+2021-01-30 16:30:53
+
+![](/img/co2/right_1.png)
+
+![](/img/co2/right_2.png)
+
+[https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
+
+Adding additional SPI buses [https://github.com/espressif/arduino-esp32/issues/1219](https://github.com/espressif/arduino-esp32/issues/1219)
+
+[https://forum.arduino.cc/index.php?topic=637121.0](https://forum.arduino.cc/index.php?topic=637121.0)
+
+[https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/spi_master.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/spi_master.html)
+
+![](/img/co2/rfm95.png)
+
+---
+2021-01-30 21:24:20
+
+Working setup!
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30)
