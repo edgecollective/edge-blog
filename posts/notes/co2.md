@@ -3678,4 +3678,62 @@ Initial version of REV_G!
 
 [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G)
 
+---
+2021-01-31 19:55:55
+
+
+Wiring up a microSD [https://components101.com/misc/microsd-card-pinout-datasheet](https://components101.com/misc/microsd-card-pinout-datasheet)
+
+![](/img/co2/microSD_wiring.png)
+
+
+Featherwing microsd [https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618](https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618)
+
+![](/img/co2/featherwing_microsd.png)
+
+Feather schematic & pintouts [https://cdn-learn.adafruit.com/assets/assets/000/041/630/original/feather_schem.png?1494449413](https://cdn-learn.adafruit.com/assets/assets/000/041/630/original/feather_schem.png?1494449413)
+
+![](/img/co2/featheresp32_pinouts.png)
+
+---
+2021-01-31 20:15:51
+
+The code that worked! (?) [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/blob/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30/feather_esp32_lora_sd_u8x8_scd30.ino](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/blob/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30/feather_esp32_lora_sd_u8x8_scd30.ino)
+
+```
+
+// SD uses 'regular' SPI pins on Feather ESP32:
+#define SD_CS 33
+#define SD_SCK 5
+#define SD_MOSI 18
+#define SD_MISO 19
+
+// LoRa uses a newly-created SPI bus:
+
+#define LORA_IRQ 15
+#define LORA_CS 14
+#define LORA_SCK 26 //A0
+#define LORA_MOSI 21
+#define LORA_MISO 25 //A1
+#define LORA_RST 27
+```
+
+U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 16, /* data=*/ 17, /* reset=*/ 39);
+
+SCD30 on 'regular' i2c for feather esp32:  SCL: 22, SDA: 23
+
+display on SCL: 16, SDA: 17
+
+maybe add qwiik for both?
+
+[max4466](https://www.adafruit.com/product/1063?gclid=Cj0KCQiAx9mABhD0ARIsAEfpavTgcAc8yg27NK51rM2r2O3UslP4p-H1i7dhui8OvhDTnm6ZE0x48z8aAhK3EALw_wcB)
+
+---
+2021-01-31 20:29:41
+
+First pass at pin assignments; double check!
+
+Test button functionality ... 
+
+Add DIO1 for LoRaWAN ability?
 
