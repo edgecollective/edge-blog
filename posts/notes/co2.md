@@ -3737,3 +3737,11 @@ Test button functionality ...
 
 Add DIO1 for LoRaWAN ability?
 
+Button pin assignments?
+
+RESET pin choice for display (no wiring to do for library ... maybe U8X8 can avoid a reset pin?  Or what pin do we assign in order to avoid conflicts?)
+
+Add label / pinout / description for Adafruit microSD card on back
+
+Hirose microSD part DM3D-SF on Digikey: [https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515](https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515)
+
