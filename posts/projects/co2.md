@@ -10,11 +10,42 @@ blurb: Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 ---
 
-## Overview
+# Overview
 
 Developing an Free and Open Source end-to-end system for CO2 monitoring.
 
 Ongoing notes on development are posted [here](https://edgecollective.io/posts/notes/co2/).
+
+# Project Updates
+
+---
+2021-01-30 08:54:11
+
+## Update 30 Jan 2021
+
+
+Bayou-CO2 up and running.
+
+Feedmaps prototyped.  Backend needs work.
+
+Pi set up as Bridge.  Can store data locally on Pi without internet connection.
+
+Heltec version, REV_F working.
+
+MicroSD seen as most reliable and accessible way to set up wifi + Bayou credentials on device.  Heltec difficult to set up this way. Pivoting to FeatherESP32 in next PCB design.  
+
+Next design: Feather ESP32-based, and designed as 'bottom plate' for a clear plastic enclosure (1591BT).  Right-angle USB pointing down and buttons on bottom.  (MicroSD on bottom too? Would allow for header to use Adafruit board if useful / option).  Stand-offs for mounting on wall. If doing this, could also put LoRa on bottom, too.  That way the SMT parts get soldered on one side, and can conserve space on other side.)
+
+Lending library design is main focus.  System that can collect data on-site.  Can also think about 'sync', with replication of feeds into the cloud.  
+
+Pi as bridge allows for local data storage, and optional sync to cloud.  Can use hotspot with ethernet jack (widely avail).  
+
+Same design could accomodate a Feather M0 LoRA as a remote node, with different firmware, taking credentials from microSD.  Or the codebase could use ESP32 + LoRa.  Might be easier to do that, with a software 'switch'. Not sure. Can prototype both ways.
+
+
+
+
+
 
 ---
 
@@ -117,8 +148,18 @@ Next steps:
 - Basic analysis / workflow leading to identification of peak values, averages, baseline.
 - Reproducing the workflow in R.
 
+---
+2021-01-16 21:19:52
 
+## REV_E Parts list
 
+- **PVOS CO2 Rev_E PCB** -- [oshpark](https://oshpark.com/shared_projects/Sqhe5YpQ) | [github](https://github.com/edgecollective/co2-remote-and-gateway/tree/master/rev_e/atkins)
+- [Sensirion SCD30 CO2 sensor](https://www.sparkfun.com/products/15112)
+- [Heltec Wifi 32 LoRa V2](https://www.amazon.com/MakerFocus-Development-Bluetooth-0-96inch-Display/dp/B076MSLFC9/ref=sr_1_4?crid=1PRQFMZWK1EA9&dchild=1&keywords=heltec+lora+esp32&qid=1610850196&s=electronics&sprefix=heltec%2Celectronics%2C149&sr=1-4)
+- [3.7V Lithitum Rechargeable battery (NOTE! JST1.25 connector)](https://www.amazon.com/gp/product/B07CXNQ3ZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+- [Adafruit BMP388](https://www.adafruit.com/product/3966) (optional pressure sensor)
+- [Adafruit MAX4466](https://www.adafruit.com/product/1063) (optional mic)
+- 2 X [uxcell Momentary PCB Side Mounting Fixed Bracket Pushbutton Push Button Tact Tactile Switch DIP 2 Terminals 6mmx6mmx12mm](https://www.amazon.com/gp/product/B07JKWC6LH/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)
 
 
 

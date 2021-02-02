@@ -356,3 +356,30 @@ Key file is [here](https://github.com/ha8tks/Leaflet.Maidenhead/blob/master/src/
 ![](/img/mothbot/back_and_forth_mv4.png)
 
 ![](/img/mothbot/433_900_compare.png)
+
+---
+2021-01-16 21:17:20
+
+Some cosmetic fixes, resulting in rev4B!  [github](https://github.com/edgecollective/mothbot/tree/main/ver4B/hardware) | [oshpark](https://oshpark.com/shared_projects/h7LluxAz)
+
+---
+2021-01-17 08:50:37
+
+Itsybitsy [schematic](https://cdn-learn.adafruit.com/assets/assets/000/054/505/original/adafruit_products_schem.png?1527457190), with power circuit:
+
+![](/img/mothbot/itsybitsy_power.png)
+
+Tiny pico power [schematic](https://github.com/tinypico/tinypico-hardware/blob/master/TinyPICO%20Release%20P3/TinyPICO_Schematic.pdf) and power circuit:
+
+![](/img/mothbot/tinypico_power.png)
+
+associated p-channel (d-s) LP0404N3T5G mosfet -- [LP0404N3T5G datasheet](https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LP0404N3T5G_C172433.pdf)
+
+---
+2021-01-28 14:06:53
+
+## Low Power
+
+[https://github.com/rocketscream/Low-Power](https://github.com/rocketscream/Low-Power)
+
+Put device into very deep sleep and listen to serial -- code example [https://arduino.stackexchange.com/questions/13167/put-atmega328-in-very-deep-sleep-and-listen-to-serial](https://arduino.stackexchange.com/questions/13167/put-atmega328-in-very-deep-sleep-and-listen-to-serial)

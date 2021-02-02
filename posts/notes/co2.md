@@ -3108,4 +3108,640 @@ Vented sensor enclosure! [here](https://enclosurehub.com/collections/hammond-enc
 
 Latest firmware attempt is [here](https://github.com/p-v-o-s/co2-monitor/commit/1dd94116d17d0d8d63ebd13b496b2d24819e7d22).  Acquires actual CO2 values & uploads them to Bayou-CO2
 
-Test feed on Bayou-CO2 is [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+Test feed on Bayou-CO2 'loft' is at [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+
+---
+2021-01-17 05:04:02
+
+**Loft test feed** continues: [http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358](http://data.pvos.org/co2/data/09b3f0239025e03c386b3f3ccfeba5501f95b8eff0ec9358)
+
+![](/img/co2/bayou_loft_jan17.png)
+
+Notes on feed above:
+
+**jan 16**
+- had vid meeting in loft at 11 AM  (which involved picking up sensor and holding it near me)
+- cooking happened in morning and afternoon
+- left house for long walk mid-afternoon, return and went up to loft around 5 pm quickly, then left for dinner
+- returned back hom after 8 pm, went up to loft to do some work
+
+**jan 17**
+- got up at 4 AM went into kitchen / living room 
+- went up to loft at 5 AM
+- went back down to living room at 5:15 AM
+
+Note that it seems that when I walk around a bit and go upstairs to loft huffing and puffing, there's an initial spike; the co2 calms down when i start to settle and work at computer quietly.  then level decays further when I leave.
+
+UPDATE: after refreshing feed, not sure this is true; the 'spike' isn't that much higher than what is perhaps 'noise'; the CO2 level does seem to be fairly stably higher when I'm up in loft.
+
+Question: I wonder why there's an apparent dip below 'baseline' 6 PM to 830 PM on Jan 16?  Maybe the doors to house were open a bit?  interesting if we can show that baseline shifts considerably when crack open doors (experiment to be done)
+
+---
+2021-01-17 08:12:24
+
+Just re-entered loft w/ coleman now ...
+
+went back down, then camb back around 8:30 ...
+
+---
+2021-01-18 11:59:52
+
+Working on pulling in parameters ... looks like this is how I did it here:
+
+[https://github.com/edgecollective/co2-remote-and-gateway/blob/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate/cap_params_load_immediate.ino](https://github.com/edgecollective/co2-remote-and-gateway/blob/cap_params/rev_e/firmware/wifi_sensor/cap_params_load_immediate/cap_params_load_immediate.ino)
+
+---
+2021-01-18 12:06:20
+
+Requirements in Arduino IDE for CO2 monitor based on ESP32 ...
+
+IDE setup:
+
+- ESP32 board support in Arduino: [https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+- ESP32 file upload tool: [https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/). Tool is [here](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)
+
+Libraries:
+
+- [Bounce2](https://github.com/thomasfredericks/Bounce2) library (via IDE)
+- U8g2 (via IDE)
+- PubSubClient // https://github.com/knolleary/pubsubclient
+- BMP388_DEV (lindupp, via IDE)
+- Sparkfun SCD30 (via IDE)
+
+---
+2021-01-18 12:49:59
+
+Test feed here: [http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee](http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee)
+
+---
+2021-01-18 13:54:57
+
+Now reading in parameter file and displaying CO2 value with this commit: [https://github.com/p-v-o-s/co2-monitor/commit/39c589e08763c8f280da3e49c05ae70d059a7791](https://github.com/p-v-o-s/co2-monitor/commit/39c589e08763c8f280da3e49c05ae70d059a7791)
+
+Feed is here: [http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee](http://data.pvos.org/co2/data/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee)
+
+---
+2021-01-18 14:10:36
+
+Now show network config on button press [https://github.com/p-v-o-s/co2-monitor/commit/5f05b084ba1b026370a0f2adb9492b0d187b2205](https://github.com/p-v-o-s/co2-monitor/commit/5f05b084ba1b026370a0f2adb9492b0d187b2205)
+
+NOTE: should try to do everything with non-blocking code. This button approach currently delays for 3 sec.  Could instead check every loop for whether enough time has passed, and whether should display which info.
+
+TODO: implement this; also factor out display functions.
+
+---
+2021-01-19 04:57:51
+
+Got weird error message -- result seemed to be no wifi connection, but loop still ran and measurement was made / screen updated every measurement interval:
+
+> E (52119735) wifi: esf_buf: t=2 l=76 max:32, alloc:32 no eb, TXQ_BLOCK=0
+
+Really useful post on strings and esp32 and memory [here](https://esp8266life.wordpress.com/2019/01/13/memory-memory-always-memory/)
+
+Looks like free heap is okay.
+
+New test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9](http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9)
+
+The current version of the code is here: [https://github.com/p-v-o-s/co2-monitor/commit/af6c57182ef2486cf87aedc404f5fca257c330d0](https://github.com/p-v-o-s/co2-monitor/commit/af6c57182ef2486cf87aedc404f5fca257c330d0).
+
+TODO: Reading in measurement interval from param file initially still not working (fix).
+
+TODO: We should implement a watchdog that looks to see if successful post and/or connection and resets if not -- the error message I was seeing might be related to the wifi, apparently
+
+TODO: Should also change the plotting style in Bayou-CO2 to *not* use bezier ...
+
+---
+2021-01-19 09:26:43
+
+More TODOS:
+
+- Watchdog ping every loop
+- Reset if no wifi connection after one iteration
+- autocalibration turn on in bayou settings
+- Bayou-CO2 -- download keys as CSV / JSON
+- Make a Feather ESP32 option? Can be ESP32 or lora feather
+
+ESP32 power req's ...
+
+Observation -- looks like heap stabilizes ...
+
+```
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":331,"tempC":22.7,"humidity":23.25,"mic":0,"auxPressure":1008.91,"auxTempC":19.61,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":328,"tempC":22.52,"humidity":23.64,"mic":0,"auxPressure":1008.86,"auxTempC":19.56,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":332,"tempC":22.65,"humidity":23.66,"mic":0,"auxPressure":1008.85,"auxTempC":19.59,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+
+
+getFreeHeap(): 250128
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":348,"tempC":22.55,"humidity":24.13,"mic":0,"auxPressure":1008.89,"auxTempC":19.58,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+200
+Measurement recorded
+```
+
+---
+2021-01-19 09:34:25
+
+Get calibration code working ...
+
+TODO: add force calibration value to the Bayou settings
+
+TODO: add field to database indicating whether force calibrated in the last round ...
+
+TODO: pull out configuration values as 'config' file (or put in json param file)
+
+---
+2021-01-19 10:40:54
+
+Looks like by default, SCD30 sensor measurement interval is 2 seconds ... and can't go lower.  
+
+SCD30 datasheet reference p 10 of [https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_AN_SCD30_Interface_Description_D1.pdf](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_AN_SCD30_Interface_Description_D1.pdf)
+
+Just checked -- in fact, it does work to ask if there is new CO2 data available -- that gives us a delay of about 2 sec.
+
+---
+2021-01-19 10:49:03
+
+Added calibration procedure with this commit: [https://github.com/p-v-o-s/co2-monitor/commit/68c467baa1c6b8c20b4b76a5eb5f6a89d55c9508](https://github.com/p-v-o-s/co2-monitor/commit/68c467baa1c6b8c20b4b76a5eb5f6a89d55c9508)
+
+---
+2021-01-19 10:56:50
+
+Fixed an interface bug with canceling forced calibration ...
+
+Now, after pressing the calibrate button, in any case we drop into a 'firstLoop' meausurement, so that we make a measurement, display it, and send it.  Probably a good feature anyway to have a way to send a value immediately.  Might want to indicate graphically that data has been sent ("200" on top right of screen or something)
+
+Also looks like the sensor needs at least a few seconds to warm up (check datasheet) ... maybe we should check for startup and display 'warming up' and show measurement every few seconds ..
+
+----
+2021-01-20 05:48:45
+
+Stopped working overnight:
+
+```
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":383,"tempC":18.98,"humidity":25.85,"mic":0,"auxPressure":1004.71,"auxTempC":19.74,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":376,"tempC":18.9,"humidity":25.87,"mic":0,"auxPressure":1004.66,"auxTempC":19.57,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":368,"tempC":19.02,"humidity":25.47,"mic":0,"auxPressure":1004.64,"auxTempC":19.62,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":363,"tempC":19.18,"humidity":25.34,"mic":0,"auxPressure":1004.58,"auxTempC":19.96,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":372,"tempC":19,"humidity":25.77,"mic":0,"auxPressure":1004.47,"auxTempC":19.8,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+getFreeHeap(): 250108
+http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+{"private_key":"13adcd2e8704165a62aea86bee0a3abe2fd3be4d62427a35","co2":377,"tempC":18.9,"humidity":25.87,"mic":0,"auxPressure":1004.4,"auxTempC":19.66,"aux001":0,"aux002":0}http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9
+[HTTP] GET... failed, error: connection refused
+```
+
+-- is this Bayou, or the monitor?
+
+UPDATE: answer -- it wasn't Bayou.
+
+Pressed reset, and it just worked.  Need to look into this as a bug; but this is another reason to set up a 'reset' if we don't a good connection to the server.
+
+Ah -- it could be that the IP address changes overnight.
+
+Good thread on watchdog style approach here: [https://github.com/espressif/arduino-esp32/issues/653](https://github.com/espressif/arduino-esp32/issues/653)
+
+More on this here: [https://github.com/Hieromon/AutoConnect/issues/292](https://github.com/Hieromon/AutoConnect/issues/292)
+
+This might be the approach to take: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-757340418](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-757340418).  
+
+Skeleton code here: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-756634645](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-756634645)
+
+There is a patched release here: [https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-759202689](https://github.com/Hieromon/AutoConnect/issues/292#issuecomment-759202689) that might address the issue, and apparently release v1.2.3 will fix it?
+
+Another nice post about dropping the wifi here: [https://rntlab.com/question/wifi-connection-drops-auto-reconnect/](https://rntlab.com/question/wifi-connection-drops-auto-reconnect/)
+
+oooh -- and it offers some auto-restart code ... will try that ...
+
+implemented in the 'restart' branch here: [https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor](https://github.com/p-v-o-s/co2-monitor/tree/restart/co2monitor)
+
+---
+2021-01-20 10:47:23
+
+CORS and associated issues explained [here](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+
+---
+2021-01-20 11:00:02
+
+Ideas discussed w/ Mike:
+
+Bayou / deployment ideas:
+- Mapping out data on a floorplan
+- Deploying in various spaces but starting co-located as a test
+- Cardboard enclosures
+- Lending library
+- Classes on how to use / deploy
+- Add 'let's encrypt' functionality
+
+Firmware ideas:
+- Add a 'LOG' field to Bayou for error messages / etc for a feed -- include calibration events, reset events, bad connection
+- Add a 'battery level' indicator in the feed, and on the display
+
+Hardware ideas:
+- Label the i2c resistors on the boards
+- Do a "Rev G" ...?
+
+Documentation:
+- Need to spin up pvos.org landing page, documentation, links
+- Need to put in place the web infrastructure on opencollective
+
+---
+2021-01-20 11:08:20
+
+How to upload and display an image in NodeJS here: [https://stackoverflow.com/questions/15772394/how-to-upload-display-and-save-images-using-node-js-and-express](https://stackoverflow.com/questions/15772394/how-to-upload-display-and-save-images-using-node-js-and-express)
+
+General impression I'm getting: store image files on file system; store their filenames / references in the relational database.
+
+Oh nice -- can use ImageMagic in NodeJs -- see this link here: [https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js](https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js)
+
+Or you can probe the image size without a full download here: [https://gitehub.com/nodeca/probe-image-size](https://github.com/nodeca/probe-image-size)
+
+One interim solution is: host your own image somewhere, and we can display feed data on top of it via URL ...
+
+How to start a nodejs project here: [https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/](https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/)
+
+---
+2021-01-20 11:40:26
+
+Trying to work in this repo here: [https://github.com/edgecollective/floorplan](https://github.com/edgecollective/floorplan)
+
+This is the file that seems to have been the demo file I was playing with around mapping: [https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html)
+
+
+Handling CORS [here](https://flaviocopes.com/express-cors/) -- good guide; and:
+
+good guide [here](https://expressjs.com/en/resources/middleware/cors.html#demo), which leads to:
+- [https://github.com/troygoode/node-cors-server/blob/master/server.js](https://github.com/troygoode/node-cors-server/blob/master/server.js)
+
+---
+2021-01-20 15:24:42
+
+Follwing this example [here](https://www.htmlgoodies.com/beyond/javascript/serve-external-content-from-your-express.js-apps.html)
+
+Guide to pug here: [https://www.sitepoint.com/a-beginners-guide-to-pug/](https://www.sitepoint.com/a-beginners-guide-to-pug/)
+
+---
+2021-01-20 16:57:33
+
+Good start on plotting data in separate Node server here: [https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733](https://github.com/edgecollective/floorplan/commit/607816a05848093a471966e0b9dd00c1cab90733)
+
+---
+2021-01-20 20:38:45
+
+Latest:  try this link: http://192.168.1.163:4000/map/cbb8d444591def61d4e59f9b53d3193dd7724a9d8599c6ee?key=co2
+
+Some layout details here: [https://coder-coder.com/display-divs-side-by-side/](https://coder-coder.com/display-divs-side-by-side/)
+
+Latest attempt is at this commit of floorplan in the url-load branch, here: [https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf](https://github.com/edgecollective/floorplan/commit/4972382b4982f34b75a60b5f8026a180a1591daf)
+
+---
+2021-01-20 20:59:49
+
+Ongoing test feed is here: [http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9](http://data.pvos.org/co2/data/3897755c6379d00bbb1d622827b1ffd1ba6a0579802044c9)
+
+---
+2021-01-22 11:22:08
+
+## NDIR reference circuit
+
+May be very similar to one used in SCD30 ...
+
+"Complete Gas Sensor Circuit Using Nondispersive Infrared (NDIR)":  link: [https://www.analog.com/media/en/analog-dialogue/volume-50/number-4/articles/complete-gas-sensor-circuit.pdf](https://www.analog.com/media/en/analog-dialogue/volume-50/number-4/articles/complete-gas-sensor-circuit.pdf)
+
+![](/img/co2/ad_ndir_ref.png)
+
+Mike B. comments on the SCD30: 
+
+> Looks like a lamp at one end, and two legs are the two wavelengths - sensing, and reference;
+> 75mA when measuring implies about 70 Ohms for that lamp.
+
+## NDIR refrence circuit for Alphasense CO2 Sensor
+
+![](/img/co2/alphasense.png)
+
+Link here: [http://www.alphasense.com/WEB1213/wp-content/uploads/2016/01/AAN_202-04.pdf](http://www.alphasense.com/WEB1213/wp-content/uploads/2016/01/AAN_202-04.pdf)e
+
+--
+2021-01-22 14:28:56
+
+## Design Review w MB
+
+- Keep constant scale for all graphs, to aid comparison
+- Error bars and thresholds (if device is calibration -- maybe, make optional, with warning)
+- Several plots overlaid, for easy comparison
+- Deploy at least one 'baseline' reference sensor in a room that doesn't have people, if possible, for immediate comparison to 'baseline' 
+- Assess impact of pressure on device
+- Make a calibration rig, with source of CO2 (or Argon)
+
+---
+2021-01-23 11:52:42
+
+Current case for REV_E ... 1591BTCL
+
+- Case [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769)
+- Mounting flange [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591FBBK/2357902)
+- Adapter inserts [https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591Z50/460666)
+
+---
+2021-01-25 11:25:35
+
+v0.1-alpha release of the firmware for REV_F!
+
+[https://github.com/p-v-o-s/co2-monitor/releases](https://github.com/p-v-o-s/co2-monitor/releases)
+
+---
+2021-01-25 19:14:15
+
+Added more info to the screen!
+
+![](/img/co2/rev_f_mucho_info.png)
+
+---
+2021-01-27 07:46:09
+
+Two devices:
+
+![](/img/co2/double_sm.jpg)
+
+ESP-1cfe
+posting to: [http://data.pvos.org/co2/data/a00aed3265bf99e1784168ac9b1b509f30adfe9d00a2918d](http://data.pvos.org/co2/data/a00aed3265bf99e1784168ac9b1b509f30adfe9d00a2918d)
+
+
+and
+
+ESP-2c7e
+posting to: [http://data.pvos.org/co2/data/e9d7a2df343e8e6d0bf6c169011be8721ee9c24707ad7347](http://data.pvos.org/co2/data/e9d7a2df343e8e6d0bf6c169011be8721ee9c24707ad7347)
+
+---
+2021-01-27 09:24:36
+
+SCD30 enclosure app note [https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg](https://www.google.com/url?q=https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Design-In_Guidelines_D1.pdf&sa=D&source=hangouts&ust=1611842158712000&usg=AFQjCNE3z7ACuQZWf6VPmSG4CB_wEYk5Fg)
+
+---
+2021-01-27 19:57:10
+
+![](/img/co2/a2.png)
+
+---
+2021-01-28 08:21:57
+
+TODOS:
+- config.h pull in
+- do everything with char instead of strings (later?)
+- factor out 'display' function
+- present all info on main screen
+- unique esp32 ID (later?)
+- 'trim' the user input (later?)
+- add relevant fields to bayou-co2
+
+---
+2021-01-28 14:59:42
+
+Article on airborne covid and CO2 montoring [https://www.aol.com/article/lifestyle/2020/08/12/the-best-ways-to-reduce-the-risk-of-covid-19-indoors/24589315/](https://www.aol.com/article/lifestyle/2020/08/12/the-best-ways-to-reduce-the-risk-of-covid-19-indoors/24589315/)
+
+
+---
+2021-01-28 15:28:17
+
+![](/img/co2/force_fed.png)
+
+---
+2021-01-28 17:49:17
+
+Adding microSD functionality to the Heltec ...
+
+[https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/](https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/)
+
+First get the libraries ...
+
+Maybe it's possible to talk to SCD30 i2c over OLED i2c (as did on Quahog)?  see [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/SD/SD_Time/SD_Time.ino](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/SD/SD_Time/SD_Time.ino)
+
+Ah, SD card might require resistors!  See answer here: [https://stackoverflow.com/questions/57454066/how-to-use-2-spi-devices-lora-and-sd-card-on-esp32](https://stackoverflow.com/questions/57454066/how-to-use-2-spi-devices-lora-and-sd-card-on-esp32)
+
+Also this info here -- looks like it can get dug out!  [http://ldsrc.blogspot.com/2018/02/micro-sd-card-for-esp32.html](http://ldsrc.blogspot.com/2018/02/micro-sd-card-for-esp32.html)
+
+---
+2021-01-29 11:19:51
+
+Switching over to Feather ESP32 ...
+
+Arduino SD Card library + Feather breakout ... [https://learn.adafruit.com/adafruit-adalogger-featherwing/using-the-sd-card](https://learn.adafruit.com/adafruit-adalogger-featherwing/using-the-sd-card)
+
+[Adafruit microsd breakout board](https://www.adafruit.com/product/254)
+
+Trying Examples > SD > Cardinfo
+
+Note: important code for multiple SPI buses (for use later when doing microSD + lora): [https://github.com/jonashoechst/ttgo-lora-sd](https://github.com/jonashoechst/ttgo-lora-sd)
+
+works ...
+
+[1591 Page on Hammond](http://www.hammondmfg.com/dwg2.htm)
+[1591BTCL Listing on Digikey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1591BTCL/1090769)
+[Enclosure datasheet with screw positions](http://www.hammondmfg.com/pdf/1591B.pdf)
+
+## from datasheet
+
+horizontal cover inside lip: 107.7
+horizontal screw distance: 98.3
+horizonal span (screw, inside lip): (107.7-98.3)/2 =
+
+vertical screw distance: 48.4
+vertical cover inside lip: 57.8
+vertical span (screw, inside lip): (57.8-48.4)/2 = 
+
+## sit inside enclosure
+
+horizontal span: 106 mm
+horiz screw dist: 98.3
+horiz screw center to edge: (106-98.3)/2 = 3.85
+
+vertical span: 56 mm
+vert screw dist: 48.4
+vert screw center to edge: (56-48.4)/2 = 3.8
+
+
+x,y:
+
+top left: 3.85,3.8
+top right: 3.85+98.3, 3.8 = 102.15,3.8
+bottom left: 3.85, 3.8+48.4 = 3.85, 52.2
+bottom right: 102.15, 52.2
+
+
+
+### USB "up angle"
+
+[Listing on amazon](https://www.amazon.com/StarTech-com-Micro-USB-Cable-Cord/dp/B00ENZDFQ4/ref=sr_1_5?dchild=1&keywords=micro%2Busb%2Bright%2Bangle&qid=1611948044&sr=8-5&th=1)
+
+[![](/img/co2/up_angle.png)](https://www.amazon.com/StarTech-com-Micro-USB-Cable-Cord/dp/B00ENZDFQ4/ref=sr_1_5?dchild=1&keywords=micro%2Busb%2Bright%2Bangle&qid=1611948044&sr=8-5&th=1)
+
+## Pi as Bridge
+
+[https://www.raspberrypi.org/documentation/configuration/wireless/access-point-bridged.md](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-bridged.md)
+
+[https://www.balena.io/blog/turn-a-raspberry-pi-into-a-wi-fi-access-point-or-repeater/](https://www.balena.io/blog/turn-a-raspberry-pi-into-a-wi-fi-access-point-or-repeater/)
+
+[https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6](https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6)
+
+[https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390](https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390)
+
+---
+2021-01-29 17:12:36
+
+## deleting partitions using fdisk
+
+[https://www.pidramble.com/wiki/benchmarks/external-usb-drives](https://www.pidramble.com/wiki/benchmarks/external-usb-drives)
+
+This worked nicely: [https://www.nayab.xyz/linux-tools/partitioning-using-fdisk.html](https://www.nayab.xyz/linux-tools/partitioning-using-fdisk.html)
+
+Showing progress while zipping: [https://unix.stackexchange.com/questions/179563/when-i-use-zip-how-can-i-display-the-overall-progress-without-flooding-the-comm](https://unix.stackexchange.com/questions/179563/when-i-use-zip-how-can-i-display-the-overall-progress-without-flooding-the-comm)
+
+Back up raspberry pi image:
+
+> sudo dd bs=4M if=/dev/sdb of=pvosPi.img status=progress
+
+Zipping it afterwards:
+
+> zip -qr - pvosPi.img | pv -bep -s $(du -bs pvosPi.img | awk '{print $1}') > pvosPi.img.zip
+
+---
+2021-01-30 10:20:43
+
+![](/img/co2/pushbutton.png)
+
+![](/img/co2/button_wiring.png)
+
+---
+2021-01-30 16:30:53
+
+![](/img/co2/right_1.png)
+
+![](/img/co2/right_2.png)
+
+[https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
+
+Adding additional SPI buses [https://github.com/espressif/arduino-esp32/issues/1219](https://github.com/espressif/arduino-esp32/issues/1219)
+
+[https://forum.arduino.cc/index.php?topic=637121.0](https://forum.arduino.cc/index.php?topic=637121.0)
+
+[https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/spi_master.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/spi_master.html)
+
+![](/img/co2/rfm95.png)
+
+---
+2021-01-30 21:24:20
+
+Working setup!
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30)
+
+---
+2021-01-31 09:13:44
+
+Converting a board to a footprint [https://forum.kicad.info/t/converting-board-to-footprint/2781/5](https://forum.kicad.info/t/converting-board-to-footprint/2781/5)
+
+---
+2021-01-31 17:08:28
+
+M3 nylon standoffs amazon [here](https://www.amazon.com/SZHKM-Female-Standoff-Assorted-Assortment/dp/B07GCQYWL9/ref=sr_1_1_sspa?dchild=1&gclid=Cj0KCQiAx9mABhD0ARIsAEfpavQ0o24rxhCd0tVNEMhuFTPWDMMGpyovhGK3_XA-5L-Uh4Mjp9ryWHAaAiWNEALw_wcB&hvadid=409997218734&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=b&hvrand=2398038061527121721&hvtargid=kwd-503702966379&hydadcr=294_1012853961&keywords=m3+standoffs+nylon&qid=1612130881&sr=8-1-spons&tag=googhydr-20&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSDU0NlZaRUNNNjcyJmVuY3J5cHRlZElkPUEwMDY2MzQwMldEN1lLQjY0WVBJQiZlbmNyeXB0ZWRBZElkPUEwNjAzMzgxMlMwTThQM0VOTjBTMyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+---
+2021-01-31 17:50:52
+
+Initial version of REV_G!
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/dbf0e6c62ef15458e386a3075476108c1461dd43/REV_G)
+
+---
+2021-01-31 19:55:55
+
+
+Wiring up a microSD [https://components101.com/misc/microsd-card-pinout-datasheet](https://components101.com/misc/microsd-card-pinout-datasheet)
+
+![](/img/co2/microSD_wiring.png)
+
+
+Featherwing microsd [https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618](https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618)
+
+![](/img/co2/featherwing_microsd.png)
+
+Feather schematic & pintouts [https://cdn-learn.adafruit.com/assets/assets/000/041/630/original/feather_schem.png?1494449413](https://cdn-learn.adafruit.com/assets/assets/000/041/630/original/feather_schem.png?1494449413)
+
+![](/img/co2/featheresp32_pinouts.png)
+
+---
+2021-01-31 20:15:51
+
+The code that worked! (?) [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/blob/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30/feather_esp32_lora_sd_u8x8_scd30.ino](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/blob/master/v0.1-alpha/feather_esp32/feather_esp32_lora_sd_u8x8_scd30/feather_esp32_lora_sd_u8x8_scd30.ino)
+
+```
+
+// SD uses 'regular' SPI pins on Feather ESP32:
+#define SD_CS 33
+#define SD_SCK 5
+#define SD_MOSI 18
+#define SD_MISO 19
+
+// LoRa uses a newly-created SPI bus:
+
+#define LORA_IRQ 15
+#define LORA_CS 14
+#define LORA_SCK 26 //A0
+#define LORA_MOSI 21
+#define LORA_MISO 25 //A1
+#define LORA_RST 27
+```
+
+U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 16, /* data=*/ 17, /* reset=*/ 39);
+
+SCD30 on 'regular' i2c for feather esp32:  SCL: 22, SDA: 23
+
+display on SCL: 16, SDA: 17
+
+maybe add qwiik for both?
+
+[max4466](https://www.adafruit.com/product/1063?gclid=Cj0KCQiAx9mABhD0ARIsAEfpavTgcAc8yg27NK51rM2r2O3UslP4p-H1i7dhui8OvhDTnm6ZE0x48z8aAhK3EALw_wcB)
+
+---
+2021-01-31 20:29:41
+
+First pass at pin assignments; double check!
+
+Test button functionality ... 
+
+Add DIO1 for LoRaWAN ability?
+
+Button pin assignments?
+
+RESET pin choice for display (no wiring to do for library ... maybe U8X8 can avoid a reset pin?  Or what pin do we assign in order to avoid conflicts?)
+
+Add label / pinout / description for Adafruit microSD card on back
+
+Hirose microSD part DM3D-SF on Digikey: [https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515](https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515)
+

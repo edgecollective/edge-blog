@@ -966,3 +966,290 @@ good example of chart setup here: [view-source:https://www.chartjs.org/samples/l
 Reference for p2p-farm-server chartjs setup [here](https://gitlab.com/dwblair/p2p-farm-server/-/blob/fixhop/public/js/drive.js)
 
 perhaps-useful chartjs formatting [here](https://embed.plnkr.co/JOI1fpgWIS0lvTeLUxUp/)
+
+---
+2021-01-21 11:20:38
+
+Structure for a basic todo list app here: [https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c](https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c)
+
+Associated code on github here: [https://github.com/chisom5/nodejs-todoList](https://github.com/chisom5/nodejs-todoList)
+
+
+Idea:  
+- Make a similar system to Bayou
+- Each 'map' has an associated image file, a list of feeds, feed locations
+- So everything is indexed by the map, instead of the feed.  The map gets a 'mapkey' and a 'writekey'
+- Once you have a mapkey, you can add new feeds to the map, and change the map's metadata
+
+Idea: add nodemon for auto restart of bayou while developing
+
+Using React-like library 'Riot' here: [https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/](https://hub.packtpub.com/simple-todo-list-web-application-nodejs-express-and-riot/), with associated code here: [https://github.com/revington/riot-express-todo-list}](https://github.com/revington/riot-express-todo-list)
+
+Drawing a grid on a canvas here [https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas](https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas)
+
+postgres tutorial again here: [https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372](https://able.bio/rhett/creating-a-web-application-in-your-home-with-a-raspberry-pi-express-and-postgresql--3c90a372)
+
+---
+2021-01-21 11:38:40
+
+
+Simpler todo app approach here -- these are the elements I think I need -- [https://medium.com/@atingenkay/creating-a-todo-app-with-node-js-express-8fa51f39b16f](https://medium.com/@atingenkay/creating-a-todo-app-with-node-js-express-8fa51f39b16f)
+
+And on github: [https://github.com/missating/nodejs-todo](https://github.com/missating/nodejs-todo)
+
+Okay -- TODO: redo that last repo, using pug.
+Then create feedmaps -- the equiv of bayou but by pulling in new feeds from various sources.  depending on the type of feed, can have various functionality.  so, add a 'feed type' variable -- e.g. bayou-co2 is one such type.
+
+---
+2021-01-21 12:10:58
+
+Iteration in pug here: [https://pugjs.org/language/iteration.html](https://pugjs.org/language/iteration.html)
+
+---
+2021-01-21 12:42:26
+
+feed-map can now display a simple list of feeds here: [https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8](https://github.com/edgecollective/feed-map/commit/4d3a522ba01f0bae15721fe0420100dcf76fd1a8)
+
+![](/img/alt-server/feemap1.png)
+
+---
+2021-01-21 17:22:56
+
+Creating dynamic ides in a loop with pug here [https://www.dev-tips-and-tricks.com/create-dynamic-ids-in-a-loop-with-pug-jade](https://www.dev-tips-and-tricks.com/create-dynamic-ids-in-a-loop-with-pug-jade)
+
+Update: this commit shows the basic functionality!
+
+[https://github.com/edgecollective/feed-map/commit/765a9eec9b101e0e507075ec3b0e6aae8b9fec3b](https://github.com/edgecollective/feed-map/commit/765a9eec9b101e0e507075ec3b0e6aae8b9fec3b)
+
+![](/img/alt-server/feedmap1.png)
+
+Added nicer formatting:
+
+![](/img/alt-server/feedmap2.png)
+
+Associated git commit is here: [https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e](https://github.com/edgecollective/feed-map/commit/6f449c02024013035f1d42cd264505fb0066018e)
+
+---
+2021-01-21 18:28:59
+
+Nice reference for doing the map, via p2p-server code, here:
+
+[https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html](https://gitlab.com/dwblair/p2p-farm-server/-/blob/mappin/public/console.html)
+
+---
+2021-01-21 18:39:13
+
+Got image map working!  at this commit -- [https://github.com/edgecollective/feed-map/commit/72e90916c5bf5b21d748a5e4e54451f93a25c654](https://github.com/edgecollective/feed-map/commit/72e90916c5bf5b21d748a5e4e54451f93a25c654)
+
+---
+2021-01-21 18:46:53
+
+Got markers working! commit -- [https://github.com/edgecollective/feed-map/commit/2e4281fc405246c231ce817b35ee4f99f7d9b80c](https://github.com/edgecollective/feed-map/commit/2e4281fc405246c231ce817b35ee4f99f7d9b80c)
+
+---
+2021-01-21 19:01:20
+
+More formatting tweaks -- [https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce](https://github.com/edgecollective/feed-map/commit/2b81f2f1154ddf1e6ffa11d2d5cd1b8ecb0260ce)
+
+![](/img/alt-server/feedmap3.png)
+
+---
+2021-01-22 11:16:31
+
+Created a 'checkbox' functionality, and also have charts graphed separately, in this commit and branch: [https://github.com/edgecollective/feed-map/commit/e75252d43b287c398a6e82fa02e1599dfe307711](https://github.com/edgecollective/feed-map/commit/e75252d43b287c398a6e82fa02e1599dfe307711)
+
+![](/img/alt-server/exploded.png)
+
+---
+2021-01-22 14:14:58
+
+Note: this is the nodejs-todo app I built feedmap upon, which has a nice 'delete note' functionality: [https://github.com/missating/nodejs-todo](https://github.com/missating/nodejs-todo)
+
+This code might be useful re: deleting items in postgres: [https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c](https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c)
+
+Here's a nice guide on using knex -- [https://medium.com/@tobie.tsuzuki/getting-started-with-node-js-express-and-knex-5640f595df98](https://medium.com/@tobie.tsuzuki/getting-started-with-node-js-express-and-knex-5640f595df98)
+
+Interesting post on sequelize vs knex vs objection.js here: [https://stackoverflow.com/questions/56028287/how-is-node-js-knex-similar-different-to-sequelize](https://stackoverflow.com/questions/56028287/how-is-node-js-knex-similar-different-to-sequelize)
+
+And an interesting link here: [https://www.jakso.me/blog/objection-to-orm-hatred](https://www.jakso.me/blog/objection-to-orm-hatred) -- looks like objection.js might be a great idea.
+
+---
+2021-01-22 14:31:57
+
+Overlay line on chart.js [https://stackoverflow.com/questions/28076525/overlay-line-on-chart-js-graph](https://stackoverflow.com/questions/28076525/overlay-line-on-chart-js-graph)
+
+---
+2021-01-22 14:43:27
+
+Good example of chartjs datasets: [https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/#2-line-chart](https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/#2-line-chart)
+
+---
+2021-01-22 18:34:46
+
+Now plotting multiple co2 plots!  at this commit: [https://github.com/edgecollective/feed-map/commit/91adae48079a21fcf9fcc286ccd85a7ac2a68e91](https://github.com/edgecollective/feed-map/commit/91adae48079a21fcf9fcc286ccd85a7ac2a68e91)
+
+![](/img/alt-server/feedmap4.png)
+
+---
+2021-01-22 18:42:23
+
+Hosting via google drive here: [https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website](https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website)
+
+---
+2021-01-22 18:56:25
+
+Add asylum map:
+
+![](/img/alt-server/feedmap_asylum.png)
+
+git commit: [https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80](https://github.com/edgecollective/feed-map/commit/fce79dc266a8ee5696a7da75c2a7177722128f80)
+
+---
+2021-01-23 10:15:25
+
+Revisiting my own documentation / repo for a minimal node + sqlite endpoint here [https://github.com/edgecollective/nodejs-sqlite-endpoint](https://github.com/edgecollective/nodejs-sqlite-endpoint)
+
+---
+2021-01-23 15:38:16
+
+Good tutorial for sqlite3: [https://www.sqlitetutorial.net/sqlite-nodejs/query/](https://www.sqlitetutorial.net/sqlite-nodejs/query/)
+
+---
+2021-01-23 15:52:07
+
+Using sqlite3 with async await here: [https://www.scriptol.com/sql/sqlite-async-await.php](https://www.scriptol.com/sql/sqlite-async-await.php)
+
+---
+2021-01-23 16:12:29
+
+Switching back to postgres:
+
+Installing postgres:
+
+> sudo apt update
+> sudo apt install postgresql postgresql-contrib
+
+Then:
+
+> sudo -i -u postgres
+> createdb feedmap1;
+> psql feedmap1
+
+then:
+
+CREATE TABLE feedmaps(
+    feedmap_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255),
+    map_url VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    feedmap_id INT,
+    feed_base_url VARCHAR(255),
+    feed_public_key VARCHAR(255),
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feedmap
+        FOREIGN KEY(feedmap_id)
+            REFERENCES feedmaps(feedmap_id)
+);
+
+---
+2021-01-23 22:14:02
+
+New branch -- postgres -- mimics features of Bayou-CO2.
+
+Basic working setup here: [https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1](https://github.com/edgecollective/feed-map/commit/6dd02a33311bcdbaed57a3bdf54b0070a342d6a1)
+
+![](/img/alt-server/feedmap_manage.png)
+
+Notes:
+
+- Can do similar forms to 'create' and 'manage' a feedmap; to 'manage', need to enter pubkey and privkey -- can follow format of bayou-CO2 ...
+
+Flow:
+- Create a feedmap
+- Then, you get sent to the 'manage' page.  
+- You can also get to the 'manage' page by entering a pubkey and privkey for a feed. 
+- Perhaps there is a 'manage' button on the feed landing page, which then prompts for a privatekey, then takes you to the 'manage' page.
+- Would be nice to be able to change the map, and modify the feeds; but at first, okay if it's 'throwaway' and you need to start over ...
+
+---
+2021-01-26 14:53:50
+
+Adding x,y coord display over image, here: [https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the](https://stackoverflow.com/questions/7414984/how-could-i-display-x-y-coordinates-on-image-in-real-time-to-the-user-when-the)
+
+---
+2021-01-26 20:59:05
+
+Getting close w/ feedmaps! [https://gitlab.com/p-v-o-s/co2/feedmap/-/commit/15b5d91c469c17b3fbbd03ba5ab6b6eaf0b70869](https://gitlab.com/p-v-o-s/co2/feedmap/-/commit/15b5d91c469c17b3fbbd03ba5ab6b6eaf0b70869)
+
+![](/img/alt-server/manage_feeds.png)
+
+The issue now is that we need to add "shortname" and "coords" to each feed listed in the feedmap database.  
+Need to modify the database.
+
+Also: need to remove "name" from the bayou-co2. Perhaps just use the first few chars as the "name".  
+
+---
+2021-01-27 11:14:20
+
+![](/img/alt-server/manage_feeds_c.png)
+
+---
+2021-01-27 19:55:39
+
+Feedmap hacking:
+[http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba](http://192.168.1.163:4006/feedmap/manage/7a66feb586010296bb03fc01967a89ac7b1f9b41388db6ff/1f79e0a2d7159495e9be3cb545c83911147035130a2b9fba)
+
+---
+2021-01-29 22:14:01
+
+
+# Setting up postgres on the Pi
+
+## Installing
+
+> sudo apt update
+> sudo apt install postgresql postgresql-contrib
+
+## Creating DB
+
+ > sudo -i -u postgres
+ > postgres@raspberrypi:~$ createdb hab1
+ > postgres@raspberrypi:~$ psql hab1
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+     public_key VARCHAR(255),
+     private_key VARCHAR(255)
+;
+
+CREATE TABLE
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT,    
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+;
+
+(exit psql and postgres with "exit" )
+
+## Changing password
+
+> sudo -i -u postgres
+> psql
+> postgres=# ALTER USER postgres WITH PASSWORD 'pcat999'
