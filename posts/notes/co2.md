@@ -3745,3 +3745,39 @@ Add label / pinout / description for Adafruit microSD card on back
 
 Hirose microSD part DM3D-SF on Digikey: [https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515](https://www.digikey.com/en/products/detail/DM3D-SF/HR1941CT-ND/1786515)
 
+---
+2021-02-02 17:08:26
+
+Jupyterlab on a Raspberry Pi [https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227#:~:text=Install%20Jupyter%20Lab,to%20install%20jupyter%20lab%20later.&text=Install%20jupyter%20using%20pip3.](https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227#:~:text=Install%20Jupyter%20Lab,to%20install%20jupyter%20lab%20later.&text=Install%20jupyter%20using%20pip3.)
+
+Jupyer Hub on an RPi [https://towardsdatascience.com/setup-your-home-jupyterhub-on-a-raspberry-pi-7ad32e20eed?gi=b0e66a9b10f7](https://towardsdatascience.com/setup-your-home-jupyterhub-on-a-raspberry-pi-7ad32e20eed?gi=b0e66a9b10f7)
+
+The script-based approach to installing Jupyter!  [https://github.com/kleinee/jns](https://github.com/kleinee/jns)
+
+Another nice approach: [https://morioh.com/p/93349454d65a](https://morioh.com/p/93349454d65a)
+
+---
+2021-02-03 05:18:10
+
+
+---
+2021-02-03 05:08:58
+
+ESP32 and wifi access point [https://www.google.com/search?q=esp32+can%27t+connect+to+pi+as+access+point&oq=esp32+can%27t+connect+to+pi+as+access+point&aqs=chrome..69i57.8176j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=esp32+can%27t+connect+to+pi+as+access+point&oq=esp32+can%27t+connect+to+pi+as+access+point&aqs=chrome..69i57.8176j0j7&sourceid=chrome&ie=UTF-8)
+
+ESP32 and wifi access point 2 [https://www.esp32.com/viewtopic.php?t=18928](https://www.esp32.com/viewtopic.php?t=18928)
+
+ESP32 and RPi connection without internet connection [https://raspberrypi.stackexchange.com/questions/107647/esp-8266-and-raspberry-pi-communication-without-an-internet-connection](https://raspberrypi.stackexchange.com/questions/107647/esp-8266-and-raspberry-pi-communication-without-an-internet-connection)
+
+
+Update:  just tried connecting my Heltec to my Pi using the identical image, *without* having the ethernet connected, and: "wifi?" but as soon as I plugged the ethernet back in, it connected.  Googling now, this is a known problem:  ESP32 doesn't like to connect to Pi as isolated AP.  I think people have found a fix.
+
+Suggestion to use MQTT here [https://github.com/nhonchu/mqttspooler](https://github.com/nhonchu/mqttspooler)
+
+Setting up a Raspberry Pi as an access point [https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all](https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all)
+
+Setting up a Pi as an access point in a standalone network -- solid instructions, here: [https://github.com/SurferTim/documentation/blob/6bc583965254fa292a470990c40b145f553f6b34/configuration/wireless/access-point.md](https://github.com/SurferTim/documentation/blob/6bc583965254fa292a470990c40b145f553f6b34/configuration/wireless/access-point.md)
+
+---
+
+Todo: follow instructions [here](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md) on fresh Pi image install. 
