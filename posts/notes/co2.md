@@ -3781,3 +3781,11 @@ Setting up a Pi as an access point in a standalone network -- solid instructions
 ---
 
 Todo: follow instructions [here](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md) on fresh Pi image install. 
+
+---
+2021-02-04 09:04:21
+
+M.B.'s data from overnight, using a REV_E and a Pi w/ Bayou-CO2 installed locally!
+
+![](/img/co2/mike_overnight.png)
+
