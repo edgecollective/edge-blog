@@ -3809,3 +3809,22 @@ comparing timestamps in postgresql
 
 [https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql](https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql)
 
+---
+2021-02-05 10:43:17
+
+Radiohead LoRa on ESP32 Heltec here:
+
+[http://community.heltec.cn/t/lora-32-v2-radio-head-library-sovled/129/2](http://community.heltec.cn/t/lora-32-v2-radio-head-library-sovled/129/2)
+
+Adafruit Radiohead example [https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/rfm9x-test](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/rfm9x-test)
+
+![](/img/co2/heltec_hello_lora.png)
+
+Arduino array length [https://www.arduino.cc/reference/en/language/variables/data-types/array/](https://www.arduino.cc/reference/en/language/variables/data-types/array/)
+
+---
+2021-02-05 13:12:57
+
+Basic lora receive and parse (not yet POST) here:
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/68031d85b8880b2cfb599d8558d215604412e519/v0.2-alpha](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/68031d85b8880b2cfb599d8558d215604412e519/v0.2-alpha)
