@@ -3791,3 +3791,21 @@ M.B.'s data from overnight, using a REV_E and a Pi w/ Bayou-CO2 installed locall
 
 ![](/img/co2/mike_overnight.png)
 
+---
+2021-02-04 12:57:13
+
+looks like syntax is:
+
+> var sql = "select * from user order by id desc LIMIT "
+
+---
+2021-02-04 15:11:18
+
+![](/img/co2/overlay_test.png)
+
+comparing timestamps in postgresql
+
+[https://stackoverflow.com/questions/19469154/how-to-compare-dates-in-datetime-fields-in-postgresql](https://stackoverflow.com/questions/19469154/how-to-compare-dates-in-datetime-fields-in-postgresql)
+
+[https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql](https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql)
+

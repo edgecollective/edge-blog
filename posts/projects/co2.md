@@ -19,6 +19,19 @@ Ongoing notes on development are posted [here](https://edgecollective.io/posts/n
 # Project Updates
 
 ---
+2021-02-05 10:07:42
+
+## Update 05 Feb 2021
+
+TODOS:
+- Pi screen display 
+- RTC to keep track of time
+- LoRa gateway setup  
+- Jupyter install on Pi
+- Forced calibration procedure
+- Set interval from Pi
+
+---
 2021-01-30 08:54:11
 
 ## Update 30 Jan 2021

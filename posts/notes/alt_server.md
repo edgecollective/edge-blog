@@ -1253,3 +1253,10 @@ REFERENCES feeds(feed_id)
 > sudo -i -u postgres
 > psql
 > postgres=# ALTER USER postgres WITH PASSWORD 'pcat999'
+
+---
+2021-02-04 09:23:33
+
+"Part 1: Create an application using PostgreSQL, Express, React and Node.js stack"
+
+[https://medium.com/javascript-in-plain-english/create-a-fullstack-banking-application-using-react-e8c96d74cd39](https://medium.com/javascript-in-plain-english/create-a-fullstack-banking-application-using-react-e8c96d74cd39)
