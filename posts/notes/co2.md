@@ -3836,3 +3836,11 @@ Basic lora receive and parse (not yet POST) here:
 
 low power mode of scd30 [https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf](https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf)
 
+---
+Rev_G gerbers on Oshpark here: [https://oshpark.com/shared_projects/B5Xvlckj](https://oshpark.com/shared_projects/B5Xvlckj)
+
+![](/img/co2/rev_g_oshpark_top.png)
+
+![](/img/co2/rev_g_oshpark_bottom.png)
+
+
