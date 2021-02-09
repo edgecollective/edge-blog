@@ -1126,17 +1126,22 @@ Switching back to postgres:
 
 Installing postgres:
 
-> sudo apt update
-> sudo apt install postgresql postgresql-contrib
+```
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+```
 
 Then:
 
-> sudo -i -u postgres
-> createdb feedmap1;
-> psql feedmap1
+```
+sudo -i -u postgres
+createdb feedmap1;
+psql feedmap1
+```
 
 then:
 
+```
 CREATE TABLE feedmaps(
     feedmap_id SERIAL PRIMARY KEY,
     name VARCHAR(255),
@@ -1155,6 +1160,7 @@ CREATE TABLE feeds(
         FOREIGN KEY(feedmap_id)
             REFERENCES feedmaps(feedmap_id)
 );
+```
 
 ---
 2021-01-23 22:14:02
@@ -1228,7 +1234,6 @@ CREATE TABLE feeds(
      private_key VARCHAR(255)
 ;
 
-CREATE TABLE
 CREATE TABLE measurements(
 id SERIAL PRIMARY KEY,
 feed_id INT,
@@ -1260,3 +1265,312 @@ REFERENCES feeds(feed_id)
 "Part 1: Create an application using PostgreSQL, Express, React and Node.js stack"
 
 [https://medium.com/javascript-in-plain-english/create-a-fullstack-banking-application-using-react-e8c96d74cd39](https://medium.com/javascript-in-plain-english/create-a-fullstack-banking-application-using-react-e8c96d74cd39)
+
+---
+2021-02-07 11:54:58
+
+DATA STRUCTURE REDESIGN NOTES:
+
+Here's a slight database redesign (I think I can do this in a day or so) that, based on your investigations thus far, might improve usability.
+
+A 'gaggle' consists of the data feeds coming from a wifi-lora gateway, plus up to 8 remote nodes that are associated with it.  
+
+Node IDs are fixed on the remote nodes using hardware switches that admit of 8 possible states.
+
+Each node ID will always get the same 'color' in the graph; i.e. Node 0 is 'blue', Node 1 is 'red'.  
+
+Instead of creating individual 'feeds' on Bayou, you will now create 'gaggles'.  You'll get a pub + priv key pair, which goes into that gaggles' gateway node's configuration file ("config.h"). 
+
+We now also introduce the concept of "local lora group ID" -- a short, random key of 3 chars, which the gateway and lora nodes both share, independent of the gaggle pub + priv key.
+
+Gateways only process lora data from their own "lora group", rejecting any other lora info coming in.  (This avoids lora conflicts at Library HQ, when setting up multiple 'gaggles').
+
+When you want to switch a gateway to a new gaggle, you create a new gaggle on Bayou, and reprogram the gateway with the new gaggle pub_key and priv_key, but you keep the lora group_key ... so that you don't need to reprogram the associated lora nodes at all.
+
+---
+
+In other words, the setup sequence is:
+
+1. Create a new 'gaggle' on Bayou, giving you a new gaggle pub_key and priv_key pair.
+2. Choose a local 'lora group' shortkey to identify your local lora network.
+3. Program the gaggle pub_key and priv_key, as well as the lora group key, into the gateway.
+4. Program the lora group key into all of the remote nodes.
+5. Set the 'hardware switches' on the remote nodes to indicate which node number they are on the network.
+
+If you want to create a new gaggle, you just create a new gaggle on Bayou, and reprogram the gateway with the new gaggle pub_key and priv_key, but keep the lora group key the same.  That way the remote nodes don't need to be reprogrammed.
+
+Each remote node, on boot, 'measures' its local hardware node ID number.  When it broadcasts, it sends its lora group key and its node ID along with its sensor data. 
+
+The gateway only listens for lora messages from lora nodes within its lora group.  When it receives a lora message from its group, it sends it along to Bayou.  
+
+----
+
+So the gateway config file will look like:
+
+const char *SSID = "pvosPi";
+const char *WiFiPassword = "12345678";
+const char* bayou_base_url = "192.168.4.1:3000/co2/data";
+const char* gaggle_pub_key = "62be3698ed7917a7da588750de28d0ac2030c1c12a5c1c6d";
+const char* gaggle_priv_key = "f02d003674065fb2e9199bf39d602532324fdc1d5a041ab4";
+char char* lora_groupkey = "a1c";
+const int interval_sec = 10;
+const int forcePPM = 400;
+
+And the remote config files (all identical to one another, but specific to this lora group) will look like:
+
+char char* lora_group_key = "a1c";
+const int interval_sec = 10;
+const int forcePPM = 400;
+
+```
+sudo -i -u postgres
+createdb feedmap1;
+psql feedmap1
+```
+
+then:
+
+```
+CREATE TABLE feeds(
+    gaggle_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    gaggle_id INT,
+    node_id INT,
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT gaggle
+        FOREIGN KEY(gaggle_id)
+            REFERENCES gaggles(gaggle_id)
+);
+
+
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT, 
+log VARCHAR(255),   
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+;
+
+```
+
+Retrying ...
+
+```
+CREATE TABLE feeds(
+    gaggle_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    gaggle_id INT,
+    node_id INT,
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT gaggle
+        FOREIGN KEY(gaggle_id)
+            REFERENCES gaggles(gaggle_id)
+);
+
+
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT, 
+log VARCHAR(255),   
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+;
+
+```
+
+```
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255),
+    private_key VARCHAR(255)
+;
+
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT,    
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+;
+```
+
+----
+2021-02-07 18:11:34
+
+Nano ID here: [https://medium.com/javascript-in-plain-english/you-might-not-need-uuid-v4-for-generating-random-identifiers-89e8a28a7d77](https://medium.com/javascript-in-plain-english/you-might-not-need-uuid-v4-for-generating-random-identifiers-89e8a28a7d77)
+
+short uuid -- [https://www.npmjs.com/package/short-uuid](https://www.npmjs.com/package/short-uuid)
+
+[https://gist.github.com/6174/6062387](https://gist.github.com/6174/6062387) -- generate random string in short and fast way 
+
+nice collection of resources [here](https://www.xspdf.com/resolution/59806960.html)
+
+short unique id [here](https://shortunique.id/)
+
+this seems v good! https://shortunique.id/
+
+https://betterexplained.com/articles/the-quick-guide-to-guids/
+
+user-facing unique uuids -- https://dev.to/yeo_alexandra/creating-user-facing-short-unique-ids-what-are-the-options-8mn
+
+generate a unique short id here: https://gnugat.github.io/2018/06/15/short-identifier.html
+
+oooh this is a pretty good argument: https://neilmadden.blog/2018/08/30/moving-away-from-uuids/
+
+good list of unique id thingies: https://github.com/grantcarthew/awesome-unique-id
+
+nanoid -- https://github.com/ai/nanoid/
+
+https://stackoverflow.com/questions/54338808/how-to-generate-unique-numeric-short-id-in-nodejs
+
+good reading here: https://stackoverflow.com/questions/6248666/how-to-generate-short-uid-like-ax4j9z-in-js
+
+looks like using nanoid w/ 11 characters would be the thing!
+
+https://zelark.github.io/nano-id-cc/
+
+---
+
+using the unique constraint: https://www.postgresqltutorial.com/postgresql-unique-constraint/
+
+using indexes: https://www.postgresql.org/docs/9.1/indexes-intro.html
+
+---
+2021-02-08 09:11:55
+
+back to basics ...
+
+## Creating DB
+
+```
+sudo -i -u postgres
+postgres@raspberrypi:~$ createdb hab3
+postgres@raspberrypi:~$ psql hab3
+
+
+CREATE TABLE feeds(
+    feed_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255) UNIQUE,
+    private_key VARCHAR(255) 
+);
+
+CREATE TABLE measurements(
+id SERIAL PRIMARY KEY,
+feed_id INT,
+co2 FLOAT,
+tempC FLOAT,
+humidity FLOAT,
+mic FLOAT,
+auxPressure FLOAT,
+auxTempC FLOAT,
+aux001 FLOAT,
+aux002 FLOAT,
+log VARCHAR(255),    
+created TIMESTAMP DEFAULT NOW(),
+CONSTRAINT feed
+ FOREIGN KEY(feed_id)
+REFERENCES feeds(feed_id)
+);
+
+```
+
+---
+2021-02-08 09:35:02
+
+installing nano-id:  [https://github.com/ai/nanoid](https://github.com/ai/nanoid)
+
+ah, here's an async approach:
+
+[https://stackoverflow.com/questions/49938266/how-to-return-values-from-async-functions-using-async-await-from-function](https://stackoverflow.com/questions/49938266/how-to-return-values-from-async-functions-using-async-await-from-function)
+
+
+deleting rows in the table!
+
+https://www.postgresqltutorial.com/postgresql-delete/
+
+with some condition here: [https://stackoverflow.com/questions/5170546/how-do-i-delete-a-fixed-number-of-rows-with-sorting-in-postgresql](https://stackoverflow.com/questions/5170546/how-do-i-delete-a-fixed-number-of-rows-with-sorting-in-postgresql)
+
+---
+2021-02-08 13:52:07
+
+Shortened keys, and added ability to delete a feed of historical data!
+
+----
+2021-02-08 15:15:31
+
+adding feedmaps2
+
+```
+CREATE TABLE feedmaps(
+    feedmap_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255) UNIQUE,
+    private_key VARCHAR(255),
+    map_url VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    feedmap_id INT,
+    feed_base_url VARCHAR(255),
+    feed_public_key VARCHAR(255),
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feedmap
+        FOREIGN KEY(feedmap_id)
+            REFERENCES feedmaps(feedmap_id)
+);
+```
+
+---
+
+okay, latest to play with is here:
+
+http://192.168.1.163:4000/feedmap/manage/bda90e5b319c2e8b15e882ca950e7baf96bc362366828283/5693cc45409f6d89adc293489e1154f0430c7d723ccb2a05
+
+---
+2021-02-08 21:02:13
+
+![](/img/co2/colors.png)

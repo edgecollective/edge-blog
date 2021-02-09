@@ -3828,3 +3828,11 @@ Arduino array length [https://www.arduino.cc/reference/en/language/variables/dat
 Basic lora receive and parse (not yet POST) here:
 
 [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/68031d85b8880b2cfb599d8558d215604412e519/v0.2-alpha](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/68031d85b8880b2cfb599d8558d215604412e519/v0.2-alpha)
+
+![](/img/co2/lora_config.png)
+
+---
+2021-02-07 11:04:31
+
+low power mode of scd30 [https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf](https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf)
+
