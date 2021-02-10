@@ -1666,3 +1666,8 @@ server {
 
 working demo here [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/4698789d79c3dd6b9c3a8fa88651ba4909c66e9d](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/4698789d79c3dd6b9c3a8fa88651ba4909c66e9d)
 
+---
+2021-02-10 16:03:05
+
+Fixing nodemon issue with stepping on ports here: [https://stackoverflow.com/questions/58605392/port-3000-is-already-in-use-nodemon-app-crashed-waiting-for-file-changes-bef](https://stackoverflow.com/questions/58605392/port-3000-is-already-in-use-nodemon-app-crashed-waiting-for-file-changes-bef)
+
