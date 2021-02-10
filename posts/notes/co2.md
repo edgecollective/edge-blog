@@ -3837,10 +3837,32 @@ Basic lora receive and parse (not yet POST) here:
 low power mode of scd30 [https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf](https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf)
 
 ---
+2021-02-09 12:26:06
+
+Rev G BOM here: [https://docs.google.com/spreadsheets/d/1lVheEod6zCzNCYa6XvAfB3fSmFhtaZ6GWjAGM3Qgw9o/edit#gid=970277542](https://docs.google.com/spreadsheets/d/1lVheEod6zCzNCYa6XvAfB3fSmFhtaZ6GWjAGM3Qgw9o/edit#gid=970277542)
+
+
 Rev_G gerbers on Oshpark here: [https://oshpark.com/shared_projects/B5Xvlckj](https://oshpark.com/shared_projects/B5Xvlckj)
 
 ![](/img/co2/rev_g_oshpark_top.png)
 
 ![](/img/co2/rev_g_oshpark_bottom.png)
+
+![](/img/co2/rev_g_top.png)
+
+![](/img/co2/rev_g_bottom.png)
+
+---
+2021-02-09 19:58:22
+
+Create the feed online here: http://co2data.pvos.org/
+
+Arduino firmware is here: https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/blob/master/releases/v0.4-alpha.zip
+
+Examples (of individual feeds):
+
+http://co2data.pvos.org/data/rk8gt2ig7atv
+
+http://co2data.pvos.org/data/kmwfezd45adn
 
 
