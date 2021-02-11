@@ -1671,3 +1671,17 @@ working demo here [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/4698789d79c3dd6
 
 Fixing nodemon issue with stepping on ports here: [https://stackoverflow.com/questions/58605392/port-3000-is-already-in-use-nodemon-app-crashed-waiting-for-file-changes-bef](https://stackoverflow.com/questions/58605392/port-3000-is-already-in-use-nodemon-app-crashed-waiting-for-file-changes-bef)
 
+---
+2021-02-10 16:12:22
+
+Handling failed errors with fetch: [https://www.tjvantoll.com/2015/09/13/fetch-and-errors/](https://www.tjvantoll.com/2015/09/13/fetch-and-errors/)
+
+---
+2021-02-10 21:22:55
+
+demo of bayou-co2 and feedmap here: [https://youtu.be/_9c5-HOngBk]
+
+bayou-co2 [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/447cbeb5de42ec6b3ae5e7b3521c207624cda6e8](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/447cbeb5de42ec6b3ae5e7b3521c207624cda6e8)
+
+feedmap [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/af0e1aa0e82fd80de31a9945e44d263c092ecc40](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/af0e1aa0e82fd80de31a9945e44d263c092ecc40)
+
