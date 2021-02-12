@@ -3894,3 +3894,6 @@ If it's just a general purpose mount hole with no specifiiic 'other bit', use 3.
 2021-02-12 09:58:30
 
 ![](/img/co2/rev_g_test.png)
+
+![](/img/co2/rev_g_test_back.png)
+
