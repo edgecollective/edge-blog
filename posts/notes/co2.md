@@ -3865,4 +3865,32 @@ http://co2data.pvos.org/data/rk8gt2ig7atv
 
 http://co2data.pvos.org/data/kmwfezd45adn
 
+---
+2021-02-11 17:31:12
 
+1591 btcl [http://www.hammondmfg.com/pdf/1591B.pdf](http://www.hammondmfg.com/pdf/1591B.pdf)
+
+good thread on pcb hole sizes / placement [https://www.eevblog.com/forum/eda/m3-screw-drill-diameter/](https://www.eevblog.com/forum/eda/m3-screw-drill-diameter/)
+
+Depends how accurate are the hole positions are in what you are mounting it to.
+You want accurate size on one side and oversize on the other to allow for tolerance. 
+3.5mm would be a generally normal size for an M3 mount, but M3.5 on both pieces may get too sloppy, so you'd normally do 3.2mm on one and 3.5 on the other.  
+If it's just a general purpose mount hole with no specifiiic 'other bit', use 3.5mm
+
+[3M Command hooks -- metal](https://www.amazon.com/Command-Damage-Free-Small-without-Packaging/dp/B0751TRS6Y/ref=sr_1_1_sspa?dchild=1&keywords=3m+command+hooks&qid=1613084648&s=home-garden&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNlJGRU5VQjMzVFZMJmVuY3J5cHRlZElkPUEwNzEwNDM1MkRRSUtXRlA1OU5ZUSZlbmNyeXB0ZWRBZElkPUExMDI1NjgxMjBFQ01PRE5DTUpRRSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+[3M Command hooks -- plastic](https://www.amazon.com/Command-White-Utility-Container-GP003-7NA/dp/B0753NHZVQ/ref=sr_1_4?dchild=1&keywords=3m+command+hooks&qid=1613084745&s=home-garden&sr=1-4)
+
+---
+2021-02-11 19:58:23
+
+![](/img/co2/rev_h_draft1.png)
+
+![](/img/co2/rev_h_draft1_back.png)
+
+![](/img/co2/feedmap_codeploy_test.png)
+
+---
+2021-02-12 09:58:30
+
+![](/img/co2/rev_g_test.png)

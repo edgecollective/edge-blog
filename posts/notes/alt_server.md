@@ -1685,3 +1685,8 @@ bayou-co2 [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/447cbeb5de42ec6b3ae5e
 
 feedmap [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/af0e1aa0e82fd80de31a9945e44d263c092ecc40](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/af0e1aa0e82fd80de31a9945e44d263c092ecc40)
 
+---
+2021-02-11 12:15:10
+
+creating a .ico image [https://graphicdesign.stackexchange.com/questions/77359/how-to-convert-a-square-svg-to-all-size-ico](https://graphicdesign.stackexchange.com/questions/77359/how-to-convert-a-square-svg-to-all-size-ico)
+
