@@ -3949,3 +3949,5 @@ Added to bayou-co2:
 
 [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/f288bec254317eab2deab5af808de973bf5c4d1e](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/f288bec254317eab2deab5af808de973bf5c4d1e)
 
+![](/img/co2/bayou_qr.png)
+
