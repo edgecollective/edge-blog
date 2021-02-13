@@ -3932,3 +3932,20 @@ Updated code for REV_E and REV_F (Heltec) to show public key on screen here: [ht
 
 Test code for REV_G (Feather ESP32; should work on REV_H too) here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/40179ca69b689f22f4f3d207cea9c0f9568a5edf/v0.4-alpha/rev_g](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/40179ca69b689f22f4f3d207cea9c0f9568a5edf/v0.4-alpha/rev_g)
 
+---
+2021-02-13 10:23:28
+
+QR codes:
+
+https://github.com/soldair/node-qrcode
+
+Added to feedmaps:
+
+[https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/182e091f08e907bae7640dbb3cbb344c7f8f1961](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/182e091f08e907bae7640dbb3cbb344c7f8f1961)
+
+![](/img/co2/feedmaps_qr.png)
+
+Added to bayou-co2:
+
+[https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/f288bec254317eab2deab5af808de973bf5c4d1e](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/f288bec254317eab2deab5af808de973bf5c4d1e)
+
