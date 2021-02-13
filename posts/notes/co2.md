@@ -3897,3 +3897,38 @@ If it's just a general purpose mount hole with no specifiiic 'other bit', use 3.
 
 ![](/img/co2/rev_g_test_back.png)
 
+![](/img/co2/co2_pubkey.png)
+
+![](/img/co2/uFL_option.png)
+
+---
+2021-02-12 20:38:52
+
+common hole / tap sizes:
+
+![](/img/co2/common_hole_sizes.png)
+
+M2 spacers on [amazon](https://www.amazon.com/HVAZI-Male-Female-Spacer-Standoffs-Assortment/dp/B071KDS14D)
+
+---
+2021-02-12 21:25:40
+
+Submitted to jlcpcb! Order: Y15-2489114A
+
+
+Files: [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/838dbbc5dcd8af392ac3b86d49a4e15efe28e0f8/REV_H](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/838dbbc5dcd8af392ac3b86d49a4e15efe28e0f8/REV_H)
+
+
+
+![](/img/co2/rev_h_jlcpcb_top.png)
+
+![](/img/co2/rev_h_jlcpcb_bottom.png)
+
+---
+2021-02-12 21:30:58
+
+Updated code for REV_E and REV_F (Heltec) to show public key on screen here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b0f7bae152fd3fedaaca335b2e49ac72dcf17830/v0.4-alpha/pvos_co2_wifi_pubkey](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b0f7bae152fd3fedaaca335b2e49ac72dcf17830/v0.4-alpha/pvos_co2_wifi_pubkey)
+
+
+Test code for REV_G (Feather ESP32; should work on REV_H too) here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/40179ca69b689f22f4f3d207cea9c0f9568a5edf/v0.4-alpha/rev_g](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/40179ca69b689f22f4f3d207cea9c0f9568a5edf/v0.4-alpha/rev_g)
+
