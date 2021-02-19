@@ -249,4 +249,11 @@ Sparfkun [thumb slide joystick](https://www.sparkfun.com/products/9426).
 
 Two-axis analog thumb joystick [from adafruit](https://www.adafruit.com/product/3103?gclid=CjwKCAiAnvj9BRA4EiwAuUMDf3G_fkelMEeerVZsKheGOKmEEHHC8dTNP6ZO3IY1C-4tmHcKU-vbJBoC7bUQAvD_BwE).
 
+---
+2021-02-14 11:23:13
+
+Interesting thread on plus codes, MRGR, etc -- [https://news.ycombinator.com/item?id=18646485](https://news.ycombinator.com/item?id=18646485)
+
+The nicest viz of the map: [https://dxcluster.ha8tks.hu/hamgeocoding/](https://dxcluster.ha8tks.hu/hamgeocoding/)
+
 

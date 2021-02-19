@@ -3951,3 +3951,10 @@ Added to bayou-co2:
 
 ![](/img/co2/bayou_qr.png)
 
+download canvas [https://www.purplesquirrels.com.au/2019/10/saving-a-canvas-element-as-an-image/](https://www.purplesquirrels.com.au/2019/10/saving-a-canvas-element-as-an-image/)
+
+---
+2021-02-14 11:14:43
+
+canvas to pdf [https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf](https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf)
+

@@ -1690,3 +1690,42 @@ feedmap [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/af0e1aa0e82fd80de31a9945e
 
 creating a .ico image [https://graphicdesign.stackexchange.com/questions/77359/how-to-convert-a-square-svg-to-all-size-ico](https://graphicdesign.stackexchange.com/questions/77359/how-to-convert-a-square-svg-to-all-size-ico)
 
+---
+2021-02-18 13:25:49
+
+```
+sudo -i -u postgres
+postgres@raspberrypi:~$ createdb feedmap3
+postgres@raspberrypi:~$ psql feedmap3
+
+CREATE TABLE feedmaps(
+    feedmap_id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    public_key VARCHAR(255) UNIQUE,
+    private_key VARCHAR(255),
+    map_url VARCHAR(255)
+);
+
+CREATE TABLE feeds(
+    id SERIAL PRIMARY KEY,
+    feedmap_id INT,
+    feed_base_url VARCHAR(255),
+    feed_public_key VARCHAR(255),
+    feed_nickname VARCHAR(255),
+    added TIMESTAMP DEFAULT NOW(),
+    CONSTRAINT feedmap
+        FOREIGN KEY(feedmap_id)
+            REFERENCES feedmaps(feedmap_id)
+);
+```
+
+artisan's feeds
+
+b2srm27dragm	red	CSV | JSON
+ertvughsgqzs	blue	CSV | JSON
+jdwktcu9xt5c	green	CSV | JSON
+t8uic9wh4q82	purple
+
+
+feedmap is: 104.248.54.245
+bayou is: 

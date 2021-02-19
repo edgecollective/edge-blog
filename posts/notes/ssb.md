@@ -44,5 +44,11 @@ sudo apt install libx11-dev libxkbfile-dev
  - [Secure Scuttlebutt Pub Servers](https://github.com/ssbc/ssb-server/wiki/pub-servers) -- list of servers you can join with a Secure Scuttlebutt 'client'
  - [Patchwork](https://github.com/ssbc/patchwork) -- a 'client' for Secure Scuttlebutt
 
+---
+2021-02-18 16:44:38
 
-
+```
+https://github.com/AsamK/signal-cli/wiki
+signal-cli -u +18572850070 send -m "hallo from the cli again!" +17817756406
+signal-cli -u +18572850070 receive
+```
