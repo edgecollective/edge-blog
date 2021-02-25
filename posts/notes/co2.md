@@ -3958,3 +3958,9 @@ download canvas [https://www.purplesquirrels.com.au/2019/10/saving-a-canvas-elem
 
 canvas to pdf [https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf](https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf)
 
+---
+2021-02-25 10:52:39
+
+Code for watchdog timer for esp32 here: [https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Timer/WatchdogTimer/WatchdogTimer.ino](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Timer/WatchdogTimer/WatchdogTimer.ino)
+
+
