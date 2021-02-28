@@ -256,4 +256,7 @@ Interesting thread on plus codes, MRGR, etc -- [https://news.ycombinator.com/ite
 
 The nicest viz of the map: [https://dxcluster.ha8tks.hu/hamgeocoding/](https://dxcluster.ha8tks.hu/hamgeocoding/)
 
+---
+2021-02-27 16:30:18
 
+Note that there is a new GxEPD library -- GxEPD2 -- should check it out!

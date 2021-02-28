@@ -3963,4 +3963,29 @@ canvas to pdf [https://stackoverflow.com/questions/23681325/convert-canvas-to-pd
 
 Code for watchdog timer for esp32 here: [https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Timer/WatchdogTimer/WatchdogTimer.ino](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Timer/WatchdogTimer/WatchdogTimer.ino)
 
+---
+2021-02-27 14:23:17
+
+Going to resurrect the 'lora mesh' idea ...
+
+nootropic design lora mesh: [https://nootropicdesign.com/projectlab/2018/10/20/lora-mesh-networking/](https://nootropicdesign.com/projectlab/2018/10/20/lora-mesh-networking/)
+
+
+q:
+can we make radiohead lib work with sd card on same spi bus?
+
+can the feather m0 work on a rev_h board? 
+
+simple radio control of stuff remotely as per nu vu ?
+
+---
+2021-02-27 19:53:43
+
+basic lora mesh working on both heltecs and a feather: https://github.com/edgecollective/lora-mesh/tree/master/co2/simple_a
+
+one specifies the 'target' node, and one's node id ...
+
+would be nice to have a switch on the remote nodes to change node id
+
+might use feather based board as gateway for now ...
 

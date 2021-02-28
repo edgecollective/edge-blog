@@ -86,4 +86,36 @@ var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
 
 console.log(formattedTime);
 ```
+---
+2021-02-27 10:04:55
+
+Thoughts on radio setups ...
+
+Thinking about establishing communication networks for off-grid locations ... 
+
+## Cellular
+
+Cellular coverage is spotty. If it's available, then it's a good system; it's what people are used to; but it can also be fragile to power outages.
+
+---
+2021-02-27 14:22:04
+
+ideas: find the nodejs way of interpreting APRS
+
+make a system that can get some standard message formats from internet / local lora, and combine with APRS, and show
+
+make a 'feedmap' for belfast that shows all the gps feeds on one map
+
+---
+2021-02-27 14:26:27
+
+imagery over lora -- 
+http://ssdv.habhub.org/KW03PL
+
+---
+2021-02-27 15:00:48
+
+slow scan digital imagery: [http://tt7hab.blogspot.com/2018/04/the-lora-ssdv.html](http://tt7hab.blogspot.com/2018/04/the-lora-ssdv.html)
+
+
 
