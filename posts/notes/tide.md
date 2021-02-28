@@ -35,5 +35,14 @@ Possible RTCZero support on the IBM4? [https://github.com/arduino-libraries/RTCZ
 
 Issue prior: because the IBM4 is a 'crystal-less' design (I think the IBM0, too? But not the Feather version of these boards?) there was some additional code that needed to be written ... but looks like the above pull request purports to fix it ... worth trying!
 
+---
+2021-02-28 11:40:57
+
+![](/img/alt-server/belfast_gps.png)
+
+![](/img/alt-server/belfast_rssi.png)
+
+![](/img/alt-server/belfast_rssi_histogram.png)
+
 
 
