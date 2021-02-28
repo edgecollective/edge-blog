@@ -3983,9 +3983,16 @@ simple radio control of stuff remotely as per nu vu ?
 
 basic lora mesh working on both heltecs and a feather: https://github.com/edgecollective/lora-mesh/tree/master/co2/simple_a
 
+![](/img/co2/mesh_working.png)
+
 one specifies the 'target' node, and one's node id ...
 
 would be nice to have a switch on the remote nodes to change node id
 
 might use feather based board as gateway for now ...
 
+As of Feb 27, here's what we see at A2:
+
+![](/img/co/a2_asof_feb_27.png)
+
+The story is that there is a heater that turned off on Feb 24th, and turned back on around 3 PM Feb 25th ...
