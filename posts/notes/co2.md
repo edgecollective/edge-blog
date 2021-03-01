@@ -3996,3 +3996,123 @@ As of Feb 27, here's what we see at A2:
 ![](/img/co2/a2_asof_feb_27.png)
 
 The story is that there is a heater that turned off on Feb 24th, and turned back on around 3 PM Feb 25th ...
+
+---
+2021-02-28 12:07:50
+
+blog post on mesh networking: [https://nootropicdesign.com/projectlab/2018/10/20/lora-mesh-networking/](https://nootropicdesign.com/projectlab/2018/10/20/lora-mesh-networking/)
+
+Idea:  we can have the nodes mesh, and use a 'test network' to visualize.  We can add a 'next hop' field to the database, as well as a 'last rssi' value, and a 'node id' field.  so then we'll have:
+
+node id   next hop id    rssi to the next hop
+
+we can then start to visualize these networks using a similar approach 
+
+---
+2021-02-28 13:08:51
+
+RH_TEST_NETWORK
+
+```
+////////////////////////////////////////////////////////////////////
+bool RHRouter::recvfromAck(uint8_t* buf, uint8_t* len, uint8_t* source, uint8_t* dest, uint8_t* id, uint8_t* flags)
+{  
+    uint8_t tmpMessageLen = sizeof(_tmpMessage);
+    uint8_t _from;
+    uint8_t _to;
+    uint8_t _id;
+    uint8_t _flags;
+    if (RHReliableDatagram::recvfromAck((uint8_t*)&_tmpMessage, &tmpMessageLen, &_from, &_to, &_id, &_flags))
+    {
+	// Here we simulate networks with limited visibility between nodes
+	// so we can test routing
+#ifdef RH_TEST_NETWORK
+	if (
+#if RH_TEST_NETWORK==1
+	    // This network looks like 1-2-3-4
+	       (_thisAddress == 1 && _from == 2)
+	    || (_thisAddress == 2 && (_from == 1 || _from == 3))
+	    || (_thisAddress == 3 && (_from == 2 || _from == 4))
+	    || (_thisAddress == 4 && _from == 3)
+	    
+#elif RH_TEST_NETWORK==2
+	       // This network looks like 1-2-4
+	       //                         | | |
+	       //                         --3--
+	       (_thisAddress == 1 && (_from == 2 || _from == 3))
+	    ||  _thisAddress == 2
+	    ||  _thisAddress == 3
+	    || (_thisAddress == 4 && (_from == 2 || _from == 3))
+
+#elif RH_TEST_NETWORK==3
+	       // This network looks like 1-2-4
+	       //                         |   |
+	       //                         --3--
+	       (_thisAddress == 1 && (_from == 2 || _from == 3))
+	    || (_thisAddress == 2 && (_from == 1 || _from == 4))
+	    || (_thisAddress == 3 && (_from == 1 || _from == 4))
+	    || (_thisAddress == 4 && (_from == 2 || _from == 3))
+
+#elif RH_TEST_NETWORK==4
+	       // This network looks like 1-2-3
+	       //                           |
+	       //                           4
+	       (_thisAddress == 1 && _from == 2)
+	    ||  _thisAddress == 2
+	    || (_thisAddress == 3 && _from == 2)
+	    || (_thisAddress == 4 && _from == 2)
+
+#endif
+```
+
+```
+#if defined(__AVR)
+//mothbot
+#define RFM95_CS 8
+#define RFM95_RST 7
+#define RFM95_INT 2
+#define LED 4
+
+RH_RF95 rf95(RFM95_CS, RFM95_INT);
+
+#elif defined(HELTEC_WIFI_LORA_32_V2)
+
+// heltec wifi lora 32 v2
+#define RFM95_CS 18
+#define RFM95_RST 14
+#define RFM95_INT 26
+#define LED 25
+
+RH_RF95 rf95(RFM95_CS, RFM95_INT);
+
+
+#elif defined(FEATHER_ESP32)
+
+// feather esp32
+#define RFM95_CS 14
+#define RFM95_RST 27
+#define RFM95_INT 15
+#define LED 13
+
+RHSoftwareSPI sx1278_spi;
+
+RH_RF95 rf95(RFM95_CS, RFM95_INT, sx1278_spi);
+
+#endif
+```
+
+---
+2021-02-28 19:46:46
+
+working!
+
+[https://github.com/edgecollective/lora-mesh/tree/c27a875e3a7859b35bfef8a7fb3ae22eecd751c8/co2/simple_d](https://github.com/edgecollective/lora-mesh/tree/c27a875e3a7859b35bfef8a7fb3ae22eecd751c8/co2/simple_d)
+
+Only the feather m0 and the heltec code works for now I think (easy to make the feather esp32 code work I believe)
+
+NOTE: in order to generate the 'test networks', it has to be done in the RHROUTER.h file in the library itself.
+
+See below, displaying test network #3:
+
+![](/img/co2/rh_network_test.png)
+
