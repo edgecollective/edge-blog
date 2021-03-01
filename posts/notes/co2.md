@@ -4112,7 +4112,7 @@ Only the feather m0 and the heltec code works for now I think (easy to make the 
 
 NOTE: in order to generate the 'test networks', it has to be done in the RHROUTER.h file in the library itself.
 
-See below, displaying test network #3:
+See below, displaying RH_TEST_NETWORK==3:
 
 ![](/img/co2/rh_network_test.png)
 
