@@ -4180,3 +4180,94 @@ Mesh healing:
 
 ![](/img/co2/mesh_healing.png)
 
+Simple mesh + co2 reading code: [https://github.com/edgecollective/lora-mesh/tree/fb1f5d3abc81c1c32d06cecbc9205877d048cef3/co2/simple_f/mesh_featheresp32_hardcoded](https://github.com/edgecollective/lora-mesh/tree/fb1f5d3abc81c1c32d06cecbc9205877d048cef3/co2/simple_f/mesh_featheresp32_hardcoded)
+
+Now need to:
+- capture other parameters in struct
+- restrict broadcast to lora network defined by public key
+- add new fields to bayou database in order to capture next_hop, next_rssi, etc
+
+the remote nodes should be mostly listening and relaying, then periodically sending their data
+
+the gateway should be mostly listening and relaying the value via wifi whenever something comes in
+
+i guess the only difference is that if the gateway sees that it is the target node then it is never broadcasting, only wifi sending ...
+
+for now we'll http POST every incoming data point, see if that can handle the random lora messages; otherwise we can store N incoming messages, then POST
+
+---
+2021-03-01 15:26:46
+
+testing gateway setup -- adding wifi to gateway node
+
+Feed Public Key: 7zqjzktfq997
+Feed Private Key: 4g5xf5xzzhr8
+Feed Home Page: http://co2.pvos.org/data/7zqjzktfq997
+
+(on local database)
+
+
+Ah -- I might want to use 'recvfromAck' (non-blocking) instead of 'recvfromAckTimeout' on the remote nodes.
+
+sequence:
+
+set up the recvfromAck in the loop (or start it running in setup?)
+
+in remote nodes, periodically send co2 data ...
+
+in the gateway, periodically send the data that has been collected thus far ...
+
+some relevant posts:
+
+[https://forum.arduino.cc/index.php?topic=413182.0](https://forum.arduino.cc/index.php?topic=413182.0)
+
+[https://forum.arduino.cc/index.php?topic=381973.msg2638162#msg2638162](https://forum.arduino.cc/index.php?topic=381973.msg2638162#msg2638162)
+
+example using recvfromAck: [https://github.com/adafruit/RadioHead/blob/master/examples/serial/serial_reliable_datagram_server/serial_reliable_datagram_server.pde](https://github.com/adafruit/RadioHead/blob/master/examples/serial/serial_reliable_datagram_server/serial_reliable_datagram_server.pde)
+
+---
+2021-03-01 20:45:29
+
+lora-mesh/co2/simple_g/basic_mesh_system/mesh_heltec seems to work as a basic mesh gateway. 
+
+[https://github.com/edgecollective/lora-mesh/tree/b55e5628df09ec6b0b33c46d75cedad343a5e456/co2/simple_g/basic_mesh_system](https://github.com/edgecollective/lora-mesh/tree/b55e5628df09ec6b0b33c46d75cedad343a5e456/co2/simple_g/basic_mesh_system)
+
+will need to test code for other nodes.
+
+need to think through how to handle; seems like each node sends its pubkey, its privkey, and identifies its network by gateway's pubkey.
+
+somehow we have to identify nodes in the network by simple integers, it seems. need to think that through.
+
+note that the gateway should send its own data via http every X seconds ... 
+
+... so maybe there's a millis() loop, where if you're the remote node, when it triggers, you send your data via lora; if you're the gateway, you send your data to the cloud via wifi. 
+
+the gateway is then set up so that it is listening for chunks of time; if it ever hears anything, it does an http POST of that data; and if it is then also past its own interval, it posts data.
+
+every listen-receive-post re-loops the system
+
+in the limit of many receipts, it simply loops back into another receipt again; but it will always measure itself and send via wifi if it's past time to do so
+
+i.e. something like:
+
+
+if (millis() > wait interval) {
+
+    if we're the gateway, measure our own CO2 and send via wifi;
+
+    if we're a remote node, measure our own CO2 and send via lora;
+}
+
+if recvfromAckTimeout(wait interval) {
+    // running this function means that we are relaying any mesh messages
+    // if it returns true, then we were the intended recipient
+    // in our network, this is only true if we're the gateway; so in that case, post the resultant data to the proper feed.
+}
+
+
+this means that the data struct has to include the pubkey and privkey of the remote node that is sending the data.
+the node id would ideally be set in hardware, but we'll do it in the config file in this round.
+i don't think there's any need to have an upper limit on # nodes; but each nodeid needs to be unique
+
+we should rename nodeId to node_id
+
