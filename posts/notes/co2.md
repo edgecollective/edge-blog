@@ -4271,3 +4271,53 @@ i don't think there's any need to have an upper limit on # nodes; but each nodei
 
 we should rename nodeId to node_id
 
+---
+2021-03-02 10:41:51
+
+Heating events ...
+
+![](/img/co2/labeled_heating_events.png)
+
+Exponential decay [here](http://cdn.teledynelecroy.com/files/appnotes/lecroy_measuring_exponential_decay_slope.pdf)
+
+fitting using python [here](https://stackoverflow.com/questions/49565152/curve-fit-an-exponential-decay-function-in-python-using-given-data-points)
+
+get slopes of data [here](https://stackoverflow.com/questions/49100471/how-to-get-slopes-of-data-in-pandas-dataframe-in-python/49100744)
+
+adding fields to bayou:
+
+---
+2021-03-02 18:20:59
+
+Plan: 
+
+- add node_id, next_hop, and next_rssi to posgres.
+- develop on two heltecs to start w/ 'real' code, can just vary node #
+- add in two other feather m0 nodes w/ faked co2 data loops
+
+1. adding new column to postgres [https://www.postgresqltutorial.com/postgresql-add-column/](https://www.postgresqltutorial.com/postgresql-add-column/)
+
+```
+hab3=# ALTER TABLE measurements ADD COLUMN node_id INT;
+ALTER TABLE
+hab3=# ALTER TABLE measurements ADD COLUMN next_hop INT;
+ALTER TABLE
+hab3=# ALTER TABLE measurements ADD COLUMN next_rssi FLOAT;
+```
+
+need to remember to optimize strings!
+
+need to add lux to database
+
+string args and string cat -- [https://forum.arduino.cc/index.php?topic=120233.0](https://forum.arduino.cc/index.php?topic=120233.0)
+
+strlcat() -- truncates string if necessary rather than writing outside bounds
+
+---
+2021-03-02 21:31:36
+
+Replaced use of strings with chars; put stuff into functions: [https://github.com/edgecollective/lora-mesh/tree/bdec49aedecffb83f29723c3f0fcfdf924c9e2fe/co2/simple_h/mesh_heltec](https://github.com/edgecollective/lora-mesh/tree/bdec49aedecffb83f29723c3f0fcfdf924c9e2fe/co2/simple_h/mesh_heltec) -- basic gateway is working.
+
+Now need to:
+- add 'light' to postgres, and set up bayou
+- add 'mesh relay/receive (and post if gateway)' logic to heltec
