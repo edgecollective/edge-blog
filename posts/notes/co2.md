@@ -4298,11 +4298,11 @@ Plan:
 1. adding new column to postgres [https://www.postgresqltutorial.com/postgresql-add-column/](https://www.postgresqltutorial.com/postgresql-add-column/)
 
 ```
-hab3=# ALTER TABLE measurements ADD COLUMN node_id INT;
-ALTER TABLE
-hab3=# ALTER TABLE measurements ADD COLUMN next_hop INT;
-ALTER TABLE
-hab3=# ALTER TABLE measurements ADD COLUMN next_rssi FLOAT;
+ALTER TABLE measurements ADD COLUMN node_id INT;
+ALTER TABLE measurements ADD COLUMN next_hop INT;
+ALTER TABLE measurements ADD COLUMN next_rssi FLOAT;
+ALTER TABLE measurements ADD COLUMN light FLOAT;
+
 ```
 
 need to remember to optimize strings!
@@ -4321,3 +4321,45 @@ Replaced use of strings with chars; put stuff into functions: [https://github.co
 Now need to:
 - add 'light' to postgres, and set up bayou
 - add 'mesh relay/receive (and post if gateway)' logic to heltec
+
+
+
+---
+2021-03-03 12:43:22
+
+Basic working version for Heltec!
+
+[https://github.com/edgecollective/lora-mesh/tree/f7b27e7f51805341db7ef8874882ed2523eebbb7/co2/simple_j](https://github.com/edgecollective/lora-mesh/tree/f7b27e7f51805341db7ef8874882ed2523eebbb7/co2/simple_j)
+
+Also includes code for a 'dummy' featherm0 node.
+
+Next priorities:
+
+1. Change Bayou so that it display the node_id, next_hop, next_rssi
+2. Change Feedmap so that it can display a 'viz' of the network coming through
+3. Make code for a simple relay node in the network
+
+---
+2021-03-03 17:08:56
+
+sorting javascript objects by key [https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key](https://stackoverflow.com/questions/5467129/sort-javascript-object-by-key)
+
+sorting javascript objects by value [https://stackoverflow.com/questions/1069666/sorting-object-property-by-values](https://stackoverflow.com/questions/1069666/sorting-object-property-by-values)
+
+---
+2021-03-03 17:38:11
+
+
+working!
+
+![](/img/co2/feedmap_mesh.png)
+
+bayou code: [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc)
+
+feedmap code: [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/52820c9e0cdbdb02808a239cf75fe65ff7360391](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/52820c9e0cdbdb02808a239cf75fe65ff7360391)
+
+arduino firmware: https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k](https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k)
+
+
+
+
