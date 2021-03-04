@@ -4350,7 +4350,7 @@ sorting javascript objects by value [https://stackoverflow.com/questions/1069666
 2021-03-03 17:38:11
 
 
-working!
+working!  the "simple_k" arduino version, with associated commits on bayou and feedmap ...
 
 ![](/img/co2/feedmap_mesh.png)
 
@@ -4358,8 +4358,20 @@ bayou code: [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a1
 
 feedmap code: [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/52820c9e0cdbdb02808a239cf75fe65ff7360391](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/52820c9e0cdbdb02808a239cf75fe65ff7360391)
 
-arduino firmware: https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k](https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k)
+arduino firmware: [https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k](https://github.com/edgecollective/lora-mesh/tree/731e5e392831f657b3cb9bdfb01c6fe3691d9187/co2/simple_k)
 
 
+---
+2021-03-04 09:10:42
+
+Data analysis repo here: [https://github.com/p-v-o-s/co2data-analysis/tree/a4879538a447a920785b4d9182a0b38e4830baab/jupyter/heating_mar_04_2020](https://github.com/p-v-o-s/co2data-analysis/tree/a4879538a447a920785b4d9182a0b38e4830baab/jupyter/heating_mar_04_2020)
+
+
+---
+2021-03-04 13:13:30
+
+Repeaters working!
+
+![](/img/co2/repeater.png)
 
 
