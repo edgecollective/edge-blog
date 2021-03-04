@@ -4374,4 +4374,9 @@ Repeaters working!
 
 ![](/img/co2/repeater.png)
 
+Arduino firmware is 'simple_l' version: [https://github.com/edgecollective/lora-mesh/tree/32dbf22e74e37e31f55ce6855fca599a2c0105f9/co2/simple_l](https://github.com/edgecollective/lora-mesh/tree/32dbf22e74e37e31f55ce6855fca599a2c0105f9/co2/simple_l)
+
+Feedmap version is in the 'mesh' branch: [https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/817f69f4ab2012de69c9be0644be988d19e879e8](https://gitlab.com/p-v-o-s/co2/feedmap/-/tree/817f69f4ab2012de69c9be0644be988d19e879e8)
+
+Bayou-feed version is [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc)
 
