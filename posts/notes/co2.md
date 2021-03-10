@@ -4380,3 +4380,51 @@ Feedmap version is in the 'mesh' branch: [https://gitlab.com/p-v-o-s/co2/feedmap
 
 Bayou-feed version is [https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc](https://gitlab.com/p-v-o-s/co2/bayou-co2/-/tree/d738bfcbbd1f4b934a11add33852f7f00267e0fc)
 
+---
+2021-03-05 10:15:35
+
+Pandas series to numpy array [https://pandas.pydata.org/pandas-docs/version/0.24.0rc1/api/generated/pandas.Series.to_numpy.html](https://pandas.pydata.org/pandas-docs/version/0.24.0rc1/api/generated/pandas.Series.to_numpy.html)
+
+polyfit: [https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
+
+[https://stackoverflow.com/questions/54313463/pandas-datetime-to-unix-timestamp-seconds](https://stackoverflow.com/questions/54313463/pandas-datetime-to-unix-timestamp-seconds)
+
+![](/img/co2/heating_events_mar_5_annotated.png)
+
+[https://stackoverflow.com/questions/35495045/exponential-fit-of-the-data-python](https://stackoverflow.com/questions/35495045/exponential-fit-of-the-data-python)
+
+[https://numpy.org/doc/stable/reference/generated/numpy.exp.html](https://numpy.org/doc/stable/reference/generated/numpy.exp.html)
+
+---
+2021-03-06 08:10:48
+
+Error on the fit in numpy: [https://stackoverflow.com/questions/15721053/whats-the-error-of-numpy-polyfit](https://stackoverflow.com/questions/15721053/whats-the-error-of-numpy-polyfit)
+
+---
+2021-03-07 13:19:18
+
+New mesh code here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/raw/master/releases/v0.7-alpha.zip](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/raw/master/releases/v0.7-alpha.zip)
+
+---
+2021-03-10 16:13:42
+
+error in fit: [http://clip.med.yale.edu/courses/brdu/Costa_ODE.pdf](http://clip.med.yale.edu/courses/brdu/Costa_ODE.pdf)
+
+error in slope of linear fit: [https://pages.mtu.edu/~fmorriso/cm3215/UncertaintySlopeInterceptOfLeastSquaresFit.pdf](https://pages.mtu.edu/~fmorriso/cm3215/UncertaintySlopeInterceptOfLeastSquaresFit.pdf)
+
+> SE of regression slope = sb1 = sqrt [ Σ(yi – ŷi)2 / (n – 2) ] / sqrt [ Σ(xi – x)2 ]
+
+https://people.duke.edu/~rnau/mathreg.htm
+
+https://faculty1.coloradocollege.edu/~sburns/LinearFitting/SimpleDataFitting.html
+
+https://newt.phys.unsw.edu.au/~mcba/mcba12.pdf
+
+https://www.ruf.rice.edu/~bioslabs/tools/data_analysis/errors_curvefits.html
+
+https://statisticsbyjim.com/regression/standard-error-regression-vs-r-squared/
+
+https://astrofrog.github.io/py4sci/_static/15.%20Fitting%20models%20to%20data.html
+
+aprs position off-grid with js8call https://www.youtube.com/watch?v=dAiXsSMIkKY
+
