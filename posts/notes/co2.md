@@ -4435,3 +4435,6 @@ Rework of firmware and bayou for mesh networking ...
 
 - Arduino firmware -- ver 0.8-alpha: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha)
 
+Can now use URL parameters to specify node and parameter to graph:
+
+![](/img/co2/bayou_revamp.png) 
