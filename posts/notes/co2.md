@@ -4426,5 +4426,12 @@ https://statisticsbyjim.com/regression/standard-error-regression-vs-r-squared/
 
 https://astrofrog.github.io/py4sci/_static/15.%20Fitting%20models%20to%20data.html
 
-aprs position off-grid with js8call https://www.youtube.com/watch?v=dAiXsSMIkKY
+---
+2021-03-11 18:17:18
+
+Rework of firmware and bayou for mesh networking ...
+
+- Bayou software: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/08b7b44a7fc53e3e3fd1f61d3eb32aee927503e9](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/08b7b44a7fc53e3e3fd1f61d3eb32aee927503e9)
+
+- Arduino firmware -- ver 0.8-alpha: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha)
 

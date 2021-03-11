@@ -1961,7 +1961,7 @@ aux_1 FLOAT,
 aux_2 FLOAT,
 aux_3 FLOAT,
 log VARCHAR(255),    
-created TIMESTAMP DEFAULT NOW(),
+timestamp TIMESTAMP DEFAULT NOW(),
 CONSTRAINT feed
  FOREIGN KEY(feed_id)
 REFERENCES feeds(feed_id)
@@ -1969,3 +1969,12 @@ REFERENCES feeds(feed_id)
 ```
 
 up and running at root@104.248.50.193 !
+
+```
+ALTER TABLE measurements RENAME COLUMN created TO timestamp;
+```
+
+
+
+
+
