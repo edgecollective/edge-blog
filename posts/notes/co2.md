@@ -26,6 +26,7 @@ More or less random bookmarks into the notes file, for reference:
 - [Comparing two SCD30 sensors](#compare_scd30)
 - [Heltec Wifi Lora 32 v 2 -- Schematic and Pinouts](https://community.hiveeyes.org/t/heltec-wifi-lora-32/3125)
 - [Making an OpenSCAD enclosure for Rev E](#openscad)
+- [New References on CO2 indoor ventilation assessment, March 13 2020](#refs_03_13)
 
 --- 
 2020 SEPT 29
@@ -4438,3 +4439,50 @@ Rework of firmware and bayou for mesh networking ...
 Can now use URL parameters to specify node and parameter to graph:
 
 ![](/img/co2/bayou_revamp.png) 
+
+---
+2021-03-12 10:05:53
+
+Added overlay functionality to Bayou:
+
+- Bayou system: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/72aa49a03ad6e15c572cc50edb022d78b5dfa01d](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/72aa49a03ad6e15c572cc50edb022d78b5dfa01d)
+
+Still associated with ver 0.8-alpha of firmware:
+
+- Arduino firmware -- ver 0.8-alpha: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/96f83332bae148ced8d4809c85f2e35f16c18a85/v0.8-alpha)
+
+
+---
+2021-03-13 08:42:37
+
+## <a name="refs_03_13"></a> New References on CO2 to assess indoor ventilation
+
+Great presentation on using CO2 for assessing ventilation -- recommends using fans: [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)
+
+https://en.wikipedia.org/wiki/Exponential_decay
+
+[International Journal of Ventilation: Simple and Cheap Air Change Rate Measurement Using CO2 Concentration Decays](https://www.researchgate.net/publication/37410259_Simple_and_Cheap_Air_Change_Rate_Measurement_Using_CO2_Concentration_Decays)
+
+[Medrxiv: Ventilation rate assessment by carbon dioxide levels in dental treatment rooms](https://www.medrxiv.org/content/10.1101/2021.02.04.21251153v1.full.pdf) -- note: uses baking soda! Key paper, here.
+
+## Fitting in JS:
+
+[https://stackoverflow.com/questions/54934216/how-to-select-a-point-on-a-line-chart-of-chart-js-using-javascript](https://stackoverflow.com/questions/54934216/how-to-select-a-point-on-a-line-chart-of-chart-js-using-javascript)
+
+[https://stackoverflow.com/questions/31253468/chart-js-get-point-index-from-chart-getpointsatevente](https://stackoverflow.com/questions/31253468/chart-js-get-point-index-from-chart-getpointsatevente)
+
+[https://www.npmjs.com/package/chart.js-rangeslider](https://www.npmjs.com/package/chart.js-rangeslider)
+
+[https://stackoverflow.com/questions/6195335/linear-regression-in-javascript](https://stackoverflow.com/questions/6195335/linear-regression-in-javascript)
+
+[https://github.com/Tom-Alexander/regression-js](https://github.com/Tom-Alexander/regression-js)
+
+---
+2021-03-13 10:15:09
+
+Updated bayou to find the existing nodes in a feed, and pull JSON and CSV for them:
+
+[https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/731a1e1564680eb8ec48bab12ca204ac5f2534ee](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/731a1e1564680eb8ec48bab12ca204ac5f2534ee)
+
+Still compatible with latest (ver0.8-alpha) software
+
