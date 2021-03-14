@@ -4465,6 +4465,8 @@ https://en.wikipedia.org/wiki/Exponential_decay
 
 [Medrxiv: Ventilation rate assessment by carbon dioxide levels in dental treatment rooms](https://www.medrxiv.org/content/10.1101/2021.02.04.21251153v1.full.pdf) -- note: uses baking soda! Key paper, here.
 
+[Am J Respir Crit Care Med: Measuring ventilation of patient care areas in hospitals. Description of a new protocol](https://pubmed.ncbi.nlm.nih.gov/8520767/)
+
 ## Fitting in JS:
 
 [https://stackoverflow.com/questions/54934216/how-to-select-a-point-on-a-line-chart-of-chart-js-using-javascript](https://stackoverflow.com/questions/54934216/how-to-select-a-point-on-a-line-chart-of-chart-js-using-javascript)
@@ -4486,3 +4488,27 @@ Updated bayou to find the existing nodes in a feed, and pull JSON and CSV for th
 
 Still compatible with latest (ver0.8-alpha) software
 
+Some useful folks to add to the list: [https://twitter.com/rod_escombe/status/1246117208440418304](https://twitter.com/rod_escombe/status/1246117208440418304)
+
+[https://twitter.com/wendyNAIFarbman/status/1246896832363614208?s=20](https://twitter.com/wendyNAIFarbman/status/1246896832363614208?s=20)
+
+---
+2021-03-13 13:08:51
+
+
+["Natural Ventilation for the Prevention of Airborne Contagion"](https://core.ac.uk/download/pdf/13098227.pdf) -- another key paper by Enscombe et al. 
+
+---
+2021-03-14 09:00:12
+
+Baking soda and vinegar experiment [https://www.thoughtco.com/equation-for-the-reaction-of-baking-soda-and-vinegar-604043](https://www.thoughtco.com/equation-for-the-reaction-of-baking-soda-and-vinegar-604043)
+
+How to make carbon dioxide [https://sciencing.com/make-carbon-dioxide-6532065.html](https://sciencing.com/make-carbon-dioxide-6532065.html)
+
+Making CO2 w/ DIY bottle system [https://www.co2supermarket.co.uk/diy-co2-kit-setup-instructions-guide-6.html](https://www.co2supermarket.co.uk/diy-co2-kit-setup-instructions-guide-6.html)
+
+CO2 in grow rooms, increasing ppm: [https://www.rollitup.org/t/co2-generated-via-vinegar-and-baking-soda.397247/](https://www.rollitup.org/t/co2-generated-via-vinegar-and-baking-soda.397247/)
+
+CO2 heavier than air, typically we'll need to use a fan to circulate it in the room 
+
+https://antoine.frostburg.edu/chem/senese/101-hidden/gases/faq/co2-from-vinegar-and-baking-soda.shtml

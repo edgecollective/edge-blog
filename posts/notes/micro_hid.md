@@ -45,17 +45,5 @@ Working example for multiple buttons [here](https://github.com/edgecollective/mi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x7i3M5QsfW0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
-2021-03-10 17:19:33
 
-
-aprs position off-grid with js8call https://www.youtube.com/watch?v=dAiXsSMIkKY
-
-watching aprs activities around you 
-
-http://www.knology.net/~gmarcus/Si5351/Si5351A_WSPR_XCVR.pdf
-
-https://antrak.org.tr/blog/projeler/poor-mans-hf-ssb-receiver-lets-build-it/
-
-https://www.qrp-labs.com/synth/synthnoise.html
 
