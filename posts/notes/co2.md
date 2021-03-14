@@ -4512,3 +4512,9 @@ CO2 in grow rooms, increasing ppm: [https://www.rollitup.org/t/co2-generated-via
 CO2 heavier than air, typically we'll need to use a fan to circulate it in the room 
 
 https://antoine.frostburg.edu/chem/senese/101-hidden/gases/faq/co2-from-vinegar-and-baking-soda.shtml
+
+---
+2021-03-14 12:09:47
+
+Showing a fit in chartjs [https://stackoverflow.com/questions/42841925/mixed-chart-scatter-plot-with-chart-js](https://stackoverflow.com/questions/42841925/mixed-chart-scatter-plot-with-chart-js)
+
