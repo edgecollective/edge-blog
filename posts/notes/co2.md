@@ -4518,3 +4518,22 @@ https://antoine.frostburg.edu/chem/senese/101-hidden/gases/faq/co2-from-vinegar-
 
 Showing a fit in chartjs [https://stackoverflow.com/questions/42841925/mixed-chart-scatter-plot-with-chart-js](https://stackoverflow.com/questions/42841925/mixed-chart-scatter-plot-with-chart-js)
 
+---
+2021-03-14 16:32:35
+
+Select range in chartjs: [https://stackoverflow.com/questions/42855738/how-do-i-selecting-a-date-range-like-onclick-but-drag-select](https://stackoverflow.com/questions/42855738/how-do-i-selecting-a-date-range-like-onclick-but-drag-select)
+
+Chartjs plugin zoom: [https://github.com/chartjs/chartjs-plugin-zoom]
+
+[https://github.com/jjppof/chartjs-plugin-zoom-pan-select](https://github.com/jjppof/chartjs-plugin-zoom-pan-select)
+
+[https://stackoverflow.com/questions/30256695/chart-js-drawing-an-arbitrary-vertical-line](https://stackoverflow.com/questions/30256695/chart-js-drawing-an-arbitrary-vertical-line)
+
+[https://github.com/chartjs/chartjs-plugin-zoom](https://github.com/chartjs/chartjs-plugin-zoom)
+
+---
+2021-03-14 19:44:38
+
+Bayou branch that does curve fitting: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/6a97681e2cc36e1e41edc2b6800e00858987fa42](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/6a97681e2cc36e1e41edc2b6800e00858987fa42)
+
+Video demo [here](https://youtu.be/og7Ydcvd6qI)
