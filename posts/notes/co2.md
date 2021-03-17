@@ -4552,3 +4552,11 @@ E.g. [http://192.168.1.163:5000/data/jy5kv5ybwq5j/ach/2](http://192.168.1.163:50
 
 Video here: [https://youtu.be/AfVbtuXU_sA](https://youtu.be/AfVbtuXU_sA)
 
+---
+2021-03-17 09:58:58
+
+Brought back in display of linear fit, along with slope and intercept parameters, in the following commit:
+
+[https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/88f6d5afbd9e33244800946c21719db9db13b627](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/88f6d5afbd9e33244800946c21719db9db13b627)
+
+![](/img/co2/ach_combo.png)
