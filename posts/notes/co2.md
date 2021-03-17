@@ -4543,5 +4543,12 @@ Video demo [here](https://youtu.be/og7Ydcvd6qI)
 
 Added live exponential fit! Bayou commit here: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/fe7b5ed71be3ebddf4d0be98c3d1bd88fb758d20](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/fe7b5ed71be3ebddf4d0be98c3d1bd88fb758d20)
 
+---
+2021-03-17 08:04:41
+
+Nice working prototype of Bayou ACH fit: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/1372dc343ec2f9e70449fe0b0628fb26019eac8a](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/1372dc343ec2f9e70449fe0b0628fb26019eac8a)
+
+E.g. [http://192.168.1.163:5000/data/jy5kv5ybwq5j/ach/2](http://192.168.1.163:5000/data/jy5kv5ybwq5j/ach/2)
+
 Video here: [https://youtu.be/AfVbtuXU_sA](https://youtu.be/AfVbtuXU_sA)
 
