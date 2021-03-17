@@ -4560,3 +4560,11 @@ Brought back in display of linear fit, along with slope and intercept parameters
 [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/88f6d5afbd9e33244800946c21719db9db13b627](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/88f6d5afbd9e33244800946c21719db9db13b627)
 
 ![](/img/co2/ach_combo.png)
+
+---
+2021-03-17 10:11:20
+
+Bayou has format-able canvas size now: 
+
+[https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/0ed7d425ca237134644ebc88445594b18736baf0](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/0ed7d425ca237134644ebc88445594b18736baf0)
+
