@@ -4537,3 +4537,11 @@ Chartjs plugin zoom: [https://github.com/chartjs/chartjs-plugin-zoom]
 Bayou branch that does curve fitting: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/6a97681e2cc36e1e41edc2b6800e00858987fa42](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/6a97681e2cc36e1e41edc2b6800e00858987fa42)
 
 Video demo [here](https://youtu.be/og7Ydcvd6qI)
+
+---
+2021-03-16 17:26:51
+
+Added live exponential fit! Bayou commit here: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/fe7b5ed71be3ebddf4d0be98c3d1bd88fb758d20](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/fe7b5ed71be3ebddf4d0be98c3d1bd88fb758d20)
+
+Video here: [https://youtu.be/AfVbtuXU_sA](https://youtu.be/AfVbtuXU_sA)
+
