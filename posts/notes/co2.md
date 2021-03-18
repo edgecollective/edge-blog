@@ -4568,3 +4568,7 @@ Bayou has format-able canvas size now:
 
 [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/0ed7d425ca237134644ebc88445594b18736baf0](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/0ed7d425ca237134644ebc88445594b18736baf0)
 
+---
+2021-03-17 11:36:09
+
+Nice reference for downloading canvas as a PDF: [https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf](https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf) -- some pretty simple code
