@@ -698,4 +698,11 @@ Still going strong! feed [http://159.65.226.222:3000/drives/b02f7797b045956e79c0
 
 ![](/img/valedalama/longrunning.png)
 
+---
+2021-03-22 11:34:20
+
+Polycase enclosure for outdoor electronics: [https://www.polycase.com/wc-21?gclid=CjwKCAjwgOGCBhAlEiwA7FUXkmMwC0Sk3He9myFyQ5wDzyoVpPH7QJWGaksjrtZqD9yBbQh0BMMqPhoC314QAvD_BwE](https://www.polycase.com/wc-21?gclid=CjwKCAjwgOGCBhAlEiwA7FUXkmMwC0Sk3He9myFyQ5wDzyoVpPH7QJWGaksjrtZqD9yBbQh0BMMqPhoC314QAvD_BwE)
+
+eink connector [https://www.sparkfun.com/datasheets/Prototyping/Connectors/08630.pdf](https://www.sparkfun.com/datasheets/Prototyping/Connectors/08630.pdf)
+
 

@@ -528,3 +528,129 @@ Working version of mothboth trip here: [https://github.com/edgecollective/mothbo
 Bayou with gridsquares: [https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/34ef9184bed1363f8898ec28e746165d1d451f58](https://gitlab.com/p-v-o-s/agroeco/bayou/-/tree/34ef9184bed1363f8898ec28e746165d1d451f58)
 
 Mothbot w/ gridsquares: [https://github.com/edgecollective/mothbot-trip/tree/bb1cc43d0a44d89632f710a618f8f8e894ab33a2](https://github.com/edgecollective/mothbot-trip/tree/bb1cc43d0a44d89632f710a618f8f8e894ab33a2)
+
+---
+2021-03-18 17:43:02
+
+Working url for bayou w/ gridsquares for now: http://192.168.1.163:5000/data/srercz3pjhsu/gridsquare/2
+
+---
+2021-03-19 13:39:45
+
+1.54 in e-ink -- [ali express](https://www.aliexpress.com/item/33044560386.html?src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=1582410664&albag=59754279756&trgt=743612850874&crea=en33044560386&netw=u&device=c&albpg=743612850874&albpd=en33044560386&gclid=Cj0KCQjwl9GCBhDvARIsAFunhskAztz-CQQkCjD1O8Lmx1vdRxf57xUijdA-lED-6VsmU3RzPM0chX0aAle7EALw_wcB&gclsrc=aw.ds)
+
+---
+2021-03-19 16:54:40
+
+SSD1306 power saving -- https://forum.arduino.cc/index.php?topic=565996.0
+
+Article on OLED with powersave: [https://bengoncalves.wordpress.com/2015/10/01/oled-display-and-arduino-with-power-save-mode/](https://bengoncalves.wordpress.com/2015/10/01/oled-display-and-arduino-with-power-save-mode/)
+
+---
+2021-03-19 21:16:33
+
+Added a gridsquare demo repo codebase here: 
+
+[https://github.com/edgecollective/leaflet-gridsquare](https://github.com/edgecollective/leaflet-gridsquare)
+
+---
+2021-03-20 11:27:36
+
+Gps sleep for NEO-6M -- [https://forum.arduino.cc/index.php?topic=497410.0](https://forum.arduino.cc/index.php?topic=497410.0)
+
+Sending sleep command to Adafruit GPS [https://forums.adafruit.com/viewtopic.php?f=19&t=28121](https://forums.adafruit.com/viewtopic.php?f=19&t=28121)
+
+Really great thread here: GPS sleep mode described here: [https://forums.adafruit.com/viewtopic.php?f=31&p=547903](https://forums.adafruit.com/viewtopic.php?f=31&p=547903)
+
+---
+2021-03-20 11:45:37
+
+Distances, deg minute sec [https://www.usgs.gov/faqs/how-much-distance-does-a-degree-minute-and-second-cover-your-maps?qt-news_science_products=0#qt-news_science_products](https://www.usgs.gov/faqs/how-much-distance-does-a-degree-minute-and-second-cover-your-maps?qt-news_science_products=0#qt-news_science_products)
+
+---
+2021-03-21 11:10:33
+
+e-ink feather friend [https://learn.adafruit.com/assets/86035](https://learn.adafruit.com/assets/86035)
+
+selection guide -- https://www.amazon.com/Waveshare-Resolution-Electronic-Controller-Three-Color/dp/B074P3LWJQ/ref=sr_1_3?dchild=1&keywords=1.54+in+eink+raw&qid=1616340057&sr=8-3
+
+black and white e-ink supports partial refresh, can refresh in 2 sec rather than 8 sec ... 
+
+sparkfun ublox library [https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)
+
+adafruit gfx library [https://learn.adafruit.com/adafruit-gfx-graphics-library/graphics-primitives](https://learn.adafruit.com/adafruit-gfx-graphics-library/graphics-primitives)
+
+---
+2021-03-22 09:50:48
+
+advantages of e-ink [https://www.electronicdesign.com/technologies/embedded-revolution/article/21805149/11-myths-about-epaper-displays](https://www.electronicdesign.com/technologies/embedded-revolution/article/21805149/11-myths-about-epaper-displays)
+
+UTM method for topographic maps [https://www.usgs.gov/faqs/what-does-term-utm-mean-utm-better-or-more-accurate-latitudelongitude?qt-news_science_products=0#qt-news_science_products](https://www.usgs.gov/faqs/what-does-term-utm-mean-utm-better-or-more-accurate-latitudelongitude?qt-news_science_products=0#qt-news_science_products)
+
+exploring options for diy waterproofing [https://hackaday.com/2017/12/26/exploring-options-for-diy-waterproofing/](https://hackaday.com/2017/12/26/exploring-options-for-diy-waterproofing/)
+
+---
+2021-03-24 10:48:02
+
+[https://github.com/noopkat/avrgirl-arduino](https://github.com/noopkat/avrgirl-arduino)
+
+[https://github.com/spaceneedle/Chromeduino](https://github.com/spaceneedle/Chromeduino)
+
+[http://meow.noopkat.com/the-avrgirl-project-an-introduction/](http://meow.noopkat.com/the-avrgirl-project-an-introduction/)
+
+
+[https://chrome.google.com/webstore/detail/avrchick/kpbgbcocfgjbmnpplcjlcammjdkgogba?hl=en](https://chrome.google.com/webstore/detail/avrchick/kpbgbcocfgjbmnpplcjlcammjdkgogba?hl=en)
+
+[https://github.com/noopkat/oled-js](https://github.com/noopkat/oled-js)
+
+[https://github.com/avrxml/AS6-Devices-XML/blob/master/ATmega1284P.xml](https://github.com/avrxml/AS6-Devices-XML/blob/master/ATmega1284P.xml)
+
+[http://archive.fabacademy.org/2016/fablabkamplintfort/students/125/exercise14.html](http://archive.fabacademy.org/2016/fablabkamplintfort/students/125/exercise14.html)
+
+compiled .hex using arduino ideo for 1284p
+
+boards.js of avrgirl-arduino:
+
+(pretty sure pageSize is correct; not sure about numPages ... just trying to get to 128K )
+
+```
+  {
+    name: '1284p',
+    baud: 115200,
+    signature: Buffer.from([0x1e, 0x97, 0x05]),
+    pageSize: 256,
+    numPages: 500,
+    timeout: 400,
+    //productId: ['0x0043', '0x7523', '0x0001', '0xea60', '0x6015'],
+    //productPage: 'https://store.arduino.cc/arduino-uno-rev3',
+    protocol: 'stk500v1'
+  },
+```
+
+command:
+
+```
+node cli.js flash -f Blink_1284.hex -a 1284p -p /dev/ttyUSB0
+```
+
+---
+2021-03-24 13:20:30
+
+reading software serial RX as pin 13 on 128p4.  
+
+---
+2021-03-24 13:50:33
+
+neo 6m sleep: 
+- [https://github.com/JoepSchyns/Low_power_TTGO_T-beam](https://github.com/JoepSchyns/Low_power_TTGO_T-beam)
+
+The t-beam gps chip (Neo-6m) can be put into sleep by commisioning a power save command using proprietary UBX protocol over Neo's RX TX pins. In normal mode of operation the chip sends out location using NMEA protocol. Switching between these protocols can be done via pin 14 and 15 (see Data Sheet 1.15). However, as can be seen in the image below, these pins are not connected on the T-beam. During testing is established that the Neo does execute UBX commands in NMEA mode but does not send back acknowledgements. Therefore UBX commands, such as the sleep command, that do not require acknowledgements work out of the box. Nonetheless, protocols switching pins 14 and 15 are exposed on the t-beam. Thus the pins could be soldered to two GPIO pins by hand. By connectings these pins UBX acknowledgements could be enabled, this is however not an necessity.
+
+analyzing neo6m module [http://forum.espruino.com/conversations/332295/](http://forum.espruino.com/conversations/332295/)
+
+nice video on setup for neo 6m [https://www.youtube.com/watch?v=pHu2yvsFFgw](https://www.youtube.com/watch?v=pHu2yvsFFgw)
+
+power saving for ublox [https://ukhas.org.uk/guides:ublox_psm](https://ukhas.org.uk/guides:ublox_psm) <-- this is the relevant guide!
+
+[https://github.com/MCUdude/MightyCore](https://github.com/MCUdude/MightyCore)
+

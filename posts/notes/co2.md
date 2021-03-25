@@ -4572,3 +4572,34 @@ Bayou has format-able canvas size now:
 2021-03-17 11:36:09
 
 Nice reference for downloading canvas as a PDF: [https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf](https://stackoverflow.com/questions/23681325/convert-canvas-to-pdf) -- some pretty simple code
+
+---
+2021-03-18 19:00:18
+
+# Baking soda exp't #1
+
+Dataset here: [http://bayou.pvos.org/data/6adqqks8f7yb/ach/2](http://bayou.pvos.org/data/6adqqks8f7yb/ach/2)
+
+## In play room -- door closed -- fit one
+
+![](/img/co2/co2_baking_one.png)
+
+## In play room -- door closed -- fit two
+
+![](/img/co2/co2_baking_two.png)
+
+## In play room -- door closed -- fit three
+
+![](/img/co2/co2_baking_three.png)
+
+## ... then door open
+
+![](/img/co2/co2_baking_four_door_open.png)
+
+---
+2021-03-18 19:05:04
+
+# Baking soda exp't #2
+
+Dataset here: [http://bayou.pvos.org/data/8fs9k3zwjg4w/](http://bayou.pvos.org/data/8fs9k3zwjg4w/)
+
