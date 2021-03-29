@@ -8,7 +8,7 @@ image: img/placeholder.png
 blurb: Notes on technology and analysis related to soil irrigation
 ---
 
-## Articles / Notes
+## Notes on Soil Water Potential
 
 - [https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail](https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail)
 
@@ -39,4 +39,4 @@ between soil water and the water inside the tensiometer shaft.
 
 >> In an unsaturated soil, soil water tension—frequently called the “suction” — falls below atmospheric pressure. As wet soil dries, the soil-water suction increases, causing water to flow out of the tensiometer through the porous cup. The small pores of the saturated cup prevent air from entering the tensiometer. This outflow of water creates a vacuum inside the tensiometer and increases the reading on the vacuum gauge. If the soil is rewetted by irrigation, water will be drawn back into the tensiometer, reducing the vacuum inside, and the reading on the gauge will decrease. The vacuum gauge measures the suction in centibars, with a range of 0 to 100. A reading of zero indicates a saturated soil in which plant roots will suffer from poor aeration. A reading of 10 to 25 centibars reflects a soil at field capacity. The lower reading is for sandy soils at field capacity, and the higher reading is for finer-textured soils. Readings of 70 to 80 indicate a dry soil. Tensiometers will not read above 85 centibars.
 
-> > **Tensiometers do not provide information on the amount of water depleted from the soil unless they have been calibrated for the particular soil type. They therefore indicate when to irrigate, but not how much to irrigate.**
+> > *Tensiometers do not provide information on the amount of water depleted from the soil unless they have been calibrated for the particular soil type. They therefore indicate when to irrigate, but not how much to irrigate.*
