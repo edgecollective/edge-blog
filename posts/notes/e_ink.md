@@ -654,3 +654,165 @@ power saving for ublox [https://ukhas.org.uk/guides:ublox_psm](https://ukhas.org
 
 [https://github.com/MCUdude/MightyCore](https://github.com/MCUdude/MightyCore)
 
+[https://hackaday.io/project/25677-chirppp-serial-over-lora](https://hackaday.io/project/25677-chirppp-serial-over-lora) serial over lora
+
+---
+2021-03-25 08:31:45
+
+Mightyduino [https://www.eevblog.com/forum/projects/mightyduino-diy-arduino-with-atmega644patmega1284p/](https://www.eevblog.com/forum/projects/mightyduino-diy-arduino-with-atmega644patmega1284p/)
+
+universal power cord adapter [https://www.amazon.com/YIKU-Universal-5-5x2-1mm-Charging-Connector/dp/B0825SD9ZM/ref=asc_df_B0825SD9ZM/?tag=hyprod-20&linkCode=df0&hvadid=416794793908&hvpos=&hvnetw=g&hvrand=16523120492126351854&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973096075837&psc=1&tag=&ref=&adgrpid=95587149484&hvpone=&hvptwo=&hvadid=416794793908&hvpos=&hvnetw=g&hvrand=16523120492126351854&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973096075837](https://www.amazon.com/YIKU-Universal-5-5x2-1mm-Charging-Connector/dp/B0825SD9ZM/ref=asc_df_B0825SD9ZM/?tag=hyprod-20&linkCode=df0&hvadid=416794793908&hvpos=&hvnetw=g&hvrand=16523120492126351854&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973096075837&psc=1&tag=&ref=&adgrpid=95587149484&hvpone=&hvptwo=&hvadid=416794793908&hvpos=&hvnetw=g&hvrand=16523120492126351854&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973096075837)
+
+-- 6ft 3 pack usb to barrel jack [https://www.amazon.com/3-Pack-2-1mm-Power-Barrel-Connector/dp/B07JGR7JJQ/ref=sr_1_3?dchild=1&keywords=5.5x2.1+mm+usb&qid=1616687264&s=industrial&sr=1-3](https://www.amazon.com/3-Pack-2-1mm-Power-Barrel-Connector/dp/B07JGR7JJQ/ref=sr_1_3?dchild=1&keywords=5.5x2.1+mm+usb&qid=1616687264&s=industrial&sr=1-3)
+
+SRAM chip to place [https://www.digikey.com/en/products/detail/microchip-technology/23K256-I-SN/2001113](https://www.digikey.com/en/products/detail/microchip-technology/23K256-I-SN/2001113)
+
+standby current: 4 uA
+
+breakout for max m8q -- https://store.uputronics.com/index.php?route=product/product&product_id=84
+
+sam m8q digikey [https://www.digikey.com/en/products/detail/u-blox-america-inc/SAM-M8Q-0-10/7393573?utm_adgroup=RF%20Receivers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID&utm_term=&utm_content=RF%20Receivers&gclid=CjwKCAjw6fCCBhBNEiwAem5SO5nA43zsTMDsK6kBg4TkfYGYzt2dmapmRLDrsuMZJhlDdbG03UjLMhoCxygQAvD_BwE](https://www.digikey.com/en/products/detail/u-blox-america-inc/SAM-M8Q-0-10/7393573?utm_adgroup=RF%20Receivers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID&utm_term=&utm_content=RF%20Receivers&gclid=CjwKCAjw6fCCBhBNEiwAem5SO5nA43zsTMDsK6kBg4TkfYGYzt2dmapmRLDrsuMZJhlDdbG03UjLMhoCxygQAvD_BwE)
+
+sam m8q datasheet [https://www.u-blox.com/en/docs/UBX-16012619](https://www.u-blox.com/en/docs/UBX-16012619)
+
+WOAH:
+
+clone of adafruit featherwing using sam m8q [https://github.com/PaulZC/SAM-M8Q_GPS_FeatherWing/blob/master/LEARN.md](https://github.com/PaulZC/SAM-M8Q_GPS_FeatherWing/blob/master/LEARN.md)
+
+clone of adafruti featherwing using max m8q [https://github.com/PaulZC/MAX-M8Q_GPS_FeatherWing](https://github.com/PaulZC/MAX-M8Q_GPS_FeatherWing)
+
+interesting projects from paulzc [https://github.com/PaulZC?tab=repositories](https://github.com/PaulZC?tab=repositories)
+
+hookup guide for sam m8q [https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide/all](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide/all)
+
+---
+2021-03-25 14:30:50
+
+gps basics written by sparkfun [https://learn.sparkfun.com/tutorials/gps-basics](https://learn.sparkfun.com/tutorials/gps-basics)
+
+sam m8q breakout from sparkun schematic: [https://cdn.sparkfun.com/assets/3/c/2/2/e/SparkFun_Ublox_SAM-M8Q.pdf](https://cdn.sparkfun.com/assets/3/c/2/2/e/SparkFun_Ublox_SAM-M8Q.pdf)
+
+sam m8q feather wing schematic: [https://github.com/PaulZC/SAM-M8Q_GPS_FeatherWing/blob/master/SAM-M8Q_GPS_FeatherWing.pdf](https://github.com/PaulZC/SAM-M8Q_GPS_FeatherWing/blob/master/SAM-M8Q_GPS_FeatherWing.pdf)
+
+En is a true 'power disable' control line you can use to completely cut power to the SAM-M8Q. This is good if you need to run at ultra-low-power modes. By default this is pulled low (enabled). So pull high (to 3V) to disable the SAM-M8Q.
+
+data on hot start / warm start neo 6m: [https://portal.u-blox.com/s/question/0D52p00008HKEEpCAP/i-have-been-using-a-neo-6m-how-do-i-ensure-that-it-always-performs-a-hot-start-every-time-it-powers-up](https://portal.u-blox.com/s/question/0D52p00008HKEEpCAP/i-have-been-using-a-neo-6m-how-do-i-ensure-that-it-always-performs-a-hot-start-every-time-it-powers-up)
+
+p channel mosfet
+
+[https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768)
+
+eink friend schematic [https://cdn-learn.adafruit.com/assets/assets/000/057/645/original/adafruit_products_schem.png?1531712746](https://cdn-learn.adafruit.com/assets/assets/000/057/645/original/adafruit_products_schem.png?1531712746)
+
+---
+2021-03-26 19:41:58
+
+eink friend: [https://cdn-learn.adafruit.com/assets/assets/000/086/035/original/adafruit_products_Feather_eInk_Friend_sch.png?1576774972](https://cdn-learn.adafruit.com/assets/assets/000/086/035/original/adafruit_products_Feather_eInk_Friend_sch.png?1576774972)
+
+eink feather friend: [https://cdn-learn.adafruit.com/assets/assets/000/086/035/original/adafruit_products_Feather_eInk_Friend_sch.png?1576774972](https://cdn-learn.adafruit.com/assets/assets/000/086/035/original/adafruit_products_Feather_eInk_Friend_sch.png?1576774972)
+
+[https://hackaday.com/2015/07/24/it-keeps-on-going-and-arduino-edition/](https://hackaday.com/2015/07/24/it-keeps-on-going-and-arduino-edition/)
+
+
+
+```
+70 μA is a huge amount of current for a sleeping microcontroller. In a well-designed system, sleep currents under 1μA should be quite possible. I haven’t watched the whole video, but here are some general strategies, in no particular order:
+
+* Turn off all unnecessary clocks, and run necessary clocks as slow as possible while sleeping. If you can get by with just waking up on an external interrupt, all clocks can be off while asleep. If you need to wake up periodically, use a low-power RC oscillator (like the one for the watchdog timer on the mega328p). When powered on, there is a tradeoff: a faster clock requires more power, but means that the work can be finished and the chip can go back to sleep sooner.
+
+* Use the power reduction registers to turn off all unused peripherals all the time, and used peripherals when they are not needed, especially if there isn’t a long reinitialization time when powering them back on.
+
+* Turn on the pull-up resistors on all unused GPIO pins. If they are left floating, the inputs might flip back and forth randomly, needlessly consuming power.
+
+* Turn off brownout detection if you can. It consumes a significant amount of power. If erratic behavior (and possible memory corruption) is intolerable when your batteries are dying, some microcontrollers have a sampled BOD mode that uses much less power. You can also implement this yourself in software with an ADC and bandgap (or other stable reference), checking your system voltage only periodically (like once a day) and shutting down before it gets too low.
+
+* Voltage dividers, like the one for the photocell in this project, consume power—current flows from power to ground through the two series resistors. Size the resistors as large as practically possible, and bias the voltage divider with a GPIO pin that can be turned off when the sensor is not needed rather than just tying it to Vcc.
+
+* Voltage regulators can have significant quiescent current draw. If at all possible, power the circuit directly from batteries without a regulator. A pair of AAs, or a CR2032 coin cell are both good 3V supplies, and most microcontrollers are very happy with this. If regulators must be used, specifically choose ones with very low quiescent draw.
+
+* Electrolytic capacitors can also have high leakage currents—avoid them in power supplies or choose low-leakage versions.
+
+* Rechargeable batteries are generally a poor choice for long-life low power applications. Self-discharge rates can often be higher than the load of the circuit itself! Non-rechargeable lithium batteries are a good in these applications.
+
+* Generally, less power is consumed at lower voltages, so running as low as is practical can be advantageous. However, often sensors and other devices will have higher voltage requirements than the MCU, and the complexity (and additional power draw) of translating between multiple voltages often isn’t worth it, nor is regulating down from whatever battery voltages are available (unless it’s a significant drop and you’re using good switching regulators). Depending on your battery chemistry, running at the minimum voltage might also mean that you can only run your battery down so far before you start browning out.
+```
+
+```
+Instead of a transistor I prefer a (second) LDO with low quiescent current draq like the TPS 783xx with enable input. So you can power-off all external components not needed.
+I do a lot of low power applications at work (with MSP, never had to handle Atmel for low power) and with the “usual” tricks you and bdm mentioned >1uA applications are no problem
+So here we go, throw your AA batteries out of the desing an go with a cr2302 cell, easy as 123 :D
+```
+
+tps783xx [https://www.ti.com/lit/ds/symlink/tps783.pdf?ts=1616850726580&ref_url=https%253A%252F%252Fwww.google.com%252F](https://www.ti.com/lit/ds/symlink/tps783.pdf?ts=1616850726580&ref_url=https%253A%252F%252Fwww.google.com%252F)
+
+total supply on device needed: 
+- gps: 67 mA
+- 
+
+so: 
+- use MCP1702/3 for main LDO
+- use ap2112k-3.3 to power subcircuit
+- uno might only do eink and gps
+- atmega adds sd card and lora
+- pinouts for other displays?
+
+uno-based version that uses oled and gps and uno and is all dip
+
+smt version should use SAM or CAM M8Q
+
+---
+2021-03-27 19:36:11
+
+[https://www.eevblog.com/forum/beginners/potting-a-battery/](https://www.eevblog.com/forum/beginners/potting-a-battery/)
+
+```
+Have you considered using AA batteries ? 
+
+You can get lithium based AA batteries like Energizer Ultimate Lithium that have something like 3500mAh at around 1.4v..1.7v ... see : http://data.energizer.com/pdfs/l91.pdf
+They're not cheap at around 2-3$ each but it's way cheaper than your 14$ battery. 
+Regular alkaline AA batteries get close to 2500-2800 mAh and discharge down to around 1..1.2v
+
+You can buy battery holders that solder to the circuit board and then you can pot everything leaving just the battery contacts on the outside. Then insert battery and use hot glue or that selastic / flexible gunk / whatever... something to lock it in the battery holder to prevent vibrations from breaking contact.
+
+
+There are microcontrollers that run from battery but if you need 3v, why not just use a very efficient voltage doubler IC... would be over 95% efficient at a few mA of current.
+Here's some examples: 
+1. TPS6031x series : 0.9v..1.8v , 2 outputs,  1: 2xVin max 40mA, 2: regulated 3.3v 20mA  up to 90% efficiency : http://www.ti.com/lit/ds/symlink/tps60310.pdf
+2. TPS6030x series : pretty much same thing? http://www.ti.com/lit/ds/symlink/tps60300.pdf
+
+The above are ~ 1.7$ in 10pcs or higher and need only 5 ceramic capacitors to work. This + battery is still way cheaper than 14$
+
+There's also very efficient switching regulators.. here's ex
+
+<1$ / 10+ pcs TLV61225 - min 0.7v in, fixed 3.3v out, 94% efficiency, needs only 2 ceramic caps and inductor  : http://www.ti.com/lit/ds/symlink/tlv61225.pdf
+There's also TLV61224, 
+
+TPS61261 - min 0.8v, fixed 3.3v out or adjustable options, up to 95% efficiency, same min. parts : http://www.ti.com/lit/ds/symlink/tps61260.pdf
+
+Even when you add the price of a surface mounted ceramic inductor and a bunch of ceramic capacitors, you're still below 2$.
+
+There's loads of microcontrollers from Microchip that use less power and can run at lower voltages (like 1.8v..3.6v for example). There's also Silicon Labs with their BusyBee micros that can work at low voltages and they're quite nice micros.
+```
+
+[https://www.ti.com/lit/ds/symlink/tlv61225.pdf](https://www.ti.com/lit/ds/symlink/tlv61225.pdf)
+
+[https://www.e-education.psu.edu/geog585/node/708](https://www.e-education.psu.edu/geog585/node/708)
+
+multiple spi buses in the atmega1284p [https://feilipu.me/2015/02/17/avr-atmega-usart-spi-mspim/](https://feilipu.me/2015/02/17/avr-atmega-usart-spi-mspim/)
+
+---
+2021-03-28 17:51:24
+
+Rotary position switch digikey [https://www.digikey.com/en/products/detail/grayhill-inc/94HBB16T/726321](https://www.digikey.com/en/products/detail/grayhill-inc/94HBB16T/726321)
+
+nice rotary switch SMT digikey [https://www.digikey.com/en/products/detail/nidec-copal-electronics/SH-7010TB/2057868](https://www.digikey.com/en/products/detail/nidec-copal-electronics/SH-7010TB/2057868)
+
+through hole, black, nice color [https://www.digikey.com/en/products/detail/nidec-copal-electronics/SD-2010/948380](https://www.digikey.com/en/products/detail/nidec-copal-electronics/SD-2010/948380) <---- this is the one to get!!
+
+1000 uF capacitor [https://www.digikey.com/en/products/detail/nichicon/UVZ1A102MPD1TD/4342138?utm_adgroup=Aluminum%20Electrolytic%20Capacitors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Capacitors_NEW&utm_term=&utm_content=Aluminum%20Electrolytic%20Capacitors&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_EvNOyYeWGjdHGnfCCgVUi6RgGF35Gjn5o3K1FT3lty7302KYbdnSgaAj5EEALw_wcB](https://www.digikey.com/en/products/detail/nichicon/UVZ1A102MPD1TD/4342138?utm_adgroup=Aluminum%20Electrolytic%20Capacitors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Capacitors_NEW&utm_term=&utm_content=Aluminum%20Electrolytic%20Capacitors&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_EvNOyYeWGjdHGnfCCgVUi6RgGF35Gjn5o3K1FT3lty7302KYbdnSgaAj5EEALw_wcB)
+
+garmin foretex [https://www.amazon.com/Garmin-010-01772-00-Foretrex-601-inches/dp/B073NXKWYN/ref=psdc_2230642011_t1_B07RTD2PMT?th=1](https://www.amazon.com/Garmin-010-01772-00-Foretrex-601-inches/dp/B073NXKWYN/ref=psdc_2230642011_t1_B07RTD2PMT?th=1)
+
+military grid reference system [https://en.wikipedia.org/wiki/Military_Grid_Reference_System](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)
+
+mgrs vs maidenhead [https://www.usna.edu/Users/oceano/pguth/md_help/html/mgrs_utm.htm](https://www.usna.edu/Users/oceano/pguth/md_help/html/mgrs_utm.htm)
