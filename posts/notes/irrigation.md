@@ -33,7 +33,7 @@ between soil water and the water inside the tensiometer shaft.
 
 | ![](/img/irrigation/Dual-measurementfig3_.jpg) |
 |:--:|
-| Fig 3 from above reference.  |
+| Fig 3 from [https://www.metergroup.com/crops/articles/when-to-water/](https://www.metergroup.com/crops/articles/when-to-water/).  |
 
 > > Figure 3 illustrates the total soil moisture picture.  Researchers can observe where water content declines and at what percentage the plants begin to stress.  It’s also possible to recognize when the soil has too much water: the water content is above where water potential sensors start to sense plant stress.  Using this information, researchers can identify the turfgrass optimal range at 12% to 17% volumetric water content.  Anything below or above that range will be too little or too much water.
 
