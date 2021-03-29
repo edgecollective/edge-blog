@@ -8,14 +8,12 @@ image: img/placeholder.png
 blurb: Notes on technology and analysis related to soil irrigation
 ---
 
-# Links
+## Articles / Notes
 
-- Low-cost tensiometer: [https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail](https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail)
+- [https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail](https://www.researchgate.net/publication/274776721_A_low-cost_electronic_tensiometer_system_for_continuous_monitoring_of_soil_water_potential/fulltext/563eb81108ae8d65c0144831/A-low-cost-electronic-tensiometer-system-for-continuous-monitoring-of-soil-water-potential.pdf?origin=publication_detail)
 
-> > For many decades, this topic has been the subject of intensive
-research, and a wide range of methods for monitoring soil moisture
-has been proposed (Evett, 2008). These include techniques to measure
-soil water content or potential as well as soil water budgets calculated on the basis of soil, plant, and climatic data.
+> > For many decades, this topic has been the subject of intensive research, and a wide range of methods for monitoring soil moisture has been proposed (Evett, 2008). These include techniques to measure soil water content or potential as well as soil water budgets calculated on the basis of soil, plant, and climatic data.
+
 > > Tensiometers are the only instruments capable of providing a direct measurement of soil matric potential due to the hydraulic connection
 between soil water and the water inside the tensiometer shaft. 
 
