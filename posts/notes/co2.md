@@ -4603,3 +4603,12 @@ Dataset here: [http://bayou.pvos.org/data/6adqqks8f7yb/ach/2](http://bayou.pvos.
 
 Dataset here: [http://bayou.pvos.org/data/8fs9k3zwjg4w/](http://bayou.pvos.org/data/8fs9k3zwjg4w/)
 
+---
+2021-03-31 14:51:59
+
+barrel jack connector [https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf](https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf)
+
+pos centerpole on 2.1 mm + USB cable from Amazon ...
+
+extension cable from sparkfun for 2.1 mm jack [here](https://www.sparkfun.com/products/11707)
+

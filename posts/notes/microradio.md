@@ -477,3 +477,15 @@ I also see that his latest blog topics are focused on doing his over version of 
 2021-03-14 11:24:31
 
 https://dl2man.de/qcx-mini-usdx-mod/
+
+---
+2021-03-31 18:15:14
+
+radio [https://www.radiojitter.com/walkie-talkie-arduino-shield/](https://www.radiojitter.com/walkie-talkie-arduino-shield/)
+
+these chips for location are really interesting [https://www.radiojitter.com/product/mc-1612-dg/](https://www.radiojitter.com/product/mc-1612-dg/)
+
+DORJI module VHF Band HAM Amateur Radio Module DRA818V
+Home : [http://www.dorji.com/products-detail.php?ProId=55](http://www.dorji.com/products-detail.php?ProId=55)
+
+ham radio module [https://www.ebay.com/c/943323740](https://www.ebay.com/c/943323740)

@@ -816,3 +816,80 @@ garmin foretex [https://www.amazon.com/Garmin-010-01772-00-Foretrex-601-inches/d
 military grid reference system [https://en.wikipedia.org/wiki/Military_Grid_Reference_System](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)
 
 mgrs vs maidenhead [https://www.usna.edu/Users/oceano/pguth/md_help/html/mgrs_utm.htm](https://www.usna.edu/Users/oceano/pguth/md_help/html/mgrs_utm.htm)
+
+---
+2021-03-29 09:10:01
+
+![](/img/eink/signal-2021-03-29-090916.jpeg)
+
+---
+2021-03-31 08:37:52
+
+espruino discussion on nordic chip [here](http://forum.espruino.com/conversations/351086/)
+
+discussion of nrf52840 [here](https://forum.arduino.cc/index.php?topic=636292.0)
+
+continued [here](https://forum.arduino.cc/index.php?topic=673224.0) --- 
+
+---
+2021-03-31 09:05:26
+
+Cave pearl post on the atmega1284p [https://thecavepearlproject.org/2020/05/11/build-an-atmega-1284p-based-data-logger/](https://thecavepearlproject.org/2020/05/11/build-an-atmega-1284p-based-data-logger/)
+
+---
+2021-03-31 09:25:20
+
+dual screens [https://thecavepearlproject.org/2020/11/15/adding-two-oled-displays-to-your-arduino-logger-with-no-library/](https://thecavepearlproject.org/2020/11/15/adding-two-oled-displays-to-your-arduino-logger-with-no-library/)
+
+espruino firmware esp32 [http://www.esp32learning.com/information/espruino-on-an-esp32.php](http://www.esp32learning.com/information/espruino-on-an-esp32.php)
+
+[https://www.espruino.com/ESP32](https://www.espruino.com/ESP32)
+
+---
+2021-03-31 13:01:06
+
+ESP32-S2 -- circuitpython -- sleep! Magtag -- [https://www.adafruit.com/product/4800][https://www.adafruit.com/product/4800]
+
+adafruit magtag -[https://www.digikey.com/catalog/en/partgroup/adafruit-magtag-2-9-grayscale-e-ink-wi-fi-display/113912](https://www.digikey.com/catalog/en/partgroup/adafruit-magtag-2-9-grayscale-e-ink-wi-fi-display/113912)
+
+on digikey [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4800/13616787?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4ArAEwIC6AvvYVWSACxwAMnIDQA](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4800/13616787?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4ArAEwIC6AvvYVWSACxwAMnIDQA)
+
+itsy bitsy bluefruit [https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express](https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express)
+
+meshtastic dicussion around keyboard [https://meshtastic.discourse.group/t/autonomous-device-with-q10-keyboard-and-ili9341/438/13](https://meshtastic.discourse.group/t/autonomous-device-with-q10-keyboard-and-ili9341/438/13)
+
+nice docs for lora communicator project [https://github.com/manacake/docs.greycat.co/](https://github.com/manacake/docs.greycat.co/)
+
+nice github repo for blackberry keyboard [https://github.com/arturo182/BBQ10KBD](https://github.com/arturo182/BBQ10KBD)
+
+blackberry q10 adafruit description [https://blog.adafruit.com/2019/01/14/interfacing-a-blackberry-q10-keyboard-into-your-microcontroller-project-blackberry-arduino-microcontroller/](https://blog.adafruit.com/2019/01/14/interfacing-a-blackberry-q10-keyboard-into-your-microcontroller-project-blackberry-arduino-microcontroller/)
+
+and arduino thread [https://forum.arduino.cc/index.php?topic=355709.0](https://forum.arduino.cc/index.php?topic=355709.0)
+
+
+q10 keyboard on ebay [https://www.ebay.com/c/1731749316](https://www.ebay.com/c/1731749316)
+
+and on eevblog here [https://www.eevblog.com/forum/beginners/how-to-connect-to-a-very-very-challanging-blackberry-q10-keyboard-connector/msg735622/#msg735622](https://www.eevblog.com/forum/beginners/how-to-connect-to-a-very-very-challanging-blackberry-q10-keyboard-connector/msg735622/#msg735622)
+
+stm32 bootloader vis espruino [http://www.espruino.com/Serial+Bootloader](http://www.espruino.com/Serial+Bootloader)
+
+---
+2021-03-31 17:18:40
+
+ble uart [https://learn.adafruit.com/circuitpython-ble-libraries-on-any-computer/ble-uart-example](https://learn.adafruit.com/circuitpython-ble-libraries-on-any-computer/ble-uart-example)
+
+Q10 on Ebay [https://www.ebay.com/c/1731749316](https://www.ebay.com/c/1731749316)
+
+nice library for ublox modules [https://github.com/loginov-rocks/UbxGps](https://github.com/loginov-rocks/UbxGps)
+
+sam m8q on digikey [https://www.digikey.com/en/products/detail/u-blox/SAM-M8Q-0-10/7393574](https://www.digikey.com/en/products/detail/u-blox/SAM-M8Q-0-10/7393574) -- $25
+
+max m8q on digikey [https://www.digikey.com/en/products/detail/u-blox/MAX-M8Q-0/6150636](https://www.digikey.com/en/products/detail/u-blox/MAX-M8Q-0/6150636) -- $21 
+
+ble uart [https://learn.adafruit.com/bluefruit-le-connect](https://learn.adafruit.com/bluefruit-le-connect)
+
+[https://www.hackster.io/mitchwongho/read-phone-notifications-using-esp-eb0ad4](https://www.hackster.io/mitchwongho/read-phone-notifications-using-esp-eb0ad4)
+
+[https://play.google.com/store/apps/details?id=com.lianhezhuli.btnotification](https://play.google.com/store/apps/details?id=com.lianhezhuli.btnotification)
+
+[https://play.google.com/store/apps/details?id=com.lhzl.mtwearpro](https://play.google.com/store/apps/details?id=com.lhzl.mtwearpro)
