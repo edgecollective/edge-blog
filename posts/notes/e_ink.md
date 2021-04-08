@@ -893,3 +893,15 @@ ble uart [https://learn.adafruit.com/bluefruit-le-connect](https://learn.adafrui
 [https://play.google.com/store/apps/details?id=com.lianhezhuli.btnotification](https://play.google.com/store/apps/details?id=com.lianhezhuli.btnotification)
 
 [https://play.google.com/store/apps/details?id=com.lhzl.mtwearpro](https://play.google.com/store/apps/details?id=com.lhzl.mtwearpro)
+
+---
+2021-04-07 20:31:34
+
+images over lora
+
+https://github.com/javl/slowimage
+and -- oh goodness!  https://ieeexplore.ieee.org/document/8875321
+both on transmitting images via lora
+￼
+and -- oooh! https://blog.adafruit.com/2020/11/24/transmitting-sound-and-image-over-a-lora-link-lora-radio/
+https://github.com/bwhitman/loracamera
