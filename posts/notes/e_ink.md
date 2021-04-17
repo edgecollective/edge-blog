@@ -905,3 +905,11 @@ both on transmitting images via lora
 ￼
 and -- oooh! https://blog.adafruit.com/2020/11/24/transmitting-sound-and-image-over-a-lora-link-lora-radio/
 https://github.com/bwhitman/loracamera
+
+https://github.com/rxi/lite
+
+https://www.oregon.gov/deq/FilterDocs/latlonginstr.pdf
+
+https://www.topozone.com/
+
+https://hackaday.com/2021/04/07/an-esp32-walkie-talkie-for-those-spy-radio-moments/

@@ -489,3 +489,53 @@ DORJI module VHF Band HAM Amateur Radio Module DRA818V
 Home : [http://www.dorji.com/products-detail.php?ProId=55](http://www.dorji.com/products-detail.php?ProId=55)
 
 ham radio module [https://www.ebay.com/c/943323740](https://www.ebay.com/c/943323740)
+
+---
+2021-04-09 10:23:55
+
+serial input basics 
+
+[https://forum.arduino.cc/index.php?topic=288234.0](https://forum.arduino.cc/index.php?topic=288234.0)
+
+---
+2021-04-10 14:42:07
+
+[https://github.com/arduino-libraries/Arduino_OV767X](https://github.com/arduino-libraries/Arduino_OV767X)
+
+[https://maker.pro/arduino/tutorial/how-to-interface-the-ov7670-camera-module-with-arduino](https://maker.pro/arduino/tutorial/how-to-interface-the-ov7670-camera-module-with-arduino)
+
+```
+One of the modules has a solder ball on the PCLK trace. The other module appears to be fine. I'll update my review once I capture a couple of images from them.
+
+Update: Both camera modules work. Documentation is the absolute worse. The default color settings don't appear to work properly. The secret to YUV with correct colors is writing address 0xB0 with 0x84 (This is a reserved register. I have no idea what this does).
+
+I used these coefficients for the YUV to RGB conversion
+r = y + 1.371*(v-128);
+g = y - 0.698*(v-128) - 0.336*(u-128);
+b = y + 1.732*(u-128);
+```
+
+---
+2021-04-10 15:06:18
+
+https://www.instructables.com/OV7670-Arduino-Camera-Sensor-Module-Framecapture-T/
+
+https://www.arducam.com/product-category/standone-camera-modue/
+
+---
+2021-04-10 16:32:02
+
+esp32 ... 
+
+https://bitluni.net/esp32-i2s-camera-ov7670
+
+https://www.youtube.com/watch?v=S2yTQHM82jc
+
+
+---
+2021-04-10 16:37:01
+
+express memory explainer:
+[https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details)
+
+

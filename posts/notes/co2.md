@@ -4612,3 +4612,13 @@ pos centerpole on 2.1 mm + USB cable from Amazon ...
 
 extension cable from sparkfun for 2.1 mm jack [here](https://www.sparkfun.com/products/11707)
 
+---
+2021-04-17 08:49:02
+
+force calibration event at a2:
+
+![](/img/co2/force_calibration_at _a2.png)
+
+[http://bayou.pvos.org/data/8fs9k3zwjg4w](http://bayou.pvos.org/data/8fs9k3zwjg4w)
+
+

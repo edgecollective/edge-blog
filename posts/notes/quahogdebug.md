@@ -62,3 +62,31 @@ I was getting 'button press functionality' when running Meshtastic on the Quahog
 
 I guess if you want the Quahog up on a pole ... up to 100 feet away from the wifi gateway... then it can be powered by 12V ... so that might be useful in some circumstances ... 
 
+---
+2021-04-08 13:48:00
+
+## Quahog reboot
+
+Feather S2
+
+test the current consumption 
+
+esp32-s2 [https://www.adafruit.com/product/4775](https://www.adafruit.com/product/4775)
+
+eagle cad files on github [https://github.com/adafruit/Adafruit-Metro-ESP32-S2-PCB](https://github.com/adafruit/Adafruit-Metro-ESP32-S2-PCB)
+
+[https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
+
+moteino schematic files [https://lowpowerlab.com/guide/moteino/design-files/](https://lowpowerlab.com/guide/moteino/design-files/)
+
+mothbot [https://github.com/edgecollective/mothbot/blob/main/ver4B/hardware/dippy.pdf](https://github.com/edgecollective/mothbot/blob/main/ver4B/hardware/dippy.pdf)
+
+feather s2 
+
+lora:
+
+spi
+cs io33
+rst io38
+int -- ?  need to test out w/ arduino ...
+
