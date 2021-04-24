@@ -58,3 +58,9 @@ between soil water and the water inside the tensiometer shaft.
 2021-03-31 09:20:15
 
 soil probes [https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-sensor-for-frequency-output/](https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-sensor-for-frequency-output/)
+
+---
+2021-04-21 08:00:02
+
+Watermark research paper? [https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FExperimental-prototype-of-the-system_fig1_313720615&psig=AOvVaw2rlV88w9AWaWszGa0c8xBx&ust=1619092727984000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCIivm8ukj_ACFQAAAAAdAAAAABAN](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FExperimental-prototype-of-the-system_fig1_313720615&psig=AOvVaw2rlV88w9AWaWszGa0c8xBx&ust=1619092727984000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCIivm8ukj_ACFQAAAAAdAAAAABAN)
+

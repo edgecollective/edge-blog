@@ -4621,4 +4621,121 @@ force calibration event at a2:
 
 [http://bayou.pvos.org/data/8fs9k3zwjg4w](http://bayou.pvos.org/data/8fs9k3zwjg4w)
 
+---
+2021-04-17 08:50:02
 
+Current setup idea:
+
+uf2 based board, so we can flash firmware without IDE
+
+microSD card for parameters on gateway; not necessary for remote node, b/c each node can be determined by a switch, and the loranetwork can be set in the firmware -- we can have several options
+
+https://learn.adafruit.com/adafruit-metro-esp32-s2/arduino-ide-setup
+
+---
+2021-04-18 10:23:09
+
+uf2 bootloader on feathers2 is not protected. this means that arduino ide upload will likely erase UF2 (way to mitigate this?) and in fact does in my experience.
+
+But 'advanced' users who use Arduino IDE w/ esp32 setup should also likely be able to handle webserial or other modes of re-flashing the bootloader. 
+
+questions:
+
+- can we create a UF2 binary of a compiled arduino IDE feather2 sketch? it seems a bit different from the typical arduino setup -- might need to look into precisely what the arduino ide is doing, what it's uploading and how.
+- what are the dynamics of the bootloader? 
+- can the feathers2 use radiohead mesh to send packets?
+- best way to force calibrate the devices?
+
+tempting to use the itsy bitsy, but sticking with the feather ecosystem if possible seems smart.
+
+esp32-s2 feathers2 as main board seems like a good setup if we can swing it.  means that gateway and remote node are identical setups.  
+
+making uf2s --- https://github.com/blurfl/makeUF2-tool
+
+```
+python /home/dwblair/.arduino15/packages/esp32/tools/esptool_py/3.0.0/esptool.py --chip esp32s2 --port /dev/ttyACM0 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 /home/dwblair/.arduino15/packages/esp32/hardware/esp32/2.0.0-alpha1/tools/partitions/boot_app0.bin 0x1000 /tmp/arduino_build_224941/Blink_S2.ino.bootloader.bin 0x10000 /tmp/arduino_build_224941/Blink_S2.ino.bin 0x8000 /tmp/arduino_build_224941/Blink_S2.ino.partitions.bin 
+```
+
+important video to watch: [https://www.youtube.com/watch?v=xmB22q2p40g](https://www.youtube.com/watch?v=xmB22q2p40g)
+
+instructions for loading the uf2 bootloader [https://feathers2.io/install_uf2.html](https://feathers2.io/install_uf2.html)
+
+```
+esptool.py --chip esp32s2 -p /dev/cu.usbmodem01 -b 921600 --before=default_reset --after=no_reset write_flash --flash_mode dio --flash_size detect --flash_freq 80m 0x1000 bootloader.bin 0x8000 partition-table.bin 0xe000 ota_data_initial.bin 0x410000 tinyuf2.bin
+```
+
+options for setting up system:
+
+# remote
+
+option A:
+- feather m0 express $25
+- lora module $10
+
+option b:
+- itsy bitsy m4 $12
+- lora $10
+
+
+
+# gateway:
+
+option A:
+- feather m0 express $25
+- airlift wing $13
+- lora module $10
+
+----> this is the major thing to test right now
+
+
+option B:
+- itsy bitsy m4 (to enable circuitpy) or m0  $15 / $12
+- airlift add-on for ib: $15
+
+
+samd51 in standby mode -- can use sleepdog library -- https://forum.arduino.cc/t/samd51-sleep-mode/591685 -- get 43 uA
+
+---
+2021-04-18 15:14:29
+
+[https://learn.adafruit.com/adafruit-hallowing/using-with-arduino-ide](https://learn.adafruit.com/adafruit-hallowing/using-with-arduino-ide)
+
+[https://github.com/PaulStoffregen/SerialFlash](https://github.com/PaulStoffregen/SerialFlash)
+
+[https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports/creating-a-new-spi](https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports/creating-a-new-spi)
+
+
+```
+SPIClass SPI (&PERIPH_SPI,  PIN_SPI_MISO,  PIN_SPI_SCK,  PIN_SPI_MOSI,  PAD_SPI_TX,  PAD_SPI_RX);
+```
+
+---
+2021-04-18 16:14:31
+
+core code for project!  M0 + uSD + lora + esp32 wifi breakout (tested on itsybitsy)
+
+[https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/6924c6b2f5f700cc84a04e692b20816c3716f760/v0.9-alpha/ver2](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/6924c6b2f5f700cc84a04e692b20816c3716f760/v0.9-alpha/ver2)
+
+---
+2021-04-18 19:14:53
+
+mini ultra -- [https://www.rocketscream.com/blog/product/mini-ultra/](https://www.rocketscream.com/blog/product/mini-ultra/)
+
+mini ultra pro [https://github.com/rocketscream/MiniUltraPro](https://github.com/rocketscream/MiniUltraPro)
+
+samd51 easier part ot solder [https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD51N20A-AUT/7390290](https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD51N20A-AUT/7390290)
+
+[https://twitter.com/marwa_zaatari/status/1383828012022439937?s=20](https://twitter.com/marwa_zaatari/status/1383828012022439937?s=20)  good thread on hvac
+
+---
+2021-04-20 13:22:50
+
+adding adalogger to feather m0 lora: [https://forums.adafruit.com/viewtopic.php?f=31&p=856795](https://forums.adafruit.com/viewtopic.php?f=31&p=856795)
+
+This thread indicates that the original Arduino SD library shouldn't be used with more than one device on the SPI bus; use SdFAT instead [https://forum.arduino.cc/t/problem-using-both-spi-library-and-sd-library-in-arduino-uno-program/149775/16](https://forum.arduino.cc/t/problem-using-both-spi-library-and-sd-library-in-arduino-uno-program/149775/16), and making sure to set the relevant pins high or low depending on which device you want to talk to
+
+
+---
+2021-04-24 11:26:44
+
+Ordered CO2 REV_K / REV K from JLCPCB -- git commit is here: [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/2f2a087edde58be6938c8b4bdc3f76482e28a35f/REV_K/kicad](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/2f2a087edde58be6938c8b4bdc3f76482e28a35f/REV_K/kicad)
