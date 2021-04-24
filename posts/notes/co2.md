@@ -4790,3 +4790,8 @@ now try writing to uSD, connecting to wifi, and sending lora packet in loop ...
 
 note: seems like airlift (which includes 3.3V LDO) can do alright on 3.7 lithium ion battery (gets sufficient current)
 
+---
+2021-04-24 15:21:12
+
+was able to read config file and then use wifi -- also lora -- now need to write gateway firmware to test! -- commit is here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/d7d8ad2ac631a02f62a4df86c8642994a86d8005/v0.91-alpha/gateway/featherm0express_airlift_test_hardware_uSD_virtual_LoRa_readcon](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/d7d8ad2ac631a02f62a4df86c8642994a86d8005/v0.91-alpha/gateway/featherm0express_airlift_test_hardware_uSD_virtual_LoRa_readcon)
+
