@@ -4768,4 +4768,22 @@ But: looks like uSD doesn't 'play nice' with other SPI devices.  so: let's see i
 feather m0 express + hardware airlift and hardware lora working in this commit: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b21eeb06612cf2d21b35c77848c71bd4566b9cc5/v0.91-alpha/gateway/featherm0express_hardware_airlift_ScanNetworks_hardware_lora](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b21eeb06612cf2d21b35c77848c71bd4566b9cc5/v0.91-alpha/gateway/featherm0express_hardware_airlift_ScanNetworks_hardware_lora)
 
 
+virtual SPi on m0 reference here: [https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsoaFHbvfOeNx0AQbUp4pAbEmXst8Mpb2HCE15YLEejIkYbjp9jlnWRoC4VkQAvD_BwE](https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsoaFHbvfOeNx0AQbUp4pAbEmXst8Mpb2HCE15YLEejIkYbjp9jlnWRoC4VkQAvD_BwE)
+
+....
+
+challenging to create virtual SPI for uSD ... ?  can't find in library as yet ...
+
+another option might be to do virtual SPI for lora + airlift ...
+
+quick test of that ...
+
+---
+2021-04-24 14:32:12
+
+basic test of: featherm0express + hardware_airlift + hardware uSD + virtual LoRa here: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/a0e75274df4518dbe081546bc32aacd0a79d6e80/v0.91-alpha/gateway/featherm0express_airlift_test_hardware_uSD_virtual_LoRa](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/a0e75274df4518dbe081546bc32aacd0a79d6e80/v0.91-alpha/gateway/featherm0express_airlift_test_hardware_uSD_virtual_LoRa)
+
+now try writing to uSD, connecting to wifi, and sending lora packet in loop ...
+
+
 
