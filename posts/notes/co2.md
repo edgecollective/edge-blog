@@ -4739,3 +4739,33 @@ This thread indicates that the original Arduino SD library shouldn't be used wit
 2021-04-24 11:26:44
 
 Ordered CO2 REV_K / REV K from JLCPCB -- git commit is here: [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/2f2a087edde58be6938c8b4bdc3f76482e28a35f/REV_K/kicad](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/2f2a087edde58be6938c8b4bdc3f76482e28a35f/REV_K/kicad)
+
+
+---
+2021-04-24 11:37:42
+
+Gateway design:
+
+- hardware uSD (because easier if folks want to use shield)
+- virtual LoRa (folks who want to use M0 LoRa, maybe they can figure out code for combining adalogger shield w/ feather m0? )
+- hardware airlift
+
+set up 'all breakout' option, so that the basic soldering req'd is:
+- headers, and
+- lora module
+
+going to work on this using 'gateway' file in co2monitor-firmware v0.91-alpha
+
+NOTE: if someone were to use a feather m0 lora, they'd have to load firmware via arduino ide *anyway* ... so virtual lora connection is fine. 
+
+Need to see if hardware uSD and hardware airlift are compatible ...
+
+But: looks like uSD doesn't 'play nice' with other SPI devices.  so: let's see if we can do hardware lora and hardware airlift; then virtual uSD.
+
+---
+2021-04-24 12:22:18
+
+feather m0 express + hardware airlift and hardware lora working in this commit: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b21eeb06612cf2d21b35c77848c71bd4566b9cc5/v0.91-alpha/gateway/featherm0express_hardware_airlift_ScanNetworks_hardware_lora](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/b21eeb06612cf2d21b35c77848c71bd4566b9cc5/v0.91-alpha/gateway/featherm0express_hardware_airlift_ScanNetworks_hardware_lora)
+
+
+
