@@ -4785,5 +4785,8 @@ basic test of: featherm0express + hardware_airlift + hardware uSD + virtual LoRa
 
 now try writing to uSD, connecting to wifi, and sending lora packet in loop ...
 
+---
+2021-04-24 14:43:32
 
+note: seems like airlift (which includes 3.3V LDO) can do alright on 3.7 lithium ion battery (gets sufficient current)
 
