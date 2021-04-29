@@ -4799,3 +4799,21 @@ was able to read config file and then use wifi -- also lora -- now need to write
 2021-04-26 17:34:57
 
 ![](/img/co2/neopixel_8_leds_fabprint.png)
+
+---
+2021-04-29 11:22:02
+
+design updates:
+
+base around itsy bitsy m0 / m4
+diy version can be hand soldered easily
+microsd breakout option
+battery power is: cell battery module
+force calibrate procedure
+
+then next version: cheaper, SMT
+
+samd51 deep sleep mode: [https://forum.arduino.cc/t/standby-sleep-mode-on-samd51/576584/4](https://forum.arduino.cc/t/standby-sleep-mode-on-samd51/576584/4)
+
+note: we don't really need to worry about the samd51 sleeping -- we'll probably only use it when doing circuitpython, on the gateway, if we want to do that ... but the gateway usually won't be sleeping ... at least not for many applications ... 
+
