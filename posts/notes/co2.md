@@ -4826,3 +4826,11 @@ above, + OLED + SCD30: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tre
 
 note: looks like we have another reason for using the IBM4 -- we need the extra pins?
 
+pinouts for esp32 airlift featherwing -- [https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts)
+
+upgrading firmware [https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/upgrade-external-esp32-airlift-firmware](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/upgrade-external-esp32-airlift-firmware)
+
+okay -- need a pint on GPIO0 ---
+
+![](/img/co2/coded_rotary_switch_simple_wiring.png)
+
