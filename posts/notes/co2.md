@@ -4817,3 +4817,8 @@ samd51 deep sleep mode: [https://forum.arduino.cc/t/standby-sleep-mode-on-samd51
 
 note: we don't really need to worry about the samd51 sleeping -- we'll probably only use it when doing circuitpython, on the gateway, if we want to do that ... but the gateway usually won't be sleeping ... at least not for many applications ... 
 
+---
+2021-04-30 10:20:04
+
+IBM4 + uSD (hardware SPI) + esp32 airlift featherwing (hardware SPI) + LoRa (virtual SPI): [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/95aca8ffeebd98583e0790de480f285ef62d94da/v0.91-alpha/ibm4_hardware_airliftwing_hardware_uSD_virtual_LoRa](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/95aca8ffeebd98583e0790de480f285ef62d94da/v0.91-alpha/ibm4_hardware_airliftwing_hardware_uSD_virtual_LoRa)
+
