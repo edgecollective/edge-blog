@@ -4822,3 +4822,7 @@ note: we don't really need to worry about the samd51 sleeping -- we'll probably 
 
 IBM4 + uSD (hardware SPI) + esp32 airlift featherwing (hardware SPI) + LoRa (virtual SPI): [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/95aca8ffeebd98583e0790de480f285ef62d94da/v0.91-alpha/ibm4_hardware_airliftwing_hardware_uSD_virtual_LoRa](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/95aca8ffeebd98583e0790de480f285ef62d94da/v0.91-alpha/ibm4_hardware_airliftwing_hardware_uSD_virtual_LoRa)
 
+above, + OLED + SCD30: [https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/59575acfdf487dab619edb50be38fe54dbf7a503/v0.91-alpha/ibm4_hard_airliftwing_hard_uSD_soft_LoRa_i2c_oled_i2c_scd30](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/tree/59575acfdf487dab619edb50be38fe54dbf7a503/v0.91-alpha/ibm4_hard_airliftwing_hard_uSD_soft_LoRa_i2c_oled_i2c_scd30)
+
+note: looks like we have another reason for using the IBM4 -- we need the extra pins?
+
