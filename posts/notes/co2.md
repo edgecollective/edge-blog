@@ -4834,3 +4834,53 @@ okay -- need a pint on GPIO0 ---
 
 ![](/img/co2/coded_rotary_switch_simple_wiring.png)
 
+---
+2021-05-01 12:19:15
+
+[https://docs.google.com/spreadsheets/d/1tf-k_AHOju78dKrg6N9kK3bM163Hrda-1mUbevxc0zM/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1tf-k_AHOju78dKrg6N9kK3bM163Hrda-1mUbevxc0zM/edit?usp=sharing))
+
+![](/img/co2/position_analysis.png)
+
+---
+2021-05-01 13:43:06
+
+maxim unique id chip [https://www.digikey.com/en/products/detail/maxim-integrated/DS2401/956992](https://www.digikey.com/en/products/detail/maxim-integrated/DS2401/956992)
+
+[https://preshing.com/20110504/hash-collision-probabilities/](https://preshing.com/20110504/hash-collision-probabilities/)
+
+![](/img/co2/probabilities.png)
+
+
+> So the probability of no collisions is exp(-1/2) or about 60%, which means there’s a 40% chance of at least one collision. As a rule of thumb, a hash function with range of size N can hash on the order of √N values before running into collisions.
+
+[https://crypto.stackexchange.com/questions/39641/what-are-the-odds-of-collisions-for-a-hash-function-with-256-bit-output](https://crypto.stackexchange.com/questions/39641/what-are-the-odds-of-collisions-for-a-hash-function-with-256-bit-output)
+
+[https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/all](https://learn.sparkfun.com/tutorials/cryptographic-co-processor-atecc508a-qwiic-hookup-guide/all)
+
+---
+2021-05-01 14:46:31
+
+using spi flash on feather m0 express: [https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/using-spi-flash](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/using-spi-flash)
+
+---
+2021-05-01 17:28:23
+
+airlift featherwing esp32 schematic [https://cdn-learn.adafruit.com/assets/assets/000/076/198/original/adafruit_products_AirLift_FeatherWing_Sch.png?1559155254](https://cdn-learn.adafruit.com/assets/assets/000/076/198/original/adafruit_products_AirLift_FeatherWing_Sch.png?1559155254)
+
+best practices for neopixels [https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices)
+
+---
+2021-05-01 17:45:25
+
+![](/img/co2/neopixels_Wiring-Diagram.png)
+
+---
+2021-05-01 17:52:23
+
+esp32 wroom antenna placement options [https://www.espressif.com/sites/default/files/documentation/esp-wroom-02_pcb_design_and_module_placement_guide_0.pdf](https://www.espressif.com/sites/default/files/documentation/esp-wroom-02_pcb_design_and_module_placement_guide_0.pdf)
+
+---
+2021-05-01 18:19:20
+
+esp32 add-on for itsy bitsy schematic: [https://cdn-learn.adafruit.com/assets/assets/000/080/457/original/adafruit_products_schematic.png?1567623352](https://cdn-learn.adafruit.com/assets/assets/000/080/457/original/adafruit_products_schematic.png?1567623352)
+
