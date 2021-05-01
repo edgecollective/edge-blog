@@ -4884,3 +4884,16 @@ esp32 wroom antenna placement options [https://www.espressif.com/sites/default/f
 
 esp32 add-on for itsy bitsy schematic: [https://cdn-learn.adafruit.com/assets/assets/000/080/457/original/adafruit_products_schematic.png?1567623352](https://cdn-learn.adafruit.com/assets/assets/000/080/457/original/adafruit_products_schematic.png?1567623352)
 
+ibm4 EXPRESS [https://cdn-learn.adafruit.com/assets/assets/000/055/481/original/adafruit_products_schem.png?1529261754](https://cdn-learn.adafruit.com/assets/assets/000/055/481/original/adafruit_products_schem.png?1529261754)
+
+DS2401 -- maxim through-hole serial # chip: [https://www.digikey.com/en/products/detail/maxim-integrated/DS2401/956992](https://www.digikey.com/en/products/detail/maxim-integrated/DS2401/956992) 
+
+- powering that chip: [https://forum.arduino.cc/t/reading-serial-from-ds-2401-using-arduino-uno/410373/3](https://forum.arduino.cc/t/reading-serial-from-ds-2401-using-arduino-uno/410373/3)
+
+maxim additional chip: [https://www.digikey.com/en/products/detail/maxim-integrated/DS28CM00R-A00-T/1197555](https://www.digikey.com/en/products/detail/maxim-integrated/DS28CM00R-A00-T/1197555)
+
+---
+2021-05-01 19:03:10
+
+incorporated latest changes to REV_L here: [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/064aa5c7a90d85fe930543ed271bc1fce1ff6d45/REV_L/kicad](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/064aa5c7a90d85fe930543ed271bc1fce1ff6d45/REV_L/kicad)
+
