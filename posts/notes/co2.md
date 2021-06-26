@@ -4948,3 +4948,45 @@ Working on REV_L with Mike, Craig, and Brett ...
 
 [Indoor ACH experiment w/ CO2 (in Spanish)](https://www.youtube.com/watch?v=raPGrFgsiUk)
 
+Working on getting the ACH fitting working again on Bayou ...
+
+# Craig's feed / setup
+
+Craig's bayou feed: [http://bayou.pvos.org/data/sj5ppfn94meh](http://bayou.pvos.org/data/sj5ppfn94meh)
+
+# Mike's feed / setup
+
+Mike's bayou feed: [http://bayou.pvos.org/data/kurqr92abvua](http://bayou.pvos.org/data/kurqr92abvua)
+
+![](/img/co2/mike_initial_data.png)
+
+![](/img/co2/mike_hotspot_gateway.jpg)
+
+![](/img/co2/mike_hot_gateway_2.jpg)
+
+![](/img/co2/mike_nist.jpg)
+
+![](/img/co2/mike_nist_2.jpg)
+
+![](/img/co2/mike_nist_3.jpg)
+
+---
+2021-06-26 09:46:48
+
+Video explaining current interface for assessing ACH using Bayou: [https://youtu.be/xXAM4NldULA](https://youtu.be/xXAM4NldULA)
+
+Todos: 
+- ability to select range of historical data (start / stop) rather than 'most recent N datapoints'
+- less buggy 'refit' -- currently need to refresh page when doing another fit, or else odd artefacts appear
+
+---
+2021-06-26 13:03:46
+
+Mike's 'box test':
+
+![](/img/co2/box_test.jpg)
+
+![](/img/co2/hot_box_experiments_3.png)
+
+Quick video showing ACH analysis for node #2: [https://youtu.be/7Rr_agMS50k](https://youtu.be/7Rr_agMS50k)
+
