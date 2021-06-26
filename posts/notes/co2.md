@@ -4832,6 +4832,17 @@ upgrading firmware [https://learn.adafruit.com/adafruit-airlift-featherwing-esp3
 
 okay -- need a pint on GPIO0 ---
 
+## Rotary coded switch
+
+"SD-2010"
+
+![](/img/co2/rotary_coded_switch.png)
+
+Part from digikey here: [https://www.digikey.com/en/products/detail/nidec-copal-electronics/SD-2010/948380](https://www.digikey.com/en/products/detail/nidec-copal-electronics/SD-2010/948380)
+
+Datasheet: [https://www.nidec-copal-electronics.com/e/catalog/switch/sd-1000&sd-2000.pdf](https://www.nidec-copal-electronics.com/e/catalog/switch/sd-1000&sd-2000.pdf)
+
+
 ![](/img/co2/coded_rotary_switch_simple_wiring.png)
 
 ---
@@ -4896,4 +4907,44 @@ maxim additional chip: [https://www.digikey.com/en/products/detail/maxim-integra
 2021-05-01 19:03:10
 
 incorporated latest changes to REV_L here: [https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/064aa5c7a90d85fe930543ed271bc1fce1ff6d45/REV_L/kicad](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/tree/064aa5c7a90d85fe930543ed271bc1fce1ff6d45/REV_L/kicad)
+
+---
+2021-05-02 10:24:28
+
+![](/img/co2/neopixel_8_dimensions.png)
+
+Board files on github: [https://github.com/adafruit/NeoPixel-Sticks](https://github.com/adafruit/NeoPixel-Sticks)
+
+---
+2021-05-02 19:12:47
+
+Latest REV_K is here: 
+[https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/commit/acc99be30c98ecd960c28571723e39a166e170a5](https://gitlab.com/p-v-o-s/co2/co2monitor-hardware/-/commit/acc99be30c98ecd960c28571723e39a166e170a5)
+
+---
+2021-05-05 11:26:02
+
+## motors
+
+motor for dump truck: 
+
+[https://www.youtube.com/watch?v=XSUyETpCy9M](https://www.youtube.com/watch?v=XSUyETpCy9M)
+
+linear actuator from scratch [https://www.hackster.io/news/a-linear-actuator-made-from-scratch-b89c3c389003](https://www.hackster.io/news/a-linear-actuator-made-from-scratch-b89c3c389003)
+
+---
+2021-05-05 14:32:02
+
+itsy bitsy m4 pinout:
+
+![](/img/co2/ibm4_pintout.jpg)
+
+interesting ref on partitioning esp32 here: [https://towardsdatascience.com/tensorflow-meet-the-esp32-3ac36d7f32c7](https://towardsdatascience.com/tensorflow-meet-the-esp32-3ac36d7f32c7)
+
+---
+2021-06-26 08:10:10
+
+Working on REV_L with Mike, Craig, and Brett ...
+
+[Indoor ACH experiment w/ CO2 (in Spanish)](https://www.youtube.com/watch?v=raPGrFgsiUk)
 
