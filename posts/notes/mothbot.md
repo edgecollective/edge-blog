@@ -384,3 +384,28 @@ associated p-channel (d-s) LP0404N3T5G mosfet -- [LP0404N3T5G datasheet](https:/
 
 Put device into very deep sleep and listen to serial -- code example [https://arduino.stackexchange.com/questions/13167/put-atmega328-in-very-deep-sleep-and-listen-to-serial](https://arduino.stackexchange.com/questions/13167/put-atmega328-in-very-deep-sleep-and-listen-to-serial)
 
+-
+2021-01-13 19:02:28
+
+Dave S. assembled a Mothbot Version 4 and got to blinky!  
+
+![](/img/mothbot/mothbot_rev_4.jpg)
+
+The Mothbot repo has been moved now to [https://github.com/edgecollective/mothbot](https://github.com/edgecollective/mothbot).
+
+TODO: check to see whether [this code](https://github.com/edgecollective/dippy-slim/blob/master/firmware/mothbot_screentest/mothbot_screentest.ino) works to display text on MBv4 ...
+
+---
+2021-01-17 10:12:58
+
+![](/img/mothbot/qwiic_breakout.jpg)
+
+Black = GND
+Red = 3.3V
+Blue = SDA
+Yellow = SCL
+
+---
+2021-01-17 11:11:35
+
+![](/img/mothbot/mbv5.png)

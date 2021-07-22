@@ -40,6 +40,23 @@ text-align: left;
     max-width:800px;
 }
 
+#post-title {
+    #font-size:x-large;
+    margin-bottom: 1px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 8px;
+    width:max-content;
+    font-size: 40px;
+    #width: fit-content(10em);
+    #margin-left: 10px;
+    margin-right: 40px;
+    #margin-top: 40px;
+    margin-bottom: 5px;
+    #text-align: center;
+    }
+
 /*
 h2 {
     #font-size:large;
@@ -83,20 +100,114 @@ h3 {
  margin:0em 0em 1em 1em;
  }
  
-h1 {
+ 
+#main-title {
     line-height: 1em;
     font-size:x-large;
     margin-bottom: .31em;
 }
+
+/*
 h2 {
     font-size:large;
     margin-bottom: 1px;
 }
+*/
 h3 {
     font-size:medium;
     margin-bottom: 1px;
 }
 
+/*
+h2:before {
+    content: "";
+    display: block;
+    border: 1px solid grey;
+    width: 75%;
+    margin: 20px auto;
+  }
+*/
+
+ h1 {
+    line-height: 1em;
+    font-size:x-large;
+    margin-bottom: .31em;
+    
+}
+
+/*
+h1 {
+    #font-size:x-large;
+    margin-bottom: 1px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width:max-content;
+    font-size: 30px;
+    #width: fit-content(10em);
+    #margin-left: 10px;
+    margin-right: 40px;
+    #margin-top: 40px;
+    margin-bottom: 20px;
+    #text-align: center;
+}
+*/
+h2 {
+    #font-size:x-large;
+    margin-bottom: 1px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width:max-content;
+    font-size: 20px;
+    #width: fit-content(10em);
+    #margin-left: 10px;
+    margin-right: 40px;
+    #margin-top: 40px;
+    margin-bottom: 10px;
+    #text-align: center;
+}
+/*
+h3 {
+    font-size:14px;
+    margin-bottom: 1px;
+    #font-size:large;
+    #margin-bottom: 1px;
+    #background-color: #eef;
+    #border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width:max-content;
+    #font-size: 16px;
+    #width: fit-content(10em);
+    #margin-left: 10px;
+    margin-right: 40px;
+    #margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+h4 {
+    font-size:12px;
+    margin-bottom: 1px;
+    #font-size:medium;
+    #margin-bottom: 1px;
+    #background-color: ;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width:max-content;
+    #font-size: 16px;
+    #width: fit-content(10em);
+    margin-left: 20px;
+    margin-right: 40px;
+    #margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+*/
 ul,ol {
 
     max-width:650px;

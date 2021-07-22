@@ -5,7 +5,7 @@ date: 2020-04-14
 updated: 2020-05-12
 tags: projects
 image: img/nola/flood_sensor.png
-blurb: Collaborating on the FloodSense project with NOLAFlotilla.
+blurb: Designing a flood alert and mapping system.
 ---
 
 <img src="/img/nola/gateway_option_a.png">

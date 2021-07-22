@@ -9,6 +9,7 @@ layout: front.njk
 <!--<img src="/img/edge_flower_medium.png">-->
 <img src="/img/ec_flower_logo_small.png">
 
+
 <h1> Edge Collective </h1>
 
 <!--
