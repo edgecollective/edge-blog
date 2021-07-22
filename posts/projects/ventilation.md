@@ -12,13 +12,20 @@ blurb: DIY ventilation assessment and improvement in order to reduce the risk of
 
 ## Background
 
+Key points:
+- COVID-19 is now known to be 'airborne', which has implications for how it is transmitted, and how to mitigate the risk of contracting it. 
+- The intuition we should now have for our viral exposure is more akin to that of inhaling cigarette smoke, than e.g. droplets from a spray bottle
+- A relatively air-tight room poses a significant transmission risk, even if the infected person is located on the other side of the room.
+- Most masks are more effective at preventing the wearer from sending particles into the room than at preventing viral particles from being inhaled by the wearer.
+- As of June 22 2021, it appears likely that those fully vaccinated with the Pfizer or Moderna vaccine who experience breakthrough infections may likely transmit the disease to others.  
+
+
 
 <!--
 | ![Taoglas Radiation](/img/harold/taoglas_radiation.png) |
 |:--:|
 |Signal amplification in the horizontal plane.|
 -->
-
 
 ## Using CO2 to assess indoor ventilation
 
@@ -54,6 +61,9 @@ Need to figure out impact of having different sized holes on co2 apparatus.
 
 - We saw that propane and indoor heating were complications at artisan'     
 
+### Air-Quality-COVID-Science Twitter list
+
+[https://twitter.com/i/lists/1337064747762642947](https://twitter.com/i/lists/1337064747762642947)
 
 
 ### Sensiron
