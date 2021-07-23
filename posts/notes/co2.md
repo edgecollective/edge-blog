@@ -5150,3 +5150,23 @@ Mike's 'box test':
 
 Quick video showing ACH analysis for node #2: [https://youtu.be/7Rr_agMS50k](https://youtu.be/7Rr_agMS50k)
 
+---
+2021-07-22 21:15:55
+
+
+| [![REV_L Response Test](/img/co2/step_rev_L_co2_response_time_comparison_annotated.png)](/img/co2/step_rev_L_co2_response_time_comparison_annotated.png) |
+|:--:|
+| **ENCLOSURE ON:** **A.** Force calibrated outdoors; then transported sensor indoors into small room; **B.** CO2 injection into room; **C.**  Transport of sensor outdoors (< 10 seconds transport duration); **D**. Return sensor to small room (which still has high CO2 concentration).  **E**. Remove enclosure.  **ENCLOSURE OFF:** **F**. Transport sensor outdoors (< 10 seconds transport time). |
+
+---
+2021-07-23 10:58:04
+
+![](/img/co2/coupling.png)
+
+
+
+[Design-in guidelines for SCD30](https://cdn-learn.adafruit.com/assets/assets/000/098/502/original/Sensirion_SCD30_Design-In_Guidelines_D1.pdf?1609963143)
+
+Seems to argue for larger ventilation holes, smaller inside enclosure.
+
+Might just place holes directly beneath the sensor.
