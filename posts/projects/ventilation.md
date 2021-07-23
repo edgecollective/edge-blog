@@ -31,7 +31,7 @@ blurb: DIY ventilation assessment and improvement in order to reduce the risk of
 
 
 
-### Dustin 
+### Dustin Poppendieck
 
 Main twitter thread on ACH: [https://twitter.com/Poppendieck/status/1366055136859070468?s=20](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)
 
