@@ -12,6 +12,8 @@ blurb: DIY ventilation assessment and improvement in order to reduce the risk of
 
 (Updated: 2021-07-23 12:37:54 )
 
+---
+
 ## Overview 
 
 - COVID-19 is now known to be 'airborne', which has implications for how it is transmitted, and how to mitigate the risk of contracting it. 
@@ -20,6 +22,8 @@ blurb: DIY ventilation assessment and improvement in order to reduce the risk of
 - Most masks are more effective at preventing the wearer from sending particles into the room than at preventing viral particles from being inhaled by the wearer.
 - It currently (June 2021) appears likely that those fully vaccinated with the Pfizer and Moderna vaccine who experience breakthrough infections are able to transmit the disease to others.  
 - Hospitals aim for a minimum of 6-12 ACH, with studies showing improvements up to 20 ACH (but not really beyond that).  
+
+---
 
 ## DIY Ventilation / Corsi Boxes
 
@@ -66,13 +70,79 @@ Nice article with good references [https://www.pirieassociates.com/blog/diy-box-
 
 "How to Improve the Efficiency of the “Box Fan and MERV 13 Filter” Air Cleaner": [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
 
+
+Improving effectiveness of corsi air box using a shroud: [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
+
+Corsi air box with five filters: [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
+
+Using ppm with filters: [https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/](https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/) -- makes ppm assessment
+
+Good pics of box fan here [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
+
 ---
 
-### Air-Quality-COVID-Science Twitter List
+## Public Health Guidelines on Ventilation
 
-[https://twitter.com/i/lists/1337064747762642947](https://twitter.com/i/lists/1337064747762642947)
+### Rhode Island Covid air filtration
 
-### Dustin Poppendieck
+[https://covid.ri.gov/covid-19-prevention/indoor-air-circulation](https://covid.ri.gov/covid-19-prevention/indoor-air-circulation)
+
+> Ventilation with recirculated air will not reduce the risk of COVID-19 unless that recirculated air goes through a filter that is made to get rid of tiny particles. A filter’s Minimum Efficiency Reporting Values (MERV) rating describes how well it removes different sized particles in the air. A MERV rating of 13 or higher (MERV 13+) means that the filter gets rid of at least 90% of the particles the size of virus-containing aerosols. High Efficiency Particulate Air (HEPA) filters are designed to exceed the highest MERV rating. A HEPA filter gets rid of at least 99.97% of particles that are even smaller than aerosols.
+
+### Havard School of Public Health Ventilation Assessment guide
+
+[https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf)
+
+They describe the CO2 method as well
+
+They recommend at 6+ ACH.
+
+### Recommended ACH in hospitals / health care facilities
+
+[https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.](https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.)
+
+> Overall, the team found that 20 ACH had statistically significantly fewer particles and CFUs than 15 ACH. However, for the most part, 25 ACH did not provide significantly cleaner air than 20 ACH. For particles, one OR showed no statistical difference among 15, 20 or 25 ACH at all particle sizes, while another OR showed significantly cleaner air at 20 than at either 15 or 25. There was an isolated case with the more dispersed diffusers in which 25 ACH produced more particles than lower ventilation rates. The team could not confirm the cause of this phenomenon, but have seen other research indicating that higher ventilation rates can cause or “stir up” more airborne particles.
+
+[https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html](https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html)
+
+"Indoor Air Changes and Potential Implications for SARS-CoV-2 Transmission":  [https://jamanetwork.com/journals/jama/fullarticle/2779062](https://jamanetwork.com/journals/jama/fullarticle/2779062)
+
+- nice review -- includes discussion of CADR and ACH
+
+"COVID-19 Outbreak and Hospital Air Quality: A Systematic Review of Evidence on Air Filtration and Recirculation": 
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/)
+
+Useful graph of MERV ratings: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/figure/fig2/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/figure/fig2/)
+
+> The combination of HEPA filtration and air recirculation has been shown to be extremely effective in many space functions such as ORs, AIIRs, and PEs. These systems clean air by simultaneously removing (i.e., filtering) and diluting (through recirculation) contaminants from the space.
+
+"Heating, ventilation and air conditioning (HVAC) in intensive care unit": [https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5](https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5)
+
+- suggests that operating rooms have a minimum of 20 ACH
+
+---
+
+## CO2 Monitoring to Assess Indoor Ventilation
+
+### Why is CO2 Monitoring Useful?
+
+CO2 monitoring has long been used for determining the effectiveness of indoor residential ventilation. Changes in indoor CO2 concentration can indicate whether air inside a room has 'refreshed' since its most recent occupants left, or whether there is sufficient space and/or ventilation inside a building that people are unlikely to spread airborne illness. 
+
+CO2 can also be used as a 'tracer gas' to determine the rate of ventilation in a given space, usually assessed in "air changes per hour" (ACH).
+
+### Jimenez et al
+
+"Exhaled CO2 as COVID-19 infection risk proxy for different indoor
+environments and activities"
+
+[https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf)
+
+
+### Washpost on CO2 monitoring trend
+
+[https://www.washingtonpost.com/health/2021/02/10/carbon-dioxide-device-coronavirus/](https://www.washingtonpost.com/health/2021/02/10/carbon-dioxide-device-coronavirus/)
+
+### Dustin Poppendieck 
 
 Main twitter thread on ACH: [https://twitter.com/Poppendieck/status/1366055136859070468?s=20](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)
 
@@ -154,47 +224,30 @@ They stop within 200 ppm of baseline.
 
 p 8 and 9 are key:  it's not just relative ACH, it's absolute ventilation that is the key determinent of risk. 
 
-### Rhode Island Covid air filtration
+### DIY CO2 Monitoring
 
-[https://covid.ri.gov/covid-19-prevention/indoor-air-circulation](https://covid.ri.gov/covid-19-prevention/indoor-air-circulation)
-
-> Ventilation with recirculated air will not reduce the risk of COVID-19 unless that recirculated air goes through a filter that is made to get rid of tiny particles. A filter’s Minimum Efficiency Reporting Values (MERV) rating describes how well it removes different sized particles in the air. A MERV rating of 13 or higher (MERV 13+) means that the filter gets rid of at least 90% of the particles the size of virus-containing aerosols. High Efficiency Particulate Air (HEPA) filters are designed to exceed the highest MERV rating. A HEPA filter gets rid of at least 99.97% of particles that are even smaller than aerosols.
-
-### Havard School of Public Health Ventilation Assessment guide
-
-[https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf)
-
-They describe the CO2 method as well
-
-They recommend at 6+ ACH.
-
-### Tex Air Filters
-
-Improving effectiveness of corsi air box using a shroud: [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
-
-Corsi air box with five filters: [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
-
-Using ppm with filters: [https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/](https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/) -- makes ppm assessment
-
-Good pics of box fan here [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
-
+Ongoing notes on development of a free-and-open-source CO2 monitor are posted [here](https://edgecollective.io/posts/notes/co2/).
 
 ### Feigl-Ding
 
-Impact of HEPA filters: [https://twitter.com/DrEricDing/status/1363731992068644864?s=20](https://twitter.com/DrEricDing/status/1363731992068644864?s=20)
+---
 
-Great smoke ventilation video: [https://twitter.com/DrEricDing/status/1363767569996541952?s=20](https://twitter.com/DrEricDing/status/1363767569996541952?s=20)
+## Individual Domain Experts / Commentators
+
+### Air-Quality-COVID-Science Twitter List
+
+[https://twitter.com/i/lists/1337064747762642947](https://twitter.com/i/lists/1337064747762642947)
 
 
-great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/1363638397684842496/photo/1](https://twitter.com/DrEricDing/status/1363638397684842496/photo/1)
+---
 
-### Wired article on CORSI box
+## Evidence for COVID being airborne
 
-[https://www.wired.com/story/could-a-janky-jury-rigged-air-purifier-help-fight-covid-19/](https://www.wired.com/story/could-a-janky-jury-rigged-air-purifier-help-fight-covid-19/)
+### Lancet article in support of aerosol spread
 
-### Curtius et al -- testing mobile air purifiers
+[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext)
 
-[https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257](https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257)
+> If an infectious virus spreads predominantly through large respiratory droplets that fall quickly, the key control measures are reducing direct contact, cleaning surfaces, physical barriers, physical distancing, use of masks within droplet distance, respiratory hygiene, and wearing high-grade protection only for so-called aerosol-generating health-care procedures. Such policies need not distinguish between indoors and outdoors, since a gravity-driven mechanism for transmission would be similar for both settings. But if an infectious virus is mainly airborne, an individual could potentially be infected when they inhale aerosols produced when an infected person exhales, speaks, shouts, sings, sneezes, or coughs. Reducing airborne transmission of virus requires measures to avoid inhalation of infectious aerosols, including ventilation, air filtration, reducing crowding and time spent indoors, use of masks whenever indoors, attention to mask quality and fit, and higher-grade protection for health-care staff and front-line workers.2 Airborne transmission of respiratory viruses is difficult to demonstrate directly.3 Mixed findings from studies that seek to detect viable pathogen in air are therefore insufficient grounds for concluding that a pathogen is not airborne if the totality of scientific evidence indicates otherwise. Decades of painstaking research, which did not include capturing live pathogens in the air, showed that diseases once considered to be spread by droplets are airborne.4 Ten streams of evidence collectively support the hypothesis that SARS-CoV-2 is transmitted primarily by the airborne route.5
 
 
 ### Corsi on COVID-19 being airborne
@@ -215,44 +268,57 @@ great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/13636
 
 > Corsi also says we should all be wearing face coverings, and establishments should be limiting the number of people allowed inside at any given time.
 
-### Washpost on CO2 monitoring trend
+---
 
-[https://www.washingtonpost.com/health/2021/02/10/carbon-dioxide-device-coronavirus/](https://www.washingtonpost.com/health/2021/02/10/carbon-dioxide-device-coronavirus/)
+## General references on air cleaning / purifiers
 
 ### Sciencenews on air cleaning
 
 [https://www.sciencenews.org/article/coronavirus-covid-air-spread-indoor-clean-ventilation-filtration](https://www.sciencenews.org/article/coronavirus-covid-air-spread-indoor-clean-ventilation-filtration)
 
-### Lancet article in support of aerosol spread
+### Curtius et al -- testing mobile air purifiers
 
-[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext)
-
-> If an infectious virus spreads predominantly through large respiratory droplets that fall quickly, the key control measures are reducing direct contact, cleaning surfaces, physical barriers, physical distancing, use of masks within droplet distance, respiratory hygiene, and wearing high-grade protection only for so-called aerosol-generating health-care procedures. Such policies need not distinguish between indoors and outdoors, since a gravity-driven mechanism for transmission would be similar for both settings. But if an infectious virus is mainly airborne, an individual could potentially be infected when they inhale aerosols produced when an infected person exhales, speaks, shouts, sings, sneezes, or coughs. Reducing airborne transmission of virus requires measures to avoid inhalation of infectious aerosols, including ventilation, air filtration, reducing crowding and time spent indoors, use of masks whenever indoors, attention to mask quality and fit, and higher-grade protection for health-care staff and front-line workers.2 Airborne transmission of respiratory viruses is difficult to demonstrate directly.3 Mixed findings from studies that seek to detect viable pathogen in air are therefore insufficient grounds for concluding that a pathogen is not airborne if the totality of scientific evidence indicates otherwise. Decades of painstaking research, which did not include capturing live pathogens in the air, showed that diseases once considered to be spread by droplets are airborne.4 Ten streams of evidence collectively support the hypothesis that SARS-CoV-2 is transmitted primarily by the airborne route.5
+[https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257](https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257)
 
 
+### Impact of HEPA filters
 
-### Recommended ACH in hospitals / health care facilities
+[https://twitter.com/DrEricDing/status/1363731992068644864?s=20](https://twitter.com/DrEricDing/status/1363731992068644864?s=20)
 
-[https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.](https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.)
 
-> Overall, the team found that 20 ACH had statistically significantly fewer particles and CFUs than 15 ACH. However, for the most part, 25 ACH did not provide significantly cleaner air than 20 ACH. For particles, one OR showed no statistical difference among 15, 20 or 25 ACH at all particle sizes, while another OR showed significantly cleaner air at 20 than at either 15 or 25. There was an isolated case with the more dispersed diffusers in which 25 ACH produced more particles than lower ventilation rates. The team could not confirm the cause of this phenomenon, but have seen other research indicating that higher ventilation rates can cause or “stir up” more airborne particles.
+### Relative effectiveness of purifiers
 
-[https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html](https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html)
+great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/1363638397684842496/photo/1](https://twitter.com/DrEricDing/status/1363638397684842496/photo/1)
 
-"Indoor Air Changes and Potential Implications for SARS-CoV-2 Transmission":  [https://jamanetwork.com/journals/jama/fullarticle/2779062](https://jamanetwork.com/journals/jama/fullarticle/2779062)
+---
 
-- nice review -- includes discussion of CADR and ACH
+## General notes on ventilation
 
-"COVID-19 Outbreak and Hospital Air Quality: A Systematic Review of Evidence on Air Filtration and Recirculation": 
-[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/)
+### Smoke ventilation visualization
 
-Useful graph of MERV ratings: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/figure/fig2/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489049/figure/fig2/)
+ [https://twitter.com/DrEricDing/status/1363767569996541952?s=20](https://twitter.com/DrEricDing/status/1363767569996541952?s=20)
 
-> The combination of HEPA filtration and air recirculation has been shown to be extremely effective in many space functions such as ORs, AIIRs, and PEs. These systems clean air by simultaneously removing (i.e., filtering) and diluting (through recirculation) contaminants from the space.
+### Synergist 'Ventilation checklist'
 
-"Heating, ventilation and air conditioning (HVAC) in intensive care unit": [https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5](https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5)
+Very nice background:
 
-- suggests that operating rooms have a minimum of 20 ACH
+[https://synergist.aiha.org/202012-a-ventilation-checklist](https://synergist.aiha.org/202012-a-ventilation-checklist)
+
+
+### "How to ventilation for COVID 19"
+
+[https://herf.medium.com/how-to-ventilate-for-covid-19-c8ce1bd13300](https://herf.medium.com/how-to-ventilate-for-covid-19-c8ce1bd13300)
+
+Link to Zeynep's article; readable background.  Reinforces 6-12 ACH figure.
+
+### Increasing Ventilation By Changing Occupancy Patterns
+
+"Occupancy-aided ventilation for both airborne infection risk control and work productivity": 
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/)
+
+---
+
+## Delta Variant
 
 "4 Reasons Why I'm Wearing a Mask Again": 
 [https://twitter.com/Boghuma/status/1418276227664711681?s=20](https://twitter.com/Boghuma/status/1418276227664711681?s=20)
@@ -268,63 +334,11 @@ Useful graph of MERV ratings: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489
 
 > The CDC says it is not revising its mask guidance, and points out that local leaders can make their own decisions based on community rates. But every expert I spoke to for this story (about a dozen) said they have continued to wear masks and socialize mostly outdoors.
 
-### Synergist 'Ventilation checklist'
-
-Very nice background:
-
-[https://synergist.aiha.org/202012-a-ventilation-checklist](https://synergist.aiha.org/202012-a-ventilation-checklist)
-
-
-### "How to ventilation for COVID 19"
-
-[https://herf.medium.com/how-to-ventilate-for-covid-19-c8ce1bd13300](https://herf.medium.com/how-to-ventilate-for-covid-19-c8ce1bd13300)
-
-Link to Zeynep's article; readable background.  Reinforces 6-12 ACH figure.
-
-### Misc
-
-"Occupancy-aided ventilation for both airborne infection risk control and work productivity": 
-[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/)
-
-
-
-
-
 ---
 
-## Open Questions
+## Misc
 
-- Air flow direction on MERV 13 filters?
-- Response time of CO2 sensors?
-
-<!--
-| ![Taoglas Radiation](/img/harold/taoglas_radiation.png) |
-|:--:|
-|Signal amplification in the horizontal plane.|
--->
-
-## Using CO2 to assess indoor ventilation
-
-### Why is CO2 Monitoring Useful?
-
-CO2 monitoring has long been used for determining the effectiveness of indoor residential ventilation. Changes in indoor CO2 concentration can indicate whether air inside a room has 'refreshed' since its most recent occupants left, or whether there is sufficient space and/or ventilation inside a building that people are unlikely to spread airborne illness. 
-
-### Indoor CO2 PPM and COVID-19 transmission
-
-Recently, [researchers](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf) have been exploring CO2 monitoring as factor in the assessment of the relative risk of indoor transmission of [COVID-19](). In the case of airborne illness, there are a few very common questions that CO2 monitoring can help answer:
-
-- How long should people wait for air in a space occupied by another 'pod' to 'turn over' before entering it? 
-- How many people can occupy the same indoor space before it is too 'crowded'?
-- What techniques (opening a window, modifying the ventilation system) are most effective at refreshing air within a space?  How much ventilation is needed (how many windows need to be opened) in a given space?
-
-By monitoring CO2 levels in a space over the course of a few days, it may be possible to determine patterns that can effectively inform daily practices without requiring futher ongoing CO2 monitoring.  E.g., it may be determined that opening a single window in a room is enough to keep the indoor CO2 PPM at 'fresh air' levels even when fully occupied.  
-
-### DIY CO2 Monitoring
-
-Ongoing notes on development of a free-and-open-source CO2 monitor are posted [here](https://edgecollective.io/posts/notes/co2/).
-
-
-### Misc
+TODOS:
 
 Need to figure out impact of having different sized holes on co2 apparatus.
 
@@ -335,3 +349,7 @@ Need to figure out impact of having different sized holes on co2 apparatus.
 - Find space where can measure air flow at vents to test ACH determination method?
 
 - We saw that propane and indoor heating were complications at artisan'     
+
+- Air flow direction on MERV 13 filters?
+
+- Response time of CO2 sensors?
