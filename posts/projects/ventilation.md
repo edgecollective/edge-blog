@@ -334,6 +334,11 @@ Link to Zeynep's article; readable background.  Reinforces 6-12 ACH figure.
 
 > The CDC says it is not revising its mask guidance, and points out that local leaders can make their own decisions based on community rates. But every expert I spoke to for this story (about a dozen) said they have continued to wear masks and socialize mostly outdoors.
 
+### Joaquín Beltrán
+
+"Part 3: Delta Variant Hot Surge Summer in the U.S.": 
+[https://joaquinlife.medium.com/part-3-delta-variant-hot-surge-summer-in-the-u-s-4fc7538bdc25?source=social.tw](https://joaquinlife.medium.com/part-3-delta-variant-hot-surge-summer-in-the-u-s-4fc7538bdc25?source=social.tw)
+
 ---
 
 ## Misc
