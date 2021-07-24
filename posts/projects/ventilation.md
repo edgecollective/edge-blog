@@ -10,26 +10,67 @@ blurb: DIY ventilation assessment and improvement in order to reduce the risk of
 
 # Indoor Ventilation Assessment and Improvement
 
-## Overview 
-
-### Summary points
-
 (Updated: 2021-07-23 12:37:54 )
+
+## Overview 
 
 - COVID-19 is now known to be 'airborne', which has implications for how it is transmitted, and how to mitigate the risk of contracting it. 
 - The intuition we should now have for our viral exposure is more akin to e.g. inhaling cigarette smoke than to droplets from e.g. a spray bottle
 - A relatively air-tight room can therefore pose a significant transmission risk, even if the infected person is located on the other side of the room.
 - Most masks are more effective at preventing the wearer from sending particles into the room than at preventing viral particles from being inhaled by the wearer.
-- As of June 22 2021, it appears likely that those fully vaccinated with the Pfizer or Moderna vaccine who experience breakthrough infections may likely transmit the disease to others.  
+- It currently (June 2021) appears likely that those fully vaccinated with the Pfizer and Moderna vaccine who experience breakthrough infections are able to transmit the disease to others.  
 - Hospitals aim for a minimum of 6-12 ACH, with studies showing improvements up to 20 ACH (but not really beyond that).  
 
-## References
+## DIY Ventilation / Corsi Boxes
 
-### Air-Quality-COVID-Science Twitter list
+### SmartAir Instructions
+
+[https://smartairfilters.com/en/blog/diy-purifier-effectivness/](https://smartairfilters.com/en/blog/diy-purifier-effectivness/)
+
+Nice graphs, incuding graph of particulate sized captured by filter: [https://smartairfilters.com/wordpress/wp-content/uploads/2020/12/MERV-Filters-Capture-Nanoparticles.jpg](https://smartairfilters.com/wordpress/wp-content/uploads/2020/12/MERV-Filters-Capture-Nanoparticles.jpg)
+
+### Energy Vanguard
+
+[https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/](https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/)
+
+### John Semmelhack
+
+With tests of performance characteristics.
+
+[https://twitter.com/JohnSemmelhack/status/1313859125206548481?s=20](https://twitter.com/JohnSemmelhack/status/1313859125206548481?s=20)
+
+### Video guide
+
+[https://www.youtube.com/watch?v=Y7eL2OAnqc8](https://www.youtube.com/watch?v=Y7eL2OAnqc8)
+
+### Testing re: particle size capture
+
+[https://elemental.medium.com/air-purifiers-air-filters-and-the-best-diy-hacks-to-reduce-the-coronavirus-risk-14169e8839c5](https://elemental.medium.com/air-purifiers-air-filters-and-the-best-diy-hacks-to-reduce-the-coronavirus-risk-14169e8839c5)
+
+### Pirie associates instructions
+
+Nice article with good references [https://www.pirieassociates.com/blog/diy-box-fan-filter](https://www.pirieassociates.com/blog/diy-box-fan-filter)
+
+### Student-built
+
+[https://twitter.com/DrEricDing/status/1363868394391539712?s=20](https://twitter.com/DrEricDing/status/1363868394391539712?s=20)
+
+### WIRED Article
+
+"Could a Janky, Jury-Rigged Air Purifier Help Fight Covid-19?": 
+[https://www.wired.com/story/could-a-janky-jury-rigged-air-purifier-help-fight-covid-19/](https://www.wired.com/story/could-a-janky-jury-rigged-air-purifier-help-fight-covid-19/)
+
+### Tex-Air Filters
+
+"A Variation on the “Box Fan with MERV 13 Filter” Air Cleaner": [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
+
+"How to Improve the Efficiency of the “Box Fan and MERV 13 Filter” Air Cleaner": [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
+
+---
+
+### Air-Quality-COVID-Science Twitter List
 
 [https://twitter.com/i/lists/1337064747762642947](https://twitter.com/i/lists/1337064747762642947)
-
-
 
 ### Dustin Poppendieck
 
@@ -144,7 +185,6 @@ Impact of HEPA filters: [https://twitter.com/DrEricDing/status/13637319920686448
 
 Great smoke ventilation video: [https://twitter.com/DrEricDing/status/1363767569996541952?s=20](https://twitter.com/DrEricDing/status/1363767569996541952?s=20)
 
-Students build filters [https://twitter.com/DrEricDing/status/1363868394391539712?s=20](https://twitter.com/DrEricDing/status/1363868394391539712?s=20)
 
 great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/1363638397684842496/photo/1](https://twitter.com/DrEricDing/status/1363638397684842496/photo/1)
 
@@ -155,10 +195,6 @@ great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/13636
 ### Curtius et al -- testing mobile air purifiers
 
 [https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257](https://www.tandfonline.com/doi/full/10.1080/02786826.2021.1877257)
-
-### Pirie associates
-
-Nice article with good references [https://www.pirieassociates.com/blog/diy-box-fan-filter](https://www.pirieassociates.com/blog/diy-box-fan-filter)
 
 
 ### Corsi on COVID-19 being airborne
@@ -250,41 +286,8 @@ Link to Zeynep's article; readable background.  Reinforces 6-12 ACH figure.
 "Occupancy-aided ventilation for both airborne infection risk control and work productivity": 
 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718782/)
 
-### DIY Corsi Box 
 
-**has lower decibels than $1000 air purifier**
 
-[https://smartairfilters.com/en/blog/diy-purifier-effectivness/](https://smartairfilters.com/en/blog/diy-purifier-effectivness/)
-
-Nice graphs, incuding graph of particulate sized captured by filter: [https://smartairfilters.com/wordpress/wp-content/uploads/2020/12/MERV-Filters-Capture-Nanoparticles.jpg](https://smartairfilters.com/wordpress/wp-content/uploads/2020/12/MERV-Filters-Capture-Nanoparticles.jpg)
-
-***nice instructions***
-
-[https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/](https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/)
-
-**box fan filter testing**
-
-[https://twitter.com/JohnSemmelhack/status/1313859125206548481?s=20](https://twitter.com/JohnSemmelhack/status/1313859125206548481?s=20)
-
-**video showing construction**
-
-[https://www.youtube.com/watch?v=Y7eL2OAnqc8](https://www.youtube.com/watch?v=Y7eL2OAnqc8)
-
-**troy gardner review of 1 year of use of filter**
-
-[https://www.youtube.com/watch?v=0A8Yink0czc](https://www.youtube.com/watch?v=0A8Yink0czc)
-
-**video where the filters are oriented the wrong way?**
-
-[https://www.youtube.com/watch?v=uM7mR-95KUg](https://www.youtube.com/watch?v=uM7mR-95KUg)
-
-**nice, detailed review of diy ventilation and air particle sizes**
-
-[https://elemental.medium.com/air-purifiers-air-filters-and-the-best-diy-hacks-to-reduce-the-coronavirus-risk-14169e8839c5](https://elemental.medium.com/air-purifiers-air-filters-and-the-best-diy-hacks-to-reduce-the-coronavirus-risk-14169e8839c5)
-
-**corsi math on choosing / sizing air filters**
-
-[https://twitter.com/CorsIAQ/status/1286481149879914496](https://twitter.com/CorsIAQ/status/1286481149879914496)
 
 
 ---

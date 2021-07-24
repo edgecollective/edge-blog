@@ -106,7 +106,7 @@
     "liquidjs": "^9.15.0",
     "lodash": "^4.17.20",
     "luxon": "^1.25.0",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^11.0.1",
     "minimist": "^1.2.5",
     "moo": "^0.5.1",
     "multimatch": "^4.0.0",
