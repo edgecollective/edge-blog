@@ -1,5 +1,5 @@
 ---
-pageTitle: Greenhouse Monitoring at Wolfe's Neck Farm in Freeport, Maine (USA).
+pageTitle: Greenhouse Monitoring at Wolfe's Neck Farm in Freeport, Maine (USA)
 layout: layout.njk
 date: 2020-04-14
 updated: 2021-06-12

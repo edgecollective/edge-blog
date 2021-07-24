@@ -1,5 +1,5 @@
 ---
-pageTitle: Ventilation
+pageTitle: Ventilation and reducing the risk of COVID transmission
 layout: layout.njk
 date: 2020-12-07
 updated: 2021-07-22
