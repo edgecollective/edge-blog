@@ -5239,5 +5239,12 @@ Note that the ends of the response (drop down and rise up) seem a bit more round
 
 Looks like the sensor is about 9 or 10 mm peak off board, with sides around 5 mm; the intakes on the 'top' would still have some breathing room if tape was put over the top;  so 8.5 mm headers could work pretty well as 'sides' 
 
+---
+2021-07-25 16:51:24
+
+## Bug via Dave S.
+
+![](/img/co2/dave_bug.png)
+
 
 
