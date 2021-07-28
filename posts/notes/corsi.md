@@ -10,9 +10,12 @@ blurb: Notes on building DIY Air filtration devices ("Corsi air boxes")
 
 # Corsi Air Boxes
 
-"Comparetto Cube" 
+## One-page instructions
 
-![](/img/co2/corsi_ingredients.png)
+One-page instructions: [/img/co2/corsi1.png](/img/co2/corsi1.png)
+
+![](/img/co2/corsi1.png)
+
 
 ## Summary points
 
