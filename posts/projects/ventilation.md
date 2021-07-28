@@ -101,11 +101,17 @@ They recommend at 6+ ACH.
 
 [https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.](https://www.hfmmagazine.com/articles/3246-studying-airflow-in-the-or#:~:text=Due%20to%20variations%20in%20state,the%20requirement%20for%20many%20years.)
 
+> Due to variations in state building codes, 15 or 20 air changes per hour (ACH) may be the minimum required. However, in practice, most hospitals operate at 20 to 25 ACH with some using up to 40 ACH. These rates are all up from 12 ACH, which was the requirement for many years. By comparison, the requirement for patient rooms is 6 ACH. 
+
 > Overall, the team found that 20 ACH had statistically significantly fewer particles and CFUs than 15 ACH. However, for the most part, 25 ACH did not provide significantly cleaner air than 20 ACH. For particles, one OR showed no statistical difference among 15, 20 or 25 ACH at all particle sizes, while another OR showed significantly cleaner air at 20 than at either 15 or 25. There was an isolated case with the more dispersed diffusers in which 25 ACH produced more particles than lower ventilation rates. The team could not confirm the cause of this phenomenon, but have seen other research indicating that higher ventilation rates can cause or “stir up” more airborne particles.
 
 [https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html](https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html)
 
 "Indoor Air Changes and Potential Implications for SARS-CoV-2 Transmission":  [https://jamanetwork.com/journals/jama/fullarticle/2779062](https://jamanetwork.com/journals/jama/fullarticle/2779062)
+
+> To reduce far-field airborne transmission of SARS-CoV-2 in small-volume indoor spaces (eg, classrooms, retail shops, homes if guests are visiting), the suggestions include **targeting 4 to 6 air changes per hour**, through any combination of the following: outdoor air ventilation; recirculated air that passes through a filter with at least a minimum efficiency rating value 13 (MERV 13) rating; or passage of air through portable air cleaners with HEPA (high-efficiency particulate air) filters.
+
+> Despite the dose-response for SARS-CoV-2 being unknown, and continued scientific debate about the dominant mode of transmission, evidence support these suggestions. First, SARS-CoV-2 is primarily transmitted from the exhaled respiratory aerosols of infected individuals. Larger droplets (>100 μm) can settle out of the air due to gravitational forces within 6 feet, but people emit 100 times more smaller aerosols (<5 μm) during talking, breathing, and coughing. Smaller aerosols can stay aloft for 30 minutes to hours and travel well beyond 6 feet.1 Second, high-profile and well-described SARS-CoV-2 outbreaks across multiple space types (eg, restaurants, gyms, choir practice, schools, buses) share the common features of time indoors and low levels of ventilation, even when people remained physically distanced
 
 - nice review -- includes discussion of CADR and ACH
 
@@ -119,6 +125,43 @@ Useful graph of MERV ratings: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7489
 "Heating, ventilation and air conditioning (HVAC) in intensive care unit": [https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5](https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-02907-5)
 
 - suggests that operating rooms have a minimum of 20 ACH
+
+"ASHRAE Healthcare FAQ":
+[https://www.ashrae.org/technical-resources/healthcare-faq](https://www.ashrae.org/technical-resources/healthcare-faq)
+
+> Currently, ASHRAE Standard 170 requires 6 total ACH for Gastrointestinal Endoscopy procedure rooms. There is no pressure requirement. Airflow may not be recirculated within the room.
+
+> If the procedure is an aerosol generating procedure, regardless of whether it is on a COVID-19 positive patient or not, it is recommended to perform the procedure in an airborne infection isolation room or a bronchoscopy room. ASHRAE Standard 170 requires 12 total ACH for Bronchoscopy rooms. The room must be negative, 100% exhaust, and no recirculation within the room.
+
+CDC: "Airborne Contaminant Removal" as a function of ACH
+
+[https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html](https://www.cdc.gov/infectioncontrol/guidelines/environmental/appendix/air.html)
+
+![](/img/co2/cdc_airborne_removal.png)
+
+"Role of air changes per hour (ACH) in possible transmission of airborne
+infections": [https://www.orf.od.nih.gov/TechnicalResources/Bioenvironmental/Documents/RoleofACHinTransmissionofAirborneInfections508.pdf](https://www.orf.od.nih.gov/TechnicalResources/Bioenvironmental/Documents/RoleofACHinTransmissionofAirborneInfections508.pdf)
+
+> ASHRAE 170 2008 and the CDC guidelines 2005 recommend ventilation
+rates of minimum 12 ACH for hospital insulation rooms.
+Although increasing ventilation airflow rate does dilute concentrations better when the contaminant source is constant, it does not increase ventilation effectiveness.
+
+"Recommended ventilation rates for homes, offices, schools, more":
+[https://smartairfilters.com/en/blog/ashrae-per-hour-office-residential-school-virus/](https://smartairfilters.com/en/blog/ashrae-per-hour-office-residential-school-virus/)
+
+![](/img/co2/ashrae_viruses.png)
+
+Consumer analysis critique of using ACH as a metric for indoor ventilation when assessing air purification:
+
+[https://www.consumeranalysis.com/guides/air-purifiers/ach/](https://www.consumeranalysis.com/guides/air-purifiers/ach/)
+
+
+WHO natural ventilation guide: [https://www.who.int/water_sanitation_health/publications/natural_ventilation.pdf](https://www.who.int/water_sanitation_health/publications/natural_ventilation.pdf)
+
+Interesting: they speak of "liters per second per patient" -- which seems like a better statistics than ACH.
+
+Note too:  we see in more than one reference that "ACH" should depend on occupancy of a room.
+
 
 ---
 
@@ -212,6 +255,12 @@ Nice presentaiton of the log fit method
 
 [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)
 
+![](/img/co2/absolute_ventilation.png)
+
+![](/img/co2/room_volume_ach.png)
+
+"Wells-Riley equation"
+
 They use a graph indicating the difference between windows opened and windows closed.
 
 They use fire extinguishers to generate enough CO2.
@@ -224,11 +273,92 @@ They stop within 200 ppm of baseline.
 
 p 8 and 9 are key:  it's not just relative ACH, it's absolute ventilation that is the key determinent of risk. 
 
+### Using Wells-Riley Equation with COVID-19
+
+"Assessing and controlling infection risk with Wells-Riley model and spatial flow impact factor (SFIF)":
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7834120/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7834120/)
+
+
 ### DIY CO2 Monitoring
 
 Ongoing notes on development of a free-and-open-source CO2 monitor are posted [here](https://edgecollective.io/posts/notes/co2/).
 
 ### Feigl-Ding
+
+---
+
+## COVID-19 and Schools
+
+### UC Berkeley Curated List
+
+"UC Berkeley: COVID-19: RESOURCES FOR REOPENING HEALTHY SCHOOL FACILITIES": 
+[https://citiesandschools.berkeley.edu/covid-school-facilities](https://citiesandschools.berkeley.edu/covid-school-facilities)
+
+### Classroom Ventilation and Transmission Risk
+
+"Live" model from Cannon Design:
+[https://www.cannondesign.com/covid-transmission-risk/](https://www.cannondesign.com/covid-transmission-risk/)
+
+![](/img/co2/covid_risk.png)
+
+### EPA Webinar -- Classroom Layered Risk
+
+[https://www.youtube.com/watch?v=SPfHpHRJN9g](https://www.youtube.com/watch?v=SPfHpHRJN9g)
+
+Corsi's contribution: [https://youtu.be/SPfHpHRJN9g?t=687](https://youtu.be/SPfHpHRJN9g?t=687)
+
+Reduce speaking -- order of magnitude more emissions than if just breathing:
+
+[https://youtu.be/SPfHpHRJN9g?t=1498](https://youtu.be/SPfHpHRJN9g?t=1498): ![](/img/co2/speaking.png)
+
+[https://youtu.be/SPfHpHRJN9g?t=2055](https://youtu.be/SPfHpHRJN9g?t=2055): 
+
+![](/img/co2/liters_per_second_per_person.png)
+
+![](/img/co2/ventilation_performance.png)
+
+Calculating rebreathe fraction:
+
+![](/img/co2/rebreathe_fraction.png)
+
+![](/img/co2/prob_infection_for_rebreathe_fraction.png)
+
+CADR:
+
+![](/img/co2/cadr.png)
+
+equivalent ACH (supports our assessment): 
+
+---> the key point --->
+
+[https://youtu.be/SPfHpHRJN9g?t=2884](https://youtu.be/SPfHpHRJN9g?t=2884) 
+
+![](/img/co2/equiv_ach.png)
+
+reducing time indoors:
+
+![](/img/co2/reducing_time_indoors.png)
+
+ASHRAE position statement on infectious aerosols: [https://www.ashrae.org/file%20library/about/position%20documents/pd_infectiousaerosols_2020.pdf](https://www.ashrae.org/file%20library/about/position%20documents/pd_infectiousaerosols_2020.pdf)
+
+
+---
+
+## WHO on ACH
+
+[https://youtu.be/XJC1f7F4qtc?t=161](https://youtu.be/XJC1f7F4qtc?t=161)
+
+![](/img/co2/who_six_ach.png)
+
+
+---
+
+## ACH definitions / fundamentals
+
+[https://en.wikipedia.org/wiki/Air_changes_per_hour](https://en.wikipedia.org/wiki/Air_changes_per_hour)
+
+---
+
 
 ---
 

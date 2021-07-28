@@ -34,5 +34,33 @@ Fan points up ...
 
 [https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/](https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/)
 
-## DIY Build
+## Philly Inquirer
 
+[https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html](https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html)
+
+## Tex-air overview
+
+[https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/](https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/)
+
+## Treehugger
+
+[https://www.treehugger.com/build-own-covid-19-air-filter-5081272](https://www.treehugger.com/build-own-covid-19-air-filter-5081272)
+
+
+## Percent effectiveness at capturing particles
+
+[https://www.ashrae.org/technical-resources/filtration-and-disinfection-faq](https://www.ashrae.org/technical-resources/filtration-and-disinfection-faq)
+
+--> 85% 
+
+## Calculating ACH from CFM
+
+[https://www.vaniman.com/air-changes-per-hour-calculator/#:~:text=To%20calculate%20Air%20Changes%20Per,to%20get%20your%20total%20ACH.](https://www.vaniman.com/air-changes-per-hour-calculator/#:~:text=To%20calculate%20Air%20Changes%20Per,to%20get%20your%20total%20ACH.)
+
+## Corsi presentation on air box
+
+[https://www.youtube.com/watch?v=MmWQUHswfOs](https://www.youtube.com/watch?v=MmWQUHswfOs)
+
+![](/img/co2/box_fan_effectiveness.png)
+
+note: reason that you pull through the filter is that it tends to seal, rather than blow apart

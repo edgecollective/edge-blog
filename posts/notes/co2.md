@@ -5178,6 +5178,11 @@ Might just place holes directly beneath the sensor.
 
 ## Option A
 
+![](/img/co2/A_1.png)
+
+![](/img/co2/A_2.png)
+
+
 Sensor inside enclosure, sensor close to 'pcb'; square hole cut out as per build-in guidelines; no tape around sensor.
 
 ![](/img/co2/enclosure_config_a.png)
@@ -5185,6 +5190,12 @@ Sensor inside enclosure, sensor close to 'pcb'; square hole cut out as per build
 Ambient CO2 level;  brought from inside out to outside in < 5 seconds.  Same outside to inside, but ambient CO2 indoors may have been lower; then people entered room.
 
 ## Option B
+
+![](/img/co2/B_1.png)
+
+![](/img/co2/B_2.png)
+
+![](/img/co2/B_3.png)
 
 No enclosure; sensor close to 'pcb'; no tape around board.
 
@@ -5196,6 +5207,10 @@ Note that when we'd calibrated using the 'slow' enclosure, it looks as though we
 
 ## Option C
 
+![](/img/co2/C_1.png)
+
+![](/img/co2/C_2.png)
+
 No enclosure; sensor close to 'pcb', tape around sensor to create 'small enclosure'
 
 ![](/img/co2/enc_options_a_b_c.png)
@@ -5203,6 +5218,10 @@ No enclosure; sensor close to 'pcb', tape around sensor to create 'small enclosu
 (graphic shows events for options a, b, c from left to right)
 
 ## Option D
+
+![](/img/co2/D_1.png)
+
+![](/img/co2/D_2.png)
 
 Enclosure; sensor close to 'pcb', tape around sensor to create 'small enclosure'.
 
@@ -5213,6 +5232,12 @@ Note that there are CO2 intakes on top and bottom of sensor.  The top of the sen
 ![](/img/co2/enc_options_a_b_c_d_longer.png)
 
 ## Option E
+
+![](/img/co2/E_1.png)
+
+![](/img/co2/E_2.png)
+
+
 Enclosure; sensor close to 'pcb', tape around sensor to create 'small enclosure'; also covered 'top' of sensor to avoid intake on top.
 
 Note that what appears to be happening is that I've sealed in a slightly higher CO2 env on the top, by putting tape on top of the intakes.  Also, the sensor responds a bit slower with only the bottom intakes (perhaps the time constant is 'half' as fast as with top and bottom intakes exposed?).  
@@ -5227,6 +5252,14 @@ So: as per Mike's suggestion, let's create the tightest enclosure around the sen
 
 ## Option F
 
+![](/img/co2/F_1.png)
+
+![](/img/co2/F_2.png)
+
+![](/img/co2/F_3.png)
+
+![](/img/co2/F_4.png)
+
 Made a "small box" that has some finite volume but still allows air flow over the top part of the sensor.
 
 Note that the ends of the response (drop down and rise up) seem a bit more rounded / slower ... perhaps because of the small reservoir of gas inside the enclosure ...
@@ -5237,6 +5270,8 @@ Note that the ends of the response (drop down and rise up) seem a bit more round
 
 ## Conclusion
 
+![](/img/co2/pcb_experiment.png)
+
 Looks like the sensor is about 9 or 10 mm peak off board, with sides around 5 mm; the intakes on the 'top' would still have some breathing room if tape was put over the top;  so 8.5 mm headers could work pretty well as 'sides' 
 
 ---
@@ -5245,6 +5280,22 @@ Looks like the sensor is about 9 or 10 mm peak off board, with sides around 5 mm
 ## Bug via Dave S.
 
 ![](/img/co2/dave_bug.png)
+
+---
+2021-07-27 19:56:53
+
+Summary of PCB ventilation experiment ...
+
+
+
+
+
+
+
+
+
+
+
 
 
 
