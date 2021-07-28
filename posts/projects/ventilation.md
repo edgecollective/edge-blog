@@ -471,6 +471,15 @@ Link to Zeynep's article; readable background.  Reinforces 6-12 ACH figure.
 
 ---
 
+## US Dept of Ed COVID-19 Guidelines
+
+[https://www.ed.gov/news/press-releases/department-education-releases-resource-help-schools-improve-ventilation-systems-prevent-covid-19](https://www.ed.gov/news/press-releases/department-education-releases-resource-help-schools-improve-ventilation-systems-prevent-covid-19)
+
+"Improving ventilation" [https://www.ed.gov/coronavirus/improving-ventilation](https://www.ed.gov/coronavirus/improving-ventilation)
+
+
+---
+
 ## Misc
 
 TODOS:

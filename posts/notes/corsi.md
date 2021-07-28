@@ -12,6 +12,15 @@ blurb: Notes on building DIY Air filtration devices ("Corsi air boxes")
 
 "Comparetto Cube" 
 
+![](/img/co2/corsi_ingredients.png)
+
+## Summary points
+
+- Construction
+- Effectiveness
+- Measurement
+
+
 ## Filter orientation
 
 Pics from tex-air process here: [https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/](https://www.texairfilters.com/a-variation-on-the-box-fan-with-merv-13-filter-air-cleaner/)
