@@ -10,6 +10,17 @@ blurb: Notes on building DIY Air filtration devices ("Corsi air boxes")
 
 # Corsi Air Boxes
 
+## Getting the word out
+
+- Why it's needed
+- Ventilation goals
+- How effective it is, comparatively
+- Estimates of reduced risk
+- Measurements of CFM using anemometer
+- One-page assembly instructions
+- Video with summary
+- Links to references / tests / prior art 
+
 ## One-page instructions
 
 One-page instructions: [/img/co2/corsi1.png](/img/co2/corsi1.png)
