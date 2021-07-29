@@ -5286,6 +5286,19 @@ Looks like the sensor is about 9 or 10 mm peak off board, with sides around 5 mm
 
 Summary of PCB ventilation experiment ...
 
+---
+2021-07-28 19:52:05
+
+Final report TU Delft comparing CO2 sensor technologies: [https://repository.tudelft.nl/islandora/object/uuid:6957a1c1-6ece-41b9-9802-2674c9365339/datastream/OBJ/download](https://repository.tudelft.nl/islandora/object/uuid:6957a1c1-6ece-41b9-9802-2674c9365339/datastream/OBJ/download)
+
+Crodeon deployment of SCD30 [https://www.crodeon.com/products/covid-co2-kit](https://www.crodeon.com/products/covid-co2-kit)
+
+---
+2021-07-28 19:56:28
+
+SCD40 [https://www.semiconductorstore.com/blog/2021/SCD4x-CO2-Sensor-Frequently-Asked-Questions-Symmetry-Blog/4380/](https://www.semiconductorstore.com/blog/2021/SCD4x-CO2-Sensor-Frequently-Asked-Questions-Symmetry-Blog/4380/)
+
+SCD40 design-in guidelines [https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD4x_design-in_guide.pdf](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD4x_design-in_guide.pdf)
 
 
 
