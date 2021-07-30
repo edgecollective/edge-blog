@@ -8,6 +8,36 @@ image: /img/airbox.png
 blurb: DIY Air Purifier
 ---
 
+## COVID-19 and the need for ventilation
+
+Because COVID-19 is an 'airborne' pathogen, and improving indoor ventilation is an important way to attempt to mitigate the risk of indoor transmission of the virus.
+
+One way of assessing indoor ventilation for a space is in terms of 'air changes per hour' (ACH) -- the number of times that 'all the air in the room' has been replaced (ideally, by outdoor air).  
+
+For comparison: 
+
+- Hospital patient rooms are often kept at **6 ACH**;
+- Hospital operating rooms are kept at **20 or more ACH**;
+- ASHRAE recommendations for school classrooms are usually around **3 ACH (actual classrooms are usually less);
+- Ventilation in a typical room in a home is **less than 1 ACH**.
+- The Harvard School of Public Health has recommended an ACH of **6 or greater** for COVID-19 risk mitigation (note: this recommendation was made *before* recent, more transmissable variants, like Delta).
+
+## To what extent do DIY air purifiers improve ventilation?
+
+One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of virus-free air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
+
+When the air purifier 'cleans' this volume of air and recirculates it back into a room, we can think of this as effectively increasing the ACH in the room.
+
+To estimate the equivalent ACH provided by a DIY air purifier, we use the following equation:
+
+``` 
+Equivalent ACH = CADR * 60 / Volume_of_room
+```
+
+Because these DIY air purifiers have a CADR of about 600 CFM, for a typical room volume -- e.g. 30 foot x 30 foot x 10 foot -- this results in an equivalent ACH of about +3.  
+
+The equivalent ACH provided by air purification is 'additive' -- e.g. in the above scenario, two if you put two purifiers in the room that each have an equivalent ACH of 3, it results in an equivalent ACH of 6.
+
 ---
 
 ## Small Poster
