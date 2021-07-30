@@ -10,13 +10,19 @@ blurb: DIY Air Purifier
 
 ---
 
+## Small Poster
+
 [![](/img/co2/corsi2.png)](/img/co2/corsi2.png)
 
 ---
 
+## Larger Poster
+
 [![](/img/co2/corsi1.png)](/img/co2/corsi1.png)
 
 ---
+
+## This Old House build guide / explanation 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aw7fUMhNov8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -36,6 +42,3 @@ blurb: DIY Air Purifier
 ## Corsi video presentation on DIY air filtration
 
 <iframe width="722" height="406" src="https://www.youtube.com/embed/MmWQUHswfOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[https://www.youtube.com/watch?v=MmWQUHswfOs](https://www.youtube.com/watch?v=MmWQUHswfOs)
-
