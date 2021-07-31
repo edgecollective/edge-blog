@@ -4,9 +4,20 @@ layout: layout.njk
 date: 2021-07-28
 updated: 2021-07-28
 tags: notes 
-image: /img/airbox.png
+image: /img/co2/airbox.png
 blurb: DIY Air Purifier
 ---
+
+## Quick summary
+
+Four or five 20" MERV-13 filters and a 20" box fan can be duct-taped together into a box that can remove a significant amount of virus from the air -- typically, at a rate of about 600 cubic feet per minute.
+
+MERV13 filters are widely used in HVAC / ventilation systems.  E.g.:
+
+- Lowe's 
+- Home Depot
+- etc
+
 
 ## COVID-19 and the need for ventilation
 
@@ -23,6 +34,8 @@ For comparison:
 - The Harvard School of Public Health has recommended an ACH of **6 or greater** for COVID-19 risk mitigation (note: this recommendation was made *before* recent, more transmissable variants, like Delta).
 
 ## To what extent do DIY air purifiers improve ventilation?
+
+![](/img/co2/corsi_impact.png)
 
 One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of virus-free air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
