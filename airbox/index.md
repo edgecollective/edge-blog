@@ -8,19 +8,23 @@ image: /img/co2/airbox.png
 blurb: DIY Air Purifier
 ---
 
-## DIY Air Purifier Designs
+## The "Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
-*These designs are due to Corsi, Comparetto, and Rosenthal, and others, cited below.*
+Several researchers and practitioners, working together and in parallel, have come up a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
+
+The design involves making a 'box' out of four 20" MERV-13 filters (the 'sides' of the box), a 20" box fan (the 'top' of the box), and a cardboard (the 'bottom' of the box').  Air flows in through the filter sides, removing particulates of the sizes that can transport COVID-19 particles, and then flows out through the fan at the top.
+
+MERV-13 filters are capable of removing about 85% of viral-laden particulates from air; it's therefore a good assumption that about 85% of the air flow out of the fan at the top of the device is free of COVID-19 virus.  Informal tests and analyses using air flow meters and particulate matter sensors indicate that these devices can provide about 600 cubic feet per minute of virus-filtered air to the room.
+
+These devices can be built from parts that cost less than $100 USD total, without any special tools.
+
 
 <img src="/img/co2/corsi_assembling.png" height=300>
 
-- Researchers and practitioners have found that four or five 20" MERV-13 filters and a 20" box fan can be duct-taped together into a box that can remove a significant amount of COVID-19 virus from the air -- typically, they can remove most virus at a rate of about 600 cubic feet per minute.  
 
-- For medium-sized rooms, this means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
+For medium-sized rooms, the performance of this air purifier design means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
 
-- These devices can be built from parts that cost less than $100 USD total, without any special tools.
-
-## Sourcing materials 
+## Sourcing build materials 
 
 20 inch MERV-13 filters are commonly used in HVAC / ventilation systems, and are widely available in retail outlets, e.g.:
 
@@ -33,7 +37,7 @@ blurb: DIY Air Purifier
 - [Walmart: a Lasko Fan for $18](https://www.walmart.com/ip/Lasko-20-Classic-Box-Fan-with-3-Speeds-B20200-White/42388499?wmlspartner=wlpa&selectedSellerId=0&wl13=2902&adid=22222222420449455996&wmlspartner=wmtlabs&wl0=&wl1=g&wl2=c&wl3=501107745824&wl4=aud-1276515988307:pla-293946777986&wl5=9001876&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=42388499&wl13=2902&veh=sem_LIA&gclid=Cj0KCQjw6ZOIBhDdARIsAMf8YyHTVvE6bL4euCAziPpW-BK_3-JQqKUXzYYDCrCg5o2fELSov8oI28YaAi_cEALw_wcB&gclsrc=aw.ds)
 - Etc.
 
-## Background: COVID-19 and the need for ventilation
+## How much can they help?
 
 Because COVID-19 is an 'airborne' pathogen, and improving indoor ventilation is an important way to attempt to mitigate the risk of indoor transmission of the virus.
 
@@ -46,8 +50,6 @@ For comparison:
 - ASHRAE recommendations for school classrooms are usually around **3 ACH (actual classrooms are usually less);
 - Ventilation in a typical room in a home is **less than 1 ACH**.
 - The Harvard School of Public Health has recommended an ACH of **6 or greater** for COVID-19 risk mitigation (note: this recommendation was made *before* recent, more transmissable variants, like Delta).
-
-## To what extent do DIY air purifiers improve ventilation?
 
 ![](/img/co2/corsi_impact.png)
 
@@ -89,12 +91,15 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
 
+---
+
 ## Effectiveness of Corsi Air Box
 
 ![](/img/co2/merv_compare.png)
 
 [https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/](https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/)
 
+---
 
 ## Corsi video presentation on DIY air filtration
 
