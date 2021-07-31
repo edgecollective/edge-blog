@@ -18,8 +18,7 @@ MERV13 filters are widely used in HVAC / ventilation systems.  E.g.:
 - Home Depot
 - etc
 
-
-## COVID-19 and the need for ventilation
+## Background: COVID-19 and the need for ventilation
 
 Because COVID-19 is an 'airborne' pathogen, and improving indoor ventilation is an important way to attempt to mitigate the risk of indoor transmission of the virus.
 
