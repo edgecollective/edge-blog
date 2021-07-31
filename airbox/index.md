@@ -16,15 +16,22 @@ blurb: DIY Air Purifier
 
 - Researchers and practitioners have found that four or five 20" MERV-13 filters and a 20" box fan can be duct-taped together into a box that can remove a significant amount of COVID-19 virus from the air -- typically, they can remove most virus at a rate of about 600 cubic feet per minute.  
 
+- For medium-sized rooms, this means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
+
 - These devices can be built from parts that cost less than $100 USD total, without any special tools.
 
-For medium-sized rooms, this means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
+## Sourcing materials 
 
-MERV-13 filters are commonly used in HVAC / ventilation systems, and are widely available in retail outlets, e.g.:
+20 inch MERV-13 filters are commonly used in HVAC / ventilation systems, and are widely available in retail outlets, e.g.:
 
 - [Lowe's, for $20 each](https://www.lowes.com/pd/Filtrete-1900-MPR-Maximum-Allergen-Common-20-in-x-20-in-x-1-in-Actual-19-6-in-x-19-6-in-x-0-7809-in-Electrostatic-Pleated-Air-Filter/3130393)
 - [A pack of 6 for $30 at Home Depot](https://www.homedepot.com/p/ReplacementBrand-20-in-x-20-in-x-1-in-Pleated-Air-Filter-MERV-13-6-Pack-RB-P25S-612020-6-PK/317536277)
 - etc
+
+20 inch box fans are also widely availalbe, e.g.: 
+
+- [Walmart: a Lasko Fan for $18](https://www.walmart.com/ip/Lasko-20-Classic-Box-Fan-with-3-Speeds-B20200-White/42388499?wmlspartner=wlpa&selectedSellerId=0&wl13=2902&adid=22222222420449455996&wmlspartner=wmtlabs&wl0=&wl1=g&wl2=c&wl3=501107745824&wl4=aud-1276515988307:pla-293946777986&wl5=9001876&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=42388499&wl13=2902&veh=sem_LIA&gclid=Cj0KCQjw6ZOIBhDdARIsAMf8YyHTVvE6bL4euCAziPpW-BK_3-JQqKUXzYYDCrCg5o2fELSov8oI28YaAi_cEALw_wcB&gclsrc=aw.ds)
+- Etc.
 
 ## Background: COVID-19 and the need for ventilation
 
