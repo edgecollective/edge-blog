@@ -46,7 +46,7 @@ For comparison:
 
 - Hospital patient rooms are often kept at **6 ACH**;
 - Hospital operating rooms are kept at **20 or more ACH**;
-- ASHRAE recommendations for school classrooms are usually around **3 ACH (actual classrooms are usually less);
+- ASHRAE recommendations for school classrooms are usually around **3 ACH** (actual classrooms are usually less);
 - Ventilation in a typical room in a home is **less than 1 ACH**.
 - The Harvard School of Public Health has recommended an ACH of **6 or greater** for COVID-19 risk mitigation (note: this recommendation was made *before* recent, more transmissable variants, like Delta).
 
