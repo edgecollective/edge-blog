@@ -19,8 +19,7 @@ MERV-13 filters are capable of removing about 85% of viral-laden particulates fr
 These devices can be built from parts that cost less than $100 USD total, without any special tools.
 
 
-<img src="/img/co2/corsi_assembling.png" height=300>
-
+![](/img/co2/corsi_assembling.png)
 
 For medium-sized rooms, the performance of this air purifier design means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
 
