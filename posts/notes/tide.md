@@ -5,10 +5,17 @@ date: 2021-01-19
 updated: 2020-01-19
 tags: notes
 #image: img/ec_flower_logo_small.png
-image: /img/placeholder.png
+image: /img/alt-server/belfast_gps.png
 blurb: Flood / tide sensor prototyping
 
 ---
+
+
+Nice discussion on envirodiy [here](https://www.envirodiy.org/ultrasonic-water-depth-sensor/) of a Maxtobox-based design.
+
+Another nice post on environdiy on evaluating their performance, [here](https://www.envirodiy.org/evaluation-water-level-monitoring-maxbotix-ultrasonic-sensors/).
+
+- A question I have, here:  they consider the Onset logger to be the 'reference' ... but oughtn't we also to evalue *its* values?  I like the idea of conductive screws as an 'absolute' external check on either sensor (though maybe that measurement mode is more complex than I realize).
 
 ---
 2021-01-19 12:28:28

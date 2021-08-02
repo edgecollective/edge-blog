@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-11-20
 updated: 2020-11-20
 tags: notes 
-image: img/placeholder.png
+image: img/batt_efficiency.png
 blurb: Omnivore design for a multi-purpose buck/boost battery system
 ---
 

@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-12-06
 updated: 2020-12-06
 tags: notes 
-image: img/placeholder.png
+image: /img/lora_chirps.png
 blurb: Experiments in software defined radio.
 ---
 

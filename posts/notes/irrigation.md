@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-03-29
 updated: 2021-03-29
 tags: notes 
-image: img/placeholder.png
+image: /img/irrigation/Dual-measurementfig3_.jpg
 blurb: Notes on technology and analysis related to soil irrigation
 ---
 

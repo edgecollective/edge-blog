@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-02
 updated: 2020-10-02
 tags: notes 
-image: img/placeholder.png
+image: img/conduct_log.png
 blurb: Notes on development of DIY conductivity sensors
 ---
 

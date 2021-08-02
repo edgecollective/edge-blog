@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-01-26
 updated: 2021-01-26
 tags: notes 
-image: /img/placeholder.png
+image: /img/pbot/pbot_board.png
 blurb: <b>Passagassawakeag Bot.</b> Environmental monitoring for education, farming, water montoring.  Free and Open Source, modular; easy to assemble, easy to deploy, easy to redesign with open source tools.
 ---
 

@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-02-18
 updated: 2021-02-18
 tags: notes 
-image: /img/placeholder.png
+image: /img/microradio/atmega1284_bootloader.png
 blurb: Notes on experiments with RNode / Signal / APRS
 ---
 

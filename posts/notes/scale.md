@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-12-24
 updated: 2020-12-24
 tags: notes 
-image: img/placeholder.png
+image: /img/max_force.png
 blurb: Load scale measurements using FOS software + hardware
 ---
 

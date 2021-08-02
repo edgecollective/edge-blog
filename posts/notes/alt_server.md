@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-21
 updated: 2020-10-21
 tags: notes 
-image: img/placeholder.png
+image: /img/feedmap_example.png
 blurb: P2P Farm server prototyping
 ---
 

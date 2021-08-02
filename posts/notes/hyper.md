@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-09
 updated: 2020-10-09
 tags: notes 
-image: img/placeholder.png
+image: img/airpipe.png
 blurb: Experiments with the Hyper Protocol
 ---
 

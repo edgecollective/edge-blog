@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-18
 updated: 2020-10-18
 tags: notes 
-image: img/placeholder.png
+image: img/terrapin.png
 blurb: Notes on animal tracking for conservation
 ---
 
