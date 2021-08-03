@@ -38,9 +38,9 @@ In the case of filtration systems, some detectable particulate matter of the siz
 
 In the case of indoor-outdoor air exchange rates, CO2 and can be used as a 'tracer gas' by injecting an amount of CO2 into the room and using CO2 monitors to measure the rate at which this 'excess CO2' decays -- this will be related to the 'air changes per hour' (ACH) in the room, a common measure of indoor ventilation rate.
 
-## Assessing indoor ventilation using CO2
+# Assessing indoor ventilation using CO2
 
-### The 'CO2 stoplight' method
+## The 'CO2 stoplight' method
 
 The most common source of CO2 in a space is usually human exhalation.  Since the outdoor concentration of CO2 is a little over 400 PPM, if a space never gets above that no matter the occupancy level, it's a good bet that the space is well-ventilated.  
 
@@ -89,7 +89,7 @@ removed even if CO2
  remains high because cleaners with HEPA filters are not designed to remove CO2
 .
 
-### The CO2 'tracer gas' method: estimating ACH
+## The CO2 'tracer gas' method: estimating ACH
 
 Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  
 
@@ -130,11 +130,11 @@ Using this 'tracer gas' approach, we only need to have a single experimenter in 
 | From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
 
 
-### Design considerations for CO2 Monitoring Devices and the 'tracer gas' method -- a case for 'open source'
+## Design considerations for CO2 Monitoring Devices and the 'tracer gas' method
 
 When using a CO2 monitor for the 'tracer gas' method outlined above, particular design considerations become salient: 
 
-#### 1. Fast response time
+### 1. Fast response time
 
 ![](/img/co2/pcb_experiment.png)
 
@@ -145,7 +145,7 @@ If the response time is too slow, the indoor ventilation rate (in ACH) will be a
 This response time is a function both of the underyling sensor technology and design, as well as the 'enclosure' used by the manufacturer, which will allow ambient gas to be sampled / retained at a particular rate.
 
 
-#### 2. Calibration procedure
+### 2. Calibration procedure
 
 ![](/img/co2/asc_algorithm.png)
 
@@ -161,7 +161,7 @@ Further -- this calibration typically occurs over hte span of a week.  Practitio
 
 For these reasons, it's important to be able to 'force calibrate' the device -- typically by calibrating it outdoors.
 
-#### 3. 'Live' remote data access
+### 3. 'Live' remote data access
 
 ![](/img/co2/force_fed.png)
 
@@ -171,7 +171,7 @@ Having the data accessible 'live' via the web means that CO2 levels can be monit
 
 Web-based access to data also makes it easy for multiple stakeholders, remote and local, to weigh in immediately their interpretation of the data. 
 
-#### 4. Data accessibility for analysis
+### 4. Data accessibility for analysis
 
 ![](/img/co2/ach_combo.png)
 
@@ -181,7 +181,7 @@ This enables practitioners to analyze the data more readily.  For the 'tracer ga
 
 Exponential fits can even be built into online web platforms, in order to facilitate this fitting procedure and generate ACH values more directly.
 
-#### The case for 'open source'
+## The case for 'open source'
 
 Practitioners who urgently want to apply the CO2 tracer gas method to assess indoor ventilation should use any off-the-shelf, inexpensive CO2 monitors that best meet the above design criteria.  
 
