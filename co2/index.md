@@ -186,15 +186,18 @@ Exponential fits can even be built into online web platforms, in order to facili
 
 #### The case for 'open source'
 
-![](/img/co2/rev_3_3d_render.png)
-
 Practitioners who urgently want to apply the CO2 tracer gas method to assess indoor ventilation should use any off-the-shelf, inexpensive CO2 monitors that best meet the above design criteria.  
 
 If no such devices exist, then it is useful to attempt to design a device that attempts to optimally meet these criteria, making CO2 tracer gas measurements as easy and effective as possible. 
 
 We've been working on an open source CO2 monitor design, outlined [here](), in order to attempt to mee this goal. 
 
+![](/img/co2/rev_3_3d_render.png)
+
 ![](/img/co2/co2_monitor_rev_L.jpg)
+
+![](/img/co2/rev_n_snap.png)
+
 
 
 
