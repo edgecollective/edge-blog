@@ -10,7 +10,7 @@ blurb: Using CO2 monitors to assess indoor ventilation
 
 ---
 
-# Reducing the risk of indoor COVID-19 transmission
+# Ventilationm, CO2, and the risk of indoor COVID-19 transmission
 
 (A good general reference for this topic, in the context of school classrooms, is a recent guide by the Harvard TH Chan School of Public Health: ["Risk Reduction Strategies for Reopening Schools"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf) Note, however, that some of the guidance in that document seems to pre-date the recognition of COVID-19 as spread primarily through airborne transmission.)
 
@@ -38,7 +38,7 @@ In the case of filtration systems, some detectable particulate matter of the siz
 
 In the case of indoor-outdoor air exchange rates, CO2 and can be used as a 'tracer gas' by injecting an amount of CO2 into the room and using CO2 monitors to measure the rate at which this 'excess CO2' decays -- this will be related to the 'air changes per hour' (ACH) in the room, a common measure of indoor ventilation rate.
 
-## Assessing indoor ventilation 
+## Assessing indoor ventilation using CO2
 
 ### The 'CO2 stoplight' method
 
@@ -88,7 +88,6 @@ classroom is operating portable air cleaners to remove the virus from air, virus
 removed even if CO2
  remains high because cleaners with HEPA filters are not designed to remove CO2
 .
-
 
 ### Estimating air changes per hour (ACH) using CO2 as a 'tracer gas'
 
