@@ -196,7 +196,7 @@ Practitioners who urgently want to apply the CO2 tracer gas method to assess ind
 
 If no such devices exist, then it is useful to attempt to design a device that attempts to optimally meet these criteria, making CO2 tracer gas measurements as easy and effective as possible. 
 
-We've been working on an open source CO2 monitor design, outlined [here](), in order to attempt to mee this goal. 
+We've been working on an open source CO2 monitor design, outlined [here](), in order to attempt to meet this goal. 
 
 ![](/img/co2/rev_3_3d_render.png)
 
