@@ -75,21 +75,29 @@ removed even if CO2
 
 ## Assessing air changes per hour (ACH) using CO2 as a 'tracer gas'
 
-From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf):
 
-![](/img/co2/harvard_ach_recommendations.png) 
+| ![](/img/co2/harvard_ach_recommendations.png) |
+|:--:|
+|From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf).|
 
-From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf):
+ 
+| ![](/img/co2/fig1_menzies.png)   |
+|:--:|
+| From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
 
-![](/img/co2/fig1_menzies.png) 
+| ![](/img/co2/ach_co2_tracer.png)    |
+|:--:|
+| From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
 
-From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf):
 
-![](/img/co2/ach_co2_tracer.png) 
+| ![](/img/co2/humbolt.png)    |
+|:--:|
+| From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
 
-From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20):
 
-![](/img/co2/humbolt.png) 
+
+
+
 
 ## Considerations in CO2 Monitoring Devices
 
@@ -112,6 +120,8 @@ So that you don't need to be in the same space necessarily need to put people at
 As CSV, so can easily be imported directly into Jupyter.
 
 Online platform to make exponential fits of selections of data easy.
+
+### Tech sovereignty
 
 
 
