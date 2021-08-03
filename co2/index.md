@@ -40,7 +40,7 @@ In the case of indoor-outdoor air exchange rates, CO2 and can be used as a 'trac
 
 # Assessing indoor ventilation using CO2
 
-## The 'CO2 stoplight' method
+## The CO2 'stoplight' method
 
 The most common source of CO2 in a space is usually human exhalation.  Since the outdoor concentration of CO2 is a little over 400 PPM, if a space never gets above that no matter the occupancy level, it's a good bet that the space is well-ventilated.  
 
