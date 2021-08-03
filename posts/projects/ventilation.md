@@ -360,8 +360,6 @@ ASHRAE position statement on infectious aerosols: [https://www.ashrae.org/file%2
 ---
 
 
----
-
 ## Individual Domain Experts / Commentators
 
 ### Air-Quality-COVID-Science Twitter List
