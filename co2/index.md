@@ -26,11 +26,13 @@ Three basic methods are used to reduce the amount of indoor viral exposure:
 
 - **Wearing masks**: good masks, worn properly, can protect both the wearer and those around them; 
 - **Air purifiers** can be used to remove viral-laden particles from indoor air, typically recycling the 'cleaned' air back into the space, using some sort of filter-based technology (such as HEPA or MERV-13 filtration systems);
-- **Improving indoor ventilation** by increasing indoor-outdoor air exhchange rates:  typically, by opening windows and doors, or via the HVAC system.
+- **Improving indoor-outdoor air exchange** by increasing indoor-outdoor air exhchange rates:  typically, by opening windows and doors, or via the HVAC system.
 
-The first method -- mask wearing -- has been covered extensively elsewhere. As for the second method -- air purification -- we cover some inexpensive, DIY approaches to indoor air purification in [this post](/airbox).  
+The first method -- mask wearing -- has been covered extensively elsewhere. 
 
-The main way to improving indoor ventilation is to increase the rate at which indoor air, which may contain the exhaled viral particles of infected individuals, is replaced by 'clean' air -- air that has either been recycled indoors through filtration systems, or brought into the room from outside. 
+The second method -- air purification -- we cover some inexpensive, DIY approaches to indoor air purification in [this post](/airbox).  
+
+The third, and primary way of reducing indoor viral exposure is to imrpove the rate at  which indoor air, which may contain the exhaled viral particles of infected individuals, is replaced by 'clean' air -- air that has either been recycled indoors through filtration systems, or brought into the room from outside. 
 
 Because 'bare virus' itself is difficult or expensive to detect, we assess whether these systems work typically by using 'tracers'.
 
