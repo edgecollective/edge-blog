@@ -10,7 +10,7 @@ blurb: Using CO2 monitors to assess indoor ventilation
 
 ---
 
-# Ventilationm, CO2, and the risk of indoor COVID-19 transmission
+# Ventilation and the risk of indoor COVID-19 transmission
 
 (A good general reference for this topic, in the context of school classrooms, is a recent guide by the Harvard TH Chan School of Public Health: ["Risk Reduction Strategies for Reopening Schools"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf) Note, however, that some of the guidance in that document seems to pre-date the recognition of COVID-19 as spread primarily through airborne transmission.)
 
