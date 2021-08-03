@@ -75,21 +75,47 @@ removed even if CO2
 
 ## Assessing air changes per hour (ACH) using CO2 as a 'tracer gas'
 
-Via ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf):
+From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf):
 
-![](/img/co2/harvard_ach_recommendations.png)
-
-![](/img/co2/humbolt.png)
-
-[ better -- insert the graph of windows opening vs closed from that co2 monitoring paper ]
+![](/img/co2/harvard_ach_recommendations.png) 
 
 From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf):
 
-![](/img/co2/fig1_menzies.png)
+![](/img/co2/fig1_menzies.png) 
 
-Via [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf):
+From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf):
 
-![](/img/co2/ach_co2_tracer.png)
+![](/img/co2/ach_co2_tracer.png) 
+
+From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20):
+
+![](/img/co2/humbolt.png) 
+
+## Considerations in CO2 Monitoring Devices
+
+### Response time
+
+Enclosure design. Ability to modify.  
+
+### Calibration
+
+How easy is it to calibrate the device?
+
+### Remote data
+
+Online is ideal:
+
+So that you don't need to be in the same space necessarily need to put people at risk to see how high the CO2 is. 
+
+### Data analysis
+
+As CSV, so can easily be imported directly into Jupyter.
+
+Online platform to make exponential fits of selections of data easy.
+
+
+
+
 
 
 
