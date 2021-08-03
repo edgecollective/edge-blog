@@ -422,6 +422,14 @@ great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/13636
 
 ## General notes on ventilation
 
+### Risk Reduction Strategies for Reopening Schools (Harvard TH Chan)
+
+[https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf)
+
+![](/img/co2/harvard_priorities.png)
+
+![](/img/co2/co2_limitations.png)
+
 ### Smoke ventilation visualization
 
  [https://twitter.com/DrEricDing/status/1363767569996541952?s=20](https://twitter.com/DrEricDing/status/1363767569996541952?s=20)
