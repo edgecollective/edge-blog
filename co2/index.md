@@ -183,6 +183,13 @@ This enables practitioners to analyze the data more readily.  For the 'tracer ga
 
 Exponential fits can even be built into online web platforms, in order to facilitate this fitting procedure and generate ACH values more directly.
 
+### 5. Easy to modify, upgrade, improve
+
+Firmware bugs are unavoidable; it's useful if it possible (and easy) to upgrade the firmware on a device as new fixes emerge.  New features and enhancements can also be added that way, too.
+
+Having open source firmware and hardware designs allows for anyone who is interested to participate in an ongoing, iterative process of improvement of the device.
+
+
 ## The case for 'open source'
 
 Practitioners who urgently want to apply the CO2 tracer gas method to assess indoor ventilation should use any off-the-shelf, inexpensive CO2 monitors that best meet the above design criteria.  
