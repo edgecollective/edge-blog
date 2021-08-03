@@ -116,15 +116,13 @@ Using this 'tracer gas' approach, we only need to have a single experimenter in 
 - Stop the release of excess CO2 into the room (remove the source from the room).
 - Monitor the CO2 level until it returns to within 10 or 20% of its initial baseline. 
 
-
- 
-| ![](/img/co2/fig1_menzies.png)   |
-|:--:|
-| From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
-
 | ![](/img/co2/ach_co2_tracer.png)    |
 |:--:|
 | From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
+
+| ![](/img/co2/fig1_menzies.png)   |
+|:--:|
+| From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
 
 
 | ![](/img/co2/humbolt.png)    |
