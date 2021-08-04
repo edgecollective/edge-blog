@@ -140,7 +140,9 @@ When using a CO2 monitor for the 'tracer gas' method outlined above, particular 
 
 ### 1. Fast response time
 
-![](/img/co2/pcb_experiment.png)
+| ![](/img/co2/pcb_experiment.png) |
+|:--:|
+| **CO2 Monitor Response Time Experiments.** The response profiles of various enclosure options.  E.g. compare the relatively slow response of option 'A' (large enclosure, few ventilation holes) with the much faster response of option 'B' (no enclosure). In both cases, the monitor was transferred within a few seconds from a higher-CO2 space into the outdoors, held there for a while, and then returned within a few seconds back to the higher-CO2 space. |
 
 The CO2 monitor should have a 'response time' (how long it takes to measure and record the ambient level of CO2 in the room) that is as fast or faster than the rate at which CO2 is expected to 'decay' in the 'tracer gas' experiment.  
 
