@@ -68,6 +68,8 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 ---
 
+# References / Materials
+
 ## Small Poster
 
 [![](/img/co2/corsi2.png)](/img/co2/corsi2.png)
@@ -126,7 +128,7 @@ Fan points up ...
 
 [https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/](https://www.energyvanguard.com/blog/how-make-high-merv-diy-portable-air-cleaner/)
 
-## Philly Inquirer
+## Philly Inquirer Article
 
 [https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html](https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html)
 
@@ -134,7 +136,7 @@ Fan points up ...
 
 [https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/](https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/)
 
-## Treehugger
+## Treehugger article
 
 [https://www.treehugger.com/build-own-covid-19-air-filter-5081272](https://www.treehugger.com/build-own-covid-19-air-filter-5081272)
 
