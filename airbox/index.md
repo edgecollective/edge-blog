@@ -10,7 +10,7 @@ blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- b
 
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
-Several researchers and practitioners, working together and in parallel, have come up a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
+Several researchers and practitioners, working together and in parallel, have come up with a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
 
 The design involves making a 'box' out of four 20" MERV-13 filters (the 'sides' of the box), a 20" box fan (the 'top' of the box), and a cardboard (the 'bottom' of the box').  Air flows in through the filter sides, removing particulates of the sizes that can transport COVID-19 particles, and then flows out through the fan at the top.
 
@@ -38,7 +38,7 @@ For medium-sized rooms, the performance of this air purifier design means that i
 
 ## How much can they help?
 
-Because COVID-19 is an 'airborne' pathogen, and improving indoor ventilation is an important way to attempt to mitigate the risk of indoor transmission of the virus.
+Because COVID-19 is an 'airborne' pathogen,improving indoor ventilation is an important way to attempt to mitigate the risk of indoor transmission of the virus.
 
 One way of assessing indoor ventilation for a space is in terms of 'air changes per hour' (ACH) -- the number of times that 'all the air in the room' has been replaced (ideally, by outdoor air).  
 
@@ -52,7 +52,7 @@ For comparison:
 
 ![](/img/co2/corsi_impact.png)
 
-One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of virus-free air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
+One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
 When the air purifier 'cleans' this volume of air and recirculates it back into a room, we can think of this as effectively increasing the ACH in the room.
 
