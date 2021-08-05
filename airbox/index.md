@@ -8,7 +8,7 @@ image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
-## The "Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
+## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
 Several researchers and practitioners, working together and in parallel, have come up a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
 
