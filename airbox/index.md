@@ -50,7 +50,7 @@ For comparison:
 - Ventilation in a typical room in a home is **less than 1 ACH**.
 - The Harvard School of Public Health has recommended an ACH of **6 or greater** for COVID-19 risk mitigation (note: this recommendation was made *before* recent, more transmissable variants, like Delta).
 
-![](/img/co2/corsi_impact.png)
+<!--![](/img/co2/corsi_impact.png)-->
 
 One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
@@ -155,4 +155,19 @@ Fan points up ...
 
 [https://www.youtube.com/watch?v=MmWQUHswfOs](https://www.youtube.com/watch?v=MmWQUHswfOs)
 
+
+---
+2021-08-05 20:40:59
+
+cost --
+
+additive -- 
+
+caution -- if use multiples of these boxes, don't want too close to one another -- don't want outlet into inlet -- paper by texas at austin -- jeffrey siegal, u toronto & atilla novoselac 
+
+don't ever get worse results, but might be waste of time ... 
+
+putting device ... 
+
+don't want to put in front of window
 
