@@ -14,14 +14,19 @@ Several researchers and practitioners, working together and in parallel, have co
 
 The design involves making a 'box' out of four 20" MERV-13 filters (the 'sides' of the box), a 20" box fan (the 'top' of the box), and a cardboard (the 'bottom' of the box').  Air flows in through the filter sides, removing particulates of the sizes that can transport COVID-19 particles, and then flows out through the fan at the top.
 
-MERV-13 filters are capable of removing about 85% of viral-laden particulates from air; it's therefore a good assumption that about 85% of the air flow out of the fan at the top of the device is free of COVID-19 virus.  Informal tests and analyses using air flow meters and particulate matter sensors indicate that these devices can provide about 600 cubic feet per minute of virus-filtered air to the room.
-
-These devices can be built from parts that cost less than $100 USD total, without any special tools.
-
+These devices can be built from parts that cost **less than $200 USD**, without any special tools.
 
 ![](/img/co2/corsi_assembling.png)
 
+MERV-13 filters are capable of removing about 85% of viral-laden particulates from air; it's therefore a good assumption that about 85% of the air flow out of the fan at the top of the device is free of COVID-19 virus.  Informal tests and analyses using air flow meters and particulate matter sensors indicate that these devices can provide about 600 cubic feet per minute of virus-filtered air to the room.
+
+
 For medium-sized rooms, the performance of this air purifier design means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
+
+Notes on type / number of filters:
+- MERV-rated filters are a relatively well-understood, extensively-tested, and widely deployed technology; good estimates exist for what percentage of particles of various sizes are typically removed by such filters.  Once air flow through the filters is determined, determing an estimated 'clean air removal rate' is straightforward.  This is a big advantage of the Corsi 'airbox' design, when compared with some of the proprietary, more obscure designs available on the commercial market.
+- In addition to MERV-13 filters, MERV-12 and MERV-11 are also effective filters, capable of removing a smaller but still very significant percentage of virus-laden particles from the air.  Use them if MERV-13 filter are unavailable, or too expensive.
+- One-, two-, or three-filter box, as well as five-filter box designs are also possible and can be effective.  The more filters in the box design, the greater the air flow rate through the box, and the lower the strain on the fan motor.
 
 ## Caveats
 
