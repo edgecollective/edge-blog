@@ -23,6 +23,13 @@ These devices can be built from parts that cost less than $100 USD total, withou
 
 For medium-sized rooms, the performance of this air purifier design means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
 
+## Caveats
+
+- **Be careful not to touch, shake or otherwise disturb the filters after the box has been used.**  The filters can effectively trap virus-laden particles, retaining them on their surface; by shaking them you can dislodge the particles, sending contaminated particles into the local air.  Use best practices (e.g., N95 masks and great care) when moving or disposing of the filters.
+- Positioning two 'airboxes' too close to one another in the room might result in the filtered-air output of one of them being taken in immediately into the other one, minimizing the effectiveness of the additional box;
+- Some locations in the room might be more effective at filtering air than others -- e.g., if you have an open window through which air is being ventilated outdoors, it's best not to position the box right *in front* of the open window -- because you're filtering air that won't be used inside the room.
+
+
 ## Sourcing build materials 
 
 20 inch MERV-13 filters are commonly used in HVAC / ventilation systems, and are widely available in retail outlets, e.g.:
