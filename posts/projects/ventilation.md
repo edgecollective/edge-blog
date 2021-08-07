@@ -369,6 +369,10 @@ ASHRAE position statement on infectious aerosols: [https://www.ashrae.org/file%2
 
 ---
 
+## Delta variant / viral load
+
+[https://www.nbcnews.com/science/science-news/delta-variant-viral-load-scientists-are-watching-covid-pandemic-rcna1604](https://www.nbcnews.com/science/science-news/delta-variant-viral-load-scientists-are-watching-covid-pandemic-rcna1604)
+
 ## Evidence for COVID being airborne
 
 ### Lancet article in support of aerosol spread
@@ -383,6 +387,10 @@ ASHRAE position statement on infectious aerosols: [https://www.ashrae.org/file%2
 
 Associated summary Twitter thread:
 [https://twitter.com/drkristenkc/status/1423801687513333762?s=20](https://twitter.com/drkristenkc/status/1423801687513333762?s=20)
+
+### Alex Huffman / viral aerosols transmission outdoors / concerts
+
+[https://twitter.com/HuffmanLabDU/status/1423864836891365377?s=20](https://twitter.com/HuffmanLabDU/status/1423864836891365377?s=20)
 
 
 ### Corsi on COVID-19 being airborne
