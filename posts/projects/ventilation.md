@@ -375,6 +375,11 @@ ASHRAE position statement on infectious aerosols: [https://www.ashrae.org/file%2
 
 ## Evidence for COVID being airborne
 
+### Study: 85% of viral load transmitted by COVID-19 patients is 5um or smaller
+
+[https://twitter.com/AliNouriPhD/status/1424035540022829062?s=20](https://twitter.com/AliNouriPhD/status/1424035540022829062?s=20)
+
+
 ### Lancet article in support of aerosol spread
 
 [https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00869-2/fulltext)
