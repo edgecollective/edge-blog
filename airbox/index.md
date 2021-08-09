@@ -71,7 +71,9 @@ For comparison:
 
 <!--![](/img/co2/corsi_impact.png)-->
 
-![](/img/co2/corsi_impact_edit.png)
+| ![](/img/co2/corsi_impact_edit.png) |
+|:--:|
+| **Potential impact of Corsi Air Boxes**. We estimated that the DIY air filter we assembled has a clean air delivery rate of approximately 600 CFM.  Using Equation (1) below, and assuming a room of size 20'x20'x10', such a box will add the equivalent of +3 ACH to the room; two such boxes will add +6 ACH.  Some typical ventilation values (in Air Changes per Hour) are depicted for comparison, including the Harvard School of Public Health recommendation of 6+ ACH to help mitigate the transmission of COVID-19 in classrooms.|
 
 We used an anemometer to estimate that one of the 'DIY Air filters' we built is capable of delivering the equivalent of **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
@@ -82,7 +84,7 @@ When the air purifier 'cleans' this volume of air and recirculates it back into 
 To estimate the equivalent ACH provided by a DIY air purifier, we use the following equation:
 
 ``` 
-Equivalent ACH = CADR * 60 / Volume_of_room
+(1)  Equivalent ACH = CADR * 60 / Volume_of_room
 ```
 
 For example, if a DIY air purifier has a CADR of about 600 CFM, then for a typical room volume -- e.g. 30 foot x 30 foot x 10 foot -- this results in an equivalent ACH of about +3.  
@@ -188,7 +190,7 @@ Fan points up ...
 
 Revision 2021-08-08 20:48:55
 
-- Removed graphic with typo on impact of multiple airboxes until can create graphic with proper numbers.  
+- Replaced 'impact' graphic with a clearer depiction of an example impact of using two air boxes.
 
 - Fixed typo on Home Depot price -- "6 for $30" --> "6 for $130"
 
