@@ -5301,6 +5301,47 @@ SCD40 [https://www.semiconductorstore.com/blog/2021/SCD4x-CO2-Sensor-Frequently-
 SCD40 design-in guidelines [https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD4x_design-in_guide.pdf](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD4x_design-in_guide.pdf)
 
 
+---
+2021-08-08 20:57:45
+
+Notes on Corsi interview:
+
+don't ever get worse results, but might be waste of time ... 
+
+keep devices 3ft away from walls / out of corners -- to avoid recirculation 
+
+don't want to put e.g. in front of window
+
+look at classroom -- where is air coming in, where is air flowing out -- don't put device close to where air is flowing out 
+
+in general -- would try to put two boxes diagonally apart in the classroom 
+
+next to each other -- 'short circuiting' 
+
+600 700 800 900 
+
+sucks in through filters and out through fan 
+
+air blow vertically upward -- good -- want circulating flow up and diagonally across 
+
+weird fluid flow phenomena -- suck air in corners at filter
+
+pleated merv 13 means greater surface area, less resistance, lower average velocity, reduces resistance on fan 
+
+filters as designed are capturing particles on surface of filter -- there's no barrier -- so:
+- avoid having someone bump it in case it breaks the seal -- won't have as much air going through filter
+- avoid bumps also b/c don't want to dislodge 'dust cake' -- can send viral particles back into room -- resuspension of particles into the air which could be inhaled 
+
+CO2 Monitor notes:  
+- analyzing the data isn't as simple as some people think it is
+- CO2 levels are a rough indicator -- if really high, you have a problem; if they're really low, that's really good; middle ground is ambiguous. 
+- Particle filtration doesn't reduce CO2
+
+Airboxes are imporant when you can't get better ventilation -- i.e. poor mechanical systems or 
+
+36:00 -- The true metric using CO2 is the 'rebreathe fraction' -- how much you're breating other people's breath.  If you have a rebreathe fraction of 5% -- really high, bad.  Rebreathe fraction of .5% is much better.  Rebreathe fraction is: (CO2 concentration in room - CO2 concentration outdoors) / CO2 concentration on typical human breath -- also a function of who is the space -- dynamics are important ... 
+
+Building boxes lowers aerosol particle levels in the classroom
 
 
 

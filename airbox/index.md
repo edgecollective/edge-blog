@@ -2,11 +2,13 @@
 pageTitle: DIY Air Purification Designs
 layout: layout.njk
 date: 2021-07-28
-updated: 2021-07-28
+updated: 2021-08-08
 tags: notes 
 image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
+
+[Updated: 2021-08-08. See 'Revision History' at end of this page for summary of changes]
 
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
@@ -30,9 +32,13 @@ Notes on type / number of filters:
 
 ## Caveats
 
-- **Be careful not to touch, shake or otherwise disturb the filters after the box has been used.**  The filters can effectively trap virus-laden particles, retaining them on their surface; by shaking them you can dislodge the particles, sending contaminated particles into the local air.  Use best practices (e.g., N95 masks and great care) when moving or disposing of the filters.
-- Positioning two 'airboxes' too close to one another in the room might result in the filtered-air output of one of them being taken in immediately into the other one, minimizing the effectiveness of the additional box;
-- Some locations in the room might be more effective at filtering air than others -- e.g., if you have an open window through which air is being ventilated outdoors, it's best not to position the box right *in front* of the open window -- because you're filtering air that won't be used inside the room.
+- **Be careful not to touch, shake or otherwise disturb the filters after the box has been used.**  The filters can effectively trap virus-laden particles, retaining them on their surface; by shaking them you can dislodge the particles, sending contaminated particles into the local air.  Use best practices (e.g., N95 masks and great care) when moving or disposing of the filters -- place in large, sealed plastic bag before putting in dumpster; 
+- Replace filters approximately every 6 months or so;
+- Positioning two 'airboxes' too close to one another in the room might result in the filtered-air output of one of them being taken in immediately into the other one -- a 'short circuit' -- minimizing the effectiveness of the additional box; 
+- Some locations in the room might be more effective at filtering air than others -- e.g., if you have an open window through which air is being ventilated outdoors, it's best not to position the box right *in front* of the open window -- because you're filtering air that won't be used inside the room;
+- Best practice is to place e.g. two air boxes a few feet away from the walls, and avoiding corners -- so that they are filtering maximal amounts of air
+
+Reference on ideal placements: "Impact of placement of portable air cleaning devices in multizone residential environments" -- for impact of various placements of air purifiers in room -- [https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments](https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments)
 
 
 ## Sourcing build materials 
@@ -40,10 +46,10 @@ Notes on type / number of filters:
 20 inch MERV-13 filters are commonly used in HVAC / ventilation systems, and are widely available in retail outlets, e.g.:
 
 - [Lowe's, for $20 each](https://www.lowes.com/pd/Filtrete-1900-MPR-Maximum-Allergen-Common-20-in-x-20-in-x-1-in-Actual-19-6-in-x-19-6-in-x-0-7809-in-Electrostatic-Pleated-Air-Filter/3130393)
-- [A pack of 6 for $30 at Home Depot](https://www.homedepot.com/p/ReplacementBrand-20-in-x-20-in-x-1-in-Pleated-Air-Filter-MERV-13-6-Pack-RB-P25S-612020-6-PK/317536277)
+- [A pack of 6 for $130 at Home Depot](https://www.homedepot.com/p/ReplacementBrand-20-in-x-20-in-x-1-in-Pleated-Air-Filter-MERV-13-6-Pack-RB-P25S-612020-6-PK/317536277)
 - etc
 
-20 inch box fans are also widely availalbe, e.g.: 
+20 inch box fans are also widely available, e.g.: 
 
 - [Walmart: a Lasko Fan for $18](https://www.walmart.com/ip/Lasko-20-Classic-Box-Fan-with-3-Speeds-B20200-White/42388499?wmlspartner=wlpa&selectedSellerId=0&wl13=2902&adid=22222222420449455996&wmlspartner=wmtlabs&wl0=&wl1=g&wl2=c&wl3=501107745824&wl4=aud-1276515988307:pla-293946777986&wl5=9001876&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=42388499&wl13=2902&veh=sem_LIA&gclid=Cj0KCQjw6ZOIBhDdARIsAMf8YyHTVvE6bL4euCAziPpW-BK_3-JQqKUXzYYDCrCg5o2fELSov8oI28YaAi_cEALw_wcB&gclsrc=aw.ds)
 - Etc.
@@ -57,6 +63,7 @@ One way of assessing indoor ventilation for a space is in terms of 'air changes 
 For comparison: 
 
 - Hospital patient rooms are often kept at **6 ACH**;
+- Hospital airborne isolation rooms are kept at **12 ACH** or greater;
 - Hospital operating rooms are kept at **20 or more ACH**;
 - ASHRAE recommendations for school classrooms are usually around **3 ACH** (actual classrooms are usually less);
 - Ventilation in a typical room in a home is **less than 1 ACH**.
@@ -64,7 +71,11 @@ For comparison:
 
 <!--![](/img/co2/corsi_impact.png)-->
 
-One of the 'DIY Air filters' described below can typically deliver the equivalent of about **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
+![](/img/co2/corsi_impact_edit.png)
+
+We used an anemometer to estimate that one of the 'DIY Air filters' we built is capable of delivering the equivalent of **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
+
+**NOTE**: the exact CFM / CADR for a DIY device will depend on the actual air flow through the device, which can vary with the construction / type and number of filters / model of fan.
 
 When the air purifier 'cleans' this volume of air and recirculates it back into a room, we can think of this as effectively increasing the ACH in the room.
 
@@ -74,7 +85,7 @@ To estimate the equivalent ACH provided by a DIY air purifier, we use the follow
 Equivalent ACH = CADR * 60 / Volume_of_room
 ```
 
-Because these DIY air purifiers have a CADR of about 600 CFM, for a typical room volume -- e.g. 30 foot x 30 foot x 10 foot -- this results in an equivalent ACH of about +3.  
+For example, if a DIY air purifier has a CADR of about 600 CFM, then for a typical room volume -- e.g. 30 foot x 30 foot x 10 foot -- this results in an equivalent ACH of about +3.  
 
 The equivalent ACH provided by air purification is 'additive' -- e.g. in the above scenario, two if you put two purifiers in the room that each have an equivalent ACH of 3, it results in an equivalent ACH of 6.
 
@@ -128,6 +139,8 @@ Discussion in This Old House video [https://www.youtube.com/watch?v=aw7fUMhNov8]
 
 Thicker MERV 13 means less resistance (because more surface area)
 
+Pleated merv 13 means greater surface area, less resistance, lower average velocity, reduces resistance on fan. 
+
 Want air flow arrow pointing in ... cardboard on bottom ... 
 
 Fan points up ...
@@ -167,19 +180,30 @@ Fan points up ...
 
 [https://www.youtube.com/watch?v=MmWQUHswfOs](https://www.youtube.com/watch?v=MmWQUHswfOs)
 
+## Recommended ACH for measles
 
----
-2021-08-05 20:40:59
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4400300/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4400300/)
 
-cost --
+# Revision History
 
-additive -- 
+Revision 2021-08-08 20:48:55
 
-caution -- if use multiples of these boxes, don't want too close to one another -- don't want outlet into inlet -- paper by texas at austin -- jeffrey siegal, u toronto & atilla novoselac 
+- Removed graphic with typo on impact of multiple airboxes until can create graphic with proper numbers.  
 
-don't ever get worse results, but might be waste of time ... 
+- Fixed typo on Home Depot price -- "6 for $30" --> "6 for $130"
 
-putting device ... 
+- Added caution about replacing filters at approx 6 months
 
-don't want to put in front of window
+- Use large plastic bag, toss in dumpster, wash hands after
+
+- Added caution about not using multiple of these boxes, don't want too close to one another -- don't want outlet into inlet -- paper by texas at austin -- jeffrey siegal, u toronto & atilla novoselac  [https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments](https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments)
+
+- Added caveat about the CFM / CADR for a given DIY setup being dependent on the quality of the construction and the type of fan; made sure to indicate that our 600 CFM CADR is an *example*.
+
+- Adding warning about bumping / jostling the filters to avoid re-suspension of particulates 
+
+
+
+
+
 
