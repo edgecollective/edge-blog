@@ -159,6 +159,10 @@ Fan points up ...
 
 [https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html](https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html)
 
+## Comparetto video
+
+[https://www.youtube.com/watch?v=Y7eL2OAnqc8](https://www.youtube.com/watch?v=Y7eL2OAnqc8)
+
 ## Tex-air overview
 
 [https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/](https://www.texairfilters.com/iaq-research-practice-in-action-the-corsi-rosenthal-box-air-cleaner/)
@@ -188,7 +192,8 @@ Fan points up ...
 
 # Revision History
 
-Revision 2021-08-08 20:48:55
+---
+2021-08-08 20:48:55
 
 - Replaced 'impact' graphic with a clearer depiction of an example impact of using two air boxes.
 
