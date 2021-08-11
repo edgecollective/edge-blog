@@ -71,7 +71,7 @@ For comparison:
 
 <!--![](/img/co2/corsi_impact.png)-->
 
-| ![](/img/co2/corsi_impact_edit.png) |
+| ![](/img/co2/corsi_boost.png) |
 |:--:|
 | **Potential impact of Corsi Air Boxes**. We estimated that the DIY air filter we assembled has a clean air delivery rate of approximately 600 CFM.  Using Equation (1) below, and assuming a room of size 20'x20'x10', such a box will add the equivalent of +3 ACH to the room; two such boxes will add +6 ACH.  Some typical ventilation values (in Air Changes per Hour) are depicted for comparison, including the Harvard School of Public Health recommendation of 6+ ACH to help mitigate the transmission of COVID-19 in classrooms.|
 
@@ -113,13 +113,17 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 ---
 
-## Improving efficiency of Corsi Air Box
+## Rationale for 'fan shroud' / improving efficiency of Corsi Box
 
 [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
 
+- Also shows measurements leading to estimate of CFM
+
 ---
 
-## Effectiveness of Corsi Air Box
+## Effectiveness of Corsi Air Box -- particulate reduction
+
+- Uses Merv 11 filters
 
 ![](/img/co2/merv_compare.png)
 
@@ -159,7 +163,7 @@ Fan points up ...
 
 [https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html](https://www.inquirer.com/health/coronavirus/covid19-make-your-own-air-filter-diy-trap-particles-fan-20201020.html)
 
-## Comparetto video
+## Neil Comparetto video
 
 [https://www.youtube.com/watch?v=Y7eL2OAnqc8](https://www.youtube.com/watch?v=Y7eL2OAnqc8)
 
@@ -189,6 +193,35 @@ Fan points up ...
 ## Recommended ACH for measles
 
 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4400300/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4400300/)
+
+## Corsi et al preprint on room-level ventilation assessment 
+
+[https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/61129d9ee540bb3ea1753d38/original/room-level-ventilation-in-schools-and-universities.pdf](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/61129d9ee540bb3ea1753d38/original/room-level-ventilation-in-schools-and-universities.pdf)
+
+Tweet referencing the publication: 
+
+[https://twitter.com/vfmcneill/status/1425467992280686593?s=20](https://twitter.com/vfmcneill/status/1425467992280686593?s=20)
+
+
+## Particulate sensing
+
+---
+2021-08-11 09:55:48
+
+Particulate sensors (for use with filter, for testing)
+
+Adafruit Plantower: [https://learn.adafruit.com/pmsa003i](https://learn.adafruit.com/pmsa003i)
+
+Tex air filters article that uses Dylos sensor: [https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/](https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/)
+
+Reddit discussion of low-cost particulate sensors: [https://www.reddit.com/r/homeautomation/comments/jo14gs/looking_for_advice_on_an_air_quality_monitor/](https://www.reddit.com/r/homeautomation/comments/jo14gs/looking_for_advice_on_an_air_quality_monitor/)
+
+"Evaluation of Low-Cost Sensors for Ambient PM2.5 Monitoring": 
+[https://www.hindawi.com/journals/js/2018/5096540/](https://www.hindawi.com/journals/js/2018/5096540/)
+
+Plantower sensor on Amazon: [https://www.amazon.com/DEVMO-Digital-Particle-Concentration-PMS5003/dp/B07S5YX84W/ref=asc_df_B07S5YX84W/?tag=hyprod-20&linkCode=df0&hvadid=459726175633&hvpos=&hvnetw=g&hvrand=2539812408648535115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973940804295&psc=1](https://www.amazon.com/DEVMO-Digital-Particle-Concentration-PMS5003/dp/B07S5YX84W/ref=asc_df_B07S5YX84W/?tag=hyprod-20&linkCode=df0&hvadid=459726175633&hvpos=&hvnetw=g&hvrand=2539812408648535115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973940804295&psc=1)
+
+
 
 # Revision History
 
