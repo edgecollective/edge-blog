@@ -221,6 +221,30 @@ Reddit discussion of low-cost particulate sensors: [https://www.reddit.com/r/hom
 
 Plantower sensor on Amazon: [https://www.amazon.com/DEVMO-Digital-Particle-Concentration-PMS5003/dp/B07S5YX84W/ref=asc_df_B07S5YX84W/?tag=hyprod-20&linkCode=df0&hvadid=459726175633&hvpos=&hvnetw=g&hvrand=2539812408648535115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973940804295&psc=1](https://www.amazon.com/DEVMO-Digital-Particle-Concentration-PMS5003/dp/B07S5YX84W/ref=asc_df_B07S5YX84W/?tag=hyprod-20&linkCode=df0&hvadid=459726175633&hvpos=&hvnetw=g&hvrand=2539812408648535115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-973940804295&psc=1)
 
+plantower comparisons:
+
+https://aqicn.org/sensor/pms5003-7003/
+
+https://www.hindawi.com/journals/js/2018/5096540/
+
+https://dalegi.com/2018/06/13/pmsa003-low-cost-air-pollution-sensor-accuracy-an-attempt-at-calibration-in-sarajevo/
+
+https://scholar.google.com/scholar?q=plantower+sensor+models&hl=en&as_sdt=0&as_vis=1&oi=scholart
+
+https://www.sciencedirect.com/science/article/abs/pii/S0269749118316129
+
+https://pubs.acs.org/doi/abs/10.1021/acs.est.8b05174
+
+https://www.tandfonline.com/doi/full/10.1080/02786826.2019.1696015
+
+https://www.sciencedirect.com/science/article/pii/S0160412019321920
+
+https://www.nature.com/articles/s41598-019-43716-3
+
+https://link.springer.com/article/10.1007/s42452-019-0630-1
+
+https://amt.copernicus.org/articles/11/4823/2018/
+
 
 
 # Revision History
