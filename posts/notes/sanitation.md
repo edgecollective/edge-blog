@@ -29,6 +29,27 @@ Points claimed in video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ul51Uz0qfHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- pallets to make a 'box' (no bottom or top)
+- wire or rope or screw to hold together
+- hay bales on bottom (or leaves / weeds)
+- hay 'chips' around edges / sides to prevent material from exiting sides
+- need cover material on top, bottom and around sides, to prevent freezing in winter, keep compost from drying out, and keeps it from leeching out
+
+When you rinse out the containers, all materials / liquid needs to go into compost bin / container 
+
+Add layer of cover material after adding composted bucket material
+
+Material in bin shrinks
+
+## How to Make Humanure Compost with a Composting Toilet
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAcEvs3Bxjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Typical plumbing takes two useful resources -- clean water and fertilizing material -- and turns them into a toxic waste to be processed
+
+Took them some time to lose their 'fecal phobia'
+
+
 ## Humanure Compost System Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_4oHdfFufOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
