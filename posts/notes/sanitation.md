@@ -8,6 +8,16 @@ image: /img/loo/loo.png
 blurb: Sanitation options to facilite outdoor gatherings during a pandemic
 ---
 
+## How to Make Humanure Compost with a Composting Toilet
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAcEvs3Bxjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Well-produced video ...
+
+Typical plumbing takes two useful resources -- clean water and fertilizing material -- and turns them into a toxic waste to be processed
+
+Took them some time to lose their 'fecal phobia'
+
 ## Lovable Loo Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MTlLyhkpeI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,15 +50,6 @@ When you rinse out the containers, all materials / liquid needs to go into compo
 Add layer of cover material after adding composted bucket material
 
 Material in bin shrinks
-
-## How to Make Humanure Compost with a Composting Toilet
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JAcEvs3Bxjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Typical plumbing takes two useful resources -- clean water and fertilizing material -- and turns them into a toxic waste to be processed
-
-Took them some time to lose their 'fecal phobia'
-
 
 ## Humanure Compost System Video
 
