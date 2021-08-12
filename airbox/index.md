@@ -245,6 +245,9 @@ https://link.springer.com/article/10.1007/s42452-019-0630-1
 
 https://amt.copernicus.org/articles/11/4823/2018/
 
+## Thoughts on using Purple Air to assess effectiveness of indoor air sensors
+
+[https://twitter.com/Jess_Tryner/status/1425943278759735299?s=20](https://twitter.com/Jess_Tryner/status/1425943278759735299?s=20)
 
 
 # Revision History
