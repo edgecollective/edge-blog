@@ -10,6 +10,8 @@ blurb: Ideas and history around convening school outdoors
 
 [https://www.nytimes.com/2020/07/17/nyregion/coronavirus-nyc-schools-reopening-outdoors.html](https://www.nytimes.com/2020/07/17/nyregion/coronavirus-nyc-schools-reopening-outdoors.html)
 
+![](/img/openair/converted_ferry.png)
+
 [https://www.history.com/news/school-outside-tuberculosis](https://www.history.com/news/school-outside-tuberculosis)
 
 [https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/](https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/)
