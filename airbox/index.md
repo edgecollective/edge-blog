@@ -78,7 +78,7 @@ For comparison:
 Files:
 - SVG: [corsi_impact.svg](/img/co2/corsi_impact.svg)
 - PDF: [corsi_impact.pdf](/img/co2/corsi_impact.pdf)
-- PNG: [corsi_impact.png](/img/co2corsi_impact.png)
+- PNG: [corsi_impact.png](/img/co2/corsi_impact.png)
 
 We used an anemometer to estimate that one of the 'DIY Air filters' we built is capable of delivering the equivalent of **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
