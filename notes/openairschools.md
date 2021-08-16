@@ -42,6 +42,10 @@ blurb: Ideas and history around convening school outdoors
 
 [https://www.youtube.com/watch?v=Jkiij9dJfcw](https://www.youtube.com/watch?v=Jkiij9dJfcw)
 
+## A Toddler In the Trees: Bathroom FAQ
+
+[http://www.atoddlerinthetrees.com/q-a-where-do-they-go-to-the-bathroom/](http://www.atoddlerinthetrees.com/q-a-where-do-they-go-to-the-bathroom/)
+
 
 # Checklist
 
