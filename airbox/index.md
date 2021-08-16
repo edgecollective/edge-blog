@@ -71,9 +71,14 @@ For comparison:
 
 <!--![](/img/co2/corsi_impact.png)-->
 
-| ![](/img/co2/corsi_boost.png) |
+| ![](/img/co2/corsi_impact.png) |
 |:--:|
 | **Potential impact of Corsi Air Boxes**. We estimated that the DIY air filter we assembled has a clean air delivery rate of approximately 600 CFM.  Using Equation (1) below, and assuming a room of size 20'x20'x10', such a box will add the equivalent of +3 ACH to the room; two such boxes will add +6 ACH.  Some typical ventilation values (in Air Changes per Hour) are depicted for comparison, including the Harvard School of Public Health recommendation of 6+ ACH to help mitigate the transmission of COVID-19 in classrooms.|
+
+Files:
+- SVG: [corsi_impact.svg](/img/co2/corsi_impact.svg)
+- PDF: [corsi_impact.pdf](/img/co2/corsi_impact.pdf)
+- PNG: [corsi_impact.png](/img/co2corsi_impact.png)
 
 We used an anemometer to estimate that one of the 'DIY Air filters' we built is capable of delivering the equivalent of **600 CFM** (cubic feet per minute) of 'cleaned' air to a room -- this is also referred to as the "Clean Air Delivery Rate" (CADR).  This estimate is based on the cubic feet per minute that flow through the fan on the device, multiplied by 'removal rate' percentage for the filters. 
 
