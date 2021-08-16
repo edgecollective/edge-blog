@@ -24,7 +24,7 @@ layout: front.njk
 
 <div id='intro'>
 
-[Edge Collective](/about) is a distributed **research**, **teaching**, and **facilitation** cooperative working to help individuals and communities increase the capacity of their vital **food**, **water**, **energy**, and **communications infrastructure** to adapt to challenging environments. All of the research, designs, and code that we produce is [freely available online](https://github.com/edgecollective).  We support our research, projects, and teaching through [donations](https://opencollective.com/edgecollective) and via 'pay-as-you-can' arrangements. 
+[Edge Collective](/about) is a distributed **research**, **teaching**, and **facilitation** cooperative.  We're working to help individuals and communities increase the capacity of their vital **food**, **water**, **energy**, and **communications infrastructure** to adapt to challenging environments. All of the research, designs, and code that we produce is [freely available online](https://github.com/edgecollective).  We support our research, projects, and teaching through [donations](https://opencollective.com/edgecollective) and via 'pay-as-you-can' arrangements. 
 
 You can reach us at **collaborate (at) edgecollective (dot) io** -- cheers!
 
