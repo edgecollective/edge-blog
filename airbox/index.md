@@ -101,8 +101,8 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 Files:
 - SVG: [corsi_small_poster.svg](/img/co2/corsi_small_poster.svg)
-- PDF: [corsi_large_poster.pdf](/img/co2/corsi_small_poster.pdf)
-- PNG: [corsi_large_poster.png](/img/co2/corsi_small_poster.png)
+- PDF: [corsi_small_poster.pdf](/img/co2/corsi_small_poster.pdf)
+- PNG: [corsi_small_poster.png](/img/co2/corsi_small_poster.png)
 
 ---
 
