@@ -99,4 +99,12 @@ Black:
 
 [https://www.amazon.com/dp/B01AT3T0GC/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B01AT3T0GC&pd_rd_w=mg82G&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=SzGRS&pf_rd_r=HDVG1WYM7CW0BSEWXAWG&pd_rd_r=50ad23ab-ec1e-41a5-8bc9-1b3a394ec8ca&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVUI4TURDMDBRRTYzJmVuY3J5cHRlZElkPUEwMjExMzMzMVFQUkZMUzlDN1A3VSZlbmNyeXB0ZWRBZElkPUEwMDIxNjI3QVRJVFVGVkRXUVA2JndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==](https://www.amazon.com/dp/B01AT3T0GC/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B01AT3T0GC&pd_rd_w=mg82G&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=SzGRS&pf_rd_r=HDVG1WYM7CW0BSEWXAWG&pd_rd_r=50ad23ab-ec1e-41a5-8bc9-1b3a394ec8ca&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVUI4TURDMDBRRTYzJmVuY3J5cHRlZElkPUEwMjExMzMzMVFQUkZMUzlDN1A3VSZlbmNyeXB0ZWRBZElkPUEwMDIxNjI3QVRJVFVGVkRXUVA2JndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
+## Review of 3 years using Luggable Loo
+
+[https://thetinylife.com/3-year-review-on-the-luggable-loo/](https://thetinylife.com/3-year-review-on-the-luggable-loo/)
+
+## Driving 13 Hours without stopping at a public bathroom 
+
+[https://nymag.com/strategist/article/how-to-make-a-custom-portable-bathroom.html](https://nymag.com/strategist/article/how-to-make-a-custom-portable-bathroom.html)
+
 

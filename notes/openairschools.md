@@ -17,3 +17,16 @@ blurb: Ideas and history around convening school outdoors
 [https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/](https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/)
 
 [https://en.wikipedia.org/wiki/Open_air_school](https://en.wikipedia.org/wiki/Open_air_school)
+
+## Checklist
+
+Cooling in summer
+
+Heating in winter
+
+Protection from rain / snow
+
+Sanitation system
+
+Food + water provisions
+
