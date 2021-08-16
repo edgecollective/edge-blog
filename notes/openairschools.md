@@ -8,17 +8,35 @@ image: /img/openair/lounges.jpg
 blurb: Ideas and history around convening school outdoors
 ---
 
+# History of Open Air Schools
+
+## NYTimes
+
 [https://www.nytimes.com/2020/07/17/nyregion/coronavirus-nyc-schools-reopening-outdoors.html](https://www.nytimes.com/2020/07/17/nyregion/coronavirus-nyc-schools-reopening-outdoors.html)
 
 ![](/img/openair/converted_ferry.png)
 
+## History.com
+
 [https://www.history.com/news/school-outside-tuberculosis](https://www.history.com/news/school-outside-tuberculosis)
+
+## Wash Post
 
 [https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/](https://www.washingtonpost.com/history/2020/09/14/open-air-schools-outdoor-coronavirus/)
 
+## Wikipedia
+
 [https://en.wikipedia.org/wiki/Open_air_school](https://en.wikipedia.org/wiki/Open_air_school)
 
-## Checklist
+# Current initiatives / COVID-19
+
+## Green Schoolyards America
+
+[https://www.greenschoolyards.org/covid19-media-library](https://www.greenschoolyards.org/covid19-media-library)
+
+
+
+# Checklist
 
 Cooling in summer
 
