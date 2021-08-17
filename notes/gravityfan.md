@@ -1,5 +1,5 @@
 ---
-pageTitle: Gravity-Powered Fans and lights
+pageTitle: Gravity-powered Fans and Lights
 layout: layout.njk
 date: 2021-08-16
 updated: 2021-08-16
@@ -11,6 +11,8 @@ blurb: Notes on designs for gravity-powered outdoor fans and lights
 ## 'Gravity Energy Fan' via Virginia Tech Design Studio 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_jHmGBbTTY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Compound gear ratio of 1:55
 
 ## Gravity Air Fan, Awais Yarhussain Swabi KPK:
 
@@ -26,8 +28,17 @@ blurb: Notes on designs for gravity-powered outdoor fans and lights
 
 ## Wind-up fans
 
+### Swiss model
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DudAEiP6lKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Vintage
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oN7YAhJN8jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Jost Air Fan (Stirling engine)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0t8LEKf04TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Compound Gear Train, Bicycle Parts, for Grain Mill
 
