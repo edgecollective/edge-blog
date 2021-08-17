@@ -149,20 +149,3 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
   </div>
 {% endfor %}
 </div>
-
-<!--
-# Notes 
-
-<div class="posts-area">
-{% for note in collections.notes %}
-  <div class="post">
-    <div class="project-contents">
-      <div class="text">
-        <h3>Note {{ note.data.id }}</h3>
-        <p>{{ note.templateContent }}</p>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
--->

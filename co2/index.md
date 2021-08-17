@@ -1,8 +1,8 @@
 ---
 pageTitle: Assessing indoor ventilation using CO2 as a tracer gas
 layout: layout.njk
-date: 2020-08-02
-updated: 2020-08-02
+date: 2021-08-02
+updated: 2021-08-02
 tags: notes 
 image: img/co2/opening_comparison.png
 blurb: Using CO2 monitors to assess indoor ventilation
