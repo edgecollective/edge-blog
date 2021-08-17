@@ -122,3 +122,23 @@ Black:
 [https://www.amazon.com/OLYDON-Cover%EF%BC%8CWaterproof-Elongated-Disassembly-Installation/dp/B08R5HYY43](https://www.amazon.com/OLYDON-Cover%EF%BC%8CWaterproof-Elongated-Disassembly-Installation/dp/B08R5HYY43)
 
 
+# Toilet seat covers
+
+![](/img/sanitation/toilet_round.png)
+
+![](/img/sanitation/toilet_round_2.png)
+
+![](/img/sanitation/toilet_elongated.png)
+
+# 5 Gallon bucket dimensions
+
+Extensive resource:
+
+[http://fivegallonideas.com/5-gallon-bucket-dimensions/](http://fivegallonideas.com/5-gallon-bucket-dimensions/)
+
+![](/img/sanitation/5_gallon_bucket.gif)
+
+![](/img/sanitation/home_depot.png)
+
+
+

@@ -100,6 +100,10 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 # References / Materials
 
+## Video: fully-assembled airbox
+
+<iframe src="https://archive.org/embed/corsi-fully-assembled" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 ## Small Poster
 
 [![](/img/co2/corsi_small_poster.png)](/img/co2/corsi_small_poster.png)
@@ -133,6 +137,11 @@ Files:
 [https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/](https://www.texairfilters.com/how-to-improve-the-efficiency-of-the-box-fan-and-merv-13-filter-air-cleaner/)
 
 - Also shows measurements leading to estimate of CFM
+
+## Video using anemometer to assess CFM, and demonstrating 'reverse flow at corners' effect:
+
+<iframe src="https://archive.org/embed/corsi-box-cfm" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 
 ---
 
