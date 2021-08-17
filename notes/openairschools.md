@@ -66,11 +66,17 @@ Twitter feed: [https://twitter.com/BostonBopn](https://twitter.com/BostonBopn)
 
 ## Resources for outdoor school curricula
 
+Fantastic collection of resources:
+
 [https://childhoodbynature.com/top-free-nature-based-learning-curriculums-for-schools-and-homeschools/](https://childhoodbynature.com/top-free-nature-based-learning-curriculums-for-schools-and-homeschools/)
 
 ## Forest school ideas
 
 [https://naturehomeschool.com/forest-school-ideas-activities/](https://naturehomeschool.com/forest-school-ideas-activities/)
+
+## Forest School Canada Teacher Guide
+
+[https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf](https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf)
 
 
 # Ideas / projects
