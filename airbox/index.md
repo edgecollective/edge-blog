@@ -142,6 +142,12 @@ Files:
 
 <iframe src="https://archive.org/embed/corsi-box-cfm" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
+## 'Kestrel 1000' anemometer we used to estimate CFM
+
+![](/img/airbox/kestrel_pic.png)
+
+$75 on Amazon: [https://www.amazon.com/dp/B001JEPJZC](https://www.amazon.com/dp/B001JEPJZC)
+
 
 ---
 
