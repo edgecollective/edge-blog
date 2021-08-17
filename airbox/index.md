@@ -146,7 +146,9 @@ Files:
 
 ![](/img/airbox/kestrel_pic.png)
 
-$75 on Amazon: [https://www.amazon.com/dp/B001JEPJZC](https://www.amazon.com/dp/B001JEPJZC)
+~ $80 on Kestrel's site: [https://kestrelinstruments.com/kestrel-1000-pocket-wind-meter?gclid=CjwKCAjwmeiIBhA6EiwA-uaeFZdalCbfBiA20QclZPCqMZcIu5a5AGOyDmK0euc6eNDWgOzleHluyBoCk6kQAvD_BwE](https://kestrelinstruments.com/kestrel-1000-pocket-wind-meter?gclid=CjwKCAjwmeiIBhA6EiwA-uaeFZdalCbfBiA20QclZPCqMZcIu5a5AGOyDmK0euc6eNDWgOzleHluyBoCk6kQAvD_BwE)
+
+
 
 
 ---
