@@ -78,6 +78,13 @@ Fantastic collection of resources:
 
 [https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf](https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf)
 
+## David Sobel
+
+[https://www.antioch.edu/faculty/david-sobel/](https://www.antioch.edu/faculty/david-sobel/)
+
+[https://www.davidsobelauthor.com/about-david-sobel](https://www.davidsobelauthor.com/about-david-sobel)
+
+> David Sobel has written extensively on the topic of children and hands-on education and play in nature. His numerous books—from Wild Play: Parenting Adventures in the Great Outdoors to Place-Based Education: Connecting Classrooms and Communities and to Childhood and Nature: Design Principles for Educators, plus other works focusing on different age levels—offer parents and teachers insights into the value, appeal, and techniques of outdoor experiences for personal, physical, and social growth.
 
 # Ideas / projects
 
