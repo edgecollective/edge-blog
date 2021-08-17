@@ -107,4 +107,18 @@ Black:
 
 [https://nymag.com/strategist/article/how-to-make-a-custom-portable-bathroom.html](https://nymag.com/strategist/article/how-to-make-a-custom-portable-bathroom.html)
 
+## Guardian article on humanure
+
+[https://www.theguardian.com/environment/2009/may/12/humanure-composting-toilets](https://www.theguardian.com/environment/2009/may/12/humanure-composting-toilets)
+
+## Composting FAQ w/ legal questions
+
+[https://greywateraction.org/composting-toilets-faq/](https://greywateraction.org/composting-toilets-faq/)
+
+# Heating
+
+## Heated toilet seat cover add-on
+
+[https://www.amazon.com/OLYDON-Cover%EF%BC%8CWaterproof-Elongated-Disassembly-Installation/dp/B08R5HYY43](https://www.amazon.com/OLYDON-Cover%EF%BC%8CWaterproof-Elongated-Disassembly-Installation/dp/B08R5HYY43)
+
 

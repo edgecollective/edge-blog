@@ -38,6 +38,14 @@ blurb: Ideas and history around convening school outdoors
 
 [https://www.bopn.org/](https://www.bopn.org/)
 
+Staff: [https://www.bopn.org/meet-the-team](https://www.bopn.org/meet-the-team)
+
+FAQ: [https://www.bopn.org/faq](https://www.bopn.org/faq)
+
+Dressing for cold and rain in a few easy steps (video) [https://www.youtube.com/watch?v=XPuXh48shII]9https://www.youtube.com/watch?v=XPuXh48shII)
+
+Twitter feed: [https://twitter.com/BostonBopn](https://twitter.com/BostonBopn)
+
 ## Denmark Forest Kindergartens
 
 [https://www.youtube.com/watch?v=Jkiij9dJfcw](https://www.youtube.com/watch?v=Jkiij9dJfcw)
@@ -45,6 +53,24 @@ blurb: Ideas and history around convening school outdoors
 ## A Toddler In the Trees: Bathroom FAQ
 
 [http://www.atoddlerinthetrees.com/q-a-where-do-they-go-to-the-bathroom/](http://www.atoddlerinthetrees.com/q-a-where-do-they-go-to-the-bathroom/)
+
+## Christian Science Monitor: "Class in session outside"
+
+[https://www.csmonitor.com/Commentary/From-the-Editor/2021/0630/Class-in-session-outside-The-power-of-outdoor-education?fbclid=IwAR30UeBMMA2H_pDr_H64orZdMlAdnkVEJl-kZ7sftRIEVpVF7lWDAvxWumA&cmpid=shared-twitter](https://www.csmonitor.com/Commentary/From-the-Editor/2021/0630/Class-in-session-outside-The-power-of-outdoor-education?fbclid=IwAR30UeBMMA2H_pDr_H64orZdMlAdnkVEJl-kZ7sftRIEVpVF7lWDAvxWumA&cmpid=shared-twitter)
+
+## CS Monitor: The Great Outdoors Has a Diversity Problem
+
+[https://www.csmonitor.com/USA/Society/2021/0628/The-great-outdoors-has-a-diversity-problem.-Can-it-be-fixed](https://www.csmonitor.com/USA/Society/2021/0628/The-great-outdoors-has-a-diversity-problem.-Can-it-be-fixed)
+
+(author, Mark Sappenfield -- wife teaches at Boston outdoor preschool) [https://www.csmonitor.com/About/People/Mark-Sappenfield](https://www.csmonitor.com/About/People/Mark-Sappenfield)
+
+## Resources for outdoor school curricula
+
+[https://childhoodbynature.com/top-free-nature-based-learning-curriculums-for-schools-and-homeschools/](https://childhoodbynature.com/top-free-nature-based-learning-curriculums-for-schools-and-homeschools/)
+
+## Forest school ideas
+
+[https://naturehomeschool.com/forest-school-ideas-activities/](https://naturehomeschool.com/forest-school-ideas-activities/)
 
 
 # Checklist
