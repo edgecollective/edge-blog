@@ -8,7 +8,9 @@ image: /img/openair/lounges.jpg
 blurb: Ideas and history around convening school outdoors
 ---
 
-# History of Open Air Schools
+---
+
+# History
 
 ## NYTimes
 
@@ -28,7 +30,9 @@ blurb: Ideas and history around convening school outdoors
 
 [https://en.wikipedia.org/wiki/Open_air_school](https://en.wikipedia.org/wiki/Open_air_school)
 
-# Current initiatives / COVID-19
+---
+
+# Current initiatives 
 
 ## Green Schoolyards America
 
@@ -76,6 +80,8 @@ Fantastic collection of resources:
 
 ## Forest School Canada Teacher Guide
 
+Nice guide:
+
 [https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf](https://childnature.ca/wp-content/uploads/2017/10/FSC-Guide-1.pdf)
 
 ## David Sobel
@@ -85,6 +91,8 @@ Fantastic collection of resources:
 [https://www.davidsobelauthor.com/about-david-sobel](https://www.davidsobelauthor.com/about-david-sobel)
 
 > David Sobel has written extensively on the topic of children and hands-on education and play in nature. His numerous books—from Wild Play: Parenting Adventures in the Great Outdoors to Place-Based Education: Connecting Classrooms and Communities and to Childhood and Nature: Design Principles for Educators, plus other works focusing on different age levels—offer parents and teachers insights into the value, appeal, and techniques of outdoor experiences for personal, physical, and social growth.
+
+---
 
 # Ideas / projects
 
