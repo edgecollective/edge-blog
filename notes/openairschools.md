@@ -73,15 +73,29 @@ Twitter feed: [https://twitter.com/BostonBopn](https://twitter.com/BostonBopn)
 [https://naturehomeschool.com/forest-school-ideas-activities/](https://naturehomeschool.com/forest-school-ideas-activities/)
 
 
-# Checklist
+# Ideas / projects
 
-Cooling in summer
+Cooling in summer -- gravity fan build?
 
-Heating in winter
+Heating in winter -- solar / thermal?
 
-Protection from rain / snow
+Protection from rain / snow -- tarp systems
 
-Sanitation system
+Sanitation system -- humanure
 
-Food + water provisions
+Food + water provisions -- rainwater capture ... outdoor gardening / harvesting / food preparation
+
+Tech:
+
+- solar power
+- radio comm
+- orienteering / gps
+- map reading / making
+- bicycle / trailer transport
+- composting toilets
+- shelter / tarp / rigging
+- electronics repair off-grid, using solar power
+- gravity-powered mechanicals
+
+
 
