@@ -140,5 +140,9 @@ Extensive resource:
 
 ![](/img/sanitation/home_depot.png)
 
+# Toilet requirements
+
+[https://www.dalkita.com/how-many-plumbing-facilities-are-required-in-a-building/](https://www.dalkita.com/how-many-plumbing-facilities-are-required-in-a-building/)
+
 
 
