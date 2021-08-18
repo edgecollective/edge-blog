@@ -18,6 +18,8 @@ Compound gear ratio of 1:55
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y45xeTjVv0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Note:  this device seems like it might be able to use a more or less 'umodified' bicycle, with compound pulleys?
+
 ## MON -- air ventilation, gravity battery
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mk4QaYhGnGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
