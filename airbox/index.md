@@ -105,6 +105,10 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 # References / Materials
 
+## Illustrations of build process, with variations
+
+[https://encycla.com/Corsi-Rosenthal_Cube](https://encycla.com/Corsi-Rosenthal_Cube)
+
 ## Video: fully-assembled airbox
 
 <iframe src="https://archive.org/embed/corsi-fully-assembled" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
@@ -134,6 +138,12 @@ Files:
 ## This Old House build guide / explanation 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aw7fUMhNov8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Detailed comparison of dust-removal performance
+
+[https://www.shophacks.com/newsletter/workshop-air-filtration-system-performance-shootout-including-effective-low-cost-diy-box-fan-filtration-systems#/](https://www.shophacks.com/newsletter/workshop-air-filtration-system-performance-shootout-including-effective-low-cost-diy-box-fan-filtration-systems#/)
 
 ---
 
