@@ -8,7 +8,13 @@ image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
-[Updated: 2021-08-08. See 'Revision History' at end of this page for summary of changes]
+[Update 2021-08-08: See 'Revision History' at end of this page for summary of changes]
+
+[Update 2021-08-17, AM: WGBH piece on the Corsi / Rosenthal box, here: [https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy](https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy)]
+
+[Update 2021-08-17, PM: there is a fantastic thread on Twitter that collects a lot of useful information on the Corsi / Rosenthal box, here: [https://twitter.com/LazarusLong13/status/1425517352624410627](https://twitter.com/LazarusLong13/status/1425517352624410627).  Will incorporate any new details as we have time to digest them.]
+
+
 
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
@@ -21,7 +27,6 @@ These devices can be built from parts that cost **less than $200 USD**, without 
 ![](/img/co2/corsi_assembling.png)
 
 MERV-13 filters are capable of removing about 85% of viral-laden particulates from air; it's therefore a good assumption that about 85% of the air flow out of the fan at the top of the device is free of COVID-19 virus.  Informal tests and analyses using air flow meters and particulate matter sensors indicate that these devices can provide about 600 cubic feet per minute of virus-filtered air to the room.
-
 
 For medium-sized rooms, the performance of this air purifier design means that installing between one and three of these 'air boxes' can boost the local "air changes per hour" (ACH) to the 'minimum recommended' level of 6 ACH, suggested by the Harvard School of Public Health. (Note:  this recommendation was made before the emergence of recent variants; yet greater ventilation rates may now be preferred).
 
@@ -149,7 +154,11 @@ Files:
 ~ $80 on Kestrel's site: [https://kestrelinstruments.com/kestrel-1000-pocket-wind-meter?gclid=CjwKCAjwmeiIBhA6EiwA-uaeFZdalCbfBiA20QclZPCqMZcIu5a5AGOyDmK0euc6eNDWgOzleHluyBoCk6kQAvD_BwE](https://kestrelinstruments.com/kestrel-1000-pocket-wind-meter?gclid=CjwKCAjwmeiIBhA6EiwA-uaeFZdalCbfBiA20QclZPCqMZcIu5a5AGOyDmK0euc6eNDWgOzleHluyBoCk6kQAvD_BwE)
 
 
+--
 
+## poppendieck.com FAQ on COVID-19 in Classrooms 
+
+[http://poppendieck.com/IAQ/COVID19%20FAQ.html](http://poppendieck.com/IAQ/COVID19%20FAQ.html)
 
 ---
 
