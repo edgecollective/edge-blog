@@ -5320,6 +5320,10 @@ next to each other -- 'short circuiting'
 
 600 700 800 900 
 
+- Make sure that it's well-sealed around the edges
+
+- Remove at 6 months -- bag them in big plastic bag, toss them in dumpster, wash hands after.
+
 sucks in through filters and out through fan 
 
 air blow vertically upward -- good -- want circulating flow up and diagonally across 
@@ -5342,6 +5346,21 @@ Airboxes are imporant when you can't get better ventilation -- i.e. poor mechani
 36:00 -- The true metric using CO2 is the 'rebreathe fraction' -- how much you're breating other people's breath.  If you have a rebreathe fraction of 5% -- really high, bad.  Rebreathe fraction of .5% is much better.  Rebreathe fraction is: (CO2 concentration in room - CO2 concentration outdoors) / CO2 concentration on typical human breath -- also a function of who is the space -- dynamics are important ... 
 
 Building boxes lowers aerosol particle levels in the classroom
+
+---
+2021-08-19 12:54:18
+
+co2 monitor --
+
+feather m4 express, because:
+- uf2 bootloader
+- battery charging
+- m4 chip for circuitpython + airlift
+
+esp32 airlift, because:
+- cheaper
+- easier to replace w/ ubiquitous chip
+- more likely to be avail
 
 
 
