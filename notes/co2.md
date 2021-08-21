@@ -5362,6 +5362,47 @@ esp32 airlift, because:
 - easier to replace w/ ubiquitous chip
 - more likely to be avail
 
+---
+2021-08-20 14:16:37
+
+![](/img/co2/metal_strap.png)
+
+![](/img/co2/metal_braces.png)
+
+![](/img/co2/l-shaped_bracket.png)
+
+[https://www.digikey.com/en/products/detail/keystone-electronics/612/416364](https://www.digikey.com/en/products/detail/keystone-electronics/612/416364)
+
+![](/img/co2/mounting_brackets.png)
+
+[https://www.keyelco.com/userAssets/file/M65p118.pdf](https://www.keyelco.com/userAssets/file/M65p118.pdf)
+
+
+---
+2021-08-20 14:42:04
+
+Aranet 4 specs: [https://aranet.com/wp-content/uploads/2019/01/Aranet4_datasheet_v2.2_WEB.pdf](https://aranet.com/wp-content/uploads/2019/01/Aranet4_datasheet_v2.2_WEB.pdf)
+
+---
+2021-08-20 15:49:19
+
+headers
+
+![](/img/co2/2.0mm-Header-Single-Row-RA-Series-C-300x225.jpg)
+
+![](/img/co2/keystone_brackets.png)
+
+apparently sparkfun uses 4-40 screws for most breakout boards ...
+
+[https://www.sparkfun.com/products/10453](https://www.sparkfun.com/products/10453)
+
+---
+2021-08-20 16:00:30
+
+![](/img/co2/keystone_bracket_621.png)
+
+[https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB](https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB)
+
 
 
 

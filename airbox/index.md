@@ -109,6 +109,10 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 [https://encycla.com/Corsi-Rosenthal_Cube](https://encycla.com/Corsi-Rosenthal_Cube)
 
+## Building a Corsi air box for the first time: timelapse
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aEn2xzlvrdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Video: fully-assembled airbox
 
 <iframe src="https://archive.org/embed/corsi-fully-assembled" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
