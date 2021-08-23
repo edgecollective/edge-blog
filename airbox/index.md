@@ -105,6 +105,10 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 # References / Materials
 
+![](/img/airbox/particle_sizes.png)
+
+from [https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf](https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf)
+
 ## Illustrations of build process, with variations
 
 [https://encycla.com/Corsi-Rosenthal_Cube](https://encycla.com/Corsi-Rosenthal_Cube)
