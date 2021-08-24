@@ -308,6 +308,18 @@ https://amt.copernicus.org/articles/11/4823/2018/
 
 [https://twitter.com/Jess_Tryner/status/1425943278759735299?s=20](https://twitter.com/Jess_Tryner/status/1425943278759735299?s=20)
 
+## Critique
+
+"COVID-19 Outbreak and Hospital Air Quality: A Systematic Review
+of Evidence on Air Filtration and Recirculation": 
+[https://pubs.acs.org/doi/pdf/10.1021/acs.est.0c03247](https://pubs.acs.org/doi/pdf/10.1021/acs.est.0c03247)
+
+![](/img/airbox/figure_one.png)
+
+![](/img/airbox/equation_three.png)
+
+![](/img/airbox/figure_two.png)
+
 
 # Revision History
 
@@ -327,7 +339,6 @@ https://amt.copernicus.org/articles/11/4823/2018/
 - Added caveat about the CFM / CADR for a given DIY setup being dependent on the quality of the construction and the type of fan; made sure to indicate that our 600 CFM CADR is an *example*.
 
 - Adding warning about bumping / jostling the filters to avoid re-suspension of particulates 
-
 
 
 
