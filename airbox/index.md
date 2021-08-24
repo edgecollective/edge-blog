@@ -8,6 +8,8 @@ image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
+[anemometer](#anemometer)
+
 [Update 2021-08-08: See 'Revision History' at end of this page for summary of changes]
 
 [Update 2021-08-17, AM: WGBH piece on the Corsi / Rosenthal box, here: [https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy](https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy)]
@@ -166,6 +168,7 @@ Files:
 
 - Also shows measurements leading to estimate of CFM
 
+<a name="anemometer"></a> 
 ## Video using anemometer to assess CFM, and demonstrating 'reverse flow at corners' effect:
 
 <iframe src="https://archive.org/embed/corsi-box-cfm" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
@@ -325,6 +328,19 @@ of Evidence on Air Filtration and Recirculation":
 
 ![](/img/airbox/figure_two.png)
 
+## Chicken wire shroud
+
+Used 90 in of length of chicken wire
+
+MTB Galvanized Hardware Cloth 24 Inch x 25 Foot -1/2 Inch x 1/2 Inch 19GA
+
+[https://www.amazon.com/dp/B01MTQVNIC](https://www.amazon.com/dp/B01MTQVNIC)
+
+![](/img/co2/chicken_enclosure.jpg)
+
+![](/img/co2/chicken_close.jpg)
+
+25 feet -- 3 enclosures -- for $35 -- adds $12 per.
 
 # Revision History
 
