@@ -24,7 +24,12 @@ The design involves making a 'box' out of four 20" MERV-13 filters (the 'sides' 
 
 These devices can be built from parts that cost **less than $200 USD**, without any special tools.
 
-![](/img/co2/corsi_assembling.png)
+![](/img/co2/corsi_header.png)
+
+Image files:
+- SVG: [corsi_header.svg](/img/co2/corsi_header.svg)
+- PDF: [corsi_header.pdf](/img/co2/corsi_header.pdf)
+- PNG: [corsi_header.png](/img/co2/corsi_header.png)
 
 MERV-13 filters are capable of removing about 85% of viral-laden particulates from air; it's therefore a good assumption that about 85% of the air flow out of the fan at the top of the device is free of COVID-19 virus.  Informal tests and analyses using air flow meters and particulate matter sensors indicate that these devices can provide about 600 cubic feet per minute of virus-filtered air to the room.
 
