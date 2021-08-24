@@ -8,8 +8,6 @@ image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
-[anemometer](#anemometer)
-
 [Update 2021-08-08: See 'Revision History' at end of this page for summary of changes]
 
 [Update 2021-08-17, AM: WGBH piece on the Corsi / Rosenthal box, here: [https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy](https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy)]
