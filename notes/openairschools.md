@@ -92,6 +92,27 @@ Nice guide:
 
 > David Sobel has written extensively on the topic of children and hands-on education and play in nature. His numerous books—from Wild Play: Parenting Adventures in the Great Outdoors to Place-Based Education: Connecting Classrooms and Communities and to Childhood and Nature: Design Principles for Educators, plus other works focusing on different age levels—offer parents and teachers insights into the value, appeal, and techniques of outdoor experiences for personal, physical, and social growth.
 
+## Starting your own forest school
+
+[https://www.wonderschool.com/p/child-care-provider-resources/start-forest-kindergarten-usa/](https://www.wonderschool.com/p/child-care-provider-resources/start-forest-kindergarten-usa/)
+
+(nice link to resources at bottom)
+
+## UK Forest School Associatoin
+
+### Best practices 
+
+[https://forestschoolassociation.org/full-principles-and-criteria-for-good-practice/](https://forestschoolassociation.org/full-principles-and-criteria-for-good-practice/)
+
+### Summary video
+
+[https://forestschoolassociation.org/what-is-forest-school/](https://forestschoolassociation.org/what-is-forest-school/)
+
+## Forest School Certifications
+
+[https://forestschoolassociation.org/forest-school-qualification/](https://forestschoolassociation.org/forest-school-qualification/)
+
+
 ---
 
 # Ideas / projects
