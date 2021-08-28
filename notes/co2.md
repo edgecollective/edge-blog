@@ -5403,9 +5403,39 @@ apparently sparkfun uses 4-40 screws for most breakout boards ...
 
 [https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB](https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB)
 
+---
+2021-08-28 08:43:35
+
+Nice display of featherwing dimensions:
+
+[https://learn.adafruit.com/assets/29962](https://learn.adafruit.com/assets/29962)
+
+Mounting holes on feather are 0.1"
+
+space between mounting holes is 0.7"
+
+holes are .05" away from edge
+
+width is .9" 
+
+Feather M4 Express schematic: [https://cdn-learn.adafruit.com/assets/assets/000/057/242/original/arduino_compatibles_schem.png?1531010817](https://cdn-learn.adafruit.com/assets/assets/000/057/242/original/arduino_compatibles_schem.png?1531010817)
+
+![](/img/co2/feather_m4_breakouts.png)
+
+Note: nice to design with user grid in kicad of 10 mils when placing feather parts ...
+
+---
+2021-08-28 10:58:04
+
+![](/img/co2/side_button.png)
+
+Diam of 4-40 screw: [https://askinglot.com/what-is-the-diameter-of-a-4-40-screw](https://askinglot.com/what-is-the-diameter-of-a-4-40-screw)
 
 
+---
+2021-08-28 13:39:22
 
+Latest: REV_M 'main board' layout, still needs routing: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad)
 
 
 

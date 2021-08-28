@@ -140,9 +140,20 @@ Extensive resource:
 
 ![](/img/sanitation/home_depot.png)
 
+# Heating pads
+
+[https://www.amazon.com/Heater-Silicone-Mat-12V-15W/dp/B071KTPPGB](https://www.amazon.com/Heater-Silicone-Mat-12V-15W/dp/B071KTPPGB)
+
 # Toilet requirements
 
 [https://www.dalkita.com/how-many-plumbing-facilities-are-required-in-a-building/](https://www.dalkita.com/how-many-plumbing-facilities-are-required-in-a-building/)
 
+## Prototyping
 
+![](/img/sanitation/toiletto.jpg)
 
+![](/img/sanitation/heating_chain.jpg)
+
+![](/img/sanitation/heating_pad.jpg)
+
+![](/img/sanitation/wall_wart.jpg)

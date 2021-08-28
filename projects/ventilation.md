@@ -448,6 +448,14 @@ great graph re: impact of purifiers [https://twitter.com/DrEricDing/status/13636
 
 ## General notes on ventilation
 
+### Dr. Jiminez thread reviewing Science publication on COVID as airborne disease
+
+[https://twitter.com/jljcolorado/status/1430967286244970502?s=20](https://twitter.com/jljcolorado/status/1430967286244970502?s=20)
+
+### Jiminez Science review 27 Aug 20201
+
+[http://science.sciencemag.org/content/373/6558/eabd9149/tab-article-info](http://science.sciencemag.org/content/373/6558/eabd9149/tab-article-info)
+
 ### Risk Reduction Strategies for Reopening Schools (Harvard TH Chan)
 
 [https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/06/Harvard-Healthy-Buildings-Program-Schools-For-Health-Reopening-Covid19-June2020.pdf)
