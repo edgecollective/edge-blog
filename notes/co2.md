@@ -5437,6 +5437,9 @@ Diam of 4-40 screw: [https://askinglot.com/what-is-the-diameter-of-a-4-40-screw]
 
 Latest: REV_M 'main board' layout, still needs routing: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad)
 
+![](/img/co2/rev_m_layout.png)
+
+
 
 
 
