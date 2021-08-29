@@ -12,3 +12,7 @@ blurb: Designs for off-grid power generation
 
 bike generator: [https://www.instructables.com/Bike-Generator/](https://www.instructables.com/Bike-Generator/)
 
+electric bike w/ regen, $200: [
+https://spectrum.ieee.org/electric-bike](
+https://spectrum.ieee.org/electric-bike)
+
