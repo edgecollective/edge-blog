@@ -5439,6 +5439,10 @@ Latest: REV_M 'main board' layout, still needs routing: [https://gitlab.com/p-v-
 
 ![](/img/co2/rev_m_layout.png)
 
+---
+2021-08-28 20:55:16
+
+Initial routing of REV_M -- need to run DRC: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad)
 
 
 
