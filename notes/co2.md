@@ -5445,6 +5445,16 @@ Latest: REV_M 'main board' layout, still needs routing: [https://gitlab.com/p-v-
 Initial routing of REV_M -- need to run DRC: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad)
 
 
+---
+2021-08-30 11:45:13
+
+rev q add-on board:
+![](/img/co2/integrated_montior.png)
+
+![](/img/co2/scd30_module_front.png)
+
+![](/img/co2/scd30_module_back.png)
+
 
 
 
