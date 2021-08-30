@@ -5455,6 +5455,8 @@ rev q add-on board:
 
 ![](/img/co2/scd30_module_back.png)
 
+![](/img/co2/scd30_module_cover.png)
+
 
 
 
