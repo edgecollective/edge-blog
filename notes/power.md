@@ -60,3 +60,18 @@ How to make your Weller wireless:  [https://hackaday.com/2016/09/01/how-to-make-
 
 ![](/img/power/boosta_proto.png)
 
+---
+2021-09-02 12:24:32
+
+use-case -- would like to be able to use any found battery regardless of whether our own rechargeable battery is usable / attached.
+
+notes on building an iOS charger -- [https://surfncircuits.com/2017/04/17/build-your-own-super-fast-iphone-and-ipad-charger/#:~:text=The%20iPhone%2FiPad%20will%20charge,pull%2Ddown%20resistors%20to%20ground.](https://surfncircuits.com/2017/04/17/build-your-own-super-fast-iphone-and-ipad-charger/#:~:text=The%20iPhone%2FiPad%20will%20charge,pull%2Ddown%20resistors%20to%20ground.)
+
+![](/img/power/ios_resistors.png)
+
+from: [https://learn.adafruit.com/assets/17555](https://learn.adafruit.com/assets/17555)
+
+mini boost board from adafriut: [https://www.adafruit.com/product/4654](https://www.adafruit.com/product/4654)
+
+mini lithium ion charger: [https://www.adafruit.com/product/1904?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuoD2dAlN-PmjzzObB_W6UXimCcOiKV3vXKV7imbpoNHOwxtqcgY_oaAl8MEALw_wcB](https://www.adafruit.com/product/1904?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuoD2dAlN-PmjzzObB_W6UXimCcOiKV3vXKV7imbpoNHOwxtqcgY_oaAl8MEALw_wcB)
+

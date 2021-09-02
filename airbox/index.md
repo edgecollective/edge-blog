@@ -52,6 +52,9 @@ Notes on type / number of filters:
 
 Reference on ideal placements: "Impact of placement of portable air cleaning devices in multizone residential environments" -- for impact of various placements of air purifiers in room -- [https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments](https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments)
 
+## Electrostatic / MERV-13 issues over time
+
+[https://twitter.com/JohnSemmelhack/status/1313858509667213312?s=20](https://twitter.com/JohnSemmelhack/status/1313858509667213312?s=20)
 
 ## Sourcing build materials 
 
