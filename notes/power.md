@@ -53,3 +53,10 @@ adafruit charger board powerboost 1000 2465: [https://www.adafruit.com/product/2
 How to make your Weller wireless:  [https://hackaday.com/2016/09/01/how-to-make-your-weller-wireless/](https://hackaday.com/2016/09/01/how-to-make-your-weller-wireless/)
 
 
+----
+2021-08-31 12:49:42
+
+![](/img/power/powerboost_1000_dim.png)
+
+![](/img/power/boosta_proto.png)
+

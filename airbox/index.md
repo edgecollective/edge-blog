@@ -8,7 +8,9 @@ image: /img/co2/airbox.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
-[Update 2021-08-08: See 'Revision History' at end of this page for summary of changes]
+[Update 2021-08-02 NPR web piece [https://www.npr.org/sections/back-to-school-live-updates/2021/08/26/1031018250/does-your-kids-classroom-need-an-air-purifier-heres-how-you-can-make-one-yoursel](https://www.npr.org/sections/back-to-school-live-updates/2021/08/26/1031018250/does-your-kids-classroom-need-an-air-purifier-heres-how-you-can-make-one-yoursel)]
+
+[Update 2021-08-02 NPR audio piece [https://one.npr.org/?sharedMediaId=1030886479:1030886480](https://one.npr.org/?sharedMediaId=1030886479:1030886480) ]
 
 [Update 2021-08-17, AM: WGBH piece on the Corsi / Rosenthal box, here: [https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy](https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy)]
 
@@ -113,6 +115,23 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 ![](/img/airbox/particle_sizes.png)
 
 from [https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf](https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf)
+
+## Testing
+
+### CFM: 
+
+[https://twitter.com/JohnSemmelhack/status/1313855226844151808](https://twitter.com/JohnSemmelhack/status/1313855226844151808)
+
+![](/img/co2/cfm.jpeg)
+
+### UC Davis evaluation of design
+
+[https://twitter.com/JimRosenthal4/status/1432784870179282947?s=20](https://twitter.com/JimRosenthal4/status/1432784870179282947?s=20)
+
+### UL Testing (regards smoke)
+
+[https://chemicalinsights.org/wp-content/uploads/DIY-Box-Fan-Report-2021.pdf?utm_source=Chemical+Insights&utm_campaign=d52ba63ea8-July_2021_Newsletter7_13_2021_13_4&utm_medium=email&utm_term=0_09fecf83d2-d52ba63ea8-119531236](https://chemicalinsights.org/wp-content/uploads/DIY-Box-Fan-Report-2021.pdf?utm_source=Chemical+Insights&utm_campaign=d52ba63ea8-July_2021_Newsletter7_13_2021_13_4&utm_medium=email&utm_term=0_09fecf83d2-d52ba63ea8-119531236)
+
 
 ## Illustrations of build process, with variations
 
