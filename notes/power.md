@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-08-27
 updated: 2021-08-27
 tags: notes 
-image: /img/placeholder.png
+image: /img/power/boosta_proto.png
 blurb: Designs for off-grid power generation
 ---
 
