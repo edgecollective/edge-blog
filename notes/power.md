@@ -75,3 +75,18 @@ mini boost board from adafriut: [https://www.adafruit.com/product/4654](https://
 
 mini lithium ion charger: [https://www.adafruit.com/product/1904?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuoD2dAlN-PmjzzObB_W6UXimCcOiKV3vXKV7imbpoNHOwxtqcgY_oaAl8MEALw_wcB](https://www.adafruit.com/product/1904?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuoD2dAlN-PmjzzObB_W6UXimCcOiKV3vXKV7imbpoNHOwxtqcgY_oaAl8MEALw_wcB)
 
+---
+2021-09-03 07:41:01
+
+testing linear regs for solar -- [https://hackaday.io/project/167731-testing-cheap-linear-li-ion-chargers-for-solar](https://hackaday.io/project/167731-testing-cheap-linear-li-ion-chargers-for-solar)
+
+adafruit universal solar charger -- [https://www.adafruit.com/product/4755?gclid=CjwKCAjwj8eJBhA5EiwAg3z0m8pR-K0VVaCii9vLc6v-5gllRUgpaZQn74dGXHO2fr2EmlnLuZs4ExoCacMQAvD_BwE](https://www.adafruit.com/product/4755?gclid=CjwKCAjwj8eJBhA5EiwAg3z0m8pR-K0VVaCii9vLc6v-5gllRUgpaZQn74dGXHO2fr2EmlnLuZs4ExoCacMQAvD_BwE)
+
+input -- can take in 5-10V ... so DC-DC input is an option ... as well as 5V solar panels!
+
+adafruit small solar -- [https://www.adafruit.com/product/3809](https://www.adafruit.com/product/3809)
+
+![](/img/power/solar_charger.png)
+
+deer solar panel -- [https://www.amazon.com/ZEALLIFE-6V-Solar-Panel-Waterproof/dp/B07LD9YN27](https://www.amazon.com/ZEALLIFE-6V-Solar-Panel-Waterproof/dp/B07LD9YN27)
+

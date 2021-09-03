@@ -157,3 +157,11 @@ Extensive resource:
 ![](/img/sanitation/heating_pad.jpg)
 
 ![](/img/sanitation/wall_wart.jpg)
+
+---
+2021-09-03 08:35:47
+
+rolling commode, $80 [https://www.amazon.com/DMI-Transport-Handicap-Disabled-Capacity/dp/B000EX61KQ](https://www.amazon.com/DMI-Transport-Handicap-Disabled-Capacity/dp/B000EX61KQ)
+
+![](/img/sanitation/commode_design.png)
+
