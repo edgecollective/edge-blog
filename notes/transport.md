@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-08-27
 updated: 2021-08-27
 tags: notes 
-image: /img/placeholder.png
+image: /img/transport/crutches.jpeg
 blurb: Designs for bike trailers, wheelbarrows, etc.
 ---
 
