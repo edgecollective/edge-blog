@@ -115,6 +115,24 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 # References / Materials
 
+## Folks building boxes
+
+30 Corsi / Rosenthal boxes being built for school: [https://twitter.com/v8juice3/status/1434220361000828933?s=20](https://twitter.com/v8juice3/status/1434220361000828933?s=20)
+
+## Concerns re: safety, and responses
+
+[https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20](https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20)
+
+- filters mitigate build-up of dust on motor: [https://twitter.com/asbestos/status/1433837001749327877?s=20](https://twitter.com/asbestos/status/1433837001749327877?s=20)
+- persuasian document: [https://twitter.com/LazarusLong13/status/1433881681056829440?s=20](https://twitter.com/LazarusLong13/status/1433881681056829440?s=20)
+- deployment for years w/out issues: [https://twitter.com/LazarusLong13/status/1433860324428447746?s=20](https://twitter.com/LazarusLong13/status/1433860324428447746?s=20)
+- SF DPH document: [https://twitter.com/VanGennepD/status/1433845587636473856?s=20](https://twitter.com/VanGennepD/status/1433845587636473856?s=20)
+- thermally protected, fused [https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20](https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20)
+- pic of safety plug [https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20](https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20)
+
+
+## Particle sizes
+
 ![](/img/airbox/particle_sizes.png)
 
 from [https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf](https://www.cdc.gov/niosh/docs/2003-136/pdfs/2003-136.pdf)
