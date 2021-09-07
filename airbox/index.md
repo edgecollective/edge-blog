@@ -388,6 +388,10 @@ MTB Galvanized Hardware Cloth 24 Inch x 25 Foot -1/2 Inch x 1/2 Inch 19GA
 
 25 feet -- 3 enclosures -- for $35 -- adds $12 per.
 
+## Commercial HEPA models
+
+Medify Air MA-40: CADR given as 224 cfm [https://reviewsofairpurifiers.com/medify-ma-40-air-purifier-review/](https://reviewsofairpurifiers.com/medify-ma-40-air-purifier-review/)
+
 # Revision History
 
 ---
