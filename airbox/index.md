@@ -392,6 +392,10 @@ MTB Galvanized Hardware Cloth 24 Inch x 25 Foot -1/2 Inch x 1/2 Inch 19GA
 
 Medify Air MA-40: CADR given as 224 cfm [https://reviewsofairpurifiers.com/medify-ma-40-air-purifier-review/](https://reviewsofairpurifiers.com/medify-ma-40-air-purifier-review/)
 
+## Aerosol transmission ...
+
+[https://twitter.com/jeremychrysler/status/1435077275700109315?s=20](https://twitter.com/jeremychrysler/status/1435077275700109315?s=20)
+
 # Revision History
 
 ---
