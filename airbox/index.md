@@ -115,6 +115,12 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 # References / Materials
 
+## Placement of box in room
+
+[https://twitter.com/JimRosenthal4/status/1434248340930191363?s=20](https://twitter.com/JimRosenthal4/status/1434248340930191363?s=20)
+
+> The optimal place is in the center of the room. However, that is not always possible. The units will work effectively as long as they are at least 3 feet away from any wall.
+
 ## Folks building boxes
 
 30 Corsi / Rosenthal boxes being built for school: [https://twitter.com/v8juice3/status/1434220361000828933?s=20](https://twitter.com/v8juice3/status/1434220361000828933?s=20)
@@ -129,7 +135,7 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 - SF DPH document: [https://twitter.com/VanGennepD/status/1433845587636473856?s=20](https://twitter.com/VanGennepD/status/1433845587636473856?s=20)
 - thermally protected, fused [https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20](https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20)
 - pic of safety plug [https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20](https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20)
-
+- school boards are careful b/c of liability [https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20](https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20)
 
 ## Particle sizes
 

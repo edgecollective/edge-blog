@@ -90,3 +90,11 @@ adafruit small solar -- [https://www.adafruit.com/product/3809](https://www.adaf
 
 deer solar panel -- [https://www.amazon.com/ZEALLIFE-6V-Solar-Panel-Waterproof/dp/B07LD9YN27](https://www.amazon.com/ZEALLIFE-6V-Solar-Panel-Waterproof/dp/B07LD9YN27)
 
+---
+2021-09-04 15:37:15
+
+inverter -- [https://www.amazon.com/BESTEK-300W-Power-Inverter-Adapter/dp/B004MDXS0U](https://www.amazon.com/BESTEK-300W-Power-Inverter-Adapter/dp/B004MDXS0U)
+
+cigarette lighter adapter fused [https://www.amazon.com/Roadpro-Replacement-Cigarette-Lighter-RPPS-225/dp/B0016LG0CY](https://www.amazon.com/Roadpro-Replacement-Cigarette-Lighter-RPPS-225/dp/B0016LG0CY)
+
+basic AC soldering station, weller, $40 -- 40 Watts [https://www.amazon.com/Weller-WLC100-40-Watt-Soldering-Station/dp/B000AS28UC](https://www.amazon.com/Weller-WLC100-40-Watt-Soldering-Station/dp/B000AS28UC)
