@@ -130,15 +130,14 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 <a name="safety"></a> 
 ## Guidance on communication with school administration re: pedagogical benefits, safety concern
 
-[https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20](https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20)
-
+- Example correspondence regarding pedagogical benefits: [https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20](https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20)
 - filters mitigate build-up of dust on motor: [https://twitter.com/asbestos/status/1433837001749327877?s=20](https://twitter.com/asbestos/status/1433837001749327877?s=20)
-- persuasian document: [https://twitter.com/LazarusLong13/status/1433881681056829440?s=20](https://twitter.com/LazarusLong13/status/1433881681056829440?s=20)
-- deployment for years w/out issues: [https://twitter.com/LazarusLong13/status/1433860324428447746?s=20](https://twitter.com/LazarusLong13/status/1433860324428447746?s=20)
+- 'persuasian' document: [https://twitter.com/LazarusLong13/status/1433881681056829440?s=20](https://twitter.com/LazarusLong13/status/1433881681056829440?s=20)
+- experience deploying similar setup for years w/out issues: [https://twitter.com/LazarusLong13/status/1433860324428447746?s=20](https://twitter.com/LazarusLong13/status/1433860324428447746?s=20)
 - SF DPH document: [https://twitter.com/VanGennepD/status/1433845587636473856?s=20](https://twitter.com/VanGennepD/status/1433845587636473856?s=20)
-- thermally protected, fused [https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20](https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20)
-- pic of safety plug [https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20](https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20)
-- school boards are careful b/c of liability [https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20](https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20)
+- Fans are thermally protected, fused: [https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20](https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20)
+- Pic of safety plug on fan: [https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20](https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20)
+- School boards are cautious b/c of liability: [https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20](https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20)
 
 ## Particle sizes
 
