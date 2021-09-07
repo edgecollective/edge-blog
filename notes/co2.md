@@ -5464,6 +5464,19 @@ rev q add-on board:
 
 Adafruit rtc featherwing [https://www.adafruit.com/product/2922](https://www.adafruit.com/product/2922)
 
+-- uses CR1220 battery.
+
+using w/ circuitpy here: [https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython](https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython)
+
+---
+2021-09-07 10:57:39
+
+to order from digikey:
+
+adalogger + rtc wing
+
+qwiic connectors + cable
+
 
 
 

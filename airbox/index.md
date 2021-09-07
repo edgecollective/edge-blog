@@ -125,7 +125,10 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 
 30 Corsi / Rosenthal boxes being built for school: [https://twitter.com/v8juice3/status/1434220361000828933?s=20](https://twitter.com/v8juice3/status/1434220361000828933?s=20)
 
-## Concerns re: safety, and responses
+
+
+<a name="safety"></a> 
+## Guidance on communication with school administration re: pedagogical benefits, safety concern
 
 [https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20](https://twitter.com/JimRosenthal4/status/1434114488618323971?s=20)
 
