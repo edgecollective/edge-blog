@@ -138,6 +138,9 @@ The equivalent ACH provided by air purification is 'additive' -- e.g. in the abo
 - Fans are thermally protected, fused: [https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20](https://twitter.com/DavidElfstrom/status/1433828491632513033?s=20)
 - Pic of safety plug on fan: [https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20](https://twitter.com/DavidElfstrom/status/1433837957471997957?s=20)
 - School boards are cautious b/c of liability: [https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20](https://twitter.com/JimRosenthal4/status/1434245056827961347?s=20)
+- Just use when teachers are in classroom and can monitor fan: [https://twitter.com/James___Morris/status/1433839583817449475?s=20](https://twitter.com/James___Morris/status/1433839583817449475?s=20)
+- Use a timer: [https://twitter.com/crafty_caro/status/1435405716538499081?s=20](https://twitter.com/crafty_caro/status/1435405716538499081?s=20)
+
 
 ## Particle sizes
 
@@ -241,6 +244,18 @@ Files:
 ![](/img/co2/merv_compare.png)
 
 [https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/](https://www.texairfilters.com/its-all-about-the-air-flow-through-the-filter/)
+
+2021-09-07 19:31:18 
+
+[https://www.built-envi.com/wp-content/uploads/IIT-CADR-Testing-C-R-Box-September-2021.pdf](https://www.built-envi.com/wp-content/uploads/IIT-CADR-Testing-C-R-Box-September-2021.pdf) 
+
+via:
+
+[http://built-envi.com/portfolio/air-cleaner-testing/](http://built-envi.com/portfolio/air-cleaner-testing/)
+
+via: [https://twitter.com/built_envi/status/1435328519471501320?s=20](https://twitter.com/built_envi/status/1435328519471501320?s=20)
+
+
 
 ---
 

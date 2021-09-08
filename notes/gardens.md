@@ -13,3 +13,9 @@ blurb: Designs and calculations around collective food self-provisioning
 
 [Sci Am article on lawns](https://blogs.scientificamerican.com/anthropology-in-practice/the-american-obsession-with-lawns/)
 
+---
+2021-09-07 21:31:25
+
+![](/img/gardens/lca_analysis.png)
+
+"nvironmental impacts and resource use of urban agriculture: a systematic review and meta-analysis": [https://iopscience.iop.org/article/10.1088/1748-9326/ac1a39](https://iopscience.iop.org/article/10.1088/1748-9326/ac1a39)
