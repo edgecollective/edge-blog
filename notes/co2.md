@@ -5362,120 +5362,20 @@ esp32 airlift, because:
 - easier to replace w/ ubiquitous chip
 - more likely to be avail
 
----
-2021-08-20 14:16:37
-
-![](/img/co2/metal_strap.png)
-
-![](/img/co2/metal_braces.png)
-
-![](/img/co2/l-shaped_bracket.png)
-
-[https://www.digikey.com/en/products/detail/keystone-electronics/612/416364](https://www.digikey.com/en/products/detail/keystone-electronics/612/416364)
-
-![](/img/co2/mounting_brackets.png)
-
-[https://www.keyelco.com/userAssets/file/M65p118.pdf](https://www.keyelco.com/userAssets/file/M65p118.pdf)
-
+add a buzzer
 
 ---
-2021-08-20 14:42:04
+2021-09-07 13:28:29
 
-Aranet 4 specs: [https://aranet.com/wp-content/uploads/2019/01/Aranet4_datasheet_v2.2_WEB.pdf](https://aranet.com/wp-content/uploads/2019/01/Aranet4_datasheet_v2.2_WEB.pdf)
+## CO2 sensors useful in schools generally
 
----
-2021-08-20 15:49:19
-
-headers
-
-![](/img/co2/2.0mm-Header-Single-Row-RA-Series-C-300x225.jpg)
-
-![](/img/co2/keystone_brackets.png)
-
-apparently sparkfun uses 4-40 screws for most breakout boards ...
-
-[https://www.sparkfun.com/products/10453](https://www.sparkfun.com/products/10453)
-
----
-2021-08-20 16:00:30
-
-![](/img/co2/keystone_bracket_621.png)
-
-[https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB](https://www.digikey.com/en/products/detail/keystone-electronics/621/316544?utm_adgroup=Mounting%20Brackets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Hardware%2C%20Fasteners%2C%20Accessories&utm_term=&utm_content=Mounting%20Brackets&gclid=Cj0KCQjwpf2IBhDkARIsAGVo0D3gKHhjRabEbn-nk1css2Burc0rE11JLeUl_Z0A9UhSuRAZ6RUvGjUaAiFWEALw_wcB)
-
----
-2021-08-28 08:43:35
-
-Nice display of featherwing dimensions:
-
-[https://learn.adafruit.com/assets/29962](https://learn.adafruit.com/assets/29962)
-
-Mounting holes on feather are 0.1"
-
-space between mounting holes is 0.7"
-
-holes are .05" away from edge
-
-width is .9" 
-
-Feather M4 Express schematic: [https://cdn-learn.adafruit.com/assets/assets/000/057/242/original/arduino_compatibles_schem.png?1531010817](https://cdn-learn.adafruit.com/assets/assets/000/057/242/original/arduino_compatibles_schem.png?1531010817)
-
-![](/img/co2/feather_m4_breakouts.png)
-
-Note: nice to design with user grid in kicad of 10 mils when placing feather parts ...
-
----
-2021-08-28 10:58:04
-
-![](/img/co2/side_button.png)
-
-Diam of 4-40 screw: [https://askinglot.com/what-is-the-diameter-of-a-4-40-screw](https://askinglot.com/what-is-the-diameter-of-a-4-40-screw)
+[https://twitter.com/DavidElfstrom/status/1435290656608501765?s=20](https://twitter.com/DavidElfstrom/status/1435290656608501765?s=20)
 
 
----
-2021-08-28 13:39:22
-
-Latest: REV_M 'main board' layout, still needs routing: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/975051a763b2f3c3f8ce2911d619488e3bb65e17/REV_M/hardware/kicad)
-
-![](/img/co2/rev_m_layout.png)
-
----
-2021-08-28 20:55:16
-
-Initial routing of REV_M -- need to run DRC: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/985110d1e51e51126ec640d43eb116ea893627cb/REV_Q_FLAT/hardware/kicad)
 
 
----
-2021-08-30 11:45:13
 
-rev q add-on board:
-![](/img/co2/integrated_montior.png)
 
-![](/img/co2/scd30_module_front.png)
-
-![](/img/co2/scd30_module_back.png)
-
-![](/img/co2/scd30_module_cover.png)
-
-![](/img/co2/scd30_cover_back.png)
-
----
-2021-09-06 20:32:15
-
-Adafruit rtc featherwing [https://www.adafruit.com/product/2922](https://www.adafruit.com/product/2922)
-
--- uses CR1220 battery.
-
-using w/ circuitpy here: [https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython](https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython)
-
----
-2021-09-07 10:57:39
-
-to order from digikey:
-
-adalogger + rtc wing
-
-qwiic connectors + cable
 
 
 
