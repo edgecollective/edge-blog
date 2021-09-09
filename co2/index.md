@@ -9,7 +9,8 @@ blurb: Using CO2 monitors to assess indoor ventilation
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oSCGIvZFmVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oSCGIvZFmVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 # Ventilation and the risk of indoor COVID-19 transmission
 
@@ -51,7 +52,7 @@ Further: it's possible to estimate what percentage of the air that someone is br
 
 | ![](/img/co2/co2_stoplight.png)    |
 |:--:|
-| From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
+|**Figure 1**. From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
 
 Complications for this method (courtesy, Poppendieck):
 
@@ -103,7 +104,7 @@ Estimates have been made for 'safe' levels of ACH for COVID-19:
 
 | ![](/img/co2/harvard_ach_recommendations.png) |
 |:--:|
-|From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf).|
+|**Figure 2**. From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf).|
 
 NOTE:  these safety levels were made for the initial, 'wild-type' variant, and may be underestimates for current variants, which are considered to be more infectious. 
 
@@ -120,18 +121,19 @@ Using this 'tracer gas' approach, we only need to have a single experimenter in 
 - Stop the release of excess CO2 into the room (remove the source from the room).
 - Monitor the CO2 level until it returns to within 10 or 20% of its initial baseline. 
 
+<a name="tracer_graphs"></a>
 | ![](/img/co2/ach_co2_tracer.png)    |
 |:--:|
-| From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
+|**Figure 3**. From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
 
 | ![](/img/co2/fig1_menzies.png)   |
 |:--:|
-| From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
+|**Figure 4**. From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
 
 
 | ![](/img/co2/humbolt.png)    |
 |:--:|
-| From Poppendieck [thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
+|**Figure 5**. From Poppendieck [Twitter thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
 
 
 ## Design considerations for CO2 Monitoring Devices and the 'tracer gas' method
@@ -142,7 +144,7 @@ When using a CO2 monitor for the 'tracer gas' method outlined above, particular 
 
 | ![](/img/co2/pcb_experiment.png) |
 |:--:|
-| **CO2 Monitor Response Time Experiments.** The response profiles of various enclosure options.  E.g. compare the relatively slow response of option 'A' (large enclosure, few ventilation holes) with the much faster response of option 'B' (no enclosure). In both cases, the monitor was transferred within a few seconds from a higher-CO2 space into the outdoors, held there for a while, and then returned within a few seconds back to the higher-CO2 space. |
+|**Figure 6**. **CO2 Monitor Response Time Experiments.** The response profiles of various enclosure options.  E.g. compare the relatively slow response of option 'A' (large enclosure, few ventilation holes) with the much faster response of option 'B' (no enclosure). In both cases, the monitor was transferred within a few seconds from a higher-CO2 space into the outdoors, held there for a while, and then returned within a few seconds back to the higher-CO2 space. |
 
 The CO2 monitor should have a 'response time' (how long it takes to measure and record the ambient level of CO2 in the room) that is as fast or faster than the rate at which CO2 is expected to 'decay' in the 'tracer gas' experiment.  
 
