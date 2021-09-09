@@ -124,7 +124,7 @@ Using this 'tracer gas' approach, we only need to have a single experimenter in 
 <a name="tracer_graphs"></a>
 | ![](/img/co2/ach_co2_tracer.png)    |
 |:--:|
-|**Figure 3**. From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
+|**Figure 3**. An example dataset from a 'CO2 tracer gas' experiment.  After an initial baseline measurement at time=0 minutes, excess CO2 (from baking soda + vinegar) is released into the space, causing a spike in the measured CO2 ("CO2 release").  Windows in the room are initially closed, resulting in a relatively low ACH value (0.5 ACH, determined via exponential fit).  Then, windows are opened, resulting in a relatively higher ACH (12 ACH).  From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
 
 | ![](/img/co2/fig1_menzies.png)   |
 |:--:|
