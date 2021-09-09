@@ -92,6 +92,7 @@ removed even if CO2
  remains high because cleaners with HEPA filters are not designed to remove CO2
 .
 
+<a name="tracer"></a>
 ## The CO2 'tracer gas' method: estimating ACH
 
 Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  

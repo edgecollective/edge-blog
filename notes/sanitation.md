@@ -165,3 +165,18 @@ rolling commode, $80 [https://www.amazon.com/DMI-Transport-Handicap-Disabled-Cap
 
 ![](/img/sanitation/commode_design.png)
 
+---
+2021-09-08 09:35:06
+
+Build a simple chair with 2x4s [https://www.morelikehome.net/2012/10/day-4-build-simple-chair-with-2x4s.html](https://www.morelikehome.net/2012/10/day-4-build-simple-chair-with-2x4s.html)
+
+![](/img/sanitation/chair.jpg)
+
+![](/img/sanitation/chair_design.jpg)
+
+Great construction review ...
+
+Home depot 2"x4"x8': [https://www.homedepot.com/p/WeatherShield-2-in-x-4-in-x-8-ft-1-Ground-Contact-Pressure-Treated-Lumber-253941/206966018?source=shoppingads&locale=en-US&mtc=Shopping-B-F_D21-G-D21-021_020_PR_TRT_DECK-Generic-NA-Feed-PLA_LIA-NA-NA-Q3_Pro_Control&cm_mmc=Shopping-B-F_D21-G-D21-021_020_PR_TRT_DECK-Generic-NA-Feed-PLA_LIA-NA-NA-Q3_Pro_Control-71700000033771612-58700003911213650-92700031500550998&gclid=CjwKCAjwvuGJBhB1EiwACU1AicohmtB_PLreewnYodfQgc7edxkNTJytokC6GLCRdcn0WiTD3gvh0BoCOMIQAvD_BwE&gclsrc=aw.ds](https://www.homedepot.com/p/WeatherShield-2-in-x-4-in-x-8-ft-1-Ground-Contact-Pressure-Treated-Lumber-253941/206966018?source=shoppingads&locale=en-US&mtc=Shopping-B-F_D21-G-D21-021_020_PR_TRT_DECK-Generic-NA-Feed-PLA_LIA-NA-NA-Q3_Pro_Control&cm_mmc=Shopping-B-F_D21-G-D21-021_020_PR_TRT_DECK-Generic-NA-Feed-PLA_LIA-NA-NA-Q3_Pro_Control-71700000033771612-58700003911213650-92700031500550998&gclid=CjwKCAjwvuGJBhB1EiwACU1AicohmtB_PLreewnYodfQgc7edxkNTJytokC6GLCRdcn0WiTD3gvh0BoCOMIQAvD_BwE&gclsrc=aw.ds)
+
+Home depot #9 2-1/2 in screws [https://www.homedepot.com/p/GRK-Fasteners-9-x-2-1-2-in-Star-Drive-Bugle-Head-R4-Multi-Purpose-Screw-100-per-Pack-103101/203525228?source=shoppingads&locale=en-US&mtc=Shopping-VF-F_DYNM-G-D25H-025_003_FASTENERS-ITW-NA-NA-SMART-2230816-WF-MK464653325_9016067259_FY21_1683_GRK&cm_mmc=Shopping-VF-F_DYNM-G-D25H-025_003_FASTENERS-ITW-NA-NA-SMART-2230816-WF-MK464653325_9016067259_FY21_1683_GRK-71700000083870519-58700007117768510-92700064032986206&gclid=CjwKCAjwvuGJBhB1EiwACU1AiWZ258-8gLi2EMPd8XjQTfsZPcoEtavCXhMMy1mZhEpNLaRX12VY-xoCf8wQAvD_BwE&gclsrc=aw.ds](https://www.homedepot.com/p/GRK-Fasteners-9-x-2-1-2-in-Star-Drive-Bugle-Head-R4-Multi-Purpose-Screw-100-per-Pack-103101/203525228?source=shoppingads&locale=en-US&mtc=Shopping-VF-F_DYNM-G-D25H-025_003_FASTENERS-ITW-NA-NA-SMART-2230816-WF-MK464653325_9016067259_FY21_1683_GRK&cm_mmc=Shopping-VF-F_DYNM-G-D25H-025_003_FASTENERS-ITW-NA-NA-SMART-2230816-WF-MK464653325_9016067259_FY21_1683_GRK-71700000083870519-58700007117768510-92700064032986206&gclid=CjwKCAjwvuGJBhB1EiwACU1AiWZ258-8gLi2EMPd8XjQTfsZPcoEtavCXhMMy1mZhEpNLaRX12VY-xoCf8wQAvD_BwE&gclsrc=aw.ds)
+

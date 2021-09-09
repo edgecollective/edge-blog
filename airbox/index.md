@@ -411,6 +411,19 @@ Medify Air MA-40: CADR given as 224 cfm [https://reviewsofairpurifiers.com/medif
 
 [https://twitter.com/jeremychrysler/status/1435077275700109315?s=20](https://twitter.com/jeremychrysler/status/1435077275700109315?s=20)
 
+## Vaccinated & unvaccinated risk, Delta variant
+
+[https://www.npr.org/2021/08/12/1027198500/the-potential-implications-of-not-tracking-breakthrough-cases](https://www.npr.org/2021/08/12/1027198500/the-potential-implications-of-not-tracking-breakthrough-cases)
+
+[https://www.propublica.org/article/the-cdc-only-tracks-a-fraction-of-breakthrough-covid-19-infections-even-as-cases-surge](https://www.propublica.org/article/the-cdc-only-tracks-a-fraction-of-breakthrough-covid-19-infections-even-as-cases-surge)
+
+long covid in kids: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7927578/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7927578/)
+
+## Using particle sensors to assess impact of filters
+
+[https://twitter.com/dgurdasani1/status/1435520424478183424?s=20](https://twitter.com/dgurdasani1/status/1435520424478183424?s=20)
+
+
 # Revision History
 
 ---
