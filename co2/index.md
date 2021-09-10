@@ -96,6 +96,9 @@ removed even if CO2
 <a name="tracer"></a>
 ## The CO2 'tracer gas' method: estimating ACH
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8UDeu_CqKhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 | ![](/img/co2/ach_diad.png) |
 |:--:|
 | **Figure 2**. Air changes per hour (or **ACH**) is a standard measure of the rate at which the air in the room is replaced by outdoor air. An air purifier can remove contaminants from the air at a rate that can be expressed in "equivalent air changes per hour", or **eACH**.  These ventilation rates are additive; the total ventilation rate in the room can be considered to be **ACH_total = ACH + eACH**. |
