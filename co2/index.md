@@ -96,6 +96,10 @@ removed even if CO2
 <a name="tracer"></a>
 ## The CO2 'tracer gas' method: estimating ACH
 
+Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  
+
+The basic idea is that we can inject 'excess' CO2 into a room (exhaled by humans, or generated some other way), then watch how long it takes for that excess CO2 to be removed via ventilation.  By measuring carefully, we can use this approach to estimate a standard measure of ventilation, "air changes per hour" -- the number of times per hour that all of the room has been effectively replaced by outdoor air.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8UDeu_CqKhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -103,10 +107,6 @@ removed even if CO2
 |:--:|
 | **Figure 2**. Air changes per hour (or **ACH**) is a standard measure of the rate at which the air in the room is replaced by outdoor air. An air purifier can remove contaminants from the air at a rate that can be expressed in "equivalent air changes per hour", or **eACH**.  These ventilation rates are additive; the total ventilation rate in the room can be considered to be **ACH_total = ACH + eACH**. |
 
-
-Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  
-
-The basic idea is that we can inject 'excess' CO2 into a room (exhaled by humans, or generated some other way), then watch how long it takes for that excess CO2 to be removed via ventilation.  By measuring carefully, we can use this approach to estimate a standard measure of ventilation, "air changes per hour" -- the number of times per hour that all of the room has been effectively replaced by outdoor air.
 
 Estimates have been made for 'safe' levels of ACH for COVID-19:
 
