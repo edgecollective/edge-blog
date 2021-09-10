@@ -96,6 +96,11 @@ removed even if CO2
 <a name="tracer"></a>
 ## The CO2 'tracer gas' method: estimating ACH
 
+| ![](/img/co2/ach_diad.png) |
+|:--:|
+| **Figure 2**. Air changes per hour (or **ACH**) is a standard measure of the rate at which the air in the room is replaced by outdoor air. An air purifier can remove contaminants from the air at a rate that can be expressed in "equivalent air changes per hour", or **eACH**.  These ventilation rates are additive; the total ventilation rate in the room can be considered to be **ACH_total = ACH + eACH**. |
+
+
 Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  
 
 The basic idea is that we can inject 'excess' CO2 into a room (exhaled by humans, or generated some other way), then watch how long it takes for that excess CO2 to be removed via ventilation.  By measuring carefully, we can use this approach to estimate a standard measure of ventilation, "air changes per hour" -- the number of times per hour that all of the room has been effectively replaced by outdoor air.
@@ -104,7 +109,7 @@ Estimates have been made for 'safe' levels of ACH for COVID-19:
 
 | ![](/img/co2/harvard_ach_recommendations.png) |
 |:--:|
-|**Figure 2**. From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf).|
+|**Figure 3**. From ["How to assess indoor classroom ventilation"](https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf).|
 
 NOTE:  these safety levels were made for the initial, 'wild-type' variant, and may be underestimates for current variants, which are considered to be more infectious. 
 
@@ -124,16 +129,16 @@ Using this 'tracer gas' approach, we only need to have a single experimenter in 
 <a name="tracer_graphs"></a>
 | ![](/img/co2/ach_co2_tracer.png)    |
 |:--:|
-|**Figure 3**. An example dataset from a 'CO2 tracer gas' experiment.  After an initial baseline measurement at time=0 minutes, excess CO2 (from baking soda + vinegar) is released into the space, causing a spike in the measured CO2 ("CO2 release").  Windows in the room are initially closed, resulting in a relatively low ACH value (0.5 ACH, determined via exponential fit).  Then, windows are opened, resulting in a relatively higher ACH (12 ACH).  From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
+|**Figure 4**. An example dataset from a 'CO2 tracer gas' experiment.  After an initial baseline measurement at time=0 minutes, excess CO2 (from baking soda + vinegar) is released into the space, causing a spike in the measured CO2 ("CO2 release").  Windows in the room are initially closed, resulting in a relatively low ACH value (0.5 ACH, determined via exponential fit).  Then, windows are opened, resulting in a relatively higher ACH (12 ACH).  From [https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf](https://www.ghdonline.org/uploads/Measuring_Air_Changes.pdf)   |
 
 | ![](/img/co2/fig1_menzies.png)   |
 |:--:|
-|**Figure 4**. From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
+|**Figure 5**. From [Menzies 1995](/img/co2/Menzies_1995_CO2ventillation.pdf).   |
 
 
 | ![](/img/co2/humbolt.png)    |
 |:--:|
-|**Figure 5**. From Poppendieck [Twitter thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
+|**Figure 6**. From Poppendieck [Twitter thread](https://twitter.com/Poppendieck/status/1366055136859070468?s=20)   |
 
 
 ## Design considerations for CO2 Monitoring Devices and the 'tracer gas' method
@@ -144,7 +149,7 @@ When using a CO2 monitor for the 'tracer gas' method outlined above, particular 
 
 | ![](/img/co2/pcb_experiment.png) |
 |:--:|
-|**Figure 6**. **CO2 Monitor Response Time Experiments.** The response profiles of various enclosure options.  E.g. compare the relatively slow response of option 'A' (large enclosure, few ventilation holes) with the much faster response of option 'B' (no enclosure). In both cases, the monitor was transferred within a few seconds from a higher-CO2 space into the outdoors, held there for a while, and then returned within a few seconds back to the higher-CO2 space. |
+|**Figure 7**. **CO2 Monitor Response Time Experiments.** The response profiles of various enclosure options.  E.g. compare the relatively slow response of option 'A' (large enclosure, few ventilation holes) with the much faster response of option 'B' (no enclosure). In both cases, the monitor was transferred within a few seconds from a higher-CO2 space into the outdoors, held there for a while, and then returned within a few seconds back to the higher-CO2 space. |
 
 The CO2 monitor should have a 'response time' (how long it takes to measure and record the ambient level of CO2 in the room) that is as fast or faster than the rate at which CO2 is expected to 'decay' in the 'tracer gas' experiment.  
 

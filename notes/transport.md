@@ -31,3 +31,21 @@ Chinese Wheelbarrow [https://www.lowtechmagazine.com/2011/12/the-chinese-wheelba
 
 ![](/img/transport/roberta_4.jpg)
 
+---
+2021-09-09 21:37:06
+
+No-weld bike trailer [https://www.youtube.com/watch?v=kHwX_x-4SrQ](https://www.youtube.com/watch?v=kHwX_x-4SrQ)
+
+PVC bike trailer [https://www.youtube.com/watch?v=QcxcH2UeamU](https://www.youtube.com/watch?v=QcxcH2UeamU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U2TlfRec-N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iJlyZs1-igE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eXw2ocuuBRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/olnBPwIo1KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6fSAiOS-S9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1AyF8NE5ePY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

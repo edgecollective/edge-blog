@@ -55,6 +55,16 @@ Material in bin shrinks
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_4oHdfFufOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## 20 minute compost pile lecture (design using chickenwire!)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UqxWpExokQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JuKyhUVbKwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rlml3Lmdv2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gy3W5fs0KWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Humanure Handbook Whitepaper
 
 [https://humanurehandbook.com/downloads/humanure_sanitation_paper.pdf](https://humanurehandbook.com/downloads/humanure_sanitation_paper.pdf)
