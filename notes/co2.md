@@ -5376,7 +5376,39 @@ add a buzzer
 
 Another way to do the ACH experiment -- recess! [https://twitter.com/DavidElfstrom/status/1435986466887372800?s=20](https://twitter.com/DavidElfstrom/status/1435986466887372800?s=20)
 
+---
+2021-09-16 08:49:12
 
+![](/img/co2/REV_R_proto.png)
+
+---
+2021-09-19 10:02:48
+
+Aranet4 plotter
+
+Example data here: [https://github.com/tverbeiren/co2plot/blob/main/example/toestel1_2021-01-08T17_57_51.csv](https://github.com/tverbeiren/co2plot/blob/main/example/toestel1_2021-01-08T17_57_51.csv)
+
+New github repo here: [https://github.com/edgecollective/aranet4-plotter](https://github.com/edgecollective/aranet4-plotter)
+
+Loading CSV into browser here: [https://stackoverflow.com/questions/22823355/javascript-load-csv-file-and-print-it-to-page](https://stackoverflow.com/questions/22823355/javascript-load-csv-file-and-print-it-to-page)
+
+Convert CSV to json here: [https://stackoverflow.com/questions/27979002/convert-csv-data-into-json-format-using-javascript](https://stackoverflow.com/questions/27979002/convert-csv-data-into-json-format-using-javascript)
+
+and here: [http://techslides.com/convert-csv-to-json-in-javascript](http://techslides.com/convert-csv-to-json-in-javascript)
+
+---
+2021-09-19 14:02:21
+
+![](/img/co2/response_two_covers.png)
+
+![](/img/co2/response_closeup.png)
+
+---
+2021-09-20 12:36:06
+
+![](/img/co2/rev_t_proto.png)
+
+[https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0d36b15741bcd6cc3896b1ab90e52b8515a0bc79/REV_T/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0d36b15741bcd6cc3896b1ab90e52b8515a0bc79/REV_T/hardware/kicad)
 
 
 
