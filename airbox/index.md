@@ -16,7 +16,7 @@ blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- b
 
 [Update 2021-08-17, PM: there is a fantastic thread on Twitter that collects a lot of useful information on the Corsi / Rosenthal box, here: [https://twitter.com/LazarusLong13/status/1425517352624410627](https://twitter.com/LazarusLong13/status/1425517352624410627).  Will incorporate any new details as we have time to digest them.]
 
-
+[Update 2021-09-20: [https://www.courier-journal.com/picture-gallery/life/wellness/health/2021/09/16/trinity-students-donate-air-purifiers-ascension-help-fight-covid/8338612002/](https://www.courier-journal.com/picture-gallery/life/wellness/health/2021/09/16/trinity-students-donate-air-purifiers-ascension-help-fight-covid/8338612002/)  ]
 
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
