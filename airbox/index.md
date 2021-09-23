@@ -18,6 +18,8 @@ blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- b
 
 [Update 2021-09-20: [https://www.courier-journal.com/picture-gallery/life/wellness/health/2021/09/16/trinity-students-donate-air-purifiers-ascension-help-fight-covid/8338612002/](https://www.courier-journal.com/picture-gallery/life/wellness/health/2021/09/16/trinity-students-donate-air-purifiers-ascension-help-fight-covid/8338612002/)  ]
 
+[Update 2021-09-22: Larger DIY air purifier poster translated into spanish: [https://twitter.com/Embarnesey/status/1435126245474275332](https://twitter.com/Embarnesey/status/1435126245474275332)]
+
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
 Several researchers and practitioners, working together and in parallel, have come up with a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
@@ -196,6 +198,10 @@ Files:
 - SVG: [corsi_large_poster.svg](/img/co2/corsi_large_poster.svg)
 - PDF: [corsi_large_poster.pdf](/img/co2/corsi_large_poster.pdf)
 - PNG: [corsi_large_poster.png](/img/co2/corsi_large_poster.png)
+
+Spanish version (courtesy Emily Barnes Franklin! [@Embarnesey](https://twitter.com/Embarnesey))
+
+[![](/img/co2/spanish_large_poster.jpeg)](/img/co2/spanish_large_poster.jpeg)
 
 ---
 

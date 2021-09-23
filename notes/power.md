@@ -98,3 +98,10 @@ inverter -- [https://www.amazon.com/BESTEK-300W-Power-Inverter-Adapter/dp/B004MD
 cigarette lighter adapter fused [https://www.amazon.com/Roadpro-Replacement-Cigarette-Lighter-RPPS-225/dp/B0016LG0CY](https://www.amazon.com/Roadpro-Replacement-Cigarette-Lighter-RPPS-225/dp/B0016LG0CY)
 
 basic AC soldering station, weller, $40 -- 40 Watts [https://www.amazon.com/Weller-WLC100-40-Watt-Soldering-Station/dp/B000AS28UC](https://www.amazon.com/Weller-WLC100-40-Watt-Soldering-Station/dp/B000AS28UC)
+
+
+---
+2021-09-22 16:15:04
+
+Nice fuse, via Mike: [https://www.digikey.com/en/products/detail/texas-instruments/TPS25940ARVCT/4915501](https://www.digikey.com/en/products/detail/texas-instruments/TPS25940ARVCT/4915501)
+

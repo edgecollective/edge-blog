@@ -5410,6 +5410,15 @@ and here: [http://techslides.com/convert-csv-to-json-in-javascript](http://techs
 
 [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0d36b15741bcd6cc3896b1ab90e52b8515a0bc79/REV_T/hardware/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0d36b15741bcd6cc3896b1ab90e52b8515a0bc79/REV_T/hardware/kicad)
 
+---
+2021-09-22 20:28:19
+
+![](/img/co2/rev_t_proto_final_back.png)
+
+![](/img/co2/rev_t_proto_final.png)
+
+![](/img/co2/rev_t_cover.png)
+
 
 
 
