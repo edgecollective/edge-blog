@@ -105,3 +105,31 @@ basic AC soldering station, weller, $40 -- 40 Watts [https://www.amazon.com/Well
 
 Nice fuse, via Mike: [https://www.digikey.com/en/products/detail/texas-instruments/TPS25940ARVCT/4915501](https://www.digikey.com/en/products/detail/texas-instruments/TPS25940ARVCT/4915501)
 
+
+---
+2021-09-27 10:00:41
+
+clamp cables for batteries -- [https://www.amazon.com/Nilight-GA-ACC-01-Alligator-Charging-Terminal/dp/B0768CW328/ref=asc_df_B0768CW328/?tag=hyprod-20&linkCode=df0&hvadid=241994092016&hvpos=&hvnetw=g&hvrand=8698495735035782115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-569013347506&psc=1](https://www.amazon.com/Nilight-GA-ACC-01-Alligator-Charging-Terminal/dp/B0768CW328/ref=asc_df_B0768CW328/?tag=hyprod-20&linkCode=df0&hvadid=241994092016&hvpos=&hvnetw=g&hvrand=8698495735035782115&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-569013347506&psc=1)
+
+adafruit universal charger pinouts -- [https://learn.adafruit.com/adafruit-bq24074-universal-usb-dc-solar-charger-breakout/pinouts](https://learn.adafruit.com/adafruit-bq24074-universal-usb-dc-solar-charger-breakout/pinouts)
+
+VX78-500 DCDC Datasheet -- [https://www.cui.com/product/resource/vx78-500.pdf](https://www.cui.com/product/resource/vx78-500.pdf)
+
+powerboost 500 schematic [https://cdn-learn.adafruit.com/assets/assets/000/017/555/original/adafruit_products_powerboost500C.png?1403289316](https://cdn-learn.adafruit.com/assets/assets/000/017/555/original/adafruit_products_powerboost500C.png?1403289316)
+
+
+need: PTC fuse (sparkfun) or glass fuse (footprint for both? get kit from sparkfun?)
+
+caps for DCDC
+
+holder for lithium ion
+
+terminals to connect to 12V battery
+
+cables for connecting to 12V battery
+
+---
+2021-09-30 12:28:36
+
+Update:  looks like we should use the boost breakout from adafruit, in lieu of the powerboost 500 -- that way we avoid some confusion around the usb plug-in.  if we were to use the powerboost 500, a user might plug in a microUSB cable w/ 5V into it, which would backfeed the 'out' pin on the universal charger.
+
