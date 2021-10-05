@@ -133,3 +133,28 @@ cables for connecting to 12V battery
 
 Update:  looks like we should use the boost breakout from adafruit, in lieu of the powerboost 500 -- that way we avoid some confusion around the usb plug-in.  if we were to use the powerboost 500, a user might plug in a microUSB cable w/ 5V into it, which would backfeed the 'out' pin on the universal charger.
 
+---
+2021-10-01 11:17:00
+
+deep cycle battery: [https://www.amazon.com/Sealed-Lead-Acid-Cycle-Battery/dp/B005CLPOQM](https://www.amazon.com/Sealed-Lead-Acid-Cycle-Battery/dp/B005CLPOQM)
+
+---
+2021-10-04 18:53:28
+
+powerboost circuit, showing iphone resistors [https://cdn-learn.adafruit.com/assets/assets/000/024/638/original/adafruit_products_sch.png?1429650091](https://cdn-learn.adafruit.com/assets/assets/000/024/638/original/adafruit_products_sch.png?1429650091)
+
+![](/img/power/usb_iphone.png)
+
+actually -- apparently this will actually try to pull 1 amp from the circuit ... 
+
+if you want to limit to 500 mA, then use this resistor network:
+
+from adafruit, 'icharging' -- [https://learn.adafruit.com/minty-boost/icharging](https://learn.adafruit.com/minty-boost/icharging)
+
+![](/img/power/iphone_resistors.png)
+
+---
+2021-10-04 20:34:39
+
+![](/img/power/boosta_v.png)
+
