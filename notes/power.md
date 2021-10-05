@@ -158,3 +158,10 @@ from adafruit, 'icharging' -- [https://learn.adafruit.com/minty-boost/icharging]
 
 ![](/img/power/boosta_v.png)
 
+---
+2021-10-05 09:46:03
+
+CUI datasheet -- [https://www.cui.com/product/resource/vx78-500.pdf](https://www.cui.com/product/resource/vx78-500.pdf)
+
+![](/img/power/vx78500.png)
+
