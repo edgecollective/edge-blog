@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-10-05
 updated: 2021-10-05
 tags: notes 
-image: /img/power/gpsproto.png
+image: /img/power/spark_gps.png
 blurb: Off-grid gps navigation
 ---
 
