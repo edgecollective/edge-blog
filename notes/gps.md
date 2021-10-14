@@ -29,3 +29,15 @@ compass [https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/
 
 ![](/img/gps/side_button_type.png)
 
+---
+2021-10-13 14:15:47
+
+Neo-6M module [https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-gps-module-neo-6m-with-arduino-8f90ad](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-gps-module-neo-6m-with-arduino-8f90ad)
+
+gps + compass [https://www.amazon.com/dp/B078Y6323W/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B078Y6323W&pd_rd_w=aGiBN&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=WPpic&pf_rd_r=H40Q96B44260656MZAJC&pd_rd_r=aafb6106-3094-419c-a62e-49b3e5661f3f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBTUc2Tjc4MFFVRlUmZW5jcnlwdGVkSWQ9QTA5NjMzMTFON1czTTBVREgyVEkmZW5jcnlwdGVkQWRJZD1BMTAzOTc4MjRFWlpYQkJSMzJYSCZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=](https://www.amazon.com/dp/B078Y6323W/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B078Y6323W&pd_rd_w=aGiBN&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=WPpic&pf_rd_r=H40Q96B44260656MZAJC&pd_rd_r=aafb6106-3094-419c-a62e-49b3e5661f3f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBTUc2Tjc4MFFVRlUmZW5jcnlwdGVkSWQ9QTA5NjMzMTFON1czTTBVREgyVEkmZW5jcnlwdGVkQWRJZD1BMTAzOTc4MjRFWlpYQkJSMzJYSCZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+---
+2021-10-13 15:22:33
+
+neo-6m black pinout ![](/img/gps/neo-6m-black-pinout.png)
+

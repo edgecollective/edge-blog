@@ -5419,6 +5419,18 @@ and here: [http://techslides.com/convert-csv-to-json-in-javascript](http://techs
 
 ![](/img/co2/rev_t_cover.png)
 
+---
+2021-10-14 11:52:02
+
+```
+screen /dev/tty.usbmodem* 115200
+```
+
+One of the boards for which deep sleep is supported: the adafruit nrf express [https://www.adafruit.com/product/4062](https://www.adafruit.com/product/4062)
+
+so maybe: feather s2, or nrf express, might be better choice for python, now ... esp if they can deep-sleep in circuitpython ... the sleep current of the nrf chip in particular is likely quite low ... and then bluetooth might be an option! 
+
+Primary guide to the nrf52840, [here](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather)
 
 
 

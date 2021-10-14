@@ -41,3 +41,5 @@ insulating body much more efficient than insulating a space
 
 [https://www.youtube.com/channel/UCxbdN2W1ZahmHrwfFDoZnQw/videos?view_as=subscriber](https://www.youtube.com/channel/UCxbdN2W1ZahmHrwfFDoZnQw/videos?view_as=subscriber)
 
+## Estimates for how much land / materials needed to feed X people
+
