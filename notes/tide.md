@@ -2,7 +2,7 @@
 pageTitle: Flood / Tide Sensor
 layout: layout.njk
 date: 2021-01-19
-updated: 2020-01-19
+updated: 2021-10-19
 tags: notes
 #image: img/ec_flower_logo_small.png
 image: /img/alt-server/belfast_gps.png
@@ -51,5 +51,9 @@ Issue prior: because the IBM4 is a 'crystal-less' design (I think the IBM0, too?
 
 ![](/img/alt-server/belfast_rssi_histogram.png)
 
+---
+2021-10-19 08:35:01
+
+Flooding in Western MA [https://westernmassready.org/stay-informed/possible-disasters-in-ma/flooding/](https://westernmassready.org/stay-informed/possible-disasters-in-ma/flooding/)
 
 

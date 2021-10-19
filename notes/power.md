@@ -165,3 +165,8 @@ CUI datasheet -- [https://www.cui.com/product/resource/vx78-500.pdf](https://www
 
 ![](/img/power/vx78500.png)
 
+---
+2021-10-19 08:27:45
+
+Lithium mining [https://www.spglobal.com/en/research-insights/articles/lithium-supply-is-set-to-triple-by-2025-will-it-be-enough](https://www.spglobal.com/en/research-insights/articles/lithium-supply-is-set-to-triple-by-2025-will-it-be-enough)
+

@@ -35,9 +35,13 @@ welding on the farm [https://www.hobbyfarms.com/learn-to-weld-and-fix-your-own-f
 
 'basic welding for farm and ranch' [https://www.amazon.com/Basic-Welding-Farm-Ranch-Fabricating/dp/1612128785/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=](https://www.amazon.com/Basic-Welding-Farm-Ranch-Fabricating/dp/1612128785/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
 
+wheelie pete's guide: [https://www.youtube.com/watch?v=8tHJ0NSjZnM](https://www.youtube.com/watch?v=8tHJ0NSjZnM)
+
 ## Trail Weld Kit
 
 [http://www.trailweld.com/](http://www.trailweld.com/)
+
+Suggesting 6013 or 7013 rods 
 
 ---
 2021-10-14 15:44:07
@@ -47,7 +51,6 @@ article on min voltages for stick welding [https://forum.weldingtipsandtricks.co
 electrode charts for stick welding [https://www.hobartwelders.com/-/media/inriver/stickmate-160i-279109.pdf](https://www.hobartwelders.com/-/media/inriver/stickmate-160i-279109.pdf)
 
 ![](/img/welding/electrode_charts.png)
-
 
 ---
 
