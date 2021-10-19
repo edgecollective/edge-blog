@@ -5432,6 +5432,45 @@ so maybe: feather s2, or nrf express, might be better choice for python, now ...
 
 Primary guide to the nrf52840, [here](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather)
 
+---
+2021-10-19 13:31:15
+
+Learn guide for adafruit scd30 module: [https://learn.adafruit.com/adafruit-scd30](https://learn.adafruit.com/adafruit-scd30)
+
+scd30 lib: https://github.com/adafruit/Adafruit_CircuitPython_SCD30
+
+notes: 
+- might be nice to move JST a bit to allow for duct tape on sides
+- might want to re-expose the reset button 
+
+also! didn't realize -- we can use bluetooth with the esp32 module via circuitpython! can configure over bluetooth ...
+
+getting cpy wifi up and running:
+
+https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI
+
+read-only issue:
+[https://learn.adafruit.com/adafruit-circuit-playground-express/troubleshooting](https://learn.adafruit.com/adafruit-circuit-playground-express/troubleshooting)
+
+oled
+
+[https://learn.adafruit.com/micropython-hardware-ssd1306-oled-display](https://learn.adafruit.com/micropython-hardware-ssd1306-oled-display)
+
+(deprecated? see:)
+
+[https://learn.adafruit.com/adafruit-oled-featherwing/python-circuitpython-wiring](https://learn.adafruit.com/adafruit-oled-featherwing/python-circuitpython-wiring)
+
+
+example fonts 
+[https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font/tree/main/examples/fonts](https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font/tree/main/examples/fonts)
+
+---
+2021-10-19 17:08:39
+
+Basic working version for circuitpy is here: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/36659313a245c6dbeeff2610fb8ea737f8958a48/REV_T/firmware/co2_cpy_v0/poster_oled.py](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/36659313a245c6dbeeff2610fb8ea737f8958a48/REV_T/firmware/co2_cpy_v0/poster_oled.py)
+
+
+
 
 
 
