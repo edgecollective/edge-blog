@@ -52,6 +52,14 @@ Notes on type / number of filters:
 - Some locations in the room might be more effective at filtering air than others -- e.g., if you have an open window through which air is being ventilated outdoors, it's best not to position the box right *in front* of the open window -- because you're filtering air that won't be used inside the room;
 - Best practice is to place e.g. two air boxes a few feet away from the walls, and avoiding corners -- so that they are filtering maximal amounts of air
 
+# Misc Notes
+
+## Fantastic FAQ on design
+
+[https://cleanaircrew.org/boxfanfilterfaq/](https://cleanaircrew.org/boxfanfilterfaq/)
+
+## Ideal placement of purifiers 
+
 Reference on ideal placements: "Impact of placement of portable air cleaning devices in multizone residential environments" -- for impact of various placements of air purifiers in room -- [https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments](https://www.researchgate.net/publication/255663019_Impact_of_placement_of_portable_air_cleaning_devices_in_multizone_residential_environments)
 
 ## Electrostatic / MERV-13 issues over time
