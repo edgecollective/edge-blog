@@ -94,21 +94,11 @@ removed even if CO2
 .
 
 <a name="tracer"></a>
-## The CO2 'tracer gas' method: estimating ACH
+## Estimating ACH using the CO2 'tracer gas' method
 
-Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess indoor ventilation.  
+### Air changes per hour (ACH): a standard measure of ventilation rates
 
-The basic idea is that we can inject 'excess' CO2 into a room (exhaled by humans, or generated some other way), then watch how long it takes for that excess CO2 to be removed via ventilation.  By measuring carefully, we can use this approach to estimate a standard measure of ventilation, "air changes per hour" -- the number of times per hour that all of the room has been effectively replaced by outdoor air.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8UDeu_CqKhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-| ![](/img/co2/ach_diad.png) |
-|:--:|
-| **Figure 2**. Air changes per hour (or **ACH**) is a standard measure of the rate at which the air in the room is replaced by outdoor air. An air purifier can remove contaminants from the air at a rate that can be expressed in "equivalent air changes per hour", or **eACH**.  These ventilation rates are additive; the total ventilation rate in the room can be considered to be **ACH_total = ACH + eACH**. |
-
-
-Estimates have been made for 'safe' levels of ACH for COVID-19:
+Estimates have been made for 'safer' numbers of air changes per hour (ACH) in a classroom, with respect to COVID-19:
 
 | ![](/img/co2/harvard_ach_recommendations.png) |
 |:--:|
@@ -121,6 +111,18 @@ For reference:  ACH levels for typical settings:
 - schools are usually designed to be at least 3 ACH, though are often less in practice;
 - hospital patient rooms are kept at between 6 and 12 ACH;
 - hospital operating rooms are usually between 20 and 40 ACH
+
+| ![](/img/co2/ach_diad.png) |
+|:--:|
+| **Figure 2**. Air changes per hour (or **ACH**) is a standard measure of the rate at which the air in the room is replaced by outdoor air. An air purifier can remove contaminants from the air at a rate that can be expressed in "equivalent air changes per hour", or **eACH**.  These ventilation rates are additive; the total ventilation rate in the room can be considered to be **ACH_total = ACH + eACH**. |
+
+### Using CO2 to estimate ACH
+
+Another, more robust way of using CO2 to assess COVID-19 transmission risk indoors is to use CO2 as a 'tracer gas' to assess ACH.  
+
+The basic idea is that we can inject 'excess' CO2 into a room (exhaled by humans, or generated some other way), then watch how long it takes for that excess CO2 to be removed via ventilation.  By measuring carefully, we can use this approach to estimate a standard measure of ventilation, "air changes per hour" -- the number of times per hour that all of the room has been effectively replaced by outdoor air.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8UDeu_CqKhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Using this 'tracer gas' approach, we only need to have a single experimenter in the room.  The procedure in more detail is:
 
