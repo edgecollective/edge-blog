@@ -98,6 +98,8 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 
 ## UVM Agronomy
 
+![](/img/pie/uvm.JPG)
+
 [Trip](https://photos.app.goo.gl/yC9QGhiMar6PokqHA)
 
 ## E-Ink GPS
@@ -105,6 +107,8 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 [Notes](https://edgecollective.io/notes/e_ink/)
 
 ## Valedalama
+
+![](/img/pie/vale.JPG)
 
 [Prototyping](https://photos.app.goo.gl/x32AmC826ET3Ku9eA)
 
