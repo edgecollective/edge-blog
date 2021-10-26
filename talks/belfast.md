@@ -10,21 +10,29 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 
 ## Nautilus
 
+![](/img/nautilus/nautilus.jpg)
+
+[nautilus live](https://nautiluslive.org/)
+
+[Hercules](https://nautiluslive.org/tech/rov-hercules)
+
 [paper associated w/ H1547](Bell_etal_SEPM2019.pdf)
 
 [honeybear repo](https://github.com/dwblair/nautilus-honeybear)
 
 [bear terminator](https://github.com/dwblair/nautilus-honeybear/blob/master/pics/bear_dual.png)
 
-[nautilus live](https://nautiluslive.org/)
-
 ## Wolfesneck
+
+![](/img/pie/wolfes.jpg)
 
 [July 2020](https://photos.app.goo.gl/JcmCqubvK7mDYiEe7)
 
 [June 2021](https://photos.app.goo.gl/gMeMtTrtrYVhfNSx8)
 
 ## Olathe
+
+![](/img/pie/node_antenna_test.jpeg)
 
 [Acclima test](https://photos.app.goo.gl/WyxdJqv7enbutX5q7)
 
@@ -34,21 +42,27 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 
 ## Armstrong
 
+![](/img/pie/IMG_1718.JPG)
+
 [Deploy](https://photos.app.goo.gl/6CU9MhCuexueTvmc9)
 
 ## Balloon
+
+![](/img/pie/umass_balloon.png)
 
 [Video](https://www.youtube.com/watch?v=8k5SxS7yCio)
 
 ## Radio mesh
 
-[Photoes](https://photos.app.goo.gl/NT97cJ34ytfoDZr57)
+![](/img/pie/mesh.png)
+
+[Photos](https://photos.app.goo.gl/NT97cJ34ytfoDZr57)
 
 [Animation](https://edgecollective.io/lora-mesh/gpsexpt/exp3/plotting/)
 
 [Notes](https://edgecollective.io/notes/lincoln/)
 
-## Electric Fench
+## Electric Fence
 
 [Dorn's Farm](https://photos.app.goo.gl/sLJXSUDPZtYXUCP86)
 
