@@ -64,17 +64,23 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 
 ## Electric Fence
 
+![](/img/pie/pig.JPG)
+
 [Dorn's Farm](https://photos.app.goo.gl/sLJXSUDPZtYXUCP86)
 
 [Prototyping](https://photos.app.goo.gl/xEnCkGAddBGAcoLd9)
 
 ## EPA
 
+![](/img/pie/water_proto.JPG)
+
 [Prototyping of water monitor](https://photos.app.goo.gl/2tmyiG1PB8SRsTSc6)
 
 [Chelmsford Lab Citizen Science Meeting](https://photos.app.goo.gl/FzBeemTXUDYZUQbm8)
 
 ## L'Atelier Paysan
+
+![](/img/pie/plans.png)
 
 [Paysan HQ in Grenoble](https://photos.app.goo.gl/344ZeeK3kZDsBRDA8)
 
@@ -83,6 +89,8 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class
 [Photos](https://photos.app.goo.gl/qn6qCrwV3iuWdwgS8)
 
 ## Sonar Fanboat
+
+![](/img/pie/fanboat.png)
 
 [Prototyping](https://photos.app.goo.gl/BA54cNYKKr7YhdGN6)
 
