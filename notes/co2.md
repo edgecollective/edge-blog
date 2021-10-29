@@ -5486,6 +5486,19 @@ Hasbrouck main office data feed [http://bayou.pvos.org/data/kurqr92abvua](http:/
 
 Added '?ambient' param to [https://github.com/edgecollective/aranet4-plotter](https://github.com/edgecollective/aranet4-plotter)
 
+---
+2021-10-29 14:50:55
+
+deleting all items from table before a given date:
+
+```
+sudo -i -u postgres
+psql bayou3
+delete from measurements where feed_id=16 and timestamp < '2021-10-28';
+```
+
+![](/img/co2/co2_ppm_hasbrouck.png)
+
 
 
 
