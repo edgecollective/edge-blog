@@ -5470,6 +5470,25 @@ example fonts
 Basic working version for circuitpy is here: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/36659313a245c6dbeeff2610fb8ea737f8958a48/REV_T/firmware/co2_cpy_v0/poster_oled.py](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/36659313a245c6dbeeff2610fb8ea737f8958a48/REV_T/firmware/co2_cpy_v0/poster_oled.py)
 
 
+---
+2021-10-27 11:14:49
+
+Belfast ... baseline?
+
+![](/img/co2/belfast_baseline.png)
+
+---
+2021-10-28 19:51:18
+
+Dave's co2 analysis repo associated with Belfast PiE experiments: [https://github.com/DaveSprague/co2-analysis](https://github.com/DaveSprague/co2-analysis)
+
+Hasbrouck main office data feed [http://bayou.pvos.org/data/kurqr92abvua](http://bayou.pvos.org/data/kurqr92abvua)
+
+Added '?ambient' param to [https://github.com/edgecollective/aranet4-plotter](https://github.com/edgecollective/aranet4-plotter)
+
+
+
+
 
 
 
