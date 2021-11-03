@@ -101,6 +101,7 @@ h3 {
  }
  
  
+ 
 #main-title {
     line-height: 1em;
     font-size:x-large;
@@ -295,8 +296,9 @@ padding-top: 10px;
 img {
    max-height: 500px;
    max-width: 100%;
-   
 }
+
+
 
 table {
     #background-color: F1F1F1;
@@ -347,4 +349,26 @@ audio {
      }
      */
     
+}
+
+.frame {
+    height: 300px;      /* equals max image height */
+    width: 100%;
+    #border: 1px solid red;
+    white-space: nowrap;
+    
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.present_img {
+    background: #3A6F9A;
+    vertical-align: middle;
+    max-height: 300;
+    #max-width: 160px;
 }

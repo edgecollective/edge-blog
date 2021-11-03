@@ -41,3 +41,14 @@ gps + compass [https://www.amazon.com/dp/B078Y6323W/ref=sspa_dk_detail_0?psc=1&p
 
 neo-6m black pinout ![](/img/gps/neo-6m-black-pinout.png)
 
+---
+2021-10-29 15:49:19
+
+beitan gps + compass widget [https://www.amazon.com/dp/B078Y6323W](https://www.amazon.com/dp/B078Y6323W)
+
+pinout:
+
+![](/img/gps/beitan.png)
+
+repo with previous 'compass experiments' -- [https://github.com/edgecollective/compass-experiments](https://github.com/edgecollective/compass-experiments)
+

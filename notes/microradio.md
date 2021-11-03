@@ -543,3 +543,9 @@ express memory explainer:
 2021-06-26 09:50:13
 
 Using ADC to capture waveforms ...
+
+---
+2021-10-29 15:01:08
+
+Serial over lora ... [https://hackaday.io/project/25677-chirppp-serial-over-lora](https://hackaday.io/project/25677-chirppp-serial-over-lora)
+
