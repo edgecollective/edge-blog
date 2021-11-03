@@ -5,14 +5,18 @@ date: 2021-11-02
 tags: talks 
 updated: 2021-11-02
 image: img/umass/co2.png
-blurb: Presentation to UMass Amherst STEM seminar on ventilation and filtration
+blurb: UMass Amherst Physics STEM Seminar Nov 2, 2021-- building Corsi-Rosenthal boxes and learning about DIY ventilation assessment and 
 ---
 
 ---
 
-# Video presentation
+# Corsi-Rosenthal Build Event at UMass Amherst 2001-11-02
 
-Presented to UMass Physics Dept on Nov 02 2021:
+[![](/img/umass/build.png)](https://photos.app.goo.gl/4cduJ3nEEm5MQETn7)
+
+# STEM Presentation: DIY Ventilation Assessment & Air Filtration 
+
+Recorded presentation:
 
 [![](/img/umass/video_present.png)](https://umass-amherst.zoom.us/rec/play/hfFMsi-lWHGqbeDtMEeEd5dSZKtj4MFNeMhKBToh2MGs2XdAtmAfZCfBwjwqrG3XDzDxc1i6hOj7tuFf.4RFHGoEoUL3275dp?startTime=1635882972000&_x_zm_rtaid=cbvl_rk0SK29sl8A_OK4-Q.1635953240619.eb30c8af46deb90815bbc3235ae12405&_x_zm_rhtaid=339)
 
