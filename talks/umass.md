@@ -10,7 +10,15 @@ blurb: Presentation to UMass Amherst STEM seminar on ventilation and filtration
 
 ---
 
-# Slides
+# Video presentation
+
+Presented to UMass Physics Dept on Nov 02 2021:
+
+[![](/img/umass/video_present.png)](https://umass-amherst.zoom.us/rec/play/hfFMsi-lWHGqbeDtMEeEd5dSZKtj4MFNeMhKBToh2MGs2XdAtmAfZCfBwjwqrG3XDzDxc1i6hOj7tuFf.4RFHGoEoUL3275dp?startTime=1635882972000&_x_zm_rtaid=cbvl_rk0SK29sl8A_OK4-Q.1635953240619.eb30c8af46deb90815bbc3235ae12405&_x_zm_rhtaid=339)
+
+---
+
+# Slide Deck (PDF)
 
 <!--
 [![](/img/co2/umass_cover.png)](/img/co2/ec_co2_corsi_umass_physics_2021_11_02.pdf)
