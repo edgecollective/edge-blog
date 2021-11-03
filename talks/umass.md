@@ -8,13 +8,19 @@ image: img/umass/co2.png
 blurb: UMass Amherst Physics STEM Seminar Nov 2, 2021-- building Corsi-Rosenthal boxes and learning about DIY ventilation assessment and 
 ---
 
----
+# UMass Amherst Physics STEM Seminar
 
-# Corsi-Rosenthal Build Event at UMass Amherst 2001-11-02
+**Title**: Reducing the risk of SARS-CoV-2 and flu transmission in the classroom: DIY techniques for assessing and improving indoor air ventilation and filtration
+
+**Date**: Nov 2, 2021
+
+**Abstract**.  In the last few years, improving indoor air quality has become a major global public health concern.  In this seminar we’ll present both 1) a simple method for assessing a classroom’s indoor ventilation rate using CO2 monitors, with reference to recently published recommendations for mitigating SARS-CoV-2 transmission; and 2) a low-cost, easy-to-build DIY air purifier design that can remove virus-laden particles from indoor air spaces at a significant rate.  We’ll finish the seminar with a ‘live build session’ in which we’ll demonstrate the construction of a DIY air purifier, and use a hand-held anemometer in order to estimate its potential impact on indoor air quality for classrooms of various sizes. Throughout the seminar, connections to STEM pedagogy will be suggested and solicited. 
+
+## Corsi-Rosenthal Build Event at UMass
 
 [![](/img/umass/build.png)](https://photos.app.goo.gl/4cduJ3nEEm5MQETn7)
 
-# STEM Presentation: DIY Ventilation Assessment & Air Filtration 
+## Video Presentation
 
 Recorded presentation:
 
@@ -22,7 +28,7 @@ Recorded presentation:
 
 ---
 
-# Slide Deck (PDF)
+## Slide Deck (PDF)
 
 <!--
 [![](/img/co2/umass_cover.png)](/img/co2/ec_co2_corsi_umass_physics_2021_11_02.pdf)
@@ -32,7 +38,7 @@ Recorded presentation:
 
 ---
 
-# Notes from presentation
+## Notes / Supporting Material
 
 COVID is airborne.
 The intuition should be: cigarette smoke, avoiding second-hand smoke.
@@ -72,113 +78,3 @@ So: filtration -- passing air through filters that can remove virus. When you kn
 Basic initial idea was: put a filter in front of a fan. It works.  But Corsi-Rosenthal came up with a better version:  a box of filters.  Better because: more surface area, less strain on fan motor, greater flow.  Review of basic design. Key points:  filters are directional; make sure you’ve got a seal. Point upwards. Fan shroud (reverse air flow phenomenon at corners).  Measure cadr (and test reverse air flow).  Can then use this to estimate eACH.  Then you can figure out how many to put in classroom.  
 
 STEM ideas:  visualizing and measuring air flows.  Building and improving electronics. Same system can be used in several other contexts -- flooding, farming, outdoor navigation, etc (show edgecollective ideas).  
-
-# Misc notes
-
-## Why ventilation and filtration?
-
-- COVID is airborne.
-- So are a bunch of other diseases.
-- Our infrastructure is 'behind the times'
-- Our intuition is often wrong about airborne disease.
-- Show how cigarette smoke is the right idea.
-- There are a few ways to address this. 
-- Mask (lego people mask)
-- Distance (can help, but isn't perfect -- show graph).
-- Improve indoor ventilation via HVAC (if recirculation, then filtration).
-- Improve indoor ventilation via windows and doors.
-- Clean the air inside the room. 
-
-To some extent, we just want to reduce risk as much as possible. Hard to quantify / know the 'absolute risk'.
-
-Often, folks are masked, distancing.  Opening windows might not be allowed, or might not improve much.  HVAC isn't within their control.  So: indoor filtration systems.  
-
-The Corsi design is low-cost. It's been vetted fairly well now.  It's better vetted than many of the commercial designs out there.  It's built from known materials. We can tweak it, improve it. It's high bang-for-buck.  So, let's build some.  We can estimate how much they'll help indoors, in terms of ACH.
-
----
-
-# Ver 2
-
-## Why ventilation and filtration?
-
-## Basic background on indoor ventilation
-
-- HVAC system
-- far-field transmission
-- near-field transmission (distancing)
-- vents, windows, doors
-- filtration / purifiers
-- buying devices that don't always work
-- not always able to open windows or doors
-- ACH
-
-So: we want to know:
-1. how bad it is
-2. how to improve it as much as possible
-
-## But: initial interventions
-- Mask. Distance.
-- Increase ventilation as much as possible.
-- Ideally: outside, if you're worried. Especially when unmasked for lunch.
-- This still leaves a lot of people indoors.
-
-## Standard metric for ventilation: ACH
-- mass balance, contaminants
-- how long it takes to remove X% of contaminants in room
-
-## Ways to assess ventilation 
-- If you can ...
-- Good to know if school knows already.
-- CO2 tracer gas method is pretty effective (with caveats). 
-- More involved methods described in HSP's doc. 
-- Will say more about how we're trying to make tracer method easier with open software and hardware. 
-
-## Install filtration
-- We can estimate how impactful in terms of eACH.
-- Might as well boost to max you can afford / stand / practical.
-- Then if you find #s are low, or ventilation is great, can back off.
-
-## Corsi-Rosenthal Box 
-
-- Placing filters on fan is old idea. Issue: strain on fan, reduced air flow.
-- Corsi suggestion: build a 'box' made of filter materials.  Increased surface area means increased flow, reduced strain on fan, more air filtered, more effective. 
-- Suggestion is that MERV-13 is fairly optimal; MERV-11 also effective. 
-- Rosenthal built, evaluated, added some tweaks.
-
-## Box Design
-- Fan on top
-- Filters on sides 
-- Can also add to bottom, with little stilts.
-- Best to point air flow up re: circulation in room.
-- Best to place away from walls.
-- Avoid leaks.
-- Shroud.
-
-## Shroud
-- Reverse air flow at edges
-- Block with tape or cardboard.
-
-## Corsi Box effectiveness
-- Typical metric is 'CADR' in cubic feet per minute. 
-- I.e. -- how much air is cleaned per minute.
-- If you know the volume of the room, and efficiency of filters, you can then estimate an equivalent air changes per hours.
-- Efficiency of filters -- not virus size, but size of particles on which virus tends to hitch a ride. Some debate on proper number. Can be conservative for now.
-- Example calculation. How it boosts your ACH.
-
-## STEM ideas
-- visualization of aerosols
-- energy expenditure / units / metrics
-- HVAC systems -- mapping out, alternatives
-- air flow -- anemometer
-- monitoring -- electronics, measurement
-- exponential fitting / modeling
-- risk modeling
-
-<div class=frame>
-    <span class="helper"></span>
-    <img class="present_img" src="/img/co2/two_buttons.png"  />
-    <span class="helper"></span>
-    <img class="present_img" src="/img/co2/two_buttons.png" />
-    <span class="helper"></span>
-    <img class="present_img" src="/img/co2/two_buttons.png"  />
-</div>
