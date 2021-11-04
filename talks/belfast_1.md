@@ -10,9 +10,16 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class on 20
 
 # Topics
 
-## Documentation 
+## Documentation Process
 
-## General Philosophy
+## General Philosophy Regarding Resilience
+
+- Ocean navigation
+- PACE
+- Battery design
+- Greenhouse temp
+- Greenhouse motor control
+
 
 ## Boost
 
