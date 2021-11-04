@@ -38,6 +38,11 @@ Recorded presentation:
 
 ---
 
+## ACH analysis of CO2 decay after event
+
+![](/img/co2/ach_analysis_hasbrouck.png)
+
+---
 ## Notes / Supporting Material
 
 COVID is airborne.
