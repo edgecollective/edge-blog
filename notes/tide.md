@@ -10,7 +10,6 @@ blurb: Flood / tide sensor prototyping
 
 ---
 
-
 Nice discussion on envirodiy [here](https://www.envirodiy.org/ultrasonic-water-depth-sensor/) of a Maxtobox-based design.
 
 Another nice post on environdiy on evaluating their performance, [here](https://www.envirodiy.org/evaluation-water-level-monitoring-maxbotix-ultrasonic-sensors/).

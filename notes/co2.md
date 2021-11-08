@@ -5499,9 +5499,33 @@ delete from measurements where feed_id=16 and timestamp < '2021-10-28';
 
 ![](/img/co2/co2_ppm_hasbrouck.png)
 
+---
+2021-11-07 10:21:03
+
+upgrading firmware on the wifi module ...
+
+see this issue here:
+[https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/123](https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/123)
+
+which relates to v1.2.2 of the esp32 firmware (which I seem to have).
+
+fix is to upgrade firmware as per:
+
+[https://learn.adafruit.com/upgrading-esp32-firmware/upgrade-an-external-esp32#upload-serial-passthrough-code-for-feather-or-itsybitsy-3055058-4](https://learn.adafruit.com/upgrading-esp32-firmware/upgrade-an-external-esp32#upload-serial-passthrough-code-for-feather-or-itsybitsy-3055058-4)
+
+link to needed uf2 was broken, see better link here:
+
+[https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/Adafruit_ESP32_Arduino_Demos/SerialESPPassthrough](https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/Adafruit_ESP32_Arduino_Demos/SerialESPPassthrough)
 
 
+---
+2021-11-08 13:48:04
 
+NOTE: looks like the ESP32 labeled pins on the IBM Airlift add-on are swapped around -- need to check schematic
+
+Watchdog implementation for REV_L (only need to modify ESP32 pins for REV_T):
+
+[https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/956dc86badf6ef1f36e176b83c7ba1b82f4dc5ff/REV_L/firmware/CPY/v2](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/956dc86badf6ef1f36e176b83c7ba1b82f4dc5ff/REV_L/firmware/CPY/v2)
 
 
 

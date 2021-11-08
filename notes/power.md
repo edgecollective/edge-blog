@@ -170,3 +170,19 @@ CUI datasheet -- [https://www.cui.com/product/resource/vx78-500.pdf](https://www
 
 Lithium mining [https://www.spglobal.com/en/research-insights/articles/lithium-supply-is-set-to-triple-by-2025-will-it-be-enough](https://www.spglobal.com/en/research-insights/articles/lithium-supply-is-set-to-triple-by-2025-will-it-be-enough)
 
+---
+2021-11-08 11:42:37
+
+Heating ...
+
+[https://astronomersanonymous.wordpress.com/2016/04/02/controlling-heating-pads-with-arduino-uno/](https://astronomersanonymous.wordpress.com/2016/04/02/controlling-heating-pads-with-arduino-uno/)
+
+[https://learn.sparkfun.com/tutorials/heating-pad-hand-warmer-blanket](https://learn.sparkfun.com/tutorials/heating-pad-hand-warmer-blanket)
+
+[http://bildr.org/2012/03/rfp30n06le-arduino/](http://bildr.org/2012/03/rfp30n06le-arduino/)
+
+which circuit topology? [https://www.embeddedrelated.com/showarticle/98.php](https://www.embeddedrelated.com/showarticle/98.php)
+
+punchline -- use a low-side n-channel mosfet
+
+![](/img/power/low-side.png)

@@ -12,14 +12,15 @@ blurb: Presentation to Belfast High School 'Projects in Engineering' Class on 20
 
 ## Documentation Process
 
-## General Philosophy Regarding Resilience
+## General Philosophy Regarding Resilience Design
 
 - Ocean navigation
 - PACE
 - Battery design
 - Greenhouse temp
 - Greenhouse motor control
-
+- Supply chain alternatives
+- Fifth element example
 
 ## Boost
 
