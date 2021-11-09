@@ -1,7 +1,7 @@
 ---
 pageTitle: DIY Low Power Radio Nodes 
 layout: layout.njk
-date: 2020-08-04
+date: Last Modified
 updated: 2021-11-09
 tags: notes 
 image: img/lorad/rough.jpg

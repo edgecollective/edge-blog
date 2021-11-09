@@ -1,7 +1,7 @@
 ---
 pageTitle: Notes on Ham Radio
 layout: layout.njk
-date: 2021-11-09
+date: Last Modified
 updated: 2021-11-09
 tags: notes 
 image: /img/ham/ham.png
@@ -22,4 +22,6 @@ DORJI
 [http://squirrelengineering.com/arduino/dra818v-aprs-144-390mhz/](http://squirrelengineering.com/arduino/dra818v-aprs-144-390mhz/)
 
 [https://hamgear.wordpress.com/2015/02/03/make-your-own-transceiver-with-a-dorji-dra818u-or-dra818v/](https://hamgear.wordpress.com/2015/02/03/make-your-own-transceiver-with-a-dorji-dra818u-or-dra818v/)
+
+[https://www.qrp-labs.com/](https://www.qrp-labs.com/)
 

@@ -1,8 +1,8 @@
 ---
 pageTitle: Off-grid GPS
 layout: layout.njk
-date: 2021-10-05
-updated: 2021-10-05
+date: Last Modified
+updated: Last Modified
 tags: notes 
 image: /img/gps/spark_gps.png
 blurb: Off-grid gps navigation

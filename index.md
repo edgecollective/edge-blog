@@ -77,7 +77,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
       <div class="text">
         <h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
         <p>{{ project.data.blurb }}</p>
-        <em>Updated: {{ project.data.updated | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ project.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
       <div class="text">
         <h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
         <p>{{ workshop.data.blurb }}</p>
-        <em>Updated: {{ workshop.data.updated | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ workshop.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
@@ -120,7 +120,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
       <div class="text">
         <h3><a href="{{ talk.url }}">{{ talk.data.pageTitle }}</a></h3>
         <p>{{ talk.data.blurb }}</p>
-        <em>Updated: {{ talk.data.updated | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ talk.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
@@ -143,7 +143,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
       <div class="text">
         <h3><a href="{{ note.url }}">{{ note.data.pageTitle }}</a></h3>
         <p>{{ note.data.blurb }}</p>
-        <em>Updated: {{ note.data.updated | date: "%Y-%m-%d" }}</em>
+        <em>Updated: {{ note.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
