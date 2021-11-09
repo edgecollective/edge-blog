@@ -549,3 +549,9 @@ Using ADC to capture waveforms ...
 
 Serial over lora ... [https://hackaday.io/project/25677-chirppp-serial-over-lora](https://hackaday.io/project/25677-chirppp-serial-over-lora)
 
+
+---
+2021-11-09 12:08:48
+
+Going to try to do mothbot-->mothbot comm ...
+

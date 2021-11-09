@@ -2,7 +2,7 @@
 pageTitle: Off-grid power
 layout: layout.njk
 date: 2021-08-27
-updated: 2021-08-27
+updated: 2021-11-09
 tags: notes 
 image: /img/power/boosta_proto.png
 blurb: Designs for off-grid power generation
@@ -186,3 +186,30 @@ which circuit topology? [https://www.embeddedrelated.com/showarticle/98.php](htt
 punchline -- use a low-side n-channel mosfet
 
 ![](/img/power/low-side.png)
+
+---
+2021-11-09 10:51:45
+
+Prototyping PMW with an n-channel mosfet ...
+
+we have an IRF820 here:
+
+[https://www.vishay.com/docs/91059/91059.pdfn%20channel](https://www.vishay.com/docs/91059/91059.pdfn%20channel)
+
+Using N-channel mosfet to switch on/off a 12V motor [https://www.youtube.com/watch?v=3PkpOeHTnfo](https://www.youtube.com/watch?v=3PkpOeHTnfo)
+
+![](/img/power/nchannel.png)
+
+Nice summary here -- which suggests adding resistor between gate and GPIO [https://electronics.stackexchange.com/questions/235672/for-3-3v-microprocessors-whats-the-best-way-to-power-the-gate-of-a-mosfet](https://electronics.stackexchange.com/questions/235672/for-3-3v-microprocessors-whats-the-best-way-to-power-the-gate-of-a-mosfet)
+
+Update:  was not using a logic-level mosfet. Need to grab one.
+
+e.g. adafruit has a nice one here: [https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf](https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf)
+
+IRLB8721PbF
+
+On Digikey [here](https://www.digikey.com/en/products/detail/infineon-technologies/IRF4905PBF/812139?utm_adgroup=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Discrete%20Semiconductor%20Products&utm_term=&utm_content=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&gclid=CjwKCAiA1aiMBhAUEiwACw25MXYE-ldiuZiNsTnYYP6dHWbSpWETzw8xk-om3lEYsK9ANPzUxUqxuRoCKfkQAvD_BwE)
+
+Arduino Button wiring / code example: [https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
+
+

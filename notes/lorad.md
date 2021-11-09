@@ -77,4 +77,11 @@ Meanwhile, the M4 doesn't seem to recognize the 'alarm' module.
 
 Code is here: [https://github.com/edgecollective/cpy-lowpower](https://github.com/edgecollective/cpy-lowpower)
 
+---
+2021-11-09 10:25:44
+
+Update: I believe I was misinterpreting what was going on. I may have already had some 'sleep' code running on the board? In any case, 'alarm' doesn't seem to load for either M0 or M4, and isn't listed as an option in the official docs.
+
+Also tried latest build of CPY for nordic IB, didn't seem to work. Going to try 'vanilla' 7.0 build ...
+
 
