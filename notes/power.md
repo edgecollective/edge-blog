@@ -1,7 +1,7 @@
 ---
 pageTitle: Off-grid power
 layout: layout.njk
-date: 2021-08-27
+date: Last Modified
 updated: 2021-11-09
 tags: notes 
 image: /img/power/boosta_proto.png
@@ -210,6 +210,5 @@ IRLB8721PbF
 
 On Digikey [here](https://www.digikey.com/en/products/detail/infineon-technologies/IRF4905PBF/812139?utm_adgroup=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Discrete%20Semiconductor%20Products&utm_term=&utm_content=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&gclid=CjwKCAiA1aiMBhAUEiwACw25MXYE-ldiuZiNsTnYYP6dHWbSpWETzw8xk-om3lEYsK9ANPzUxUqxuRoCKfkQAvD_BwE)
 
-Arduino Button wiring / code example: [https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
 
 

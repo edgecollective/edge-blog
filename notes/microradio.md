@@ -1,7 +1,7 @@
 ---
 pageTitle: Radio Experiments
 layout: layout.njk
-date: 2021-02-18
+date: Last Modified
 updated: 2021-02-18
 tags: notes 
 image: /img/microradio/atmega1284_bootloader.png
@@ -554,4 +554,16 @@ Serial over lora ... [https://hackaday.io/project/25677-chirppp-serial-over-lora
 2021-11-09 12:08:48
 
 Going to try to do mothbot-->mothbot comm ...
+
+---
+2021-11-09 14:45:04
+
+Arduino Button wiring / code example: [https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
+
+---
+2021-11-09 19:41:49
+
+working prototype code, v1:
+
+[https://github.com/edgecollective/wake-alarm](https://github.com/edgecollective/wake-alarm)
 
