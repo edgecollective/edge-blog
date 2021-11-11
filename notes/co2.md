@@ -5527,6 +5527,47 @@ Watchdog implementation for REV_L (only need to modify ESP32 pins for REV_T):
 
 [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/956dc86badf6ef1f36e176b83c7ba1b82f4dc5ff/REV_L/firmware/CPY/v2](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/956dc86badf6ef1f36e176b83c7ba1b82f4dc5ff/REV_L/firmware/CPY/v2)
 
+---
+2021-11-10 16:08:45
+
+Just pulled out CO2 REV_L test a few minutes ago ...
+
+Going to add calibration code
+
+Following tutorial [here](https://learn.adafruit.com/adafruit-scd30?gclid=Cj0KCQiAsqOMBhDFARIsAFBTN3eeLoluaVmGvJqaC6NMumw3hFXWo92L1jzzbz-9ZtfCTePbVDlEyTAaApX3EALw_wcB)
+
+---
+2021-11-10 16:33:50
+
+Checking for watchdog resets -- looks like there was one at 12 PM today:
+
+[http://bayou.pvos.org/data/5wa9caat8kn7?plot_param=aux_1&limit=20000](http://bayou.pvos.org/data/5wa9caat8kn7?plot_param=aux_1&limit=20000)
+
+![](/img/co2/watchdog_reset.png)
+
+Note: the event at around 4 PM was when I manually disconnected and reconnected sensor ...
+
+---
+2021-11-10 17:47:29
+
+Trying out CPY version of firmware for logger featherwing on a feather m0 ... wondering if there's enough memory ...
+
+featherwing here: [https://www.adafruit.com/product/2922](https://www.adafruit.com/product/2922)
+
+updated to CPY 7.0
+
+following tutorial here: [https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython](https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython)
+
+assembling rev_t -- quick review -- is the dc-dc oriented properly?
+
+cui dvx785-500 datasheet: [https://www.cui.com/product/resource/vx78-500.pdf](https://www.cui.com/product/resource/vx78-500.pdf)
+
+![](/img/co2/cui_data_pic.png)
+
+Also for reference -- TRACO power modules w/ same footprint: [https://cdn-shop.adafruit.com/datasheets/tsr1.pdf](https://cdn-shop.adafruit.com/datasheets/tsr1.pdf)
+
+![](/img/co2/traco_power.png)
+
 
 
 
