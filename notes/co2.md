@@ -5568,6 +5568,49 @@ Also for reference -- TRACO power modules w/ same footprint: [https://cdn-shop.a
 
 ![](/img/co2/traco_power.png)
 
+---
+2021-11-11 13:37:53
+
+microsd in circuitpy -- [https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython](https://learn.adafruit.com/adafruit-adalogger-featherwing/circuitpython)
+
+
+Note!  This might be key to having lora and sdcard on the same spi bus -- sd card needs to be initialized first!
+
+![](/img/co2/sdcard_recognized_first.png)
+
+---
+2021-11-11 14:00:03
+
+Update: memory allocation failed on M0 
+
+![](/img/co2/memory_fail_m0.png)
+
+---
+2021-11-12 16:40:59
+
+In order to log to flash, need to use GPIO pin on board ...
+[https://learn.adafruit.com/circuitpython-essentials/circuitpython-storage](https://learn.adafruit.com/circuitpython-essentials/circuitpython-storage)
+
+---
+2021-11-12 17:42:38
+
+Update: initial experiment with bluetooth plotting, logging to microsd, logging to flash, on REV_T:
+
+[https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/2ea8089adfd2fc055184a8705f148077478ad24b/REV_T/firmware/CPY/v2](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/2ea8089adfd2fc055184a8705f148077478ad24b/REV_T/firmware/CPY/v2)
+
+Mostly using the Nordic chip for this; note that it also has an accelerometer, mic, compass, light meter, pressure sensor ... so, e.g.:
+- use mic / light meter to correlate with room activity
+- use pressure compensation for CO2
+- use accel to rotate screen
+
+---
+2021-11-17 17:53:25
+
+REV_U ordered.
+
+Commit is here:
+
+[https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/e286b657255531f015475fce3e62600b8b4c85bc/REV_U/hardware](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/e286b657255531f015475fce3e62600b8b4c85bc/REV_U/hardware)
 
 
 
