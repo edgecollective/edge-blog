@@ -16,8 +16,9 @@ Even if local cell service is unavailable, GPS satellite navigation likely is; a
 
 Our aim here is to prototype devices that can a) locate their position via GPS; b) report that position to another device via GPS; and c) provide this information in some simple visual way (for example, as an arrow pointing in the direction of the other device, with an estimated distance to the other device).
 
-## Applications
+## Near-term Applications
 
+### 'Dog compass'
 
-**'Dog compass'**.
+### Hiking
 
