@@ -3,7 +3,7 @@ pageTitle: Off-grid coordinated navigation
 layout: layout.njk
 date: Last Modified
 updated: 2020-05-12
-tags: projects
+tags: notes
 image: img/wayfinder/wayfinder.png
 blurb: Low-power devices that can mutually geo-locate off-grid.
 ---
