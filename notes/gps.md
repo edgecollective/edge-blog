@@ -52,3 +52,52 @@ pinout:
 
 repo with previous 'compass experiments' -- [https://github.com/edgecollective/compass-experiments](https://github.com/edgecollective/compass-experiments)
 
+---
+2021-11-18 13:01:19
+
+Going to keep going by working on dc4 [https://github.com/edgecollective/dog-compass](https://github.com/edgecollective/dog-compass)
+
+Switching over to the feather sense -- has on-board compass + accel -- [https://learn.adafruit.com/adafruit-feather-sense](https://learn.adafruit.com/adafruit-feather-sense)
+
+DC4 uses 10DOF breakout, gets compass and gps readings ...
+
+basing DC5 off of 10DOF, and this code: [https://github.com/edgecollective/compass-experiments/blob/main/ver_0.4-alpha/base_featherm0_i2c_compass_oled_lora/base_featherm0_i2c_compass_oled_lora.ino](https://github.com/edgecollective/compass-experiments/blob/main/ver_0.4-alpha/base_featherm0_i2c_compass_oled_lora/base_featherm0_i2c_compass_oled_lora.ino)
+
+DC5 can now do the compass thing. [https://github.com/edgecollective/dog-compass/tree/c405d9c2479334dbd5f5723fbf30fd0d8ae008ed/dc5](https://github.com/edgecollective/dog-compass/tree/c405d9c2479334dbd5f5723fbf30fd0d8ae008ed/dc5)
+
+remote (r1) is based directly off this code: [https://github.com/edgecollective/compass-experiments/blob/main/ver_0.4-alpha/remote_featherm0/remote_featherm0.ino](https://github.com/edgecollective/compass-experiments/blob/main/ver_0.4-alpha/remote_featherm0/remote_featherm0.ino)
+
+---
+2021-11-19 08:08:38
+
+How to calibrate the 10DOF / 9DOF sensor ...
+
+---
+2021-11-19 11:51:13
+
+MIT App inventor
+
+[http://iot.appinventor.mit.edu/assets/tutorials/MIT_App_Inventor_Basic_Connection.pdf](http://iot.appinventor.mit.edu/assets/tutorials/MIT_App_Inventor_Basic_Connection.pdf)
+
+Example codes for receiving text [https://community.appinventor.mit.edu/t/ble-esp32-bluetooth-send-receive-arduino-ide-multitouch/1980/7](https://community.appinventor.mit.edu/t/ble-esp32-bluetooth-send-receive-arduino-ide-multitouch/1980/7)
+
+---
+2021-11-19 12:30:48
+
+[https://www.reddit.com/r/esp32/comments/q3jm20/advice_on_pushing_gps_positions_from_esp32_to/](https://www.reddit.com/r/esp32/comments/q3jm20/advice_on_pushing_gps_positions_from_esp32_to/)
+
+[https://github.com/Buffalchill/ESP32-BLE-Appinventor2](https://github.com/Buffalchill/ESP32-BLE-Appinventor2)
+
+[https://arduinoplusplus.wordpress.com/2017/05/23/reliable-bluetooth-le-comms-between-arduino-and-mit-app-inventor-ai2/](https://arduinoplusplus.wordpress.com/2017/05/23/reliable-bluetooth-le-comms-between-arduino-and-mit-app-inventor-ai2/)
+
+[https://github.com/RuiSantosdotme/ESP32-Course/tree/master/code](https://github.com/RuiSantosdotme/ESP32-Course/tree/master/code)
+
+---
+2021-11-19 13:19:29
+
+Below example apk worked:
+
+[https://github.com/dwblair/ESP32-Course](https://github.com/dwblair/ESP32-Course)
+
+Associated post to extend to two values, here: [https://rntlab.com/question/esp32-ble-to-mit-app/](https://rntlab.com/question/esp32-ble-to-mit-app/)
+

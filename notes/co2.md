@@ -5612,6 +5612,14 @@ Commit is here:
 
 [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/e286b657255531f015475fce3e62600b8b4c85bc/REV_U/hardware](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/e286b657255531f015475fce3e62600b8b4c85bc/REV_U/hardware)
 
+---
+2021-11-18 13:50:03
+
+Note: ran out of storage space on NRF Sense, and it 'froze' system -- wasn't able to access historical file, code.py was erased, odd behavior.  Might be safer to log to microsd for this reason.  Or at least: need to show warnings, check remaining space if logging to local flash.
+
+DC4 uses 10DOF breakout, gets compass and gps readings ...
+
+
 
 
 

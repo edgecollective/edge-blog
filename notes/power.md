@@ -210,5 +210,50 @@ IRLB8721PbF
 
 On Digikey [here](https://www.digikey.com/en/products/detail/infineon-technologies/IRF4905PBF/812139?utm_adgroup=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Discrete%20Semiconductor%20Products&utm_term=&utm_content=Transistors%20-%20FETs%2C%20MOSFETs%20-%20Arrays&gclid=CjwKCAiA1aiMBhAUEiwACw25MXYE-ldiuZiNsTnYYP6dHWbSpWETzw8xk-om3lEYsK9ANPzUxUqxuRoCKfkQAvD_BwE)
 
+---
+2021-11-21 11:40:14
+
+Heater application -- 
+
+[https://www.reddit.com/r/AskElectronics/comments/1156tx/pwm_for_a_heater_using_nmosfet%C2%B5c/](https://www.reddit.com/r/AskElectronics/comments/1156tx/pwm_for_a_heater_using_nmosfet%C2%B5c/)
+
+[https://circuitjournal.com/how-to-use-a-p-channel-mosfet-with-an-arduino](https://circuitjournal.com/how-to-use-a-p-channel-mosfet-with-an-arduino)
+
+![](/img/power/motor_circuit.png)
+
+IRF4905 [https://www.infineon.com/cms/en/product/power/mosfet/p-channel/irf4905/](https://www.infineon.com/cms/en/product/power/mosfet/p-channel/irf4905/) and [datasheet](https://www.infineon.com/dgdl/Infineon-IRF4905-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015355e329b1197e)
+
+![](/img/power/irfpins.png)
+
+Notes on running heating elements in PWM mode [https://electronics.stackexchange.com/questions/127064/what-are-some-problems-with-running-a-heating-element-in-pwm-mode](https://electronics.stackexchange.com/questions/127064/what-are-some-problems-with-running-a-heating-element-in-pwm-mode)
+
+Upshot: can have very slow PWM duty cycle (40 sec say)
+
+---
+2021-11-21 12:52:16
+
+IRLB8721PbF datasheet: [https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf](https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf)
+
+Upshot: worked nicely as per "Using N-channel mosfet to switch on/off a 12V motor" notes / diagram above; the IRLB8721PbF is an n-channel fet; I'd tried a p-channel accidentally.  N-channels are the one that Mike suggested almost always be used. Diagram:
+
+![](/img/power/nchannel.png)
+
+---
+2021-11-21 20:12:20
+
+See this note on duty cycles, "Normal PWM is not suitable for switching heating elements..." here: [https://electronics.stackexchange.com/questions/127064/what-are-some-problems-with-running-a-heating-element-in-pwm-mode](https://electronics.stackexchange.com/questions/127064/what-are-some-problems-with-running-a-heating-element-in-pwm-mode)
+
+(actually, looks like this information may be wrong -- PWM might be fine)
+
+Nice discussion on resistive heating elements [http://www.plctalk.net/qanda/showthread.php?t=116582](http://www.plctalk.net/qanda/showthread.php?t=116582)
+
+Good thread on issues around heating -- add a fuse in line, PTC, other -- [https://www.sparkfun.com/news/1340?_ga=2.56045666.891433149.1637516873-163747255.1632182571](https://www.sparkfun.com/news/1340?_ga=2.56045666.891433149.1637516873-163747255.1632182571)
+
+Thermal fuse [https://www.amazon.com/Microtemp-Thermal-x2103-Cut-off-Skywalking/dp/B00EC83QES](https://www.amazon.com/Microtemp-Thermal-x2103-Cut-off-Skywalking/dp/B00EC83QES)
+
+Digital multimeter fuse [https://www.amazon.com/dp/B07CB968SQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B07CB968SQ&pd_rd_w=gvQxl&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=MIXWU&pf_rd_r=4TN41YEQR1R5SBQCJN75&pd_rd_r=ad099993-0585-4191-8205-64fe8257a6ad&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN082REpZNEE5VlEwJmVuY3J5cHRlZElkPUEwNjU4NDEwMjY4WEtFS0tQVFA2SSZlbmNyeXB0ZWRBZElkPUEwMjU2MDkwMjNUV1c1WEFNMTE1WCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=](https://www.amazon.com/dp/B07CB968SQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B07CB968SQ&pd_rd_w=gvQxl&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=MIXWU&pf_rd_r=4TN41YEQR1R5SBQCJN75&pd_rd_r=ad099993-0585-4191-8205-64fe8257a6ad&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN082REpZNEE5VlEwJmVuY3J5cHRlZElkPUEwNjU4NDEwMjY4WEtFS0tQVFA2SSZlbmNyeXB0ZWRBZElkPUEwMjU2MDkwMjNUV1c1WEFNMTE1WCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+
+
 
 
