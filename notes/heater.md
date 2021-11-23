@@ -73,4 +73,9 @@ Results from one heater experiment. Note that the initial temp was higher, so pe
 
 ![](/img/heater/one_heater_12v.png)
 
+---
+2021-11-23 12:52:43
+
+Next step:  add a diode and test ... and add a fuse?
+
 
