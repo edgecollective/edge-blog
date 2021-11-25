@@ -78,4 +78,11 @@ Results from one heater experiment. Note that the initial temp was higher, so pe
 
 Next step:  add a diode and test ... and add a fuse?
 
+---
+2021-11-23 13:13:26
+
+Nice guide to using N-channel mosfet w/ motor control ... [https://bildr.org/2012/03/rfp30n06le-arduino/](https://bildr.org/2012/03/rfp30n06le-arduino/)
+
+
+Carbon fiber heating wire: [https://www.walmart.com/ip/Anself-3mm-12K-33-Carbon-Fibre-Heating-Wire-200-High-Temperature-Far-Infrared-Silicon-Rubber-Warm-Floor-Heating-Cable/214637878?wmlspartner=wlpa&selectedSellerId=101001360&&adid=22222222227458777995&wl0=&wl1=g&wl2=c&wl3=538566868938&wl4=pla-1461988039397&wl5=9001876&wl6=&wl7=9002004&wl8=&wl9=pla&wl10=128133340&wl11=online&wl12=214637878&veh=sem&gclid=CjwKCAiA4veMBhAMEiwAU4XRr8JrzrRzHUIx8zmXSVjrAAqEOX5sOsjLmlKgGTlOpF0Q_P1oLxs-eRoCHKsQAvD_BwE&gclsrc=aw.ds](https://www.walmart.com/ip/Anself-3mm-12K-33-Carbon-Fibre-Heating-Wire-200-High-Temperature-Far-Infrared-Silicon-Rubber-Warm-Floor-Heating-Cable/214637878?wmlspartner=wlpa&selectedSellerId=101001360&&adid=22222222227458777995&wl0=&wl1=g&wl2=c&wl3=538566868938&wl4=pla-1461988039397&wl5=9001876&wl6=&wl7=9002004&wl8=&wl9=pla&wl10=128133340&wl11=online&wl12=214637878&veh=sem&gclid=CjwKCAiA4veMBhAMEiwAU4XRr8JrzrRzHUIx8zmXSVjrAAqEOX5sOsjLmlKgGTlOpF0Q_P1oLxs-eRoCHKsQAvD_BwE&gclsrc=aw.ds)
 

@@ -254,6 +254,44 @@ Thermal fuse [https://www.amazon.com/Microtemp-Thermal-x2103-Cut-off-Skywalking/
 Digital multimeter fuse [https://www.amazon.com/dp/B07CB968SQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B07CB968SQ&pd_rd_w=gvQxl&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=MIXWU&pf_rd_r=4TN41YEQR1R5SBQCJN75&pd_rd_r=ad099993-0585-4191-8205-64fe8257a6ad&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN082REpZNEE5VlEwJmVuY3J5cHRlZElkPUEwNjU4NDEwMjY4WEtFS0tQVFA2SSZlbmNyeXB0ZWRBZElkPUEwMjU2MDkwMjNUV1c1WEFNMTE1WCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=](https://www.amazon.com/dp/B07CB968SQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B07CB968SQ&pd_rd_w=gvQxl&pf_rd_p=887084a2-5c34-4113-a4f8-b7947847c308&pd_rd_wg=MIXWU&pf_rd_r=4TN41YEQR1R5SBQCJN75&pd_rd_r=ad099993-0585-4191-8205-64fe8257a6ad&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN082REpZNEE5VlEwJmVuY3J5cHRlZElkPUEwNjU4NDEwMjY4WEtFS0tQVFA2SSZlbmNyeXB0ZWRBZElkPUEwMjU2MDkwMjNUV1c1WEFNMTE1WCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 
 
+---
+2021-11-24 17:53:41
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RDpZQSPV6O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T-h6Cbi6H-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Drilling holes in metal: [https://www.familyhandyman.com/list/tips-for-drilling-holes-in-metal/](https://www.familyhandyman.com/list/tips-for-drilling-holes-in-metal/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2tflMaWLLpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[http://nrgcycle.com/](http://nrgcycle.com/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/otgfEFoJCLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BugXmDxC0WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wlMlEkR704U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gcx1Yi67Jh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2svFH4qmvgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/results?search_query=bicycle+wheel+belt+diy](https://www.youtube.com/results?search_query=bicycle+wheel+belt+diy)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWzNeOliJ1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/channel/UCL2soflHdZyT0PgrVxakxWA](https://www.youtube.com/channel/UCL2soflHdZyT0PgrVxakxWA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o9Ax--W3PHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gkgEny1BF5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_vV_z_0lFQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.notechmagazine.com/2009/12/windmills-and-wind-motors-how-to-build-and-run-them-1910.html](https://www.notechmagazine.com/2009/12/windmills-and-wind-motors-how-to-build-and-run-them-1910.html)
+
+[https://makezine.com/projects/backyard-wind-power/](https://makezine.com/projects/backyard-wind-power/)
 
 
 
