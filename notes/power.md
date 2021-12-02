@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 updated: 2021-11-09
 tags: notes 
-image: /img/power/boosta_proto.png
+image: /img/power/bicycle.png
 blurb: Designs for off-grid power generation
 ---
 
@@ -292,6 +292,39 @@ Drilling holes in metal: [https://www.familyhandyman.com/list/tips-for-drilling-
 [https://www.notechmagazine.com/2009/12/windmills-and-wind-motors-how-to-build-and-run-them-1910.html](https://www.notechmagazine.com/2009/12/windmills-and-wind-motors-how-to-build-and-run-them-1910.html)
 
 [https://makezine.com/projects/backyard-wind-power/](https://makezine.com/projects/backyard-wind-power/)
+
+---
+2021-11-28 20:12:08
+
+Wind power
+
+[https://www.instructables.com/Ted-Baer-s-Bicycle-Wheel-Windmill/](https://www.instructables.com/Ted-Baer-s-Bicycle-Wheel-Windmill/)
+
+[https://www.otherpower.com/otherpower_experiments_tapedrivemotors.html](https://www.otherpower.com/otherpower_experiments_tapedrivemotors.html)
+
+---
+2021-11-28 20:20:19
+
+Guide to batteries: [https://www.otherpower.com/off-grid-battery-guide](https://www.otherpower.com/off-grid-battery-guide)
+
+Great video showing battery corrosion [https://www.youtube.com/watch?v=hywkWB5a9GY](https://www.youtube.com/watch?v=hywkWB5a9GY)
+
+How a lead acid battery work [https://www.youtube.com/watch?v=rhIRD5YVNbs](https://www.youtube.com/watch?v=rhIRD5YVNbs)
+
+---
+2021-12-02 12:29:07
+
+Wind power ...
+
+[https://www.youtube.com/watch?v=7v2JcXYDLpo](https://www.youtube.com/watch?v=7v2JcXYDLpo)
+
+![](/img/power/bicycle.png)
+
+[https://paginas.fe.up.pt/~feliz/e_paper15_BicycleWindTurbine.pdf](https://paginas.fe.up.pt/~feliz/e_paper15_BicycleWindTurbine.pdf)
+
+Using a car alternator for wheel electricity generation [https://www.youtube.com/watch?v=zVBR3HNjlYw](https://www.youtube.com/watch?v=zVBR3HNjlYw)
+
+Which motor type is the best generator? [https://www.youtube.com/watch?v=cJ_vDA7xsGs](https://www.youtube.com/watch?v=cJ_vDA7xsGs)
 
 
 

@@ -101,3 +101,27 @@ Below example apk worked:
 
 Associated post to extend to two values, here: [https://rntlab.com/question/esp32-ble-to-mit-app/](https://rntlab.com/question/esp32-ble-to-mit-app/)
 
+---
+2021-12-02 12:44:58
+
+This device now in stock:
+
+[https://www.adafruit.com/product/4413](https://www.adafruit.com/product/4413)
+
+Great post on magnetic sensor calibration: [https://learn.adafruit.com/adafruit-sensorlab-magnetometer-calibration](https://learn.adafruit.com/adafruit-sensorlab-magnetometer-calibration)
+
+---
+2021-12-02 13:15:00
+
+Okay, looks like this is the GPS module to work with for now: 
+
+[https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT/ref=sr_1_3?keywords=gps%2Barduino&qid=1638468855&sr=8-3&th=1](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT/ref=sr_1_3?keywords=gps%2Barduino&qid=1638468855&sr=8-3&th=1)
+
+The LSM303 module via amazon: [https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_5?keywords=magnetometer+accelerometer&qid=1638469212&sr=8-5](https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_5?keywords=magnetometer+accelerometer&qid=1638469212&sr=8-5)
+
+LSM303 flora: [https://www.amazon.com/Adafruit-Flora-Accelerometer-Compass-Sensor/dp/B00OKJFELC](https://www.amazon.com/Adafruit-Flora-Accelerometer-Compass-Sensor/dp/B00OKJFELC)
+
+LSM303 via adafruit STEMMA: [https://www.adafruit.com/product/4413](https://www.adafruit.com/product/4413)
+
+LSM303 in some random Amazon package: [https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_1?keywords=LSM303&qid=1638470322&sr=8-1](https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_1?keywords=LSM303&qid=1638470322&sr=8-1)
+

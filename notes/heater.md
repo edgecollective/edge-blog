@@ -86,3 +86,19 @@ Nice guide to using N-channel mosfet w/ motor control ... [https://bildr.org/201
 
 Carbon fiber heating wire: [https://www.walmart.com/ip/Anself-3mm-12K-33-Carbon-Fibre-Heating-Wire-200-High-Temperature-Far-Infrared-Silicon-Rubber-Warm-Floor-Heating-Cable/214637878?wmlspartner=wlpa&selectedSellerId=101001360&&adid=22222222227458777995&wl0=&wl1=g&wl2=c&wl3=538566868938&wl4=pla-1461988039397&wl5=9001876&wl6=&wl7=9002004&wl8=&wl9=pla&wl10=128133340&wl11=online&wl12=214637878&veh=sem&gclid=CjwKCAiA4veMBhAMEiwAU4XRr8JrzrRzHUIx8zmXSVjrAAqEOX5sOsjLmlKgGTlOpF0Q_P1oLxs-eRoCHKsQAvD_BwE&gclsrc=aw.ds](https://www.walmart.com/ip/Anself-3mm-12K-33-Carbon-Fibre-Heating-Wire-200-High-Temperature-Far-Infrared-Silicon-Rubber-Warm-Floor-Heating-Cable/214637878?wmlspartner=wlpa&selectedSellerId=101001360&&adid=22222222227458777995&wl0=&wl1=g&wl2=c&wl3=538566868938&wl4=pla-1461988039397&wl5=9001876&wl6=&wl7=9002004&wl8=&wl9=pla&wl10=128133340&wl11=online&wl12=214637878&veh=sem&gclid=CjwKCAiA4veMBhAMEiwAU4XRr8JrzrRzHUIx8zmXSVjrAAqEOX5sOsjLmlKgGTlOpF0Q_P1oLxs-eRoCHKsQAvD_BwE&gclsrc=aw.ds)
 
+---
+2021-11-29 16:59:02
+
+"Motorcyclists make their own heated clothing ..."
+
+[https://www.bimmerforums.com/forum/showthread.php?1563924-Converting-non-heated-seat-to-heated](https://www.bimmerforums.com/forum/showthread.php?1563924-Converting-non-heated-seat-to-heated) 
+
+[https://advrider.com/f/threads/35-00-heated-jacket-liner-diy.514532/](https://advrider.com/f/threads/35-00-heated-jacket-liner-diy.514532/)
+
+Hook-up wire [https://www.mouser.com/c/wire-cable/hook-up-wire/?q=83000](https://www.mouser.com/c/wire-cable/hook-up-wire/?q=83000)
+
+[https://www.youtube.com/results?search_query=diy+heated+jacket+wire](https://www.youtube.com/results?search_query=diy+heated+jacket+wire)
+
+Interesting -- he threads his own nichrome wire into insulation:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpJZ3bCi8d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -5617,7 +5617,26 @@ Commit is here:
 
 Note: ran out of storage space on NRF Sense, and it 'froze' system -- wasn't able to access historical file, code.py was erased, odd behavior.  Might be safer to log to microsd for this reason.  Or at least: need to show warnings, check remaining space if logging to local flash.
 
-DC4 uses 10DOF breakout, gets compass and gps readings ...
+---
+2021-12-02 17:15:11
+
+Low power mode for the SCD30 [https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf](https://www.mouser.com/pdfdocs/CD_AN_SCD30_Low_Power_Mode_D2.pdf)
+
+Smart citizen ref on co2 sensor [https://docs.smartcitizen.me/Guides/calibration/SCD30%20CO2%20sensor/](https://docs.smartcitizen.me/Guides/calibration/SCD30%20CO2%20sensor/)
+
+Ideas around running CO2 sensor on low power [https://afterhourscoding.wordpress.com/2021/09/](https://afterhourscoding.wordpress.com/2021/09/)
+
+---
+2021-12-02 17:28:09
+
+IBM4 diode input selection:
+
+![](/img/co2/diode_selector.png)
+
+Feather M4 diode scenario:
+
+![](/img/co2/featherm4_diode.png)
+
 
 
 
