@@ -125,3 +125,62 @@ LSM303 via adafruit STEMMA: [https://www.adafruit.com/product/4413](https://www.
 
 LSM303 in some random Amazon package: [https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_1?keywords=LSM303&qid=1638470322&sr=8-1](https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=sr_1_1?keywords=LSM303&qid=1638470322&sr=8-1)
 
+---
+2021-12-06 15:18:49
+
+M0 wake from interrupt code example: [https://github.com/ProjectsByJRP/M0_Sleep_External_Int](https://github.com/ProjectsByJRP/M0_Sleep_External_Int)
+
+Also: the RTCZero library is available
+
+This seems to be the edge-mount SMA part: [https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450](https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450)
+
+Appropriate lora antenna on Digikey: [https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/318020389/15277460?utm_adgroup=RF%20Antennas&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID_NEW&utm_term=&utm_content=RF%20Antennas&gclid=CjwKCAiAhreNBhAYEiwAFGGKPACMhG_iZ7Z5NfBJH9PoIr5wcTi-rGeWcapD-65skeYaGehZQl5PVhoCm2UQAvD_BwE](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/318020389/15277460?utm_adgroup=RF%20Antennas&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID_NEW&utm_term=&utm_content=RF%20Antennas&gclid=CjwKCAiAhreNBhAYEiwAFGGKPACMhG_iZ7Z5NfBJH9PoIr5wcTi-rGeWcapD-65skeYaGehZQl5PVhoCm2UQAvD_BwE)
+
+QT to male header cable on adafruit: [https://www.adafruit.com/product/4209](https://www.adafruit.com/product/4209)
+
+horiztonal JST 4 pin connector / stemma [https://www.adafruit.com/product/4392](https://www.adafruit.com/product/4392) -- hor
+
+vertical (through-hole) JST 4 pin connector: [https://www.adafruit.com/product/4390](https://www.adafruit.com/product/4390) -- even nicer! use this on CO2!
+
+adafruit monochrome OLED 128x64 that works with stemma -- nice find! [https://www.adafruit.com/product/326](https://www.adafruit.com/product/326) 
+
+image transfer, bluetooth BLE [https://learn.adafruit.com/bluefruit-le-connect/image-transfer](https://learn.adafruit.com/bluefruit-le-connect/image-transfer)
+
+tile downloader via OSM: [https://wiki.openstreetmap.org/wiki/OpenLayers_Local_Tiles_Example](https://wiki.openstreetmap.org/wiki/OpenLayers_Local_Tiles_Example)
+
+downloading tiles [https://help.openstreetmap.org/questions/43792/can-i-download-osm-tiles-for-offline-use](https://help.openstreetmap.org/questions/43792/can-i-download-osm-tiles-for-offline-use)
+
+openmaptiles [https://openmaptiles.org/](https://openmaptiles.org/)
+
+create vector tiles from openstreetmap [https://openmaptiles.org/docs/generate/generate-openmaptiles/](https://openmaptiles.org/docs/generate/generate-openmaptiles/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxnbLshM1iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+openlayers with tile coords for debugging [https://openlayers.org/en/latest/examples/canvas-tiles.html](https://openlayers.org/en/latest/examples/canvas-tiles.html)
+
+---
+2021-12-07 10:51:27
+
+Adafruit TFT display I have for testing: [https://www.adafruit.com/product/358](https://www.adafruit.com/product/358)
+
+Associated product tutorial: [https://learn.adafruit.com/1-8-tft-display/downloads](https://learn.adafruit.com/1-8-tft-display/downloads)
+
+imagemagick create 24 bit bitmap: 
+
+> convert 2color.bmp -type truecolor 24bit.bmp
+
+resize:
+
+> convert dragon_sm.gif    -resize 64x64
+
+If use '^', it will fill the image based on smallest dimension:
+
+> convert dragon_sm.gif    -resize 64x64^
+
+Simple plotting code using Adafruit graphics library: 
+
+[https://forum.arduino.cc/t/another-free-graph-function-for-plotting-in-cartesian-space/354751](https://forum.arduino.cc/t/another-free-graph-function-for-plotting-in-cartesian-space/354751)
+
+Waveshare display [https://www.amazon.com/gp/product/B0728BJTZC/ref=sw_img_1?smid=&psc=1](https://www.amazon.com/gp/product/B0728BJTZC/ref=sw_img_1?smid=&psc=1)
+
+

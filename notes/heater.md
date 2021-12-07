@@ -102,3 +102,29 @@ Hook-up wire [https://www.mouser.com/c/wire-cable/hook-up-wire/?q=83000](https:/
 Interesting -- he threads his own nichrome wire into insulation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SpJZ3bCi8d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.instructables.com/Solar-Water-Heater-From-Scratch/](https://www.instructables.com/Solar-Water-Heater-From-Scratch/)
+
+advice on copper coil dimensions:
+
+[https://youtu.be/4JFdDITCH-8?t=388](https://youtu.be/4JFdDITCH-8?t=388)
+
+---
+
+Official design for wood-stove hot tub w/ some specs: [https://islandhottub.com/wood-fired-heater/understanding-thermosiphon](https://islandhottub.com/wood-fired-heater/understanding-thermosiphon)
+
+> To produce thermosiphon circulation, the top circulating tube must rise upward to the tub at a rate of 2-inches per foot or greater for the horizontal distance. The steeper the slope, the faster water circulates. Note: Faster circulation does not produce a faster heating rate.
+
+Subtleties in designing a thermosiphon system: [https://www.greenbuildingadvisor.com/question/thermosiphon-vs-recirculating-pump](https://www.greenbuildingadvisor.com/question/thermosiphon-vs-recirculating-pump)
+
+Article on hot water systems: [http://www.garykleinassociates.com/PDFs/15%20-%20Efficient%20Hot-Water%20Piping-JLC.pdf](http://www.garykleinassociates.com/PDFs/15%20-%20Efficient%20Hot-Water%20Piping-JLC.pdf)
+
+Thermosiphone on appropedia [https://www.appropedia.org/Thermosiphon](https://www.appropedia.org/Thermosiphon)
+
+Hot water heater [https://earthshipbiotecture.com/do-it-yourself-solar-hot-water-heater/](https://earthshipbiotecture.com/do-it-yourself-solar-hot-water-heater/)
+
+Nice review of thermosiphon materials [https://www.sciencedirect.com/topics/engineering/thermosiphon-system](https://www.sciencedirect.com/topics/engineering/thermosiphon-system)
+
+Likely reason for use of silicone in heating elements: its unusually high melting / burning point: [https://silicone.co.uk/news/temperatures-can-silicone-rubber-withstand/](https://silicone.co.uk/news/temperatures-can-silicone-rubber-withstand/)
+
+

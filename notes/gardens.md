@@ -50,3 +50,11 @@ insulating body much more efficient than insulating a space
 [https://foodpolicyforcanada.info.yorku.ca/goals/goal-1/self-provisioning/](https://foodpolicyforcanada.info.yorku.ca/goals/goal-1/self-provisioning/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HAZwj23DxVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+2021-12-06 13:00:36
+
+Ben Falk's Whole System Design: [https://www.wholesystemsdesign.com/](https://www.wholesystemsdesign.com/)
+
+Associated permaculture design course: [http://wholesystemsdesign.squarespace.com/permaculture-design-course/](http://wholesystemsdesign.squarespace.com/permaculture-design-course/)
+

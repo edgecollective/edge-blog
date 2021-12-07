@@ -326,5 +326,14 @@ Using a car alternator for wheel electricity generation [https://www.youtube.com
 
 Which motor type is the best generator? [https://www.youtube.com/watch?v=cJ_vDA7xsGs](https://www.youtube.com/watch?v=cJ_vDA7xsGs)
 
+Great explanation here:
+[https://www.windynation.com/jzv/inf/making-wind-power-how-choose-right-motor](https://www.windynation.com/jzv/inf/making-wind-power-how-choose-right-motor)
 
+> A Volts-to-RPM ratio of AT LEAST 0.035 is the minimum requirement when looking for a permanent magnet motor. If the number is higher than 0.035 that is perfect. If the number is lower than 0.035, it will likely be insufficient unless it is located in an area with high winds.
+
+- Keep it simple: Only purchase a permanent magnet motor
+- Look for a minimum Volts to RPM ratio of 0.035
+- Look for a minimum amperage rating of 5
+
+[https://www.amazon.com/Pacific-Sky-Power-Project-Generator/dp/B01KMZQT1Q/ref=pd_sbs_1/130-4956080-9281917?pd_rd_w=zGDAb&pf_rd_p=0a3ad226-8a77-4898-9a99-63ffeb1aef90&pf_rd_r=PGXAYNKW3WDC9Z9900HX&pd_rd_r=e828b7d3-ae90-456b-9eb1-de23c0421663&pd_rd_wg=YQTPH&pd_rd_i=B01KMZQT1Q&psc=1](https://www.amazon.com/Pacific-Sky-Power-Project-Generator/dp/B01KMZQT1Q/ref=pd_sbs_1/130-4956080-9281917?pd_rd_w=zGDAb&pf_rd_p=0a3ad226-8a77-4898-9a99-63ffeb1aef90&pf_rd_r=PGXAYNKW3WDC9Z9900HX&pd_rd_r=e828b7d3-ae90-456b-9eb1-de23c0421663&pd_rd_wg=YQTPH&pd_rd_i=B01KMZQT1Q&psc=1)
 

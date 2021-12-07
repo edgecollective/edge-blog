@@ -5629,18 +5629,48 @@ Ideas around running CO2 sensor on low power [https://afterhourscoding.wordpress
 ---
 2021-12-02 17:28:09
 
-IBM4 diode input selection:
+IBM4 power circuit (left) vs Feather M4 (right): 
 
-![](/img/co2/diode_selector.png)
+![](/img/co2/diode_selector.png) ![](/img/co2/featherm4_diode.png)
 
-Feather M4 diode scenario:
+---
+2021-12-05 12:04:39
 
-![](/img/co2/featherm4_diode.png)
+Schematics and dimensions for microlipo chargers:
+
+[https://learn.adafruit.com/adafruit-microlipo-and-minilipo-battery-chargers/downloads](https://learn.adafruit.com/adafruit-microlipo-and-minilipo-battery-chargers/downloads)
+
+Schematic for IBM4:
+
+![](/img/co2/ibm4_schem.png)
+
+---
+2021-12-07 13:43:48
+
+Airlift Featherwing schematic:  [https://cdn-learn.adafruit.com/assets/assets/000/076/198/original/adafruit_products_AirLift_FeatherWing_Sch.png?1559155254](https://cdn-learn.adafruit.com/assets/assets/000/076/198/original/adafruit_products_AirLift_FeatherWing_Sch.png?1559155254)
 
 
+Forum post on switching 3v3 load w/ mosfet -- [https://forum.arduino.cc/t/switching-with-3v3/675483/2](https://forum.arduino.cc/t/switching-with-3v3/675483/2)
 
+> MOSFETs have something called On-Resistance or Rds(on). Basically they act like a series resistor in your circuit. So they will drop a voltage of V = IRds(on). Your MOSFET has a huge Rds(on). At 4.5v it has a resistance of 3 Ohms. So if 300mA of current goes through it it will drop 30.3 ~ 1 volts.
 
+> You need to get a MOSFET with lower on-resistance. It’s a very important factor in selecting MOSFETs and is usually stated at the top of the datasheet.
 
+Actually, should look at how Feather S2 does it -- 
+
+Feather S2 schematic [https://feathers2.io/images/FeatherS2_Schematic.pdf](https://feathers2.io/images/FeatherS2_Schematic.pdf)
+
+They control current with this part: [https://www.mouser.com/datasheet/2/308/1/NCP167_D-2316956.pdf](https://www.mouser.com/datasheet/2/308/1/NCP167_D-2316956.pdf)
+
+The Adafruit LDO part [https://cdn-shop.adafruit.com/product-files/2471/AP2112.pdf](https://cdn-shop.adafruit.com/product-files/2471/AP2112.pdf)
+
+hall effect sensor A3144E
+
+vibration sensor [https://www.adafruit.com/product/1767](https://www.adafruit.com/product/1767)
+
+hall effect sparkfun AH1815 [https://www.sparkfun.com/products/14709](https://www.sparkfun.com/products/14709)
+
+on digikey here: [https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089](https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089)
 
 
 
