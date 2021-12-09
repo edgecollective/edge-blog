@@ -5664,14 +5664,35 @@ They control current with this part: [https://www.mouser.com/datasheet/2/308/1/N
 
 The Adafruit LDO part [https://cdn-shop.adafruit.com/product-files/2471/AP2112.pdf](https://cdn-shop.adafruit.com/product-files/2471/AP2112.pdf)
 
-hall effect sensor A3144E
+Is this the proper JST PH for the waveshare e-ink? [https://www.digikey.com/en/products/detail/jst-sales-america-inc./A08SUR08SUR32W51B/6009364?utm_adgroup=Rectangular%20Cable%20Assemblies&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Cable%20Assemblies_NEW&utm_term=&utm_content=Rectangular%20Cable%20Assemblies&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzPgNJXx5moiChPy3_BWiicQZtJ8WywE0vjAIpTDepZcRlipH-7Es6waArgeEALw_wcB](https://www.digikey.com/en/products/detail/jst-sales-america-inc./A08SUR08SUR32W51B/6009364?utm_adgroup=Rectangular%20Cable%20Assemblies&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Cable%20Assemblies_NEW&utm_term=&utm_content=Rectangular%20Cable%20Assemblies&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzPgNJXx5moiChPy3_BWiicQZtJ8WywE0vjAIpTDepZcRlipH-7Es6waArgeEALw_wcB) -- with white cables.
 
-vibration sensor [https://www.adafruit.com/product/1767](https://www.adafruit.com/product/1767)
+Yes, seems -- the PH JST connector is 2.0 mm ... [https://cdn-shop.adafruit.com/datasheets/17311.pdf](https://cdn-shop.adafruit.com/datasheets/17311.pdf)
 
-hall effect sparkfun AH1815 [https://www.sparkfun.com/products/14709](https://www.sparkfun.com/products/14709)
+This is an 8-position cable: [https://www.digikey.com/en/products/detail/jst-sales-america-inc/A08KR08KR26E51A/6194792](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A08KR08KR26E51A/6194792) -- with blue cables
 
-on digikey here: [https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089](https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089)
+Ah -- it's socket to socket -- 
 
+So, maybe for now we just rely on the waveshare cabling ...a
 
+Adafruit e-ink breakout friend: [https://www.adafruit.com/product/4224](https://www.adafruit.com/product/4224)
 
+Note: in the waveshare code, needed to use this:
+
+> #include <GxGDEH0154D67/GxGDEH0154D67.h>  // 1.54" b/w
+
+Included fonts in adafruit graphics lib: [https://learn.adafruit.com/adafruit-gfx-graphics-library/using-fonts](https://learn.adafruit.com/adafruit-gfx-graphics-library/using-fonts)
+
+Adafruit e-ink display: [https://www.adafruit.com/product/4196](https://www.adafruit.com/product/4196)
+
+That part on digikey: [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4196/10060722](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4196/10060722)
+
+Extra tall female header on Pi [https://www.adafruit.com/product/1979](https://www.adafruit.com/product/1979)
+
+Extra tall male header? 
+
+Sparkfun RPI extra tall header [https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-14017](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-14017)
+
+Sparkfun elevated header [https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-16764/12686344?utm_adgroup=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzNFbSbrEKyLV-1zhTH32pz3zMSeM6-q51GH2f8Ycnzh2GUAMQl39M8aAmwqEALw_wcB](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-16764/12686344?utm_adgroup=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzNFbSbrEKyLV-1zhTH32pz3zMSeM6-q51GH2f8Ycnzh2GUAMQl39M8aAmwqEALw_wcB)
+
+and this is their grayscale version: [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4741/13426655?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzP3lNvMilUHS7GpyURSzXB895xQgkj6tqucAFz9KVdT2-OBrcMHPwgaArvCEALw_wcB](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4741/13426655?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzP3lNvMilUHS7GpyURSzXB895xQgkj6tqucAFz9KVdT2-OBrcMHPwgaArvCEALw_wcB)
 

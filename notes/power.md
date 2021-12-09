@@ -337,3 +337,21 @@ Great explanation here:
 
 [https://www.amazon.com/Pacific-Sky-Power-Project-Generator/dp/B01KMZQT1Q/ref=pd_sbs_1/130-4956080-9281917?pd_rd_w=zGDAb&pf_rd_p=0a3ad226-8a77-4898-9a99-63ffeb1aef90&pf_rd_r=PGXAYNKW3WDC9Z9900HX&pd_rd_r=e828b7d3-ae90-456b-9eb1-de23c0421663&pd_rd_wg=YQTPH&pd_rd_i=B01KMZQT1Q&psc=1](https://www.amazon.com/Pacific-Sky-Power-Project-Generator/dp/B01KMZQT1Q/ref=pd_sbs_1/130-4956080-9281917?pd_rd_w=zGDAb&pf_rd_p=0a3ad226-8a77-4898-9a99-63ffeb1aef90&pf_rd_r=PGXAYNKW3WDC9Z9900HX&pd_rd_r=e828b7d3-ae90-456b-9eb1-de23c0421663&pd_rd_wg=YQTPH&pd_rd_i=B01KMZQT1Q&psc=1)
 
+hall effect sensor A3144E
+
+vibration sensor [https://www.adafruit.com/product/1767](https://www.adafruit.com/product/1767)
+
+hall effect sparkfun AH1815 [https://www.sparkfun.com/products/14709](https://www.sparkfun.com/products/14709)
+
+on digikey here: [https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089](https://www.digikey.com/en/products/detail/diodes-incorporated/AH1815-P-B/5453089)
+
+nice tutorial on hall effect sensors [https://www.studiopieters.nl/3144-hall-effect-sensor/](https://www.studiopieters.nl/3144-hall-effect-sensor/
+
+[https://makersportal.com/blog/2018/10/3/arduino-tachometer-using-a-hall-effect-sensor-to-measure-rotations-from-a-fan](https://makersportal.com/blog/2018/10/3/arduino-tachometer-using-a-hall-effect-sensor-to-measure-rotations-from-a-fan)
+
+Note: these two tutorials above suggest using the 3144 ... but it's a 5V supply.
+
+Current sensor from adafruit on digikey: [https://www.digikey.com/en/products/detail/adafruit-industries-llc/904/5353628](https://www.digikey.com/en/products/detail/adafruit-industries-llc/904/5353628)
+
+RPM vs voltage for brushless motor [https://www.youtube.com/watch?v=JD1gplvhGrc](https://www.youtube.com/watch?v=JD1gplvhGrc)
+
