@@ -7,38 +7,48 @@ image: img/power/boosta_proto.png
 blurb: DIY electronics for storing and using energy off-grid
 ---
 
-## Boost ver 1
+# Boost ver 1
 
-### Tools
+<img src="/img/boost/boostv1.png" width=200px>
 
-#### Soldering Iron and cutting pliers
+## Useful Tools for Assembly 
 
-E.g. $16 kit on Amazon [here](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1)
+1. Soldering Iron
 
-[![](/img/boost/soldering_kit.png)](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1)
+<img src="/img/boost/soldering_iron.jpg" width=200px>
 
-#### (Optional) Multimeter
+2. Cutting pliers
 
-E.g. $21 multimeter on Amazon [here](https://www.amazon.com/Ranging-Digital-Multimeter-Battery-Alligator/dp/B06ZZG2F2N)
+<img src="/img/boost/pliers.png" width=200px>
 
-[![](/img/boost/multimeter.png)](https://www.amazon.com/Ranging-Digital-Multimeter-Battery-Alligator/dp/B06ZZG2F2N)
+3. (Optional) Multimeter
 
+<img src="/img/boost/multimeter_sparkfun.jpg" width=200px>
 
+4. Where to purchase 
 
-### Assembly Overview Video
+- [**Soldering iron and cutting pliers in a single kit for $16**](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1)
+
+<a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1"><img src="/img/boost/soldering_kit.png" width=200px></a>
+
+- [**Multimeter for $21**](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1) 
+
+<a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1"><img src="/img/boost/multimeter.png" width=200px></a>
+
+## Assembly Overview Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AXWXSolYAI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Board image
+## Board image
 
 ![](/img/boost/board.png)
 
-### Schematic
+## Schematic
 
 [![](/img/boost/schematic.png)](/img/boost/boosta.pdf)
 
 
-### Parts List
+## Parts List
 
 Google sheets parts list [here](https://docs.google.com/spreadsheets/d/1SSv-qiHzVkntU7v8pnGAcpxlCwBbYCUFDfs7P6XYWlM/edit?usp=sharing).
 
