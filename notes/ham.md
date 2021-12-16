@@ -26,3 +26,6 @@ DORJI
 [https://www.qrp-labs.com/](https://www.qrp-labs.com/)
 
 [https://nescitech.org/ham-exam-contact-us/](https://nescitech.org/ham-exam-contact-us/)
+
+QRP Labs device for $60: [https://hackaday.com/2021/12/08/four-band-digital-hf-sdr-transceiver-offers-high-performance-for-only-60/](https://hackaday.com/2021/12/08/four-band-digital-hf-sdr-transceiver-offers-high-performance-for-only-60/)
+

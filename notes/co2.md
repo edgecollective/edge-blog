@@ -5696,3 +5696,135 @@ Sparkfun elevated header [https://www.digikey.com/en/products/detail/sparkfun-el
 
 and this is their grayscale version: [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4741/13426655?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzP3lNvMilUHS7GpyURSzXB895xQgkj6tqucAFz9KVdT2-OBrcMHPwgaArvCEALw_wcB](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4741/13426655?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiAzMGNBhCyARIsANpUkzP3lNvMilUHS7GpyURSzXB895xQgkj6tqucAFz9KVdT2-OBrcMHPwgaArvCEALw_wcB)
 
+---
+2021-12-12 13:03:35
+
+JST PH connector on digikey: [https://www.digikey.com/catalog/en/partgroup/ph-series/2825](https://www.digikey.com/catalog/en/partgroup/ph-series/2825)
+
+Filtering for JST PH: [
+https://www.digikey.com/en/products/filter/rectangular-connectors-headers-male-pins/314?s=N4IgjCBcpg7AnABiqAxlAZgQwDYGcBTAGhAHsoBtEADgBZr4QBdEgBwBcoQBldgJwCWAOwDmIAL4kw8BihDpI2fMTKUQyFiA5deg0RJIBaCNHmZchEuUhVaAVjvNJIQ7TkKll1TZABmWLQATE7OAGxyAgAmXMaIwWyckCAgJOwAnqwEXJF46OLiQA](
+https://www.digikey.com/en/products/filter/rectangular-connectors-headers-male-pins/314?s=N4IgjCBcpg7AnABiqAxlAZgQwDYGcBTAGhAHsoBtEADgBZr4QBdEgBwBcoQBldgJwCWAOwDmIAL4kw8BihDpI2fMTKUQyFiA5deg0RJIBaCNHmZchEuUhVaAVjvNJIQ7TkKll1TZABmWLQATE7OAGxyAgAmXMaIwWyckCAgJOwAnqwEXJF46OLiQA)
+
+Looks like 3 pos, 4 pos, 16 pos, and 6 pos are the ones best avail on digikey
+
+'horizontal' (?)16 position connector [https://www.digikey.com/en/products/detail/jst-sales-america-inc/B16B-PH-SM4-TB-LF-SN/926654](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B16B-PH-SM4-TB-LF-SN/926654)
+
+Datasheet (generic for JST PH) [https://www.jst-mfg.com/product/pdf/eng/ePH.pdf](https://www.jst-mfg.com/product/pdf/eng/ePH.pdf)
+
+16 pos connector -- through  https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+
+Short stacking headers [https://www.adafruit.com/product/3008](https://www.adafruit.com/product/3008)
+
+Short headers for itsy bitsy on digikey [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4174/10130489?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4ArAEwIC6AvvYVWSACxgDsbIDQA](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4174/10130489?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4ArAEwIC6AvvYVWSACxgDsbIDQA)
+
+Is this perhaps a short header, too? [https://www.digikey.com/en/products/detail/3m/929870-01-08-RA/1239311?utm_adgroup=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNO9BosVGwPmCg4cc1lEkDJxYj6y87PpCeaGDQRe6vSkwmGg7BBSgZxoCy2kQAvD_BwE](https://www.digikey.com/en/products/detail/3m/929870-01-08-RA/1239311?utm_adgroup=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Rectangular%20Connectors%20-%20Headers%2C%20Receptacles%2C%20Female%20Sockets&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNO9BosVGwPmCg4cc1lEkDJxYj6y87PpCeaGDQRe6vSkwmGg7BBSgZxoCy2kQAvD_BwE)
+
+Yes, I think so:
+
+> Insulation Height
+> 0.150" (3.81mm)
+￼
+> Contact Length - Post
+> 0.125" (3.18mm)
+
+As opposed to:
+
+[https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC081LFBN-RC/810147](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC081LFBN-RC/810147)
+
+Which has:
+
+> Insulation Height
+> 0.335" (8.51mm)
+￼
+> Contact Length - Post
+> 0.126" (3.20mm)
+
+adafruit lipo charger [https://www.adafruit.com/product/4410](https://www.adafruit.com/product/4410)
+
+Board layout:  [https://learn.adafruit.com/assets/83636](https://learn.adafruit.com/assets/836360
+
+![](/img/co2/adafruit_products_USB-C_MicroLipo_Charger_Fab_Print..png)
+
+---
+2021-12-13 16:15:29
+
+![](/img/co2/rev_v_config_1.png)
+
+---
+2021-12-14 18:00:40
+
+Adafruit long male headers [https://www.adafruit.com/product/400?gclid=Cj0KCQiAnuGNBhCPARIsACbnLzoFJw9M6Mdtpy6pmQo3ot6Iq1YE9O_0D36tkOrna2uB5aRH5y4KOPwaAkqYEALw_wcB](https://www.adafruit.com/product/400?gclid=Cj0KCQiAnuGNBhCPARIsACbnLzoFJw9M6Mdtpy6pmQo3ot6Iq1YE9O_0D36tkOrna2uB5aRH5y4KOPwaAkqYEALw_wcB)
+
+Datasheet: 
+
+Coin cell holder: [https://www.digikey.com/en/products/detail/1056TR/1056KCT-ND/4772075](https://www.digikey.com/en/products/detail/1056TR/1056KCT-ND/4772075)
+
+[https://cdn-shop.adafruit.com/datasheets/18072.pdf](https://cdn-shop.adafruit.com/datasheets/18072.pdf)
+
+RTC schematic [https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618](https://cdn-learn.adafruit.com/assets/assets/000/044/116/original/feather_schem.png?1500667618)
+
+PCF breakout board [https://www.digikey.com/en/products/detail/adafruit-industries-llc/3295/6238007?utm_adgroup=Evaluation%20and%20Demonstration%20Boards%20and%20Kits&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Development%20Boards%2C%20Kits%2C%20Programmers&utm_term=&utm_content=Evaluation%20and%20Demonstration%20Boards%20and%20Kits&gclid=Cj0KCQiAnuGNBhCPARIsACbnLzqnjj2Qnlb4Mu5uVGh-j-ybAy4CgB5if45X8iS7xFuyZQYdu-3Ys68aAvV8EALw_wcB](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3295/6238007?utm_adgroup=Evaluation%20and%20Demonstration%20Boards%20and%20Kits&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Development%20Boards%2C%20Kits%2C%20Programmers&utm_term=&utm_content=Evaluation%20and%20Demonstration%20Boards%20and%20Kits&gclid=Cj0KCQiAnuGNBhCPARIsACbnLzqnjj2Qnlb4Mu5uVGh-j-ybAy4CgB5if45X8iS7xFuyZQYdu-3Ys68aAvV8EALw_wcB)
+
+---
+2021-12-15 12:17:47
+
+Testing out e-ink + CO2 system on broadboard ---
+
+Eink guide: [https://www.adafruit.com/product/4196](https://www.adafruit.com/product/4196)
+
+---
+2021-12-15 13:39:18
+
+Aranet4 measurement interval [
+
+-- this is huge!  
+
+Review of SSD1306 power consumption [https://bitbanksoftware.blogspot.com/2019/06/how-much-current-do-oled-displays-use.html](https://bitbanksoftware.blogspot.com/2019/06/how-much-current-do-oled-displays-use.html)
+
+Reference for displayio [https://www.google.com/search?q=adafruit+helvetica-regular-10.pcf&oq=adafruit+helvetica-regular-10.pcf&aqs=chrome..69i57j33.8138j0j4&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=adafruit+helvetica-regular-10.pcf&oq=adafruit+helvetica-regular-10.pcf&aqs=chrome..69i57j33.8138j0j4&sourceid=chrome&ie=UTF-8)
+
+sparkline example!!!  [https://circuitpython.readthedocs.io/projects/display-shapes/en/latest/examples.html#sparkline-simple-test](https://circuitpython.readthedocs.io/projects/display-shapes/en/latest/examples.html#sparkline-simple-test)
+
+guide to sparkline lib [https://circuitpython.readthedocs.io/projects/display-shapes/en/latest/api.html#id5](https://circuitpython.readthedocs.io/projects/display-shapes/en/latest/api.html#id5)
+
+---
+2021-12-15 16:51:17
+
+~/gitwork/co2-monitor/REV_V/firmware/CPY/v4/sparktick.py 
+
+reinitialize oled after power off: [https://github.com/lexus2k/ssd1306/issues/116](https://github.com/lexus2k/ssd1306/issues/116)
+
+---
+2021-12-15 21:03:44
+
+Seems that oled display uses about 4 mA when on, and < 1 mA when off.
+
+And that feather M4 uses about 10 mA when on, without sleeping.
+
+We can fully turn off the SCD30 module with the mosfet.
+
+Not worth hard power on / off the oled, because hard to restart; use display.sleep() -- ostensibly 10 uA power.
+
+With Python code, can sleep for 10 days on 2000 mAh batt; should estimate measurement cycle.
+
+One mode is -- only wake when 'poked'.  
+
+~/gitwork/co2-monitor/REV_V/firmware/CPY/v4/sparkpower.py is the latest example 
+
+OLED graphing using sparklines library:
+
+![](/img/co2/oled_graph.png)
+
+Video: [https://photos.app.goo.gl/cCzFEXrZiUPJkLtRA](https://photos.app.goo.gl/cCzFEXrZiUPJkLtRA)
+
+---
+2021-12-16 14:14:38
+
+'Flat' button in kicad:
+
+![](/img/co2/flat_button.png)
+
+![](/img/co2/flat_button_foot.png)
+
+
+

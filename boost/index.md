@@ -27,6 +27,8 @@ blurb: DIY electronics for storing and using energy off-grid
 
 4. Where to purchase 
 
+On Amazon:
+
 - [**Soldering iron and cutting pliers in a single kit for $16**](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1)
 
 <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1"><img src="/img/boost/soldering_kit.png" width=200px></a>
@@ -34,6 +36,14 @@ blurb: DIY electronics for storing and using energy off-grid
 - [**Multimeter for $21**](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1) 
 
 <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=psdc_3207126011_t1_B07PDK3MX1"><img src="/img/boost/multimeter.png" width=200px></a>
+
+On Adafruit:
+
+- [Soldering iron ($20)](https://www.adafruit.com/product/3685)
+- [Cutters ($8)](https://www.adafruit.com/product/152)
+- [Multimeter ($18)](https://www.adafruit.com/product/2034)
+- [Multimeter ($25)](https://www.adafruit.com/product/850)
+
 
 ## Assembly Overview Video
 
