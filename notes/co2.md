@@ -5743,7 +5743,7 @@ adafruit lipo charger [https://www.adafruit.com/product/4410](https://www.adafru
 
 Board layout:  [https://learn.adafruit.com/assets/83636](https://learn.adafruit.com/assets/836360
 
-![](/img/co2/adafruit_products_USB-C_MicroLipo_Charger_Fab_Print..png)
+![](/img/co2/adafruit_products_USB-C_MicroLipo_Charger_Fab_Print.png)
 
 ---
 2021-12-13 16:15:29
@@ -5826,5 +5826,80 @@ Video: [https://photos.app.goo.gl/cCzFEXrZiUPJkLtRA](https://photos.app.goo.gl/c
 
 ![](/img/co2/flat_button_foot.png)
 
+Experiment with capacitor to ground in mosfet setup:
 
+![](/img/co2/adafruit_products_USB-C_MicroLipo_Charger_Fab_Print.png)
+
+---
+2021-12-20 09:20:03
+
+Sharp memory display (adafruit) datasheet: [https://cdn-shop.adafruit.com/product-files/3502/Data+sheet.pdf](https://cdn-shop.adafruit.com/product-files/3502/Data+sheet.pdf)
+
+128x128 display on digikey -- many avail!! [https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH03/5300387?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o0HqA3PzTMOWEsJbinLhPHk30Klc9dSMITXiTTgADQpFi6HW5b89hcaAmMlEALw_wcB](https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH03/5300387?utm_adgroup=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Optoelectronics&utm_term=&utm_content=Display%20Modules%20-%20LCD%2C%20OLED%2C%20Graphic&gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o0HqA3PzTMOWEsJbinLhPHk30Klc9dSMITXiTTgADQpFi6HW5b89hcaAmMlEALw_wcB)
+
+40 pin TFT friend [https://www.adafruit.com/product/1932](https://www.adafruit.com/product/1932)
+
+144x168 (raw) sharp display [https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH05/5799456](https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH05/5799456)
+
+[https://www.tindie.com/products/TheRengineer/sharp-memory-lcd-breakout-and-library/](https://www.tindie.com/products/TheRengineer/sharp-memory-lcd-breakout-and-library/)
+
+breakout for sharp lcd displays [https://www.tindie.com/products/kuzyatech/sharp-memory-lcd-breakout-a2/](https://www.tindie.com/products/kuzyatech/sharp-memory-lcd-breakout-a2/)
+
+Nice description of the parts [http://kuzyatech.com/sharp-memory-lcd-breakout-a2](http://kuzyatech.com/sharp-memory-lcd-breakout-a2)
+
+Ah!! Reflective makes them readable in daylight -- and the 128x128 might not be readable -- so we want the reflective one, I think [https://hackaday.com/2013/07/01/working-with-very-cool-lcd-modules-from-sharp/](https://hackaday.com/2013/07/01/working-with-very-cool-lcd-modules-from-sharp/)
+
+---
+2021-12-20 20:52:16
+
+![](/img/co2/adafruit_sharp.jpg)
+
+---
+2021-12-21 16:19:42
+
+128x128 
+
+![](/img/co2/128_wiring.png)
+
+
+d13 -- esp32
+d12 -- esp32
+d11 -- esp32
+d10 -- esp32 gpio0 | rtcmicrosd cs
+
+d9 -- q1 (co2 power)
+d6 -- q2 (display power)
+d5 -- 128 cs | sharp cs
+
+a0 -- jumper to dio1 ?
+a1 -- 128 dc 
+a2 -- 128 rst (?) 
+a3 -- write permit
+a4 -- button a
+a5 -- button b
+
+128 CLK --> SCK
+128 DATA --> MOSI
+
+sharp CLK --> SCK
+sharp DI --> MOSI 
+
+[https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs](https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs)
+
+sharp screen placement:
+
+github repo for adafruit sharp display:
+
+[https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs](https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs)
+
+
+sharp screen placement:
+
+![](/img/co2/sharp_dim.png)
+
+github repo for adafruit 128 display:
+
+[https://github.com/adafruit/Adafruit-1.12in-128x128-OLED-PCB](https://github.com/adafruit/Adafruit-1.12in-128x128-OLED-PCB)
+
+128 screen placement:
 

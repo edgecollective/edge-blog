@@ -127,4 +127,9 @@ Nice review of thermosiphon materials [https://www.sciencedirect.com/topics/engi
 
 Likely reason for use of silicone in heating elements: its unusually high melting / burning point: [https://silicone.co.uk/news/temperatures-can-silicone-rubber-withstand/](https://silicone.co.uk/news/temperatures-can-silicone-rubber-withstand/)
 
+---
+2021-12-16 16:45:58
+
+![](/img/heater/thermosiphon_performance.png)
+
 

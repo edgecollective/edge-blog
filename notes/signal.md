@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified 
 updated: 2020-11-16
 tags: notes 
-image: /img/placeholder.jpg
+image: /img/placeholder.png
 blurb: Tools and techniques for signal / waveform analysis 
 ---
 
