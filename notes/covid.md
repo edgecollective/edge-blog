@@ -25,3 +25,15 @@ FDA's lists of rapid tests that fail for Omicron variant: [https://www.medtechdi
 
 Mina's description of how to interpret rapid tests after exposure [https://twitter.com/EricTopol/status/1472959306475597826?s=20](https://twitter.com/EricTopol/status/1472959306475597826?s=20)
 
+
+FDA list of tests impacted by various variants: [https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-viral-mutations-impact-covid-19-tests?utm_medium=email&utm_source=govdelivery](https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-viral-mutations-impact-covid-19-tests?utm_medium=email&utm_source=govdelivery)
+
+
+michael mina press conference rapid tests -- [https://www.hsph.harvard.edu/news/features/coronavirus-covid-19-press-conference-with-michael-mina-04-01-21/](https://www.hsph.harvard.edu/news/features/coronavirus-covid-19-press-conference-with-michael-mina-04-01-21/)
+
+FDA testing basics -- nice overview chart: [https://www.fda.gov/media/140161/download](https://www.fda.gov/media/140161/download)  
+
+LAMP vs PCR: [https://www.microsensdx.com/lamp-vs-pcr-choosing-the-appropriate-sars-cov-2-covid-19-diagnostic-test/](https://www.microsensdx.com/lamp-vs-pcr-choosing-the-appropriate-sars-cov-2-covid-19-diagnostic-test/)
+
+Background on RT-LAMP [https://www.nature.com/articles/s41598-021-95799-6](https://www.nature.com/articles/s41598-021-95799-6)
+

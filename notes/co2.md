@@ -5890,12 +5890,13 @@ sharp screen placement:
 
 github repo for adafruit sharp display:
 
-[https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs](https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs)
-
-
 sharp screen placement:
 
 ![](/img/co2/sharp_dim.png)
+
+sharp hole position: 
+
+![](/img/co2/sharp_hole_position.png)
 
 github repo for adafruit 128 display:
 
@@ -5903,3 +5904,9 @@ github repo for adafruit 128 display:
 
 128 screen placement:
 
+![](/img/co2/128_display_loc.png)
+
+---
+2021-12-22 17:48:05
+
+Latest update [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/750f7bb9f67f38b60bd2eb48523f37ffc2c81e40/REV_V/hardware/base/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/750f7bb9f67f38b60bd2eb48523f37ffc2c81e40/REV_V/hardware/base/kicad)
