@@ -37,3 +37,7 @@ LAMP vs PCR: [https://www.microsensdx.com/lamp-vs-pcr-choosing-the-appropriate-s
 
 Background on RT-LAMP [https://www.nature.com/articles/s41598-021-95799-6](https://www.nature.com/articles/s41598-021-95799-6)
 
+---
+2021-12-23 20:49:07
+
+Major thread by M Mina on Omicron, rapid testing, sequence of symptoms / infectivity, and possible worry about bronchial nature of Omicron --> ineffective nasal swabbing: [https://twitter.com/michaelmina_lab/status/1472024457640394756?s=20](https://twitter.com/michaelmina_lab/status/1472024457640394756?s=20)
