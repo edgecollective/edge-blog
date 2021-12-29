@@ -5886,17 +5886,22 @@ sharp DI --> MOSI
 
 [https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs](https://github.com/adafruit/Adafruit-Sharp-Memory-Display-PCBs)
 
+**sharp display**
+
 sharp screen placement:
 
 github repo for adafruit sharp display:
 
 sharp screen placement:
+![](/img/co2/sharp_pcb.png)
 
 ![](/img/co2/sharp_dim.png)
 
 sharp hole position: 
 
 ![](/img/co2/sharp_hole_position.png)
+
+**128x128 monochrome display**
 
 github repo for adafruit 128 display:
 
@@ -5910,3 +5915,26 @@ github repo for adafruit 128 display:
 2021-12-22 17:48:05
 
 Latest update [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/750f7bb9f67f38b60bd2eb48523f37ffc2c81e40/REV_V/hardware/base/kicad](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/750f7bb9f67f38b60bd2eb48523f37ffc2c81e40/REV_V/hardware/base/kicad)
+
+---
+2021-12-24 11:36:56
+
+circuit playground pcb files [https://github.com/adafruit/Adafruit-Circuit-Playground-PCB](https://github.com/adafruit/Adafruit-Circuit-Playground-PCB)
+
+---
+2021-12-27 20:13:00
+
+routed REV_V base board w/ piezo: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/c0ea04e1a3e4e7ea8afcf6a4b7739f3e37eb94d5/REV_V/hardware](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/c0ea04e1a3e4e7ea8afcf6a4b7739f3e37eb94d5/REV_V/hardware)
+
+---
+2021-12-28 19:29:14
+
+Submitted to JLCPCB
+
+[https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0f41e06e605e042ac8e242adb167f91a24e56d97/REV_V/hardware](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/tree/0f41e06e605e042ac8e242adb167f91a24e56d97/REV_V/hardware)
+
+- base
+- back
+- ssd1306 cover
+- 128x128 oled cover
+- sharp cover

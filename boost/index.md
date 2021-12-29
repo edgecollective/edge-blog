@@ -62,6 +62,7 @@ On Adafruit:
 
 Google sheets parts list [here](https://docs.google.com/spreadsheets/d/1SSv-qiHzVkntU7v8pnGAcpxlCwBbYCUFDfs7P6XYWlM/edit?usp=sharing).
 
+![](/img/boost/boost_annotations.jpg)
 
 
 

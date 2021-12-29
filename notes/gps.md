@@ -183,4 +183,19 @@ Simple plotting code using Adafruit graphics library:
 
 Waveshare display [https://www.amazon.com/gp/product/B0728BJTZC/ref=sw_img_1?smid=&psc=1](https://www.amazon.com/gp/product/B0728BJTZC/ref=sw_img_1?smid=&psc=1)
 
+---
+2021-12-24 12:25:22
+
+gps module pinout
+![](/img/gps/gps_module_pinout.png)
+
+working version as of today:
+
+[https://github.com/edgecollective/dog-compass/tree/9dd1343122612f8e2b601ca395b1c6348577246c/v3](https://github.com/edgecollective/dog-compass/tree/9dd1343122612f8e2b601ca395b1c6348577246c/v3)
+
+---
+2021-12-29 14:48:24
+
+Kicad layout ver4 / 'base_a' [https://github.com/edgecollective/dog-compass/tree/3671ac027cc06751b30f98f3e344d27f657715df/v4/hardware/base_a/kicad](https://github.com/edgecollective/dog-compass/tree/3671ac027cc06751b30f98f3e344d27f657715df/v4/hardware/base_a/kicad)
+
 

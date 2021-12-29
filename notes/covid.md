@@ -41,3 +41,12 @@ Background on RT-LAMP [https://www.nature.com/articles/s41598-021-95799-6](https
 2021-12-23 20:49:07
 
 Major thread by M Mina on Omicron, rapid testing, sequence of symptoms / infectivity, and possible worry about bronchial nature of Omicron --> ineffective nasal swabbing: [https://twitter.com/michaelmina_lab/status/1472024457640394756?s=20](https://twitter.com/michaelmina_lab/status/1472024457640394756?s=20)
+
+Data on effectiveness of Binax for Omicron: [https://twitter.com/michaelmina_lab/status/1474156551925604353?s=20](https://twitter.com/michaelmina_lab/status/1474156551925604353?s=20) -- indicates just as effective
+
+Advice on gathering for holidays as of 23 DEC 2021: [https://twitter.com/michaelmina_lab/status/1474150628859559951?s=20](https://twitter.com/michaelmina_lab/status/1474150628859559951?s=20)
+
+---
+2021-12-24 11:28:45
+
+Study evaluating infection risk as a function of mask combinations: [https://twitter.com/AbraarKaran/status/1474215552776171520?s=20](https://twitter.com/AbraarKaran/status/1474215552776171520?s=20)
