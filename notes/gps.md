@@ -210,4 +210,4 @@ To do:
 - add QWIIC connector
 - add 'divot' for JST cable
 - add anchor 'holes'
-
+- check size of gps antenna and make 'stalk' appropriately
