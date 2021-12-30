@@ -198,4 +198,16 @@ working version as of today:
 
 Kicad layout ver4 / 'base_a' [https://github.com/edgecollective/dog-compass/tree/3671ac027cc06751b30f98f3e344d27f657715df/v4/hardware/base_a/kicad](https://github.com/edgecollective/dog-compass/tree/3671ac027cc06751b30f98f3e344d27f657715df/v4/hardware/base_a/kicad)
 
+---
+2021-12-29 21:13:27
+
+Basic layout with sharp screen placement and gps 'stalk':
+
+[https://github.com/edgecollective/dog-compass/tree/5e5f83493c11156845356251b360087a64f98a79/v4](https://github.com/edgecollective/dog-compass/tree/5e5f83493c11156845356251b360087a64f98a79/v4)
+
+To do: 
+- check mosfet footprint
+- add QWIIC connector
+- add 'divot' for JST cable
+- add anchor 'holes'
 
