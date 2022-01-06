@@ -50,3 +50,30 @@ Advice on gathering for holidays as of 23 DEC 2021: [https://twitter.com/michael
 2021-12-24 11:28:45
 
 Study evaluating infection risk as a function of mask combinations: [https://twitter.com/AbraarKaran/status/1474215552776171520?s=20](https://twitter.com/AbraarKaran/status/1474215552776171520?s=20)
+
+---
+2021-12-30 12:22:24
+
+Northeastern article suggesting that viruses always become less deadly: [https://news.northeastern.edu/2021/12/13/virus-evolution/](https://news.northeastern.edu/2021/12/13/virus-evolution/)
+
+McGill article on the myth of viruses always evolving to become less deadly over time: [https://www.mcgill.ca/oss/article/covid-19/do-bad-viruses-always-become-good-guys-end](https://www.mcgill.ca/oss/article/covid-19/do-bad-viruses-always-become-good-guys-end)
+
+Gavi.org article on same: [https://www.gavi.org/vaccineswork/will-covid-19-evolve-be-more-or-less-deadly](https://www.gavi.org/vaccineswork/will-covid-19-evolve-be-more-or-less-deadly)
+
+Wastewater COVID tracking [https://www.mwra.com/biobot/biobotdata.htm](https://www.mwra.com/biobot/biobotdata.htm)
+
+---
+2022-01-05 12:48:24
+
+Microclots [https://www.theguardian.com/commentisfree/2022/jan/05/long-covid-research-microclots](https://www.theguardian.com/commentisfree/2022/jan/05/long-covid-research-microclots)
+
+---
+2022-01-06 12:35:10
+
+Milder [https://www.nature.com/articles/d41586-021-03619-8](https://www.nature.com/articles/d41586-021-03619-8)
+
+![](/img/covid/milder)
+
+No evidence that it will become milder [https://www.theguardian.com/world/2021/dec/03/what-does-the-future-hold-for-coronavirus-explainer](https://www.theguardian.com/world/2021/dec/03/what-does-the-future-hold-for-coronavirus-explainer) 
+
+![](/img/milder_guardian.png)

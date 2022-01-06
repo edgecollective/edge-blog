@@ -211,3 +211,78 @@ To do:
 - add 'divot' for JST cable
 - add anchor 'holes'
 - check size of gps antenna and make 'stalk' appropriately
+
+---
+2021-12-30 12:38:49
+
+For now, going to go with this version of the GPS module:
+
+[https://www.amazon.com/dp/B01D1D0F5M](https://www.amazon.com/dp/B01D1D0F5M)
+
+Cheap, large antenna, and flat back for taping
+
+---
+2022-01-03 16:31:03
+
+Note:  the BNO005 IMU has 'suspend' capability in adafruit arduino library -- 
+
+[https://github.com/adafruit/Adafruit_BNO055/blob/master/Adafruit_BNO055.cpp#L791](https://github.com/adafruit/Adafruit_BNO055/blob/master/Adafruit_BNO055.cpp#L791)
+
+-- so let's just connect it to 3V & GND, don't put it on mosfet as yet
+
+apparently suspend should use 0.04 mA (40 uA?), cf [https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf)
+
+---
+2022-01-04 12:09:11
+
+Adafruit edge-launch connector: [https://www.adafruit.com/product/1864](https://www.adafruit.com/product/1864)
+
+Note: requires a .8mm thickness board. Should we go with through-hole instead?
+
+Maybe no: for simpler antennas, better to have ability to just go 'straight out' ... 
+(although could have right-angle through-hole ...)
+
+Through-hole might be safer for now -- amphenol part that seems to work: [https://www.digikey.com/en/products/detail/amphenol-rf/132136RP/1011910?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4YArCALoC%2BdhATGeAMxNhsBsASgAq06QA](https://www.digikey.com/en/products/detail/amphenol-rf/132136RP/1011910?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4YArCALoC%2BdhATGeAMxNhsBsASgAq06QA)
+
+eep! $11 on digikey!
+
+okay, more specs:  
+
+- looks like lora comes in SMA and RP-SMA
+- looks like we want 50 Ohm impedance 
+
+Maybe edge-mount is better in terms of price ...
+
+Okay Amphenol 132134 -- vertical, through-hole, SMA is $5 on digikey: [https://www.digikey.com/en/products/detail/amphenol-rf/132134/1011907?utm_adgroup=Connectors%20and%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Amphenol%20RF_0115_Co-op&utm_term=&utm_content=Connectors%20and%20Interconnects&gclid=Cj0KCQiA_c-OBhDFARIsAIFg3exWn5x0L7IgpDIH9tc9GQhpB8LEb58bqIZu1k5v-SAiMrYhqyfy_aIaAu0iEALw_wcB](https://www.digikey.com/en/products/detail/amphenol-rf/132134/1011907?utm_adgroup=Connectors%20and%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Amphenol%20RF_0115_Co-op&utm_term=&utm_content=Connectors%20and%20Interconnects&gclid=Cj0KCQiA_c-OBhDFARIsAIFg3exWn5x0L7IgpDIH9tc9GQhpB8LEb58bqIZu1k5v-SAiMrYhqyfy_aIaAu0iEALw_wcB)
+
+$5 Molex edge-launch 0732511150 SMA: [https://www.digikey.com/en/products/detail/molex/0732511150/1465156](https://www.digikey.com/en/products/detail/molex/0732511150/1465156); datasheet: [https://www.molex.com/pdm_docs/sd/732511150_sd.pdf](https://www.molex.com/pdm_docs/sd/732511150_sd.pdf)
+
+looks like it would accommodate 1.6 mm thickness board ...
+
+Molex 0733910083 SMA-RA right-angle through-holde, cheap -- $4 -- [https://www.digikey.com/en/products/detail/molex/0733910083/9740783](https://www.digikey.com/en/products/detail/molex/0733910083/9740783)
+
+check footprint:  same as prior -- seems standard through-hole footprint -- 
+
+Verdict: let's do through-hole for now to eliminate variable of board thickness 
+
+---
+2022-01-05 13:44:48
+
+Pinout assignments
+
+A0 Free / optional lorawan
+A1 Speaker 
+A2 Button A
+A3 Button B
+A4 Button C
+A5 Write Permit
+
+D0  RX
+D1  TX
+D5  Sharp Display
+D6  LoRa RST
+D9  GPS Power Switch
+D10  free (so that we can use microsd breakout)
+D11  LoRa CS 
+D12  LoRa IRQ 
+D13  free
