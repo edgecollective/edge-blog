@@ -286,3 +286,77 @@ D10  free (so that we can use microsd breakout)
 D11  LoRa CS 
 D12  LoRa IRQ 
 D13  free
+
+Submitted to JLCPCB 5-JAN-2021: version 4 of 'tracker' v 0.1
+
+[https://github.com/edgecollective/dog-compass/tree/1715f4772cc23040eaecd5674919c41211422053/v4/hardware/base_b/kicad](https://github.com/edgecollective/dog-compass/tree/1715f4772cc23040eaecd5674919c41211422053/v4/hardware/base_b/kicad)
+
+
+## scavenger hunt
+
+[https://earth.google.com/web/search/23+Conant+Road,+Lincoln,+MA/@42.41195031,-71.29780961,60.10623401a,201.46198822d,35y,-15.43062123h,0.43027734t,0r/data=CigiJgokCQD_c9EGN0VAEa9z9t8aNEVAGZfvq4v_0VHAITsSNA681FHA](https://earth.google.com/web/search/23+Conant+Road,+Lincoln,+MA/@42.41195031,-71.29780961,60.10623401a,201.46198822d,35y,-15.43062123h,0.43027734t,0r/data=CigiJgokCQD_c9EGN0VAEa9z9t8aNEVAGZfvq4v_0VHAITsSNA681FHA)
+
+![](/img/gps/scavenger_one.png)
+
+![](/img/gps/map_area.png)
+
+---
+2022-01-07 13:17:37
+
+CUI SMT buzzer options:
+
+[https://www.digikey.com/en/products/detail/cui-devices/CSS-0575A-SMT-TR/2364642](https://www.digikey.com/en/products/detail/cui-devices/CSS-0575A-SMT-TR/2364642)
+
+Nice article on buzzers [https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits](https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits)
+
+good guide to rp-sma vs sma [https://www.spo-comm.de/en/blog/know-how/what-is-the-difference-between-sma-and-rp-sma](https://www.spo-comm.de/en/blog/know-how/what-is-the-difference-between-sma-and-rp-sma)
+
+adafruit uses rp-sma antennae, so that's what we'll go with 
+
+---
+2022-01-08 13:26:21
+
+![](/img/gps/power_switch_schem.png)
+
+![](/img/gps/qwiic.png)
+
+![](/img/gps/on_off.png)
+
+![](/img/gps/remote_node.png)
+
+match container -- [https://www.amazon.com/Alltrapod-Large-Capacity-Containers-Bundle/dp/B07WHV6QDP/ref=asc_df_B07WHV6QDP/?tag=&linkCode=df0&hvadid=385115658454&hvpos=&hvnetw=g&hvrand=3636123725976048146&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-862591379194&ref=&adgrpid=78796009375&th=1](https://www.amazon.com/Alltrapod-Large-Capacity-Containers-Bundle/dp/B07WHV6QDP/ref=asc_df_B07WHV6QDP/?tag=&linkCode=df0&hvadid=385115658454&hvpos=&hvnetw=g&hvrand=3636123725976048146&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-862591379194&ref=&adgrpid=78796009375&th=1)
+
+3 7/8 " by 1 1/8 " 
+
+5 x 3 in plastic container [https://www.amazon.com/HUELE-Waterproof-Shockproof-Airtight-Container/dp/B076T9V97B/ref=sr_1_8?crid=2YLXIOJKUXZ0Z&keywords=waterproof%2Bcamping%2Bpouch%2Bplastic&qid=1641670849&sprefix=waterproof%2Bcamping%2Bpouch%2Bplastic%2Caps%2C53&sr=8-8&th=1](https://www.amazon.com/HUELE-Waterproof-Shockproof-Airtight-Container/dp/B076T9V97B/ref=sr_1_8?crid=2YLXIOJKUXZ0Z&keywords=waterproof%2Bcamping%2Bpouch%2Bplastic&qid=1641670849&sprefix=waterproof%2Bcamping%2Bpouch%2Bplastic%2Caps%2C53&sr=8-8&th=1)
+
+![](/img/gps/plastic_container.png)
+
+5 pack clear cosmetics bag [https://www.amazon.com/Cosmetics-Wobe-Organizing-Waterproof-Organizer/dp/B07C1P1LMN/ref=sr_1_24?crid=2YLXIOJKUXZ0Z&keywords=waterproof+camping+pouch+plastic&qid=1641670849&sprefix=waterproof+camping+pouch+plastic%2Caps%2C53&sr=8-24](https://www.amazon.com/Cosmetics-Wobe-Organizing-Waterproof-Organizer/dp/B07C1P1LMN/ref=sr_1_24?crid=2YLXIOJKUXZ0Z&keywords=waterproof+camping+pouch+plastic&qid=1641670849&sprefix=waterproof+camping+pouch+plastic%2Caps%2C53&sr=8-24)
+
+PVC pencil case [https://www.amazon.com/Xgood-Zippered-Toiletry-Capacity-Portable/dp/B07SG86Z9X/ref=pd_day0fbt_img_1/140-5573154-8774608?pd_rd_w=JTux5&pf_rd_p=bcb8482a-3db5-4b0b-9f15-b86e24acdb00&pf_rd_r=3JE1N7KR74ZFSGSYKT4F&pd_rd_r=17735ec6-3a0c-49e5-9a2d-f61011cdb18b&pd_rd_wg=blNcJ&pd_rd_i=B07SG86Z9X&th=1](https://www.amazon.com/Xgood-Zippered-Toiletry-Capacity-Portable/dp/B07SG86Z9X/ref=pd_day0fbt_img_1/140-5573154-8774608?pd_rd_w=JTux5&pf_rd_p=bcb8482a-3db5-4b0b-9f15-b86e24acdb00&pf_rd_r=3JE1N7KR74ZFSGSYKT4F&pd_rd_r=17735ec6-3a0c-49e5-9a2d-f61011cdb18b&pd_rd_wg=blNcJ&pd_rd_i=B07SG86Z9X&th=1)
+
+small plastic zip document bag w/ string [https://www.amazon.com/dp/B07BRYMSM6/ref=sspa_dk_detail_7?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVME4wOUlBRlJYUDImZW5jcnlwdGVkSWQ9QTEwMzg1MzExME02VDBKSFBBMTNOJmVuY3J5cHRlZEFkSWQ9QTAxODE3NzEzT1FWSFNaOTlNMTJMJndpZGdldE5hbWU9c3BfZGV0YWlsMiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=](https://www.amazon.com/dp/B07BRYMSM6/ref=sspa_dk_detail_7?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVME4wOUlBRlJYUDImZW5jcnlwdGVkSWQ9QTEwMzg1MzExME02VDBKSFBBMTNOJmVuY3J5cHRlZEFkSWQ9QTAxODE3NzEzT1FWSFNaOTlNMTJMJndpZGdldE5hbWU9c3BfZGV0YWlsMiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+plastic pouch with holes
+
+[https://www.amazon.com/dp/B07RC79KYS/ref=sspa_dk_detail_0?pd_rd_w=sgMiO&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=eodH7&pf_rd_r=85R3QKXRNJJ4X65AWCZG&pd_rd_r=38bb9236-f594-40c9-8484-78a038d6c367&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFRVUwVlZaTk1VVzgmZW5jcnlwdGVkSWQ9QTAyNzc0ODAyWThKRlNGOUhGV0s1JmVuY3J5cHRlZEFkSWQ9QTAwMjEyMjdSNVdGTVpRMjlYMTImd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWMmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1](https://www.amazon.com/dp/B07RC79KYS/ref=sspa_dk_detail_0?pd_rd_w=sgMiO&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=eodH7&pf_rd_r=85R3QKXRNJJ4X65AWCZG&pd_rd_r=38bb9236-f594-40c9-8484-78a038d6c367&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFRVUwVlZaTk1VVzgmZW5jcnlwdGVkSWQ9QTAyNzc0ODAyWThKRlNGOUhGV0s1JmVuY3J5cHRlZEFkSWQ9QTAwMjEyMjdSNVdGTVpRMjlYMTImd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWMmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1)
+
+![](/img/gps/plastic_pouch_waterproof.png)
+
+---
+
+![](/img/gps/pouch1.png)
+
+[https://www.amazon.com/LABUK-Pencil-Zipper-School-Storage/dp/B08GS97MMR/ref=sr_1_6?keywords=plastic%2Bpencil%2Bcase%2Bstrap&qid=1641671460&sr=8-6&th=1](https://www.amazon.com/LABUK-Pencil-Zipper-School-Storage/dp/B08GS97MMR/ref=sr_1_6?keywords=plastic%2Bpencil%2Bcase%2Bstrap&qid=1641671460&sr=8-6&th=1)
+
+![](/img/gps/node_update.png)
+
+---
+2022-01-08 21:34:19
+
+Boards ordered for remote node 
+
+![](/img/gps/node_v01.png)
+
+![](/img/gps/node_v01_back.png)

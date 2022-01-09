@@ -5938,3 +5938,14 @@ Submitted to JLCPCB
 - ssd1306 cover
 - 128x128 oled cover
 - sharp cover
+
+---
+2022-01-07 14:30:26
+
+TODO:  need to use 'EN' method on CO2 device, as with GPS, to switch batt on/ off -- avoids use of hard-to-find JST part
+
+note: ordered nylon standoffs via amazon
+
+ordered digikey today
+
+ordered adafruit today
