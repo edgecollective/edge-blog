@@ -195,6 +195,9 @@ Pinning control and sycnhronization in networks [http://www.ee.cityu.edu.hk/~gch
 
 "Boat to bowl: resilience through network rewiring of a community-supported fishery amid the COVID-19 pandemic" [https://iopscience.iop.org/article/10.1088/1748-9326/abe4f6](https://iopscience.iop.org/article/10.1088/1748-9326/abe4f6) -- looks like it combines network analysis *and* empirical study of a real-world network -- fascinating!  
 
+looks like 'resilience and rewiring' are good key words to search for here [https://www.google.com/search?q=network+resilience+rewiring+function&oq=network+resilience+rewiring+function&aqs=chrome..69i57j33.5997j0j4&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=network+resilience+rewiring+function&oq=network+resilience+rewiring+function&aqs=chrome..69i57j33.5997j0j4&sourceid=chrome&ie=UTF-8)
+
+
 
 # Rapid tests
 
@@ -218,3 +221,44 @@ pdf here: [https://www.thelancet.com/action/showPdf?pii=S1473-3099%2821%2900048-
 Systemmatic review vs viral load [https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003735#sec008](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003735#sec008)
 
 relationship between viral load and infectiousness [https://elifesciences.org/articles/69302](https://elifesciences.org/articles/69302)
+
+## Networks and optimization
+
+"Energy landscapes for machine learning" [https://pubs.rsc.org/en/content/articlehtml/2017/cp/c7cp01108c](https://pubs.rsc.org/en/content/articlehtml/2017/cp/c7cp01108c)
+
+"Ecological Network Optimization in Urban Central District Based on Complex Network Theory: A Case Study with the Urban Central District of Harbin" [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7913767/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7913767/)
+
+"Generating realistic scaled complex networks" [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6225971/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6225971/)
+
+"Simulated Annealing from scratch in Python" [https://machinelearningmastery.com/simulated-annealing-from-scratch-in-python/](https://machinelearningmastery.com/simulated-annealing-from-scratch-in-python/)
+
+Original paper on optimization by simulated annealing by Kirkpatrick [https://www.science.org/doi/10.1126/science.220.4598.671](https://www.science.org/doi/10.1126/science.220.4598.671)
+
+"Using Simulated Annealing to Improve the Information Dissemination Network Structure of a Foreign Animal Disease Outbreak Response" [https://www.degruyter.com/document/doi/10.1515/jhsem-2017-0008/html](https://www.degruyter.com/document/doi/10.1515/jhsem-2017-0008/html) -- PDF: [https://krex.k-state.edu/dspace/bitstream/handle/2097/32613/JamesPleuss2016.pdf?sequence=3&isAllowed=y](https://krex.k-state.edu/dspace/bitstream/handle/2097/32613/JamesPleuss2016.pdf?sequence=3&isAllowed=y)
+
+"Optimization tool to improve the management of the leakages and recovered energy in irrigation water systems" [https://www.sciencedirect.com/science/article/pii/S037837742100500X](https://www.sciencedirect.com/science/article/pii/S037837742100500X)
+
+"Simulated Annealing for Optimal Resource
+Allocation in Wireless Networks with Imperfect
+Communications" [https://newslab.ece.ohio-state.edu/funded_projects/resources/simulated%20annealing.pdf](https://newslab.ece.ohio-state.edu/funded_projects/resources/simulated%20annealing.pdf) -- this might be a model paper! 
+
+"Identifying epidemic spreading dynamics of COVID-19 by pseudocoevolutionary simulated annealing optimizers" [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429370/(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429370/) -- ah, this is even more spot-on ...
+
+"Dynamics of epidemic diseases on a growing adaptive network" [https://www.nature.com/articles/srep42352](https://www.nature.com/articles/srep42352) 
+
+["Oscillatory epidemic prevalence in growing scale-free networks"](/img/covid/physreve.69.016112.pdf)
+
+"scale-free networks are rare" [https://www.nature.com/articles/s41467-019-08746-5](https://www.nature.com/articles/s41467-019-08746-5)
+
+"Fluctuating epidemics on adaptive networks" [https://arxiv.org/abs/0801.0606](https://arxiv.org/abs/0801.0606) -- worth study!
+
+> In the current work, an ideal setting was proposed
+where non-infected nodes were assumed to behave rationally and have perfect knowledge of the disease status
+of their current neighbors and potential new neighbors.
+It would be of interest to consider a situation in which
+not all contagious individuals appear ill or know that
+they are contagious, as might be the case for a sexually transmitted disease possessing asymptomatic individuals.. This effect might be modeled by simultaneous
+spreading through the network of both the disease and
+information about the disease. If the current model is extended with information and community structure, social
+dynamics could be extrapolated to improve contact tracing and epidemic control in organized populations with
+local structure.
