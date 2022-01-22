@@ -262,3 +262,60 @@ spreading through the network of both the disease and
 information about the disease. If the current model is extended with information and community structure, social
 dynamics could be extrapolated to improve contact tracing and epidemic control in organized populations with
 local structure.
+
+---
+2022-01-11 11:44:57
+
+Japanese study of Omicron infectious period, reported in Forbes [https://www.forbes.com/sites/victoriaforster/2022/01/10/peak-infectiousness-with-omicron-is-3-6-days-after-symptom-onset-says-new-study/?sh=4e36587b1e32](https://www.forbes.com/sites/victoriaforster/2022/01/10/peak-infectiousness-with-omicron-is-3-6-days-after-symptom-onset-says-new-study/?sh=4e36587b1e32)
+
+Original study:
+"Active epidemiological investigation on SARS-CoV-2 infection caused by Omicron variant (Pango lineage B.1.1.529) in Japan: preliminary report on infectious period" [https://www.niid.go.jp/niid/en/2019-ncov-e/10884-covid19-66-en.html](https://www.niid.go.jp/niid/en/2019-ncov-e/10884-covid19-66-en.html)
+
+Related Twitter thread: [https://twitter.com/LongDesertTrain/status/1480179160052125699](https://twitter.com/LongDesertTrain/status/1480179160052125699)
+
+Peak vs high viral load [https://twitter.com/LongDesertTrain/status/1480179164611284992?s=20](https://twitter.com/LongDesertTrain/status/1480179164611284992?s=20)
+
+What I don't understand:  'peak infectiousness' is the focus.  That last link is trying to suggest that there is still a high viral load on days 7-9.  But on days -1 to 2 (-1 means 1 day before onset of symptoms) the viral load still seems 'high' ...
+
+Referenced previous study on infectious period for pre-omicron variants, here: [https://www.medrxiv.org/content/10.1101/2020.09.04.20188516v2](https://www.medrxiv.org/content/10.1101/2020.09.04.20188516v2) -- original PDF is here: [https://www.medrxiv.org/content/10.1101/2020.09.04.20188516v2.full.pdf](https://www.medrxiv.org/content/10.1101/2020.09.04.20188516v2.full.pdf) <-- seems like a really good way to get at the 'definitions' used in figuring out the timing
+
+----
+2022-01-14 15:03:24
+
+Food systems, COVID -- [https://agrifoodecon.springeropen.com/articles/10.1186/s40100-020-00167-z](https://agrifoodecon.springeropen.com/articles/10.1186/s40100-020-00167-z)
+
+---
+2022-01-15 20:20:44
+
+"Drive-specific adaptation in disordered mechanical networks of bistable springs" [https://arxiv.org/abs/1908.09332](https://arxiv.org/abs/1908.09332)
+
+'A new theory of life' [https://www.scientificamerican.com/article/a-new-physics-theory-of-life/](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/)
+
+Jarzynski -- nonequil stat mech lecture [https://www.youtube.com/watch?v=LX](https://www.youtube.com/watch?v=LX)
+
+Jeremy England lecture at MIT [https://www.youtube.com/watch?v=10cVVHKCRWw](https://www.youtube.com/watch?v=10cVVHKCRWw)
+
+B Machta on information geometery [https://www.youtube.com/watch?v=c0O2XxHUG-A](https://www.youtube.com/watch?v=c0O2XxHUG-A)
+
+"heterogeneity, sloppiness, variability in biology" [https://youtu.be/0Q_D3VTzIFg?t=993](https://youtu.be/0Q_D3VTzIFg?t=993)
+
+"sloppy models, differential geometry, and why science works" [https://www.youtube.com/watch?v=owUf4yhfcIk](https://www.youtube.com/watch?v=owUf4yhfcIk)
+
+"Minimal Fatal Shocks In Multistable Complex Networks" [https://www.nature.com/articles/s41598-020-68805-6](https://www.nature.com/articles/s41598-020-68805-6)
+
+--> very interesting paper with respect to the concepts we're interested in 
+
+mutliple-state biochemical networks [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2292366/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2292366/)
+
+---
+2022-01-18 20:39:41
+
+"Understanding and using sensitivity, specificity and predictive values": 
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/)
+
+"Natural immunity against covid reinfection risk" [https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=303705&org=NSF&from=news](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=303705&org=NSF&from=news)
+
+---
+2022-01-21 22:22:52
+
+BA.2 variant of Omicron [https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/](https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/)

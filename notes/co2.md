@@ -5949,3 +5949,107 @@ note: ordered nylon standoffs via amazon
 ordered digikey today
 
 ordered adafruit today
+
+---
+2022-01-11 18:23:59
+
+REV_V
+
+v5 tests
+
+bareco2.py -- co2 sensor works, n-mosfet works
+
+piezo works -- can't use A0 (as I did) or A2, so need to modify -- code that worked was here: [https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
+
+---
+2022-01-14 09:07:09
+
+Fixes:
+
+add internal batt compartment? remove sharp display, perhaps larger oled too? 
+
+add piezo / tht -- change pin for piezo to a digital pin
+
+change the on/off to EN pin ...  and side-mount switch footprint
+
+prioritize the oled display ... it's sufficient ... make screen opening symmetric wrt to the screws?
+
+https://arduinodiy.wordpress.com/2012/05/02/using-mosfets-with-ttl-levels/
+
+BS170 looks like good to-92-3 logic-level n-fet
+ID / drain current of 500 mA [https://components101.com/sites/default/files/component_datasheet/BS170-N-channel-MOSFET_0.PDF](https://components101.com/sites/default/files/component_datasheet/BS170-N-channel-MOSFET_0.PDF)
+
+total device dissipation: 350 mW
+
+vs. IRLB8721 N-channel fet [https://www.adafruit.com/product/355](https://www.adafruit.com/product/355)
+
+heat sink temp calc [https://daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml](https://daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml)
+
+![](/img/co2/ssd1306_dim.png)
+
+[https://www.onsemi.com/pdf/datasheet/pn2222a-d.p](https://www.onsemi.com/pdf/datasheet/pn2222a-d.p)
+
+todo: measure buttons and switches
+
+scd30 current: 20 mA
+
+feather m4 current: 20 mA 
+
+display: 10 mA
+
+so about 10 ish hours if run full time
+
+looks like sleep might be avail on feather m4 express now ... in ver 7.1.1 of cpy? 
+
+
+actually, bs270 n-channel mosfet is available, looks like nice replacement for bs170 [https://www.digikey.com/en/products/detail/onsemi/BS270/974203?utm_adgroup=Discrete%20Semiconductor%20Products&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_onsemi&utm_term=&utm_content=Discrete%20Semiconductor%20Products&gclid=CjwKCAiA24SPBhB0EiwAjBgkhnCuYBP6FotWfbqkdNS_hMu0CLMLi_mdlFG7XKlqT-OovO71_IovnxoCs_sQAvD_BwE](https://www.digikey.com/en/products/detail/onsemi/BS270/974203?utm_adgroup=Discrete%20Semiconductor%20Products&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_onsemi&utm_term=&utm_content=Discrete%20Semiconductor%20Products&gclid=CjwKCAiA24SPBhB0EiwAjBgkhnCuYBP6FotWfbqkdNS_hMu0CLMLi_mdlFG7XKlqT-OovO71_IovnxoCs_sQAvD_BwE)
+
+
+---
+2022-01-14 20:14:36
+
+Todo for REV_W
+- added piezo (it fits under feather -- maybe even sideways)
+- piezo + diode under feather should nicely nuzzle the feather batt 'perfect for feathers'
+- create 128 display symbol and footprint, and add header to board
+- put 128 display on a BS270 n-mosfet, with option to jump to gnd - 
+- idea is that 'main' feather is an M4 that sits on 'standard' headers, w/ batt, piezo, diode underneath
+- this means that 128 display should 'just fit' above it when mounted to top piece
+- might be able to get away with 15 mm standoffs
+- drop the conductive standoffs -- no need for htem
+- make symbol and footprint for 
+
+---
+2022-01-15 08:43:42
+
+Idea: use TO-220s on 'edge' of board?
+
+TO-220 dimensions: [https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.TO-220.html](https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.TO-220.html)
+
+Long header dimensions: [https://cdn-shop.adafruit.com/datasheets/18072.pdf](https://cdn-shop.adafruit.com/datasheets/18072.pdf)
+
+Nice reference on heatsinks [https://www.electronicspoint.com/forums/resources/do-i-need-a-heatsink-how-big.29/](https://www.electronicspoint.com/forums/resources/do-i-need-a-heatsink-how-big.29/)
+
+Adafruit battery 'perfect for feathers' -- [https://www.adafruit.com/product/3898](https://www.adafruit.com/product/3898)
+
+Size: ~36mm x 17mm x 7.8mm
+
+Datasheet for piezo [https://www.jp.tdk.com/tefe02/ef532_ps.pdf](https://www.jp.tdk.com/tefe02/ef532_ps.pdf)
+
+
+SCD30 current: 20 mA
+
+128 display current: 35 mA
+
+ref page for 128 [https://www.adafruit.com/product/5297](https://www.adafruit.com/product/5297)
+
+ssd1306 dimensions (NOTE!! VCC AND GND are switched on this picture, relative to the 'standard' piece we are using, which is GND VCC SCL SDA) : ![](/img/co2/ssd1306_dimensions.png)
+
+NOTE: can't use to-220 in current config -- won't fit on board.  switch to to-92 for the screen, instead ... 
+
+---
+2022-01-15 16:22:14
+
+128 display isn't ready for prime time.  it brownouts the board when turned on via mosfet.  will use smaller display.
+
+seems dimensions on smaller display vary.  going to wait until get boards in -- or, design a 'generic' opening that can be taped / glued ... which might be what's required when desiging for 'salvaged' parts ... 

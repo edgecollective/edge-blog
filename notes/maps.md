@@ -24,3 +24,10 @@ blurb: Notes on experiments with maps
 
 [https://gist.github.com/tonyrewin/9444410](https://gist.github.com/tonyrewin/9444410)
 
+---
+2022-01-17 20:02:50
+
+Leaflet draw plugin demo [https://leaflet.github.io/Leaflet.draw/docs/examples/full.html](https://leaflet.github.io/Leaflet.draw/docs/examples/full.html)
+
+Documentation [https://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html](https://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html)
+

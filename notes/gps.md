@@ -360,3 +360,77 @@ Boards ordered for remote node
 ![](/img/gps/node_v01.png)
 
 ![](/img/gps/node_v01_back.png)
+
+---
+2022-01-11 09:28:54
+
+Adding a clicky marker to Leaflet [https://gis.stackexchange.com/questions/172508/add-an-event-listener-on-a-marker-in-leaflet/172586](https://gis.stackexchange.com/questions/172508/add-an-event-listener-on-a-marker-in-leaflet/172586)
+
+---
+2022-01-12 14:26:09
+
+Revised header for sharp display -- sent in tracker ver 0.2:
+
+[https://github.com/edgecollective/dog-compass/tree/ca2bd9620cc31ee5a6c63c52db3a900ba1eb024b/tracker_v_0.2](https://github.com/edgecollective/dog-compass/tree/ca2bd9620cc31ee5a6c63c52db3a900ba1eb024b/tracker_v_0.2)
+
+JLCPCB Order #: Y47-2489114A  2022-01-13 (china time)
+
+"the other rule of thumb for 3D printed cases with heat-set inserts for your PCB mounting holes--I want ideally a 8mm circle with no components on either side, centered on each mtg hole."
+
+---
+2022-01-13 12:06:20
+
+Through hole slide switch right angle: [https://www.digikey.com/en/products/detail/c-k/OS103011MA7QP1/1981432](https://www.digikey.com/en/products/detail/c-k/OS103011MA7QP1/1981432)
+
+ideal -- through hole slide switch right angle (out of stock): [https://www.digikey.com/en/products/detail/e-switch/EG1270/6076](https://www.digikey.com/en/products/detail/e-switch/EG1270/6076)
+
+
+good one to go with: 
+
+EG_1213
+
+![](/img/gps/eg_1213.png)
+
+[https://www.digikey.com/en/products/detail/e-switch/EG1213/101735](https://www.digikey.com/en/products/detail/e-switch/EG1213/101735)
+
+similar alternative:
+
+C&K OS102011MA1QN1
+
+[https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430](https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430)
+
+[https://www.digikey.com/en/products/detail/apem-inc/MHSS1105/1949465](https://www.digikey.com/en/products/detail/apem-inc/MHSS1105/1949465)
+
+![](/img/co2/side_switch.png)
+
+---
+2022-01-13 12:51:15
+
+Nice reference for sharp display: 
+[https://learn.adafruit.com/circuitpython-display-support-using-displayio/ui-quickstart](https://learn.adafruit.com/circuitpython-display-support-using-displayio/ui-quickstart)
+
+![](/img/co2/switch_dim_hack.png)
+
+gps -- make piezo a through-hole buzzer -- use right angle switch -- all ports on one side ... 
+
+would be nice to have a buzzer on the remote node, just to have a 'buzzer badge'
+
+update: test piezo when it arrives, for loudness ... then add / or not
+
+---
+2022-01-18 17:10:31
+
+Button pressing in circuitpython [https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons](https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons)
+
+Circuitpython debouncer library: [https://learn.adafruit.com/debouncer-library-python-circuitpython-buttons-sensors/](https://learn.adafruit.com/debouncer-library-python-circuitpython-buttons-sensors/)
+
+library repository:
+[https://github.com/adafruit/Adafruit_CircuitPython_Debouncer](https://github.com/adafruit/Adafruit_CircuitPython_Debouncer)
+
+---
+2022-01-21 22:23:15
+
+latest 'trace.py' code will show latest 100 datapoints [https://github.com/edgecollective/dog-compass/blob/28695531aa75c3c57e9ae1f70cf4403398ea132d/tracker_v_0.2/firmware/CPY/v5/trace.py](https://github.com/edgecollective/dog-compass/blob/28695531aa75c3c57e9ae1f70cf4403398ea132d/tracker_v_0.2/firmware/CPY/v5/trace.py)
+
+note: the labels on the switches need to be updated, they're covered currently ...
+
