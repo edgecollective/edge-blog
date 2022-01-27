@@ -319,3 +319,5 @@ mutliple-state biochemical networks [https://www.ncbi.nlm.nih.gov/pmc/articles/P
 2022-01-21 22:22:52
 
 BA.2 variant of Omicron [https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/](https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/)
+
+omicron in kids [https://www.sltrib.com/news/2022/01/21/utahs-covid/](https://www.sltrib.com/news/2022/01/21/utahs-covid/)

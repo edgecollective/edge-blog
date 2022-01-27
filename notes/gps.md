@@ -434,3 +434,34 @@ latest 'trace.py' code will show latest 100 datapoints [https://github.com/edgec
 
 note: the labels on the switches need to be updated, they're covered currently ...
 
+---
+2022-01-22 20:56:09
+
+Testing IMU on tracker 0.2 ...
+
+[https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/python-circuitpython?gclid=CjwKCAiA866PBhAYEiwANkIneOXNnFsFH7Ze19fHe8GXVNl8cL2wZGaBEhDoZfnJrhVcmaFCj2RVnxoCz7IQAvD_BwE](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/python-circuitpython?gclid=CjwKCAiA866PBhAYEiwANkIneOXNnFsFH7Ze19fHe8GXVNl8cL2wZGaBEhDoZfnJrhVcmaFCj2RVnxoCz7IQAvD_BwE)
+
+via [https://github.com/adafruit/Adafruit_CircuitPython_BNO055/blob/cd0f90659517b0682252fe534b1a28e9424c5dfd/adafruit_bno055.py#L354](https://github.com/adafruit/Adafruit_CircuitPython_BNO055/blob/cd0f90659517b0682252fe534b1a28e9424c5dfd/adafruit_bno055.py#L354)
+
+```
+    @property
+    def calibration_status(self):
+        """Tuple containing sys, gyro, accel, and mag calibration data."""
+        calibration_data = self._read_register(_CALIBRATION_REGISTER)
+        sys = (calibration_data >> 6) & 0x03
+        gyro = (calibration_data >> 4) & 0x03
+        accel = (calibration_data >> 2) & 0x03
+        mag = calibration_data & 0x03
+        return sys, gyro, accel, mag
+```
+
+---
+2022-01-24 12:20:44
+
+Magnetic declination at 10 Conant Rd, Lincoln, MA 
+
+![](/img/gps/noaa_mag_declination.png)
+
+via: [https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml](https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml)
+
+Datasheet for bno-005 bosch absolute sensor [https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf)

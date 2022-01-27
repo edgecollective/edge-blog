@@ -6053,3 +6053,27 @@ NOTE: can't use to-220 in current config -- won't fit on board.  switch to to-92
 128 display isn't ready for prime time.  it brownouts the board when turned on via mosfet.  will use smaller display.
 
 seems dimensions on smaller display vary.  going to wait until get boards in -- or, design a 'generic' opening that can be taped / glued ... which might be what's required when desiging for 'salvaged' parts ... 
+
+---
+2022-01-25 12:53:22
+
+Testing / building Rev_W ...
+
+trying m2 x 8mm for oled ...
+
+---
+2022-01-27 08:20:13
+
+![](/img/co2/rev_w.jpg)
+
+![](/img/co2/rev_w_hand.jpg)
+
+Update: looks like even the horizontal spacing on the top holes for the SSD1306 are variable.
+
+Options: build around Adafruit part ...
+
+Meanwhile:  revise cover for REV_W so that there are no mounting holes ... perhaps expand the 'window' ... rely on fact that the screen *is* positioned consistently with respect to the header?
+
+Latest firmware for REV_W is here: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/128a3bf60fdcca3d279099922cb8fd66f8ec6527/REV_W/firmware/CPY/v5/jp_batt.py](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/128a3bf60fdcca3d279099922cb8fd66f8ec6527/REV_W/firmware/CPY/v5/jp_batt.py)
+
+Allows for 'wall mount' display, and simple graphing, by switching button A.  Also experimenting with turning display off via button B. 
