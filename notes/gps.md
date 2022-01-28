@@ -465,3 +465,25 @@ Magnetic declination at 10 Conant Rd, Lincoln, MA
 via: [https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml](https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml)
 
 Datasheet for bno-005 bosch absolute sensor [https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf)
+
+---
+2022-01-27 16:29:5
+
+Latest circuitpython setup:
+
+dog-compass/tracker_v_0.2/firmware/CPY/v5/base_gps_radio.py on the base,
+
+and 
+
+dog-compass/node_v_0.1/firmware/CPY/v5/gps_radio.py on the remote
+
+unfortunately, can't do sufficient math in circuitpython, because don't have the floating point precision
+
+switching to arduino!
+
+---
+2022-01-27 21:37:06
+
+have radio, gps, and imu ... and comm from remote node ... up and running!
+
+need to test angle, and add graphics, next ...
