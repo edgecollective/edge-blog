@@ -487,3 +487,14 @@ switching to arduino!
 have radio, gps, and imu ... and comm from remote node ... up and running!
 
 need to test angle, and add graphics, next ...
+
+---
+2022-01-29 21:39:40
+
+Working pair of remote node and tracker:
+
+![](/img/gps/working_tracker.jpg)
+
+Remote node (v_0.1): [https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/node/node_v_0.1/firmware/arduino/v1/remote](https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/node/node_v_0.1/firmware/arduino/v1/remote)
+
+Base / Tracker node (v_0.2): [https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/tracker/tracker_v_0.2/firmware/arduino/v1/base](https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/tracker/tracker_v_0.2/firmware/arduino/v1/base)

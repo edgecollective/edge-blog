@@ -321,3 +321,5 @@ mutliple-state biochemical networks [https://www.ncbi.nlm.nih.gov/pmc/articles/P
 BA.2 variant of Omicron [https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/](https://fortune.com/2022/01/21/what-is-stealth-omicron-new-covid-variant-substrain-denmark/)
 
 omicron in kids [https://www.sltrib.com/news/2022/01/21/utahs-covid/](https://www.sltrib.com/news/2022/01/21/utahs-covid/)
+
+Omicron reinfection (twitter thread) [https://twitter.com/fitterhappierAJ/status/1486812621500256258?s=20&t=GWjWxhn30JzDZPrVIjB5_g](https://twitter.com/fitterhappierAJ/status/1486812621500256258?s=20&t=GWjWxhn30JzDZPrVIjB5_g)
