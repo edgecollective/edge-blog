@@ -23,3 +23,17 @@ copenhagen solar cooker:
 solar cooking designs, nice illustrations [http://www.oneearthdesigns.org/what-is-solar-cooking/](http://www.oneearthdesigns.org/what-is-solar-cooking/)
 
 [https://www.amazon.com/GoSun-Go-Ultra-Portable-Solar-Cooker/dp/B07CJP52D6](https://www.amazon.com/GoSun-Go-Ultra-Portable-Solar-Cooker/dp/B07CJP52D6)
+
+[https://www.instructables.com/Simple-Solar-Cooking-Jar/](https://www.instructables.com/Simple-Solar-Cooking-Jar/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D619r8FiRDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.cnn.com/2021/10/21/asia/janak-palta-mcgilligan-solar-cooking-c2e-spc-intl/index.html](https://www.cnn.com/2021/10/21/asia/janak-palta-mcgilligan-solar-cooking-c2e-spc-intl/index.html)
+
+---
+2022-01-30 11:40:17
+
+![](/img/cooking/BOX.jpeg)
+
+[https://www.wikihow.com/Make-and-Use-a-Solar-Oven](https://www.wikihow.com/Make-and-Use-a-Solar-Oven)
+

@@ -498,3 +498,20 @@ Working pair of remote node and tracker:
 Remote node (v_0.1): [https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/node/node_v_0.1/firmware/arduino/v1/remote](https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/node/node_v_0.1/firmware/arduino/v1/remote)
 
 Base / Tracker node (v_0.2): [https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/tracker/tracker_v_0.2/firmware/arduino/v1/base](https://github.com/edgecollective/dog-compass/tree/c831426e3f56c6998b5059f3d2dd5fc5f9f557b8/tracker/tracker_v_0.2/firmware/arduino/v1/base)
+
+---
+2022-02-02 14:26:42
+
+Issue with floating point precision in python perhaps resolved with Decimal class ... 
+
+Adafruit GPS library for Circuitpython [https://github.com/adafruit/Adafruit_CircuitPython_GPS](https://github.com/adafruit/Adafruit_CircuitPython_GPS)
+
+started gps experiment at 1500 on FEB 2
+
+![](/img/gps/spread_1840.png)
+
+![](/img/gps/spread_1940.png)
+
+![](/img/gps/hist_latitude.png)
+
+![](/img/gps/hist_longitude.png)
