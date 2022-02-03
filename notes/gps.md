@@ -521,3 +521,25 @@ from dual_gps.txt ...
 note that the green line -- which is running circuitpython -- seems relatively discretized ...
 
 ![](/img/gps/discrete.png)
+
+---
+2022-02-03 13:05:18
+
+42.41222395647637, -71.29805764333454
+
+converting incoming nema to degrees:
+
+[https://forums.raspberrypi.com/viewtopic.php?t=175163](https://forums.raspberrypi.com/viewtopic.php?t=175163)
+
+Lat : 3137.36664 becomes 31 degrees and 37.26664 seconds = 31 + 37.36664/60 = 31.6227773
+Lon : 00212.21149 becomes 2 degrees and 12.21149 seconds = 2 + 12.21149/60 = 2.20352483
+
+Note: in below figure, the 'base' node has the smaller gps antenna ..
+
+![](/img/gps/dual_gps_labeled.png)
+
+via [https://github.com/edgecollective/dog-compass/blob/main/tracker/tracker_v_0.2/firmware/CPY/v6/analysis/](https://github.com/edgecollective/dog-compass/blob/main/tracker/tracker_v_0.2/firmware/CPY/v6/analysis/)
+
+![](/img/gps/indoors_2_feet.png)
+
+![](/img/gps/indoors_20_feet.png)
