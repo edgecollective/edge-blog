@@ -515,3 +515,9 @@ started gps experiment at 1500 on FEB 2
 ![](/img/gps/hist_latitude.png)
 
 ![](/img/gps/hist_longitude.png)
+
+from dual_gps.txt ...
+
+note that the green line -- which is running circuitpython -- seems relatively discretized ...
+
+![](/img/gps/discrete.png)
