@@ -323,3 +323,28 @@ BA.2 variant of Omicron [https://fortune.com/2022/01/21/what-is-stealth-omicron-
 omicron in kids [https://www.sltrib.com/news/2022/01/21/utahs-covid/](https://www.sltrib.com/news/2022/01/21/utahs-covid/)
 
 Omicron reinfection (twitter thread) [https://twitter.com/fitterhappierAJ/status/1486812621500256258?s=20&t=GWjWxhn30JzDZPrVIjB5_g](https://twitter.com/fitterhappierAJ/status/1486812621500256258?s=20&t=GWjWxhn30JzDZPrVIjB5_g)
+
+---
+2022-02-04 11:56:39
+
+Overarching thread summarizing evidence for weak immunity after infection with Omicron (with link to Globe and Mail article):
+
+[https://twitter.com/BlakeMMurdoch/status/1488163797168623616?s=20&t=-0R-czwtS0aZQNI5l4t9kA](https://twitter.com/BlakeMMurdoch/status/1488163797168623616?s=20&t=-0R-czwtS0aZQNI5l4t9kA)
+
+Particular research cited:
+
+"New pre-print that found a very limited immune response after infection with omicron. The desired herd immunity effect may according to this be a far dream still: from this, seems you can be re-infected more or less directly after your last infection"
+
+[https://twitter.com/GANyborg/status/1487073480625504263?s=20&t=-0R-czwtS0aZQNI5l4t9kA](https://twitter.com/GANyborg/status/1487073480625504263?s=20&t=-0R-czwtS0aZQNI5l4t9kA)
+
+"Merchants of herd death oversold immunity. People are being reinfected immediately again after Omicron infection. We have the data: Both laboratory experiments and actual cases."
+
+Summary of lab and case data: [https://twitter.com/yaneerbaryam/status/1487814184104517632?s=20&t=-0R-czwtS0aZQNI5l4t9kA](https://twitter.com/yaneerbaryam/status/1487814184104517632?s=20&t=-0R-czwtS0aZQNI5l4t9kA)
+
+---
+2022-02-04 12:29:29
+
+Long covid ...
+
+Rather than 'fully vaccinated', new language is 'up to date', given that we don't know how many doses will be needed ...
+

@@ -543,3 +543,26 @@ via [https://github.com/edgecollective/dog-compass/blob/main/tracker/tracker_v_0
 ![](/img/gps/indoors_2_feet.png)
 
 ![](/img/gps/indoors_20_feet.png)
+
+---
+2022-02-03 19:58:37
+
+Signal strength vs distance
+
+![](/img/gps/base_walk.png)
+
+![](/img/gps/sig_strength.png)
+
+Plotting code used: [https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/pydist.py](https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/pydist.py)
+
+Dataset: [https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/output.txt](https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/output.txt)
+
+Using this code on the 'base' node, which outputs the proper strings [https://github.com/edgecollective/dog-compass/tree/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/v1/base](https://github.com/edgecollective/dog-compass/tree/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/v1/base)
+
+And is read in by this code: [https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/readline.py](https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/readline.py)
+
+3d plot:
+
+![](/img/gps/gratuitous_3d.png)
+
+Generated using this code: [https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/3dplot.py](https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/3dplot.py)

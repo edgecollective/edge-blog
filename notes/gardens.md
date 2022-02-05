@@ -1,8 +1,8 @@
 ---
 pageTitle: Food self-provisioning
 layout: layout.njk
-date: 2021-09-03
-updated: 2021-09-03
+date: Last Modified 
+updated: Last Modified 
 tags: notes 
 image: /img/gardens/lawns.png
 blurb: Designs and calculations around collective food self-provisioning
@@ -58,3 +58,19 @@ Ben Falk's Whole System Design: [https://www.wholesystemsdesign.com/](https://ww
 
 Associated permaculture design course: [http://wholesystemsdesign.squarespace.com/permaculture-design-course/](http://wholesystemsdesign.squarespace.com/permaculture-design-course/)
 
+---
+2022-02-04 22:32:21
+
+Holmgren permaculture / retrosuburbia materials ...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/roO5FJZNmBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z6mzFRyFLec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mk48lxgs-5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Review of Retrosuburbia [https://www.resilience.org/stories/2018-04-26/my-review-of-david-holmgrens-retrosuburbia/](https://www.resilience.org/stories/2018-04-26/my-review-of-david-holmgrens-retrosuburbia/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fBInCAXNnfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sKKOdCX9krM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

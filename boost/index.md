@@ -64,5 +64,8 @@ Google sheets parts list [here](https://docs.google.com/spreadsheets/d/1SSv-qiHz
 
 ![](/img/boost/boost_annotations.jpg)
 
+## Soldering up!
+
+![](/img/boost/soldering_fun.png)
 
 

@@ -705,4 +705,9 @@ Polycase enclosure for outdoor electronics: [https://www.polycase.com/wc-21?gcli
 
 eink connector [https://www.sparkfun.com/datasheets/Prototyping/Connectors/08630.pdf](https://www.sparkfun.com/datasheets/Prototyping/Connectors/08630.pdf)
 
+---
+2022-02-04 20:14:34
 
+Nice, solder-only design for a gateway 
+
+[https://www.adafruit.com/product/3417](https://www.adafruit.com/product/3417)
