@@ -61,7 +61,9 @@ Associated permaculture design course: [http://wholesystemsdesign.squarespace.co
 ---
 2022-02-04 22:32:21
 
-Holmgren permaculture / retrosuburbia materials ...
+# David Holmgren 
+
+permaculture / retrosuburbia materials ...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/roO5FJZNmBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
