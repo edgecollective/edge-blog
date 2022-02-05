@@ -566,3 +566,19 @@ And is read in by this code: [https://github.com/edgecollective/dog-compass/blob
 ![](/img/gps/gratuitous_3d.png)
 
 Generated using this code: [https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/3dplot.py](https://github.com/edgecollective/dog-compass/blob/1aa356f5e9fd41f634622cdf9d10ee23f7e90a0a/tracker/tracker_v_0.2/firmware/arduino/analysis/3dplot.py)
+
+---
+2022-02-05 18:19:10
+
+# Enclosure design
+
+[https://hackaday.com/2017/05/24/practical-enclosure-design-optimized-for-3d-printing/](https://hackaday.com/2017/05/24/practical-enclosure-design-optimized-for-3d-printing/)
+
+[https://hackaday.com/2020/11/16/simple-tips-for-better-3d-printed-enclosures/](https://hackaday.com/2020/11/16/simple-tips-for-better-3d-printed-enclosures/)
+
+[https://hackaday.com/2021/12/12/customize-these-3d-printed-cases/](https://hackaday.com/2021/12/12/customize-these-3d-printed-cases/)
+
+[https://willem.aandewiel.nl/index.php/2022/01/02/yet-another-parametric-projectbox-generator/](https://willem.aandewiel.nl/index.php/2022/01/02/yet-another-parametric-projectbox-generator/)
+
+[https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/](https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/)
+
