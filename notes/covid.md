@@ -348,3 +348,7 @@ Long covid ...
 
 Rather than 'fully vaccinated', new language is 'up to date', given that we don't know how many doses will be needed ...
 
+---
+2022-02-05 10:11:09
+
+Noakes on complexity of building ventilation / ecosystem: [https://twitter.com/CathNoakes/status/1489978349225185284?s=20&t=Dun1DUV9W2ymOBz_14JtuA](https://twitter.com/CathNoakes/status/1489978349225185284?s=20&t=Dun1DUV9W2ymOBz_14JtuA)

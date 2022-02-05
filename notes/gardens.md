@@ -76,3 +76,19 @@ Review of Retrosuburbia [https://www.resilience.org/stories/2018-04-26/my-review
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sKKOdCX9krM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TVS45dbNL-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[retrosuburbia resources](https://retrosuburbia.com/resources/)
+
+'unintentional community as critical path more than designed ecovillages': [https://youtu.be/Mk48lxgs-5c?t=2102](https://youtu.be/Mk48lxgs-5c?t=2102)
+
+"The art of frugal hedonism" [https://www.amazon.com/cart/smart-wagon?newItems=C2d2d3c3b-a409-4c5c-ad3d-7ff691399319,1&cartObjectKey=NC1KR8QHPRJF1KPT1225](https://www.amazon.com/cart/smart-wagon?newItems=C2d2d3c3b-a409-4c5c-ad3d-7ff691399319,1&cartObjectKey=NC1KR8QHPRJF1KPT1225)
+
+Good summary retrosuburbia presentation:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_Qf5wHOQCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SyhaRvmsRVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I_-J71k2bXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+"america invested all of its post-war wealth in a form of living that has no future: suburbia." -- Howard Kunstler
