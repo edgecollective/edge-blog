@@ -582,3 +582,4 @@ Generated using this code: [https://github.com/edgecollective/dog-compass/blob/1
 
 [https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/](https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/)
 
+Prusa 3D Printer [https://www.prusa3d.com/category/original-prusa-mini/](https://www.prusa3d.com/category/original-prusa-mini/)
