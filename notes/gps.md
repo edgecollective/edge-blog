@@ -583,3 +583,14 @@ Generated using this code: [https://github.com/edgecollective/dog-compass/blob/1
 [https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/](https://hackaday.com/2022/01/31/this-parametric-project-box-generator-is-super-easy/)
 
 Prusa 3D Printer [https://www.prusa3d.com/category/original-prusa-mini/](https://www.prusa3d.com/category/original-prusa-mini/)
+
+---
+2022-02-05 20:42:43
+
+[GPS mapper notebook](/img/gps/gps_mapper.ipynb)
+
+![](/img/gps/gps_signal.png)
+
+Folium docs [https://python-visualization.github.io/folium/quickstart.html#Getting-Started](https://python-visualization.github.io/folium/quickstart.html#Getting-Started)
+
+Online jupyter notebook: [https://jupyterlite.readthedocs.io/](https://jupyterlite.readthedocs.io/)

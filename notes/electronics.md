@@ -15,3 +15,9 @@ Checking fuse / replacing fuse on multimeters: [https://www.youtube.com/watch?v=
 
 User manual for AstroAI WH5000A: [https://d3gqasl9vmjfd8.cloudfront.net/788585cc-f098-4448-b840-a22477ad9b5e.pdf](https://d3gqasl9vmjfd8.cloudfront.net/788585cc-f098-4448-b840-a22477ad9b5e.pdf)
 
+---
+2022-02-05 18:46:22
+
+Jupyter in the browser:
+
+[https://jupyterlite.readthedocs.io/en/latest/_static/lab/index.html](https://jupyterlite.readthedocs.io/en/latest/_static/lab/index.html)
