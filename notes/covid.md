@@ -352,3 +352,14 @@ Rather than 'fully vaccinated', new language is 'up to date', given that we don'
 2022-02-05 10:11:09
 
 Noakes on complexity of building ventilation / ecosystem: [https://twitter.com/CathNoakes/status/1489978349225185284?s=20&t=Dun1DUV9W2ymOBz_14JtuA](https://twitter.com/CathNoakes/status/1489978349225185284?s=20&t=Dun1DUV9W2ymOBz_14JtuA)
+
+---
+2022-02-09 10:51:34
+
+[https://www.npr.org/sections/health-shots/2022/01/23/1074978193/rapid-covid-tests-omicron](https://www.npr.org/sections/health-shots/2022/01/23/1074978193/rapid-covid-tests-omicron)
+
+![](/img/covid/rapids.png)
+
+Boston GLobe, Jan 4, 2022 p. A7 bottom:
+
+![](/img/covid/globe_long_term.jpeg)

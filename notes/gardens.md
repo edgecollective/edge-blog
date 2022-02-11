@@ -94,3 +94,10 @@ Good summary retrosuburbia presentation:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I_-J71k2bXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 "america invested all of its post-war wealth in a form of living that has no future: suburbia." -- Howard Kunstler
+
+---
+2022-02-07 18:20:46
+
+Local permaculture resources in Waltham, MA ...
+
+[https://ourpermaculturetrip.weebly.com/resources.html](https://ourpermaculturetrip.weebly.com/resources.html)
