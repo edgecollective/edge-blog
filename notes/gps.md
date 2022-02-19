@@ -594,3 +594,25 @@ Prusa 3D Printer [https://www.prusa3d.com/category/original-prusa-mini/](https:/
 Folium docs [https://python-visualization.github.io/folium/quickstart.html#Getting-Started](https://python-visualization.github.io/folium/quickstart.html#Getting-Started)
 
 Online jupyter notebook: [https://jupyterlite.readthedocs.io/](https://jupyterlite.readthedocs.io/)
+
+---
+2022-02-11 22:44:28
+
+![](/img/gps/datapoints.png)
+
+![](/img/gps/topo.png)
+
+color-coded by distance:
+
+![](/img/gps/distance.png)
+
+![](/img/gps/histogram.png)
+
+![](/img/gps/dist_vs_rssi.png)
+
+---
+2022-02-19 08:40:02
+
+High-accuracy GPS from Sparkfun: [https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide?_ga=2.9331189.1546501649.1645193699-1617606000.1645193699](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide?_ga=2.9331189.1546501649.1645193699-1617606000.1645193699)
+
+Connecting to a correlation source [https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide/all#connecting-the-gps-rtk-to-a-correction-source](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide/all#connecting-the-gps-rtk-to-a-correction-source)

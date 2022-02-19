@@ -25,3 +25,9 @@ Outdoor chalkboards --
 
 [https://www.creatingreallyawesomefunthings.com/diy-giant-outdoor-chalkboard/](https://www.creatingreallyawesomefunthings.com/diy-giant-outdoor-chalkboard/)
 
+---
+2022-02-13 13:37:40
+
+Orienteering for kids
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P5ukIKoozXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

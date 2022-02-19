@@ -363,3 +363,30 @@ Noakes on complexity of building ventilation / ecosystem: [https://twitter.com/C
 Boston GLobe, Jan 4, 2022 p. A7 bottom:
 
 ![](/img/covid/globe_long_term.jpeg)
+
+---
+2022-02-12 21:50:02
+
+Increased hospitalizations for < 5 yr age group [https://twitter.com/EnemyInAState/status/1492669965677309952?s=20&t=eKG_YAQVFLVknJRf91gTzg](https://twitter.com/EnemyInAState/status/1492669965677309952?s=20&t=eKG_YAQVFLVknJRf91gTzg)
+
+---
+2022-02-14 10:46:59
+
+[https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file](https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file)
+
+---
+2022-02-19 09:29:05
+
+Rolling mean / variance [https://stackoverflow.com/questions/27427618/how-can-i-simply-calculate-the-rolling-moving-variance-of-a-time-series-in-pytho](https://stackoverflow.com/questions/27427618/how-can-i-simply-calculate-the-rolling-moving-variance-of-a-time-series-in-pytho)
+
+---
+2022-02-19 10:28:57
+
+Okay, update ...
+
+parse.py in [https://github.com/edgecollective/wastewater-parse](https://github.com/edgecollective/wastewater-parse) will grab latest pdf from mwra and export it as a csv, 'waste.csv' 
+
+then, parse.ipynb here: [https://github.com/edgecollective/jupyterlite/tree/main/content/wastewater](https://github.com/edgecollective/jupyterlite/tree/main/content/wastewater) will open it up using jupyterlite
+
+TODO:  make a script to run parse.py every X hours
+
