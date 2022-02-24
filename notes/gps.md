@@ -616,3 +616,61 @@ color-coded by distance:
 High-accuracy GPS from Sparkfun: [https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide?_ga=2.9331189.1546501649.1645193699-1617606000.1645193699](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide?_ga=2.9331189.1546501649.1645193699-1617606000.1645193699)
 
 Connecting to a correlation source [https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide/all#connecting-the-gps-rtk-to-a-correction-source](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide/all#connecting-the-gps-rtk-to-a-correction-source)
+
+---
+2022-02-20 14:02:47
+
+Memory management tips in circuipython:
+
+[https://learn.adafruit.com/Memory-saving-tips-for-CircuitPython?view=all](https://learn.adafruit.com/Memory-saving-tips-for-CircuitPython?view=all)
+
+14K log file for gps data had 523 lines ... that's about 26 bytes per line ...
+
+looks like we have about 100K free now ... so that's about 3800 lines we could save .. at 10 second measurement intervals, that's 60 hours of measurements 
+
+---
+2022-02-20 18:33:06
+
+[https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085/overview](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085/overview)
+
+using lora w sd card -- looks like we can basically just use the CS pin to deselect radio before using SD card
+
+[https://forums.adafruit.com/viewtopic.php?f=24&p=860057](https://forums.adafruit.com/viewtopic.php?f=24&p=860057)
+
+---
+2022-02-21 18:43:18
+
+[https://github.com/helscream/HMC5883L_Header_Arduino_Auto_calibration](https://github.com/helscream/HMC5883L_Header_Arduino_Auto_calibration)
+
+[http://arduino-er.blogspot.com/2015/04/hmc5883l-library-with-calibration-for.html](http://arduino-er.blogspot.com/2015/04/hmc5883l-library-with-calibration-for.html)
+
+compass: [https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=pd_sbs_6/138-1407279-7301129?pd_rd_w=t2ppy&pf_rd_p=cd718a0c-f7e0-41b6-9f23-6496d85d1998&pf_rd_r=87P8WT7H01PBMNK2BXZ3&pd_rd_r=accb5e3b-b23a-4d50-b181-c2654e22539e&pd_rd_wg=oWbGx&pd_rd_i=B07X3GFKYD&psc=1](https://www.amazon.com/HiLetgo-LSM303DLHC-Compass-Accelerometer-Magnetometer/dp/B07X3GFKYD/ref=pd_sbs_6/138-1407279-7301129?pd_rd_w=t2ppy&pf_rd_p=cd718a0c-f7e0-41b6-9f23-6496d85d1998&pf_rd_r=87P8WT7H01PBMNK2BXZ3&pd_rd_r=accb5e3b-b23a-4d50-b181-c2654e22539e&pd_rd_wg=oWbGx&pd_rd_i=B07X3GFKYD&psc=1)
+
+---
+2022-02-22 19:59:47
+
+Sparkfun tutorial on compass calibration [https://www.youtube.com/watch?v=k6ccH8QYGK8](https://www.youtube.com/watch?v=k6ccH8QYGK8)
+
+---
+2022-02-24 12:08:25
+
+LSM303DLHC
+
+[https://www.amazon.com/gp/product/B07X3GFKYD/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B07X3GFKYD/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+
+[https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/which-lsm303-do-i-have](https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/which-lsm303-do-i-have)
+
+Calibration code: [https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/calibration](https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/calibration)
+
+Mag Minimums: -75.91  -90.00  -26.12
+Mag Maximums: 68.45  46.55  130.82
+
+---
+2022-02-24 12:54:33
+
+This library works with the above lsm303 module:
+
+[https://github.com/pololu/lsm303-arduino](https://github.com/pololu/lsm303-arduino)
+
+min: {  -668,   -761,    -23}    max: {  +586,   +422,  +1034}
+

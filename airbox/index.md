@@ -20,6 +20,8 @@ blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- b
 
 [Update 2021-09-22: Larger DIY air purifier poster translated into spanish: [https://twitter.com/Embarnesey/status/1435126245474275332](https://twitter.com/Embarnesey/status/1435126245474275332)]
 
+[Update 2022-02-23:  Study of effectiveness of airbox design after long-term use, by Rosenthal:  [https://twitter.com/SmartAirFilters/status/1496235386892390402?s=20&t=iNsvavgxi10Z_Yn28ZOexQ](https://twitter.com/SmartAirFilters/status/1496235386892390402?s=20&t=iNsvavgxi10Z_Yn28ZOexQ) ]
+
 ## The 'Corsi / Rosenthal / Comparetto' DIY Air Purifier Design
 
 Several researchers and practitioners, working together and in parallel, have come up with a design for an in-room air purifier which can remove a significant amount of COVID-19 virus from the air.
