@@ -674,3 +674,15 @@ This library works with the above lsm303 module:
 
 min: {  -668,   -761,    -23}    max: {  +586,   +422,  +1034}
 
+----
+2022-03-16 17:30:56
+
+2xAA batt holder w/ pins
+
+[https://www.digikey.com/en/products/detail/keystone-electronics/2462/303811?utm_adgroup=Battery%20Holders%2C%20Clips%2C%20Contacts&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Battery%20Products&utm_term=&utm_content=Battery%20Holders%2C%20Clips%2C%20Contacts&gclid=CjwKCAjwlcaRBhBYEiwAK341jRhEGQ0uyRPSVyDlmogaa_Mf_BZ1VOkiVM709NKaRai1PNAmbPH61BoCRXwQAvD_BwE](https://www.digikey.com/en/products/detail/keystone-electronics/2462/303811?utm_adgroup=Battery%20Holders%2C%20Clips%2C%20Contacts&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Battery%20Products&utm_term=&utm_content=Battery%20Holders%2C%20Clips%2C%20Contacts&gclid=CjwKCAjwlcaRBhBYEiwAK341jRhEGQ0uyRPSVyDlmogaa_Mf_BZ1VOkiVM709NKaRai1PNAmbPH61BoCRXwQAvD_BwE)
+
+[https://www.keyelco.com/userAssets/file/M65p28.pdf](https://www.keyelco.com/userAssets/file/M65p28.pdf)
+
+![](/img/gps/batt_2462.png)
+
+[https://www.section.io/engineering-education/how-to-build-a-real-time-location-tracker-using-leaflet-js/](https://www.section.io/engineering-education/how-to-build-a-real-time-location-tracker-using-leaflet-js/)

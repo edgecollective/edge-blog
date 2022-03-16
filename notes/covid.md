@@ -395,3 +395,34 @@ TODO:  make a script to run parse.py every X hours
 
 [https://www.nature.com/articles/ncomms3002](https://www.nature.com/articles/ncomms3002)
 
+Am Stat article on p-values [pdf](/img/stats/beyond.pdf) -- [https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913](https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913)
+
+Nature piece [https://www.nature.com/articles/d41586-019-00857-9](https://www.nature.com/articles/d41586-019-00857-9)
+
+---
+2022-03-03 21:17:52
+
+via wp2.ipynb -- [https://github.com/edgecollective/wastewater-parse/blob/5df054e0e23dc6d84d09c11f26c87844226d97cd/wp2.ipynb](https://github.com/edgecollective/wastewater-parse/blob/5df054e0e23dc6d84d09c11f26c87844226d97cd/wp2.ipynb)
+
+![](/img/covid/waste_norm_vs_positive_run.png)
+
+![](/img/covid/waste_norm_vs_positive_labeled.png)
+
+![](/img/covid/wastewater_positivity_compared.png)
+
+![](/img/covid/wastewater_reference.png)
+
+---
+2022-03-09 21:01:02
+
+![](/img/covid/fig_4_wastewater_northern.png)
+
+![](/img/covid/fig_4_wastewater.png)
+
+![](/img/covid/fig_5_wastewater_southern_.png)
+
+![](/img/covid/fig_1_mwra_wastewater.png)
+
+![](/img/covid/fig_2_molecular.png)
+
+![](/img/covid/fig_3_antigen.png)
