@@ -37,3 +37,16 @@ solar cooking designs, nice illustrations [http://www.oneearthdesigns.org/what-i
 
 [https://www.wikihow.com/Make-and-Use-a-Solar-Oven](https://www.wikihow.com/Make-and-Use-a-Solar-Oven)
 
+---
+2022-03-19 14:04:37
+
+![](/img/cooking/concret_brick.png)
+
+![](/img/cooking/brick_stove.png)
+
+Brick rocket stove, $10 [https://www.youtube.com/watch?v=r66jjYdBmg8](https://www.youtube.com/watch?v=r66jjYdBmg8)
+
+Really nice guide, with pictures: [https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/](https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/)
+
+Rocket mass heaters -- a better woodburning stove [https://www.youtube.com/watch?v=Sqznv5GDSWc](https://www.youtube.com/watch?v=Sqznv5GDSWc)
+

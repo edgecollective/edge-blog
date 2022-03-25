@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified 
 updated: Last Modified 
 tags: notes 
-image: img/magnet_wire.png
+image: img/freezer/magnet_wire.png
 blurb: Developing freezer sensors for use in food storage 
 ---
 

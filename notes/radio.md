@@ -76,3 +76,9 @@ Pager handbook for the radio amateur [https://www.qsl.net/n9zia/wireless/pager/P
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vVG2Thc5Twk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Talk groups [https://youtu.be/vVG2Thc5Twk?t=859](https://youtu.be/vVG2Thc5Twk?t=859)
+
+---
+2022-03-21 13:06:35
+
+Micromodem [https://unsigned.io/micromodem/](https://unsigned.io/micromodem/)
+
