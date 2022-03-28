@@ -136,3 +136,8 @@ Likely reason for use of silicone in heating elements: its unusually high meltin
 2022-01-16 11:56:19
 
 Cement home stove [https://www.youtube.com/watch?v=tJmzTLlQpLw](https://www.youtube.com/watch?v=tJmzTLlQpLw)
+
+---
+2022-03-28 13:12:41
+
+Rocket stove design -- with wire mesh -- [https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/](https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/)
