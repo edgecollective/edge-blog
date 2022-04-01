@@ -141,3 +141,7 @@ Cement home stove [https://www.youtube.com/watch?v=tJmzTLlQpLw](https://www.yout
 2022-03-28 13:12:41
 
 Rocket stove design -- with wire mesh -- [https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/](https://www.theartofdoingstuff.com/diy-rocket-stove-outdoor-cooking-needs/)
+
+build a rocket stove -- [https://gardenerd.com/blog/build-a-rocket-stove/](https://gardenerd.com/blog/build-a-rocket-stove/)
+
+rocket stove instructions [https://www.ywambelt.org/wp-content/uploads/Rocket-Stove.pdf](https://www.ywambelt.org/wp-content/uploads/Rocket-Stove.pdf)

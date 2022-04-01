@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2020-10-19
 updated: 2020-10-19
 tags: notes 
-image: /img/feedgen.png
+image: /img/hid/hid.png
 blurb: Notes on setting up microcontrollers as HID devices
 ---
 
