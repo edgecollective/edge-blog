@@ -10,7 +10,7 @@ Rationale ...
 
 - tech sovereignty -- local, distributed
 
-
+  
 
 ----
 12 May 2020
