@@ -29,3 +29,30 @@ DORJI
 
 QRP Labs device for $60: [https://hackaday.com/2021/12/08/four-band-digital-hf-sdr-transceiver-offers-high-performance-for-only-60/](https://hackaday.com/2021/12/08/four-band-digital-hf-sdr-transceiver-offers-high-performance-for-only-60/)
 
+---
+
+## APRS on micros
+
+### Micromodem
+
+Github repo for micromodem: [https://github.com/markqvist/MicroModem](https://github.com/markqvist/MicroModem)
+
+Key diagram for circuit: [https://github.com/markqvist/MicroModem/blob/master/Documentation/Quickstart.pdf](https://github.com/markqvist/MicroModem/blob/master/Documentation/Quickstart.pdf)
+
+### Mobilinkd Arduino KISS TNC
+
+[http://www.mobilinkd.com/2014/09/11/arduino-kiss-tnc/](http://www.mobilinkd.com/2014/09/11/arduino-kiss-tnc/)
+
+Uses the Sparkfun 3.5 mm jack breakout:
+
+[http://www.mobilinkd.com/wp-content/uploads/2014/09/Breadboard-TNC_bb_2.png](http://www.mobilinkd.com/wp-content/uploads/2014/09/Breadboard-TNC_bb_2.png)
+
+
+```
+    Sleeve is ground.
+    Ring2 is audio out (TX)
+    Ring1 is PTT
+    Tip is audio in (RX)
+```
+
+
