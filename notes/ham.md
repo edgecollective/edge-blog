@@ -55,4 +55,11 @@ Uses the Sparkfun 3.5 mm jack breakout:
     Tip is audio in (RX)
 ```
 
+## Adding GPS
 
+use Example3_GetPosition from UBLOX GNSS Sparkfun lib [https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/archive/main.zip](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/archive/main.zip)
+
+Hmm ... module requires 3V ...
+
+might need to try arduino pro mini 3V if avail ... or 5V tolerant gps module
+(adafruit's?)
