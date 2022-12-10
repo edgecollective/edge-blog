@@ -8,6 +8,8 @@ image: /img/covid/lucira.png
 blurb: Notes on the accuracy of various approaches to COVID-19 testing.
 ---
 
+# Overview 
+
 Performing a test can give two types of answers:  'positive' (suggesting the presence of the disease) or 'negative' (suggesting the absence of the disease).
 
 It's customary to distinguish two aspects of a test's performance:
@@ -20,7 +22,7 @@ From a public health or practitioner standpoint, one would like both of these ch
 
 From a individual risk standpoint, it seems possible to tolerate a highly specific test even if it isn't as sensitive.  I.e., if a negative test is very likely to indicate a true 'negative', one can simply postpone a social engagement on this basis, and test again when convenient.    
 
-## RT-LAMP
+# RT-LAMP
 
 The most accurate overall testing technology currently is 'molecular'. 'PCR' is a type of molecular test, as is 'LAMP'.  (For more details on this, see [https://www.technologyreview.com/2021/05/04/1024450/at-home-covid-test-review-accuracy-binaxnow-lucira-ellume/](https://www.technologyreview.com/2021/05/04/1024450/at-home-covid-test-review-accuracy-binaxnow-lucira-ellume/).
 
