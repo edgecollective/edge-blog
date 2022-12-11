@@ -10,17 +10,17 @@ blurb: Notes on the accuracy of various approaches to COVID-19 testing.
 
 # Overview 
 
-Performing a test can give two types of answers:  'positive' (suggesting the presence of the disease) or 'negative' (suggesting the absence of the disease).
+It's customary to distinguish two aspects of a COVID test's performance:
+- its **sensitivity**: how frequently it correctly detects the presence of the virus (test is 'positive' when virus is present)  
+- its **specificity**: how frequently it correctly detects the absence of the virus (test is 'negative' when the virus is absent)
 
-It's customary to distinguish two aspects of a test's performance:
-- its *sensitivity*: how frequently it correctly detects the presence of the virus (test is 'positive' when virus is present)  
-- its *specificity*: how frequently it correctly detects the absence of the virus (test is 'negative' when the virus is absent)
+(For further explanation of these concepts, see: [https://questdirect.questdiagnostics.com/myquest-faq1/QuestDirect/COVID_1077.htm](https://questdirect.questdiagnostics.com/myquest-faq1/QuestDirect/COVID_1077.htm) )
 
-For further explanation, this reference seemed useful: [https://questdirect.questdiagnostics.com/myquest-faq1/QuestDirect/COVID_1077.htm](https://questdirect.questdiagnostics.com/myquest-faq1/QuestDirect/COVID_1077.htm)
+The relative importance of sensitivity and specificity varies depending on the application and the audience for the test:
 
-From a public health or practitioner standpoint, it's desirable to have a test that is both highly sensitive and highly specific. Low sensitivity ('false negatives') means one misses many cases where the virus is present, leading to increased transmission risk; low specificity ('false positives') means one incorrectly identifies individuals as positive, leading to unnecessary burden on the healthcare system, unnecessary absences from school or work, etc. 
+- From a **public health** or **practitioner** standpoint, it's desirable to have a test that is both highly sensitive and highly specific. Low sensitivity ('frequent false negatives') means one misses many cases where the virus is present, leading to increased transmission risk; low specificity ('many false positives') means one incorrectly identifies individuals as positive, leading to unnecessary burden on the healthcare system, unnecessary absences from school or work, etc. 
 
-From a individual risk standpoint, it seems possible to tolerate a highly specific test even if it isn't as sensitive.  I.e., if a negative test is very likely to indicate a true 'negative', one can simply postpone a social engagement on this basis, and test again when convenient.    
+- From a **individual risk** standpoint, a test which is highly specific test may still be very useful, even if it isn't very sensitive.  I.e.: if a negative test is very likely to indicate a true 'negative', one can simply postpone a social engagement on this basis, and test again when convenient.    
 
 # RT-LAMP
 
