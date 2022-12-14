@@ -28,4 +28,8 @@ The most accurate overall testing technology currently is 'molecular'. 'PCR' is 
 
 LAMP tests can be performed at home, and seem to be as specific as PCR.  See: [https://www.southampton.ac.uk/news/2022/01/lamp-testing-accuracy.page](https://www.southampton.ac.uk/news/2022/01/lamp-testing-accuracy.page)
 
+Also see: [https://www.theverge.com/2022/6/3/23141813/molecular-covid-19-test-otc-pcr-fda](https://www.theverge.com/2022/6/3/23141813/molecular-covid-19-test-otc-pcr-fda) -- which references Lucira as an 'OTC' test (which simply means 'over the counter').
+
+Also: some info from Lucira on the Positive Percent Agreement (PPA): [https://www.fda.gov/media/143809/download](https://www.fda.gov/media/143809/download)
+
 

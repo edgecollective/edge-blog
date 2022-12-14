@@ -244,6 +244,14 @@ padding-top: 10px;
     padding: 20px 20px 10px 20px;
 }
 
+.post .project-updated {
+    #background: #f7f7f7;
+    #background: lightblue;
+    #border-radius: 10px;
+    #padding: 20px 20px 10px 20px;
+    font-size:6px;
+}
+
 .post .podcast-contents {
     #background: #f7f7f7;
     background: DarkSalmon;

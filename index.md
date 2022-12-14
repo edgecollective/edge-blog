@@ -20,7 +20,7 @@ layout: front.njk
 [Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research](#notebook)
 -->
 
-[Projects](#projects) | [Research](#notebook) | [Presentations](#talks) |  [Guides](#guides) 
+[Projects](#projects) | [Research](#notebook) | [Presentations](#talks) |  [Guides](#guides) | [Blog](/blog)
 
 <div id='intro'>
 
