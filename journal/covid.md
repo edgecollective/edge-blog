@@ -42,3 +42,13 @@ https://coronavirus.providence.org/blog/uf/669939767?streamId=7436536
 and here:
 
 https://www.sharp.com/health-news/covid-19-timeline-from-exposure-to-recovery.cfm
+
+# Long COVID in kids
+
+[https://www.statnews.com/2022/02/14/controlled-studies-ease-worries-widespread-long-covid-kids/](https://www.statnews.com/2022/02/14/controlled-studies-ease-worries-widespread-long-covid-kids/)
+
+Associated Twitter thread by one of the authors:
+
+[https://twitter.com/ShiraDoronMD/status/1570587584753176577?s=20&t=DxqRM3y2JwZzexeyZ0V9AA](https://twitter.com/ShiraDoronMD/status/1570587584753176577?s=20&t=DxqRM3y2JwZzexeyZ0V9AA)
+
+(Note: rest of timeline indicates that she is against re-instating masks in schools, is frequently retweeting Monica Ghandi)
