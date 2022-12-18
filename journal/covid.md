@@ -1,0 +1,44 @@
+---
+pageTitle: COVID
+layout: layout.njk
+date: 2022-12-17
+tags: journal
+updated: 2022-12-17
+image: /img/placeholder.png
+blurb: Notes on COVID
+---
+
+# COVID after exposure
+
+- [https://www.hackensackmeridianhealth.org/en/HealthU/2022/11/04/How-Quickly-Can-You-Get-COVID-After-Exposure#.Y55_vzPMJ0Q](https://www.hackensackmeridianhealth.org/en/HealthU/2022/11/04/How-Quickly-Can-You-Get-COVID-After-Exposure#.Y55_vzPMJ0Q)
+
+> “You should wear a mask when around others as soon as you discover you were exposed and continue wearing it for a full 10 days even if you don’t have symptoms,” says Dr. Cicogna. “Start counting from day one, which is defined as the first full day after your last exposure.”
+
+- [https://www.contagionlive.com/view/the-shrinking-incubation-period-of-covid-19](https://www.contagionlive.com/view/the-shrinking-incubation-period-of-covid-19) 
+
+> The meta-analysis utilized PubMed, EMBASE, and ScienceDirect to find peer-reviewed studies using the keywords novel coronavirus, SARS-CoV-2, 2019-nCoV, or COVID-19 and either incubation period or incubation. A total of 142 studies, with 8112 patients, met the inclusion criteria. From this review, the investigators determined the average incubation period to be 6.57 days, ranging from 1.80 to 18.87 days.
+
+> References the below paper: 
+
+- [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2795489](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2795489)
+
+- [https://www.nbcchicago.com/news/coronavirus/covid-incubation-period-how-long-should-you-quarantine-and-when-are-you-contagious/2830171/](https://www.nbcchicago.com/news/coronavirus/covid-incubation-period-how-long-should-you-quarantine-and-when-are-you-contagious/2830171/)
+
+> Those who are close contacts of someone with COVID but are up-to-date on their vaccinations or have had a confirmed case of COVID-19 within the last 90 days do not need to quarantine, but the CDC does recommend they wear a well-fitting mask around others for 10 days after their most recent exposure and get tested after at least five days.
+
+- [https://coronavirus.providence.org/blog/uf/669939767?streamId=7436536](https://coronavirus.providence.org/blog/uf/669939767?streamId=7436536)
+
+- [https://www.forbes.com/sites/brucelee/2020/12/05/if-exposed-to-covid-19-coronavirus-how-long-before-you-have-symptoms/?sh=108ae22c15a6](https://www.forbes.com/sites/brucelee/2020/12/05/if-exposed-to-covid-19-coronavirus-how-long-before-you-have-symptoms/?sh=108ae22c15a6)
+
+> Good definition of latency period
+
+CDC apparently recommends masking for 10 days around others if you know you've been exposed to COVID.
+
+https://www.cdc.gov/coronavirus/2019-ncov/your-health/if-you-were-exposed.html
+Also: apparently the 'incubation' period (time between exposure and symptoms) for recent strains can be as low as 2 days ... but you're considered possibly infectious 1-2 days before symptoms.  E.g. see the guidance here:
+
+https://coronavirus.providence.org/blog/uf/669939767?streamId=7436536
+
+and here:
+
+https://www.sharp.com/health-news/covid-19-timeline-from-exposure-to-recovery.cfm
