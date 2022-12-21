@@ -14,9 +14,12 @@ Above: Feather M0 LoRa with BMP180 pressure sensor, sending pressure data to a M
 
 Four tosses are depicted.  Noise is likely due to gusts of air over sensor intake.
 
-Code is here: [https://github.com/dwblair/rocketman](https://github.com/dwblair/rocketman)
+Saved rocket data for above flight: [https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing)
+
+Microcontroller firmware and python code is here: [https://github.com/dwblair/rocketman](https://github.com/dwblair/rocketman)
 
 Altitude conversion formula: [https://www.weather.gov/media/epz/wxcalc/pressureAltitude.pdf](https://www.weather.gov/media/epz/wxcalc/pressureAltitude.pdf)
 
-Saved data: [https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing)
+
+Max weight for a given engine: [https://www.apogeerockets.com/education/downloads/Newsletter33.pdf](https://www.apogeerockets.com/education/downloads/Newsletter33.pdf)
 
