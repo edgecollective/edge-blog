@@ -10,7 +10,13 @@ blurb: Hobby rocketry radio telemetry -- perhaps useful for assessing radio towe
 
 [![](/img/rocket3.png)](/img/rocket3.png)
 
+Above: Feather M0 LoRa with BMP180 pressure sensor, sending pressure data to a Mothbot, which is then received over serial port via python script and written to a file.
+
+Four tosses are depicted.  Noise is likely due to gusts of air over sensor intake.
+
+Code is here: [https://github.com/dwblair/rocketman](https://github.com/dwblair/rocketman)
+
 Altitude conversion formula: [https://www.weather.gov/media/epz/wxcalc/pressureAltitude.pdf](https://www.weather.gov/media/epz/wxcalc/pressureAltitude.pdf)
 
-
+Saved data: [https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1xSktG4DRvUF6qgfyWK6ynM1aw0qqGGJDVixcwqjTPjU/edit?usp=sharing)
 
