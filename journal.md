@@ -6,7 +6,7 @@ layout: front.njk
 
 <h1>Journal</h1>
 
-{% for journal in collections.journal reversed %}
+{% for journal in collections.journal %}
 <b><a href="{{ journal.url }}">{{ journal.data.pageTitle }}</a></b>.
 {{ journal.data.blurb }} ({{ journal.date | date: "%Y-%m-%d" }})
 {% endfor %}
