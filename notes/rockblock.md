@@ -86,9 +86,28 @@ But let's say we want to send one message per day. That's one credit per day.
 
 So, 30 credits per month.
 
+The line rental is $16 per month.
+
 That's $5.40 per month for the messages, and $16 per month for the line rental -- so, that's about $22 per month
 
+# Decoding python structs using javascript
 
+[https://www.thethingsnetwork.org/forum/t/payload-formats-howto/3441/3](https://www.thethingsnetwork.org/forum/t/payload-formats-howto/3441/3)
+
+[https://stackoverflow.com/questions/37471158/converting-ieee-754-from-bit-stream-into-float-in-javascript/37471538#37471538](https://stackoverflow.com/questions/37471158/converting-ieee-754-from-bit-stream-into-float-in-javascript/37471538#37471538)
+
+Better: a nodejs package python-struct: [https://www.npmjs.com/package/python-struct](https://www.npmjs.com/package/python-struct)
+
+Or alternatively: [https://github.com/lyngklip/structjs](https://github.com/lyngklip/structjs) which seems to include easy to use source code ...
  
-  
+Using python-struct ...
 
+Better link? [https://stackoverflow.com/questions/5605108/pack-unpack-functions-for-node-js](https://stackoverflow.com/questions/5605108/pack-unpack-functions-for-node-js)
+
+Working code using structjs:
+
+Gist: [https://gist.github.com/dwblair/cc651bcb3bd11f13840c074c80bd924b](https://gist.github.com/dwblair/cc651bcb3bd11f13840c074c80bd924b)
+
+Structjs: [https://github.com/lyngklip/structjs](https://github.com/lyngklip/structjs)
+
+Working repository (needed to make it a 'type':'module' ... ?): [https://github.com/dwblair/js-python-struct-converter](https://github.com/dwblair/js-python-struct-converter)
