@@ -129,3 +129,19 @@ Suggestions on compressing data for the rockblock [https://docs.rockblock.rock7.
 > Credits are used each time you transmit. 1 credit is used per 50 bytes (or part thereof) of message sent or received. 1 credit is also used if you check your mailbox and there are no messages waiting (A mailbox check). Credits do not expire unless you do not use your account at all for 12 months. Credits are shared/pooled between all of the devices on your account
 
 [https://docs.rockblock.rock7.com/docs/iridium-contract-costs](https://docs.rockblock.rock7.com/docs/iridium-contract-costs)
+
+---
+
+# Update Jan 31 2023
+
+Rockblock is sending depth data, pulling readings from analog pin on the depth sensor. The Circuipython firmware is v 7.X, and is from here: [https://github.com/dwblair/rockblock-ultrasonic/tree/main/firmware/v1](https://github.com/dwblair/rockblock-ultrasonic/tree/main/firmware/v1)
+
+The rockblock sends it data to the rockblock server, which has a 'webhook' that sends an HTTP POST JSON of data to 159.65.226.222:4000
+
+The firmware on the rockblock encodes its data using a python struct approach
+
+A 'relay server' is running at 159.65.226.222:4000, using code from here: [https://github.com/edgecollective/iridium-bayou-relay](https://github.com/edgecollective/iridium-bayou-relay). The relay server decodes the data using a js version of the python struct approach, and then does an HTTP POST of the data to bayou.pvos.org at the '2ifhwi34ue4j' data feed
+
+
+
+
