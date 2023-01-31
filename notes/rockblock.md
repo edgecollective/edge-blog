@@ -111,3 +111,21 @@ Gist: [https://gist.github.com/dwblair/cc651bcb3bd11f13840c074c80bd924b](https:/
 Structjs: [https://github.com/lyngklip/structjs](https://github.com/lyngklip/structjs)
 
 Working repository (needed to make it a 'type':'module' ... ?): [https://github.com/dwblair/js-python-struct-converter](https://github.com/dwblair/js-python-struct-converter)
+
+# Sending / relaying data on server / rock7 side
+
+rockblock webhooks: [https://docs.rockblock.rock7.com/docs/integration-with-application](https://docs.rockblock.rock7.com/docs/integration-with-application)
+
+# Data compression for rockblock
+
+Suggestions on compressing data for the rockblock [https://docs.rockblock.rock7.com/docs/compressing-your-data](https://docs.rockblock.rock7.com/docs/compressing-your-data)
+
+# Adaptive retry for rockblock
+
+[https://docs.rockblock.rock7.com/docs/adaptive-retry](https://docs.rockblock.rock7.com/docs/adaptive-retry)
+
+# Rockblock Credit System
+
+> Credits are used each time you transmit. 1 credit is used per 50 bytes (or part thereof) of message sent or received. 1 credit is also used if you check your mailbox and there are no messages waiting (A mailbox check). Credits do not expire unless you do not use your account at all for 12 months. Credits are shared/pooled between all of the devices on your account
+
+[https://docs.rockblock.rock7.com/docs/iridium-contract-costs](https://docs.rockblock.rock7.com/docs/iridium-contract-costs)
