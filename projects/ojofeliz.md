@@ -116,11 +116,15 @@ Several Edge Collective projects have been deployed in the field for long-term, 
 
 # Current status 
 
-We currently have a working breadboard prototype (Fig 14) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
+We currently have a working breadboard prototype (Fig 14) of a satellite modem + ultrasonic water level device, which has successfully posted its data to an online database. 
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
 |**Fig 14.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+
+We have also developed a sensible encoding scheme so that water level data from the ultrasonic sensor, collected at 4 hour intervals over a 24 hour period, can be compressed and sent over a single satellite modem transmission once per day, significantly decreasing data plan costs.
+
+Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
 
 # More images of Ojo Feliz Ranch
 
