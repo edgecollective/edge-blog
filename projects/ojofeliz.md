@@ -38,20 +38,6 @@ Because of the remote location of the water storage tanks and uncertain cellular
 
 The satellite modem will then send water level data to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service.  (For a schematic overview of the system, see Figure 3 below.)
 
-# Prior work
-
-At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 4) via local LoRa radio connection to a LoRa-wifi gateway, and sending it periodically to an online database (Fig 5).  
-
-| [![](/img/ojofeliz/chappy_proto.png)](/img/ojofeliz/chappy_proto.png) |
-|:--:|
-|**Fig 4.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
-
-| [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
-|:--:|
-|**Fig 5.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
-
-Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
-
 # Planned hardware components
 
 Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware.
@@ -65,16 +51,32 @@ Except for the custom PCBs we will be designing, nearly every component of the s
 
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
-|**Fig 6.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
+|**Fig 4.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
 
 
 | [![](/img/ojofeliz/max7092.jpg)](/img/ojofeliz/max7092.jpg) |
 |:--:|
-|**Fig 7.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
+|**Fig 5.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
 
 | [![](/img/ojofeliz/feather_m0.jpg)](/img/ojofeliz/feather_m0.jpg) |
 |:--:|
-|**Fig 8.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+|**Fig 6.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+
+# Prior work
+
+At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 7) via local LoRa radio connection to a LoRa-wifi gateway, and sending it periodically to an online database (Fig 8).  
+
+| [![](/img/ojofeliz/chappy_proto.png)](/img/ojofeliz/chappy_proto.png) |
+|:--:|
+|**Fig 7.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
+
+| [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
+|:--:|
+|**Fig 8.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+
+Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
+
+
 
 # Current status 
 
