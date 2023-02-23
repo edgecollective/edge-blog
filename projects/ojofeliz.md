@@ -14,9 +14,11 @@ blurb: Developing an open source satellite modem-based water level monitoring sy
 
 | [![](/img/ojofeliz/ofr_map.png)](/img/ojofeliz/ofr_map.png) |
 |:--:|
-|**Fig 1.** The Ojo Felix ranch, a 200 square mile lease, with water infrastructure shown. Not shown are planned pipelines to be installed in 2023.|
+|**Fig 1.** The Ojo Felix ranch, a 200 square mile lease, shwoing the location of the three key water storage tanks to be monitored -- 'Twin Towers', 'Casias', and 'Marsh Wells'. Not shown are planned pipelines to be installed in 2023.   |
 
-Having updated water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 2), 'Casias' (Fig 3), and 'Marsh Wells'.  
+Collecting updated water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 2), 'Casias' (Fig 3), and 'Marsh Wells'.  
+
+Because of the remote location of the water storage tanks, with uncertain cellular coverage, we have decided to develop a satellite modem-based monitoring system.  Currently, we are unsure as to whether the satellite modem (and accompanying solar panel) would best be situated directly on top / next to the storage tank, or whether a location 100+ feet away might better optimize solar energy and minimize obstacles to satellite coverage.  We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range. 
 
 | [![](/img/ojofeliz/twintowers.jpeg)](/img/ojofeliz/twintowers.jpeg) |
 |:--:|
