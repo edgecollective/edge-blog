@@ -46,21 +46,13 @@ At Edge Collective we have previously developed and worked with most of the non-
 |:--:|
 |**Fig 4.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
 
-Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
-
 | [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
 |:--:|
 |**Fig 5.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
 
-# Current status 
+Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
-We currently have a working breadboard prototype (Fig 6) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
-
-| [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
-|:--:|
-|**Fig 6.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
-
-# Hardware components
+# Planned hardware components
 
 Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware.
 
@@ -73,16 +65,26 @@ Except for the custom PCBs we will be designing, nearly every component of the s
 
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
-|**Fig 7.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
+|**Fig 6.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
 
 
 | [![](/img/ojofeliz/max7092.jpg)](/img/ojofeliz/max7092.jpg) |
 |:--:|
-|**Fig 8.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
+|**Fig 7.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
 
 | [![](/img/ojofeliz/feather_m0.jpg)](/img/ojofeliz/feather_m0.jpg) |
 |:--:|
-|**Fig 9.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+|**Fig 8.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+
+# Current status 
+
+We currently have a working breadboard prototype (Fig 9) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
+
+| [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
+|:--:|
+|**Fig 9.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+
+
 
 # More images of Ojo Feliz Ranch
 
