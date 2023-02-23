@@ -1,5 +1,7 @@
 body {
-    font:13px/1.5 Verdana,Helvetica,Arial,sans-serif;
+    #font:13px/1.5 Verdana,Helvetica,Arial,sans-serif;
+    #font:15px/1.5 ubuntu, sans-serif;
+    font:15px/1.5 sans-serif;
     width: 80%;
     /*
     font-family: sans-serif;
@@ -18,7 +20,7 @@ body {
 }
 
 .img-with-caption {
-font-size:14px;
+font-size:15px;
 text-align:center;
 margin: 20 0;
 background-color:F1F1F1;
@@ -324,7 +326,7 @@ td {
     #font-style: italic;
     #font-size:14;
     text-align: left;
-    font-size:12;
+    font-size:15;
 }
 
 .post .text {
