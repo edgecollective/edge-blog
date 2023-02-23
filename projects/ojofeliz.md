@@ -42,7 +42,7 @@ We are therefore designing the system to include a 'low-power, remote radio (LoR
 
 The satellite modem will then send water level data to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service. 
 
-# Planned hardware components
+# Core hardware components for the design
 
 Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware, including the satellite modem (Fig 4), ultrasonic water sensor (Fig 5), and microcontroller + LoRa radio (Fig 6).
 
@@ -67,6 +67,10 @@ We've evaluated the [satellite modem data plan pricing](https://docs.rockblock.r
 |:--:|
 |**Fig 6.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
 
+| [![](/img/ojofeliz/adafruit_solar.jpg)](/img/ojofeliz/adafruit_solar.jpg) |
+|:--:|
+|**Fig 6.** Image from Adafruit LLC depicting the [solar charging circuit](https://www.adafruit.com/product/4755) ($15), we'll be using in our design, as well as a similar [solar panel](https://www.adafruit.com/product/2747) ($80), and [6600 mAh lithium ion battery](https://www.adafruit.com/product/353) ($25) to those we intend to deploy at Ojo Feliz. |
+
 We'll be designing a simple, easy-to-solder through-hole PCB (printed circuit board) to integrate these components and allows them to be easily mounted inside a weatherproof enclosure, and connected to a solar panel, battery, and associated solar charging circuitry.
 
 # Prior work
@@ -83,17 +87,23 @@ At Edge Collective we have previously developed and worked with most of the non-
 
 Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
+In addition, Edge Collective had also previously developed an [open source LoRa radio + satellite modem gateway] in a previous design (see Figs 9 and 10), which was designed to relay data from field sensor relay nodes in a very similar manner to the planned system for this project. 
 
+| [![](/img/ojofeliz/quahog_schem.png)](/img/ojofeliz/quahog_schem.pdf) |
+|:--:|
+|**Fig 9.** Schematic for the 'Quahog', a wifi + LoRa + satellite gateway design by Edge Collective, which shares many features with the planned gateway for the Ojo Feliz project.  The precise microcontroller may differ, but is also likely to be wifi-enabled. |
+
+| [![](/img/ojofeliz/quahog_plugged.jpeg)](/img/ojofeliz/quahog_plugged.jpeg) |
+|:--:|
+|**Fig 10.** Previous Edge Collective gateway design, the 'Quahog', which incorporates satellite modem (left), as well LoRa radio and wifi-enabled microcontroller (right).  |
 
 # Current status 
 
-We currently have a working breadboard prototype (Fig 9) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
+We currently have a working breadboard prototype (Fig 11) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 9.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
-
-
+|**Fig 11.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 # More images of Ojo Feliz Ranch
 
