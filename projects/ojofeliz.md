@@ -107,26 +107,33 @@ Edge Collective had also designed a low-power, battery-powered LoRa relay node (
 |:--:|
 |**Fig 12.** Closeup of the Edge Collective LoRa relay node, showing the custom circuitboard, indicator LEDs, screw terminal connectors, and Feather LoRa microcontroller daughterboard.  |
 
-Several Edge Collective projects have been deployed in the field for long-term, low-power monitoring projects using solar panels and off-the-shelf weatherproof enclosures -- including standard 'electrical conduit boxes' from Home Depot (Fig 13).
+Recent Edge Collective projects have refined the process of designing easy-to-solder PCBs (printed circuit boards) that integrate off-the-shelf products into circuits that are ready to mounted in an enclosure (Fig 13). 
+
+
+| [![](/img/ojofeliz/relay_motherboard_closeup.png)](/img/ojofeliz/relay_motherboard_closeup.png) |
+|:--:|
+|**Fig 13.** A previous Edge Collective project that incorporated the Feather M0 LoRa microcontroller, SSD1306 display, and screw terminal connectors to external sensors, in a design very similar to that we'll be making for the Ojo Feliz remote water sensor project.   |
+
+Several Edge Collective projects have been deployed in the field for long-term, low-power monitoring projects using solar panels and off-the-shelf weatherproof enclosures -- including standard 'electrical conduit boxes' from Home Depot (Fig 14).
 
 | [![](/img/ojofeliz/gateway_node.png)](/img/ojofeliz/gateway_node.png) |
 |:--:|
-|**Fig 13.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
+|**Fig 14.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
 
-Edge Collective has also developed [an open source, no-frills online database](http://bayou.pvos.org/) with graphing functionality and the ability to download historical data as CSV or JSON files.  (For example involving data from an off-grid chicken coop, see Fig 14). )
+Edge Collective has also developed [an open source, no-frills online database](http://bayou.pvos.org/) with graphing functionality and the ability to download historical data as CSV or JSON files.  (For example involving data from an off-grid chicken coop, see Fig 15.)
 
 | [![](/img/ojofeliz/bayou_chickens.png)](/img/ojofeliz/bayou_chickens.png) |
 |:--:|
-|**Fig 14.** Screen capture of graphical data for a data feed (in this case, data from an off-grid chicken coop LoRa-based temperature sensor) hosted on [bayou.pvos.org](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c), Edge Collective's open source online database. The Ojo Feliz system will likely use Bayou, but could also be reprogrammed to use other online data storage options (e.g. storing data directly in a Google spreadsheet).   |
+|**Fig 15.** Screen capture of graphical data for a data feed (in this case, data from an off-grid chicken coop LoRa-based temperature sensor) hosted on [bayou.pvos.org](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c), Edge Collective's open source online database. The Ojo Feliz system will likely use Bayou, but could also be reprogrammed to use other online data storage options (e.g. storing data directly in a Google spreadsheet).   |
 
 
 # Current status 
 
-We currently have a working breadboard prototype (Fig 14) of a satellite modem + ultrasonic water level device, which has successfully posted its data to an online database. 
+We currently have a working breadboard prototype (Fig 16) of a satellite modem + ultrasonic water level device, which has successfully posted its data to an online database. 
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 15.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+|**Fig 16.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 We have also developed a sensible encoding scheme so that water level data from the ultrasonic sensor, collected at 4 hour intervals over a 24 hour period, can be compressed and sent over a single satellite modem transmission once per day, significantly decreasing data plan costs.
 
