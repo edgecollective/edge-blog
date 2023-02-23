@@ -46,7 +46,7 @@ At Edge Collective we have previously developed and worked with most of the non-
 |:--:|
 |**Fig 4.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
 
-An example of a version of the (open source) online database we'd developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
+Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
 | [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
 |:--:|
