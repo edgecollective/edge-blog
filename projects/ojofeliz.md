@@ -107,14 +107,20 @@ Edge Collective had also designed a low-power, battery-powered LoRa relay node (
 |:--:|
 |**Fig 12.** Closeup of the Edge Collective LoRa relay node, showing the custom circuitboard, indicator LEDs, screw terminal connectors, and Feather LoRa microcontroller daughterboard.  |
 
+Several Edge Collective projects have been deployed in the field for long-term, low-power monitoring projects using solar panels and off-the-shelf weatherproof enclosures -- including standard 'electrical conduit boxes' from Home Depot (Fig 13).
+
+| [![](/img/ojofeliz/gateway_node.png)](/img/ojofeliz/gateway_node.png) |
+|:--:|
+|**Fig 13.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
+
 
 # Current status 
 
-We currently have a working breadboard prototype (Fig 11) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
+We currently have a working breadboard prototype (Fig 14) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 12.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+|**Fig 14.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 # More images of Ojo Feliz Ranch
 
