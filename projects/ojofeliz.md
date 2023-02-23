@@ -10,6 +10,8 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 
 # Background
 
+[![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
+
 [Grass Nomads, LLC](https://www.grassnomads.com/) leases a 120,000 acre high elevation ranch in New Mexico, where they run a cow-calf operation with an extensive water system. Several key storage tanks in their system are the first indication of a leak or failure, and driving to them takes hours. Remote water monitoring would save them time, vehicle wear, and water.
 
 <!--
@@ -102,8 +104,6 @@ We currently have a working breadboard prototype (Fig 9) of a satellite modem + 
 [![](/img/ojofeliz/ofr5.jpeg)](/img/ojofeliz/ofr5.jpeg)
 
 [![](/img/ojofeliz/ofr6.jpeg)](/img/ojofeliz/ofr6.jpeg)
-
-[![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
 
 [![](/img/ojofeliz/ofr2.jpeg)](/img/ojofeliz/ofr2.jpeg)
 
