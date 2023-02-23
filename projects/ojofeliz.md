@@ -46,8 +46,6 @@ The plan is to develop an open-source, DIY system that uses a satellite modem to
 
 [![](/img/ojofeliz/ofr1.jpeg)](/img/ojofeliz/ofr1.jpeg)
 
-[![](/img/ojofeliz/ofr2.jpeg)](/img/ojofeliz/ofr2.jpeg)
-
 [![](/img/ojofeliz/ofr3.jpeg)](/img/ojofeliz/ofr3.jpeg)
 
 [![](/img/ojofeliz/ofr4.jpeg)](/img/ojofeliz/ofr4.jpeg)
@@ -57,3 +55,5 @@ The plan is to develop an open-source, DIY system that uses a satellite modem to
 [![](/img/ojofeliz/ofr6.jpeg)](/img/ojofeliz/ofr6.jpeg)
 
 [![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
+
+[![](/img/ojofeliz/ofr2.jpeg)](/img/ojofeliz/ofr2.jpeg)
