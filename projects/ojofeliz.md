@@ -5,7 +5,7 @@ date: 2023-02-22
 tags: projects
 updated: 2023-02-22
 image: /img/ojofeliz/twintowers.jpeg
-blurb: Developing an open source satellite modem-based water level monitoring system with Grass Nomads LLC.  
+blurb: Developing an open source, satellite modem-based water level monitoring system with Grass Nomads LLC.  
 ---
 
 # Background
