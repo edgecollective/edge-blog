@@ -12,10 +12,11 @@ blurb: Developing an open source satellite modem-based water level monitoring sy
 
 [Grass Nomads, LLC](https://www.grassnomads.com/) leases a 120,000 acre high elevation ranch in New Mexico, where we run a cow-calf operation. Progressive grazing management featuring higher density and longer recovery periods is critical to our success, made possible by an extensive and reliable water system. Several key storage tanks in our system are the first indication of a leak or failure, and driving to them takes hours. Remote water monitoring would save us time, vehicle wear, water, and further enable advances in our land stewardship.
 
-
 | [![](/img/ojofeliz/ofr_map.png)](/img/ojofeliz/ofr_map.png) |
 |:--:|
 |**Fig 1.** The Ojo Felix ranch, a 200 square mile lease, with water infrastructure shown. Not shown are planned pipelines to be installed in 2023.|
+
+Having updated water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 2), 'Casias' (Fig 3), and 'Marsh Wells'.  
 
 | [![](/img/ojofeliz/twintowers.jpeg)](/img/ojofeliz/twintowers.jpeg) |
 |:--:|
@@ -27,26 +28,30 @@ blurb: Developing an open source satellite modem-based water level monitoring sy
 
 # Planned Monitoring Strategy
 
-The plan is to develop an open-source, DIY system that uses a satellite modem to send water level data from remote storage tanks to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service.
+The plan is to develop an open-source, DIY system that uses a satellite modem to send water level data from remote storage tanks to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service.  (For a schematic overview of the system, see Figure 4 below.)
 
 | [![](/img/ojofeliz/floodsense.png)](/img/ojofeliz/floodsense.png) |
 |:--:|
 |**Fig 4.** The overall approach to monitoring the water storage tanks. |
 
+At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 5) via local LoRa radio connection to a LoRa-wifi gateway, and to an online database (Fig 6).  
 
 | [![](/img/ojofeliz/chappy_proto.png)](/img/ojofeliz/chappy_proto.png) |
 |:--:|
-|**Fig 5.** A previous, LoRa-based ultrasonic water level sensor built by Edge Collective |
-
-| [![](/img/ojofeliz/ultrasonic_housing.jpg)](/img/ojofeliz/ultrasonic_housing.jpg) |
-|:--:|
-|**Fig 6.** Close-up of the housing for the ultrasonic water level sensor. |
+|**Fig 5.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
 
 | [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
 |:--:|
-|**Fig 7.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+|**Fig 6.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+
 
 # Monitoring system hardware
+
+
+| [![](/img/ojofeliz/ultrasonic_housing.jpg)](/img/ojofeliz/ultrasonic_housing.jpg) |
+|:--:|
+|**Fig 7.** Close-up of the housing for the ultrasonic water level sensor. |
+
 
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
