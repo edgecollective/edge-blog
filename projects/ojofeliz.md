@@ -113,6 +113,12 @@ Several Edge Collective projects have been deployed in the field for long-term, 
 |:--:|
 |**Fig 13.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
 
+Edge Collective has also developed [an open source, no-frills online database](http://bayou.pvos.org/) with graphing functionality and the ability to download historical data as CSV or JSON files.  (For example involving data from an off-grid chicken coop, see Fig 14). )
+
+| [![](/img/ojofeliz/bayou_chickens.png)](/img/ojofeliz/bayou_chickens.png) |
+|:--:|
+|**Fig 14.** Screen capture of graphical data for a data feed (in this case, data from an off-grid chicken coop LoRa-based temperature sensor) hosted on [bayou.pvos.org](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c), Edge Collective's open source online database. The Ojo Feliz system will likely use Bayou, but could also be reprogrammed to use other online data storage options (e.g. storing data directly in a Google spreadsheet).   |
+
 
 # Current status 
 
@@ -120,7 +126,7 @@ We currently have a working breadboard prototype (Fig 14) of a satellite modem +
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 14.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+|**Fig 15.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 We have also developed a sensible encoding scheme so that water level data from the ultrasonic sensor, collected at 4 hour intervals over a 24 hour period, can be compressed and sent over a single satellite modem transmission once per day, significantly decreasing data plan costs.
 
