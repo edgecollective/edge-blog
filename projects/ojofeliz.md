@@ -28,7 +28,7 @@ In particular, there is an interest in collecting ongoing water level data from 
 |:--:|
 |**Fig 2.** The 'Casias' water storage tank on Ojo Feliz Ranch, another of the tanks to be monitored.|
 
-# Planned Monitoring Strategy
+# Planned monitoring strategy
 
 Because of the remote location of the water storage tanks and uncertain cellular coverage, we have decided to develop a satellite modem-based monitoring system.  Currently, we are unsure as to whether the satellite modem (and accompanying solar panel) would best be situated directly on top / next to the storage tank, or whether a location 100+ feet away might better optimize solar energy and minimize obstacles to satellite coverage.  We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range. 
 
@@ -52,7 +52,7 @@ Another example of a version of the (open source) online database system we'd pr
 |:--:|
 |**Fig 5.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
 
-# Current Status 
+# Current status 
 
 We currently have a working breadboard prototype (Fig 6) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
 
