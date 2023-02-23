@@ -32,13 +32,15 @@ In particular, there is an interest in collecting ongoing water level data from 
 
 # Planned monitoring strategy
 
-Because of the remote location of the water storage tanks and uncertain cellular coverage, we have decided to develop a satellite modem-based monitoring system.  Currently, we are unsure as to whether the satellite modem (and accompanying solar panel) would best be situated directly on top / next to the storage tank, or whether a location 100+ feet away might better optimize solar energy and minimize obstacles to satellite coverage.  We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range. 
+Because of the remote location of the water storage tanks and uncertain cellular coverage, we have decided to develop a satellite modem-based monitoring system.  Currently, we are unsure as to whether the satellite modem (and accompanying solar panel) would best be situated directly on top / next to the storage tank, or whether a location 100+ feet away might better optimize solar energy and minimize obstacles to satellite coverage. 
 
 | [![](/img/ojofeliz/system_overview.png)](/img/ojofeliz/system_overview.png) |
 |:--:|
 |**Fig 3.** The overall approach to monitoring the water storage tanks. |
 
-The satellite modem will then send water level data to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service.  (For a schematic overview of the system, see Figure 3 below.)
+We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range (Fig 3). 
+
+The satellite modem will then send water level data to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service. 
 
 # Planned hardware components
 
