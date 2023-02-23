@@ -40,11 +40,13 @@ The satellite modem will then send water level data to an online database, allow
 
 # Prior work
 
-At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 4) via local LoRa radio connection to a LoRa-wifi gateway, and to an online database (Fig 5).  
+At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 4) via local LoRa radio connection to a LoRa-wifi gateway, and sending it periodically to an online database (Fig 5).  
 
 | [![](/img/ojofeliz/chappy_proto.png)](/img/ojofeliz/chappy_proto.png) |
 |:--:|
 |**Fig 4.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
+
+An example of a version of the (open source) online database we'd developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
 | [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
 |:--:|
