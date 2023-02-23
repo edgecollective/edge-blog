@@ -42,6 +42,10 @@ The plan is to develop an open-source, DIY system that uses a satellite modem to
 |:--:|
 |**Fig 6.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
 
+| [![](/img/ojofeliz/feather_m0.jpg)](/img/ojofeliz/feather_m0.jpg) |
+|:--:|
+|**Fig 6.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+
 # More images of Ojo Feliz Ranch
 
 [![](/img/ojofeliz/ofr1.jpeg)](/img/ojofeliz/ofr1.jpeg)
