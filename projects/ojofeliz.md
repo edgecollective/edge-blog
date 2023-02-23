@@ -42,19 +42,24 @@ The plan is to develop an open-source, DIY system that uses a satellite modem to
 |:--:|
 |**Fig 6.** Close-up of the housing for the ultrasonic water level sensor. |
 
+| [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
+|:--:|
+|**Fig 7.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+
+# Monitoring system hardware
 
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
-|**Fig 7.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
+|**Fig 8.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
 
 
 | [![](/img/ojofeliz/max7092.jpg)](/img/ojofeliz/max7092.jpg) |
 |:--:|
-|**Fig 8.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
+|**Fig 9.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
 
 | [![](/img/ojofeliz/feather_m0.jpg)](/img/ojofeliz/feather_m0.jpg) |
 |:--:|
-|**Fig 9.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+|**Fig 10.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
 
 # More images of Ojo Feliz Ranch
 
