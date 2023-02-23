@@ -87,7 +87,7 @@ At Edge Collective we have previously developed and worked with most of the non-
 
 Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
-In addition, Edge Collective had also previously developed an [open source LoRa radio + satellite modem gateway] in a previous design (see Figs 9 and 10), which was designed to relay data from field sensor relay nodes in a very similar manner to the planned system for this project. 
+Edge Collective had also previously developed an [open source LoRa radio + satellite modem gateway] in a previous design (see Figs 9 and 10), which was designed to relay data from field sensor relay nodes in a very similar manner to the planned system for this project. 
 
 | [![](/img/ojofeliz/quahog_schem.png)](/img/ojofeliz/quahog_schem.pdf) |
 |:--:|
@@ -97,13 +97,24 @@ In addition, Edge Collective had also previously developed an [open source LoRa 
 |:--:|
 |**Fig 10.** Previous Edge Collective gateway design, the 'Quahog', which incorporates satellite modem (left), as well LoRa radio and wifi-enabled microcontroller (right).  |
 
+Edge Collective had also designed a low-power, battery-powered LoRa relay node (Figs 11 and 12) and antenna inside an off-the-shelf weatherproof enclosure for a previous project involving an Acclima soil moisture sensor.  The design of that relay node has significant overlap with the relay node we intend to design for the ultrasonic relay node.
+
+| [![](/img/ojofeliz/acclima.JPG)](/img/ojofeliz/acclima.JPG) |
+|:--:|
+|**Fig 11.** A previous Edge Collective sensor LoRa relay design (right); in this case, for capturing data from an Acclima soil moisture sensor (left) and relaying data via LoRa to a LoRa-wifi gateway. |
+
+| [![](/img/ojofeliz/relay_node.png)](/img/ojofeliz/relay_node.png) |
+|:--:|
+|**Fig 12.** Closeup of the Edge Collective LoRa relay node, showing the custom circuitboard, indicator LEDs, screw terminal connectors, and Feather LoRa microcontroller daughterboard.  |
+
+
 # Current status 
 
 We currently have a working breadboard prototype (Fig 11) of a satellite modem + ultrasonic water level device, which is posting its data to an online database.  Next steps include designing and producing a batch of integrative PCBs for these devices, optimizing the firmware for power, and adding in the 'LoRa relay' node circuitry if necessary.
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 11.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+|**Fig 12.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 # More images of Ojo Feliz Ranch
 
