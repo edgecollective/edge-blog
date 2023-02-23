@@ -40,7 +40,9 @@ The satellite modem will then send water level data to an online database, allow
 
 # Planned hardware components
 
-Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware.
+Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware, including the satellite modem (Fig 4), ultrasonic water sensor (Fig 5), and microcontroller + LoRa radio (Fig 6).
+
+We'll be designing a simple, easy-to-solder through-hole PCB (printed circuit board) to integrate these components and allows them to be easily mounted inside a weatherproof enclosure, and connected to a solar panel, battery, and associated solar charging circuitry.
 
 <!--
 | [![](/img/ojofeliz/ultrasonic_housing.jpg)](/img/ojofeliz/ultrasonic_housing.jpg) |
@@ -52,7 +54,6 @@ Except for the custom PCBs we will be designing, nearly every component of the s
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
 |**Fig 4.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
-
 
 | [![](/img/ojofeliz/max7092.jpg)](/img/ojofeliz/max7092.jpg) |
 |:--:|
