@@ -12,7 +12,7 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 
 [![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
 
-[Grass Nomads, LLC](https://www.grassnomads.com/) leases a 120,000 acre high elevation ranch in New Mexico, where they run a cow-calf operation with an extensive water system. Several key storage tanks in their system are the first indication of a leak or failure, and driving to them takes hours. Remote water monitoring would save them time, vehicle wear, and water -- and also enable them to run higher herd density, thus improve their range management.
+[Grass Nomads, LLC](https://www.grassnomads.com/) leases a 120,000 acre high elevation ranch in New Mexico, where they run a cow-calf operation with an extensive water system. Several key storage tanks in their system are the first indication of a leak or failure, and driving to them takes hours. Remote water monitoring would save them time, vehicle wear, and water -- and also enable them to run higher herd density and improve their range management.
 
 <!--
 | [![](/img/ojofeliz/ofr_map.png)](/img/ojofeliz/ofr_map.png) |
