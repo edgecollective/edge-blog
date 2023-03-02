@@ -12,9 +12,9 @@ blurb: Developing field school curricula.
 
 # Background
 
-The idea here is to develop a sort of 'curriculum' around resilience- and adaptation-oriented topics that is useful and engaging for both adults and kids together.   
+We're beginning to develop a sort of 'curriculum' around resilience- and adaptation-oriented topics that is useful and engaging for both adults and kids together.   
 
-The overall angle here is that many (most?) of the skills that might be useful in a potentially lower-energy, post-carbon world are also simply 'good pedagogy' no matter what future obtains: work done in the outdoors, learning to use hand tools, learning to grow and prepare food, learning to salvage and repair old equipment.  All of these activities help foster a sense of agency, confidence, collaboration, and eenjoyment when tackling open-ended challenges and developing creative projects with others.   
+The working thesis is that many (most?) of the skills that might be useful in a potentially lower-energy, post-carbon world are also simply 'good pedagogy' no matter what future obtains: work done in the outdoors, learning to use hand tools, learning to grow and prepare food, learning to salvage and repair old equipment.  All of these activities help foster a sense of agency, confidence, collaboration, and eenjoyment when tackling open-ended challenges and developing creative projects with others.   
 
 # Topics
 
