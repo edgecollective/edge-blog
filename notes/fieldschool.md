@@ -91,6 +91,10 @@ A preliminary list of possible topics around which to develop workshops and coll
 [![](/img/fieldschool/shelter_construction.png)](/img/fieldschool/shelter_construction.png)
 -->
 
+## Musical instrument making
+
+[![](/img/fieldschool/musical_instrument_making.png)](/img/fieldschool/musical_instrument_making.png)
+
 ## Cold frames 
 
 [![](/img/fieldschool/cold_frames_2.png)](/img/fieldschool/cold_frames_2.png)
