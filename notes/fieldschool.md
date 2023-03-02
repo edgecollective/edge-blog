@@ -74,9 +74,8 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 # Example classes and workshops  
 
-## Mobile greenhouses
-
-[![](/img/fieldschool/greenhouse.png)](/img/fieldschool/greenhouse.png)
+## Mobile greenhouses 
+[![](/img/fieldschool/mobile_green_2.png)](/img/fieldschool/mobile_green_2.png)
 
 ## Intro to welding
 
@@ -84,9 +83,21 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 ## Intro to seed starting
 
+[![](/img/fieldschool/seedlings.png)](/img/fieldschool/seedlings.png)
+
+<!--
+## Mobile shelters
+
+[![](/img/fieldschool/shelter_construction.png)](/img/fieldschool/shelter_construction.png)
+-->
+
 ## Cold frames 
 
+[![](/img/fieldschool/cold_frames_2.png)](/img/fieldschool/cold_frames_2.png)
+
 ## Mobile chicken coops
+
+[![](/img/fieldschool/mobile_coop.png)](/img/fieldschool/mobile_coop.png)
 
 ## Small-scale solar power
 
@@ -94,4 +105,3 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 ## Intro to off-grid radio
 
-## Intro to welding 
