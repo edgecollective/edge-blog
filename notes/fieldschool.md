@@ -4,11 +4,11 @@ layout: layout.njk
 date: 2023-04-01
 updated: 2023-04-01
 tags: notes 
-image: img/fieldschool/welding.jpg
+image: img/fieldschool/shelter.png
 blurb: Developing field school curricula. 
 ---
 
-[![](/img/fieldschool/welding.jpg)](/img/fieldschool/welding.jpg)
+[![](/img/fieldschool/shelter.png)](/img/fieldschool/shelter.png)
 
 # Background
 
@@ -16,7 +16,7 @@ The idea here is to develop a sort of 'curriculum' around resilience- and adapta
 
 The overall angle here is that many (most?) of the skills that might be useful in a potentially lower-energy, post-carbon world are also simply 'good pedagogy' no matter what future obtains: work done in the outdoors, learning to use hand tools, learning to grow and prepare food, learning to salvage and repair old equipment.  All of these activities help foster a sense of agency, confidence, collaboration, and eenjoyment when tackling open-ended challenges and developing creative projects with others.   
 
-# Potential topics
+# Topics
 
 A preliminary list of possible topics around which to develop workshops and collaborations is below. 
 ## Food
@@ -76,6 +76,12 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 ## Mobile greenhouses
 
+[![](/img/fieldschool/greenhouse.png)](/img/fieldschool/greenhouse.png)
+
+## Intro to welding
+
+[![](/img/fieldschool/welding.jpg)](/img/fieldschool/welding.jpg)
+
 ## Intro to seed starting
 
 ## Cold frames 
@@ -88,4 +94,4 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 ## Intro to off-grid radio
 
- 
+## Intro to welding 
