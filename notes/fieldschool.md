@@ -99,9 +99,3 @@ A preliminary list of possible topics around which to develop workshops and coll
 
 [![](/img/fieldschool/mobile_coop.png)](/img/fieldschool/mobile_coop.png)
 
-## Small-scale solar power
-
-## Using a map and compass
-
-## Intro to off-grid radio
-
