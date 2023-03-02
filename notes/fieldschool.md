@@ -12,10 +12,13 @@ blurb: Developing field school curricula.
 
 # Background
 
-The idea here is to develop a sort of 'curriculum' around resilience- / adaptation-oriented topics that is useful and engaging for both adults and kids together.   
+The idea here is to develop a sort of 'curriculum' around resilience- and adaptation-oriented topics that is useful and engaging for both adults and kids together.   
+
+The overall angle here is that many (most?) of the skills that might be useful in a potentially lower-energy, post-carbon world are also simply 'good pedagogy' no matter what future obtains: work done in the outdoors, learning to use hand tools, learning to grow and prepare food, learning to salvage and repair old equipment.  All of these activities help foster a sense of agency, confidence, collaboration, and eenjoyment when tackling open-ended challenges and developing creative projects with others.   
 
 # Potential topics
 
+A preliminary list of possible topics around which to develop workshops and collaborations is below. 
 ## Food
 - Food preservation
 - Mini underground cold storage
@@ -26,6 +29,7 @@ The idea here is to develop a sort of 'curriculum' around resilience- / adaptati
 - Mobile chicken coop
 - Cooking outdoors
 - Outdoor kitchen and handwashing station
+- Seed starting
 
 ## Shelter
 - Yurt
@@ -66,5 +70,22 @@ The idea here is to develop a sort of 'curriculum' around resilience- / adaptati
 ## Community
 - Preparing food for a large gathering 
 
- 
+---
 
+# Example classes and workshops  
+
+## Mobile greenhouses
+
+## Intro to seed starting
+
+## Cold frames 
+
+## Mobile chicken coops
+
+## Small-scale solar power
+
+## Using a map and compass
+
+## Intro to off-grid radio
+
+ 
