@@ -20,7 +20,7 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 |**Fig 1.** The Ojo Felix ranch, a 200 square mile lease, shwoing the location of the three key water storage tanks to be monitored -- 'Twin Towers', 'Casias', and 'Marsh Wells'. Not shown are planned pipelines to be installed in 2023.   |
 -->
 
-In particular, there is an interest in collecting ongoing water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 1), 'Casias' (Fig 2), and 'Marsh Wells'.  
+In particular, there is an interest in collecting ongoing water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 1), 'Casias' (Fig 2), and 'Marsh Wells' (Fig 3).  
 
 | [![](/img/ojofeliz/twintowers.jpeg)](/img/ojofeliz/twintowers.jpeg) |
 |:--:|
@@ -30,110 +30,107 @@ In particular, there is an interest in collecting ongoing water level data from 
 |:--:|
 |**Fig 2.** The 'Casias' water storage tank on Ojo Feliz Ranch, another of the tanks to be monitored.|
 
+| [![](/img/ojofeliz/marsh_well.png)](/img/ojofeliz/marsh_well.png) |
+|:--:|
+|**Fig 3.** The 'Marsh Well' water storage tank on Ojo Feliz Ranch.|
+
 # Planned monitoring strategy
 
 Because of the remote location of the water storage tanks and uncertain cellular coverage, we have decided to develop a satellite modem-based monitoring system.  Currently, we are unsure as to whether the satellite modem (and accompanying solar panel) would best be situated directly on top / next to the storage tank, or whether a location 100+ feet away might better optimize solar energy and minimize obstacles to satellite coverage. 
 
 | [![](/img/ojofeliz/system_overview.png)](/img/ojofeliz/system_overview.png) |
 |:--:|
-|**Fig 3.** The overall approach to monitoring the water storage tanks. |
+|**Fig 4.** The overall approach to monitoring the water storage tanks. |
 
-We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range (Fig 3). 
+We are therefore designing the system to include a 'low-power, remote radio (LoRa) depth sensor node', which will be situated on the tank, and relay its data to a 'LoRa-satellite-modem gateway' somewhere within radio range (Fig 4). 
 
 The satellite modem will then send water level data to an online database, allowing Grass Nomads LLC to access up-to-date water level over the internet or on their phones, anywhere they have access to internet or cellular service. 
 
 # Core hardware components for the design
 
-Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware, including the satellite modem (Fig 4), ultrasonic water sensor (Fig 5), and microcontroller + LoRa radio (Fig 6).
+Except for the custom PCBs we will be designing, nearly every component of the system consists of off-the-shelf hardware, including the satellite modem (Fig 5), ultrasonic water sensor (Fig 6), and microcontroller + LoRa radio (Fig 7).
 
 We've evaluated the [satellite modem data plan pricing](https://docs.rockblock.rock7.com/docs/iridium-contract-costs), and believe that if we send one water level update per day from each storage tank (with a message containing measurements at 4 hour intervals for the previous 24 hours), the associated cost of the satellite data service will be the same as or less than a comporable cellular data plan.  
 
-<!--
-| [![](/img/ojofeliz/ultrasonic_housing.jpg)](/img/ojofeliz/ultrasonic_housing.jpg) |
-|:--:|
-|**Fig 7.** Close-up of the housing for the ultrasonic water level sensor. |
-
--->
-
 | [![](/img/ojofeliz/rockblock.jpg)](/img/ojofeliz/rockblock.jpg) |
 |:--:|
-|**Fig 4.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
+|**Fig 5.** The [Rockblock 9602 Satellite Modem](https://www.sparkfun.com/products/13745), available e.g. from Sparkfun for $300 USD |
 
 | [![](/img/ojofeliz/max7092.jpg)](/img/ojofeliz/max7092.jpg) |
 |:--:|
-|**Fig 5.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
+|**Fig 6.** The [Maxbotix MB7092](https://www.adafruit.com/product/1137), available e.g. from Adafruit for $100 |
 
 | [![](/img/ojofeliz/feather_m0.jpg)](/img/ojofeliz/feather_m0.jpg) |
 |:--:|
-|**Fig 6.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
+|**Fig 7.** The [Feather M0 LoRa microcontroller](https://www.adafruit.com/product/3178), available e.g. from Adafruit for $35 |
 
 | [![](/img/ojofeliz/adafruit_solar.jpg)](/img/ojofeliz/adafruit_solar.jpg) |
 |:--:|
-|**Fig 6.** Image from Adafruit LLC depicting the [solar charging circuit](https://www.adafruit.com/product/4755) ($15), we'll be using in our design, as well as a similar [solar panel](https://www.adafruit.com/product/2747) ($80), and [6600 mAh lithium ion battery](https://www.adafruit.com/product/353) ($25) to those we intend to deploy at Ojo Feliz. |
+|**Fig 8.** Image from Adafruit LLC depicting the [solar charging circuit](https://www.adafruit.com/product/4755) ($15), we'll be using in our design, as well as a similar [solar panel](https://www.adafruit.com/product/2747) ($80), and [6600 mAh lithium ion battery](https://www.adafruit.com/product/353) ($25) to those we intend to deploy at Ojo Feliz. |
 
-We'll be designing a simple, easy-to-solder through-hole PCB (printed circuit board) to integrate these components and allows them to be easily mounted inside a weatherproof enclosure, and connected to a solar panel, battery, and associated solar charging circuitry.
+We'll be designing a simple, easy-to-solder through-hole PCB (printed circuit board) to integrate these components and allows them to be easily mounted inside a weatherproof enclosure, and connected to a solar panel, battery, and associated solar charging circuitry (Fig 8).
 
 # Prior work
 
-At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 7) via local LoRa radio connection to a LoRa-wifi gateway, and sending it periodically to an online database (Fig 8).  
+At Edge Collective we have previously developed and worked with most of the non-satellite components of this system, collecting data from a solar-powered ultrasonic water level sensor (Fig 9) via local LoRa radio connection to a LoRa-wifi gateway, and sending it periodically to an online database (Fig 10).  
 
 | [![](/img/ojofeliz/chappy_proto.png)](/img/ojofeliz/chappy_proto.png) |
 |:--:|
-|**Fig 7.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
+|**Fig 9.** A previous, LoRa-based ultrasonic water level sensor prototype built by Edge Collective. |
 
 | [![](/img/ojofeliz/sonar_data.png)](/img/ojofeliz/sonar_data.png) |
 |:--:|
-|**Fig 8.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
+|**Fig 10.** Data from an initial deployment of a LoRa-based ultrasonic sensor |
 
 Another example of a version of the (open source) online database system we'd previously developed (in this case, used for chicken coop temperatures) is [here](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c).
 
-Edge Collective had also previously developed an [open source LoRa radio + satellite modem gateway] in a previous design (see Figs 9 and 10), which was designed to relay data from field sensor relay nodes in a very similar manner to the planned system for this project. 
+Edge Collective had also previously developed an [open source LoRa radio + satellite modem gateway] in a previous design (see Figs 11 and 12), which was designed to relay data from field sensor relay nodes in a very similar manner to the planned system for this project. 
 
 | [![](/img/ojofeliz/quahog_schem.png)](/img/ojofeliz/quahog_schem.pdf) |
 |:--:|
-|**Fig 9.** Schematic for the 'Quahog', a wifi + LoRa + satellite gateway design by Edge Collective, which shares many features with the planned gateway for the Ojo Feliz project.  The precise microcontroller may differ, but is also likely to be wifi-enabled. |
+|**Fig 11.** Schematic for the 'Quahog', a wifi + LoRa + satellite gateway design by Edge Collective, which shares many features with the planned gateway for the Ojo Feliz project.  The precise microcontroller may differ, but is also likely to be wifi-enabled. |
 
 | [![](/img/ojofeliz/quahog_plugged.jpeg)](/img/ojofeliz/quahog_plugged.jpeg) |
 |:--:|
-|**Fig 10.** Previous Edge Collective gateway design, the 'Quahog', which incorporates satellite modem (left), as well LoRa radio and wifi-enabled microcontroller (right).  |
+|**Fig 12.** Previous Edge Collective gateway design, the 'Quahog', which incorporates satellite modem (left), as well LoRa radio and wifi-enabled microcontroller (right).  |
 
-Edge Collective had also designed a low-power, battery-powered LoRa relay node (Figs 11 and 12) and antenna inside an off-the-shelf weatherproof enclosure for a previous project involving an Acclima soil moisture sensor.  The design of that relay node has significant overlap with the relay node we intend to design for the ultrasonic relay node.
+Edge Collective had also designed a low-power, battery-powered LoRa relay node (Figs 13 and 14) and antenna inside an off-the-shelf weatherproof enclosure for a previous project involving an Acclima soil moisture sensor.  The design of that relay node has significant overlap with the relay node we intend to design for the ultrasonic relay node.
 
 | [![](/img/ojofeliz/acclima.JPG)](/img/ojofeliz/acclima.JPG) |
 |:--:|
-|**Fig 11.** A previous Edge Collective sensor LoRa relay design (right); in this case, for capturing data from an Acclima soil moisture sensor (left) and relaying data via LoRa to a LoRa-wifi gateway. |
+|**Fig 13.** A previous Edge Collective sensor LoRa relay design (right); in this case, for capturing data from an Acclima soil moisture sensor (left) and relaying data via LoRa to a LoRa-wifi gateway. |
 
 | [![](/img/ojofeliz/relay_node.png)](/img/ojofeliz/relay_node.png) |
 |:--:|
-|**Fig 12.** Closeup of the Edge Collective LoRa relay node, showing the custom circuitboard, indicator LEDs, screw terminal connectors, and Feather LoRa microcontroller daughterboard.  |
+|**Fig 14.** Closeup of the Edge Collective LoRa relay node, showing the custom circuitboard, indicator LEDs, screw terminal connectors, and Feather LoRa microcontroller daughterboard.  |
 
-Recent Edge Collective projects have refined the process of designing easy-to-solder PCBs (printed circuit boards) that integrate off-the-shelf products into circuits that are ready to mounted in an enclosure (Fig 13). 
+Recent Edge Collective projects have refined the process of designing easy-to-solder PCBs (printed circuit boards) that integrate off-the-shelf products into circuits that are ready to mounted in an enclosure (Fig 15). 
 
 
 | [![](/img/ojofeliz/relay_motherboard_closeup.png)](/img/ojofeliz/relay_motherboard_closeup.png) |
 |:--:|
-|**Fig 13.** A previous Edge Collective project that incorporated the Feather M0 LoRa microcontroller, SSD1306 display, and screw terminal connectors to external sensors, in a design very similar to that we'll be making for the Ojo Feliz remote water sensor project.   |
+|**Fig 15.** A previous Edge Collective project that incorporated the Feather M0 LoRa microcontroller, SSD1306 display, and screw terminal connectors to external sensors, in a design very similar to that we'll be making for the Ojo Feliz remote water sensor project.   |
 
-Several Edge Collective projects have been deployed in the field for long-term, low-power monitoring projects using solar panels and off-the-shelf weatherproof enclosures -- including standard 'electrical conduit boxes' from Home Depot (Fig 14).
+Several Edge Collective projects have been deployed in the field for long-term, low-power monitoring projects using solar panels and off-the-shelf weatherproof enclosures -- including standard 'electrical conduit boxes' from Home Depot (Fig 16).
 
 | [![](/img/ojofeliz/gateway_node.png)](/img/ojofeliz/gateway_node.png) |
 |:--:|
-|**Fig 14.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
+|**Fig 16.** Enclosure setup for a previous Edge Collective field-based gateway project, demonstrating the use of weatherproof pass-throughs and solar panels on an off-the-shelf Home Depot electrical conduit box.  |
 
-Edge Collective has also developed [an open source, no-frills online database](http://bayou.pvos.org/) with graphing functionality and the ability to download historical data as CSV or JSON files.  (For example involving data from an off-grid chicken coop, see Fig 15.)
+Edge Collective has also developed [an open source, no-frills online database](http://bayou.pvos.org/) with graphing functionality and the ability to download historical data as CSV or JSON files.  (For example involving data from an off-grid chicken coop, see Fig 17.)
 
 | [![](/img/ojofeliz/bayou_chickens.png)](/img/ojofeliz/bayou_chickens.png) |
 |:--:|
-|**Fig 15.** Screen capture of graphical data for a data feed (in this case, data from an off-grid chicken coop LoRa-based temperature sensor) hosted on [bayou.pvos.org](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c), Edge Collective's open source online database. The Ojo Feliz system will likely use Bayou, but could also be reprogrammed to use other online data storage options (e.g. storing data directly in a Google spreadsheet).   |
+|**Fig 17.** Screen capture of graphical data for a data feed (in this case, data from an off-grid chicken coop LoRa-based temperature sensor) hosted on [bayou.pvos.org](http://bayou.pvos.org/data/834ksnvaq3hn?plot_param=temperature_c), Edge Collective's open source online database. The Ojo Feliz system will likely use Bayou, but could also be reprogrammed to use other online data storage options (e.g. storing data directly in a Google spreadsheet).   |
 
 
 # Current status 
 
-We currently have a working breadboard prototype (Fig 16) of a satellite modem + ultrasonic water level device, which has successfully posted its data to an online database. 
+We currently have a working breadboard prototype (Fig 18) of a satellite modem + ultrasonic water level device, which has successfully posted its data to an online database. 
 
 | [![](/img/ojofeliz/breadboard.jpeg)](/img/ojofeliz/breadboard.jpeg) |
 |:--:|
-|**Fig 16.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
+|**Fig 18.** Breadboard prototype demonstrating integrated functionality of ultrasonic sensor, microcontroller, and satellite modem functionality. |
 
 We have also developed a sensible encoding scheme so that water level data from the ultrasonic sensor, collected at 4 hour intervals over a 24 hour period, can be compressed and sent over a single satellite modem transmission once per day, significantly decreasing data plan costs.
 
