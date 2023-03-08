@@ -1,11 +1,11 @@
 ---
-pageTitle: Satellite Modem Prototyping
+pageTitle: Remote Water Storage Monitoring System 
 layout: layout.njk
-date: 2023-01-23
-updated: 2023-03-07
+date: 2023-03-08
+updated: 2023-03-08
 tags: notes 
-image: img/rockblock9603.jpg
-blurb: Using a satellite modem to send data from off-grid. 
+image: /img/ojofeliz/twintowers.jpeg
+blurb: Developing a remote water storage monitoring system.  
 ---
 
 Working with CPy 7 on Feather Blue Sense for now ...
@@ -132,8 +132,6 @@ Suggestions on compressing data for the rockblock [https://docs.rockblock.rock7.
 
 ---
 
-# Update Jan 31 2023
-
 Rockblock is sending depth data, pulling readings from analog pin on the depth sensor. The Circuipython firmware is v 7.X, and is from here: [https://github.com/dwblair/rockblock-ultrasonic/tree/main/firmware/v1](https://github.com/dwblair/rockblock-ultrasonic/tree/main/firmware/v1)
 
 The rockblock sends it data to the rockblock server, which has a 'webhook' that sends an HTTP POST JSON of data to 159.65.226.222:4000
@@ -143,8 +141,6 @@ The firmware on the rockblock encodes its data using a python struct approach
 A 'relay server' is running at 159.65.226.222:4000, using code from here: [https://github.com/edgecollective/iridium-bayou-relay](https://github.com/edgecollective/iridium-bayou-relay). The relay server decodes the data using a js version of the python struct approach, and then does an HTTP POST of the data to bayou.pvos.org at the '2ifhwi34ue4j' data feed
 
 ---
-
-# Update Mar 7 2023
 
 Sleep stats for Feather S2: [https://learn.adafruit.com/adafruit-esp32-feather-v2/power-management](https://learn.adafruit.com/adafruit-esp32-feather-v2/power-management)
 
@@ -156,7 +152,7 @@ Sharp memory family [https://www.mouser.com/datasheet/2/365/Sharp_Memory_LCD_Bro
 
 ---
 
-# Update Mar 8 2023
+# Wed Mar  8 06:00:46 PM EST 2023
 
 Sleep mode in Feather ESP32 S2 TFT
 

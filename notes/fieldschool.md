@@ -1,8 +1,8 @@
 ---
 pageTitle: Field School Prototyping 
 layout: layout.njk
-date: 2023-04-01
-updated: 2023-04-01
+date: 2023-03-07
+updated: 2023-03-07
 tags: notes 
 image: img/fieldschool/shelter.png
 blurb: Developing field school curricula. 
