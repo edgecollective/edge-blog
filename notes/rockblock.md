@@ -2,7 +2,7 @@
 pageTitle: Satellite Modem Prototyping
 layout: layout.njk
 date: 2023-01-23
-updated: 2023-01-23
+updated: 2023-03-07
 tags: notes 
 image: img/rockblock9603.jpg
 blurb: Using a satellite modem to send data from off-grid. 
@@ -142,6 +142,15 @@ The firmware on the rockblock encodes its data using a python struct approach
 
 A 'relay server' is running at 159.65.226.222:4000, using code from here: [https://github.com/edgecollective/iridium-bayou-relay](https://github.com/edgecollective/iridium-bayou-relay). The relay server decodes the data using a js version of the python struct approach, and then does an HTTP POST of the data to bayou.pvos.org at the '2ifhwi34ue4j' data feed
 
+---
 
+# Update Mar 7 2023
 
+Sleep stats for Feather S2: [https://learn.adafruit.com/adafruit-esp32-feather-v2/power-management](https://learn.adafruit.com/adafruit-esp32-feather-v2/power-management)
+
+Smaller sharp display (adafruit product) -- [https://www.digikey.com/en/products/detail/adafruit-industries-llc/3502/7386264](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3502/7386264)
+
+Larger sharp display: [https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH03/5300387](https://www.digikey.com/en/products/detail/sharp-microelectronics/LS013B7DH03/5300387)
+
+Sharp memory family [https://www.mouser.com/datasheet/2/365/Sharp_Memory_LCD_Brochure_2015-746065.pdf](https://www.mouser.com/datasheet/2/365/Sharp_Memory_LCD_Brochure_2015-746065.pdf)
 
