@@ -157,3 +157,40 @@ Sharp memory family [https://www.mouser.com/datasheet/2/365/Sharp_Memory_LCD_Bro
 Sleep mode in Feather ESP32 S2 TFT
 
 [https://learn.adafruit.com/deep-sleep-with-circuitpython/power-consumption](https://learn.adafruit.com/deep-sleep-with-circuitpython/power-consumption)
+
+Seems like we get less than 0.1 mA in deep sleep!
+
+Maxbotix 7092 datasheet: [/img/ojofeliz/PD11838z_-XL-MaxSonar-WR_Datasheet-website.pdf](/img/ojofeliz/PD11838z_-XL-MaxSonar-WR_Datasheet-website.pdf)
+
+Notes:
+
+Feather ESP32 S2 seems like a good chip to use.
+
+Sleep current will likely be dictated by the ultrasonic sensor module.
+
+Datasheet suggests that average current for module is 2 mA.  We might be able to turn on/off, too.
+
+First order: don't worry about turning off ultrasonic.  Solar charging will likely provide ample energy. 
+
+First pass:  looks like Feather S2 doesn't like talking to its uart?
+
+![](/img/ojofeliz/rockblock_bug.png)
+
+Looks like there is a delay in response to the SBDIX command
+
+Added a delay in adafruit_rockblock.py when sending that command!
+
+Also note: reference /gitwork/rockblock-ultrasonic/firmware/v2 for model code that was working on the nrf
+
+# Fri Mar 10 10:22:56 AM EST 2023
+
+selecting a fluid level sensor [https://www.digikey.com/en/articles/selecting-a-fluid-level-sensor-what-you-need-to-know](https://www.digikey.com/en/articles/selecting-a-fluid-level-sensor-what-you-need-to-know)
+
+PVC float switch: [https://www.digikey.com/en/products/detail/LS01-1A66-PA-500W/374-1000-ND/385414](https://www.digikey.com/en/products/detail/LS01-1A66-PA-500W/374-1000-ND/385414) -- $14
+
+Optomax liquid level detector -- $25 -- [https://www.adafruit.com/product/3397?gclid=Cj0KCQiAx6ugBhCcARIsAGNmMbg3aIRxX2yRx9D1Ut7yRgv7RB8RR9syOGakpW9teGRHD29flF-9ktoaAk5bEALw_wcB](https://learn.sparkfun.com/tutorials/photon-remote-water-level-sensor/all)
+
+Sparkfun project to turn a pump on/off on a farm -- [https://learn.sparkfun.com/tutorials/photon-remote-water-level-sensor/all](https://learn.sparkfun.com/tutorials/photon-remote-water-level-sensor/all)
+
+
+
