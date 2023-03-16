@@ -12,9 +12,9 @@ blurb: Developing field school curricula.
 
 # Background
 
-We're beginning to develop a 'field school' curriculum for both adults and kids focused on skills and projects related to food, water, energy, and other topics related to climate adaptation and an energy transition away from fossil fuels. 
+We're beginning to sketch out an informal 'field school' curriculum, intended for both adults and kids, and focused on skills and projects relevant to climate adaptation, local food production, and community resilience.  
 
-The working thesis behind this project is that many of the skills that might become increasingly relevant in a potentially lower-energy, 'post-carbon' world -- learning to grow, prepare, and preserve food; gaining practice with salvaging, repairing, and repurposing old equipment; building DIY musical instruments from found materials -- are also simply 'good pedagogy' in the here-and-now, regardless of what the future holds. 
+The working thesis behind this project is that the development of skills relevant to a lower-energy, 'post-carbon' world -- e.g., learning to grow, prepare, and preserve food; salvaging, repairing, and repurposing old equipment; building DIY musical instruments -- is also simply 'good pedagogy', regardless of what the future holds. 
 
 # Topics
 
