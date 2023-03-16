@@ -192,5 +192,70 @@ Optomax liquid level detector -- $25 -- [https://www.adafruit.com/product/3397?g
 
 Sparkfun project to turn a pump on/off on a farm -- [https://learn.sparkfun.com/tutorials/photon-remote-water-level-sensor/all](https://learn.sparkfun.com/tutorials/photon-remote-water-level-sensor/all)
 
+---
 
+MAX-8C-0 GPS [https://www.digikey.com/en/products/detail/u-blox/MAX-8C-0/9818046?utm_adgroup=RF%20Receivers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID_NEW&utm_term=&utm_content=RF%20Receivers&gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPYnJRd-75hcJdGih4Ak45dsa16eMpyGar6BehzO7gil4-arKGloGIcaAoBNEALw_wcB](https://www.digikey.com/en/products/detail/u-blox/MAX-8C-0/9818046?utm_adgroup=RF%20Receivers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID_NEW&utm_term=&utm_content=RF%20Receivers&gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPYnJRd-75hcJdGih4Ak45dsa16eMpyGar6BehzO7gil4-arKGloGIcaAoBNEALw_wcB)
 
+SAM-M8Q-0 GPS (with antenna) [https://www.digikey.com/en/products/detail/u-blox/SAM-M8Q-0/7393574](https://www.digikey.com/en/products/detail/u-blox/SAM-M8Q-0/7393574)
+
+---
+
+Pinouts on ESP32-S2 TFT
+
+[https://learn.adafruit.com/assets/109051](https://learn.adafruit.com/assets/109051)
+
+RFM95 in Circuitpython [https://github.com/adafruit/Adafruit_CircuitPython_RFM9x](https://github.com/adafruit/Adafruit_CircuitPython_RFM9x)
+
+mesh lora [https://github.com/bsppbep/mesh_lora](https://github.com/bsppbep/mesh_lora)
+
+transmit an image via rfm95 [https://github.com/jerryneedell/mlx90640_rfm9x](https://github.com/jerryneedell/mlx90640_rfm9x)
+
+experimenting with feather m0 lora memory [https://github.com/jerryneedell/feather_m0_rfm9x_memory](https://github.com/jerryneedell/feather_m0_rfm9x_memory)
+
+spi bus error: [https://github.com/adafruit/circuitpython/issues/7304](https://github.com/adafruit/circuitpython/issues/7304)
+
+---
+
+combo:
+
+adafruit i2c gps, with circuipython support: [https://www.adafruit.com/product/4415](https://www.adafruit.com/product/4415) 
+
+i2c precision altitude: [https://www.adafruit.com/product/4494](https://www.adafruit.com/product/4494)
+
+feather esp32 s2 tft 
+
+and radio modules ... (do i have them?)
+
+and batteries
+
+nano vna v2 [https://www.amazon.com/NanoVNA-NanoVNA-F-Analyzer-50kHz-3000MHz-Aluminum/dp/B08NPHYLH7/ref=sr_1_3?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPY7Z9C4KkOYVSxnQ-x3w7dNGZM3epxF7jlTmOBX6aE9bM175YhUR3saAv0IEALw_wcB&hvadid=580879611030&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=e&hvrand=7259948964369384814&hvtargid=kwd-919825042460&hydadcr=13185_13399519&keywords=nanovna+v2&qid=1678748869&sr=8-3](https://www.amazon.com/NanoVNA-NanoVNA-F-Analyzer-50kHz-3000MHz-Aluminum/dp/B08NPHYLH7/ref=sr_1_3?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPY7Z9C4KkOYVSxnQ-x3w7dNGZM3epxF7jlTmOBX6aE9bM175YhUR3saAv0IEALw_wcB&hvadid=580879611030&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=e&hvrand=7259948964369384814&hvtargid=kwd-919825042460&hydadcr=13185_13399519&keywords=nanovna+v2&qid=1678748869&sr=8-3)
+
+sam m8q featherwing [https://hackaday.io/project/168430-u-blox-sam-m8q-gps-featherwing](https://hackaday.io/project/168430-u-blox-sam-m8q-gps-featherwing)
+
+---
+
+North Jahren solar well 35.98789907447341, -104.8167669015538
+
+South HQ solar well 35.98751529327594, -104.81660879964933
+
+Jarosa Camp 36.02089727268662, -104.7680715149748
+
+line of sight calculator https://www.scadacore.com/tools/rf-path/rf-line-of-sight/
+
+![](/img/ojofeliz/South_HQ_well.png)
+
+# Connecticut circuitpython lora mesh test
+
+treehouse: 41.898891720871454, -72.24480179618855
+
+stenta: 41.76515928573123, -72.20066097255132
+
+![](/img/ojofeliz/treehouse_to_browns_rd.png)
+
+# Mar 14 2023
+
+Calculating an elevation between two points: [https://stackoverflow.com/questions/10486525/obtaining-the-highest-terrain-elevation-between-two-geographic-points](https://stackoverflow.com/questions/10486525/obtaining-the-highest-terrain-elevation-between-two-geographic-points)
+
+GPS [https://learn.adafruit.com/adafruit-ultimate-gps-featherwing/circuitpython-library](https://learn.adafruit.com/adafruit-ultimate-gps-featherwing/circuitpython-library)
+
+post request adafruit wifi [https://learn.adafruit.com/ethernet-for-circuitpython/usage-with-requests](https://learn.adafruit.com/ethernet-for-circuitpython/usage-with-requests)

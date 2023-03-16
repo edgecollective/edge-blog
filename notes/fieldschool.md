@@ -12,13 +12,14 @@ blurb: Developing field school curricula.
 
 # Background
 
-We're beginning to develop a sort of 'curriculum' around resilience- and adaptation-oriented topics that is useful and engaging for both adults and kids together.   
+We're beginning to develop a 'field school' curriculum for both adults and kids focused on skills and projects related to food, water, energy, and other topics related to climate adaptation and an energy transition away from fossil fuels. 
 
-The working thesis is that many (most?) of the skills that might be useful in a potentially lower-energy, post-carbon world are also simply 'good pedagogy' no matter what future obtains: work done in the outdoors, learning to use hand tools, learning to grow and prepare food, learning to salvage and repair old equipment.  All of these activities help foster a sense of agency, confidence, collaboration, and eenjoyment when tackling open-ended challenges and developing creative projects with others.   
+The working thesis behind this project is that many of the skills that might become increasingly relevant in a potentially lower-energy, 'post-carbon' world -- learning to grow, prepare, and preserve food; gaining practice with salvaging, repairing, and repurposing old equipment; building DIY musical instruments from found materials -- are also simply 'good pedagogy' in the here-and-now, regardless of what the future holds. 
 
 # Topics
 
 A preliminary list of possible topics around which to develop workshops and collaborations is below. 
+
 ## Food
 - Food preservation
 - Mini underground cold storage
