@@ -259,3 +259,15 @@ Calculating an elevation between two points: [https://stackoverflow.com/question
 GPS [https://learn.adafruit.com/adafruit-ultimate-gps-featherwing/circuitpython-library](https://learn.adafruit.com/adafruit-ultimate-gps-featherwing/circuitpython-library)
 
 post request adafruit wifi [https://learn.adafruit.com/ethernet-for-circuitpython/usage-with-requests](https://learn.adafruit.com/ethernet-for-circuitpython/usage-with-requests)
+
+# Mar 16 2023
+
+The Radiohead Mesh algorithm seems straightforward, but would take time and effort to port to Circuitpython.  
+
+Meanwhile, the Feather M0 LoRa is back in stock.  So, current plan: simply use the Feather M0 LoRa in Arduino-land to experiment with mesh networking, for now. 
+
+Arduino UF2 creation tool: [https://github.com/blurfl/makeUF2-tool](https://github.com/blurfl/makeUF2-tool)
+
+Microsoft uf2tool [https://github.com/Microsoft/uf2](https://github.com/Microsoft/uf2)
+
+Advanced Radiohead library usage: [https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/advanced-circuitpython-library-usage-2](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/advanced-circuitpython-library-usage-2)
