@@ -16,9 +16,10 @@ blurb: Building DIY (mobile?) hoop houses made of metal or wood.
 
 # Bow roof hoop house design
 
+[https://skempdesign.com/Hoophouse](https://skempdesign.com/Hoophouse)
+
 ![](/img/hoophouse/bow_roof.jpg) ![](/img/hoophouse/with_cover.jpeg) ![](/img/hoophouse/inside.jpg)
 
-[https://skempdesign.com/Hoophouse](https://skempdesign.com/Hoophouse)
 
 # Gothic Arch hoophouse
 
@@ -30,10 +31,9 @@ blurb: Building DIY (mobile?) hoop houses made of metal or wood.
 
 # Building DIY hoophouse / US Forestry Service
 
-![](/img/hoophouse/GreenhouseBuild1-1-1.jpg)
+Detailed explanation of the build process and materials.
 
-[https://www.iamcountryside.com/fences-sheds-barns/build-greenhouse-the-easy-way/](https://www.iamcountryside.com/fences-sheds-barns/build-greenhouse-the-easy-way/)
-
+[![](/img/hoophouse/GreenhouseBuild1-1-1.jpg)](https://www.iamcountryside.com/fences-sheds-barns/build-greenhouse-the-easy-way/)
 
 # Temperature of our hoophouse
 

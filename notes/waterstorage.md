@@ -271,3 +271,20 @@ Arduino UF2 creation tool: [https://github.com/blurfl/makeUF2-tool](https://gith
 Microsoft uf2tool [https://github.com/Microsoft/uf2](https://github.com/Microsoft/uf2)
 
 Advanced Radiohead library usage: [https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/advanced-circuitpython-library-usage-2](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/advanced-circuitpython-library-usage-2)
+
+# Mar 17 2023
+
+Working on CPy version of mesh setup here: [https://github.com/edgecollective/lora-circuitpy-mesh](https://github.com/edgecollective/lora-circuitpy-mesh)
+
+When 'read only' error, try:
+
+> import storage
+> storage.erase_filesystem()
+
+# Deployment of water sensor prototype in CT, Mar 20 2023
+
+Data feed from cistern in Storrs, CT:
+
+[http://bayou.pvos.org/data/6hs74zsv4ecj?plot_param=distance_meters](http://bayou.pvos.org/data/6hs74zsv4ecj?plot_param=distance_meters)
+
+Nice paper evaluating energy performance of RockBlock satellite modem: [https://www.mdpi.com/1424-8220/21/21/7235](https://www.mdpi.com/1424-8220/21/21/7235)
