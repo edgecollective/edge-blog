@@ -1,11 +1,11 @@
 ---
-pageTitle: Remote Water Storage Monitoring System 
+pageTitle: Initial technical notes
 layout: layout.njk
 date: 2023-03-08
 updated: 2023-03-08
-tags: notes 
+tags: ojofeliz 
 image: /img/ojofeliz/twintowers.jpeg
-blurb: Developing a remote water storage monitoring system.  
+blurb: Some initial technical notes on the water storage monitoring project.
 ---
 
 Working with CPy 7 on Feather Blue Sense for now ...
@@ -281,10 +281,9 @@ When 'read only' error, try:
 > import storage
 > storage.erase_filesystem()
 
-# Deployment of water sensor prototype in CT, Mar 20 2023
-
-Data feed from cistern in Storrs, CT:
-
-[http://bayou.pvos.org/data/6hs74zsv4ecj?plot_param=distance_meters](http://bayou.pvos.org/data/6hs74zsv4ecj?plot_param=distance_meters)
+# Rockblock energy characterization
 
 Nice paper evaluating energy performance of RockBlock satellite modem: [https://www.mdpi.com/1424-8220/21/21/7235](https://www.mdpi.com/1424-8220/21/21/7235)
+
+
+

@@ -8,6 +8,14 @@ image: /img/ojofeliz/twintowers.jpeg
 blurb: Developing an open source, satellite modem-based water level monitoring system with Grass Nomads LLC.  
 ---
 
+# Development Journal
+
+{% for ojo in collections.ojofeliz %}
+<!--<img float=left margin=5px height=100 src="{{ ojo.data.image }}"/> <br> -->
+({{ ojo.date | date: "%Y-%m-%d" }}) <a href="{{ ojo.url }}"><b>{{ ojo.data.pageTitle }}</a></b>.
+{{ ojo.data.blurb }} 
+{% endfor %}
+
 # Background
 
 [![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
