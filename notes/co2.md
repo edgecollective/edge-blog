@@ -6077,3 +6077,40 @@ Meanwhile:  revise cover for REV_W so that there are no mounting holes ... perha
 Latest firmware for REV_W is here: [https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/128a3bf60fdcca3d279099922cb8fd66f8ec6527/REV_W/firmware/CPY/v5/jp_batt.py](https://gitlab.com/p-v-o-s/co2/co2-monitor/-/blob/128a3bf60fdcca3d279099922cb8fd66f8ec6527/REV_W/firmware/CPY/v5/jp_batt.py)
 
 Allows for 'wall mount' display, and simple graphing, by switching button A.  Also experimenting with turning display off via button B. 
+
+---
+2023-03-27 
+
+Notes on ideal diodes [https://www.ti.com/lit/ml/slvae57b/slvae57b.pdf?ts=1679863892842&ref_url=https%253A%252F%252Fwww.reddit.com%252F](https://www.ti.com/lit/ml/slvae57b/slvae57b.pdf?ts=1679863892842&ref_url=https%253A%252F%252Fwww.reddit.com%252F)
+
+Nice material on an ideal diode [https://simple-ee.com/2021/02/17/idealdiode/](https://simple-ee.com/2021/02/17/idealdiode/)
+
+Available, small buzzer on digikey [https://www.digikey.com/en/products/detail/cui-devices/CMT-322-65-SMT-TR/14682617](https://www.digikey.com/en/products/detail/cui-devices/CMT-322-65-SMT-TR/14682617)
+
+Nice small buzzer, avail on digikey: [https://www.digikey.com/en/products/detail/cui-devices/CMT-4023S-SMT-TR/6012413](https://www.digikey.com/en/products/detail/cui-devices/CMT-4023S-SMT-TR/6012413)
+
+Footprint via CUI:
+devices has nice footprints [https://www.cuidevices.com/product/resource/pcbfootprint/cmt-4023s-smt-tr](https://www.cuidevices.com/product/resource/pcbfootprint/cmt-4023s-smt-tr)
+
+Raspberry Pi Pico datasheet [https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)
+
+# mosfets for ideal diode on pico-w
+
+pico w datasheet: 
+
+through-hole mosfets suggested by mike:
+
+G700P06J [https://www.digikey.com/en/products/detail/goford-semiconductor/G700P06J/17728086](https://www.digikey.com/en/products/detail/goford-semiconductor/G700P06J/17728086) - GDS
+
+SUP53P06-20-E3 [https://www.digikey.com/en/products/detail/vishay-siliconix/SUP53P06-20-E3/2623103](https://www.digikey.com/en/products/detail/vishay-siliconix/SUP53P06-20-E3/2623103) - GDS
+
+SUP90P06-09L-E3 [https://www.digikey.com/en/products/detail/vishay-siliconix/SUP90P06-09L-E3/2623132?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAjw_YShBhAiEiwAMomsEP6eqRBe0CFW4P-Bdfs89GYrkXVatmb4x03sbc4NIiH6557Wx1P35BoCV2UQAvD_BwE](https://www.digikey.com/en/products/detail/vishay-siliconix/SUP90P06-09L-E3/2623132?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAjw_YShBhAiEiwAMomsEP6eqRBe0CFW4P-Bdfs89GYrkXVatmb4x03sbc4NIiH6557Wx1P35BoCV2UQAvD_BwE) - GDS
+
+TSM680P06CH X0G [https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TSM680P06CH-X0G/7360503](https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TSM680P06CH-X0G/7360503)
+
+TSM480P06CH X0G [https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TSM480P06CH-X0G/7360375](https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TSM480P06CH-X0G/7360375) - GDS
+
+SMT mosfet suggested by pico datasheet: [https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667) - GSD 
+
+
+

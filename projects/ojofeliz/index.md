@@ -24,7 +24,16 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 
 [![](/img/ojofeliz/ofr7.jpeg)](/img/ojofeliz/ofr7.jpeg)
 
+*(Credit: [Ariel Greenwood](http://www.arielgreenwood.com/) of [Grass Nomads, LLC](https://www.grassnomads.com/) for the photos of Ojo Feliz Ranch, for the language in the 'Background' section below -- and for conceiving of this project & making it happen!)* 
+
+Leased by Triangle P Cattle Company and operated by [Grass Nomads, LLC](https://www.grassnomads.com/), the Ojo Feliz Ranch is a privately owned landbase in Mora County, New Mexico. Spanning 127,000 acres of deeded contiguous land, the ranch ranges from 6400 to 9200 feet in elevation, and is a geologically and biologically unique home to antelope, elk, bear, lion, and countless birds and reptiles.
+
+The ranch features over 30 miles of pipeline and dozens of wells, drinkers, and storage tanks. Storage tanks in particular are essential elements of the water system, as they allow for buffer in case of changes in livestock water consumption or catastrophic leaks, serve as water sources in case of fire, break pressure at critical elevation changes in pipelines, and allow us to gravity-feed to other troughs. Storage tanks also serve as an early indicator of problems in the water system, such as leaks, air locks, or failed pumps. Because of the size of the ranch, checking the water levels in these storage tanks can add dozens of miles and many hours to the work week–time that could be spent more productively.
+
+<!--
 [Grass Nomads, LLC](https://www.grassnomads.com/) leases a 120,000 acre high elevation ranch in New Mexico, where they run a cow-calf operation with an extensive water system. Several key storage tanks in their system are the first indication of a leak or failure, and driving to them takes hours. Remote water monitoring would save them time, vehicle wear, and water -- and also enable them to run higher herd density and improve their range management.
+
+-->
 
 <!--
 | [![](/img/ojofeliz/ofr_map.png)](/img/ojofeliz/ofr_map.png) |
@@ -32,7 +41,7 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 |**Fig 1.** The Ojo Felix ranch, a 200 square mile lease, shwoing the location of the three key water storage tanks to be monitored -- 'Twin Towers', 'Casias', and 'Marsh Wells'. Not shown are planned pipelines to be installed in 2023.   |
 -->
 
-In particular, there is an interest in collecting ongoing water level data from three key water storage tanks on the ranch is of particular interest: 'Twin Towers' (Fig. 1), 'Casias' (Fig 2), and 'Marsh Wells' (Fig 3).  
+Grass Nomads, LLC is interested in collecting ongoing water level data from three storage tanks on the ranch, in particular: 'Twin Towers' (Fig. 1), 'Casias' (Fig 2), and 'Marsh Wells' (Fig 3).  
 
 | [![](/img/ojofeliz/twintowers.jpeg)](/img/ojofeliz/twintowers.jpeg) |
 |:--:|
