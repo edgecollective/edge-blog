@@ -28,6 +28,8 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 
 Leased by Triangle P Cattle Company and operated by [Grass Nomads, LLC](https://www.grassnomads.com/), the Ojo Feliz Ranch is a privately owned landbase in Mora County, New Mexico. Spanning 127,000 acres of deeded contiguous land, the ranch ranges from 6400 to 9200 feet in elevation, and is a geologically and biologically unique home to antelope, elk, bear, lion, and countless birds and reptiles.
 
+Triangle P and Grass Nomads LLC prioritize progressive range and ranch management to achieve their goals of improving the land while remaining commercially viable. Through planned grazing and infrastructure improvements, positive changes in species composition, diversity, ground cover, and plant vigor have been recorded at numerous monitoring sites across the ranch. Achieving these results has required grouping cattle together, carefully planning the grazing season, and improving and adding to the ranch’s fences and water system.
+
 The ranch features over 30 miles of pipeline and dozens of wells, drinkers, and storage tanks. Storage tanks in particular are essential elements of the water system, as they allow for buffer in case of changes in livestock water consumption or catastrophic leaks, serve as water sources in case of fire, break pressure at critical elevation changes in pipelines, and allow us to gravity-feed to other troughs. Storage tanks also serve as an early indicator of problems in the water system, such as leaks, air locks, or failed pumps. Because of the size of the ranch, checking the water levels in these storage tanks can add dozens of miles and many hours to the work week–time that could be spent more productively.
 
 <!--
