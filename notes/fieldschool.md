@@ -16,7 +16,12 @@ We're beginning to sketch out an informal 'field school' curriculum, intended fo
 
 The working thesis behind this project is that the development of skills relevant to a lower-energy, 'post-carbon' world -- e.g., learning to grow, prepare, and preserve food; salvaging, repairing, and repurposing old equipment; building DIY musical instruments -- is also simply 'good pedagogy', regardless of what the future holds. 
 
-# Topics
+# References
+
+Some related projects / precedents:
+- Whole Systems Health [Permaculture Kids Camp](https://wholesystemshealthvt.org/permaculture-kids-camp/) 
+
+# Field School Topics
 
 A preliminary list of possible topics around which to develop workshops and collaborations is below. 
 
