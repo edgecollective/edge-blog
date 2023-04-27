@@ -20,3 +20,28 @@ A brief explanation of how it works is in the video below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h8_5VxzxO90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# postgres commands
+
+```
+
+sudo -i -u postgres
+
+psql
+
+
+```
+
+then list databases
+
+```
+
+\l
+
+```
+
+[add postgres column](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/)
+
+[listing contents of databases and tables](https://chartio.com/resources/tutorials/how-to-list-databases-and-tables-in-postgresql-using-psql/)
+
+[great general reference for postgresql](https://www3.ntu.edu.sg/home/ehchua/programming/sql/PostgreSQL_GetStarted.html)
+
