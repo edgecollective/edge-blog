@@ -8,6 +8,8 @@ image: img/smithereen/smithereen_greenhouse.png
 blurb: Developing DIY greenhouse temperature monitoring and control systems for Smithereen Farm.
 ---
 
+![](/img/smithereen/smithereen_greenhouse.png)
+
 # Greenhouse Monitor Version 1
 
 ## Overview
