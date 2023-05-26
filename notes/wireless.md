@@ -8,6 +8,10 @@ image: /img/placeholder.png
 blurb: Notes on wireless montioring (focused on LoRa).
 ---
 
+| [![](/img/wireless/lora_overview.png))](/img/wireless/lora_overview.png) |
+|:--:|
+|**Fig 1.** Overview of a typical LoRaWAN architecture, via [https://www.thethingsnetwork.org/docs/network/architecture/](https://www.thethingsnetwork.org/docs/network/architecture/)|
+
 ## LoRa
 
 For wireless monitoring of assets, [LoRa](https://en.wikipedia.org/wiki/LoRa) is a technology that emerged over 10 years ago that is now quite mature.  There is a large online community of support, with plenty of documentation.  It is used by both professionals and hobbyists.  This means that you’re likely to find existing code to do most things of interest, and have forums on which to ask questions.
