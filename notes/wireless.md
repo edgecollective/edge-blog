@@ -35,6 +35,10 @@ The tutorials and hardware provided by Adafruit (see, e.g., [https://learn.adafr
 
 ## Further Resources
 
+- Edge Collective project using LoRaWAN and satellite modems [https://edgecollective.io/projects/ojofeliz/](https://edgecollective.io/projects/ojofeliz/)
+
+- [The Things Network](https://www.thethingsnetwork.org/) -- a global alliance promoting LoRaWAN
+
 - Digikey [notes on LoRaWAN](https://www.digikey.com/en/articles/lorawan-part-1-15-km-wireless-10-year-battery-life-iot?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=General&gclid=CjwKCAjwscGjBhAXEiwAswQqNCeuX-HwDE1FBfNjuYFO-cMJTa6cMn_bVn9P9MDfybZkaEpag6xtCRoC1bUQAvD_BwE)
 
 - [Introduction to LoRaWAN](https://virscient.com/resources/technical-notes/introduction-to-lorawan/) 
