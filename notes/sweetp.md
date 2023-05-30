@@ -1,11 +1,11 @@
 ---
-pageTitle: DIY Remote Radio Temp Sensor 
+pageTitle: Satellite + LoRa Depth Sensor 
 layout: layout.njk
 date: Last Modified 
 updated: Last Modified 
 tags: notes 
 image: img/placeholder.png
-blurb: Remote temp sensor transmitting over lora radio 
+blurb: Remote temp and depth sensor transmitting over lora and satellite radio
 ---
 
 RJ45 connector avail on digikey, with footprint in kicad: [https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/RJMG1BD3B8K1ANR/5359794](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/RJMG1BD3B8K1ANR/5359794)
@@ -83,3 +83,36 @@ notes:
 going to try a p-mosfet ideal diode circuit and bring 3V independently to the feather board.  basically, replicate adafruit's setup, but the action of the mosfet is to bring EN to ground when V_EXT battery is plugged in (V_EXT is connected to gate of fet; fet connects EN to ground). 
 
 independently:  an N-fet is required to turn an external sensor (ultrasonic) on/off -- by disconnecting ground (low side).  can double check this by looking at feather s2 circuit. 'cut the ground lead using an n-fet' 
+
+# Testing depth sensor current consumption
+
+Note -- seems that 3.3V input to VBUS isn't sufficient to power the battery monitor on the esp32-s2?
+
+maxbotix 7388 datasheet: [https://maxbotix.com/pages/hrxl-maxsonar-wr-datasheet](https://maxbotix.com/pages/hrxl-maxsonar-wr-datasheet)
+
+power profiler website: [https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2](https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2)
+
+- instructions: [https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_ppk2%2FUG%2Fppk%2FPPK_user_guide_Intro.html](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_ppk2%2FUG%2Fppk%2FPPK_user_guide_Intro.html) 
+
+# I2C Power Management
+
+[https://learn.adafruit.com/adafruit-esp32-s2-feather/i2c-power-management](https://learn.adafruit.com/adafruit-esp32-s2-feather/i2c-power-management)
+
+# Power testing
+
+sat modem "disabled" + esp32-s2 tft asleep -- 3.68 mA
+sat modem "enabled" + esp32-s2 tft asleep -- 3.66 mA
+
+essentially no difference.
+
+Seems like the esp32-s2 with no display sleeps at about .7 mA
+
+Apparent issue with the watchdog timer: [https://github.com/adafruit/circuitpython/issues/5890](https://github.com/adafruit/circuitpython/issues/5890)
+
+Testing out LoRa - based depth: 
+
+[http://bayou.pvos.org/data/pb87ap97vgrr](http://bayou.pvos.org/data/pb87ap97vgrr)
+
+Running every 2 seconds as a test ... latest version is sweet-p/firmware/board_ver_0.2/v4.0
+
+
