@@ -115,4 +115,9 @@ Testing out LoRa - based depth:
 
 Running every 2 seconds as a test ... latest version is sweet-p/firmware/board_ver_0.2/v4.0
 
+Experiment overnight, May 30th:
+
+[http://bayou.pvos.org/data/pb87ap97vgrr?plot_param=battery_volts](http://bayou.pvos.org/data/pb87ap97vgrr?plot_param=battery_volts)
+
+![](/img/ojofeliz/exp_1_400mAH.png)
 
