@@ -121,3 +121,17 @@ Experiment overnight, May 30th:
 
 ![](/img/ojofeliz/exp_1_400mAH.png)
 
+Power consumption guidance for the sat modem:
+
+[https://docs.rockblock.rock7.com/docs/power-consumption-guidance](https://docs.rockblock.rock7.com/docs/power-consumption-guidance)
+
+
+Very strange behavior when pull down the satellite 'on/off pin'.  I've added an external resistor pull-down to make sure it stays down. Seems like the voltage is still around 1.5V, nevertheless.  Stronger pulldown required?
+
+![](/img/ojofeliz/sat_sleep_with_pulldown.png)
+
+Extended test -- note, test begins with largest spike:
+
+![](/img/ojofeliz/sat_sleep_strange.png)
+
+ 
