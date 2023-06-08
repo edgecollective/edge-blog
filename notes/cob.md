@@ -36,4 +36,5 @@ blurb: DIY cob oven building
  
 # Books
 
+This book looks like the standard: 
 [*Build your own cob oven*, by Denzer et al](https://www.amazon.com/Build-Your-Own-Earth-Oven/dp/096798467X/ref=as_li_ss_tl?ie=UTF8&qid=1476731749&sr=8-1&keywords=Build+Your+Own+Earth+Oven+by+Kiko+Denzer&linkCode=sl1&tag=tyrafarm-20&linkId=e2d2f08d1ecec5d3cc52cafbb791ca2a)
