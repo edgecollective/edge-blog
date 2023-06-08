@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified 
 updated: Last Modified 
 tags: notes 
-image: img/placeholder.png
+image: img/ojofeliz/exp_1_400mAH.png
 blurb: Remote temp and depth sensor transmitting over lora and satellite radio
 ---
 
