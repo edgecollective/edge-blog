@@ -10,26 +10,27 @@ blurb: DIY cob oven building
 
 # Online References
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/EmuVYU0kdkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe src="https://www.youtube.com/embed/EmuVYU0kdkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/i0foHjPVbP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/i0foHjPVbP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/u4TJ-02Y6DY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/u4TJ-02Y6DY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/orsz2nwpn1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/orsz2nwpn1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/mJKxQ9YC7N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/mJKxQ9YC7N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe-Vvk_4WU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/Pe-Vvk_4WU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/lsdHPCcmpmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/lsdHPCcmpmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/4VZ2OUifixQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/4VZ2OUifixQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/SFuGzhPxofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/SFuGzhPxofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/S5Nv_FJdSyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe  src="https://www.youtube.com/embed/S5Nv_FJdSyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
  
+
  [Pinterest cob oven collection](https://www.pinterest.com/pin/258112622384262201/)
  
  [Handprint Press article](https://www.handprintpress.com/theworkofart/an-earthen-oven-odyssey-by-joe-kennedy/) on cob construction
