@@ -218,7 +218,14 @@ Maybe there's some hardware counter than can help.
 
 Turn on every 2 hours. Every time it turns on, it makes the counter progress.  Read the counter on wakeup; if the counter has reached Y counts, then try satellite.
 
+Waking up an arduino with the DS3231: [https://www.youtube.com/watch?v=-dW4XsBo3Mk](https://www.youtube.com/watch?v=-dW4XsBo3Mk)
 
+Failsafe design for space: [https://www.mouser.com/applications/electronic-systems-space-require-fail-safe/](https://www.mouser.com/applications/electronic-systems-space-require-fail-safe/)
 
+pros / cons of various memory approaches: [https://www.digikey.com/en/articles/the-fundamentals-of-embedded-memory](https://www.digikey.com/en/articles/the-fundamentals-of-embedded-memory)
+
+# Proposal A
+
+![](/img/ojofeliz/wakeup_scheme.png)
 
  

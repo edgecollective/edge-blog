@@ -8,6 +8,11 @@ image: img/cob/efficient_cob.png
 blurb: DIY cob oven building
 ---
 
+The book [Build Your Own Earth Oven](https://www.amazon.com/dp/096798467X) has a nice general approach.  They frame earth oven building as a community-oriented project, and describe a variety of designs, using easily-sourced materials, tailored to the interests of the builders.
+
+One suggestion in the book is to gain familiarity with the materials and the design by building a few small experimental oven projects.
+
+
 # Online References
 
  <iframe src="https://www.youtube.com/embed/EmuVYU0kdkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
