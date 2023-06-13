@@ -228,4 +228,8 @@ pros / cons of various memory approaches: [https://www.digikey.com/en/articles/t
 
 ![](/img/ojofeliz/wakeup_scheme.png)
 
+# Interfacing with the microSD card
+
+[Adafruit guide to microSD and Circuitpython](https://learn.adafruit.com/micropython-hardware-sd-cards?view=all&gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqTIw_ktRSa_ozdxaS8Tk8CNPWuvHmbTkwex7W76mLztDJs1VnvRz8BoCRxgQAvD_BwE)
+
  

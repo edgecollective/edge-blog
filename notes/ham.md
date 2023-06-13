@@ -63,3 +63,15 @@ Hmm ... module requires 3V ...
 
 might need to try arduino pro mini 3V if avail ... or 5V tolerant gps module
 (adafruit's?)
+
+[Micromodem user manual](https://unsigned.io/shop/wp-content/uploads/2018/04/MicroModem_Manual_v3-1.pdf)
+
+# LibAPRS Tracker -- minified version of LibAPRS
+
+[https://github.com/barisdinc/LibAPRS_Tracker](https://github.com/barisdinc/LibAPRS_Tracker)
+
+# LibAPRS
+
+[https://github.com/markqvist/LibAPRS](https://github.com/markqvist/LibAPRS)
+
+
