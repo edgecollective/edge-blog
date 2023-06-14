@@ -74,4 +74,8 @@ might need to try arduino pro mini 3V if avail ... or 5V tolerant gps module
 
 [https://github.com/markqvist/LibAPRS](https://github.com/markqvist/LibAPRS)
 
+# MicroAPRS
 
+This is the code for handling APRS, allows for serial commands -- pin hardware might be fixed in firmware, not an issue
+
+Expects to be run at 5V ... will need level shifters for ESP32, likely
