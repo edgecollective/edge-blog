@@ -8,6 +8,13 @@ image: /img/ojofeliz/twintowers.jpeg
 blurb: Learning to use the 'sleep' mode of the satellite modem; sleeping the microcontroller and depth sensor using a TPL5110 timer chip.
 ---
 
+# Video Update
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dRVijSpeKJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Prototype #1
+
+[![](/img/ojofeliz/ojofeliz_prototype_1.jpeg)](/img/ojofeliz/ojofeliz_prototype_1.jpeg)
 
 # Power testing
 
@@ -39,11 +46,13 @@ Power consumption guidance for the sat modem:
 
 Very strange behavior when pull down the satellite 'on/off pin'.  I've added an external resistor pull-down to make sure it stays down. Seems like the voltage is still around 1.5V, nevertheless.  Stronger pulldown required?
 
-![](/img/ojofeliz/sat_sleep_with_pulldown.png)
+[![](/img/ojofeliz/sat_sleep_with_pulldown.png)](/img/ojofeliz/sat_sleep_with_pulldown.png)
 
 Extended test -- note, test begins with largest spike:
 
-![](/img/ojofeliz/sat_sleep_strange.png)
+
+[![](/img/ojofeliz/sat_sleep_strange.png)](/img/ojofeliz/sat_sleep_strange.png)
+
 
 
 # External power or Eable
