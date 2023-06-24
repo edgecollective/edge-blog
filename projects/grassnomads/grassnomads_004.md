@@ -3,7 +3,7 @@ pageTitle: Lower-power, resilient operation
 layout: layout.njk
 date: 2023-06-13
 updated: 2023-06-13
-tags: ojofeliz 
+tags: grassnomads 
 image: /img/ojofeliz/twintowers.jpeg
 blurb: Learning to use the 'sleep' mode of the satellite modem; sleeping the microcontroller and depth sensor using a TPL5110 timer chip.
 ---

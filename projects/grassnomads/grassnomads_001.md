@@ -3,7 +3,7 @@ pageTitle: Initial technical notes
 layout: layout.njk
 date: 2023-03-08
 updated: 2023-03-08
-tags: ojofeliz 
+tags: grassnomads 
 image: /img/ojofeliz/twintowers.jpeg
 blurb: Some initial technical notes on the water storage monitoring project.
 ---

@@ -12,10 +12,10 @@ blurb: Developing an open source, satellite modem-based water level monitoring s
 
 # Development Journal
 
-{% for ojo in collections.ojofeliz %}
-<!--<img float=left margin=5px height=100 src="{{ ojo.data.image }}"/> <br> -->
-({{ ojo.date | date: "%Y-%m-%d" }}) <a href="{{ ojo.url }}"><b>{{ ojo.data.pageTitle }}</a></b>.
-{{ ojo.data.blurb }} 
+{% for nomad in collections.grassnomads %}
+<!--<img float=left margin=5px height=100 src="{{ nomad.data.image }}"/> <br> -->
+({{ nomad.date | date: "%Y-%m-%d" }}) <a href="{{ nomad.url }}"><b>{{ nomad.data.pageTitle }}</a></b>.
+{{ nomad.data.blurb }} 
 {% endfor %}
 
 ---

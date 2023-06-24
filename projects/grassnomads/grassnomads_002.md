@@ -3,7 +3,7 @@ pageTitle: Test deployment of ultrasonic sensor and radio system in CT
 layout: layout.njk
 date: 2023-03-20
 updated: 2023-03-20
-tags: ojofeliz 
+tags: grassnomads 
 image: /img/ojofeliz/storrs_4.jpg
 blurb: An initial deployment of the ultrasonic sensor to measure water level in a homestead cistern. 
 ---

@@ -3,7 +3,7 @@ pageTitle: Microcontroller setup
 layout: layout.njk
 date: 2023-03-26
 updated: 2023-03-26
-tags: ojofeliz 
+tags: grassnomads 
 image: /img/ojofeliz/twintowers.jpeg
 blurb: Research in support of choosing an appropriate microcontroller.
 ---
