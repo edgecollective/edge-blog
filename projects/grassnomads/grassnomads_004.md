@@ -10,7 +10,10 @@ blurb: Learning to use the 'sleep' mode of the satellite modem; sleeping the mic
 
 # Video Update
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dRVijSpeKJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class = "video-container">
+<iframe class = "video" src="https://www.youtube.com/embed/dRVijSpeKJ4"  allowfullscreen></iframe>
+</div>
+
 
 # Prototype #1
 
