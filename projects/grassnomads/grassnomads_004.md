@@ -8,10 +8,14 @@ image: /img/ojofeliz/twintowers.jpeg
 blurb: Learning to use the 'sleep' mode of the satellite modem; sleeping the microcontroller and depth sensor using a TPL5110 timer chip.
 ---
 
-# Video Update
+# Video Updates
 
 <div class = "video-container">
 <iframe class = "video" src="https://www.youtube.com/embed/dRVijSpeKJ4"  allowfullscreen></iframe>
+</div>
+
+<div class = "video-container">
+<iframe class = "video" src="https://www.youtube.com/embed/nx2r2zGM7o0"  allowfullscreen></iframe>
 </div>
 
 
@@ -241,8 +245,13 @@ Didn't seem to work!  So, 10uF is a useful addition ... if we're using the TPL51
 
 Update: tested the 'original' code -- with microSD and LoRa broadcast -- with a resistance that results in a longer period -- approx 20 secs -- and it all seems to work! 
 
+---
 
+Note -- looks as though various of the ESP8266 pins fluctuate on boot -- which may have been another issue affecting satellite pull-down, and now the TPL5110 pull- down.   
 
+See "All ESP8266 pins oscillate at boot, except GPIO4 and GPIO5." & etc post, [here](https://electronics.stackexchange.com/questions/390139/tpl5110-doesnt-work-with-nodemcu) (same link as above)
+
+#
 
 
  
