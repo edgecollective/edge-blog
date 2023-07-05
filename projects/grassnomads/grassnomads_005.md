@@ -114,4 +114,24 @@ Fig K. Battery behavior over the fourth of july
 
 Fig L.  Satellite send tries over the same period as in Fig K.
 
+
+# Wed Jul  5 12:59:37 PM EDT 2023
+
+![](/img/ojofeliz/aux_3_fifth.png)
+
+Fig M.  Send stats for July 5th
+
+![](/img/ojofeliz/battery_fifth.png)
+
+Fig N.  Battery stats for July 5th
+
+Can see correlation in sending attempts and battery drain.
+
+Can also see that if simply wait another 8 or 16 minutes, satellite conditions are much more favorable.
+
+Conclusion:  if you can't get it in 2 or 3 tries, maybe wait at least 30 minutes ... 
+
+... and that might be what we do anyway if we start transmitting at lower frequencies ...
+
+
  
