@@ -88,8 +88,8 @@ pubkey: 2ifhwi34ue4j
 # Sun Aug 20 09:57:06 PM EDT 2023
 
 link for lora data: 
-http://bayou.pvos.org/data/35tmkbqumaz7?plot_param=battery_volts&limit=10
+[http://bayou.pvos.org/data/35tmkbqumaz7?plot_param=battery_volts&limit=10](http://bayou.pvos.org/data/35tmkbqumaz7?plot_param=battery_volts&limit=10)
 
 new link for satellite data:
-http://bayou.pvos.org/data/gcr565avyan2?plot_param=battery_volts&limit=10
+[http://bayou.pvos.org/data/gcr565avyan2?plot_param=battery_volts&limit=10](http://bayou.pvos.org/data/gcr565avyan2?plot_param=battery_volts&limit=10)
 
