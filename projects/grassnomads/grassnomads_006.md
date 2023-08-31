@@ -1,5 +1,5 @@
 ---
-pageTitle: Stress testing the initial system
+pageTitle: Getting ready for first deployment. 
 layout: layout.njk
 date: 2023-08-04
 updated: Last Modified 
@@ -92,4 +92,33 @@ link for lora data:
 
 new link for satellite data:
 [http://bayou.pvos.org/data/gcr565avyan2?plot_param=battery_volts&limit=10](http://bayou.pvos.org/data/gcr565avyan2?plot_param=battery_volts&limit=10)
+
+Note: solution to blinking TPL5110 problem was to add a 1000 uF cap across GND + DRIVE on the TPL5110, likely due to the initial current draw from the ESP32
+
+For now, should probably place it on the underside of the board so that it doesn't get jostled when pressing the button
+
+
+# Mon Aug 28 01:12:16 PM EDT 2023
+
+Quick notes on upgrades before mailing prototype:
+- new splash screen
+- modify sleep interval to reduce number of iterations before send, to facilitate testing in field?
+- test satellite data flow
+- how to incorporate the 'sensor height' variable?
+- use sweet-p v0.3 for 'wifi receiver' board
+- upgrade the feather esp32-tft on the main board (screen broken)
+- screw in the satellite modem connector
+- solder / heatshrink the solar panel connector
+
+
+# Tue Aug 29 10:54:10 AM EDT 2023
+
+Currently $0.18 per credit.
+
+Currently every 3 hours = 8 credits per day.
+
+I.e.:  $43 per month
+
+
+ 
 
