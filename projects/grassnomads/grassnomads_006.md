@@ -119,6 +119,5 @@ Currently every 3 hours = 8 credits per day.
 
 I.e.:  $43 per month
 
-
  
 
