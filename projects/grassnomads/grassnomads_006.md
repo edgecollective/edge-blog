@@ -1,5 +1,5 @@
 ---
-pageTitle: Getting ready for first deployment. 
+pageTitle: Getting ready for first deployment 
 layout: layout.njk
 date: 2023-08-04
 updated: Last Modified 
