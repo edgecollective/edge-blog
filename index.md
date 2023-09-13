@@ -63,6 +63,30 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
 </div>
 -->
 
+<!--
+
+# <a name="projects"></a>Field School
+<div class="posts-area">
+{% for fs in collections.fieldschool reversed %}
+  <div class="post">
+    <div class="project-contents">
+      <div class="image">
+        <a href="{{ fs.url }}">
+          <img src="{{ fs.data.image }}"/>
+        </a>
+      </div>
+      <div class="text">
+        <h3><a href="{{ fs.url }}">{{ fs.data.pageTitle }}</a></h3>
+        <p>{{ fs.data.blurb }}</p>
+        <em>Updated: {{ fs.date | date: "%Y-%m-%d" }}</em>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+-->
+
 # <a name="projects"></a>Projects
 
 <div class="posts-area">
@@ -83,6 +107,7 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
   </div>
 {% endfor %}
 </div>
+
 
 # <a name="guides"></a>Guides
 
