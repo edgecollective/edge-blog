@@ -1,8 +1,11 @@
 body {
     #font:13px/1.5 Verdana,Helvetica,Arial,sans-serif;
     #font:15px/1.5 ubuntu, sans-serif;
-    font:15px/1.5 sans-serif;
+    font:16px/1.5 sans-serif;
+    font:16px;
     width: 80%;
+    #text-align: justify;
+    #text-justify: inter-word;
     /*
     font-family: sans-serif;
     #font-family: "Open Sans",sans-serif;
@@ -10,7 +13,7 @@ body {
     margin: 10px;
     #font-size: 15px;
     #font-size: small;
-    font-size:14;
+    #font-size:14;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -35,7 +38,9 @@ padding: 10px;
 #intro {
 max-width:700px;
 display: inline-block;
-text-align: left;
+#text-align: left;
+text-align: justify;
+text-justify: inter-word;
 }
 
 #post-content {
