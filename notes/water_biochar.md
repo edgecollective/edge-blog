@@ -22,7 +22,7 @@ Because chlorine helps to keep water safe from potentially harmful bacteria, wat
 
 Further: centralized water treatment infrastructure is dependent on a well-functioning electrical grid for its operation, the anticipated increasing frequency and severity of grid disruptions due to climate change will likely render centralized drinking water systems increasingly vulnerable to extended disruptions. 
 
-For these reasons, there has been a growing interest in developing solutions for clean drinking water at the local community or household level. 
+For these reasons there has been a growing interest in developing solutions for clean drinking water at the local community or household level. 
 
 <!--For example: the drinking water at Sipayik and Eastport [have apparently been contaminated with trihalomethanes](https://www.sunlightmediacollective.org/sipayik-drinking-water-crisis/) -- known carcinogens -- for decades. -->
 
