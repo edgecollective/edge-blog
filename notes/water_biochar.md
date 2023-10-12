@@ -49,7 +49,9 @@ Manuals:
 - Building a **2000 liter per day** water treatment system (pdf): [in English](https://www.aqsolutions.org/wp-content/uploads/2020/04/2000LPD_English.pdf)
 - Building a **300 liter per day** water treatment system (pdf): [in English](https://www.aqsolutions.org/wp-content/uploads/2022/06/blue-barrel-system-manual_2022.pdf) | [in Spanish](https://www.aqsolutions.org/wp-content/uploads/2020/04/blue-barrel-system-manual_Espanol.pdf)
 
-## Brief overview of the design of a biochar-based water filtration system
+## Elegant overview of the design of a biochar-based water filtration system
+
+A researcher in Thailand describes a system design that has since been widely reproduced throughout Thailand and the region.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kazEAzGWuIc?si=WLBFujviDQDhmHEZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
