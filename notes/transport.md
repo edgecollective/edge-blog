@@ -116,3 +116,16 @@ Spring clip at home depot: [https://www.homedepot.com/p/Everbilt-5-16-in-x-2-3-4
 Wirecutter article: [https://www.nytimes.com/wirecutter/blog/build-ebike/](https://www.nytimes.com/wirecutter/blog/build-ebike/)
 
 E-bike school: [https://www.ebikeschool.com/](https://www.ebikeschool.com/)
+
+# DIY Recumbents
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hUQEr5_EjLU?si=nk2IFRN1cDFeXLYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Bike dropout design
+
+[https://www.jeffgeerling.com/blog/2021/how-export-2d-illustration-3d-model-openscad](https://www.jeffgeerling.com/blog/2021/how-export-2d-illustration-3d-model-openscad)
+
+
+# Wed Oct 18 07:06:43 PM EDT 2023
+
+[https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.1?ref_type=heads](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.1?ref_type=heads)

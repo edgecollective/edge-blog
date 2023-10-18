@@ -2,7 +2,7 @@
 pageTitle: Off-grid heat
 layout: layout.njk
 date: Last Modified
-updated: 2021-11-09
+updated: Last Modified 
 tags: notes 
 image: /img/heater/temp_plot.png
 blurb: Designs for off-grid heating systems
@@ -145,3 +145,13 @@ Rocket stove design -- with wire mesh -- [https://www.theartofdoingstuff.com/diy
 build a rocket stove -- [https://gardenerd.com/blog/build-a-rocket-stove/](https://gardenerd.com/blog/build-a-rocket-stove/)
 
 rocket stove instructions [https://www.ywambelt.org/wp-content/uploads/Rocket-Stove.pdf](https://www.ywambelt.org/wp-content/uploads/Rocket-Stove.pdf)
+
+# Mon Oct 16 07:39:34 PM EDT 2023
+
+## Hot tubs
+
+[https://saltybarrelhottubs.com/products/wood-fired-coil-kit](https://saltybarrelhottubs.com/products/wood-fired-coil-kit)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DkwQgG65xHQ?si=Djq7ooA9Qgn4CRS3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nY-Vt7f3tAI?si=xQSWVbbGWUkYmE50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
