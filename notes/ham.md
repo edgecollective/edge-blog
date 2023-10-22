@@ -79,3 +79,10 @@ might need to try arduino pro mini 3V if avail ... or 5V tolerant gps module
 This is the code for handling APRS, allows for serial commands -- pin hardware might be fixed in firmware, not an issue
 
 Expects to be run at 5V ... will need level shifters for ESP32, likely
+
+
+# Sat Oct 21 04:30:32 PM EDT 2023
+
+[https://oh2lak.blogspot.com/2017/06/experimenting-with-sa818-miniature-rf.html](https://oh2lak.blogspot.com/2017/06/experimenting-with-sa818-miniature-rf.html)
+
+[https://www.youtube.com/@HB9BLA](https://www.youtube.com/@HB9BLA)
