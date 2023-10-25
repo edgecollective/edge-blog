@@ -89,6 +89,8 @@ Simple Labs offers [useful information on disinfection byproducts in drinking wa
 
 - EPA method used in Kearns et al 2015 to assess TTHMs: [https://www.epa.gov/sites/default/files/2015-06/documents/epa-551.1.pdf](https://www.epa.gov/sites/default/files/2015-06/documents/epa-551.1.pdf)
 
+![](/img/biochar/epa_tthm_method.png)
+
 # Further References
 
 [https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c](https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c)
