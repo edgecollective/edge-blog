@@ -18,7 +18,7 @@ blurb: DIY techniques for filtering contaminants from drinking water (image cred
 
 Gaining access to clean drinking water is increasingly more difficult, around the world. Microbial contaminants, chlorination by-products, and pesticides are growing problems everywhere. 
 
-Because chlorine helps to keep water safe from potentially harmful bacteria, water engineers typically design centralized water systems to [maintain a chlorine residual in the water that is distributed to households](https://mytapscore.com/blogs/tips-for-taps/disinfection-byproducts-the-adverse-effects-of-water-chlorination). This chlorine often interacts with organic matter in distribution pipes to produce some concentration of toxic chlorination by-products in the water delivered to homes; but this is typically viewed as an acceptable trade-off, as long as these concentrations are low. (The Florida Health Department has a [useful document on the regulation of trihalomethanes in drinking water]). 
+Because chlorine helps to keep water safe from potentially harmful bacteria, water engineers typically design centralized water systems to [maintain a chlorine residual in the water that is distributed to households](https://mytapscore.com/blogs/tips-for-taps/disinfection-byproducts-the-adverse-effects-of-water-chlorination). This chlorine often interacts with organic matter in distribution pipes to produce some concentration of toxic chlorination by-products in the water delivered to homes; but this is typically viewed as an acceptable trade-off, as long as these concentrations are low. (The Florida Health Department has a [useful document on the regulation of trihalomethanes in drinking water](https://www.floridahealth.gov/environmental-health/drinking-water/_documents/thms-fs-2017.pdf)). 
 
 Further: centralized water treatment infrastructure is dependent on a well-functioning electrical grid for its operation, the anticipated increasing frequency and severity of grid disruptions due to climate change will likely render centralized drinking water systems increasingly vulnerable to extended disruptions. 
 
@@ -28,7 +28,7 @@ For these reasons there has been a growing interest in developing solutions for 
 
 ## Why biochar?
 
-One common technology for the removal of contaminants form water is the use of [activated carbon as a filter](https://www.awwa.org/portals/0/files/publications/documents/samples/activatedcarbonchap1.pdf).  As water passes through such a filter, contaminatns are adsorbed to the carbon in the filter and removed from the water. 
+One common technology for the removal of contaminants from water is the use of [activated carbon as a filter](https://www.awwa.org/portals/0/files/publications/documents/samples/activatedcarbonchap1.pdf).  As water passes through such a filter, contaminatns are adsorbed to the carbon in the filter and removed from the water. 
 
 Such carbon filters only have a limited capacity for adbsoprtion, and therefore must be replaced after a certain amount of use.  Their cost is not trivial; so a household or small community using such filters for their drinking water will incur an ongoing cost.  Also, traditional methods for producing activated carbon typically rely on sophisticated industrial chemical processes and fossil fuel-based inputs.
 

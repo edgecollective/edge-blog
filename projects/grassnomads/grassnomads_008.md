@@ -62,6 +62,8 @@ Reply from maxbotix on mounting sensor inside a tank:
 
 Latter illustration suggests that we should mount the sensor 2' to 3' away from side wall if possible
 
+Also: tank drop down to 8%:
 
+![](/img/ojofeliz/tank_drop.png)
 
 
