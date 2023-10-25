@@ -83,6 +83,11 @@ In the below video, Kearns describes the project while demonstrating a smaller-s
 
 Simple Labs offers [useful information on disinfection byproducts in drinking water](https://mytapscore.com/blogs/tips-for-taps/disinfection-byproducts-the-adverse-effects-of-water-chlorination) and offers a [VOC Water Test for $140](https://mytapscore.com/products/volatile-organic-compounds-water-test).
 
+# Miscellaneous
+
+- Kearns et al 2015 suggest that MIB content in water, detectable by human nose at low levels, might be a DIY way of indicating exhaustion of biochar material.
+
+- EPA method used in Kearns et al 2015 to assess TTHMs: [https://www.epa.gov/sites/default/files/2015-06/documents/epa-551.1.pdf](https://www.epa.gov/sites/default/files/2015-06/documents/epa-551.1.pdf)
 
 # Further References
 
