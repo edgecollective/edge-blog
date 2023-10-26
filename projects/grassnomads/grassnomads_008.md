@@ -67,3 +67,10 @@ Also: tank drop down to 8%:
 ![](/img/ojofeliz/tank_drop.png)
 
 
+# Thu Oct 26 12:40:32 PM EDT 2023
+
+Marsh storage starting to refill
+
+![](/img/ojofeliz/tank_depletion_refill.png)
+
+

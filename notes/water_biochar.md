@@ -91,6 +91,10 @@ Simple Labs offers [useful information on disinfection byproducts in drinking wa
 
 ![](/img/biochar/epa_tthm_method.png)
 
+- Steel drums avail on Amazon: [https://www.amazon.com/Vogelzang-DR55-Gallon-Barrel-Stove/dp/B000VHDSJM/](https://www.amazon.com/Vogelzang-DR55-Gallon-Barrel-Stove/dp/B000VHDSJM/)
+
+- Steel drums avail locally [https://rochedrums.com/](https://rochedrums.com/)
+
 # Further References
 
 [https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c](https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c)
