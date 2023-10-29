@@ -129,3 +129,13 @@ E-bike school: [https://www.ebikeschool.com/](https://www.ebikeschool.com/)
 # Wed Oct 18 07:06:43 PM EDT 2023
 
 [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.1?ref_type=heads](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.1?ref_type=heads)
+
+
+# Sun Oct 29 07:31:51 PM EDT 2023
+
+Adding a bend: 
+
+	
+![](/img/ojofeliz/send_cut_bend.png)
+
+bike_plate_2_bend.dxf

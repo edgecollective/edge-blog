@@ -73,4 +73,15 @@ Marsh storage starting to refill
 
 ![](/img/ojofeliz/tank_depletion_refill.png)
 
+Questions:
+- make sensor box easy to mount
+- make solar panel easy to mount 
+- something that can drill through for easy mounting
+- geometry of door -- on side? -- to access electronics ... or perhaps external antenna
+- actually, new satellite modem uses cable for connection anyway, can place the transmitter on case edge
+
+
+
+
+
 
