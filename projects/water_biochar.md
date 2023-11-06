@@ -1,9 +1,9 @@
 ---
 pageTitle: DIY Water treatment using biochar
 layout: layout.njk
-date: 2023-09-16 
-updated: 2023-09-16 
-tags: notes 
+date: Last Modified 
+updated: Last Modified 
+tags: projects 
 image: /img/water/treatment.jpeg
 blurb: DIY techniques for filtering contaminants from drinking water (image credit, Josh Kearns) 
 ---

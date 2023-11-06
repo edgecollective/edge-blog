@@ -1,7 +1,7 @@
 ---
 pageTitle: Greenhouse temperature monitoring and control at Smithereen Farm (Maine, USA) 
 layout: layout.njk
-date: 2023-04-27
+date: Last Modified
 updated: 2023-04-27
 tags: projects
 image: img/smithereen/smithereen_greenhouse.png

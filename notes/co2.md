@@ -6113,4 +6113,9 @@ TSM480P06CH X0G [https://www.digikey.com/en/products/detail/taiwan-semiconductor
 SMT mosfet suggested by pico datasheet: [https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667) - GSD 
 
 
+# Thu Nov  2 11:50:12 AM EDT 2023
+
+making an smt version of the co2 monitor
+
+ESP32-S3 on github: [https://github.com/adafruit/Adafruit-Feather-ESP32-S3-PCB](https://github.com/adafruit/Adafruit-Feather-ESP32-S3-PCB)
 

@@ -139,3 +139,29 @@ Adding a bend:
 ![](/img/ojofeliz/send_cut_bend.png)
 
 bike_plate_2_bend.dxf
+
+
+# Mon Oct 30 05:04:13 PM EDT 2023
+
+Assembled initial trailer. Notes:
+- internal dropouts need to be shifted up to account for geometry of support bars
+- if u-bolts will be used, should be oriented sideways with bend to avoid bolts sticking out  
+
+![](/img/transport/number_10_screw.png)
+
+i.e. can do 0.16" diameter hole i.e. 4 mm
+
+![](/img/transport/different_lengths.png)
+
+## Trailer dropouts "Version 0.3"
+
+Choosing 0.125" (3.2 mm) thickness this round.
+
+Convention:
+- 'short' is the one that is attached to the 'outer' frame
+- 'middle' is inner frame, if use flattened ends; it is longer by 0.5 of pipe diam (1/2" EMT)
+- 'long' is inner frame, if use non-flattened ends; it is longer by a pipe diam
+
+Version 0.3 on github: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3)
+ 
+
