@@ -3,7 +3,7 @@ pageTitle: Greenhouse Monitoring at Wolfe's Neck Farm in Freeport, Maine (USA)
 layout: layout.njk
 date: 2020-04-14
 updated: 2021-06-12
-tags: projects
+tags: notes 
 image: img/wnf/greenhouse.JPG
 blurb: Setting up an "off-grid" greenhouse monitoring system. 
 ---

@@ -1,11 +1,11 @@
 ---
-pageTitle: Notes on hoop houses 
+pageTitle: Cold-weather growing structures 
 layout: layout.njk
 date: Last Modified
 updated: 2022-11-29
-tags: notes 
+tags: projects 
 image: /img/hoop/hoop.png
-blurb: Building DIY (mobile?) hoop houses made of metal or wood.
+blurb: Building DIY, mobile hoop houses, high tunnels, and cold frames.
 ---
 
 # Building Eliot Coleman's Modular Moveable Cathedral Tunnel -- Johnny's

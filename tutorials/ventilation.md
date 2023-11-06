@@ -1,9 +1,9 @@
 ---
 pageTitle: Ventilation and reducing the risk of COVID transmission
 layout: layout.njk
-date: 2020-12-07
+date: Last Modified 
 updated: 2021-07-22
-tags: projects
+tags: pedagogy 
 image: img/co2/ach_combo.png
 blurb: DIY ventilation assessment and improvement in order to reduce the risk of airborne disease transmission.
 ---

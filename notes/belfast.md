@@ -3,7 +3,7 @@ pageTitle: Coastal Tide Monitoring in Belfast, Maine (USA)
 layout: layout.njk
 date: 2020-02-18
 updated: 2020-02-18
-tags: projects
+tags: notes 
 image: img/belfast/belfast.jpeg
 blurb: (With Dave Sprague and friends in Belfast, ME -- water level via Radio + WiFi + pressure sensor.
 ---

@@ -3,7 +3,7 @@ pageTitle: Water Level Monitoring on Chappaquiddick Island, Massachusetts (USA)
 layout: layout.njk
 date: 2020-07-18
 updated: 2020-07-18
-tags: projects
+tags: notes 
 image: img/chappy/chap_front.jpg
 blurb: Radio + WiFi + Ultrasonic tide monitoring.
 ---

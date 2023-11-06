@@ -2,7 +2,7 @@
 pageTitle: Soil and Greenhouse Monitoring at Quinta Vale da Lama in Odiáxere, Faro District (Portugal)
 layout: layout.njk
 date: 2020-04-13
-tags: projects 
+tags: notes 
 updated: 2020-12-19
 image: /img/valedalama/cover.JPG
 blurb: Prototyping a LoRa- and wifi-based system for Soil moisture and temperature, as well as ambient temperature humidty and soil temperture inside a greenhouse.

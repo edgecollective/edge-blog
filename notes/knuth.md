@@ -2,7 +2,7 @@
 pageTitle: Soil Monitoring System in Mead, Nebraska (USA)
 layout: layout.njk
 date: 2019-07-25
-tags: projects
+tags: notes 
 updated: 2019-07-25
 image: /img/field_1/cell_kit.JPG
 blurb: Developing a system for capturing soil moisture measurements from a remote field site, using wifi, LoRa, and cellular communications.  
