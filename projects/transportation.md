@@ -88,4 +88,16 @@ Convention:
 
 Version 0.3 on github: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3)
 
+## Trailer Version 1.0
 
+- Dropouts need wider mounting holes, to accommodate a #10 screw (need to measure diameter precisely)
+- Might want to select 'lock nuts' or similar
+- Might want to upgrade bolt size for added strength
+
+Do some experiments around lightweight 'beds' for the trailer.  Wood tends to add unnecessary weight
+
+![](/img/transport/trailer_assembled.jpg)
+
+![](/img/transport/wheel_closeup.jpg)
+
+![](/img/transport/dropouts_two.jpg) 

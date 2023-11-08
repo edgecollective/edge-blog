@@ -81,6 +81,13 @@ Questions:
 - actually, new satellite modem uses cable for connection anyway, can place the transmitter on case edge
 
 
+# Wed Nov  8 06:37:38 PM EST 2023
+
+- Ordered a Max 7850 'tank sensor' ultrasonic depth sensor from Digikey
+- Ordered another Rockblock 9602, from Sparkfun (9603 seems to be out of stock at Adafruit and Sparkfun)
+
+Going to prototype using GPS and timer chip to send messages as close to 5 AM and a particular time in the evening as possible
+
 
 
 
