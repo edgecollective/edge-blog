@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 updated: 2023-04-27
 tags: projects
-image: img/transport/trailer_cat.jpeg
+image: img/transport/trailer_assembled.jpg
 blurb: Exploring local DIY transport systems.
 ---
 
