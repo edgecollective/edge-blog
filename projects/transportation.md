@@ -8,13 +8,18 @@ image: img/transport/trailer_assembled.jpg
 blurb: Developing an easy-to-assemble, low-cost bike trailer design
 ---
 
-## Background
+![](/img/transport/trailer_assembled.jpg)
 
-We've been working to develop an easy-to-assemble, low-cost bike trailer design, sourced from readily-available parts.
-After [some experimentation](/notes/transport), we've currently settled on:
-- a bike frame made from 1/2" electrical conduit (inexpensive / easily sourced)
+## Design goals and approach
+
+We've been working to develop an easy-to-assemble, low-cost bike trailer design, sourced from readily-available parts. The hope is to make it easier for people to transport cargo using bicycles.
+
+After [some experimentation](/notes/transport), we've currently settled on a design that uses:
 - recycled bicycle wheels
-- steel 'dropouts' (the wheel supports) that can be either laser- or hand-cut.
+- a bike frame made from 1/2" electrical conduit (inexpensive / easily sourced)
+- custom steel 'dropouts' (the wheel supports)
+
+Electrical conduit can easily be sourced new, and sometimes scavenged. Bending it properly requires a custom tool (described below) which is widely available (and likely something that can be borrowed). The dropout design can likely be replicated using a drill to cut holes and slots in [$1 electrical box covers from Home Depot](https://www.homedepot.com/p/Steel-City-4-in-Square-Metal-Electrical-Box-Flat-Cover-52C1-50R/205124442);  but we're currently using an online laser-cutting service to make the four required dropouts for about $3 each (details below).
 
 We're planning to add more detailed build instructions soon, but the below description gives a general flavor of the current design.
 
@@ -28,8 +33,6 @@ A more detailed parts list is below.
 # Trailer Version 1.0
 
 ![](/img/transport/barebones.jpeg)
-
-![](/img/transport/trailer_assembled.jpg)
 
 ## Parts list
 
