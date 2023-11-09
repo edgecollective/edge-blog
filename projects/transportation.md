@@ -47,7 +47,7 @@ A more detailed parts list is below.
 
 - 1/2" conduit pipe bender -- [$20 on Amazon](https://www.amazon.com/EMT-Bender-Aluminum-Conduit-Assembly/dp/B0C112B2L3/ref=asc_df_B0C112B2L3), [$60 at Home Depot](https://www.homedepot.com/p/Klein-Tools-1-2-in-Iron-Conduit-Bender-EMT-with-Angle-Setter-51603/317837457), free if borrowed  
 
-# Dropout design    
+## Dropout design    
 
 The bike frame design has an 'inner' wheel support bar that is higher than the 'outer' support bar:
 
