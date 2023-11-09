@@ -26,7 +26,7 @@ We're planning to add more detailed build instructions soon, but the below descr
 ## Approximate cost
 
 - **$35 per trailer** (if using recycled bicycle wheels)
-- plus an additional **$20 to $60 one-time purchase** of a special 1/2" emt conduit pipe bending tool.
+- plus an additional **$20 to $60 one-time purchase** of a special 1/2" emt conduit pipe bending tool (if you can't find one to borrow)
 
 A more detailed parts list is below.
 
@@ -38,7 +38,8 @@ A more detailed parts list is below.
 
 - Two 10 ft lengths of 1/2" metal 'emt' electrical conduit (@ $7 ea from Home Depot) = $14
 - Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from sendcutsend.com (see below for design and ordering details) = $13
-- Various bolts of [size #10](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231/204274628) from Home Depot = approx $8
+- Eight #10-24 x 2" bolts, with nuts ([4 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231)) = $3
+- Five #10-24 x 2.5" bolts, with nuts ([2 for $1.38 at Home Depot[(https://www.homedepot.com/p/Everbilt-10-24-x-2-1-2-in-Stainless-Steel-Combo-Round-Head-Machine-Screw-2-Pack-814361/204274802)) = $5
 - Two borrowed bicycle wheels (free) 
 
 ## Common tools
@@ -48,7 +49,7 @@ A more detailed parts list is below.
 
 ## Special pipe-bending tool
 
-- 1/2" conduit pipe bender -- [$20 on Amazon](https://www.amazon.com/EMT-Bender-Aluminum-Conduit-Assembly/dp/B0C112B2L3/ref=asc_df_B0C112B2L3), [$60 at Home Depot](https://www.homedepot.com/p/Klein-Tools-1-2-in-Iron-Conduit-Bender-EMT-with-Angle-Setter-51603/317837457), free if borrowed  
+- 1/2" conduit pipe bender -- [$20 on Amazon](https://www.amazon.com/EMT-Bender-Aluminum-Conduit-Assembly/dp/B0C112B2L3/ref=asc_df_B0C112B2L3), [$60 at Home Depot](https://www.homedepot.com/p/Klein-Tools-1-2-in-Iron-Conduit-Bender-EMT-with-Angle-Setter-51603/317837457), free if borrowed.
 
 ## Dropout design    
 
