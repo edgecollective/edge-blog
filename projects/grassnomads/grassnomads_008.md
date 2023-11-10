@@ -89,6 +89,35 @@ Questions:
 Going to prototype using GPS and timer chip to send messages as close to 5 AM and a particular time in the evening as possible
 
 
+# Fri Nov 10 02:35:43 PM EST 2023
 
+Self-cleaning maxbotix sensors: [https://maxbotix.com/collections/scxl-maxsonar-wr-products](https://maxbotix.com/collections/scxl-maxsonar-wr-products)
+
+Datasheet for the self-cleaning series: [https://maxbotix.com/pages/scxl-maxsonar-wr-datasheet](https://maxbotix.com/pages/scxl-maxsonar-wr-datasheet)
+
+Nanostation extending wifi network [https://community.ui.com/questions/Configuring-the-NanoStation-M5-to-extend-an-existing-wifi-network/3cf2b7d6-29a2-44a1-97f3-ffd673cb3d57](https://community.ui.com/questions/Configuring-the-NanoStation-M5-to-extend-an-existing-wifi-network/3cf2b7d6-29a2-44a1-97f3-ffd673cb3d57)
+
+[nanonstation repeater mode](https://www.youtube.com/watch?v=U00ke3OAJ8o)
+
+'ap repeater'
+
+or rather, as 'client' [https://community.ui.com/questions/How-i-can-setup-my-nanostation-m5-as-a-receiver/9bfe796c-5ab1-4aaf-9ce1-3d012c8cd61f](https://community.ui.com/questions/How-i-can-setup-my-nanostation-m5-as-a-receiver/9bfe796c-5ab1-4aaf-9ce1-3d012c8cd61f)
+
+update:  nanostation m5 works on the 5 GHz band ...
+
+manual: [https://dl.ubnt.com/guides/NanoStation_M/NanoStation_M_Loco_M_QSG.pdf](https://dl.ubnt.com/guides/NanoStation_M/NanoStation_M_Loco_M_QSG.pdf)
+
+claims: go to 'wireless' link and set it to 'station'
+
+[https://dl.ui.com/guides/airOS/airOS_UG.pdf](https://dl.ui.com/guides/airOS/airOS_UG.pdf):w
+
+in the above document, chapter 4 (p 23) 'wireless' -- use 'station' mode 
+
+
+# Fri Nov 10 05:29:03 PM EST 2023
+
+Ojo Feliz Ranch weather last 30 days: [https://www.localconditions.com/weather-ojo-feliz-new-mexico/87735/past.php](https://www.localconditions.com/weather-ojo-feliz-new-mexico/87735/past.php)
+
+![](/img/ojofeliz/ojo_freeze.png)
 
 

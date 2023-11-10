@@ -35,52 +35,87 @@ A more detailed parts list is below.
 
 # Trailer Version 1.0
 
-![](/img/transport/barebones.jpeg)
+| ![](/img/transport/barebones.jpeg) |
+|:--:|
+| Assembled bike trailer frame, using recycled 16" wheels; the main bike frame is constructed from a single 10' length of 1/2" electrical conduit. |
+
+| ![](/img/transport/wheel_closeup.jpg) |
+|:--:|
+| Closeup of the custom 'dropouts' for the trailer.  THe design files can be sent to a metal lasercutting service for production (details below).]
 
 ## Parts list
 
-- Two 10 ft lengths of 1/2" metal 'emt' electrical conduit (@ $7 ea from Home Depot) = $14
-- Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from sendcutsend.com (see below for design and ordering details) = $13
-- Eight #10-24 x 2" bolts, with nuts ([4 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231)) = $3
-- Five #10-24 x 2.5" bolts, with nuts ([2 for $1.38 at Home Depot[(https://www.homedepot.com/p/Everbilt-10-24-x-2-1-2-in-Stainless-Steel-Combo-Round-Head-Machine-Screw-2-Pack-814361/204274802)) = $5
-- Two borrowed or recycled 16" 'kids' bicycle wheels (free) 
+| ![](/img/transport/conduit.png) |
+|:--:|
+| Two 10 ft lengths of 1/2" metal 'emt' electrical conduit (@ [$7 ea from Home Depot](https://www.homedepot.com/p/1-2-in-x-10-ft-Electric-Metallic-Tube-EMT-Conduit-853428/100400405)) = $14 |
+
+
+| ![](/img/transport/dropouts_two.jpg) |
+|:--:|
+| Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from [sendcutsend.com](https://sendcutsend.com) (see below for design and ordering details) = $13 |
+
+| ![](/img/transport/two_point_five.png) |
+|:--:|
+| Eight #10-24 x 2" bolts, with nuts ([4 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231)) = $3; Five #10-24 x 2.5" bolts, with nuts ([2 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-1-2-in-Stainless-Steel-Combo-Round-Head-Machine-Screw-2-Pack-814361/204274802)) = $5 |
+
+| ![](/img/transport/sixteen_wheels.png) |
+|:--:|
+| Two borrowed or recycled 16" 'kids' bicycle wheels (free) |
 
 ## Common tools
 
-- Drill with 11/64" drill bit (common, can borrow)
-- screwdriver, pliers (common, can borrow)
+| ![](/img/transport/drill.png) |
+|:--:|
+| Phillips-head screwdriver |
+
+| ![](/img/transport/drill_bit.png) |
+|:--:|
+| 11/64" drill bit |
+
+| ![](/img/transport/phillips.png) |
+|:--:|
+| Phillips-head screwdriver |
+
+| ![](/img/transport/pliers.png) |
+|:--:|
+| Pliers |
+
 
 ## Special pipe-bending tool
 
-- 1/2" conduit pipe bender -- [$20 on Amazon](https://www.amazon.com/EMT-Bender-Aluminum-Conduit-Assembly/dp/B0C112B2L3/ref=asc_df_B0C112B2L3), [$60 at Home Depot](https://www.homedepot.com/p/Klein-Tools-1-2-in-Iron-Conduit-Bender-EMT-with-Angle-Setter-51603/317837457), free if borrowed.
+| ![](/img/transport/bender.png) |
+|:--:|
+| 1/2" conduit pipe bender -- [$20 on Amazon](https://www.amazon.com/EMT-Bender-Aluminum-Conduit-Assembly/dp/B0C112B2L3/ref=asc_df_B0C112B2L3), [$60 at Home Depot](https://www.homedepot.com/p/Klein-Tools-1-2-in-Iron-Conduit-Bender-EMT-with-Angle-Setter-51603/317837457), free if borrowed |
 
-## Dropout design    
+| ![](/img/transport/pipe_bend.png) |
+|:--:|
+| How to use a pipe bender: [https://www.youtube.com/watch?v=r3h97SfQYYI](https://www.youtube.com/watch?v=r3h97SfQYYI) |
 
-The bike frame design has an 'inner' wheel support bar that is higher than the 'outer' support bar:
+## Making the dropouts  
 
-![](/img/transport/head_on.jpeg)
+The bike frame design has an 'inner' wheel support bar that is higher than the 'outer' support bar, leading us to design a longer 'inner' dropout, and a shorter, 'outer' dropout.
 
-This lead us to design a longer 'inner' dropout, and a shorter, 'outer' dropout.
+| ![](/img/transport/head_on.jpeg) |
+|:--:|
+| The wheel mounts have an inner support bar that is higher than the outer support bar (by one pipe diameter).|
 
-## Dropout CAD files
+| ![](/img/transport/height_diff.jpeg) |
+|:--:|
+| The different heights of the inner and out support bar are compensated by different dropout lenghts, in order to keep the wheel axle level. |
 
-The dropouts were designed using openscad; [version 0.3 can be found on gitlab](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3).  This repository includes both the original .scad files, as well as the .dxf files useful for laser-cutting.
+We designed the 'short' and 'long' dropouts in openscad.  (The original .scad files for "version 0.3" of the droupouts can be found on github: [version 0.3 can be found on gitlab](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3))
 
-![](/img/transport/openscad_ver_0.3_long.png)
+You can upload the ".dxf" files linked below to [sendcutsend.com](https://sendcutsend.com), specify 0.125" (3.2 mm) stainless steel, and they'll send you back the laser-cut metal.
 
-![](/img/transport/openscad_ver_0.3_short.png)
+| ![](/img/transport/shorty.png) |
+|:--:|
+| **Short dropout**. [DXF file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_short.dxf?inline=false) (for production); [SCAD file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_short.scad?inline=false) (for reference or re-design) |
 
-![](/img/transport/dropout_ver_0.3_sideby.png)
+| ![](/img/transport/longy.png) |
+|:--:|
+| **Long dropout**. [DXF file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_long.dxf?inline=false) (for production); [SCAD file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_long.scad?inline=false) (for reference or re-design) |
 
-## Dropouts produced via lasercutting service
 
-We chose to have our dropouts made out of 0.125" (3.2 mm) stainless steel by [sendcutsend.com](sendcutsend.com).  The '.dxf' files in the above repository can be sent directly to sendcutsend, and they'll mail you bake the parts (free shipping). 
-
-![](/img/transport/dropouts_two.jpg) 
-
-![](/img/transport/wheel_closeup.jpg)
-
-![](/img/transport/height_diff.jpeg)
 
 
 
