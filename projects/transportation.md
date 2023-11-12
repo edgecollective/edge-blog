@@ -12,7 +12,7 @@ blurb: Developing an easy-to-assemble, low-cost bike trailer design
 
 ![](/img/transport/full_system.jpeg)
 
-## Design goals and approach
+# Design goals and approach
 
 We've been working to develop an easy-to-assemble, low-cost bike trailer design, sourced from readily-available parts. The hope is to make it easier for people to transport cargo using bicycles.
 
@@ -27,7 +27,7 @@ Electrical conduit can easily be sourced new, and sometimes scavenged. Bending i
 
 We're planning to add more detailed build instructions soon, but the below description gives a general flavor of the current design.
 
-## Approximate cost
+# Approximate cost
 
 - **Approximately $35 to $45 per trailer** (if using recycled bicycle wheels, and assuming a future hitch design will cost less than $10)
 - plus an additional **$20 to $60 one-time purchase** of a special 1/2" emt conduit pipe bending tool (if you can't find one to borrow)
@@ -134,7 +134,7 @@ You can upload the ".dxf" files linked below to [sendcutsend.com](https://sendcu
 
 ![](/img/transport/hitch_3.jpg)
 
-
+![](/img/transport/hitch_down.jpg)
 
 
 
