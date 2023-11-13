@@ -186,3 +186,34 @@ Do some experiments around lightweight 'beds' for the trailer.  Wood tends to ad
 ![](/img/transport/head_on.jpeg)
 
 ![](/img/transport/height_diff.jpeg)
+
+
+# Sun Nov 12 09:53:09 PM EST 2023
+
+Regusci 
+
+Lots of details in this interview:
+
+[https://docs.google.com/document/d/1HWtfLdNdpZcJ-JoulyjzweFRW8-5IA9u-lwdERs4XhY/edit](https://docs.google.com/document/d/1HWtfLdNdpZcJ-JoulyjzweFRW8-5IA9u-lwdERs4XhY/edit)
+
+Including this diagram: 
+
+![](/img/transport/regusci_air.png)
+
+- 2" bore 12" stroke on amazon [here](https://www.amazon.com/Baomain-Pneumatic-Air-Cylinder-Bore/dp/B087MMX4BX/ref=sr_1_27?crid=1R6JXRQPOLD3L&keywords=dual+action+pneumatic+stroke&qid=1699842337&sprefix=dual+action+pneumatic+stroke%2Caps%2C108&sr=8-27)
+
+- 2.5" bore 20" stroke [https://www.amazon.com/Baomain-Pneumatic-Cylinder-SC-Bore/dp/B0741CS8MK/ref=psdc_3021479011_t3_B072VQYT4S?th=1](https://www.amazon.com/Baomain-Pneumatic-Cylinder-SC-Bore/dp/B0741CS8MK/ref=psdc_3021479011_t3_B072VQYT4S?th=1)
+
+academic article [http://ijiird.com/wp-content/uploads/2017/05/010227-AIR-CAR-hybrid-vehicle.pdf](http://ijiird.com/wp-content/uploads/2017/05/010227-AIR-CAR-hybrid-vehicle.pdf)
+
+regusci report [https://www.regusciair.com/informes](https://www.regusciair.com/informes)
+
+tensile forces on chain on bikes [https://zerofrictioncycling.com.au/wp-content/uploads/2019/07/Chain-Tensile-Strength-Test-Brief-converted.pdf](https://zerofrictioncycling.com.au/wp-content/uploads/2019/07/Chain-Tensile-Strength-Test-Brief-converted.pdf)
+
+pneumatic cylinder force calculator [https://www.omnicalculator.com/physics/pneumatic-cylinder-force](https://www.omnicalculator.com/physics/pneumatic-cylinder-force)
+
+torque in electric bikes [https://www.himobikes.com/blogs/news/what-does-torque-mean-in-electric-bikes](https://www.himobikes.com/blogs/news/what-does-torque-mean-in-electric-bikes)
+
+basics of pneumatics / getting started [https://www.youtube.com/watch?v=Uz9xXEXzkxQ](https://www.youtube.com/watch?v=Uz9xXEXzkxQ)
+
+
