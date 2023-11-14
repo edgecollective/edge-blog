@@ -216,4 +216,10 @@ torque in electric bikes [https://www.himobikes.com/blogs/news/what-does-torque-
 
 basics of pneumatics / getting started [https://www.youtube.com/watch?v=Uz9xXEXzkxQ](https://www.youtube.com/watch?v=Uz9xXEXzkxQ)
 
+pneumatics 101 [https://www.youtube.com/watch?v=ZccQVMtQd6k](https://www.youtube.com/watch?v=ZccQVMtQd6k)
 
+controlling a pneumatic cylinder easily [https://www.youtube.com/watch?v=dR95umuNSPY&t=54s](https://www.youtube.com/watch?v=dR95umuNSPY&t=54s)
+
+controlling a pneumatic cylinder with arduino [https://www.youtube.com/watch?v=iXNNjtK5hp8&t=188s](https://www.youtube.com/watch?v=iXNNjtK5hp8&t=188s)
+
+how to operate a pneumatic cylinder from a co2 tank [https://www.youtube.com/watch?v=wCxJ12s1-cI](https://www.youtube.com/watch?v=wCxJ12s1-cI)

@@ -39,5 +39,14 @@ Detailed explanation of the build process and materials.
 
 [http://bayou.pvos.org/data/qeaj3bt3a584?plot_param=temperature_c](http://bayou.pvos.org/data/qeaj3bt3a584?plot_param=temperature_c)
 
+# Installing a fan and vent
+
+[https://www.bootstrapfarmer.com/products/greenhouse-shutter-mount-exhaust-fans?variant=41702990119070](https://www.bootstrapfarmer.com/products/greenhouse-shutter-mount-exhaust-fans?variant=41702990119070)
+
+![](/img/hoophouse/bootstrap_fan.png)
+
+![](/img/hoophouse/fan_mount.png)
+
+
 
 
