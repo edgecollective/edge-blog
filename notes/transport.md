@@ -223,3 +223,116 @@ controlling a pneumatic cylinder easily [https://www.youtube.com/watch?v=dR95umu
 controlling a pneumatic cylinder with arduino [https://www.youtube.com/watch?v=iXNNjtK5hp8&t=188s](https://www.youtube.com/watch?v=iXNNjtK5hp8&t=188s)
 
 how to operate a pneumatic cylinder from a co2 tank [https://www.youtube.com/watch?v=wCxJ12s1-cI](https://www.youtube.com/watch?v=wCxJ12s1-cI)
+
+
+# Wed Nov 22 04:28:34 PM EST 2023
+
+## Different types of pneumatic cylinders 
+
+[https://mechanicalengineering120.files.wordpress.com/2017/11/lecture-37_pneumatics-actuators.pdf](https://mechanicalengineering120.files.wordpress.com/2017/11/lecture-37_pneumatics-actuators.pdf)
+
+[https://www.norgren.com/en/support/blog/why-choose-a-single-acting-cylinder](https://www.norgren.com/en/support/blog/why-choose-a-single-acting-cylinder)
+
+[https://trimantec.com/blogs/t/difference-between-single-and-double-acting-pneumatic-cylinders](https://trimantec.com/blogs/t/difference-between-single-and-double-acting-pneumatic-cylinders)
+
+[https://lehighfluidpower.com/wp-content/uploads/2018/09/38a-Spring_Article.pdf](https://lehighfluidpower.com/wp-content/uploads/2018/09/38a-Spring_Article.pdf)
+
+## Bicycle rear hubs
+
+[https://bike.bikegremlin.com/158/bicycle-rear-hub/](https://bike.bikegremlin.com/158/bicycle-rear-hub/)
+
+## Dual chain assembly
+
+[https://endless-sphere.com/sphere/threads/using-two-drive-chains-to-one-hub-one-on-each-side.9586/](https://endless-sphere.com/sphere/threads/using-two-drive-chains-to-one-hub-one-on-each-side.9586/)
+
+## History of air powered bicycles
+
+[https://www.pmu.edu.sa/attachments/academics/pdf/udp/coe/dept/me/design-pneumatic-powered-bicycle.pdf](https://www.pmu.edu.sa/attachments/academics/pdf/udp/coe/dept/me/design-pneumatic-powered-bicycle.pdf)
+
+## Getting started with pneumatics
+
+[https://www.youtube.com/watch?app=desktop&v=Uz9xXEXzkxQ](https://www.youtube.com/watch?app=desktop&v=Uz9xXEXzkxQ)
+
+## Control pneumatics with arduino
+
+[https://www.youtube.com/watch?v=iXNNjtK5hp8&t=190s](https://www.youtube.com/watch?v=iXNNjtK5hp8&t=190s)
+
+## Modify a small fridge compressor into a silent air compressor
+
+[https://www.instructables.com/How-to-modify-a-fridge-compressor-into-a-silent-ai/](https://www.instructables.com/How-to-modify-a-fridge-compressor-into-a-silent-ai/)
+
+## Extinguisher compressed air tank conversion
+
+[https://www.youtube.com/watch?v=-1QasBxF0z4](https://www.youtube.com/watch?v=-1QasBxF0z4)
+
+## Old fire extinguisher for compressed air
+
+[https://www.youtube.com/watch?v=B0NY18IqCtU](https://www.youtube.com/watch?v=B0NY18IqCtU)
+
+## Turn Fridge Compressor into Air Compressor
+
+[https://www.youtube.com/watch?v=0Kmyl8eWOBE](https://www.youtube.com/watch?v=0Kmyl8eWOBE)
+
+## Calculaing Force from pneumatic cylinder
+
+[https://www.powermotiontech.com/technologies/cylinders-actuators/article/21885037/a-checklist-for-matching-pneumatic-cylinders-to-load-requirements](https://www.powermotiontech.com/technologies/cylinders-actuators/article/21885037/a-checklist-for-matching-pneumatic-cylinders-to-load-requirements)
+
+
+# Thu Nov 23 09:29:49 PM EST 2023
+
+Key moment in regusci video showing action of piston [https://youtu.be/dwdOLp4NqtY?t=26](https://youtu.be/dwdOLp4NqtY?t=26]
+
+Need an average of 45 lbs to push a bicycle forward, according to [https://physicalcycling.com/pedaling-force/#:~:text=Average%20Pedaling%20Force&text=Simulations%20can%20model%20these%20different,nwts%20or%20around%2045%20lbs.](https://physicalcycling.com/pedaling-force/#:~:text=Average%20Pedaling%20Force&text=Simulations%20can%20model%20these%20different,nwts%20or%20around%2045%20lbs.)
+
+![](/img/transport/ave_pedal_force.jpg)
+
+Claims max of about 400 Newtons, or 90 lbs
+
+This 2.5" bore 20" stroke piston should do the trick: [https://www.amazon.com/Baomain-Pneumatic-Cylinder-SC-Bore/dp/B0741CS8MK/ref=psdc_3021479011_t3_B072VQYT4S?th=1](https://www.amazon.com/Baomain-Pneumatic-Cylinder-SC-Bore/dp/B0741CS8MK/ref=psdc_3021479011_t3_B072VQYT4S?th=1)  -- should give 1300 Newtons at 60 psi, or 700 Newtons at 30 psi  
+
+Great intro video: [https://www.youtube.com/watch?app=desktop&v=Uz9xXEXzkxQ](https://www.youtube.com/watch?app=desktop&v=Uz9xXEXzkxQ)
+
+Hand-operated solenoid with fittings (1/4" NPT) [https://www.amazon.com/RIH-Operated-Pneumatic-Solenoid-4H210-08/dp/B0B7DV8SYD/ref=psdc_1265148011_t4_B01E6W65TM?th=1](https://www.amazon.com/RIH-Operated-Pneumatic-Solenoid-4H210-08/dp/B0B7DV8SYD/ref=psdc_1265148011_t4_B01E6W65TM?th=1)
+
+Best-rated hand-operated [https://www.amazon.com/Tailonz-Pneumatic-Position-Operated-4H210-08/dp/B07SHG911C/ref=psdc_1265148011_t1_B0B7DV8SYD?th=1](https://www.amazon.com/Tailonz-Pneumatic-Position-Operated-4H210-08/dp/B07SHG911C/ref=psdc_1265148011_t1_B0B7DV8SYD?th=1)
+
+[1/4" Quick connects on Amazon](https://www.amazon.com/dp/B07PBPB367?pd_rd_i=B07PBPB367&pf_rd_p=781503ef-fc4a-4a05-82e1-c6ce0583b45e&pf_rd_r=2YRFWCKWNYKT8M1F4W3V&pd_rd_wg=q17oN&pd_rd_w=Kj2mN&pd_rd_r=2d630e0a-32e4-454b-87ec-fc597c263265&th=1)
+
+
+Looks like it is standardizing around 1/4" -- which is 6 mm
+
+[1/4" adjustible silencer on Amazon](https://www.amazon.com/dp/B07D484P48/ref=sspa_dk_detail_4?pd_rd_i=B07D484P48&pd_rd_w=Mbnym&content-id=amzn1.sym.386c274b-4bfe-4421-9052-a1a56db557ab&pf_rd_p=386c274b-4bfe-4421-9052-a1a56db557ab&pf_rd_r=2AXYFWZ3FXS2XS0WV2PX&pd_rd_wg=MGtKL&pd_rd_r=e13d75e1-f390-4e6f-9190-b3e41491e0ab&s=automotive&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFDM1FPNUU5TEdOTkMmZW5jcnlwdGVkSWQ9QTA4MTc5MjAxWDNPUkhIQTc4RjVXJmVuY3J5cHRlZEFkSWQ9QTAyNzcwNjIzMjZYVlEzRkFEWEo1JndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
+
+looks like pt3/8 means that the port size is 3/8" 
+
+connecting 3/8" port to various tube sizes [on amazon here](https://www.amazon.com/Pneumatic-Connector-Fittings-Industry-Automatic/dp/B0813X8SFV/ref=sxin_17_pa_sp_search_thematic_sspa?content-id=amzn1.sym.9e5188ef-9cc8-48bb-b834-24761033aedf%3Aamzn1.sym.9e5188ef-9cc8-48bb-b834-24761033aedf&crid=GLG8Q552EQIS&cv_ct_cx=3%2F8%22%2Bpneumatic&keywords=3%2F8%22%2Bpneumatic&pd_rd_i=B0813X8SFV&pd_rd_r=0aab0dd7-c73e-4705-9e7c-f92a1a89ed76&pd_rd_w=zpwnq&pd_rd_wg=76V9B&pf_rd_p=9e5188ef-9cc8-48bb-b834-24761033aedf&pf_rd_r=KP1FKNEA298MDKAKAE18&qid=1700796350&s=industrial&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=3%2F8%2Bpneumatic%2Cindustrial%2C94&sr=1-5-364cf978-ce2a-480a-9bb0-bdb96faa0f61-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1)
+
+So: - piston has 3/8" fittings
+- can convert this to whatever size
+- solenoid can have various sizes
+- tube can have various sizes
+
+
+Note that piston has max 140 PSI
+
+Looks like [Craftsman 6 Gallon Pancake air compressor](https://www.amazon.com/CRAFTSMAN-CMEC6150K-Gallon-Air-Compressor/dp/B07KHHDJGD/ref=sr_1_4?crid=2ATZ0LI71O9ER&keywords=compressor&qid=1700796705&s=hi&sprefix=compressor%2B%2Ctools%2C131&sr=1-4&th=1) using 1/4" fittings
+
+[5 Gallon compressed air tank](https://www.amazon.com/Performance-Tool-W10005-5-Gallon-Horizontal/dp/B000FW7W54/ref=asc_df_B000FW7W54/?tag=&linkCode=df0&hvadid=309823018507&hvpos=&hvnetw=g&hvrand=1581313795766417562&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-593623049274&mcid=ff9e87d0ed9633198eba3f94040d6a9a&ref=&adgrpid=60862048799&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJDfDPnRpfvEsTewP6_9CT2cg_OPBwXdvNns4o8YTg0pyaE2llaqmYRoC5f0QAvD_BwE&th=1) -- 120 PSI max
+
+Tank end is 1/2" MNPT male 
+
+Better way to fill up a compressed air tank [https://www.youtube.com/watch?v=Epeul6T0v8k](https://www.youtube.com/watch?v=Epeul6T0v8k)
+
+Modifying an 11 Gallon Harbor Freight air tank [https://www.youtube.com/watch?v=Ta2I9-vB5OQ](https://www.youtube.com/watch?v=Ta2I9-vB5OQ) -- key video!! shows how to make connectors 
+
+Portable air tank budget upgrade [https://www.youtube.com/watch?v=Sf8fwdKFumo](https://www.youtube.com/watch?v=Sf8fwdKFumo) 
+
+Unboxing of harbor freight tank [https://www.youtube.com/watch?v=G7ExtBA_SaM](https://www.youtube.com/watch?v=G7ExtBA_SaM)
+
+
+# Thu Nov 23 11:41:12 PM EST 2023
+
+Review of 3M 1860 [https://www.youtube.com/watch?app=desktop&v=oEtuygo85ds](https://www.youtube.com/watch?app=desktop&v=oEtuygo85ds)
+
+KN95 mask review [https://www.youtube.com/watch?v=EpjqZTibcvg](https://www.youtube.com/watch?v=EpjqZTibcvg)
+

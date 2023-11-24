@@ -48,5 +48,9 @@ Detailed explanation of the build process and materials.
 ![](/img/hoophouse/fan_mount.png)
 
 
+# Wed Nov 15 08:09:58 PM EST 2023
 
+Update: installed fan, but cross-bar bowed the side posts, resulting in a tilted door frame ...
+
+Going to try to use shortened cross-bar
 

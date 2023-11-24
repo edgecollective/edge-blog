@@ -4,7 +4,7 @@ layout: layout.njk
 date: 2021-07-28
 updated: 2021-08-08
 tags: projects 
-image: /img/co2/airbox.png
+image: /img/airbox/corsi.png
 blurb: Notes on the Corsi / Rosenthal / Comparetto  DIY Air Purifier design -- build instructions, performance evaluation, references
 ---
 
