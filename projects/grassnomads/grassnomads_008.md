@@ -121,3 +121,8 @@ Ojo Feliz Ranch weather last 30 days: [https://www.localconditions.com/weather-o
 ![](/img/ojofeliz/ojo_freeze.png)
 
 
+# Fri Nov 24 08:45:19 PM EST 2023
+
+Self-cleaning sensors: [https://maxbotix.com/products/mb7569](https://maxbotix.com/products/mb7569)
+
+Datasheet: [https://maxbotix.com/pages/scxl-maxsonar-wr-datasheet](https://maxbotix.com/pages/scxl-maxsonar-wr-datasheet)
