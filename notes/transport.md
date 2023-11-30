@@ -330,9 +330,92 @@ Portable air tank budget upgrade [https://www.youtube.com/watch?v=Sf8fwdKFumo](h
 Unboxing of harbor freight tank [https://www.youtube.com/watch?v=G7ExtBA_SaM](https://www.youtube.com/watch?v=G7ExtBA_SaM)
 
 
-# Thu Nov 23 11:41:12 PM EST 2023
+# Sat Nov 25 06:13:46 PM EST 2023
 
-Review of 3M 1860 [https://www.youtube.com/watch?app=desktop&v=oEtuygo85ds](https://www.youtube.com/watch?app=desktop&v=oEtuygo85ds)
+modifying the tank [https://www.youtube.com/watch?v=Sf8fwdKFumo](https://www.youtube.com/watch?v=Sf8fwdKFumo)
 
-KN95 mask review [https://www.youtube.com/watch?v=EpjqZTibcvg](https://www.youtube.com/watch?v=EpjqZTibcvg)
+industrial quick coupler and plug set [https://youtu.be/Sf8fwdKFumo?t=24](https://youtu.be/Sf8fwdKFumo?t=24)
+
+1/4 " male automotive coupler
+
+3/8 " rubber air hose :w
+
+modifying the hose [https://youtu.be/Sf8fwdKFumo?t=32](https://youtu.be/Sf8fwdKFumo?t=32)
+
+filling the tank [https://youtu.be/Sf8fwdKFumo?t=119](https://youtu.be/Sf8fwdKFumo?t=119)
+
+making the coupler to fill w/ compressed air [https://youtu.be/Ta2I9-vB5OQ?t=168](https://youtu.be/Ta2I9-vB5OQ?t=168) 
+
+[array of adapters on amazon](https://www.amazon.com/SDTC-Tech-Fitting-Reducer-Adapter/dp/B08L3VLVZ3/ref=sr_1_4?hvadid=664827740606&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=e&hvrand=16385268884733852736&hvtargid=kwd-477288919901&hydadcr=19794_13538649&keywords=1%2F4%2Bnpt%2Bto%2B1%2F2%2Bnpt%2Badapter&qid=1700954670&sr=8-4&th=1)
+
+1/4 in tube od to 3/8 NPT thread [https://www.amazon.com/dp/B09LLMMVL9/ref=sspa_dk_detail_3?pd_rd_i=B09LLMMVL9&pd_rd_w=7IpMp&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=1FEFDBA3KZXZ2TAAFVXW&pd_rd_wg=rmB77&pd_rd_r=76676842-9e27-43f4-8ff9-08f45c66ce2c&s=industrial&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1](https://www.amazon.com/dp/B09LLMMVL9/ref=sspa_dk_detail_3?pd_rd_i=B09LLMMVL9&pd_rd_w=7IpMp&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=1FEFDBA3KZXZ2TAAFVXW&pd_rd_wg=rmB77&pd_rd_r=76676842-9e27-43f4-8ff9-08f45c66ce2c&s=industrial&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1)
+
+[3 way 2 position valve 1/4" NPT](https://www.amazon.com/Tailonz-Pneumatic-4R210-08-Operated-Push-Pull/dp/B086TZKNLL/ref=sr_1_11?crid=267RDH1NDT794&keywords=1%2F4%2Bsolenoid%2Bpneumatic%2Bmanual%2Bvalve%2B12v&qid=1700956372&sprefix=1%2F4%2Bsolenoid%2Bpneumatic%2Bmanual%2Bvalve%2B12v%2Caps%2C77&sr=8-11&th=1)
+
+crimping your own hose [https://youtu.be/fUsdt9GH1rA?t=98](https://youtu.be/fUsdt9GH1rA?t=98)
+
+1/4 " barb fitting for air hose [https://www.homedepot.com/p/Everbilt-1-4-in-Barb-x-1-4-in-MIP-Brass-Adapter-Fitting-800119/300096726](https://www.homedepot.com/p/Everbilt-1-4-in-Barb-x-1-4-in-MIP-Brass-Adapter-Fitting-800119/300096726)
+
+# Making a PVC Pneumatic Cylinder
+
+[Video here](https://www.youtube.com/watch?v=Rp1uuMrTy8M)
+
+
+# Wed Nov 29 08:12:16 PM EST 2023
+
+Freewheels
+
+## Freewheel removal and installation 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdQE8-ea1uw?si=Kq9WTX1rXyZpdNwX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Mounting two freewheels on one rear hub
+
+Demonstration, with pictures, here:
+
+[https://endless-sphere.com/sphere/threads/mounting-two-freewheels-on-one-rear-wheel-hub.13862/](https://endless-sphere.com/sphere/threads/mounting-two-freewheels-on-one-rear-wheel-hub.13862/]
+
+Related: replacing an older bottom bracket (one of the parts needed for the above approach?) [https://www.youtube.com/watch?v=qGuIiPwKXck](https://www.youtube.com/watch?v=qGuIiPwKXck)
+  
+## Cogs for front wheel
+
+[https://bicycles.stackexchange.com/questions/54481/cogs-for-front-wheel](https://bicycles.stackexchange.com/questions/54481/cogs-for-front-wheel)
+
+## Using two drive chains to one hub
+
+[https://endless-sphere.com/sphere/threads/using-two-drive-chains-to-one-hub-one-on-each-side.9586/](https://endless-sphere.com/sphere/threads/using-two-drive-chains-to-one-hub-one-on-each-side.9586/)
+
+## Double RH freewheel hub design
+
+[https://endless-sphere.com/sphere/threads/double-rh-freewheel-hub-design.40661/](https://endless-sphere.com/sphere/threads/double-rh-freewheel-hub-design.40661/)
+
+## Considerations of Parallel Drive Setups
+
+[https://endless-sphere.com/sphere/threads/considerations-on-parallel-drive-set-ups.12449/](https://endless-sphere.com/sphere/threads/considerations-on-parallel-drive-set-ups.12449/)
+
+## Delta trike with front wheel drive
+
+[https://www.instructables.com/Delta-Trike-with-Front-Wheel-Drive/](https://www.instructables.com/Delta-Trike-with-Front-Wheel-Drive/)
+
+## Trike differential
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LFH4jCJprMo?si=kJe__oaOnNpD7b3S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+## Dual Freewheel
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ncE3P6wF3CE?si=0p8Tzxk6emmX-r4t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V67fAVB8RTE?si=ET0u44hynGMfyqtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Tandem Hub Double-Threaded
+
+[https://www.amazon.com/transformparts-Double-Threaded-Bicycle-Electric/dp/B07PV7PC42](https://www.amazon.com/transformparts-Double-Threaded-Bicycle-Electric/dp/B07PV7PC42)
+
+![](/img/transport/double_threaded_rear_hub_dimension.png)
+
+[https://www.amazon.com/DONSP1986-Bicycle-Wheel-Width-135mm/dp/B085PWKKWH/ref=asc_df_B085PWKKWH/?tag=hyprod-20&linkCode=df0&hvadid=507895522513&hvpos=&hvnetw=g&hvrand=9352885665506095455&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-1343903327465&psc=1&mcid=6c622894b50430d9b08d72444fa6a083&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_liTJ0evUwNjEE6vAVPk01g5tgWPWXAoYMc_U-_r3BFTIi7hlU1O98aAsXlEALw_wcB](https://www.amazon.com/DONSP1986-Bicycle-Wheel-Width-135mm/dp/B085PWKKWH/ref=asc_df_B085PWKKWH/?tag=hyprod-20&linkCode=df0&hvadid=507895522513&hvpos=&hvnetw=g&hvrand=9352885665506095455&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001876&hvtargid=pla-1343903327465&psc=1&mcid=6c622894b50430d9b08d72444fa6a083&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_liTJ0evUwNjEE6vAVPk01g5tgWPWXAoYMc_U-_r3BFTIi7hlU1O98aAsXlEALw_wcB)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pGaOZ6btE_8?si=4qhEP1M1YO51LwXp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 
