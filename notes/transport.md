@@ -417,5 +417,25 @@ Related: replacing an older bottom bracket (one of the parts needed for the abov
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pGaOZ6btE_8?si=4qhEP1M1YO51LwXp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+# Sat Dec  2 08:02:26 PM EST 2023
+
+## Bore / hole sizes for screws
+
+![](/img/transport/screw_diams.png)
+
+[https://www.mcfeelys.com/drilling_chart](https://www.mcfeelys.com/drilling_chart)
+
+[https://www.elginfasteners.com/resources/more-resources/suggested-hole-sizes-for-machine-screws-and-fasteners/](https://www.elginfasteners.com/resources/more-resources/suggested-hole-sizes-for-machine-screws-and-fasteners/)
+
+[https://littlemachineshop.com/reference/tapdrill.php](https://littlemachineshop.com/reference/tapdrill.php)
+
+Seems consensus is:  for easy fit hole, use 4.5 mm hole for #8 screw
+
+# Sun Dec  3 12:14:34 AM EST 2023
+
+Submitted ver_0.4 (long, short) to sendcutsend, just used exported dxf file from openscad; we'll see if that works okay...
+
+files here: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.4?ref_type=heads](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.4?ref_type=heads)
+
 
 
