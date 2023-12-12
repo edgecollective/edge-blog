@@ -136,9 +136,18 @@ You can upload the ".dxf" files linked below to [sendcutsend.com](https://sendcu
 
 ![](/img/transport/hitch_down.jpg)
 
-# Bike Trailer / Garden Cart base
+# Base Design & Variants
+
+As of 12/23, we've been experimenting with a standardized 'wheel base' design that uses a single, 10' length of 1/2" conduit as a stable 'frame' around adult-size (26 in) bicycle wheels.  The idea is that this 'base' can then be modified to be used as a bicycle trailer, or a simple garden / city cart. 
+
+We'll be posting updates as this design solidifies. 
+
+![](/img/transport/version_4.jpg)
 
 ![](/img/transport/garden_base.jpeg)
+
+![](/img/transport/garden_cart.jpeg)
+
 
  
 
