@@ -2,10 +2,9 @@
 pageTitle: DIY Bike Trailers
 layout: layout.njk
 date: Last Modified
-updated: 2023-04-27
 tags: projects
 image: img/transport/full_system.jpeg
-blurb: Developing an easy-to-assemble, low-cost bike trailer design
+blurb: Developing an easy-to-assemble, low-cost bike trailer design.
 ---
 
 ![](/img/transport/trailer_assembled.jpg)

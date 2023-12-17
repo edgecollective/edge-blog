@@ -19,4 +19,4 @@ Working on adding gps module
 
 Able to get current time from gps!  Note: it's UTC time.
 
-
+Goal: to send only at 5 AM and 1 PM MST 
