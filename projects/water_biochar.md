@@ -95,9 +95,19 @@ Simple Labs offers [useful information on disinfection byproducts in drinking wa
 
 - Steel drums avail locally [https://rochedrums.com/](https://rochedrums.com/)
 
-# Further References
+## Further References
 
 [https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c](https://www.echocommunity.org/en/resources/f9592532-c0cd-424f-81d5-80444d693a2c)
 
 [https://www.echocommunity.org/en/resources/80473b4a-5680-4648-9d81-a0027a7d92b7](https://www.echocommunity.org/en/resources/80473b4a-5680-4648-9d81-a0027a7d92b7)
 
+
+## Sat Dec 16 09:49:09 PM EST 2023
+
+Solar biochar: 
+
+[https://www.solarpaces.org/designing-solar-furnaces-to-make-biochars-without-air-pollution/](https://www.solarpaces.org/designing-solar-furnaces-to-make-biochars-without-air-pollution/)
+
+On permies:
+
+[https://permies.com/t/156942/Biochar-Solar-Kiln](https://permies.com/t/156942/Biochar-Solar-Kiln)
