@@ -1,0 +1,100 @@
+---
+pageTitle: Building a Remote Water Monitoring System for Large Ranches
+layout: layout.njk
+date: 2023-09-05
+updated: Last Modified 
+image: /img/ojofeliz/twintowers.jpeg
+blurb: Designing and building a remote monitoring system for water storage tanks on a large ranch.
+---
+
+## An open-source, satellite-based water tank monitoring system
+
+This guide describes the construction and use of an open-source, modular system for remotely monitoring the water level in water storage tanks on a large ranch.  Water level data is collected from on-site ultrasonic sensors, and posted to the internet via a satellite modem. Use of a satellite modem means that no cellular or wifi network local to the water tank is required – the data can be collected from anywhere with a clear view of the sky. The water level data is then stored in an open source online database, and made available (as graphs, or as a data summary page) to ranch managers on their computer or smartphone.
+
+The guide below covers the following topics:
+
+- [Overview](#overview) -- the background context and motivation for our design
+- [Design Process](#collaboration) -- techniques for remote collaboration that we found useful
+- [Current Design](#design) -- the current state of the design, with a simplified build guide and link to design files
+- [Ongoing Development](#development) -- current development goals and improvements that we're working on
+
+| ![](/img/ojofeliz/system_overview.png) |
+|:--:|
+| 'system_overview.png' |
+
+# <a name="overview"></a> Background 
+
+## Why is remote water monitoring useful?
+
+Water for livestock on ranches is often stored in tanks distributed throughout the landscape, and managing this water is a critical task for ranch managers.  Not only is water access crucial for livestock health;  but water leaks and blockages, if not caught immediately, can result in sudden and significant loss of an already-scarce resource.  
+
+The current practice of keeping tabs on water levels in tanks by visiting each of them in-person, however, involves extensive personnel time, as well as wear-and-tear on ranch vehicles.  
+
+## Why use a satellite, and not ground-based long-range radio?
+
+For monitoring remote areas with spotty cellular coverage and no access to local internet, two options are available:  ground-based, and satellite-based -- each with their pros and cons.
+
+A **ground-based** radio solution would collect data from the remote site, and relay it via a series of line-of-sight 'hops' between ground radios, ultimately reaching an internet-connected radio, which would then send the data to an online database.  The advantages of such a system include:
+-  once set up, the ground-based system involves no recurring 'data service fees' for ongoing use; and
+- the entire system is easily accessible to the user for modification, repair, or improvement.
+
+The disadvantage of a ground-based system, however, is that it involves significant work and on-the-ground expertise to set up:  for varied terrain, line-of-sight 'hops' may require a laborious assessment and installation process.  For particularly hilly terrain, the infrastructure required to successfully relay a radio signal may become prohibitively complex.
+
+In contrast, a *satellite-based** solution sends data from the remote site to a satellite in orbit; it can thus work from anywhere on the surface of the planet.  Once the system has been proven to work at any location, it should work equally at any other location.
+
+Because of the ease of installation of the satellite system, we decided that it would be a useful and simpler place to begin; later, we still intend to experiment with a ground-based system.
+
+## Why not just use an existing commercial solution?
+
+While some commercial systems for automated water monitoring exist, they are predominantly internet- or cellular-based systems, involving infrastructure that is often not available at remote water tank locations.    
+
+Commercial solutions also typically require committing to expensive contracts, and result in a dependency on an external company’s proprietary system.  There are many examples of installed systems which are subsequently ‘orphaned’, and no longer work when the company that produced them goes out of business or changes its business focus.
+
+Designing our own water monitoring allows us to customize its features and minimize its costs, resulting in a modular system that has exactly and only the features we require – rather than needing to settle for whatever particular features are available in ‘off-the-shelf’ systems.  It also means that our system is easy to repair, modify, and improve over time, unlike typical proprietary ‘closed’ systems.  And we can be flexible around how and where the data is collected and stored.  
+
+## Why publish this guide?
+
+By publishing the details of our design, we also hope to encourage others to build their own, similar systems, encouraging the development of a larger community of users who might share resources, innovations, and insights with one another.
+
+# <a name="collaboration"></a> Our remote collaboration process
+
+The ranch we are designing for is in New Mexico; the bulk of technical development is being done in Massachusetts.  The entire development process to-date has therefore had to occur remotely.  We have found the following practices useful for ensuring a smooth and productive remote collaboration process:
+
+## Frequent exchange of short videos and photos
+
+This allowed for easy illustration of the field context for which the system is being designs, as well as quick explanations of the developing design and its components.
+
+## Audio message exchanges
+
+Because of differences in timezone and schedule, asynchronous exchange of recorded audio messages allowed for easy, free-form exchange of ideas without having to schedule calls.
+
+## WhatsApp or the equivalent
+
+This has been useful for sending rapid-fire back-and-forth brainstorming and troubleshooting messages to and from the field, as well as providing an easy way to quickly record and store questions and ideas for later reference.
+
+## Google docs or equivalent
+
+For easy shared text editing and information exchange.
+
+# <a name="design"></a> The current design
+
+## System overview
+
+![](/img/ojofeliz/tank_combo.jpeg)
+
+![](/img/ojofeliz/sp_plain.png)
+
+![](/img/ojofeliz/sp_annot.png)
+
+## Detailed Components
+
+## Hardware costs
+
+## Satellite Service setup and cost
+
+## Online data repository
+
+## <a name="development"></a> Current development 
+
+The ‘freezing’ problem
+

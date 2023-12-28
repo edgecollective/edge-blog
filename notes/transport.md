@@ -438,4 +438,7 @@ Submitted ver_0.4 (long, short) to sendcutsend, just used exported dxf file from
 files here: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.4?ref_type=heads](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main/v_0.4?ref_type=heads)
 
 
+# Tue Dec 26 09:21:43 PM EST 2023
+
+#8-32 tpi machine screws [https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618](https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618) 
 

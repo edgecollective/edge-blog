@@ -69,6 +69,16 @@ Also: tank drop down to 8%:
 
 # Thu Oct 26 12:40:32 PM EDT 2023
 
+How things are mounted at Marsh storage:
+
+![](/img/ojofeliz/marsh_mounting.jpeg)
+
+Setting for mounting at Twin Towers;  distance from storage to the tower (where transmitter might go) is 13':
+
+![](/img/ojofeliz/twin_towers_span.jpeg)
+
+![](/img/ojofeliz/float_switch.jpeg)
+
 Marsh storage starting to refill
 
 ![](/img/ojofeliz/tank_depletion_refill.png)
@@ -80,8 +90,15 @@ Questions:
 - geometry of door -- on side? -- to access electronics ... or perhaps external antenna
 - actually, new satellite modem uses cable for connection anyway, can place the transmitter on case edge
 
-
 # Wed Nov  8 06:37:38 PM EST 2023
+
+Seems like perhaps the sensor has been affected by condensate ...
+
+Some symptoms:
+
+![](/img/ojofeliz/ojo_freeze.png)
+
+![](/img/ojofeliz/sensor_freeze_2.jpeg) 
 
 - Ordered a Max 7850 'tank sensor' ultrasonic depth sensor from Digikey
 - Ordered another Rockblock 9602, from Sparkfun (9603 seems to be out of stock at Adafruit and Sparkfun)

@@ -45,3 +45,18 @@ Note: the old smithereen test code is at [http://bayou.pvos.org/data/t2tn5x6krzv
 This code seems to be working well: [https://github.com/edgecollective/sweet-p/blob/12ce832cbadbaeb9d29aa78e8f4a9ed8c1cbeef8/ver_0.3/firmware/grassnomads/v2.0/utilities/satellite_hour.py](https://github.com/edgecollective/sweet-p/blob/12ce832cbadbaeb9d29aa78e8f4a9ed8c1cbeef8/ver_0.3/firmware/grassnomads/v2.0/utilities/satellite_hour.py)
 
 This code also works well, and sends temperature: [https://github.com/edgecollective/sweet-p/blob/a9dcde832bb8d2363664934cd545ba1b778fba73/ver_0.3/firmware/grassnomads/v2.0/utilities/satellite_temperature.py](https://github.com/edgecollective/sweet-p/blob/a9dcde832bb8d2363664934cd545ba1b778fba73/ver_0.3/firmware/grassnomads/v2.0/utilities/satellite_temperature.py)
+
+
+# Tue Dec 26 09:24:59 PM EST 2023
+
+Sending data every 3 hours using new firmware: 
+
+![](/img/ojofeliz/every_three.png)
+
+Latest pics of hardware:
+
+![](/img/ojofeliz/sweetp_version3.jpeg)
+
+![](/img/ojofeliz/tank_combo.jpeg)
+
+
