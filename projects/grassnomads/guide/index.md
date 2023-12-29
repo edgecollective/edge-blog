@@ -112,88 +112,100 @@ The [Maxbotix 7850 Tank Sensor](https://maxbotix.com/products/mb7850)
 
  | ![](/img/ojofeliz/sp_schem_v0.3.png) | 
 |:--:|
-| '' |
+| 'sp_schem_v0.3.png' |
 
  | ![](/img/ojofeliz/sweet-p-v0.3-3d.png) | 
 |:--:|
-| '' |
+| 'sweet-p-v0.3-3d.png' |
 
  | ![](/img/ojofeliz/sp_plain.png) | 
 |:--:|
-| '' |
+| 'sp_plain.png' |
 
  | ![](/img/ojofeliz/sp_annot.png) | 
 |:--:|
-| '' |
+| 'sp_annot.png' |
 
 ## Satellite modem and service
 
  | ![](/img/ojofeliz/rockblock.jpg) | 
 |:--:|
-| '' |
+| 'rockblock.jpg' |
 
 ## Online data repository
 
  | ![](/img/ojofeliz/bayou_overview.png) | 
 |:--:|
-| '' |
+| 'bayou_overview.png' |
 
  | ![](/img/ojofeliz/tank_drop.png) | 
 |:--:|
-| '' |
+| 'tank_drop.png' |
 
  | ![](/img/ojofeliz/gallons.png) | 
 |:--:|
-| '' |
+| 'gallons.png' |
 
 ## Field applications and testing 
 
- | ![](/img/ojofeliz/marsh_applied.jpeg) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/twin_closeup.jpeg) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/casias.png) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/marsh_deploy.jpeg) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/tank_depletion_refill.png) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/initial_marsh_test.jpeg) | 
-|:--:|
-| '' |
-
- | ![](/img/ojofeliz/marsh_mineral.jpeg) | 
-|:--:|
-| '' |
-
- | ![](/img/twintowers.jpeg) | 
-|:--:|
-| '' |
-
-# <a name="development"></a> Next Steps in Development
-
-## Dealing with condensation issues
+We've currently tested an initial version of the system at the 'Marsh Storage' location, which has an enclosed water tank. 
 
  | ![](/img/ojofeliz/max7092.jpg) | 
 |:--:|
-| '' |
+| 'max7092.jpg' |
+
+ | ![](/img/ojofeliz/marsh_applied.jpeg) | 
+|:--:|
+| 'marsh_applied.jpeg' |
+
+ | ![](/img/ojofeliz/casias.png) | 
+|:--:|
+| 'casias.png' |
+
+ | ![](/img/ojofeliz/marsh_deploy.jpeg) | 
+|:--:|
+| 'marsh_deploy.jpeg' |
+
+ | ![](/img/ojofeliz/tank_depletion_refill.png) | 
+|:--:|
+| 'tank_depletion_refill.png' |
+
+ | ![](/img/ojofeliz/initial_marsh_test.jpeg) | 
+|:--:|
+| 'initial_marsh_test.jpeg' |
+
+ | ![](/img/ojofeliz/marsh_mineral.jpeg) | 
+|:--:|
+| 'marsh_mineral.jpeg' |
+
+| ![](/img/ojofeliz/twin_towers_span.jpeg) |
+|:--:|
+| 'twin_towers_span.jpeg' |
+
+ | ![](/img/twintowers.jpeg) | 
+|:--:|
+| 'twintowers.jpeg' |
+
+| ![](/img/ojofeliz/twin_closeup.jpeg) | 
+|:--:|
+| 'twin_closeup.jpeg' |
+
+## Condensation issues
 
  | ![](/img/ojofeliz/ojo_freeze.png) | 
 |:--:|
-| '' |
+| 'ojo_freeze.png' |
 
  | ![](/img/ojofeliz/sensor_freeze_2.jpeg) | 
 |:--:|
-| '' |
+| 'sensor_freeze_2.jpeg' |
+
+# <a name="development"></a> Next Steps in Development
+
+- Upgraded to Tank Sensor MB7850 in attempt to mitigate condensation issues
+- Added the RTC to allow scheduled transmissions twice-daily
+- Measuring and sending temperature from RTC to assess local conditions
+- Assessing whether wind is going to be an issue
+
 
 
