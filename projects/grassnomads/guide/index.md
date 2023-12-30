@@ -288,7 +288,9 @@ The final intended water tank measurement will be another enclosed tank:
 |:--:|
 | 'casias.png' |
 
-# <a name="collaboration"></a> Our remote collaboration process
+--- 
+
+# <a name="collaboration"></a> Notes on our remote collaboration process
 
 The ranch we are designing for is in New Mexico; the bulk of technical development is being done in Massachusetts.  The entire development process to-date has therefore had to occur remotely.  We have found the following practices useful for ensuring a smooth and productive remote collaboration process:
 
