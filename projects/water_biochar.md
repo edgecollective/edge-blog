@@ -111,3 +111,12 @@ Solar biochar:
 On permies:
 
 [https://permies.com/t/156942/Biochar-Solar-Kiln](https://permies.com/t/156942/Biochar-Solar-Kiln)
+
+
+# Tue Jan  2 03:20:48 PM EST 2024
+
+| ![](/img/biochar/biochar_adbsorber_10L.png) | 
+|:--:|
+| 10 L Biochar Adbsorber container, [paper](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)  from Kearns et al, 'Adaptable Community Particaptory Design...'i, Water Security 2023  |
+
+
