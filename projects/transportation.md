@@ -147,6 +147,26 @@ We'll be posting updates as this design solidifies.
 
 ![](/img/transport/garden_cart.jpeg)
 
+# Somerville Bike Shop Bike Trailer Workshop Dec 2023
+
+![](/img/transport/sbk_a.jpeg)
+
+![](/img/transport/sbk_b.jpeg)
+
+![](/img/transport/sbk_c.jpeg)
+
+![](/img/transport/sbk_d.jpeg)
+
+![](/img/transport/sbk_e.jpeg)
+
+![](/img/transport/sbk_f.jpeg)
+
+![](/img/transport/sbk_g.jpeg)
+
+![](/img/transport/sbk_h.jpeg)
+
+
+
 
  
 
