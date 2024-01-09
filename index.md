@@ -108,23 +108,22 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
 {% endfor %}
 </div>
 
-
-# <a name="guides"></a>Guides
-
+# <a name="notebook"></a>Research Notebook
 
 <div class="posts-area">
-{% for workshop in collections.pedagogy reversed %}
+
+{% for note in collections.notes reversed %}
   <div class="post">
-    <div class="pedagogy-contents">
+    <div class="note-contents">
       <div class="image">
-        <a href="{{ workshop.url }}">
-          <img src="{{ workshop.data.image }}"/>
+        <a href="{{ note.url }}">
+          <img src="{{ note.data.image }}"/>
         </a>
       </div>
       <div class="text">
-        <h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
-        <p>{{ workshop.data.blurb }}</p>
-        <em>Updated: {{ workshop.date | date: "%Y-%m-%d" }}</em>
+        <h3><a href="{{ note.url }}">{{ note.data.pageTitle }}</a></h3>
+        <p>{{ note.data.blurb }}</p>
+        <em>Updated: {{ note.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
@@ -152,25 +151,26 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
 {% endfor %}
 </div>
 
-
-# <a name="notebook"></a>Research Notebook
+# <a name="guides"></a>Guides
 
 <div class="posts-area">
-
-{% for note in collections.notes reversed %}
+{% for workshop in collections.pedagogy reversed %}
   <div class="post">
-    <div class="note-contents">
+    <div class="pedagogy-contents">
       <div class="image">
-        <a href="{{ note.url }}">
-          <img src="{{ note.data.image }}"/>
+        <a href="{{ workshop.url }}">
+          <img src="{{ workshop.data.image }}"/>
         </a>
       </div>
       <div class="text">
-        <h3><a href="{{ note.url }}">{{ note.data.pageTitle }}</a></h3>
-        <p>{{ note.data.blurb }}</p>
-        <em>Updated: {{ note.date | date: "%Y-%m-%d" }}</em>
+        <h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
+        <p>{{ workshop.data.blurb }}</p>
+        <em>Updated: {{ workshop.date | date: "%Y-%m-%d" }}</em>
       </div>
     </div>
   </div>
 {% endfor %}
 </div>
+
+
+

@@ -60,3 +60,26 @@ Latest pics of hardware:
 ![](/img/ojofeliz/tank_combo.jpeg)
 
 
+# Tue Jan  9 03:23:31 PM EST 2024
+
+Timing via the TPL5100 (see ref for resistor-controlled timings on [Adafruit TPL5110 usage guide](https://learn.adafruit.com/adafruit-tpl5110-power-timer-breakout/usage)
+
+Currently, T1 -- 81.5K -- approx 25 minutes
+T2 -- 118.7K -- approx 55 minutes
+
+We want more like 10 minutes. But might be too short, induce too rapid a battery drain.  So, keep T1 at 25 minutes as a backup;  switch T2 to something between 54K and 58K.
+
+Looks like I have 51K, and 68K.  So, 68K would be between 10 and 20 minutes. 
+
+Let's try 51K. And also minimize the wakeup time.  And turn off the radio transmit (if it is).
+
+Looks like true resistance is 50.5 K -- which is about 7.5 min.  Let's try it.   
+Current code: 
+- sends if the hour is a multiple of 3
+- sends lora radio message
+
+Let's cut out the lora for now ...
+
+Updated code testing Jan 9th overnight is [here](https://github.com/edgecollective/sweet-p/tree/99ac31e6b767b3cf7b068945a5aea6a52fc61022/ver_0.3/firmware/grassnomads/v2.0)
+
+

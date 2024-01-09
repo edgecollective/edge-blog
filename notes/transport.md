@@ -442,3 +442,54 @@ files here: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main
 
 #8-32 tpi machine screws [https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618](https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618) 
 
+
+# Tue Jan  2 07:36:38 PM EST 2024
+
+Update:  want larger screws -- #10 or larger -- and will need to update dropouts
+
+Garden cart idea ... what about using cattle fencing or chicken wire mesh instead of wood?
+
+Cattle fencing is [16 ft x 50 in for $35](https://www.tractorsupply.com/tsc/product/feedlot-panel-cattle-16-ft-l-x-50-in-h-3502077?) -- $0.50 per sq ft
+
+Chicken wire is [4 ft x 100 ft for $100](https://www.tractorsupply.com/tsc/product/welded-wire-48-in-x-100-ft-3626481) -- $0.25 per sq ft
+
+16 gauge Welded wire fence is [4 ft x 50 ft for $50](https://www.homedepot.com/p/YARDGARD-4-ft-x-50-ft-16-Gauge-Economy-Welded-Wire-Fence-308362B/309868847) -- $.35 per sq ft
+ 
+-- and anyway chicken wire is easier to use
+
+[Vermont cart](https://cartsvermont.com/product-category/garden-carts/)
+
+![](/img/transport/vermont_large_cart.jpg)
+
+Crates used on farms:
+- [smaller](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green?pricode=WC1267&gadtype=pla&id=S-24138G&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuQ4tf4oUbWsg4FGAOl_KouhywjBZCsZQK27Fy-CDJmkSEs6CK4Ix4gaAnZZEALw_wcB)
+- [larger](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables?variant=41705317236922&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorvxbxtGmPWZ9bFpLlfCiaJKCWIKlcQMtSsxMR3ON000MEBcak9PXw&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c)
+
+ 
+# Wed Jan  3 06:01:43 PM EST 2024
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mgMfeD8Uvek?si=eoJuUzb8pdv4kvY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+Technique for adding industrial wheels 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nxJ4KTfi-ms?si=j8CcN0ywWXukdhVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+13" cart or wheelbarrow wheels, [2 for $39, 5/8" bearings](https://www.amazon.com/dp/B0B4PCQGRK/ref=syn_sd_onsite_desktop_0?ie=UTF8&pd_rd_plhdr=t)
+
+[Two-wheel wheelbarrow](https://www.gardeners.com/buy/poly-tough-wheelbarrow/8609775.html?recommendationId=3036545051061)
+
+![](/img/transport/two_wheel_cart.png)
+
+[Farm cart hay transport wagon](https://www.ebay.com/itm/195932745145)
+
+![](/img/transport/farmcart.jpg)  
+
+[Game cart](https://www.discountramps.com/hunting/game-carts-hoists/p/GAME-CART-SM/)
+
+![](/img/transport/game_cart.png)
+
+ 
+# Fri Jan  5 05:50:02 PM EST 2024
+
+Bezier curves in openscad [https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html](https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html)

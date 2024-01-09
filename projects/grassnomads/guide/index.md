@@ -100,6 +100,8 @@ An more expensive ultrasonic sensor which is designed specifically to avoid prob
 |:--:|
 | 'mb7850.png' |
 
+Note that the MB7850 Tank Sensor sensor connection end (wires out) matches standard electrical 3/4-inch PVC pipe fitting (3/4″ National Pipe Thread Straight); the 'horn opening matches standard 2-inch PVC pipe fittings (2″ National Pipe Thread Straight).
+
 The ultrasonic sensor is connected to the transmitter via three wires, and communicates via a simple serial protocol.
 
 | ![](/img/ojofeliz/tank_combo.jpeg) | 
