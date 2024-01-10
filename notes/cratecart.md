@@ -31,7 +31,7 @@ Design notes / ideas:
 - Because cart will be lighter-weight than Vermont cart, and wheel must be mounted further forward, consider shifting 'back bumper' forward so that center of rear-placed crate is over wheel center
 - Accommodate different recycled wheel widths by using a 'brace' and shifting two halves of frame with respect to eachother within the brace
 
-| ![](/img/cratecart/cart_cross.png) |
+| ![](/img/cratecart/crate_crossy.png) |
 |:--:|
 | Footprint on cart of two typical crates used on small farms. Top (a): [24" x 20" x 11" Ventilated Container](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green); and bottom, (b): [23" x 7" x 15" Nursery Crate](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables) |
 
