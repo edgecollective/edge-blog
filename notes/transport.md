@@ -442,7 +442,6 @@ files here: [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/main
 
 #8-32 tpi machine screws [https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618](https://www.homedepot.com/p/8-32-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803141/204274618) 
 
-
 # Tue Jan  2 07:36:38 PM EST 2024
 
 Update:  want larger screws -- #10 or larger -- and will need to update dropouts
@@ -465,9 +464,8 @@ Crates used on farms:
 - [smaller](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green?pricode=WC1267&gadtype=pla&id=S-24138G&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuQ4tf4oUbWsg4FGAOl_KouhywjBZCsZQK27Fy-CDJmkSEs6CK4Ix4gaAnZZEALw_wcB)
 - [larger](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables?variant=41705317236922&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorvxbxtGmPWZ9bFpLlfCiaJKCWIKlcQMtSsxMR3ON000MEBcak9PXw&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c)
 
- 
-# Wed Jan  3 06:01:43 PM EST 2024
 
+# Wed Jan  3 06:01:43 PM EST 2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mgMfeD8Uvek?si=eoJuUzb8pdv4kvY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
@@ -489,7 +487,8 @@ Technique for adding industrial wheels
 
 ![](/img/transport/game_cart.png)
 
- 
 # Fri Jan  5 05:50:02 PM EST 2024
 
 Bezier curves in openscad [https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html](https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html)
+
+
