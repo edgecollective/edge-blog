@@ -41,5 +41,13 @@ Design notes / ideas:
 
 | ![](/img/cratecart/garden_vs_cratecart.png) |
 |:--:|
-| Comparison of common garden cart vs 'Version 6' of the crate cart. | 
+| Comparison of dimensions of 'Vermont' garden cart vs 'Version 6' of the crate cart. | 
+
+
+# Tue Jan 16 10:20:25 PM EST 2024
+
+## Budget
+
+Budget for version 6 of cart is in a Google Sheet [here](https://docs.google.com/spreadsheets/d/1dV4mSNsf8cY-mH3PaAkyZYb-PoDzQCdxSPLQtInJfig/edit?usp=sharing)
+
 
