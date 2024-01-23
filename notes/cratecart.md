@@ -53,15 +53,21 @@ Budget for version 6 of cart is in a Google Sheet [here](https://docs.google.com
 
 # Wed Jan 17 10:21:41 PM EST 2024
 
-![](/img/cratecart/c1.jpeg)
+Initial prototype:
+
+![](/img/cratecart/c5_mod.png)
 
 ![](/img/cratecart/c2.jpeg)
 
-![](/img/cratecart/c3.jpeg)
 
-![](/img/cratecart/c4.jpeg)
+# Tue Jan 23 06:23:23 PM EST 2024
 
-![](/img/cratecart/c5.jpeg)
+Notes on initial prototype:
 
-![](/img/cratecart/c6.jpeg)
- 
+- make a handle that can allow for 'stepping inside' and lifting straight-arm while walking forward
+- possible use of u-bolts to reduce number of drilled holes 
+
+![](/img/cratecart/ubolt1.jpeg)
+
+![](/img/cratecart/ubolt2.jpeg)
+
