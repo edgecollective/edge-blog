@@ -1,11 +1,11 @@
 ---
-pageTitle: Greenhouse temperature monitoring and control at Smithereen Farm (Maine, USA) 
+pageTitle: Greenhouse temperature monitoring 
 layout: layout.njk
 date: Last Modified
 updated: 2023-04-27
 tags: projects
 image: img/smithereen/smithereen_greenhouse.png
-blurb: Developing DIY greenhouse temperature monitoring and control systems for Smithereen Farm.
+blurb: Developing DIY greenhouse temperature monitoring and control systems in collaboration with  <a href="https://www.smithereenfarm.com/">Smithereen Farm</a>.
 ---
 
 ![](/img/smithereen/smithereen_greenhouse.png)

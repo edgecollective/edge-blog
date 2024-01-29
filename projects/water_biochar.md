@@ -1,11 +1,11 @@
 ---
-pageTitle: DIY Water treatment using biochar
+pageTitle: Biochar Water Filters 
 layout: layout.njk
 date: Last Modified 
 updated: Last Modified 
 tags: projects 
 image: /img/water/treatment.jpeg
-blurb: DIY techniques for filtering contaminants from drinking water (image credit, Josh Kearns) 
+blurb: DIY techniques for filtering contaminants from drinking water, based on the designs by <a href="https://www.aqsolutions.org/">Aqueous Solutions</a> and the work of <a href="https://joshkearns.substack.com/">Josh Kearns</a>.
 ---
 
 # Biochar and Decentralized Water Filtration

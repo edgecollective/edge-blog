@@ -491,4 +491,48 @@ Technique for adding industrial wheels
 
 Bezier curves in openscad [https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html](https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html)
 
+# Wed Jan 24 08:40:23 PM EST 2024
+
+The u-bolts that fit a 1/2" pipe are [here on Amazon](https://www.amazon.com/gp/product/B093SR9D7K)
+
+
+# Sat Jan 27 09:35:34 PM EST 2024
+
+Idea: use 'hose clamps' as part of the design -- to hold two pipes together (the 'arm' that connects the trailer to the bike), and also possibly to connect the dropouts to the pipe without the pointy bits of the ubolt sticking out:
+
+![](/img/transport/hose_clamp.jpg)
+
+20 for $9 [on Amazon](https://www.amazon.com/LOKMAN-Adjustable-Automotive-Mechanical-Applications/dp/B077R2PNVT)
+
+Idea: insert something high-friction (used bike tube, etc) under the clamp, to prevent rotation under torque.
+
+# Sun Jan 28 01:20:45 PM EST 2024
+
+U-bolts are used extensively in the telecom and utility industries for axial and twist restraint, where exterior-exposed structures with lots of pipe and round tube members exist.
+Always use lock washers or locking nuts. Don't oversize or undersize the clamping plate. You want a little bit of plate bend during U-bolt tightening.
+U-bolts are typically A36, HD galvanized.
+Use U-bolt pairs, as you get beneficial binding action (not counted for in calculation, but real).
+A reasonable approach is to use 30% of yield stress x net section of threads, and a low friction coefficient (like 0.3). This gives clamping (normal to pipe axis). For torque (twisting), F*d.
+Provide installation notes on your dwgs regarding range of installation torque. Structural engineers don't usually specify installation torque and threaded fasteners, but this is a good exception.
+
+-- from [here](https://www.eng-tips.com/viewthread.cfm?qid=329367#:~:text=RE%3A%20U%2DBolt%20rotational%20resistance,-ATSE%20(Structural)%2010&text=Always%20use%20lock%20washers%20or,bend%20during%20U%2Dbolt%20tightening.)
+
+![](/img/transport/ubolt_design.png)
+
+# Version 0.5
+
+Version sent to sendcutsend.com on 1/28/23:  [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/d70551e2d9acb613b94db4331c57283067620711/v_0.5](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/d70551e2d9acb613b94db4331c57283067620711/v_0.5)
+
+## ver 0.5 short
+
+![](/img/transport/ver_0.5_viz.png)
+
+![](/img/transport/ver_0.5.png)
+
+## ver 0.5 long
+
+![](/img/transport/ver_0.5_long_viz.png)
+
+![](/img/transport/ver_0.5_long.png)
+
 

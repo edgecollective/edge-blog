@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 updated: 2020-10-23
 tags: notes 
-image: /img/co2/rev_a_proto.jpeg
+image: /img/co2/co2_w_profile.png
 blurb: Notes on inexpensive CO2 monitoring options
 ---
 
