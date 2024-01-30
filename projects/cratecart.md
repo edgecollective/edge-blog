@@ -1,22 +1,24 @@
 ---
-pageTitle: Farm Carts
+pageTitle: Crate Carts for Small Farms
 layout: layout.njk
 date: Last Modified
 tags: projects
 image: img/cratecart/c2.jpeg
-blurb: Developing an easy-to-assemble, cart for transporting standard vegetable containers on farms, in collaboration with the <a href="https://www.youngfarmernight.org/">Young Farmer Network</a>.
+blurb: Developing an easy-to-assemble cart for transporting standard vegetable containers on small farms, in collaboration with the <a href="https://www.youngfarmernight.org/">Young Farmer Network</a>.
 ---
 
-# Overview
+# Background
 
-Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  proposed the idea of a DIY 'crate cart', to be used on small farms, that:
-- would be easy and inexpensive to construct and build from readily-available and/or recycled materials, with a minimum of specialized tools;
-- could accommodate typical crate sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables)); 
-- would have a wheel base that is wide enough to straddle common 30" vegetable beds.
+Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  proposed the idea of a DIY 'crate cart', to be used on small farms, that could:
+- accommodate common crate sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables));
+- straddle common 30" vegetable beds; and
+- be built easily and inexpensively from widely-available and/or recycled materials, with a minimum of specialized tools.
 
 In collaboration with Annie, we're working to develop a 'base design' for this cart that can easily be built in a workshop setting.
 
-Our current prototype design uses recycled bicycle wheels, electrical conduit, and some custom, open-source bicycle dropouts, with a materials cost is estimated to be between $100 and $150.  The custom dropout design can be ordered via one of several metal lasercutting services.
+# Current prototype
+
+Our current prototype uses recycled bicycle wheels, electrical conduit, and some custom, open-source bicycle dropouts, with a materials cost is estimated to be between $100 and $150.  The custom dropout design can be ordered via one of several metal lasercutting services.
 
 The carrying area on the cart is approximately 44" x 54" -- enough to accommodate 4 24"x20"x11" crates side-by-side (or 8 crates when stacked).
 
@@ -24,13 +26,31 @@ The carrying area on the cart is approximately 44" x 54" -- enough to accommodat
 
 ![](/img/cratecart/c2.jpeg)
 
+
+| ![](/img/cratecart/crate_crossy.png) |
+|:--:|
+| Footprint on cart of two typical crates used on small farms. Top (a): [24" x 20" x 11" Ventilated Container](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green); and bottom, (b): [23" x 7" x 15" Nursery Crate](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables) |
+
+| ![](/img/cratecart/cratecart_v6.png) |
+|:--:|
+| Version 6 of the crate cart design uses 5 pieces of 1/2" electrical conduit and one piece of 3/4" conduit. |
+
+| ![](/img/cratecart/garden_vs_cratecart.png) |
+|:--:|
+| The crate cart (right) has a significantly larger carrying capacity than a typical 'garden' cart (left) and can be built for less than 1/3 of the cost. | 
+
 # Associated skills and tools
 
-The special skills and processes associated with constructing the current prototype -- designing with, bending, and cutting metal pipe, and the fabrication of custom metal dropouts using a CAD program and a metal lasercutting service -- have appplications in other on-farm contexts, and are described in more detail below. 
+The skills and tools associated with constructing the current 'crate cart' prototype also have applications in other aspects of farming.
 
 ## Designing with, bending, and cutting metal pipe
 
-Electrical conduit is widely used in construction and is inexpensive to source in most locations.  The techniques required to design with, bend, and cut electrical conduit are also commonly used in the construction of low tunnels and hoop houses -- e.g. the [low tunnel](https://www.mofga.org/resources/season-extension/colemans-low-tunnels/) and [mobile hoop house](https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dwcbcbf786/assets/information/7300-qh-modular-moveable-gothic-cathedral-tunnel-instruction-manual.pdf) designs by Eliot Coleman.
+Electrical conduit is widely used in construction, and is inexpensive to source in most locations.  Designing with, bending, and cutting electrical conduit and other metal tubing is often used in the construction of low-cost low tunnels and hoop houses; see, for example, the [low tunnel](https://www.mofga.org/resources/season-extension/colemans-low-tunnels/) and [mobile hoop house](https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dwcbcbf786/assets/information/7300-qh-modular-moveable-gothic-cathedral-tunnel-instruction-manual.pdf) designs by Eliot Coleman, and the DIY designs produced by [bootstrapfarmer.com](https://www.bootstrapfarmer.com/blogs/building-a-greenhouse).
+
+| ![](/img/cratecart/coleman_double.png) |
+|:--:|
+| Learning to design with, bend, and cut electrical conduit and metal tubing can be useful when building a DIY low tunnel or hoop house, as in [this guide by Eliot Coleman](https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dwcbcbf786/assets/information/7300-qh-modular-moveable-gothic-cathedral-tunnel-instruction-manual.pdf). | 
+
 
 | ![](/img/transport/bender.png) |
 |:--:|
@@ -40,13 +60,16 @@ Electrical conduit is widely used in construction and is inexpensive to source i
 |:--:|
 | How to use a pipe bender: [https://www.youtube.com/watch?v=r3h97SfQYYI](https://www.youtube.com/watch?v=r3h97SfQYYI) |
 
-
-
 | ![](/img/cratecart/pipe_cutting.png) |
 |:--:|
 | Cutting electrical conduit using an inexpensive hand tool -- via [makerpipe.com](https://makerpipe.com/blogs/diy-modular-pipe/how-to-cut-emt-conduit) |
 
 ## Designing and producing the 2D lasercut metal dropouts
+
+The dropouts in this design are necessary to accommodate the bicycle wheels.  While dropouts can be cut from metal sheets 'manually' using an angle grinder or other tools, it is currently inexpensive and convenient to have them fabricated by a metal lasercutting service.
+
+Learning to use a CAD program to design a metal part, and/or ordering a part using an online fabrication service, are skills that can later be used to repair old farm equipment or create parts of new tools.  Organizations like [L'Atelier Paysan](https://www.latelierpaysan.org/English) have used lasercut metal parts as part of their tool building and development process for years.
+
 
 The 'dropouts' necessary for holding the bicycle wheels in place are lasercut steel;  they can be ordered by sending the open source design files to an online service such as [sendcutsend.com](https://sendcutsend.com/).  They were designed using a 2D CAD program called [openscad](https://openscad.org/).
 
@@ -66,27 +89,15 @@ The 'dropouts' necessary for holding the bicycle wheels in place are lasercut st
 |:--:|
 | **Long dropout**. [DXF file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_long.dxf?inline=false) (for production); [SCAD file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_long.scad?inline=false) (for reference or re-design) |
 
-Organizations like [L'Atelier Paysan](https://www.latelierpaysan.org/English) have used lasercut metal in their farm tool designs for years; learning how to order and/or design custom tools using this process can be a useful skill to acquire. 
-
-# Additional notes on the current design
-
-| ![](/img/cratecart/crate_crossy.png) |
+| ![](/img/cratecart/openscad_dropout.png) |
 |:--:|
-| Footprint on cart of two typical crates used on small farms. Top (a): [24" x 20" x 11" Ventilated Container](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green); and bottom, (b): [23" x 7" x 15" Nursery Crate](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables) |
+| [Openscad](https://openscad.org/) is one of several free and open source CAD programs that can be used to design parts that can later be fabricated by metal lasercutting services. A useful feature of 'parametric design' programs like Openscad is that designs can quickly and easily be scaled or modified in a programmatic fasion to accommodate new design ideas. |
 
-| ![](/img/cratecart/cratecart_v6.png) |
-|:--:|
-| Version 6 |
-
-| ![](/img/cratecart/garden_vs_cratecart.png) |
-|:--:|
-| Comparison of dimensions of the 'Vermont cart' (a commonly-used 'garden cart') and the 'DIY crate cart' design. | 
-
-# Ongoing development
+# Refinements and modifications
 
 We're currently working to improve the overall simplicity and structural integrity of the design. Areas we're reviewing include:
 
-## Using u-bolts instead of drilled holes and screws, where possible
+## Using u-bolts and metal straps instead of drilled holes and screws where possible
 
 We believe we can secure pipe cross-pieces using u-bolts, and avoiding finicky placement and alignment of drilled holes:
 
@@ -94,13 +105,13 @@ We believe we can secure pipe cross-pieces using u-bolts, and avoiding finicky p
 
 ![](/img/cratecart/ubolt2.jpeg)
 
-## More flexible dropout design
+## Flexible dropout design
 
-In "Version 0.5" of the dropouts, we've redesigned them to allow them to be secured to the cart frame using u-bolts or metal straps as well as screws.  
+We're redesigning the dropouts to allow them to be secured to the cart frame using u-bolts or metal straps as well as screws.
 
-The relevant openscad file is here:  [https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/d70551e2d9acb613b94db4331c57283067620711/v_0.5](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/d70551e2d9acb613b94db4331c57283067620711/v_0.5)
-
-![](/img/transport/ver_0.5.png)
+| ![](/img/cratecart/dropout_ver_0.6.png) |
+|:--:|
+| Version 0.6 of the dropout design.  The two smaller holes are for screw-based attachments;  the four larger holes are for u-bolts;  the two thin horizontal holes are for a metal strap.  The relevant openscad file is [here](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/tree/2539040d223595bdf64ecc884928b3a03084c031/v_0.6) |
 
 ## Redesigning the handle for increased ergonomics
 
