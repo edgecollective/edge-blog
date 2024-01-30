@@ -9,16 +9,25 @@ blurb: Developing an easy-to-assemble cart for transporting standard vegetable c
 
 # Background
 
-Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  proposed the idea of a DIY 'crate cart', to be used on small farms, that could:
+## The problem with garden carts
+
+Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  had described the challenge of using common 'garden carts' on small farms to transport vegetable crates:  the typical wood-based garden cart design seems to add unnecessary weight; the carts are too small to carry more than one or two crates;  and their wheel base is too small to straddle 30" vegetable beds.
+
+## A proposed crate cart design
+
+Annie proposed the idea of a DIY 'crate cart' design that would:
 - accommodate common crate sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables));
+- be lightweight;
 - straddle common 30" vegetable beds; and
-- be built easily and inexpensively from widely-available and/or recycled materials, with a minimum of specialized tools.
+- be constructed at low cost from widely-available and/or recycled materials, with a minimum of specialized tools.
 
-In collaboration with Annie, we're working to develop a 'base design' for this cart that can easily be built in a workshop setting.
+We've been working with Annie to develop a 'base design' for this cart that can easily be built in a workshop setting.
 
-# Current design
+# Current crate cart prototype
 
-Our current prototype uses recycled bicycle wheels, electrical conduit, and some custom, open-source bicycle dropouts, with a materials cost is estimated to be between $100 and $150.  The custom dropout design can be ordered via one of several metal lasercutting services.
+Our current prototype uses recycled bicycle wheels, electrical conduit, welded wire fencing, and a custom, open-source bicycle wheel dropout design, with an estimated materials cost between $100 and $150 (less than 1/3 the cost of widely-used, smaller commercial garden carts).  
+
+The custom dropouts used in this design can be ordered via one of several metal lasercutting services by submitting an open source dropout design file (see below). 
 
 The carrying area on the cart is approximately 44" x 54" -- enough to accommodate four 24"x20"x11" crates side-by-side (or eight crates when stacked).
 
@@ -31,19 +40,19 @@ The carrying area on the cart is approximately 44" x 54" -- enough to accommodat
 |:--:|
 | Footprint on cart of two typical crates used on small farms. Top (a): [24" x 20" x 11" Ventilated Container](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green); and bottom, (b): [23" x 7" x 15" Nursery Crate](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables) |
 
-| ![](/img/cratecart/cratecart_v6.png) |
-|:--:|
-| Version 6 of the crate cart design uses 5 pieces of 1/2" electrical conduit and one piece of 3/4" conduit. |
-
 | ![](/img/cratecart/garden_vs_cratecart.png) |
 |:--:|
 | The crate cart (right) has a significantly larger carrying capacity than a typical 'garden' cart (left) and can be built for less than 1/3 of the cost. | 
+
+| ![](/img/cratecart/cratecart_emt.png) |
+|:--:|
+| The current crate cart design uses 5 pieces of 1/2" electrical conduit and one piece of 3/4" conduit, and has a wheel base that can straddle 30" vegetable beds. |
 
 # Associated skills and tools
 
 The skills and tools associated with constructing the current 'crate cart' prototype also have applications in other aspects of farming.
 
-## Designing with, bending, and cutting metal pipe
+## Designing with, bending, & cutting metal tubing
 
 Electrical conduit is widely used in construction, and is inexpensive to source in most locations.  Designing with, bending, and cutting electrical conduit and other metal tubing is often used in the construction of low-cost low tunnels and hoop houses; see, for example, the [low tunnel](https://www.mofga.org/resources/season-extension/colemans-low-tunnels/) and [mobile hoop house](https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dwcbcbf786/assets/information/7300-qh-modular-moveable-gothic-cathedral-tunnel-instruction-manual.pdf) designs by Eliot Coleman, and the DIY designs produced by [bootstrapfarmer.com](https://www.bootstrapfarmer.com/blogs/building-a-greenhouse).
 
@@ -64,7 +73,7 @@ Electrical conduit is widely used in construction, and is inexpensive to source 
 |:--:|
 | Cutting electrical conduit using an inexpensive hand tool -- via [makerpipe.com](https://makerpipe.com/blogs/diy-modular-pipe/how-to-cut-emt-conduit) |
 
-## Designing and/or producing 2D laser-cut metal parts
+## Designing and fabricating 2D laser-cut metal parts
 
 The dropouts in this design are necessary to accommodate the bicycle wheels.  While dropouts can be cut from metal sheets 'manually' using an angle grinder or other tools, it is currently inexpensive and convenient to have them fabricated by a metal lasercutting service.
 
@@ -93,9 +102,11 @@ The 'dropouts' necessary for holding the bicycle wheels in place are lasercut st
 |:--:|
 | [Openscad](https://openscad.org/) is one of several free and open source CAD programs that can be used to design parts that can later be fabricated by metal lasercutting services. A useful feature of 'parametric design' programs like Openscad is that designs can quickly and easily be scaled or modified in a programmatic fasion to accommodate new design ideas. |
 
-# Refinements and modifications
+# Refinements of the design
 
-We're currently working to improve the overall simplicity and structural integrity of the design. Areas we're reviewing include:
+We're hoping to build some prototypes soon in a workshop setting with farmers in order to get useful feedback and design ideas.  Meanwhile, we're working to improve the overall simplicity and structural integrity of the crate design. 
+
+Areas we're reviewing include:
 
 ## Using u-bolts and metal straps instead of drilled holes and screws where possible
 
