@@ -16,11 +16,11 @@ Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  pr
 
 In collaboration with Annie, we're working to develop a 'base design' for this cart that can easily be built in a workshop setting.
 
-# Current prototype
+# Current design
 
 Our current prototype uses recycled bicycle wheels, electrical conduit, and some custom, open-source bicycle dropouts, with a materials cost is estimated to be between $100 and $150.  The custom dropout design can be ordered via one of several metal lasercutting services.
 
-The carrying area on the cart is approximately 44" x 54" -- enough to accommodate 4 24"x20"x11" crates side-by-side (or 8 crates when stacked).
+The carrying area on the cart is approximately 44" x 54" -- enough to accommodate four 24"x20"x11" crates side-by-side (or eight crates when stacked).
 
 ![](/img/cratecart/c5_mod.png)
 
@@ -64,7 +64,7 @@ Electrical conduit is widely used in construction, and is inexpensive to source 
 |:--:|
 | Cutting electrical conduit using an inexpensive hand tool -- via [makerpipe.com](https://makerpipe.com/blogs/diy-modular-pipe/how-to-cut-emt-conduit) |
 
-## Designing and producing the 2D lasercut metal dropouts
+## Designing and/or producing 2D laser-cut metal parts
 
 The dropouts in this design are necessary to accommodate the bicycle wheels.  While dropouts can be cut from metal sheets 'manually' using an angle grinder or other tools, it is currently inexpensive and convenient to have them fabricated by a metal lasercutting service.
 
@@ -75,7 +75,7 @@ The 'dropouts' necessary for holding the bicycle wheels in place are lasercut st
 
 | ![](/img/transport/wheel_closeup.jpg) |
 |:--:|
-| Closeup of the custom 'dropouts' for the cart.  The design files can be sent to a metal lasercutting service for production (details below).]
+| Closeup of the custom 'dropouts' for the cart.  The design files can be sent to a metal lasercutting service for production (details below). |
 
 | ![](/img/transport/dropouts_two.jpg) |
 |:--:|
