@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 tags: projects
 image: img/cratecart/c2.jpeg
-blurb: Developing an easy-to-assemble cart for transporting standard vegetable containers on small farms, in collaboration with the <a href="https://www.youngfarmernight.org/">Young Farmer Network</a>.
+blurb: Developing an easy-to-assemble cart for transporting standard vegetable containers on small farms, in collaboration with the Young Farmer Network. 
 ---
 
 ![](/img/cratecart/c2.jpeg)
