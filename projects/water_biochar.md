@@ -223,7 +223,14 @@ Standard Filtration Methods" [https://shelco.com/wp-content/uploads/2020/02/A-La
 
 # UV254 hardware
 
-[https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf)
+## Detector
+
+Photodiode: [https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf)
+
+## Emitter
+
+LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314)
+
 
 
 # Questions
