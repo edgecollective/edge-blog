@@ -5,7 +5,7 @@ date: Last Modified
 updated: Last Modified 
 tags: projects 
 image: /img/water/treatment.jpeg
-blurb: DIY techniques for filtering contaminants from drinking water, based on the designs by <a href="https://www.aqsolutions.org/">Aqueous Solutions</a> and the work of <a href="https://joshkearns.substack.com/">Josh Kearns</a>.
+blurb: DIY techniques for filtering contaminants from drinking water, based on the designs by Aqueous Solutions and the work of Dr. Josh Kearns.
 ---
 
 # Biochar and Decentralized Water Filtration
@@ -83,7 +83,9 @@ In the below video, Kearns describes the project while demonstrating a smaller-s
 
 Simple Labs offers [useful information on disinfection byproducts in drinking water](https://mytapscore.com/blogs/tips-for-taps/disinfection-byproducts-the-adverse-effects-of-water-chlorination) and offers a [VOC Water Test for $140](https://mytapscore.com/products/volatile-organic-compounds-water-test).
 
-# Miscellaneous
+---
+
+# Miscellaneous notes
 
 - Kearns et al 2015 suggest that MIB content in water, detectable by human nose at low levels, might be a DIY way of indicating exhaustion of biochar material.
 
@@ -213,6 +215,21 @@ But are DOMs useful sentinels, too?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k2eZ72n5uaE?si=RJ2tqJ35-LU3UUuv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Nice review of using activated carbon filters: [https://extensionpublications.unl.edu/publication/g1489/pdf/view/g1489-2013.pdf](https://extensionpublications.unl.edu/publication/g1489/pdf/view/g1489-2013.pdf)
+
+'what is dissolved organic matter' [https://www.usgs.gov/labs/organic-matter-research-laboratory/what-organic-matter-0](https://www.usgs.gov/labs/organic-matter-research-laboratory/what-organic-matter-0)
+
+"A Layman’s Guide to Inorganic and Organic Contaminant Removal by
+Standard Filtration Methods" [https://shelco.com/wp-content/uploads/2020/02/A-Laymans-Guide-to-Inorganic-and-Organic-Contaminent-Removal-by-Standard-Filtration-Methods.pdf](https://shelco.com/wp-content/uploads/2020/02/A-Laymans-Guide-to-Inorganic-and-Organic-Contaminent-Removal-by-Standard-Filtration-Methods.pdf)
+
+# UV254 hardware
+
+[https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf)
+
+
+# Questions
+
+Is there an easy measurement that could be used as a proxy / sentinel for filter performance?  E.g. the addition of DOM, and then an assessment via UVA254?
+
 
 
 

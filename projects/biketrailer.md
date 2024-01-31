@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 tags: projects
 image: img/transport/full_system.jpeg
-blurb: Developing an easy-to-assemble, low-cost bike trailer design, in collaboration with the <a href="https://somervillebikekitchen.org/">Somerville Bike Kitchen</a>.
+blurb: Developing an easy-to-assemble, low-cost bike trailer design, in collaboration with the Somerville Bike Kitchen.
 ---
 
 ![](/img/transport/trailer_assembled.jpg)

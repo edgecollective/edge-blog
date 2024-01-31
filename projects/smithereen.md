@@ -5,7 +5,7 @@ date: Last Modified
 updated: 2023-04-27
 tags: projects
 image: img/smithereen/smithereen_greenhouse.png
-blurb: Developing DIY greenhouse temperature monitoring and control systems in collaboration with  <a href="https://www.smithereenfarm.com/">Smithereen Farm</a>.
+blurb: Developing DIY greenhouse temperature monitoring and control systems in collaboration with Smithereen Farm.
 ---
 
 ![](/img/smithereen/smithereen_greenhouse.png)

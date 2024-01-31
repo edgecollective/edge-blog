@@ -5,7 +5,7 @@ date: Last Modified
 tags: projects
 updated: 2023-02-22
 image: /img/ojofeliz/twintowers.jpeg
-blurb: Developing a satellite modem-based water level monitoring system in collaboration with <a href="https://www.grassnomads.com/">Grass Nomads<a/> and supported by the <a href="https://lorfoundation.org/">LOR Foundation</a>.  
+blurb: Developing a satellite modem-based water level monitoring system in collaboration with Grass Nomads LLC and supported by the LOR Foundation.  
 ---
 
 ---
