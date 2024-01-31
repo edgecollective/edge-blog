@@ -7,23 +7,22 @@ image: img/cratecart/c2.jpeg
 blurb: Developing an easy-to-assemble cart for transporting standard vegetable containers on small farms, in collaboration with the <a href="https://www.youngfarmernight.org/">Young Farmer Network</a>.
 ---
 
+![](/img/cratecart/c2.jpeg)
+
 # Background
 
-## The problem with garden carts
+Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/) 
+had the idea for an improved, DIY version of the 'garden carts' that are often used on small farms to transport crates of vegetables.  Typical garden carts are too small to carry more than one or two crates at a time, and have a wood-based design that seems unnecessarily heavy. They have a wheel base that is too narrow to be used on farms with the  30" vegetable beds.
 
-Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/)  had described the challenge of using common 'garden carts' on small farms to transport vegetable crates:  the typical wood-based garden cart design seems to add unnecessary weight; the carts are too small to carry more than one or two crates;  and their wheel base is too small to straddle 30" vegetable beds.
-
-## A proposed crate cart design
-
-Annie proposed the idea of a DIY 'crate cart' design that would:
-- accommodate common crate sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables));
+Annie proposed a 'crate cart' design that could:
+- accommodate four (or, when stacked, 8) crates of the sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables));
 - be lightweight;
 - straddle common 30" vegetable beds; and
 - be constructed at low cost from widely-available and/or recycled materials, with a minimum of specialized tools.
 
-We've been working with Annie to develop a 'base design' for this cart that can easily be built in a workshop setting.
+We've been working with Annie to develop an initial version of this cart that can easily be built in a workshop setting.
 
-# Current crate cart prototype
+# Current design
 
 Our current prototype uses recycled bicycle wheels, electrical conduit, welded wire fencing, and a custom, open-source bicycle wheel dropout design, with an estimated materials cost between $100 and $150 (less than 1/3 the cost of widely-used, smaller commercial garden carts).  
 
@@ -31,10 +30,11 @@ The custom dropouts used in this design can be ordered via one of several metal 
 
 The carrying area on the cart is approximately 44" x 54" -- enough to accommodate four 24"x20"x11" crates side-by-side (or eight crates when stacked).
 
+![](/img/cratecart/cratecart_today.jpeg)
+
 ![](/img/cratecart/c5_mod.png)
 
 ![](/img/cratecart/c2.jpeg)
-
 
 | ![](/img/cratecart/crate_crossy.png) |
 |:--:|
@@ -48,7 +48,38 @@ The carrying area on the cart is approximately 44" x 54" -- enough to accommodat
 |:--:|
 | The current crate cart design uses 5 pieces of 1/2" electrical conduit and one piece of 3/4" conduit, and has a wheel base that can straddle 30" vegetable beds. |
 
-# Associated skills and tools
+# Materials
+
+## Electrical conduit
+
+| ![](/img/transport/conduit.png) |
+|:--:|
+|  Five 10-foot lengths of 1/2" metal 'emt' electrical conduit (@ [$7 ea from Home Depot](https://www.homedepot.com/p/1-2-in-x-10-ft-Electric-Metallic-Tube-EMT-Conduit-853428/100400405)) = $35; one 10-foot length of 3/4" conduit is $12.  |
+
+## U-bolts and screws
+
+| ![](/img/cratecart/ubolt.jpg) | 
+|:--:|
+| 20 mm u-bolts can be found for [$2.50 ea](https://www.amazon.com/uxcell-Round-U-Bolt-Length-Washer/dp/B093SR9D7K) |
+
+| ![](/img/transport/two_point_five.png) |
+|:--:|
+| Eight #10-24 x 2" bolts, with nuts ([4 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231)) = $3; Five #10-24 x 2.5" bolts, with nuts ([2 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-1-2-in-Stainless-Steel-Combo-Round-Head-Machine-Screw-2-Pack-814361/204274802)) = $5 |
+
+## Dropouts to hold the bicycle wheels
+
+The recycled bicycle wheels used on the cart are held on using custom 'dropouts'.  While these could be fashioned 'by hand', we have developed an open source design for metal dropouts that can be ordered from one of several online metal lasercutting services (see section on 'dropouts' below).
+
+| ![](/img/transport/wheel_closeup.jpg) |
+|:--:|
+| Closeup of the custom 'dropouts' for the cart.  The design files can be sent to a metal lasercutting service for production (details below). |
+
+| ![](/img/transport/dropouts_two.jpg) |
+|:--:|
+| Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from [sendcutsend.com](https://sendcutsend.com) (see below for design and ordering details) = $13 |
+
+
+# Required skills and tools
 
 The skills and tools associated with constructing the current 'crate cart' prototype also have applications in other aspects of farming.
 
@@ -82,14 +113,6 @@ Learning to use a CAD program to design a metal part, and/or ordering a part usi
 
 The 'dropouts' necessary for holding the bicycle wheels in place are lasercut steel;  they can be ordered by sending the open source design files to an online service such as [sendcutsend.com](https://sendcutsend.com/).  They were designed using a 2D CAD program called [openscad](https://openscad.org/).
 
-| ![](/img/transport/wheel_closeup.jpg) |
-|:--:|
-| Closeup of the custom 'dropouts' for the cart.  The design files can be sent to a metal lasercutting service for production (details below). |
-
-| ![](/img/transport/dropouts_two.jpg) |
-|:--:|
-| Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from [sendcutsend.com](https://sendcutsend.com) (see below for design and ordering details) = $13 |
-
 | ![](/img/transport/shorty.png) |
 |:--:|
 | **Short dropout**. [DXF file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_short.dxf?inline=false) (for production); [SCAD file](https://gitlab.com/edgecollective/bike-trailer-dropouts/-/raw/f21a3fa739245bb51466d63d18eab6291da84101/v_0.3/ver_0.3_wide_short.scad?inline=false) (for reference or re-design) |
@@ -102,7 +125,7 @@ The 'dropouts' necessary for holding the bicycle wheels in place are lasercut st
 |:--:|
 | [Openscad](https://openscad.org/) is one of several free and open source CAD programs that can be used to design parts that can later be fabricated by metal lasercutting services. A useful feature of 'parametric design' programs like Openscad is that designs can quickly and easily be scaled or modified in a programmatic fasion to accommodate new design ideas. |
 
-# Refinements of the design
+# Planned improvements
 
 We're hoping to build some prototypes soon in a workshop setting with farmers in order to get useful feedback and design ideas.  Meanwhile, we're working to improve the overall simplicity and structural integrity of the crate design. 
 

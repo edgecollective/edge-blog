@@ -119,4 +119,96 @@ On permies:
 |:--:|
 | 10 L Biochar Adbsorber container, [paper](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)  from Kearns et al, 'Adaptable Community Particaptory Design...'i, Water Security 2023  |
 
+# Tue Jan 30 03:18:34 PM EST 2024
+
+activated carbon experiment [https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p108/chemistry/which-filtration-material-leads-to-the-best-drinking-water](https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p108/chemistry/which-filtration-material-leads-to-the-best-drinking-water)
+
+SEM analysis of activated carbon [https://www.researchgate.net/publication/234060484_Performance_of_activated_carbon_in_water_filters](https://www.researchgate.net/publication/234060484_Performance_of_activated_carbon_in_water_filters) -- mentions THM. 
+
+[https://www.youtube.com/watch?v=BtLAHLflngY](https://www.youtube.com/watch?v=BtLAHLflngY) -- Methylene-blue is a standard proof of performance
+
+"High adsorption capacity of phenol and methylene blue using activated carbon derived from lignocellulosic agriculture wastes"  [https://www.nature.com/articles/s41598-022-09475-4](https://www.nature.com/articles/s41598-022-09475-4) 
+
+"Optimizing biochar adsorption relative to activated carbon in water treatment" [https://www.sciencedirect.com/science/article/abs/pii/B9780128222256000166](https://www.sciencedirect.com/science/article/abs/pii/B9780128222256000166) -- huge article, and journal! 
+
+Scott Summers @ UC Boulder [https://www.colorado.edu/even/r-scott-summers](https://www.colorado.edu/even/r-scott-summers)
+
+Book! [https://www.sciencedirect.com/book/9780128222256/sustainable-biochar-for-water-and-wastewater-treatment](https://www.sciencedirect.com/book/9780128222256/sustainable-biochar-for-water-and-wastewater-treatment)
+
+" Biochar technology in wastewater treatment: A critical review" -- [https://www.sciencedirect.com/science/article/abs/pii/S0045653520307323#:~:text=Biochar%20can%20be%20used%20as,organic%20contaminants%2C%20nitrogen%20and%20phosphorus.]( https://www.sciencedirect.com/science/article/abs/pii/S0045653520307323#:~:text=Biochar%20can%20be%20used%20as,organic%20contaminants%2C%20nitrogen%20and%20phosphorus.) 
+
+"Recent advances in biochar application for water and wastewater treatment: a review"  [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7243815/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7243815/)
+
+"https://www.sciencedirect.com/science/article/abs/pii/S030147971730302X" [https://www.sciencedirect.com/science/article/abs/pii/S030147971730302X](https://www.sciencedirect.com/science/article/abs/pii/S030147971730302X)
+
+Great collection of papers comes up here: [https://www.google.com/search?q=low-cost+assessment+of+biochar+adsorption+water+treatment&oq=low-cost+assessment+of+biochar+adsorption+water+treatment&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCTE0MTU1ajBqN6gCALACAA&client=ubuntu-chr&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=low-cost+assessment+of+biochar+adsorption+water+treatment&oq=low-cost+assessment+of+biochar+adsorption+water+treatment&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCTE0MTU1ajBqN6gCALACAA&client=ubuntu-chr&sourceid=chrome&ie=UTF-8)
+
+UVA Surrogate monitoring!  [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173)
+
+[https://watereuse.org/watereuse-research/03-14-development-of-indicators-and-surrogate-for-chemical-contaminant/](https://watereuse.org/watereuse-research/03-14-development-of-indicators-and-surrogate-for-chemical-contaminant/)
+
+"Leveraging DOM UV absorbance and fluorescence to accurately predict and monitor short-chain PFAS removal by fixed-bed carbon adsorbers" [https://www.sciencedirect.com/science/article/abs/pii/S0043135422001099](https://www.sciencedirect.com/science/article/abs/pii/S0043135422001099)
+
+[https://www.researchgate.net/publication/347537734_Biochar_Water_Treatment_for_Control_of_Organic_Micropollutants_with_UVA_Surrogate_Monitoring](https://www.researchgate.net/publication/347537734_Biochar_Water_Treatment_for_Control_of_Organic_Micropollutants_with_UVA_Surrogate_Monitoring)
+
+UV 254 [https://cfpub.epa.gov/si/si_public_record_Report.cfm?Lab=ORD&dirEntryID=46892](https://cfpub.epa.gov/si/si_public_record_Report.cfm?Lab=ORD&dirEntryID=46892)
+
+[https://chemistry.stackexchange.com/questions/70434/diy-spectrometers-limits-as-a-water-quality-sensor](https://chemistry.stackexchange.com/questions/70434/diy-spectrometers-limits-as-a-water-quality-sensor)
+
+[https://www.hach.com/p-dr6000-uv-vis-spectrophotometer-with-rfid-technology/LPV441.99.00012](https://www.hach.com/p-dr6000-uv-vis-spectrophotometer-with-rfid-technology/LPV441.99.00012)
+
+"A quick test method for predicting the adsorption of organic micropollutants on activated carbon"  [https://www.sciencedirect.com/science/article/abs/pii/S0043135422011629](https://www.sciencedirect.com/science/article/abs/pii/S0043135422011629)
+
+uv254 realtech [https://pentairaes.com/real-tech-uv254-field-meter](https://pentairaes.com/real-tech-uv254-field-meter)
+
+[https://www.researchgate.net/publication/340722498_A_Portable_Sensor_System_for_Measurement_of_Fluorescence_Indices_of_Water_Samples](https://www.researchgate.net/publication/340722498_A_Portable_Sensor_System_for_Measurement_of_Fluorescence_Indices_of_Water_Samples)
+
+uv sensors! [https://www.sparkfun.com/news/8955](https://www.sparkfun.com/news/8955)
+
+datasheet for uv sensor [https://cdn.sparkfun.com/assets/b/8/6/d/2/AS7331_DS001047_4-00.pdf?_gl=1*1vp17xj*_ga*MTAxODA3MzExMC4xNzAyMzMxMzQx*_ga_T369JS7J9N*MTcwNjY1MDM1MC41LjEuMTcwNjY1MDQxMS42MC4wLjA.](https://cdn.sparkfun.com/assets/b/8/6/d/2/AS7331_DS001047_4-00.pdf?_gl=1*1vp17xj*_ga*MTAxODA3MzExMC4xNzAyMzMxMzQx*_ga_T369JS7J9N*MTcwNjY1MDM1MC41LjEuMTcwNjY1MDQxMS42MC4wLjA.)
+
+"uv254nm is an excellent surrogate parameter" [https://www.jstor.org/stable/41272390](https://www.jstor.org/stable/41272390)
+
+uv254nm lamp for $17 [https://www.amazon.com/BAIMNOCM-Germicidal-Sanitizer-Light-Ozone/dp/B0BW3QYHHP/ref=sr_1_2_sspa?hvadid=616863302151&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=e&hvrand=14612800316989672476&hvtargid=kwd-326749077052&hydadcr=24660_13611807&keywords=254%2Bnm%2Buv%2Blight&qid=1706651572&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1](https://www.amazon.com/BAIMNOCM-Germicidal-Sanitizer-Light-Ozone/dp/B0BW3QYHHP/ref=sr_1_2_sspa?hvadid=616863302151&hvdev=c&hvlocphy=9001876&hvnetw=g&hvqmt=e&hvrand=14612800316989672476&hvtargid=kwd-326749077052&hydadcr=24660_13611807&keywords=254%2Bnm%2Buv%2Blight&qid=1706651572&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
+
+"UV254 absorbance as real-time monitoring and control parameter for micropollutant removal in advanced wastewater treatment with powdered activated carbon" [https://pubmed.ncbi.nlm.nih.gov/26963606/](https://pubmed.ncbi.nlm.nih.gov/26963606/)
+
+Good review of UV254 -- 
+[https://assets.thermofisher.com/TFS-Assets/LPD/Application-Notes/UVA%20Measurements%20App%20Note%20033%20AN-UVMEASUREMENTS-E%20Rev%20A%201020%20Web.pdf](https://assets.thermofisher.com/TFS-Assets/LPD/Application-Notes/UVA%20Measurements%20App%20Note%20033%20AN-UVMEASUREMENTS-E%20Rev%20A%201020%20Web.pdf)
+
+Quartz cell for spectrophotometer -- $10 ea -- [https://www.amazon.com/QWORK-Cuvettes-Absorption-Spectrometer-Absorbance/dp/B085VWLRTB/ref=pd_day0_d_sccl_3_2/137-3207617-0578052?pd_rd_w=GXI6p&content-id=amzn1.sym.8ca997d7-1ea0-4c8f-9e14-a6d756b83e30&pf_rd_p=8ca997d7-1ea0-4c8f-9e14-a6d756b83e30&pf_rd_r=GAQNCADP0ZFG2CQY7M3J&pd_rd_wg=8nbdQ&pd_rd_r=ed726004-4614-43a8-8d25-4f57dab17e20&pd_rd_i=B085VWLRTB&th=1](https://www.amazon.com/QWORK-Cuvettes-Absorption-Spectrometer-Absorbance/dp/B085VWLRTB/ref=pd_day0_d_sccl_3_2/137-3207617-0578052?pd_rd_w=GXI6p&content-id=amzn1.sym.8ca997d7-1ea0-4c8f-9e14-a6d756b83e30&pf_rd_p=8ca997d7-1ea0-4c8f-9e14-a6d756b83e30&pf_rd_r=GAQNCADP0ZFG2CQY7M3J&pd_rd_wg=8nbdQ&pd_rd_r=ed726004-4614-43a8-8d25-4f57dab17e20&pd_rd_i=B085VWLRTB&th=1) 
+
+Guide to cuvettes: [https://spectrecology.com/blog/guide-to-cuvettes/](https://spectrecology.com/blog/guide-to-cuvettes/)
+
+Board design for a spectrophotometer [https://github.com/HemanthSabbella/pointSpectra](https://github.com/HemanthSabbella/pointSpectra)
+
+[pdf of kearns et al 2020 biochar uva surrogate monitoring](/img/biochar/Biochar_Water_Treatment_for_Control_of_Organic_Mic.pdf)
+
+[Kearns presentation 2016](https://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf)
+
+| ![](/img/biochar/field_monitoring_surrogates.png) |
+|:--:|
+| via [Kearns 2014](https://wedc-knowledge.lboro.ac.uk/resources/conference/37/Kearns-1859.pdf) |
+
+"Leveraging DOM UV absorbance and fluorescence to accurately predict and monitor short-chain PFAS removal by fixed-bed carbon adsorbers"
+
+[https://pubmed.ncbi.nlm.nih.gov/35167965/](https://pubmed.ncbi.nlm.nih.gov/35167965/)
+
+Note on logic here:
+- DOM fouling is a primary mechanism responsible for reducing biochar filter effectiveness
+- UV254 is a reliable way of detecting presence of DOM
+
+But are DOMs useful sentinels, too?
+
+"Evaluation of Two Real Time Methods for Assessing THM Precursor Concentrations" [https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1100&context=cee_ewre](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1100&context=cee_ewre)
+
+[https://www.linkedin.com/in/griffin-moriarty-632bb2a9/](https://www.linkedin.com/in/griffin-moriarty-632bb2a9/)  
+  
+
+
+
+ 
+
+
+
 
