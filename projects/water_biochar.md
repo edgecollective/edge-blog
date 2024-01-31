@@ -202,7 +202,21 @@ But are DOMs useful sentinels, too?
 
 "Evaluation of Two Real Time Methods for Assessing THM Precursor Concentrations" [https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1100&context=cee_ewre](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1100&context=cee_ewre)
 
-[https://www.linkedin.com/in/griffin-moriarty-632bb2a9/](https://www.linkedin.com/in/griffin-moriarty-632bb2a9/)  
+[https://www.linkedin.com/in/griffin-moriarty-632bb2a9/](https://www.linkedin.com/in/griffin-moriarty-632bb2a9/)
+
+"A review of mechanism and adsorption capacities of biochar-based engineered composites for removing aquatic pollutants from contaminated water" [https://www.frontiersin.org/articles/10.3389/fenvs.2022.1035865/full](https://www.frontiersin.org/articles/10.3389/fenvs.2022.1035865/full) -- useful re: ability of biochar to handle various contaminants -- interesting that 'fast' pyrolosis and 'slow' pyrolosis yield filters optimized for different contaminants 
+
+"internally modified pyrolysis" -- a way of improving biochar characteristics -- [https://link.springer.com/article/10.1007/s44246-022-00007-3](https://link.springer.com/article/10.1007/s44246-022-00007-3) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fVt6rgr4nJI?si=JWfHQ-690Y7XhujE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2eZ72n5uaE?si=RJ2tqJ35-LU3UUuv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Nice review of using activated carbon filters: [https://extensionpublications.unl.edu/publication/g1489/pdf/view/g1489-2013.pdf](https://extensionpublications.unl.edu/publication/g1489/pdf/view/g1489-2013.pdf)
+
+
+
+  
   
 
 

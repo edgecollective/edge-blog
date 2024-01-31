@@ -12,25 +12,29 @@ blurb: Developing an easy-to-assemble cart for transporting standard vegetable c
 # Background
 
 Annie Bayer of the [Young Farmer Network](https://www.youngfarmernight.org/) 
-had the idea for an improved, DIY version of the 'garden carts' that are often used on small farms to transport crates of vegetables.  Typical garden carts are too small to carry more than one or two crates at a time, and have a wood-based design that seems unnecessarily heavy. They have a wheel base that is too narrow to be used on farms with the  30" vegetable beds.
+had the idea for an improved, DIY version of the 'garden carts' that are often used on small farms to transport crates of vegetables.  Typical garden carts:
+- seem overly expensive (often costing upwards of $500);
+- are too small to carry more than one or two crates at a time;
+- use a wood-based design that seems unnecessarily heavy; 
+- have a wheel base that is too narrow to be used on farms with 30" vegetable beds.
 
-Annie proposed a 'crate cart' design that could:
+Annie proposed a DIY 'crate cart' design that could:
 - accommodate four (or, when stacked, 8) crates of the sizes used on small farms (e.g. [24" x 20" x 11"](https://www.uline.com/Product/Detail/S-24138G/Stack-and-Nest-Containers/Ventilated-Stack-and-Nest-Container-24-x-20-x-11-Green) and [23" x 7" x 15"](https://caribbeangardenseed.com/products/stackable-black-plastic-nursery-crate-1crate-great-for-harvesting-vegetables));
 - be lightweight;
 - straddle common 30" vegetable beds; and
 - be constructed at low cost from widely-available and/or recycled materials, with a minimum of specialized tools.
 
-We've been working with Annie to develop an initial version of this cart.
+We've been working with Annie to develop an initial version of this cart, with an estimated materials cost of approximately $120 (less than 1/3 the cost of a commercial garden cart). 
 
-Below, we present an overview of the current design, while also highlighting some particular fabrication skills employed in the process of building the cart that might be more broadly useful in a small farm setting. 
+The tools and skills required to build the our current cart design -- i.e., designing with, bending, and cutting metal tubing, as well as the fabrication of small metal parts -- have more general application in farming, including the design and construction of DIY low tunnels, hoop houses, and even mobile chicken coops.
 
 # Current design
 
+Our current prototype uses recycled bicycle wheels, electrical conduit, welded wire fencing, and a custom, open-source bicycle wheel dropout design, with an estimated materials cost approximately $120.
+
 ![](/img/cratecart/cratecart_today.jpeg)
-
-Our current prototype uses recycled bicycle wheels, electrical conduit, welded wire fencing, and a custom, open-source bicycle wheel dropout design, with an estimated materials cost between $100 and $150 (less than 1/3 the cost of widely-used, smaller commercial garden carts).  
-
-The custom dropouts used in this design can be ordered via one of several metal lasercutting services by submitting an open source dropout design file (see below). 
+ 
+The custom wheel dropouts used in this design can be ordered via one of several metal lasercutting services by submitting an open source dropout design file (see below). 
 
 ![](/img/cratecart/c5_mod.png)
 
