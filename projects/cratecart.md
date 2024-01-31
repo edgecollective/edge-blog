@@ -50,6 +50,12 @@ The carrying area on the cart is approximately 44" x 54" -- enough to accommodat
 
 # Materials
 
+## Recycled bicycle wheels
+
+| ![](/img/cratecart/wheelz.jpg) |
+|:--:|
+| This crate cart design accommodates 26" inch or smaller bicycle wheels.  The wheels will be attached to dropouts on the cart, just as on a bicycle. |
+
 ## Electrical conduit
 
 | ![](/img/transport/conduit.png) |
@@ -66,6 +72,12 @@ The carrying area on the cart is approximately 44" x 54" -- enough to accommodat
 |:--:|
 | Eight #10-24 x 2" bolts, with nuts ([4 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-in-Combo-Round-Head-Zinc-Plated-Machine-Screw-4-Pack-803231)) = $3; Five #10-24 x 2.5" bolts, with nuts ([2 for $1.38 at Home Depot](https://www.homedepot.com/p/Everbilt-10-24-x-2-1-2-in-Stainless-Steel-Combo-Round-Head-Machine-Screw-2-Pack-814361/204274802)) = $5 |
 
+## Welded wire
+
+| ![](/img/cratecart/welded_wire.png) |
+|:--:|
+| A 50 ft roll of four-foot welded wire fencing [sells for around $72](https://www.homedepot.com/p/YARDGARD-4-ft-x-50-ft-16-Gauge-Economy-Welded-Wire-Fence-308362B/309868847); for our cart design, we only need about $3 worth. |
+
 ## Dropouts to hold the bicycle wheels
 
 The recycled bicycle wheels used on the cart are held on using custom 'dropouts'.  While these could be fashioned 'by hand', we have developed an open source design for metal dropouts that can be ordered from one of several online metal lasercutting services (see section on 'dropouts' below).
@@ -78,8 +90,25 @@ The recycled bicycle wheels used on the cart are held on using custom 'dropouts'
 |:--:|
 | Two 'short' dropouts (@ $3 ea) and two 'long' dropouts (@ $3.30 ea) from [sendcutsend.com](https://sendcutsend.com) (see below for design and ordering details) = $13 |
 
+# Common tools required
 
-# Required skills and tools
+| ![](/img/transport/drill.png) |
+|:--:|
+| Phillips-head screwdriver |
+
+| ![](/img/transport/drill_bit.png) |
+|:--:|
+| 11/64" drill bit |
+
+| ![](/img/transport/phillips.png) |
+|:--:|
+| Phillips-head screwdriver |
+
+| ![](/img/transport/pliers.png) |
+|:--:|
+| Pliers |
+
+# Special skills and tools required
 
 The skills and tools associated with constructing the current 'crate cart' prototype also have applications in other aspects of farming.
 
