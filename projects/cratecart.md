@@ -20,19 +20,21 @@ Annie proposed a 'crate cart' design that could:
 - straddle common 30" vegetable beds; and
 - be constructed at low cost from widely-available and/or recycled materials, with a minimum of specialized tools.
 
-We've been working with Annie to develop an initial version of this cart that can easily be built in a workshop setting.
+We've been working with Annie to develop an initial version of this cart.
+
+Below, we present an overview of the current design, while also highlighting some particular fabrication skills employed in the process of building the cart that might be more broadly useful in a small farm setting. 
 
 # Current design
+
+![](/img/cratecart/cratecart_today.jpeg)
 
 Our current prototype uses recycled bicycle wheels, electrical conduit, welded wire fencing, and a custom, open-source bicycle wheel dropout design, with an estimated materials cost between $100 and $150 (less than 1/3 the cost of widely-used, smaller commercial garden carts).  
 
 The custom dropouts used in this design can be ordered via one of several metal lasercutting services by submitting an open source dropout design file (see below). 
 
-The carrying area on the cart is approximately 44" x 54" -- enough to accommodate four 24"x20"x11" crates side-by-side (or eight crates when stacked).
-
-![](/img/cratecart/cratecart_today.jpeg)
-
 ![](/img/cratecart/c5_mod.png)
+
+The carrying area on the cart is approximately 44" x 54" -- enough to accommodate four 24"x20"x11" crates side-by-side (or eight crates when stacked).
 
 ![](/img/cratecart/c2.jpeg)
 
