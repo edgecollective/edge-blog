@@ -223,9 +223,48 @@ Standard Filtration Methods" [https://shelco.com/wp-content/uploads/2020/02/A-La
 
 # UV254 hardware
 
+General notes on spectrophotometers:
+
+[https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Instrumental_Analysis_(LibreTexts)/13%3A_Introduction_to_Ultraviolet_Visible_Absorption_Spectrometry/13.4%3A_Instrumentation](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Instrumental_Analysis_(LibreTexts)/13%3A_Introduction_to_Ultraviolet_Visible_Absorption_Spectrometry/13.4%3A_Instrumentation)
+
+[https://scienceinfo.com/single-beam-spectrophotometer-limitations/](https://scienceinfo.com/single-beam-spectrophotometer-limitations/)
+
+"Viking Spectrophotometer: A Home-Built, Simple, and Cost-Efficient Absorption and Fluorescence Spectrophotometer for Education in Chemistry" 
+[https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00679](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00679)
+
+J Feng and H King [https://www.hardware-x.com/article/S2468-0672%2821%2900071-7/fulltext](https://www.hardware-x.com/article/S2468-0672%2821%2900071-7/fulltext)
+
+"3D-Printable and open-source modular smartphone visible spectrophotometer": 
+[https://www.sciencedirect.com/science/article/pii/S2468067221000614](https://www.sciencedirect.com/science/article/pii/S2468067221000614)
+
+"An Open-Source, Miniature UV to NIR Spectrophotometer for Measuring the Transmittance of Liquid Materials" 
+[https://www.researchgate.net/publication/359086459_An_Open-Source_Miniature_UV_to_NIR_Spectrophotometer_for_Measuring_the_Transmittance_of_Liquid_Materials](https://www.researchgate.net/publication/359086459_An_Open-Source_Miniature_UV_to_NIR_Spectrophotometer_for_Measuring_the_Transmittance_of_Liquid_Materials) -- seems like an easy place to start!
+
+DIY Nanodrop (with lasercut parts): [https://hackteria.org/wiki/DIY_Microvolume_Spectrophotometers](https://hackteria.org/wiki/DIY_Microvolume_Spectrophotometers)
+
+"A 3D-Printable Dual Beam Spectrophotometer with Multiplatform
+Smartphone Adaptor" [https://par.nsf.gov/servlets/purl/10148685](https://par.nsf.gov/servlets/purl/10148685)
+
+"An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" Most relevant design thus far!  [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/) <--- this is a beautiful paper to emulate!
+
+
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gon73KoAi8w?si=GX_x0uAgkvgo8hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## Detector
 
 Photodiode: [https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf)
+
+Sparkfun breakout board for AS7331: [https://www.sparkfun.com/products/23517?gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZ0rMOYJ3sqizSce7bVOrrJUFEMaHffxDSub0H7Rq_2bmHRRj6onYZxoCM0IQAvD_BwE](https://www.sparkfun.com/products/23517?gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZ0rMOYJ3sqizSce7bVOrrJUFEMaHffxDSub0H7Rq_2bmHRRj6onYZxoCM0IQAvD_BwE)
+
+Associated AS7331 sensor chip datasheet [https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS7331-AQFM-OLGA16-LF-T-R/16983751](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS7331-AQFM-OLGA16-LF-T-R/16983751)
+
 
 ## Emitter
 
