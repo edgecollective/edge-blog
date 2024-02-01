@@ -7,10 +7,6 @@ image: img/cratecart/c2.jpeg
 blurb: Developing an easy-to-assemble cart for transporting standard vegetable containers on small farms, in collaboration with the Young Farmer Network. 
 ---
 
-![](/img/cratecart/crate_angle.png)
-
-![](/img/cratecart/cratecart_today.jpeg)
-
 ![](/img/cratecart/c2.jpeg)
 
 # Background
