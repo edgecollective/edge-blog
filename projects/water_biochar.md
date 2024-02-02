@@ -270,16 +270,18 @@ Associated AS7331 sensor chip datasheet [https://www.digikey.com/en/products/det
 
 LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314)
 
-# Questions
-
-Is there an easy measurement that could be used as a proxy / sentinel for filter performance?  E.g. the addition of DOM, and then an assessment via UVA254?
-
-
 ## Key papers 02/02/23
 
 "An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" - -[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
 
 "Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173);  Supplementary data describing UV254 measurement:  [docx](https://www.liebertpub.com/doi/suppl/10.1089/ees.2020.0173/suppl_file/Supp_Data.docx); [pdf](/img/biochar/kearns_2021_uva_surrogate_supplement.pdf)
+
+# Main questions
+
+- How might we assess the performance of a given batch of biochar in an accessible way?
+- Does UVA254 work to assess initial performance of a filter?
+- Could we e.g. introduce some DOM into tap water, see that UVA254 is lower after biochar filter, and conclude that the filter is blocking DOM as well as more weakly-adsorbed micropollutants?
+- Could we create some DOM-based 'standards' using distilled water and some easy-to-obtain substance, in order to assess a biochar filter and/or calibrate a DIY UVA254 instrument?
 
 
 
