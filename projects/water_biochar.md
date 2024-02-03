@@ -272,9 +272,11 @@ LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](h
 
 ## Key papers 02/02/23
 
-"An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" - -[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
+"An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" -- [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
 
-"Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173);  Supplementary data describing UV254 measurement:  [docx](https://www.liebertpub.com/doi/suppl/10.1089/ees.2020.0173/suppl_file/Supp_Data.docx); [pdf](/img/biochar/kearns_2021_uva_surrogate_supplement.pdf)
+"Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173) | [PDF](https://www.liebertpub.com/doi/pdf/10.1089/ees.2020.0173) | [local PDF](/img/biochar/kearns-et-al-2021-biochar-water-treatment-for-control-of-organic-micropollutants-with-uva-surrogate-monitoring.pdf)
+
+- "Supplementary data describing UV254 measurement": [docx](https://www.liebertpub.com/doi/suppl/10.1089/ees.2020.0173/suppl_file/Supp_Data.docx) | [pdf](/img/biochar/kearns_2021_uva_surrogate_supplement.pdf)
 
 # Main questions
 
@@ -283,10 +285,15 @@ LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](h
 - Could we e.g. introduce some DOM into tap water, see that UVA254 is lower after biochar filter, and conclude that the filter is blocking DOM as well as more weakly-adsorbed micropollutants?
 - Could we create some DOM-based 'standards' using distilled water and some easy-to-obtain substance, in order to assess a biochar filter and/or calibrate a DIY UVA254 instrument?
 
+# Notes on UV254
 
+Realtech guide [https://realtechwater.com/blog-post/what-is-uv254/](https://realtechwater.com/blog-post/what-is-uv254/)
 
+Explanation of units for 'absorbance per path length' [https://realtechwater.com/parameters/uv254/#:~:text=Ultraviolet%20light%20at%20the%20254,length%20(abs%2Fcm).](https://realtechwater.com/parameters/uv254/#:~:text=Ultraviolet%20light%20at%20the%20254,length%20(abs%2Fcm).)
 
+Thermoscientific guide [https://assets.thermofisher.com/TFS-Assets/LPD/Application-Notes/UVA%20Measurements%20App%20Note%20033%20AN-UVMEASUREMENTS-E%20Rev%20A%201020%20Web.pdf](https://assets.thermofisher.com/TFS-Assets/LPD/Application-Notes/UVA%20Measurements%20App%20Note%20033%20AN-UVMEASUREMENTS-E%20Rev%20A%201020%20Web.pdf)
 
+Nice explanation of Beer-Lambert Law [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Electronic_Spectroscopy/Electronic_Spectroscopy_Basics/The_Beer-Lambert_Law](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Electronic_Spectroscopy/Electronic_Spectroscopy_Basics/The_Beer-Lambert_Law)
 
 
 
