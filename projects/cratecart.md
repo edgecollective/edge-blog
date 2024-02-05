@@ -186,6 +186,8 @@ We're redesigning the dropouts to allow them to be secured to the cart frame usi
 
 Annie had suggested a handle design that would allow for 'stepping inside' the handle area and easily pulling the cart in that manner.  We're looking into ways of using sturdier 3/4" electrical conduit, in a different configuration, in order to enable this.
 
+## Misc references and notes 
 
+The [Bamboo load-centered wheelbarrow](https://www.echocommunity.org/en/resources/ce0bef73-87d8-42a4-a9eb-6b10508f2d62) 
 
 

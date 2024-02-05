@@ -221,6 +221,8 @@ Nice review of using activated carbon filters: [https://extensionpublications.un
 "A Layman’s Guide to Inorganic and Organic Contaminant Removal by
 Standard Filtration Methods" [https://shelco.com/wp-content/uploads/2020/02/A-Laymans-Guide-to-Inorganic-and-Organic-Contaminent-Removal-by-Standard-Filtration-Methods.pdf](https://shelco.com/wp-content/uploads/2020/02/A-Laymans-Guide-to-Inorganic-and-Organic-Contaminent-Removal-by-Standard-Filtration-Methods.pdf)
 
+[Nice USGS Article on DOM](https://www.usgs.gov/labs/organic-matter-research-laboratory/what-organic-matter-0)
+
 # UV254 hardware
 
 General notes on spectrophotometers:
@@ -270,6 +272,7 @@ Associated AS7331 sensor chip datasheet [https://www.digikey.com/en/products/det
 
 LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314)
 
+
 ## Key papers 02/02/23
 
 "An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" -- [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
@@ -285,6 +288,7 @@ LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](h
 | ![](/img/biochar/detector_circuit.png) |
 |:--:|
 | Detector circuit in [Prairie et al 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/) |
+
 
 "Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173) | [PDF](https://www.liebertpub.com/doi/pdf/10.1089/ees.2020.0173) | [local PDF](/img/biochar/kearns-et-al-2021-biochar-water-treatment-for-control-of-organic-micropollutants-with-uva-surrogate-monitoring.pdf)
 
@@ -310,8 +314,22 @@ Nice explanation of Beer-Lambert Law [https://chem.libretexts.org/Bookshelves/Ph
 Standard method suggests that results should be reported at a pH of 7? [https://www.eraqc.com/content/files/PDFs/instructions/662-uv-254-absorbance-crm-en.pdf](https://www.eraqc.com/content/files/PDFs/instructions/662-uv-254-absorbance-crm-en.pdf)
 
 
+# Sun Feb  4 08:47:50 PM EST 2024
+
+[Test methods for activated carbon](https://activatedcarbon.org/images/Test_method_for_Activated_Carbon_86.pdf) -- p19 suggests testing one activated carbon filter against another known filter in terms of relative adsorption -- this could be a method for assessing biochar
+
+Suggestion [here](https://www.quora.com/Hi-there-I-wanted-to-know-how-do-I-verify-test-homemade-activated-carbon-Any-suggestions-Thank-you) -- try filtering tea or coffee. 
+
+Industry standard tests for activated carbon [here](https://www.starkefiltermedia.com/how-to-check-the-quality-of-the-activated-carbon/): includes Iodine adsorption test; chlorine removal test.
+
+UV and Fluorescence paper mentioned by Kearns et al: [Sgroi et al 2018, "Modeling emerging contaminants breakthrough in packed bed adsorption columns by UV absorbance and fluorescing components of dissolved organic matter"](https://www.sciencedirect.com/science/article/abs/pii/S004313541830722X?via%3Dihub) 
 
 
+[how to build a fluorometer](https://ibsen.com/technologies/fluorescence-spectroscopy/how-to-build-a-fluorometer/)
+
+[diy imaging fluorometer](https://www.instructables.com/A-DIY-Imaging-Fluorometer/)
+
+Nice references at the end of this [diy fluorometer lab](https://pillars.taylor.edu/cgi/viewcontent.cgi?article=1005&context=chemistry-student)  
   
   
 
