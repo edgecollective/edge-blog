@@ -83,3 +83,10 @@ Let's cut out the lora for now ...
 Updated code testing Jan 9th overnight is [here](https://github.com/edgecollective/sweet-p/tree/99ac31e6b767b3cf7b068945a5aea6a52fc61022/ver_0.3/firmware/grassnomads/v2.0)
 
 
+# Sun Feb  4 10:25:36 AM EST 2024
+
+Results of deployment late Jan / early Feb 2024 ...
+
+![](/img/ojofeliz/distance_late_jan_2024.png)
+
+

@@ -274,6 +274,18 @@ LED [https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314](h
 
 "An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" -- [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
 
+| ![](/img/biochar/power_circuit.jpg) |
+|:--:|
+| Power circuit in [Prairie et al 2020]() |
+
+| ![](/img/biochar/emitter_circuit.jpeg) |
+|:--:|
+| Emitter circuit in [Praire et al 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/) |
+
+| ![](/img/biochar/detector_circuit.png) |
+|:--:|
+| Detector circuit in [Prairie et al 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/) |
+
 "Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173) | [PDF](https://www.liebertpub.com/doi/pdf/10.1089/ees.2020.0173) | [local PDF](/img/biochar/kearns-et-al-2021-biochar-water-treatment-for-control-of-organic-micropollutants-with-uva-surrogate-monitoring.pdf)
 
 - "Supplementary data describing UV254 measurement": [docx](https://www.liebertpub.com/doi/suppl/10.1089/ees.2020.0173/suppl_file/Supp_Data.docx) | [pdf](/img/biochar/kearns_2021_uva_surrogate_supplement.pdf)
@@ -295,6 +307,7 @@ Thermoscientific guide [https://assets.thermofisher.com/TFS-Assets/LPD/Applicati
 
 Nice explanation of Beer-Lambert Law [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Electronic_Spectroscopy/Electronic_Spectroscopy_Basics/The_Beer-Lambert_Law](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Electronic_Spectroscopy/Electronic_Spectroscopy_Basics/The_Beer-Lambert_Law)
 
+Standard method suggests that results should be reported at a pH of 7? [https://www.eraqc.com/content/files/PDFs/instructions/662-uv-254-absorbance-crm-en.pdf](https://www.eraqc.com/content/files/PDFs/instructions/662-uv-254-absorbance-crm-en.pdf)
 
 
 
