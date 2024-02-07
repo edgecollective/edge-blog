@@ -188,6 +188,9 @@ Annie had suggested a handle design that would allow for 'stepping inside' the h
 
 ## Misc references and notes 
 
-The [Bamboo load-centered wheelbarrow](https://www.echocommunity.org/en/resources/ce0bef73-87d8-42a4-a9eb-6b10508f2d62) 
+The [Bamboo load-centered wheelbarrow](https://www.echocommunity.org/en/resources/ce0bef73-87d8-42a4-a9eb-6b10508f2d62)
+
+![](/img/cratecart/bamboo_barrow.png)
+ 
 
 

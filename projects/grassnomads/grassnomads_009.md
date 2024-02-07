@@ -90,3 +90,12 @@ Results of deployment late Jan / early Feb 2024 ...
 ![](/img/ojofeliz/distance_late_jan_2024.png)
 
 
+# Wed Feb  7 01:16:07 PM EST 2024
+
+Looks like the sensor fails (reads '999 cm') whenever the temp falls below 3 C or so ...
+
+(Note that after Feb 5 or so, we fixed a bug that was dividing the distance by an extra factor of 10;  thus the jump -- before, a reading of '999 cm' would show up as '1 meter';  afterwards it shows up as '10 meters' on the graph.)
+
+![](/img/ojofeliz/sensor_goof_distance.png)
+
+![](/img/ojofeliz/sensor_goof_temp.png)

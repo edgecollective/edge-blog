@@ -10,9 +10,13 @@ blurb: DIY techniques for filtering contaminants from drinking water, based on t
 
 # Biochar and Decentralized Water Filtration
 
-[![](/img/biochar/kearns_water_filtration.png)](http://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf)
+| [![](/img/biochar/kearns_water_filtration.png)](http://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf) |
+|:--:|
+| A community water filtration system that includes a final 'biochar' stage, from a [Kearns et al 2016 Presentation on Biochar and water filtration](http://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf) | 
 
-(*Image above from [Kearns et al 2016 Presentation on Biochar and water filtration](http://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf)*)
+| ![](/img/biochar/biochar_adbsorber_10L.png) | 
+|:--:|
+| A 10 liter biochar-based water filter as depicted in 2023 paper by Kearns et al, 'Adaptable Community Particaptory Design...', Water Security 2023  ([local](/img/biochar/adapatable_water.pdf); [online](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)) |
 
 ## Why decentralized water filtration?
 
@@ -36,7 +40,30 @@ Research in the last decade has indicated that biochar, when produced at suffici
 
 Such biochar filters can be produced from a wide variety of biomass materials -- including common agricultural waste -- using equipment that can be manufactured locally from widely-available materials (some designs use two 55 gallon steel drums).
 
-## Development of biochar-based water filtration systems
+## How can we know whether the filter is effectively removing contaminants of concern?
+
+A typical approach to testing the effectiveness of any filtering method is to conduct a laboratory test for the levels of contaminants of concern in the water before and after passing through the filter.
+
+The challenge when working outside of academia, industry, or government is that such laboratory tests, even for a single contaminant, can be very costly -- on the order of $100 or more per sample.  Multiple tests to assess multiple contaminants, initial filter effectiveness, and ongoing filter effectiveness are therefore often infeasible.
+
+Kearns et al have been working to develop lower-cost methods of testing that leverage a particular feature of biochar (and similar filters):  some contaminants adbsorb much more easily than others.  It turns out that the presence of one class of more weakly-adsorbed contaminants -- dissolved organic matter -- is relatively easy to assess with a lower-cost laboratory method:  UV spectrophotometry. 
+
+The details of this approach are laid out in a 2020 article by Kearns et al:
+
+- "Biochar Water Treatment for Control of Organic Micropollutants with UVA Surrogate Monitoring" -- [https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173](https://www.liebertpub.com/doi/full/10.1089/ees.2020.0173) | [PDF](https://www.liebertpub.com/doi/pdf/10.1089/ees.2020.0173) | [local PDF](/img/biochar/kearns-et-al-2021-biochar-water-treatment-for-control-of-organic-micropollutants-with-uva-surrogate-monitoring.pdf)
+
+And specific instructions for performing the UV absorbance test are laid out in the supplementary section, here:  
+
+- "Supplementary data describing UV254 measurement": [docx](https://www.liebertpub.com/doi/suppl/10.1089/ees.2020.0173/suppl_file/Supp_Data.docx) | [pdf](/img/biochar/kearns_2021_uva_surrogate_supplement.pdf)
+
+Further:  while commercial UV spectrophotometers used in such tests are usually over $2000, there are several designs available for DIY forms of the instrument, costing under $100 in parts.  We found one design to be particularly simple and well-characterized:
+
+- "An accurate, precise, and affordable light emitting diode spectrophotometer for drinking water and other testing with limited resources" -- [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988917/)
+
+Our aim is to build a working prototype of this UV spectrophotometer, compare its performance to similar commercial instruments used in a laboratory, and then see if such an instrument might be easy to build and use in a community workshop setting.
+
+
+## Well-documented designs for biochar-based water filtration systems
 
 Dr. Josh Kearns (UNC) has led efforts in the last decade to assess the ability of biochar to filter out various water contaminants such as pesticides and chlorination by-products, and has developed designs that have now been built and used by communities around the world.  His team has produced manuals in several langauges for constructing water filtration systems. 
 
@@ -49,7 +76,7 @@ Manuals:
 - Building a **2000 liter per day** water treatment system (pdf): [in English](https://www.aqsolutions.org/wp-content/uploads/2020/04/2000LPD_English.pdf)
 - Building a **300 liter per day** water treatment system (pdf): [in English](https://www.aqsolutions.org/wp-content/uploads/2022/06/blue-barrel-system-manual_2022.pdf) | [in Spanish](https://www.aqsolutions.org/wp-content/uploads/2020/04/blue-barrel-system-manual_Espanol.pdf)
 
-## Elegant overview of the design of a biochar-based water filtration system
+## An elegant overview of the design of a biochar-based water filtration system
 
 A researcher in Thailand describes a system design that has since been widely reproduced throughout Thailand and the region.
 
@@ -63,7 +90,7 @@ A nice history and overview of the project.
 
 ([Slides from the above presentation](http://www.aqsolutions.org/images/2016/10/Kearns-UNC-2016.pdf))
 
-## Construction a biochar gasifier
+## Construction of a biochar gasifier
 
 In the below video, Kearns demonstrates a simple design for a biochar gasifier which is capable of operating at the high temperatures required to produce biochar that is effective for water filtration:
 
@@ -114,12 +141,6 @@ On permies:
 
 [https://permies.com/t/156942/Biochar-Solar-Kiln](https://permies.com/t/156942/Biochar-Solar-Kiln)
 
-
-# Tue Jan  2 03:20:48 PM EST 2024
-
-| ![](/img/biochar/biochar_adbsorber_10L.png) | 
-|:--:|
-| 10 L Biochar Adbsorber container, [paper](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)  from Kearns et al, 'Adaptable Community Particaptory Design...'i, Water Security 2023  |
 
 # Tue Jan 30 03:18:34 PM EST 2024
 
