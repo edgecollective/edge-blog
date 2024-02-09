@@ -99,3 +99,9 @@ Looks like the sensor fails (reads '999 cm') whenever the temp falls below 3 C o
 ![](/img/ojofeliz/sensor_goof_distance.png)
 
 ![](/img/ojofeliz/sensor_goof_temp.png)
+
+
+# Wed Feb  7 07:28:56 PM EST 2024
+
+Details on RockBlock 3.7V input pin:
+![](/img/ojofeliz/rockblock_power.jpeg)

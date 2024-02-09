@@ -16,7 +16,7 @@ blurb: DIY techniques for filtering contaminants from drinking water, based on t
 
 | ![](/img/biochar/biochar_adbsorber_10L.png) | 
 |:--:|
-| A 10 liter biochar-based water filter as depicted in 2023 paper by Kearns et al, 'Adaptable Community Particaptory Design...', Water Security 2023  ([local](/img/biochar/adapatable_water.pdf); [online](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)) |
+| A 10 liter biochar-based water filter as depicted in 2023 paper by Kearns et al, 'Adaptable Community Particaptory Design...', Water Security 2023  ([local](/img/biochar/adaptable_water.pdf); [online](https://www.sciencedirect.com/science/article/abs/pii/S2468312423000184)) |
 
 ## Why decentralized water filtration?
 
