@@ -350,8 +350,59 @@ UV and Fluorescence paper mentioned by Kearns et al: [Sgroi et al 2018, "Modelin
 
 [diy imaging fluorometer](https://www.instructables.com/A-DIY-Imaging-Fluorometer/)
 
-Nice references at the end of this [diy fluorometer lab](https://pillars.taylor.edu/cgi/viewcontent.cgi?article=1005&context=chemistry-student)  
+Nice references at the end of this [diy fluorometer lab](https://pillars.taylor.edu/cgi/viewcontent.cgi?article=1005&context=chemistry-student)
+
+[Arduino-based fluorometer for DNA analysis](https://physicsopenlab.org/2016/04/15/diy-fluorometer-for-dna-concentration/)
   
+[Simple and Inexpensive 3D Printed Filter Fluorometer Designs: User-Friendly Instrument Models for Laboratory Learning and Outreach Activities](https://pubs.acs.org/doi/10.1021/acs.jchemed.6b00495)
+
+[A Highly Integrated and Diminutive Fluorescence Detector for Point-of-Care Testing: Dual Negative Feedback Light-Emitting Diode (LED) Drive and Photoelectric Processing Circuits Design and Implementation
+](https://www.mdpi.com/2079-6374/12/9/764)
+
+[Visualizing Fluorescence: Using a Homemade Fluorescence “Microscope” to View Latent Fingerprints on Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940251/)
+
+[Improvements in LED-based fluorescence analysis system](https://labs.ece.uw.edu/denise/www/Lab/publications/journal/j2005_01.pdf)
+
+[DEVELOPMENT OF A LOW COST LED-PHOTODIODE BASED
+SPECTROPHOTOMETER FOR CONTINUOUS ON-LINE
+MONITORING USING OPTICAL FLOW CELLS](https://www.wrc.org.za/wp-content/uploads/mdocs/KV249-10.pdf) -- looks like a really nice report, with explanation and overview
+
+[Portable device for dual detection of fluorescence and absorbance for biosensing or chemical sensing applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9058716/)
+
+[Diode array versus filter-based spectrometers](https://ibsen.com/technologies/fluorescence-spectroscopy/diode-array-versus-filter-based-spectrometers/)
+
+[Inexpensive, Open Source Filter Fluorometers for
+Measuring Relative Fluorescence](https://pages.stolaf.edu/wp-content/uploads/sites/803/2016/12/Stewart_Giannini_OPN_Fluorometer_Paper_20161227.pdf) -- nice overview and background explanation
+
+Interesting idea -- perhaps a 'filter fluorometer' might allow for a local / DIY light sources?
+
+[Open-JIP: An open-source Arduino based chlorophyll fluorometer for quantifying photosynthesis in photosynthetic organisms.](https://github.com/HarveyBates/Open-JIP)
+
+[A novel low-cost plug-and-play multi-spectral LED based fluorometer, with application to chlorophyll detection](https://pubs.rsc.org/en/content/articlehtml/2023/ay/d3ay00991b) -- 2023 paper, interesting design
+
+[Design of a Portable and Reliable Fluorimeter with High Sensitivity for Molecule Trace Analysis](https://www.mdpi.com/2227-9040/11/7/389) -- 2023 paper
+
+[Portable Fluorescence
+Spectrometer for Measuring
+Water Quality](https://www.ece.ucf.edu/seniordesign/fa2019sp2020/g03/docs/Group%203%20Conference%20Paper.pdf) -- nice senior project, with background references 
+
+# 02/16/24 
+
+[great note from Thermo on uv254](https://assets.thermofisher.com/TFS-Assets/LPD/Application-Notes/UVA%20Measurements%20App%20Note%20033%20AN-UVMEASUREMENTS-E%20Rev%20A%201020%20Web.pdf)
+4m
+
+[uv calibration standard methods](https://www.meirb.com/wp-content/uploads/2021/04/Standards-for-spectrophotometer.pdf)
+
+[uv method suggesting passing through 0.45 um filter](file:///home/db/Downloads/METHOD_415.3_REV1.2_FINAL.PDF)
+
+"potassium hydrogen phthalate (KHP)"
+
+[preparing a standard KHP solution](https://www.youtube.com/watch?v=p5Vx1KLnRAo)
+
+
+
+
+
   
 
 
