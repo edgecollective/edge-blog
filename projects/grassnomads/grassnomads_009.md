@@ -105,3 +105,17 @@ Looks like the sensor fails (reads '999 cm') whenever the temp falls below 3 C o
 
 Details on RockBlock 3.7V input pin:
 ![](/img/ojofeliz/rockblock_power.jpeg)
+
+
+# Wed Feb 21 08:35:49 PM EST 2024
+
+[http://bayou.pvos.org/data/gcr565avyan2?plot_param=distance_meters&limit=20](http://bayou.pvos.org/data/gcr565avyan2?plot_param=distance_meters&limit=20)
+
+(note -- the above link will give latest 20 data points -- so not the data below, as more data will have been added -- just giving feed as reference)
+
+![](/img/ojofeliz/distance_feb21.png)
+
+![](/img/ojofeliz/battery_feb21.png)
+
+![](/img/ojofeliz/temperature_feb21.png)
+
