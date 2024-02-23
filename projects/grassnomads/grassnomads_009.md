@@ -119,3 +119,13 @@ Details on RockBlock 3.7V input pin:
 
 ![](/img/ojofeliz/temperature_feb21.png)
 
+
+# Fri Feb 23 05:50:41 PM EST 2024
+
+![](/img/ojofeliz/distance_feb23.png)
+
+![](/img/ojofeliz/temperature_feb23.png)
+
+![](/img/ojofeliz/battery_feb23.png)
+
+
