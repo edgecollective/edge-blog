@@ -10,7 +10,7 @@ blurb: Designing a DIY UV Spectrophotometer
 
 # Quick links
 
-- [Research Notes Document](https://docs.google.com/document/d/1ZTH2Vkg3hWePBxur50EYWW4nV6wBEourCjJxaZh9Z6s/edit)
+- [Research Notes Google Document](https://docs.google.com/document/d/1ZTH2Vkg3hWePBxur50EYWW4nV6wBEourCjJxaZh9Z6s/edit)
 - ['uv-water' gitlab repo](https://gitlab.com/edgecollective/uv-water)
 
 
