@@ -129,3 +129,28 @@ Details on RockBlock 3.7V input pin:
 ![](/img/ojofeliz/battery_feb23.png)
 
 
+# Sat Feb 24 09:33:46 AM EST 2024
+
+![](/img/ojofeliz/distance_feb24.png)
+
+![](/img/ojofeliz/temperature_feb24.png)
+
+![](/img/ojofeliz/battery_feb24.png)
+
+
+# Sun Feb 25 07:19:04 PM EST 2024
+
+Mike B. suggests the L91 ...
+
+... and points to the fact that many battery chemistries ought not to be charged at low temperatures
+
+Manual for charger (similar to one that) I purchased [here](https://hqsolarpower.com/content/HQST-CTRL-PWM30-LCD-Manual.pdf)
+
+[Batteries that work best in cold weather](https://volts.ca/blogs/educational/batteries-that-work-best-in-cold-weather#:~:text=So%20it%20is%20clear%20that,for%20many%20off%2Dgrid%20applications.)
+
+[Discussion of temperature compensation](https://www.victronenergy.com/blog/2019/01/09/lead-acid-battery-charging-in-cold-weather/)
+
+[How to keep batteries warm in winter](https://realgoods.com/blog/how-to-keep-solar-batteries-warm-in-winter/)
+
+
+
