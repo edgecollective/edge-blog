@@ -398,10 +398,20 @@ Water Quality](https://www.ece.ucf.edu/seniordesign/fa2019sp2020/g03/docs/Group%
 "potassium hydrogen phthalate (KHP)"
 
 [preparing a standard KHP solution](https://www.youtube.com/watch?v=p5Vx1KLnRAo)
+  
+# 02/28/24
 
+PFAS and activated carbon:
 
+- PBS Wisconsin, ["What should I do about PFAS in my water?"](https://pbswisconsin.org/news-item/what-should-i-do-about-pfas-in-my-water/)
 
+> Granular activated carbon systems, generally the least expensive treatment option, can remove some PFAS, including PFOA and PFOS. They work by binding PFAS to a porous carbon surface. But molecularly shorter chemicals, known as short-chain PFAS, may slip by. You can install the filter as a household unit or in sinks, faucets, refrigerators and pitchers. Ion exchange resins act like little magnets that capture PFAS molecules. They are generally more effective than activated carbon, especially at snatching short-chain PFAS. Both technologies often cost less than reverse osmosis systems, which can run upwards of $1,000 to $2,000. Reverse osmosis devices force high-pressure water through a membrane with small pores to separate chemicals, including short-chain PFAS, from water. However, the technology requires a large volume of water, and it discharges PFAS-tainted backwash into sewer or septic systems — potentially reintroducing the contaminants into the environment.
 
+- EPA, ["Reducing PFAS in Drinking Water with Treatment Technologies"](https://www.epa.gov/sciencematters/reducing-pfas-drinking-water-treatment-technologies)
+- EPA, ["Technologies for Reducing PFAS in Drinking Water"](https://www.epa.gov/sites/default/files/2019-10/documents/pfas_drinking_water_treatment_technology_options_fact_sheet_04182019.pdf)
+- Riegel et al., ["Sorptive removal of short-chain perfluoroalkyl substances (PFAS) during drinking water treatment using activated carbon and anion exchanger"](https://enveurope.springeropen.com/articles/10.1186/s12302-023-00716-5)
+
+> Laboratory tests and column tests were carried out in a waterwoks to investigate the removal of short- and long-chain PFAS using activated carbon filtration and ion exchange treatment. For all adsorbents, the sorption affinity of short-chain per- and polyfluoroalkyl carboxylic acids (PFCA) was significantly lower than that of long-chain PFAS or short-chain per- and polyfluoroalkyl sulfonic acids (PFSA). In the PFAS-polluted groundwater matrix, the short-chain PFCA PFBA and PFPeA could only be sufficiently removed with activated carbon over short run times of 6000 and 11,000 bed volumes (BV), respectively. Longer PFCA with a chain length of C6 or more were removed over longer run times. The removal of short-chain PFCA using ion exchange media could also only be achieved over relatively short run times of 5000 BV for PFBA, 10,000BV for PFPeA and 18,000 BV for PFHxA. These are sometimes significantly longer than those of activated carbon. Due to the higher material costs for ion exchange media, there are nevertheless no lower operating costs when the ion exchangers are used in single-use mode. However, ion exchangers can be regenerated and then reused which can result in economic advantages compared to activated carbon filtration. However, for the extensive regeneration, especially for the elution of the long-chain PFAS, the additional use of ethanol is needed in the process. In contrast, the short-chain PFBA and PFPeA can be extracted without organic solvent from a weakly basic ion exchanger.
 
   
 
