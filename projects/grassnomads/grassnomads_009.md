@@ -152,5 +152,9 @@ Manual for charger (similar to one that) I purchased [here](https://hqsolarpower
 
 [How to keep batteries warm in winter](https://realgoods.com/blog/how-to-keep-solar-batteries-warm-in-winter/)
 
+[https://diysolarforum.com/threads/diy-low-temp-battery-cutoff-using-relay-and-electronic-thermostat.21038/](https://diysolarforum.com/threads/diy-low-temp-battery-cutoff-using-relay-and-electronic-thermostat.21038/)
+
+[https://www.amazon.com/dp/B07VDRGK9F](https://www.amazon.com/dp/B07VDRGK9F)
+
 
 
