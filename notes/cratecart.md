@@ -71,3 +71,15 @@ Notes on initial prototype:
 
 ![](/img/cratecart/ubolt2.jpeg)
 
+
+# Fri Mar  8 09:06:28 PM EST 2024
+
+Going to revert to drilling for the cratecart; farmers are capable of it, greatly reduces the cost; and less dependent on particular supply chain around ubolts.
+
+Need to depict the dimensions.
+
+The design of the u-bolt.  The process. Show openscad, show sendcutsend.
+
+The screws that are good for 
+
+[guide to emt bending](https://www.elliottelectric.com/StaticPages/ElectricalReferences/Guides/electrical-conduit-bending-chart-emt-bender-guide.aspx) 

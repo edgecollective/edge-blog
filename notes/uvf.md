@@ -44,3 +44,22 @@ Our aim is to build a working prototype of this UV spectrophotometer, compare it
 - [IN-C35PPCTGU0 3535 UVC LED](https://www.inolux-corp.com/datasheet/Inolux%20UV/IN-C35PPCTGU0_v1.0.pdf)
 
 
+
+# Sun Mar  3 08:35:31 PM EST 2024
+
+## Building the circuit
+
+[Precision voltage to current converter](https://wiki.analog.com/university/courses/electronics/text/chapter-4)
+
+Adafruit 4-pin jumper cable [here](https://www.adafruit.com/product/4936)
+
+Adafruit 4-pin jst ph stemma [here](https://www.adafruit.com/product/3950?)
+
+Adafruit JST 4-pin jst ph stemma SMD [here](https://www.adafruit.com/product/4392)
+- diagram [here](https://cdn-shop.adafruit.com/product-files/4392/4392_C13927-001_CW2001-04T-H01-BD-A.PDF)
+
+ 
+
+
+
+

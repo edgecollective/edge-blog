@@ -193,4 +193,22 @@ The [Bamboo load-centered wheelbarrow](https://www.echocommunity.org/en/resource
 ![](/img/cratecart/bamboo_barrow.png)
  
 
+# Tue Mar  5 04:56:13 PM EST 2024
 
+Real dimensions of emt conduit [via makerpipe](https://makerpipe.com/blogs/diy-modular-pipe/sizing-guide-for-do-it-yourself-conduit-projects?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMQ_IBsrHN98loY3cgJBgbMPiMSvTvyOtFpnsDBn4mxxy4KLeCf8kDBoCwFoQAvD_BwE)
+- 3/4" nominal emt is .922" / 24 mm
+- 1/2" nominal emt is .706" / 18 mm
+
+U-bolt options:
+- .79" / 20 mm inner width u bolts [from amazon](https://www.amazon.com/dp/B093SR9D7K?ref=ppx_yo2ov_dt_b_product_details&th=1)
+- .98" / 25 mm inner width u bolts [from amazon](https://www.amazon.com/dp/B093SRDNVP?ref=ppx_yo2ov_dt_b_product_details&th=1)    
+- 1.06" / 27 mm inner width u bolts [from amazon](https://www.amazon.com/dp/B093SRMDM5?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+
+
+# Sun Mar 10 12:12:25 AM EST 2024
+
+Docs for workshop on March 10:
+
+- [Design considerations](/img/cratecart/design_considerations.pdf)
+- [Cratecart 'full'](/img/cratecart/cratecart_full.pdf)
+- [Cratecart 'steps'](/img/cratecart/cratecart_steps.pdf) 
