@@ -60,6 +60,44 @@ Adafruit JST 4-pin jst ph stemma SMD [here](https://www.adafruit.com/product/439
 
  
 
+# Mon Mar 11 05:20:16 PM EDT 2024
+
+LED polarity ![](/img/uvf/led_polarity.png)
+
+uv detector IN-C35PPCTGU0
+
+datasheet [here](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/318/SD008-2171-112.pdf)
+
+custom footprint:
+
+ ![](/img/uvf/custom_footprint.png)
 
 
+emitter v_0.1 ordered 3/11/24
 
+![](/img/uvf/emitter_v0.1_3d.png)
+
+
+detector v_0.1 ordered 3/12/24
+
+![](/img/uvf/uva_detect_v0.1_3d.png)
+
+
+# Fri Mar 15 11:00:43 AM EDT 2024
+
+[instructrable on 555 as switch mode supply](https://www.instructables.com/Two-circuits-of-switched-mode-power-supply-based-o/)
+
+[![](/img/uvf/555_switcher_boost_circuit_1.bmp)](/img/uvf/555_switcher_boost_circuit_1.bmp)
+
+
+# Sat Mar 23 03:52:20 PM EDT 2024
+
+Solder mask goof-up on UV emitter part!
+
+![](/img/uvf/photo_1.png)
+
+![](/img/uvf/photo_2.png)
+
+![](/img/uvf/photo_3.png)
+
+Reference for UV emitter [IN-C35PPCTGU0](https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314?s=N4IgjCBcoCwAxVAYygMwIYBsDOBTANCAPZQDaIMArAOxxzUgC6hADgC5QgDKbATgJYA7AOYgAvmMIAmMiCEBaJAGZKLFkjajGYoA)
