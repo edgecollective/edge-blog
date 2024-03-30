@@ -101,3 +101,36 @@ Solder mask goof-up on UV emitter part!
 ![](/img/uvf/photo_3.png)
 
 Reference for UV emitter [IN-C35PPCTGU0](https://www.digikey.com/en/products/detail/inolux/IN-C35PPCTGU0/16965314?s=N4IgjCBcoCwAxVAYygMwIYBsDOBTANCAPZQDaIMArAOxxzUgC6hADgC5QgDKbATgJYA7AOYgAvmMIAmMiCEBaJAGZKLFkjajGYoA)
+
+Also: two pins on Q1 on emitter are 'flipped' -- need to fix pins -- was able to solder 'upside-down' anyway to fix
+
+# Mon Mar 25 08:17:39 PM EDT 2024
+
+Made a quick 3d enclosure using openscad:
+
+openscad and stl files are [here](https://gitlab.com/edgecollective/uv-water/-/tree/1164b3f61c16f32ebf238acea9b2f93215b57da2/enclosure/openscad)
+
+![](/img/uvf/uvf_enc_1.png)
+
+![](/img/uvf/uvf_enc_2.png)
+
+![](/img/uvf/uvf_enc_cover.png)
+
+
+# Fri Mar 29 08:57:08 PM EDT 2024
+
+Water filtering, 1 micron
+
+Selection at McMaster [here](https://www.mcmaster.com/products/~/removes-particle-size-down-to~less-than~50~%CE%BCm/removes-particle-size-down-to~less-than~50~%CE%BCm/removes-particle-size-down-to~less-than~50~%CE%BCm/filter-cartridges-for-reducing-rust-particles-and-sediment-in-water-9/)
+
+Nice pairing on Amazon:
+- filter housing [here](https://www.amazon.com/Transparent-Standard-Filtration-Mounting-Hardware/dp/B01N4RFXGS)
+- filter [here](https://www.amazon.com/Cartridges-Filtration-Polypropylene-WELL-MATCHED-WFPFC5002/dp/B07ZHN8KMM)
+
+## Most recent prototype
+
+![](/img/uvf/uvf_mike_proto_a.jpg)
+
+![](/img/uvf/uvf_mike_proto.jpg)
+
+
