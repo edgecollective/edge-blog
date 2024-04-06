@@ -153,3 +153,14 @@ Version 0.1 pinout:
 (need to add 2.5V ref)
 
 ![](/img/uvf/v_0.2_board_draft.png)
+
+
+# Fri Apr  5 11:01:04 PM EDT 2024
+
+## Detector schematic:
+
+[![](/img/uvf/uv_ver0.2_detector_schem.png)](/img/uvf/UV-Detector-v0.2.pdf)
+
+## Emitter schematic:
+
+[![](/img/uvf/uv_emitter_v0.1_schem.png)](/img/uvf/UV-LED-source.pdf)
