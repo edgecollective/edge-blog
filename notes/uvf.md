@@ -134,3 +134,22 @@ Nice pairing on Amazon:
 ![](/img/uvf/uvf_mike_proto.jpg)
 
 
+# Fri Apr  5 08:31:52 PM EDT 2024
+
+Working on detector v_0.2 ...
+
+Sub-schematic that will be moved to a 'control board':
+
+![](/img/uvf/blue_led_voltage_ref.png)
+
+Version 0.1 footprint assignments:
+
+![](/img/uvf/footprints_detector_ver_0.1.png)
+
+Version 0.1 pinout:
+
+![](/img/uvf/detect_v_0.1_pinout.png)
+
+(need to add 2.5V ref)
+
+![](/img/uvf/v_0.2_board_draft.png)
