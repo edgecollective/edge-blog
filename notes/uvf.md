@@ -180,6 +180,8 @@ Revising mosfet pin assignment on emitter ...
 
 ![](/img/uvf/2N7000.png)
 
+---
+
 # emitter ver 0.2 
 
 ### Sat Apr  6 10:22:42 PM EDT 2024
@@ -195,6 +197,8 @@ Revising mosfet pin assignment on emitter ...
 ## board files: 
 
 - [emitter ver 0.2 kicad files, JLCPCB order April 6 2024](https://gitlab.com/edgecollective/uv-water/-/archive/01dbf736686276510b7202d938a0762d491ce514/uv-water-01dbf736686276510b7202d938a0762d491ce514.zip?path=uv-water-sensor/UV-LED-source/v_0.2)
+
+---
 
 # detector ver 0.2 
 
