@@ -154,7 +154,6 @@ Version 0.1 pinout:
 
 ![](/img/uvf/v_0.2_board_draft.png)
 
-
 # Fri Apr  5 11:01:04 PM EDT 2024
 
 ## Detector schematic:
@@ -164,3 +163,52 @@ Version 0.1 pinout:
 ## Emitter schematic:
 
 [![](/img/uvf/uv_emitter_v0.1_schem.png)](/img/uvf/UV-LED-source.pdf)
+
+---
+
+# Revision 0.2 of emitter and detector
+
+### Sat Apr  6 10:25:06 PM EDT 2024
+
+Edited footprint for LED (remove solder mask from center pad) 
+
+Revising mosfet pin assignment on emitter ...
+
+[2N7000 datasheet](https://rocelec.widen.net/view/pdf/orqxwkxkq1/ONSM-S-A0003544006-1.pdf?t.download=true&u=5oefqw)
+
+2N7000 pinout:
+
+![](/img/uvf/2N7000.png)
+
+# emitter ver 0.2 
+
+### Sat Apr  6 10:22:42 PM EDT 2024
+
+## board layout:
+
+![](/img/uvf/uva_emitter_v0.2-board.png)
+
+## schematic:
+
+[![](/img/uvf/uva-emitter-v0.2-schematic.png)](/img/uvf/UV-LED-source.pdf))
+
+## board files: 
+
+- [emitter ver 0.2 kicad files, JLCPCB order April 6 2024](https://gitlab.com/edgecollective/uv-water/-/archive/01dbf736686276510b7202d938a0762d491ce514/uv-water-01dbf736686276510b7202d938a0762d491ce514.zip?path=uv-water-sensor/UV-LED-source/v_0.2)
+
+# detector ver 0.2 
+
+### Sat Apr  6 10:22:55 PM EDT 2024
+
+## board layout:
+
+![](/img/uvf/uva-detector-v0.2-board.png)
+
+## schematic:
+
+[![](/img/uvf/uv_detector_ver_0.2_schematic.png)](/img/uvf/UV-Detector-v0.2.pdf))
+
+## board files: 
+
+- [detector ver 0.2 kicad files, JLCPCB order April 7 2024](https://gitlab.com/edgecollective/uv-water/-/archive/01dbf736686276510b7202d938a0762d491ce514/uv-water-01dbf736686276510b7202d938a0762d491ce514.zip?path=uv-water-sensor/UV-Detector/v_0.2)
+
