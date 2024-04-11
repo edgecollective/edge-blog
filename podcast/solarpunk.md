@@ -13,7 +13,7 @@ blurb: Can solarpunk survive the unraveling of high technology?
 ### The Future of Solarpunk
 
 <audio controls>
-  <source src="http://bayou.pvos.org/podcast/solarpunk_rafi_don_ec_2.mp3" type="audio/mpeg">
+  <source src="https://drive.google.com/file/d/17p5WUxrQnbGQTw5xCLGsbOtR2kofM0o1/view?usp=sharing" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
