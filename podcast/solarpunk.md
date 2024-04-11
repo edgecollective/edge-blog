@@ -8,16 +8,11 @@ image: img/solarpunk.png
 blurb: Can solarpunk survive the unraveling of high technology?
 ---
 
-## Edge Collective Podcast #2
+## Edge Collective Podcast #2: The Future of Solarpunk
 
-### The Future of Solarpunk
+Listen to MP3 directly: [solarpunk.mp3](http://bayou.pvos.org/podcast/solarpunk_rafi_don_ec_2.mp3)
 
-<audio controls>
-  <source src="https://drive.google.com/file/d/17p5WUxrQnbGQTw5xCLGsbOtR2kofM0o1/view?usp=sharing" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
-(Or for podcast players, add this URL: ```https://edgecollective.io/img/audio/edge.xml```)
+or add this URL to your podcast player: ```https://edgecollective.io/img/audio/edge.xml```
 
 ---
 
