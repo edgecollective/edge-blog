@@ -216,3 +216,26 @@ Revising mosfet pin assignment on emitter ...
 
 - [detector ver 0.2 kicad files, JLCPCB order April 7 2024](https://gitlab.com/edgecollective/uv-water/-/archive/01dbf736686276510b7202d938a0762d491ce514/uv-water-01dbf736686276510b7202d938a0762d491ce514.zip?path=uv-water-sensor/UV-Detector/v_0.2)
 
+
+# Mon Apr 15 08:18:11 PM EDT 2024
+
+Collecting water samples and filtering through 1 um filter ...
+
+3/4" NPT male + 3/4" barb fitting [on Amazon](https://www.amazon.com/JUWO-Barb-Brass-Fitting-1-Pack/dp/B0BNPT7HNQ)
+
+electric water transfer pump [on Amazon](https://www.amazon.com/Water-Transfer-Pump-DEKOPRO-Electric/dp/B0CB64B8CF)
+
+calibration of total organic carbon / uv254, EPA document [pdf](https://cfpub.epa.gov/si/si_public_file_download.cfm?p_download_id=525073&Lab=NERL)
+
+[uva254 go](https://www.photonicmeasurements.com/go-the-uv254-monitor-)
+
+'request a quote' for uva254 go [here](https://www.labunlimited.com/s/ALL/6-UV254GO-UVTA/Photonic-UV254-Go!-Handheld-UVT-UVA-Analyser)
+
+might want to search for 'total organic carbon' (TOC)
+
+[An easy spectrophotometric acid-base titration protocol for dissolved organic matter](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9112109/)
+
+correlating uv254 to TOC, BOD, and COD [video](https://www.youtube.com/watch?v=gqqIAzbyQjM)
+
+Great paper on UV254 methods and applications.  Note: correlations between uv254 and disinfection byproducts! references [here](https://downloads.regulations.gov/EPA-HQ-OW-2014-0408-0008/content.pdf) 
+

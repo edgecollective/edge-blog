@@ -121,3 +121,6 @@ Wiring diagram for TS-50S [power cable](https://vk6ysf.com/dc_cable_hf_radio.htm
 [Replacement cable for TS-50S](https://www.ebay.com/itm/224032177137)  
 
 
+# Mon Apr 15 09:46:55 PM EDT 2024
+
+'what to do when the phones go down' [video](https://www.youtube.com/watch?v=Zob-kWl4xLw)

@@ -28,10 +28,10 @@ I was therefore thrilled, back then, to discover the 'solarpunk' movement.  Sola
 
 Solarpunk allowed me to retain my identity as a technologist, and still believe that I was contributing to a positive future. 
 
-And then I read Chris Smaje.  And then Richard Heinberg.  I found the Doomer Optimism Podcast.  And through that podcast, Dougald.  Neurons migrated slowly ... then in droves ...
+And then I read Chris Smaje.  And then Richard Heinberg.  I found the Doomer Optimism Podcast.  And through that podcast, Dougald Hine.  Neurons migrated slowly ... then in droves ...
 
 Fast forward to a few weeks ago.  It had been years since I'd thought of the solarpunk movement.  Rafi, and old friend from my solarpunk days, got back in touch.  He was organizing a solarpunk conference to be held in a few months.
 
 Reconnecting with Rafi, I wondered: is there a core spirit in the 'solarpunk' movement that might survive energy descent, and the inevitable unraveling of high technology?  Is there a solarpunk without technology at its core?
- 
-I asked Rafi these questions in this conversation with Rafi.
+
+Rafi and I explored some of these questions in the conversation above.  Hope you enjoy!
