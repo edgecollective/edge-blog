@@ -1,13 +1,25 @@
 body {
-    #font:16px/1.5 sans-serif;
-    #font:16px;
-    font-family: Open Sans, Arial, sans-serif;
-    font-size:14px;
-    #font:20px; 
+    #font:13px/1.5 Verdana,Helvetica,Arial,sans-serif;
+    #font:15px/1.5 ubuntu, sans-serif;
+    font:16px/1.5 sans-serif;
+    font:16px;
     width: 80%;
-    line-height: 1.7em;
     #text-align: justify;
     #text-justify: inter-word;
+    /*
+    font-family: sans-serif;
+    #font-family: "Open Sans",sans-serif;
+    #font-family: ubuntu, sans-serif;
+    margin: 10px;
+    #font-size: 15px;
+    #font-size: small;
+    #font-size:14;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    line-height:140%;
+    */
 }
 
 .img-with-caption {
@@ -29,7 +41,6 @@ display: inline-block;
 #text-align: left;
 text-align: justify;
 text-justify: inter-word;
-#display:block;
 }
 
 #post-content {
@@ -212,11 +223,7 @@ a:visited{
 }
 
 .post {
-    #float: left;
-    display: inline-block;
-    #text-align: left;
-    #text-align: justify;
-    text-justify: inter-word;
+    float: left;
     width: 33.33%;
     padding: 0 20px 20px 0;
 

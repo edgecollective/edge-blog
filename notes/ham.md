@@ -124,3 +124,64 @@ Wiring diagram for TS-50S [power cable](https://vk6ysf.com/dc_cable_hf_radio.htm
 # Mon Apr 15 09:46:55 PM EDT 2024
 
 'what to do when the phones go down' [video](https://www.youtube.com/watch?v=Zob-kWl4xLw)
+
+
+# Fri Apr 19 06:17:47 PM EDT 2024
+
+## Getting started with JS8Call 
+
+### receive-only
+
+- web sdr / software-only [here](https://www.youtube.com/watch?v=SsuzTPHcgDY)
+
+- off-grid basic receive with simple radio, unlicensed [here](https://www.youtube.com/watch?v=P9sWFryImDo)
+
+- js8call training edition [here](https://www.youtube.com/watch?v=r25aIri8vkE)
+
+  
+# Fri Apr 19 08:38:04 PM EDT 2024
+
+Virtual Audio Cable for linux [here](https://askubuntu.com/questions/633674/virtual-audio-cable-for-ubuntu)
+
+Ham It Up adapter kit for sdr [here](https://www.amazon.com/NooElec-NESDR-Smart-HF-Bundle/dp/B0747PX3NZ/ref=pd_ci_mcx_pspc_dp_d_2_t_3?pd_rd_w=7PEUY&content-id=amzn1.sym.568f3b6b-5aad-4bfd-98ee-d827f03151e4&pf_rd_p=568f3b6b-5aad-4bfd-98ee-d827f03151e4&pf_rd_r=JNZK8NGGZ74ZBQ8JY8SX&pd_rd_wg=qamUn&pd_rd_r=a5f0cb41-c9b6-4850-9785-817e1dbaf5b9&pd_rd_i=B0747PX3NZ)
+
+ham it up, by itself [here](https://www.amazon.com/Ham-Up-Plus-Upconverter-Enclosure/dp/B076CYK8XZ/ref=sr_1_3?crid=1G718VTE9PDE6&dib=eyJ2IjoiMSJ9.6EOIy7W7jlq7I_7mEzJKCCh8FxD6IXtX-7RskTiYiUN_CMZr4ZFo9yKoUoDR_-TwXtLkJr2Y96XDw55N25OoyAtFx3MmuKVtwDYgbtUOI4gcOqLANmEcYgMYj5fWuA0xZlPzGFf6e5951ylhJ5kedp2tiGOYowXQNAqp_XRPVb93RasijzKLl3uMRflByeBUh_RBMDgPneg7klFyh5sZyMNotQ1bKWwg5gmn1ohpUVydTyDVJVZcKXkIuv3qXy6zIplrkQhGzTvXEsJwzrML0ddJPxUKJEr6RvMDJkZ-ScM.Aolp82hZTzzT0Wjd3LSQJedCakNIiA2F8tuiWXPIFik&dib_tag=se&keywords=ham+it+up&qid=1713573766&s=electronics&sprefix=ham+it+up%2Celectronics%2C108&sr=1-3)
+
+ham it up kit working well [here](https://www.amazon.com/NooElec-NESDR-Smart-HF-Bundle/dp/B0747PX3NZ/ref=sr_1_6?crid=1G718VTE9PDE6&dib=eyJ2IjoiMSJ9.6EOIy7W7jlq7I_7mEzJKCCh8FxD6IXtX-7RskTiYiUN_CMZr4ZFo9yKoUoDR_-TwXtLkJr2Y96XDw55N25OoyAtFx3MmuKVtwDYgbtUOI4gcOqLANmEcYgMYj5fWuA0xZlPzGFf6e5951ylhJ5kedp2tiGOYowXQNAqp_XRPVb93RasijzKLl3uMRflByeBUh_RBMDgPneg7klFyh5sZyMNotQ1bKWwg5gmn1ohpUVydTyDVJVZcKXkIuv3qXy6zIplrkQhGzTvXEsJwzrML0ddJPxUKJEr6RvMDJkZ-ScM.Aolp82hZTzzT0Wjd3LSQJedCakNIiA2F8tuiWXPIFik&dib_tag=se&keywords=ham+it+up&qid=1713573983&s=electronics&sprefix=ham+it+up%2Celectronics%2C108&sr=1-6)
+
+
+> For those having trouble with the Ham It Up, this may be obvious to some, but frequencies below 14 MHz (20m HAM band) are best received at night. During the daytime you have a good chance of getting transmissions above 14 MHz. Also, I have tried using the Ham It Up in Windows 10 with SDR# and Kali Linux with SDR++. By far, the Kali setup works the best. I don't think you necessarily need the Kali Distro, that is just my setup. I will admit that the time investment needed to get this bundle operational is higher but if you do the research and don't give up the payoff is great.
+
+> The Ham It Up is a neat unit, but is genuinely hard to get started with due to wholly insufficient documentation. I was ready to write it off as junk before I finally figured out its antenna needs. Here is what you need to know from my hours of frustration:
+- Offset is 125MHz, so a 25MHz signal will be upconverted to 150MHz
+- It has a upconvert range of 100KHz to 60MHz, good for AM and shortwave bands. US FM broadcasting can't be used as a passthrough/upconvert test to get started as the frequency is too high.
+- It doesn't work with any of the included antennas, or any commercial antennas I tried. I was only able to achieve acceptable reception with the balun, 100' of wire as an antenna strung outside in the trees, and a good ground. Think crystal radio when setting up the antenna for the upconverter.
+- Once the wire was strung outdoors I was able to pick up commercial AM broadcasting, some HAM chatter in the 40 meter band, and shortwave stations in the 11MHz range, and acceptable CB reception.
+- Documentation for this is even worse than for the NESDR. Be prepared to be frustrated until you figure it out.
+
+[FT8 shortwave listening](https://www.youtube.com/watch?app=desktop&v=ietRacJQWBg)
+
+[Tecsun PL880 shortwave radio, $169](https://www.amazon.com/Tecsun-PL880-Conversion-Shortwave-Reception/dp/B00GJ51NVA)
+
+[CC Skywave SSB 2, $200](https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands)
+
+-- [on amazon](https://www.amazon.com/Shortwave-Scannable-Aviation-Operated-Portable/dp/B0CBW768RF)
+
+[SIHUADON R108 -- inexpensive knock-off of Skywave, $50](https://www.amazon.com/SIHUADON-Portable-Operated-Headphone-RADIWOW/dp/B08XVVCP9L)
+
+[off-grid js8call setup with digital-only radio](https://www.youtube.com/watch?v=WmqTFHTnrA8)
+
+[DR4020 digital QRP radio](https://www.venus-itech.com/product/dr4020-digital-qrp-radio/)
+
+So -- better to use an sdr dongle, or a full short wave radio?
+
+
+# Sun Apr 21 03:09:31 PM EDT 2024
+
+js8call [here](http://files.js8call.com/latest.html)
+
+T-Deck pinmap [here](https://m.media-amazon.com/images/S/aplus-media-library-service-media/84895610-5940-49e3-9767-08475fde6ae4.__CR0,0,970,600_PT0_SX970_V1___.png)
+
+fdisk erase partitions [tutorial](https://www.linuxtechi.com/how-to-delete-partition-in-linux/)
+
+pi + baofeng aprs digipeater [here](https://www.youtube.com/watch?v=gtvtWL3_prA)
