@@ -185,3 +185,5 @@ T-Deck pinmap [here](https://m.media-amazon.com/images/S/aplus-media-library-ser
 fdisk erase partitions [tutorial](https://www.linuxtechi.com/how-to-delete-partition-in-linux/)
 
 pi + baofeng aprs digipeater [here](https://www.youtube.com/watch?v=gtvtWL3_prA)
+
+
