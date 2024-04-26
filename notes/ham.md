@@ -187,3 +187,73 @@ fdisk erase partitions [tutorial](https://www.linuxtechi.com/how-to-delete-parti
 pi + baofeng aprs digipeater [here](https://www.youtube.com/watch?v=gtvtWL3_prA)
 
 
+# Sun Apr 21 11:20:13 PM EDT 2024
+
+T-beam + external keyboard tutorial [here](https://www.mattcurry.com/2023/01/28/t-beam-communicator/) and thread [here](https://www.mattcurry.com/2023/01/28/t-beam-communicator/)
+
+Using the 'canned message' meshtastic feature [here](https://meshtastic.org/docs/configuration/module/canned-message/)
+
+and the CardKB device described [here](https://github.com/m5stack/m5-docs/blob/master/docs/en/unit/cardkb.md)
+
+programming the CardKB [here](https://github.com/jon7sky/CardKB_UART)
+
+documentation for CardKB i2c code [here](https://docs.m5stack.com/en/unit/cardkb)
+
+electronoobs keyboard [here](https://electronoobs.com/eng_arduino_tut103.php) -- this is the tutorial to try
+
+antenna upgrades for meshtastic devices [here](https://www.youtube.com/watch?v=Y7V54jMnmOg)
+
+arduino as i2c slave [here](https://forum.arduino.cc/t/arduino-as-i2c-slave/38507/3) and [here](https://deepbluembedded.com/arduino-i2c-slave/)
+
+[using cardkb in a hack way with python](https://forum.clockworkpi.com/t/using-cardkb-from-m5stack-without-reprogramming-it/6106)
+
+[suggestion of mouse buttons for key buttons](https://hackaday.io/project/176738-esp65-pocket-computer-kim-iapple-1esp32/log/188165-figuring-out-how-to-make-a-good-mini-keyboard)
+
+connecting cardkb to raspberry pi [here](https://github.com/ian-antking/cardkb)
+
+
+# Mon Apr 22 05:29:46 PM EDT 2024
+
+Some example code for reading from a cardkb [here](https://github.com/Jonas-Salcedo/Mini-Computer/blob/master/Ada_ATMega328_LCD_Modified_For_CardKB.ino)
+
+Creating an arduino i2c slave [here](https://deepbluembedded.com/arduino-i2c-slave/) -- see example 2. Arduino I2C Slave Transmitter Example
+
+```
+/*
+* LAB Name: Arduino I2C Slave(Tx)
+* Author: Khaled Magdy
+* For More Info Visit: www.DeepBlueMbedded.com
+*/
+#include <Wire.h>
+ 
+#define BTN0_PIN 4
+#define BTN1_PIN 5
+#define BTN2_PIN 6
+#define BTN3_PIN 7
+ 
+byte TxByte = 0;
+ 
+void I2C_TxHandler(void)
+{
+  Wire.write(TxByte);
+}
+ 
+void setup() {
+  pinMode(BTN0_PIN, INPUT_PULLUP);
+  pinMode(BTN1_PIN, INPUT_PULLUP);
+  pinMode(BTN2_PIN, INPUT_PULLUP);
+  pinMode(BTN3_PIN, INPUT_PULLUP);
+  Wire.begin(0x55); // Initialize I2C (Slave Mode: address=0x55 )
+  Wire.onRequest(I2C_TxHandler);
+}
+ 
+void loop() {
+  byte BtnsData = 0;
+  BtnsData |= digitalRead(BTN0_PIN) << 0;
+  BtnsData |= digitalRead(BTN1_PIN) << 1;
+  BtnsData |= digitalRead(BTN2_PIN) << 2;
+  BtnsData |= digitalRead(BTN3_PIN) << 3;
+  TxByte = BtnsData;
+  delay(10);
+}
+```
