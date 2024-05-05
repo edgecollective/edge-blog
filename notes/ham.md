@@ -257,3 +257,37 @@ void loop() {
   delay(10);
 }
 ```
+
+
+# Sat Apr 27 06:30:16 PM EDT 2024
+
+Ham it up explanatory video [here](https://www.youtube.com/watch?v=3n06G-2MMMA)
+
+40 meter dipole antenna [here](https://dcasler.com/ham-radio-40-meter-dipole-your-first-antenna/)
+
+Creating a 40 meter antenna [here](https://www.youtube.com/watch?v=aUe5v0hOT48)
+
+How to make a 40 meter dipole antenna [here](https://www.youtube.com/watch?v=0P_bpvuqOKs)
+
+making a 20 m and 40 m dipole antenna [here](https://www.youtube.com/watch?v=yRnlJxMWzF4)
+
+homemade balun -- SO2-39
+
+definition of a balun [here](https://en.wikipedia.org/wiki/Balun#:~:text=A%20balun%20%2F%CB%88b%C3%A6,impedance%20arrangement%20of%20either%20line.)
+
+complete off-grid HF ham pack [here](https://www.youtube.com/watch?v=eA7pvsTT3Rk)
+
+js8call mesh experiment [here](https://oh8stn.org/blog/2019/12/04/less-is-more-js8call-40m-mesh-network/)
+
+simplest dedicated js8call rig discussion [here](https://groups.io/g/KM4ACK-Pi/topic/simplest_dedicated_js8call/95728303?p=,,,20,0,0,0::recentpostdate/sticky,,,20,2,20,95728303,previd%3D1672080329787548227,nextid%3D1670872520231848384&previd=1672080329787548227&nextid=1670872520231848384)
+
+
+# Sun May  5 04:16:25 PM EDT 2024
+
+heltec gps forum topic (including pins) [here](https://meshtastic.discourse.group/t/gps-to-heltec-lora/5547)
+
+flashing firmware on esp32 devices [here](https://meshtastic.org/docs/getting-started/flashing-firmware/esp32/)
+
+- cli script method [here](https://meshtastic.org/docs/getting-started/flashing-firmware/esp32/cli-script/)
+
+- configuring device via CLI [here](https://meshtastic.org/docs/getting-started/initial-config/)

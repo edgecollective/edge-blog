@@ -239,3 +239,65 @@ correlating uv254 to TOC, BOD, and COD [video](https://www.youtube.com/watch?v=g
 
 Great paper on UV254 methods and applications.  Note: correlations between uv254 and disinfection byproducts! references [here](https://downloads.regulations.gov/EPA-HQ-OW-2014-0408-0008/content.pdf) 
 
+
+# Mon Apr 29 09:29:59 PM EDT 2024
+
+[UV-Vis spec of Organic Compounds](https://chem.libretexts.org/Bookshelves/General_Chemistry/Book%3A_Structure_and_Reactivity_in_Organic_Biological_and_Inorganic_Chemistry_(Schaller)/Structure_and_Reactivity_in_Organic_Biological_and_Inorganic_Chemistry_II%3A_Practical_Aspects_of_Structure_-_Purification_and_Spectroscopy/02%3A_Ultraviolet-Visible_Spectroscopy/2.03%3A_UV-Visible_Spectroscopy_of_Organic_Compounds)
+
+[UV-Vis spec, student resources](https://edu.rsc.org/resources/students-resource-uv-/-visible-spectroscopy/282.article#:~:text=UV%2Dvisible%20spectroscopy%20is%20a,a%20mechanism%20can%20be%20proposed.)
+
+[Nice chapter on uv absorbance](https://www.intechopen.com/chapters/78677)
+
+[Nice general reference on uv-vis spec](https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/spectrpy/uv-vis/spectrum.htm)
+
+[Some UV-Vis chemistry examples](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_(Wade)_Complete_and_Semesters_I_and_II/Map%3A_Organic_Chemistry_(Wade)/16%3A_Conjugated_Systems_Orbital_Symmetry_and_Ultraviolet_Spectroscopy/16.10%3A_Interpreting_Ultraviolet_Spectra_-_The_Effect_of_Conjugation#:~:text=Molecules%20or%20parts%20of%20molecules,a%20%CF%80%20%2D%20%CF%80*%20transition.)
+
+
+
+# Sun May  5 02:54:23 PM EDT 2024
+
+## Notes on testing v0.2
+
+idea: place all non-emitter/detector components on 'bottom' of board to allow easy access during testing
+
+use voltage doubler on emitter board, as per this part [here](https://www.analog.com/en/products/max1682.html)
+
+replace the 5K R15 on detector board with R15 = 619 ohms
+
+add current sense breakout above R2 on emitter board 
+
+add 555 boost and 555 emitter input on external feather board
+
+add usb socket to motherboard for power
+
+
+```
+I was getting a measly 1.0V at the "2V5" reference pin - some buffoon (that is, me) seems to have chosen poorly the value of R15. I have replaced the 5K with a 619 Ohm resistor - and much better! I get 2.5Vreference.
+
+And the signal at "leak" seems to act as I expected, in room light anyway. I still have to set up the LED and test a blank and wet cuvette ...
+
+so, that T-network has a nice high gain!
+
+And the input signal is 2.491 to 2.517 at 1kHz
+
+Implies the equivalent feedback R is about 53.8Meg
+
+There about 26nApp into the the stage with this test
+
+So , 26mVpp into 1Meg for test current, and about 1.4Vpp output
+
+Now to find what I did wrong at the LED stage ...
+
+With 130us rise time that's about 2.7kHz tia bandwidth
+
+Don't run the LED at 10kHz ..
+
+OK I have a solid 0.5Vpp signal at "leak" node when I ping the LED board with 0V to 3V square wave at 500 Hz. On that emitter pcb I had to swap out R1 (was 49.9K) to 49.9 Ohms, and R2 (was 24.9K) to 24.9 Ohms. So, no cuvette, in the opto-mechanical system Craig designed, I see 0.5Vpp signal. Not bad.
+
+less nice, I see some noise - I think that high gain TIA is also picking up 60Hz, and some other crap. more scope-ing to figure this out .... maybe we want a metal box ?
+```
+![](/img/uvf/mike_test_v0.2.jpg)
+
+![](/img/uvf/craig_PD.jpg)
+
+
