@@ -291,3 +291,196 @@ flashing firmware on esp32 devices [here](https://meshtastic.org/docs/getting-st
 - cli script method [here](https://meshtastic.org/docs/getting-started/flashing-firmware/esp32/cli-script/)
 
 - configuring device via CLI [here](https://meshtastic.org/docs/getting-started/initial-config/)
+
+- canned message [here](https://meshtastic.org/docs/configuration/module/canned-message/)
+
+- proper i2c pins for heltec v3 [here](https://meshtastic.discourse.group/t/lora32-v3-card-kb-canned-messaging/7978/3)
+
+- heltec pinout [here](
+
+- cardkb description [here](https://docs.m5stack.com/en/unit/cardkb)
+
+- black / gnd, red / 3v, yellow sda, white scl 
+
+- 41 is sda, 42 is scl on heltec v3
+
+- yellow to 41, white to 42
+
+
+# Sun May  5 06:53:55 PM EDT 2024
+
+meshtastic message history, thread [here](https://meshtastic.discourse.group/t/canned-messaging-see-list-of-recent-messages/8060)
+
+github most recent messages issue [here](https://github.com/meshtastic/firmware/issues/2590)
+
+semi-relevant discussion [here](https://meshtastic.discourse.group/t/t-deck-from-lilygo/7679/80)
+
+meshcom -- mesh for ham radio operators, compatible with aprs [here](https://www.youtube.com/watch?v=aWtqm7lbYoo)
+
+
+# Fri May 10 02:56:05 PM EDT 2024
+
+Meshtastic device configuration [here](https://meshtastic.org/docs/configuration/radio/device/)
+
+```
+#define CARDKB_ADDR 0x5F  //Define the I2C address of CardKB.
+#include <Wire.h>
+
+void setup() {
+  Wire.begin();
+  Serial.begin(9600);
+}
+void loop()
+{
+  Wire.requestFrom(CARDKB_ADDR, 1); //Request 1 byte from the slave device.
+  while (Wire.available()) {
+    char c = Wire.read(); 
+    if (c != 0)
+    {
+      if (c == '\x0D') {
+        Serial.println();
+      }
+      else {
+      Serial.print(c);
+    }
+      //Serial.print(c,HEX);
+    }
+  }
+}
+```
+
+---
+
+```
+/*
+Example of processing incoming serial data without blocking.
+
+Author:   Nick Gammon
+Date:     13 November 2011. 
+Modified: 31 August 2013.
+
+Released for public use.
+*/
+
+#define CARDKB_ADDR 0x5F  //Define the I2C address of CardKB.
+#include <Wire.h>
+
+// how much serial data we expect before a newline
+const unsigned int MAX_INPUTTY = 50;
+
+void setup ()
+  {
+      Wire.begin();
+  Serial.begin (115200);
+  Serial1.begin(38400);
+  } // end of setup
+
+// here to process incoming serial data after a terminator received
+void process_input_data (const char * data)
+  {
+  // for now just display it
+  // (but you could compare it to some value, convert to an integer, etc.)
+  Serial.println(data);
+  }  // end of process_data
+
+void process_output_data (const char * data)
+  {
+  // for now just display it
+  // (but you could compare it to some value, convert to an integer, etc.)
+  Serial1.println(data);
+  }  // end of process_data
+  
+void processIncomingByte (const byte inByte)
+  {
+  static char input_line [MAX_INPUTTY];
+  static unsigned int input_pos = 0;
+
+  switch (inByte)
+    {
+
+    case '\n':   // end of text
+      input_line [input_pos] = 0;  // terminating null byte
+      
+      // terminator reached! process input_line here ...
+      process_input_data (input_line);
+      
+      // reset buffer for next time
+      input_pos = 0;  
+      break;
+
+    case '\r':   // discard carriage return
+      break;
+
+    default:
+      // keep adding if not full ... allow for terminating null byte
+      if (input_pos < (MAX_INPUTTY - 1))
+        input_line [input_pos++] = inByte;
+        //Serial.print(inByte);
+      break;
+
+    }  // end of switch
+   
+  } // end of processIncomingByte  
+
+
+
+  //void processOutgoingByte (const byte outByte)
+   void processOutgoingByte (char outByte)
+  {
+  static char output_line [MAX_INPUTTY];
+  static unsigned int output_pos = 0;
+
+  switch (outByte)
+    {
+
+    case 0:
+      break;
+
+
+    case '\x0D':   // end of text
+      output_line [output_pos] = 0;  // terminating null byte
+      Serial.println();
+      // terminator reached! process input_line here ...
+      process_output_data (output_line);
+      
+      // reset buffer for next time
+      output_pos = 0;  
+      break;
+
+    //case '\r':   // discard carriage return
+    //break;
+
+    default:
+      // keep adding if not full ... allow for terminating null byte
+      //Serial.print(outByte);
+      if (output_pos < (MAX_INPUTTY - 1))
+        output_line [output_pos++] = outByte;
+        Serial.print(outByte);
+      break;
+
+    }  // end of switch
+   
+  } // end of processIncomingByte  
+
+
+void loop()
+  {
+  // if serial data available, process it
+  while (Serial1.available () > 0)
+    processIncomingByte (Serial1.read ());
+  
+  Wire.requestFrom(CARDKB_ADDR, 1); //Request 1 byte from the slave device.
+   while (Wire.available())
+    processOutgoingByte (Wire.read());
+  
+  // do other stuff here like testing digital input (button presses) ...
+
+  }  // end of loop
+```
+
+meshtastic_to_serial_cardkb
+
+
+
+
+

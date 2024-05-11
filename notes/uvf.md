@@ -301,3 +301,36 @@ less nice, I see some noise - I think that high gain TIA is also picking up 60Hz
 ![](/img/uvf/craig_PD.jpg)
 
 
+# Fri May 10 03:39:30 PM EDT 2024
+
+![](/img/uvf/uvf_meeting_may10.png)
+
+rxd 7
+txd 47
+baud 38400
+mode textmsg
+
+in arduino ide, use 'new line'
+
+---
+
+waveshare:
+
+guide for 2.13 e ink [here](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT_Manual#Working_With_Arduino)
+
+same on itsy m0, but:
+rst d7
+busy d12
+
+arduino library for waveshare [here](https://github.com/soonuse/epd-library-arduino)
+
+getting serial data on arduino without blocking [here](https://gammon.com.au/serial)
+
+circuitpython tips and tricks [here](https://github.com/todbot/circuitpython-tricks)
+
+meshtastic-to-serial is basic working version
+
+suggestion on reading bytes from keyboard [here](https://forum.arduino.cc/t/read-a-character-string-from-i2c-keyboard/1011365/12)
+
+
+
