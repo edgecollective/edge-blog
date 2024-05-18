@@ -157,4 +157,20 @@ Manual for charger (similar to one that) I purchased [here](https://hqsolarpower
 [https://www.amazon.com/dp/B07VDRGK9F](https://www.amazon.com/dp/B07VDRGK9F)
 
 
+# Wed May 15 07:58:41 PM EDT 2024
+
+[https://www.eevblog.com/forum/beginners/switching-12v-power-from-ds3231-open-drain-intsqw-pin/](https://www.eevblog.com/forum/beginners/switching-12v-power-from-ds3231-open-drain-intsqw-pin/)
+
+![](/img/ojofeliz/DS3231_power_control.jpg)
+
+also here: [https://forum.arduino.cc/t/mods-to-ds3231-zs-042-module-for-power-control/1101164](https://forum.arduino.cc/t/mods-to-ds3231-zs-042-module-for-power-control/1101164)
+- discusses necessary modifications to make the ebay module work 
+
+see post #2 -- also handles higher-voltage circuit 
+
+> For the low-voltage circuit, the P-channel mosfet could be a DMP1045U or something similar with very low threshold voltage and low on-resistance.
+
+> For the high-voltage circuit, the P-channel doesn't need to be logic level, but should have a GS maximum of 20V, and low on-resistance. An IRF9540 would work.
+
+> And the BSS138 would work for the small N-channel mosfet.
 

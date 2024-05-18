@@ -305,32 +305,57 @@ less nice, I see some noise - I think that high gain TIA is also picking up 60Hz
 
 ![](/img/uvf/uvf_meeting_may10.png)
 
-rxd 7
-txd 47
-baud 38400
-mode textmsg
 
-in arduino ide, use 'new line'
+# Fri May 17 08:25:56 PM EDT 2024
 
----
+Version 0.2 of hardware does indeed work!
 
-waveshare:
+Input: 1 kHz square wave, 50% duty cycle, 3.3V pp
 
-guide for 2.13 e ink [here](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT_Manual#Working_With_Arduino)
+[Video of initial test with cuvette filled with distilled water](![](/img/uvf/initial_cuvette_test.mp4)
+- interesting: voltage at DETECT slightly higher with liquid-filled cuvette than without any cuvette ... lens effect?
 
-same on itsy m0, but:
-rst d7
-busy d12
+| ![](/img/uvf/raw_battery_sag.jpg) |
+|:--:|
+| Raw battery sag is about 0.2V |
 
-arduino library for waveshare [here](https://github.com/soonuse/epd-library-arduino)
+| ![](/img/uvf/urea_setup.jpg) |
+|:--:|
+| Test setup | 
 
-getting serial data on arduino without blocking [here](https://gammon.com.au/serial)
+| ![](/img/uvf/leak_blocked.jpg) |
+|:--:|
+| LEAK blocked | 
 
-circuitpython tips and tricks [here](https://github.com/todbot/circuitpython-tricks)
+| ![](/img/uvf/leak_unblocked.jpg) |
+|:--:|
+| LEAK unblocked | 
 
-meshtastic-to-serial is basic working version
+| ![](/img/uvf/rect_blocked.jpg) |
+|:--:|
+| RECT blocked | 
 
-suggestion on reading bytes from keyboard [here](https://forum.arduino.cc/t/read-a-character-string-from-i2c-keyboard/1011365/12)
+| ![](/img/uvf/rect_unblocked_ac.jpg) |
+|:--:|
+| RECT unblocked | 
+
+| ![](/img/uvf/detect_blocked.jpg) |
+|:--:|
+| DETECT blocked | 
+
+| ![](/img/uvf/detect_unblocked.jpg) |
+|:--:|
+| DETECT unblocked | 
+
+![](/img/uvf/dilution.jpg)
+
+## Initial 'linearity test' attempt using tannin powder
+
+![](/img/uvf/tannin.jpg)
+
+| [![](/img/uvf/droplet_experiment_cover.png)](/img/uvf/tannin_test.mp4) | 
+|:--:|
+| Video of initial tannin test. Initial solution: 25 mg tannin powder in 5 mL of distilled water (this dropped DETECT signal to 'zero'); then diluted 5 mL of that solution into 25 mL of distilled water. |
 
 
 

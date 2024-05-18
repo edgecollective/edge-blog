@@ -169,7 +169,17 @@ We'll be posting updates as this design solidifies.
 
 ![](/img/transport/sbk_j.jpeg)
 
+# Tue May 14 04:28:17 PM EDT 2024
 
+Bamboo bike trailer [here](https://www.networx.com/article/building-your-own-bamboo-bike-trailer)
+
+Why not to grow bamboo in your yard [here](https://www.networx.com/article/5-reasons-not-to-plant-bamboo-in-your-ya)
+
+[transition amherst](https://www.transitionamherst.org/blog/blogs/cargo-bicycling/)
+
+triple brook farm southampton, ma [here](https://tripplebrookfarm.com/about-us/)
+
+bamboo trailer design [here](https://www.youtube.com/watch?v=eXw2ocuuBRg)
 
 
 
