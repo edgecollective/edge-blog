@@ -312,8 +312,9 @@ Version 0.2 of hardware does indeed work!
 
 Input: 1 kHz square wave, 50% duty cycle, 3.3V pp
 
-[Video of initial test with cuvette filled with distilled water](![](/img/uvf/initial_cuvette_test.mp4)
-- interesting: voltage at DETECT slightly higher with liquid-filled cuvette than without any cuvette ... lens effect?
+| [![](/img/uvf/initial_expt_cover.png)](https://drive.google.com/file/d/1ddht_ipYdlvbi5xdmDQ5ARPbd5Wk6Hx-/view?usp=sharing) |
+|:--:|
+| Video of initial test with cuvette filled with distilled water.  Interesting: voltage at DETECT slightly higher with liquid-filled cuvette than without any cuvette ... lens effect? |
 
 | ![](/img/uvf/raw_battery_sag.jpg) |
 |:--:|
@@ -353,9 +354,17 @@ Input: 1 kHz square wave, 50% duty cycle, 3.3V pp
 
 ![](/img/uvf/tannin.jpg)
 
-| [![](/img/uvf/droplet_experiment_cover.png)](/img/uvf/tannin_test.mp4) | 
+| [![](/img/uvf/droplet_experiment_cover.png)](https://drive.google.com/file/d/1vx4ERz3yq5KiWA97wVG02OwWjmjgoKUb/view?usp=sharing) | 
 |:--:|
 | Video of initial tannin test. Initial solution: 25 mg tannin powder in 5 mL of distilled water (this dropped DETECT signal to 'zero'); then diluted 5 mL of that solution into 25 mL of distilled water. |
 
+## Next steps:
 
+- DC-DC boost noise reduction via 555-based circuit
+- test of linearity of circuit
+- 555-based 1 kHz input
+- respin case to enhance internal light collimation
+- ground plane on board and 60 Hz shielding
+
+ 
 
