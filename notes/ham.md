@@ -582,3 +582,41 @@ rtc power switches:
 - another simple explanation here: [https://forum.arduino.cc/t/power-on-off-with-ds323rtc/308686/6](https://forum.arduino.cc/t/power-on-off-with-ds323rtc/308686/6)
 - need a p-mos for a ds3231 circuit [https://forum.arduino.cc/t/using-ds3231-rtc-alarm-pin-to-power-mosfet/219377](https://forum.arduino.cc/t/using-ds3231-rtc-alarm-pin-to-power-mosfet/219377)
 
+[waveshare documentation for rp2040-lora-hf](https://www.waveshare.com/rp2040-lora.htm)
+
+circuitpython for the nrf dongle!! find it [here](https://circuitpython.org/board/pca10059/)
+
+Really nice gitlab documentation for the dongle here: [https://gitlab.com/shaktiproject/software/zephyr-rtos/blob/28b2f32967c9d463a25d4a9559a7a64cd183ba14/boards/arm/nrf52840_pca10059/doc/nrf52840_pca10059.rst](https://gitlab.com/shaktiproject/software/zephyr-rtos/blob/28b2f32967c9d463a25d4a9559a7a64cd183ba14/boards/arm/nrf52840_pca10059/doc/nrf52840_pca10059.rst)
+
+old issues around the dongle and adafruit bootloader: [https://github.com/adafruit/Adafruit_nRF52_Arduino/issues/200](https://github.com/adafruit/Adafruit_nRF52_Arduino/issues/200)
+
+[https://devzone.nordicsemi.com/f/nordic-q-a/39185/pca10059-replacing-stock-bootloader-with-adafruit-uf2-using-usb-dfua-signature-i-can-generate-a-zip-file-with-nrfutil-but-what-key-should-i-use-i-tried-to-use-just-a-private-key-and-flash-that-generated-packet-with-nrfutil-bu](https://devzone.nordicsemi.com/f/nordic-q-a/39185/pca10059-replacing-stock-bootloader-with-adafruit-uf2-using-usb-dfua-signature-i-can-generate-a-zip-file-with-nrfutil-but-what-key-should-i-use-i-tried-to-use-just-a-private-key-and-flash-that-generated-packet-with-nrfutil-bu)
+
+this makes the bootloader process seem easy: [https://koen.vervloesem.eu/blog/how-to-upgrade-the-adafruit-nrf52-bootloader/](https://koen.vervloesem.eu/blog/how-to-upgrade-the-adafruit-nrf52-bootloader/)
+- seems to only require adafruit-nrfutil! 
+
+THIS describes how to add the Adafruit UF2 bootloader, for sure (should compare to above): [https://meshtastic.discourse.group/t/wip-diy-nrf82540-nicerf-868-4-2-inch-epaper/5552/14](https://meshtastic.discourse.group/t/wip-diy-nrf82540-nicerf-868-4-2-inch-epaper/5552/14)
+
+Interesting device: [https://wiki.aprbrother.com/en/BleUsbDongle.html#april-usb-dongle-52840](https://wiki.aprbrother.com/en/BleUsbDongle.html#april-usb-dongle-52840)
+
+
+
+
+# Sat May 18 07:50:16 PM EDT 2024
+
+Adafruit sharp display -- some 'raw' code that isn't bit-banging: [https://forum.pjrc.com/index.php?threads/adafruit-sharp-module.23852/](https://forum.pjrc.com/index.php?threads/adafruit-sharp-module.23852/)
+
+
+# Sat May 18 08:24:22 PM EDT 2024
+
+waveshare pi zero module 4g lte to make your own phone: [https://www.amazon.com/Waveshare-SIM7600G-H-Raspberry-Supports-Positioning/dp/B08ZSSCYDD](https://www.amazon.com/Waveshare-SIM7600G-H-Raspberry-Supports-Positioning/dp/B08ZSSCYDD)
+
+pico 4g lte module a
+
+building a cellular device with a pico, part 1 [https://blog.smittytone.net/2021/08/20/how-to-build-a-cellular-iot-device-with-raspberry-pi-pico-part-one/](https://blog.smittytone.net/2021/08/20/how-to-build-a-cellular-iot-device-with-raspberry-pi-pico-part-one/)
+
+[https://github.com/orgs/micropython/discussions/14356](https://github.com/orgs/micropython/discussions/14356)
+
+beepberry [here](https://www.theverge.com/23727218/beepberry-cyberdeck-mini-computer-raspberry-pi-beeper-messenger)
+[https://docs.m5stack.com/en/stamp/stamp_catm](https://docs.m5stack.com/en/stamp/stamp_catm)
+

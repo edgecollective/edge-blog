@@ -366,5 +366,12 @@ Input: 1 kHz square wave, 50% duty cycle, 3.3V pp
 - respin case to enhance internal light collimation
 - ground plane on board and 60 Hz shielding
 
- 
+
+# Sun May 19 06:02:51 PM EDT 2024
+
+Similar platform: [https://iorodeo.com/products/uv-open-colorimeter](https://iorodeo.com/products/uv-open-colorimeter)
+- colorimeter product guide: [https://blog.iorodeo.com/open-colorimeter-product-guide/](https://blog.iorodeo.com/open-colorimeter-product-guide/)
+- uv sensor board in particular [https://iorodeo.com/products/as7331-uv-sensor-board?pr_prod_strat=e5_desc&pr_rec_id=037acace2&pr_rec_pid=7328730316915&pr_ref_pid=7363616571507&pr_seq=uniform](https://iorodeo.com/products/as7331-uv-sensor-board?pr_prod_strat=e5_desc&pr_rec_id=037acace2&pr_rec_pid=7328730316915&pr_ref_pid=7363616571507&pr_seq=uniform)
+
+
 
