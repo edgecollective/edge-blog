@@ -620,3 +620,229 @@ building a cellular device with a pico, part 1 [https://blog.smittytone.net/2021
 beepberry [here](https://www.theverge.com/23727218/beepberry-cyberdeck-mini-computer-raspberry-pi-beeper-messenger)
 [https://docs.m5stack.com/en/stamp/stamp_catm](https://docs.m5stack.com/en/stamp/stamp_catm)
 
+
+# Sun May 19 06:42:24 PM EDT 2024
+
+Starting to try to add adafruit bootloader...
+
+[https://github.com/adafruit/Adafruit_nRF52_Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader)
+
+"Flashing nRF52840 USB Key bootloader":
+[https://forums.adafruit.com/viewtopic.php?t=206837](https://forums.adafruit.com/viewtopic.php?t=206837)  
+
+[https://www.rototron.info/circuitpython-nrf52840-dongle-openocd-pi-tutorial/](https://www.rototron.info/circuitpython-nrf52840-dongle-openocd-pi-tutorial/)
+
+[https://learn.adafruit.com/circuitpython-on-the-nrf52/nrf52840-bootloader](https://learn.adafruit.com/circuitpython-on-the-nrf52/nrf52840-bootloader)
+
+[https://community.platformio.org/t/using-nordic-nrf52840-dongle-under-arduino-framework-with-platformio-vscode/24776](https://community.platformio.org/t/using-nordic-nrf52840-dongle-under-arduino-framework-with-platformio-vscode/24776)
+
+[https://forums.adafruit.com/viewtopic.php?t=151127&start=15](https://forums.adafruit.com/viewtopic.php?t=151127&start=15)
+
+pinout for jlink mini [https://embeddedcomputing.weebly.com/segger-j-link-edu-mini-programmer-debugger.html](https://embeddedcomputing.weebly.com/segger-j-link-edu-mini-programmer-debugger.html)
+
+[j-link connections](https://devzone.nordicsemi.com/f/nordic-q-a/56710/programming-and-debugging-nrf52840-dongle-using-external-programmer-j-link)
+
+j-link user manual [here](https://devzone.nordicsemi.com/cfs-file/__key/support-attachments/beef5d1b77644c448dabff31668f3a47-eaaab8b09e814a12b338ab2b0c1bd84c/UM08001_5F00_JLink.pdf)
+
+![](/img/ham/jlink_nrf52dongle.png)
+
+![](/img/ham/jlink_comm.png)
+
+j-link hack:
+- purple -- vref
+- blue -- SWDIO
+- black -- GND
+- white -- SWDCLK 
+
+followed [https://learn.adafruit.com/circuitpython-on-the-nrf52/nrf52840-bootloader](https://learn.adafruit.com/circuitpython-on-the-nrf52/nrf52840-bootloader)
+
+installed nrfutil as per suggestion
+
+used USB to power dongle; then hooked up SW pins as per 'j-link hack' pin assignments above
+
+
+downloaded proper bootloader hex file for pca10059 from here: [https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/0.9.0](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/0.9.0)
+
+used commands:
+
+```
+nrfjprog -f nrf52 --recover
+nrfjprog -f nrf52 --eraseall
+nrfjprog -f nrf52 --program pca10059_bootloader-0.9.0_s140_6.1.1.hex
+```
+
+main guide:
+
+[https://meshtastic.discourse.group/t/wip-diy-nrf82540-nicerf-868-4-2-inch-epaper/5552/20?page=2](https://meshtastic.discourse.group/t/wip-diy-nrf82540-nicerf-868-4-2-inch-epaper/5552/20?page=2)
+
+pca10059 e-ink variant:
+
+```
+// NiceRF 868 LoRa module
+#define USE_SX1262
+#define SX126X_CS (0 + 31)     // LORA_CS     P0.31
+#define SX126X_DIO1 (0 + 29)   // DIO1        P0.29
+#define SX126X_BUSY (0 + 2)    // LORA_BUSY   P0.02
+#define SX126X_RESET (32 + 15) // LORA_RESET  P1.15
+#define SX126X_TXEN (32 + 13)  // TXEN        P1.13 NiceRF 868 dont use
+#define SX126X_RXEN (32 + 10)  // RXEN        P1.10 NiceRF 868 dont use
+```
+
+pico variant:
+```
+#define LORA_SCK 10
+#define LORA_MISO 12
+#define LORA_MOSI 11
+#define LORA_CS 3
+
+#define LORA_DIO0 RADIOLIB_NC
+#define LORA_RESET 15
+#define LORA_DIO1 20
+#define LORA_DIO2 2
+#define LORA_DIO3 RADIOLIB_NC
+
+#ifdef USE_SX1262
+#define SX126X_CS LORA_CS
+#define SX126X_DIO1 LORA_DIO1
+#define SX126X_BUSY LORA_DIO2
+#define SX126X_RESET LORA_RESET
+#define SX126X_DIO2_AS_RF_SWITCH
+#define SX126X_DIO3_TCXO_VOLTAGE 1.8
+#endif
+```
+
+reference for waveshare module [https://www.waveshare.com/core1262-868m.htm](https://www.waveshare.com/core1262-868m.htm)
+
+![](/img/ham/Core1262-LF-details-inter.jpg)
+
+![](/img/ham/pca10059_pinout.png)
+
+Was able to install CPY on dongle using UF2 here: [https://circuitpython.org/board/pca10059/](https://circuitpython.org/board/pca10059/)
+
+building custom meshtastic firmware [here](https://meshtastic.org/docs/development/firmware/build/)
+
+
+
+# Mon May 20 09:56:53 PM EDT 2024
+
+Itsy Bitsy pinout
+
+![](/img/ham/itsy_bitsy_nrf52_pin_assign.png)
+
+TWC-4 assignment, using Adafruit nRF52 Feather Express:
+
+```
+// LEDs
+#define PIN_LED1 (32 + 10) // Blue LED        P1.10
+#define PIN_LED2 (32 + 15) // Built in Green  P1.15
+
+// RGB NeoPixel LED2
+// #define PIN_LED1 (0 + 8) Red
+// #define PIN_LED1 (32 + 9) Green
+// #define PIN_LED1 (0 + 12) Blue
+
+#define LED_BUILTIN PIN_LED1
+#define LED_CONN PIN_LED2
+
+#define LED_GREEN PIN_LED1
+#define LED_BLUE PIN_LED2
+
+#define LED_STATE_ON 0 // State when LED is litted
+
+/*
+ * Buttons
+ */
+#define PIN_BUTTON1 (32 + 2) // BTN_DN           P1.02 Built in button
+
+/*
+ * Analog pins
+ */
+#define PIN_A0 (0 + 29) // using VDIV (A6 / P0.29)
+
+static const uint8_t A0 = PIN_A0;
+#define ADC_RESOLUTION 14
+
+// Other pins
+#define PIN_AREF (-1) // AREF            Not yet used
+
+static const uint8_t AREF = PIN_AREF;
+
+/*
+ * Serial interfaces
+ */
+#define PIN_SERIAL1_RX (0 + 24)
+#define PIN_SERIAL1_TX (0 + 25)
+
+// Connected to Jlink CDC
+#define PIN_SERIAL2_RX (-1)
+#define PIN_SERIAL2_TX (-1)
+
+/*
+ * SPI Interfaces
+ */
+#define SPI_INTERFACES_COUNT 1
+
+#define PIN_SPI_MISO (0 + 15) // MISO      P0.15
+#define PIN_SPI_MOSI (0 + 13) // MOSI      P0.13
+#define PIN_SPI_SCK (0 + 14)  // SCK       P0.14
+
+static const uint8_t SS = (0 + 6); // LORA_CS   P0.6
+static const uint8_t MOSI = PIN_SPI_MOSI;
+static const uint8_t MISO = PIN_SPI_MISO;
+static const uint8_t SCK = PIN_SPI_SCK;
+
+////#define USE_EINK
+#define USE_SSD1306
+
+/*
+ * Wire Interfaces
+ */
+#define WIRE_INTERFACES_COUNT 1
+
+#define PIN_WIRE_SDA (0 + 12) // SDA     P0.12
+#define PIN_WIRE_SCL (0 + 11) // SCL     P0.11
+
+// NiceRF 868 LoRa module
+#define USE_SX1262
+#define USE_LLCC68
+
+#define SX126X_CS (0 + 6)     // LORA_CS     P0.06
+#define SX126X_DIO1 (0 + 7)   // DIO1        P0.07
+#define SX126X_BUSY (0 + 26)  // LORA_BUSY	  P0.26
+#define SX126X_RESET (0 + 27) // LORA_RESET  P0.27
+#define SX126X_DIO3_TCXO_VOLTAGE 1.8
+
+#define PIN_GPS_EN (-1)
+#define PIN_GPS_PPS (-1) // Pulse per second input from the GPS
+
+#define GPS_RX_PIN PIN_SERIAL1_RX
+#define GPS_TX_PIN PIN_SERIAL1_TX
+
+// Battery
+// The battery sense is hooked to pin A6 (0.29)
+#define BATTERY_PIN PIN_A0
+// and has 12 bit resolution
+#define BATTERY_SENSE_RESOLUTION_BITS 12
+#define BATTERY_SENSE_RESOLUTION 4096.0
+#undef AREF_VOLTAGE
+#define AREF_VOLTAGE 3.0
+#define VBAT_AR_INTERNAL AR_INTERNAL_3_0
+#define ADC_MULTIPLIER (2.0F)
+```
+
+NOTE: need to add these definitions for the itsybitsy meshtastic firmware (and choose free pins):
+```
+#define SX126X_TXEN (32 + 13)  // TXEN        P1.13 NiceRF 868 dont use
+#define SX126X_RXEN (32 + 10)  // RXEN        P1.10 NiceRF 868 dont use
+```
+instructions for creating uf2 for nrf52 boards [https://github.com/adafruit/Adafruit_nRF52_Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader)
+
+used 
+```
+python3 uf2conv.py firmware.bin -c -b 0x26000 -f 0xADA52840
+```
+
+
+
+
+

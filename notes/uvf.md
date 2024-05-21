@@ -372,6 +372,7 @@ Input: 1 kHz square wave, 50% duty cycle, 3.3V pp
 Similar platform: [https://iorodeo.com/products/uv-open-colorimeter](https://iorodeo.com/products/uv-open-colorimeter)
 - colorimeter product guide: [https://blog.iorodeo.com/open-colorimeter-product-guide/](https://blog.iorodeo.com/open-colorimeter-product-guide/)
 - uv sensor board in particular [https://iorodeo.com/products/as7331-uv-sensor-board?pr_prod_strat=e5_desc&pr_rec_id=037acace2&pr_rec_pid=7328730316915&pr_ref_pid=7363616571507&pr_seq=uniform](https://iorodeo.com/products/as7331-uv-sensor-board?pr_prod_strat=e5_desc&pr_rec_id=037acace2&pr_rec_pid=7328730316915&pr_ref_pid=7363616571507&pr_seq=uniform)
+- current-controlled LED board [https://github.com/iorodeo/i_control_led](https://github.com/iorodeo/i_control_led)
 
-
+What would be required to make their system work for UV254? 
 
