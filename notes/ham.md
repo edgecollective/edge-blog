@@ -843,6 +843,48 @@ python3 uf2conv.py firmware.bin -c -b 0x26000 -f 0xADA52840
 ```
 
 
+# Tue May 21 05:33:04 PM EDT 2024
+
+let's assign IB A2 / pin 28 -- serial.txd
+and assign IB A3 -- pin 31 -- serial.rxd
+
+going to try to update bootloader on new itsybitsy board using command line process described here: [https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader-use-command-line](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader-use-command-line)
+
+
+# Tue May 21 07:20:04 PM EDT 2024
+
+everything (no gps fix): 90 mA
+
+remove gps:  26 mA
+
+seems to go into state of 45 mA after a while of gps searching
+
+keyboard seems to take about 5 mA
+
+powering and no
+
+25.6 without sd card, 26 with ... so sd card (not using) seems to take about .5 mA
+
+sending lora packet gives spike of additional 55 mA
+
+receive process seems similar (perhaps due to ack)
+
+itsy bitsy seems to add about 10 mA
+
+working configuration:
+
+Meshtastic:
+
+IB -- LoRa:  as per the meshtastic firmware
+IB -- GPS: gps TX connects to IB RX, etc
+i2c pullups on oled
+using A2 and A3 on IB for serial mode
+
+
+
+
+
+
 
 
 
