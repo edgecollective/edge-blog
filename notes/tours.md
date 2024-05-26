@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 updated: 2024-02-25
 tags: notes 
-image: /img/uvf/uvf.png
+image: /img/placeholder.png
 blurb: With special relevance to homeschooling 
 ---
 

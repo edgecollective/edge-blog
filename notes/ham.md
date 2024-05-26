@@ -880,8 +880,12 @@ IB -- GPS: gps TX connects to IB RX, etc
 i2c pullups on oled
 using A2 and A3 on IB for serial mode
 
+using an external SPI flash chip: [https://learn.adafruit.com/building-circuitpython/choosing-a-different-spi-flash-chip](https://learn.adafruit.com/building-circuitpython/choosing-a-different-spi-flash-chip)
 
 
+# Sun May 26 01:00:53 PM EDT 2024
+
+update: in circuitpython and in arduino, can set up sharp display on separate pins for spi bus and works fine alongside microSD
 
 
 
