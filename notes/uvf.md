@@ -376,3 +376,21 @@ Similar platform: [https://iorodeo.com/products/uv-open-colorimeter](https://ior
 
 What would be required to make their system work for UV254? 
 
+
+# Sun May 26 01:51:00 PM EDT 2024
+
+## 555-based boost circuit design
+
+Reference is circuit 1 from [this tutorial](https://www.instructables.com/Two-circuits-of-switched-mode-power-supply-based-o/)
+
+Power mosfet IRF2907Z datasheet [here](https://www.infineon.com/dgdl/Infineon-IRF2907Z-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015355ded98f1902)
+
+op-amp is LT1716
+
+[![](/img/uvf/555_switcher_boost_circuit_1.png)](/img/uvf/555_switcher_boost_circuit_1.png)
+
+![](/img/uvf/555_pinout.webp)
+
+# Mon May 27 04:44:00 PM EDT 2024
+
+

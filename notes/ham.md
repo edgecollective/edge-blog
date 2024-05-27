@@ -888,6 +888,11 @@ using an external SPI flash chip: [https://learn.adafruit.com/building-circuitpy
 update: in circuitpython and in arduino, can set up sharp display on separate pins for spi bus and works fine alongside microSD
 
 
+# Mon May 27 05:20:53 PM EDT 2024
+
+hiletgo neo 6m gps module [here](https://www.amazon.com/HiLetgo-GY-NEO6MV2-Controller-Ceramic-Antenna/dp/B01D1D0F5M)
+
+![](/img/ham/hiletgo-neo6m.png)
 
 
 
