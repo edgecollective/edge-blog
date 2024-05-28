@@ -894,6 +894,41 @@ hiletgo neo 6m gps module [here](https://www.amazon.com/HiLetgo-GY-NEO6MV2-Contr
 
 ![](/img/ham/hiletgo-neo6m.png)
 
+![](/img/ham/itsybitsy_nrf52840_pinout.jpg)
+
+![](/img/ham/adafruit_mini_gps.jpg)
+
+![](/img/ham/adafruit_products_Mini_GPS_PA1010D_FabPrint.png)
+
+waveshare sx1262 radio [here](https://www.amazon.com/Waveshare-Core1262-868M-Module-Support-Anti-Interference/dp/B09LV2W64R)
+
+![](/img/ham/waveshare_sx1262.jpg)
+
+![](/img/ham/waveshare_sx1262_pinout.jpg)
+
+cardkb keyboard info page [here](https://shop.m5stack.com/products/cardkb-mini-keyboard-programmable-unit-v1-1-mega8a)
+
+dimensions: 88*54*5mm
+
+grove connector on digikey [here](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/110990030/5482560)
+
+grove connector footprint [here](https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf)
+
+![](/img/ham//home/db/Pictures/Screenshots/grove_pin_spacing.png)
+
+![](/img/ham/grove_adafruit.jpg)
+
+- Black for GND
+- Red for V+ - Can be 3V or 5V power depending on the microcontroller board!
+- Blue for SDA
+- Yellow for SCL
+
+note: 'lay flat' grove connector is [here](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/110990037/5482561?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=Pmax_Shopping_Boston%20Metro%20Category%20Awareness&utm_term=&utm_content=&utm_id=go_cmp-20837509568_adg-_ad-__dev-c_ext-_prd-5482561_sig-Cj0KCQjw3tCyBhDBARIsAEY0XNkXJ_HFRJmmoMsluR2kYs7MUKODAmCG81mMdGtBCpPHV1KmENgjE6YaAvUHEALw_wcB&gad_source=1&gclid=Cj0KCQjw3tCyBhDBARIsAEY0XNkXJ_HFRJmmoMsluR2kYs7MUKODAmCG81mMdGtBCpPHV1KmENgjE6YaAvUHEALw_wcB)
+
+compass module from adafruit to add [here](https://www.adafruit.com/product/4413)
+
+Adafruit 1.14" display [here](https://www.adafruit.com/product/4383)
+
 
 
 
