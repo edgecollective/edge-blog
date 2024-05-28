@@ -174,3 +174,15 @@ see post #2 -- also handles higher-voltage circuit
 
 > And the BSS138 would work for the small N-channel mosfet.
 
+
+# Mon May 27 09:27:32 PM EDT 2024
+
+Debugging ...
+
+9602 sat modem module main page [here](https://www.groundcontrol.com/product/rockblock-9602-satellite-modem/)
+
+Ah!  rockblock needs at least 3.5 volts on the 'li-ion' pin
+
+also -- the 9602 doesn't limit the in-current, which might impact the battery;  not a problem for the 9603 (and perhaps not a problem for lead acid chemistry?) 
+
+max voltage is 5.5 volts
