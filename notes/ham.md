@@ -930,5 +930,23 @@ compass module from adafruit to add [here](https://www.adafruit.com/product/4413
 Adafruit 1.14" display [here](https://www.adafruit.com/product/4383)
 
 
+# Tue May 28 06:00:50 PM EDT 2024
+
+Seeed info on grove connectors [here](https://www.seeedstudio.com/blog/2022/11/18/seeed-grove-designers-guide-pcb-design-guidelines-and-more/)
+
+Info on right angle through-hole grove connector [here](https://statics3.seeedstudio.com/fusion/opl/datasheet/320110034.pdf)
+
+![](/img/ham/grove_right_angle.png)
+
+lsm303 compass fab: ![](/img/ham/lsm303_fab.png)
+
+![](/img/ham/sharp_large_pinout.jpg)
+
+![](/img/ham/sharp_large_display_fab.png)
+
+![](/img/ham/sharp_small_pinout.jpg)
+
+![](/img/ham/sharp_small_display_fab.png)
+
 
 

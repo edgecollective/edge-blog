@@ -186,3 +186,28 @@ Ah!  rockblock needs at least 3.5 volts on the 'li-ion' pin
 also -- the 9602 doesn't limit the in-current, which might impact the battery;  not a problem for the 9603 (and perhaps not a problem for lead acid chemistry?) 
 
 max voltage is 5.5 volts
+
+looks like 5V works well on VEXT -- 3.3V was too low -- perhaps it would've been enough with only the feather, but the sat modem was taking in too much current?
+
+![](/img/ojofeliz/solar_power_setup.jpeg)
+
+# Wed Jun  5 07:05:51 PM EDT 2024
+
+![](/img/ojofeliz/solar_controller.png)
+
+![](/img/ojofeliz/dc_dc.jpeg)
+
+![](/img/ojofeliz/sensor_box.jpeg)
+
+![](/img/ojofeliz/dc_dc_ordered.jpeg)
+
+![](/img/ojofeliz/overall_circuit_transmitter_sensor.png)
+
+![](/img/ojofeliz/dc_dc_labeled.png)
+
+![](/img/ojofeliz/old_dc_dc_in_solar_box.png)
+
+![](/img/ojofeliz/dc_dc_swap.png)
+
+
+
