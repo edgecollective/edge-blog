@@ -950,3 +950,33 @@ lsm303 compass fab: ![](/img/ham/lsm303_fab.png)
 
 
 
+# Thu Jun  6 04:55:02 PM EDT 2024
+
+![](/img/ham/uSD_hookup.png)
+
+![](/img/ham/feather_on_off.png)
+
+![](/img/ham/feather_button.png)
+
+![](/img/ham/sweet_antenna.png)
+
+![](/img/ham/track_widths.png)
+
+.25, .4, .7 mm
+
+![](/img/ham/lucciola_v0.1.png)
+
+
+
+# Fri Jun  7 07:20:02 AM EDT 2024
+
+waveshare sim7600 tutorial, jumpers [https://core-electronics.com.au/guides/raspberry-pi-4g-gps-hat/](https://core-electronics.com.au/guides/raspberry-pi-4g-gps-hat/)
+
+tutorial on AT commands [ https://www.industrialshields.com/blog/raspberry-pi-for-industry-26/how-to-send-and-receive-sms-with-raspberry-pi-automation-305]( https://www.industrialshields.com/blog/raspberry-pi-for-industry-26/how-to-send-and-receive-sms-with-raspberry-pi-automation-305)
+
+[https://docs.monogoto.io/getting-started/general-device-configurations/iot-devices/simcom-sim7600g-h/waveshare-sim7600g-h](https://docs.monogoto.io/getting-started/general-device-configurations/iot-devices/simcom-sim7600g-h/waveshare-sim7600g-h)
+
+connecting to arduino [https://www.waveshare.com/wiki/7600X_connect_Arduino](https://www.waveshare.com/wiki/7600X_connect_Arduino)
+
+![](/img/ham/sim7600_arduino.png)
+
