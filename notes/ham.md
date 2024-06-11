@@ -980,3 +980,7 @@ connecting to arduino [https://www.waveshare.com/wiki/7600X_connect_Arduino](htt
 
 ![](/img/ham/sim7600_arduino.png)
 
+
+# Mon Jun 10 06:33:06 PM EDT 2024
+
+Datetime library for circuitpython [https://github.com/adafruit/Adafruit_CircuitPython_datetime](https://github.com/adafruit/Adafruit_CircuitPython_datetime) 
