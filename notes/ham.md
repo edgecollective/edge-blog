@@ -984,3 +984,21 @@ connecting to arduino [https://www.waveshare.com/wiki/7600X_connect_Arduino](htt
 # Mon Jun 10 06:33:06 PM EDT 2024
 
 Datetime library for circuitpython [https://github.com/adafruit/Adafruit_CircuitPython_datetime](https://github.com/adafruit/Adafruit_CircuitPython_datetime) 
+
+
+# Mon Jun 17 04:51:47 PM EDT 2024
+
+Saving memory in circuitpython [https://learn.adafruit.com/Memory-saving-tips-for-CircuitPython?view=all](https://learn.adafruit.com/Memory-saving-tips-for-CircuitPython?view=all)
+
+
+# Thu Jun 20 07:36:28 PM EDT 2024
+
+meshtastic --set serial.enabled true --port /dev/ttyACM1 --set serial.mode TEXTMSG --set serial.rxd 31 --set serial.txd 28
+
+
+# Fri Jun 21 04:12:33 PM EDT 2024
+
+This is what worked for updating the feather nrf52 express bootloader -- the command line:  [https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader-use-command-line](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader-use-command-line)
+
+
+
