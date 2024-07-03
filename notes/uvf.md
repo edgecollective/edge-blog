@@ -514,21 +514,34 @@ Okay ...
 
 Got to 7.5 volts with the combination I have
 
+![](/img/uvf/555_input_555_boost.jpeg)
+
 Replicated the basic setup with 555 timer input
 
 ![](/img/uvf/555_50_50.png)
+
+![](/img/uvf/noisy_555_pwm.jpeg)
 
 Reference: see "555 Circuits Part 1 – An Improved Duty Cycle" ,  at [https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html](https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html)
 
 Used:  NE555 timer, RA = RB = 5.5K; C = 0.1 uF;  got freq of 1.15 kHz;   used 100 nF from pin 5 to ground
  
+555 output was a little noisy / shaky, not sure whether that's important / something to address. 
 
-The circuit I'm using to generate 7.5 volts:
+1.15 kHz seemed to result in stronger detector signal than 660 Hz, from what I could tell ...
 
+Meanwhile, the circuit I'm using to generate 7.5 volts is the first circuit [here](https://www.instructables.com/Two-circuits-of-switched-mode-power-supply-based-o/)
+
+- Used LM358P for comparator
+- Used NE555 for 555
 - R1 is 10K
 - D1 is a 1N4727A ... the voltage drop across it seemed to be around 2.2 V
 - R6 is 10K (9.69K when measured)
 - R7 is 4.2K
+- replaced IRF29072 with IRF740
+- Remove D3 & D9
+- Place C3, but might not need to populate
+- replaced DFLS220L with IN5817
 
 seemed to generate around 7.5 volts.  Might want to place an optional potentiometer to dial in the proper voltage ... 
 
