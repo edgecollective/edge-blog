@@ -490,10 +490,49 @@ using the tlv2462 as a comparator, datasheet [here](https://www.ti.com/lit/ds/sy
 
 Post debug with Mike:
 
+- replaced IRF29072 with IRF740
+- for voltage ref, replaced 1N750 with 1N4732A (4.7V) Zener  ... 4.7V was too close to 5V ... so then used 1N4727A (3V) Zener ... whatever voltage we generate via D1, implies proper value of voltage divider R6 & R7 to get us to 7.5 Volts  
 - Remove D3 & D9
-- Place C3, but might not need
-- Whatever value of voltage reference D1 implies values of R6 and R7 to get us to 7.5 Volts 
+- Place C3, but might not need to populate
+- replaced DFLS220L with IN5817
+
+
+- tested with 3 x 1K resistor load in parallel (replacing R5); still very smooth output, no droop  
+
+
+# Tue Jul  2 05:26:31 PM EDT 2024
+
+LM358ADR digikey $0.40 [here](https://www.digikey.com/en/products/detail/texas-instruments/LM358ADR/555540?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=Pmax_Shopping_Boston%20Metro%20Category%20Awareness&utm_term=&utm_content=&utm_id=go_cmp-20837509568_adg-_ad-__dev-c_ext-_prd-555540_sig-CjwKCAjwyo60BhBiEiwAHmVLJX4WQ_9Vm3RCA1vSrYdf1WwBZ7y5ZAuo139o7Uyq6VomeHFqisBuNhoC9SUQAvD_BwE&gad_source=1&gclid=CjwKCAjwyo60BhBiEiwAHmVLJX4WQ_9Vm3RCA1vSrYdf1WwBZ7y5ZAuo139o7Uyq6VomeHFqisBuNhoC9SUQAvD_BwE) 
+
+Package: 8-SOIC (0.154", 3.90mm Width)
+
+What input voltage is ideal for the LEDs?
+
+Try to get to 7.5 volts ...
+
+Okay ...
+
+Got to 7.5 volts with the combination I have
+
+Replicated the basic setup with 555 timer input
+
+![](/img/uvf/555_50_50.png)
+
+Reference: see "555 Circuits Part 1 – An Improved Duty Cycle" ,  at [https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html](https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html)
+
+Used:  NE555 timer, RA = RB = 5.5K; C = 0.1 uF;  got freq of 1.15 kHz;   used 100 nF from pin 5 to ground
  
+
+The circuit I'm using to generate 7.5 volts:
+
+- R1 is 10K
+- D1 is a 1N4727A ... the voltage drop across it seemed to be around 2.2 V
+- R6 is 10K (9.69K when measured)
+- R7 is 4.2K
+
+seemed to generate around 7.5 volts.  Might want to place an optional potentiometer to dial in the proper voltage ... 
+
+
 
 
 
