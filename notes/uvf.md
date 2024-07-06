@@ -539,14 +539,63 @@ Meanwhile, the circuit I'm using to generate 7.5 volts is the first circuit [her
 - R6 is 10K (9.69K when measured)
 - R7 is 4.2K
 - replaced IRF29072 with IRF740
-- Remove D3 & D9
+- Remove D3 & R9
 - Place C3, but might not need to populate
 - replaced DFLS220L with IN5817
 
 seemed to generate around 7.5 volts.  Might want to place an optional potentiometer to dial in the proper voltage ... 
 
 
+# Wed Jul  3 05:27:24 PM EDT 2024
 
+Reading about output filter design here: [https://resources.altium.com/p/switching-power-supply-output-filter-design-and-simulation](https://resources.altium.com/p/switching-power-supply-output-filter-design-and-simulationhttps://resources.altium.com/p/switching-power-supply-output-filter-design-and-simulation)
 
+Added 10uF cap from 5V to GND, and added 50 uH inductor across 5V output ... 
+
+Switching 555 is running at 155 KHz
+
+Current signal gen 555 output is at 880 Hz
+
+Designing a snubber circuit for a buck IC: [https://fscdn.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/buck_snubber_app-e.pdf](https://fscdn.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/buck_snubber_app-e.pdf)
+
+Minimizing ringing of a boost converter: [https://www.ti.com/lit/an/slva255/slva255.pdf?ts=1720022648821](https://www.ti.com/lit/an/slva255/slva255.pdf?ts=1720022648821)
+
+Pi filter: [https://diyguru.org/term/what-is-a-pi-filter/](https://diyguru.org/term/what-is-a-pi-filter/)
+
+![](/img/uvf/555_footprint_size.png)
+
+via [LM555 datasheet](https://www.ti.com/lit/ds/symlink/lm555.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1720046307239&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm555)
+
+SOIC-8 -- 4.90 mm × 3.91 mm
+
+RC snubber around a Mosfet
+
+# Fri Jul  5 06:07:37 PM EDT 2024
+
+![](/img/uvf/instructable_boost.bmp)
+
+What to do with unused op-amps [https://e2e.ti.com/blogs_/archives/b/thesignal/posts/the-unused-op-amp-what-to-do](https://e2e.ti.com/blogs_/archives/b/thesignal/posts/the-unused-op-amp-what-to-do)
+
+Selecting the right comparator [https://www.analog.com/en/resources/technical-articles/selecting-the-right-comparator.html](https://www.analog.com/en/resources/technical-articles/selecting-the-right-comparator.html)
+
+Reference around designing snubber circuits [https://www.cde.com/resources/technical-papers/design.pdf](https://www.cde.com/resources/technical-papers/design.pdf)
+
+TL331IDBVR -- the single comparator version of the lm339 -- [https://www.digikey.com/en/products/detail/texas-instruments/TL331IDBVR/381307](https://www.digikey.com/en/products/detail/texas-instruments/TL331IDBVR/381307)
+
+LMV331 also a possibility [https://www.ti.com/lit/ds/symlink/lmv331-n.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1720219930696&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmv331-n](https://www.ti.com/lit/ds/symlink/lmv331-n.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1720219930696&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmv331-n)
+
+![](/img/uvf/pi_filter.png)
+
+Suggested power mosfet here: [https://www.digikey.com/en/products/detail/diodes-incorporated/DMN61D9UWQ-13/7666847](https://www.digikey.com/en/products/detail/diodes-incorporated/DMN61D9UWQ-13/7666847)
+
+-- to be determined, as long as there's a proper footprint
+
+going for this for now [https://www.diodes.com/assets/Datasheets/DMN2056U.pdf](https://www.diodes.com/assets/Datasheets/DMN2056U.pdf) -- final is the DMN2056U
+
+![](/img/uvf/PI_FILTER.png)
+
+QT-PY details [https://learn.adafruit.com/adafruit-qt-py/downloads](https://learn.adafruit.com/adafruit-qt-py/downloads)
+
+test point [https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327](https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327)
 
  
