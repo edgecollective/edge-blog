@@ -599,3 +599,55 @@ QT-PY details [https://learn.adafruit.com/adafruit-qt-py/downloads](https://lear
 test point [https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327](https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327)
 
  
+# Thu Jul 11 04:35:04 PM EDT 2024
+
+## Previous linearity evaluation
+
+Previous linearity test, using multimeter to measure outout of 'DETECT', and wine tannins:
+
+![](/img/uvf/linearity_exp.jpg)
+
+![](/img/uvf/linearity_exp_3.png)
+
+## Addressing fluctuating ADC measurement
+
+Fixing the fluctuating signal on the ADC Feather input by adding an RC filter (R=5.5K, C=330nF, placed right at ADC input)
+
+| ![](/img/uvf/adc_fix_1.jpg)|
+|--|
+| 0.1uF or 1uF cap only |
+
+| ![](/img/uvf/adc_fix_2.jpg) |
+|--|
+| RC filter (R=5.5K, C=330nF) on breadboard; 4 inch wire then connects to Feather ADC. |
+
+
+| ![](/img/uvf/adc_fix_3.jpg) |
+|--|
+| RC filter (R=5.5K, C=330nF) with cap placed directly at Feather ADC |
+
+Summary: fluctuating ADC measurements seem to have been due to boost generator pulses being picked up by ADC.  Adding RC filter squashed it, made ADC much more stable.  Further improvements might involve measuring just after the 555 pulses, to avoid any influence of 555 signal.
+
+
+# Fri Jul 12 08:05:59 PM EDT 2024
+
+added measurement 'solid' to Craig's openscad model:
+
+
+//PCB_PCB = COLUMN_DEPTH-(PCB_STAND_OFF_DEPTH);
+PCB_PCB = COLUMN_DEPTH - PCB_THICKNESS*2;
+translate([-COLUMN_WIDTH/2,-PCB_PCB/2,0])
+color("blue",0.6)
+cube([COLUMN_WIDTH,PCB_PCB,COLUMN_HEIGHT]);
+
+echo(PCB_PCB=PCB_PCB);
+
+where PCB_PCB is the distance between the inner surfaces of the emitter and detector PCBs 
+
+seems to work well 
+
+![](/img/uvf/pcb_pcb.png)
+
+and the measured distance is 23.9 mm
+
+so in the control board design, use this distance, plus any offset due to right angle headers 
