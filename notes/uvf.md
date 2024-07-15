@@ -651,3 +651,28 @@ seems to work well
 and the measured distance is 23.9 mm
 
 so in the control board design, use this distance, plus any offset due to right angle headers 
+
+
+# Sat Jul 13 07:34:03 PM EDT 2024
+
+Right angle header dimensions; [datasheet](https://app.adam-tech.com/products/download/data_sheet/201281/ph1rb-xx-ua-data-sheet.pdf)
+
+![](/img/uvf/right_angle.png)
+
+Female header: [datasheet](https://www.we-online.com/components/products/datasheet/6130xx11821.pdf)
+![](/img/uvf/female_header.png)
+
+
+# Sun Jul 14 07:48:14 PM EDT 2024
+
+Right angle female header:
+- [datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf?_gl=1*tike3w*_up*MQ..&gclid=CjwKCAjw7s20BhBFEiwABVIMrRYrbqwWOu1c7CfLO2kB3MF6ZuFf1kSIVTEPuTBYIypqlVA28Yb_7hoCGXMQAvD_BwE)
+- pic: ![](/img/uvf/right_angle_female_dimensions.png)
+
+Detector pinout:
+
+![](/img/uvf/detector_pinout_inner.png)
+
+Emitter pinout:
+
+![](/img/uvf/emitter_pintout_inner.png)
