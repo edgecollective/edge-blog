@@ -675,4 +675,30 @@ Detector pinout:
 
 Emitter pinout:
 
-![](/img/uvf/emitter_pintout_inner.png)
+![](/img/uvf/emitter_pinout_inner.png)
+
+COLUMN_WIDTH=44 mm
+
+i.e. the emitter and detector pcbs are 34 mm x 34 mm; the current 'column' 3d design is 10 mm wider than the pcb 
+
+if we want the connectors to be separated by an integral number typical header spacings, we can do 12;  i.e. 12*2.54 mm = 30.48
+
+
+detector header is at 29.62;  
+
+ 
+# Tue Jul 16 07:12:13 PM EDT 2024
+
+![](/img/uvf/button.png)
+
+Ground pours in KiCad [here](https://www.wayneandlayne.com/blog/2013/02/26/kicad-tutorial-copper-pours-fills/)
+
+![](/img/uvf/pushbutton_style.png)
+
+D1 -- Zener diode -- Need to use 3V zener ; for example, [MMSZ4683-TP](https://www.digikey.com/en/products/detail/micro-commercial-co/MMSZ4683-TP/2345537) -- SOD123 seems like typical footprint?
+
+D4 -- Schottky diode, e.g. [SM5817PL-TP](https://www.digikey.com/en/products/detail/micro-commercial-co/SM5817PL-TP/1793251) ... SOD123FL  
+
+555 timer -- e.g. [NE555DR](https://www.digikey.com/en/products/detail/texas-instruments/NE555DR/372491) -- 8-SOIC
+
+inductor 50uH -- e.g. [SRR1205-500YL](https://www.digikey.com/en/products/detail/bourns-inc/SRR1205-500YL/2562284)
