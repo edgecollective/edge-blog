@@ -706,3 +706,13 @@ D4 -- Schottky diode, e.g. [SM5817PL-TP](https://www.digikey.com/en/products/det
 555 timer -- e.g. [NE555DR](https://www.digikey.com/en/products/detail/texas-instruments/NE555DR/372491) -- 8-SOIC
 
 inductor 50uH -- e.g. [SRR1205-500YL](https://www.digikey.com/en/products/detail/bourns-inc/SRR1205-500YL/2562284)
+
+Proposed division of signals on board:
+
+![](/img/uvf/partion4.png)
+
+Better version:
+
+![](/img/uvf/partition_beta_labeled.png)
+
+REMINDER: need to add RC low-pass filter on top of analog input in 'motherboard'
