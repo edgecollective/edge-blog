@@ -689,6 +689,10 @@ detector header is at 29.62;
  
 # Tue Jul 16 07:12:13 PM EDT 2024
 
+Partitioning and layout of mixed-signal PCBs [here](https://hott.shielddigitaldesign.com/pdf_files/june2001pcd_mixedsignal.pdf)
+
+![](/img/uvf/mixed_signal.png) 
+ 
 ![](/img/uvf/button.png)
 
 Ground pours in KiCad [here](https://www.wayneandlayne.com/blog/2013/02/26/kicad-tutorial-copper-pours-fills/)
