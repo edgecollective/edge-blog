@@ -516,17 +516,18 @@ Got to 7.5 volts with the combination I have
 
 ![](/img/uvf/555_input_555_boost.jpeg)
 
-Replicated the basic setup with 555 timer input
+Replicated the basic setup with 555 timer input, using this circuit as a reference:
 
 ![](/img/uvf/555_50_50.png)
-
-![](/img/uvf/noisy_555_pwm.jpeg)
 
 Reference: see "555 Circuits Part 1 – An Improved Duty Cycle" ,  at [https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html](https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html)
 
 Used:  NE555 timer, RA = RB = 5.5K; C = 0.1 uF;  got freq of 1.15 kHz;   used 100 nF from pin 5 to ground
- 
-555 output was a little noisy / shaky, not sure whether that's important / something to address. 
+
+555 output was a little noisy / shaky, not sure whether that's important / something to address.
+
+
+![](/img/uvf/noisy_555_pwm.jpeg)
 
 1.15 kHz seemed to result in stronger detector signal than 660 Hz, from what I could tell ...
 
@@ -716,3 +717,17 @@ Better version:
 ![](/img/uvf/partition_beta_labeled.png)
 
 REMINDER: need to add RC low-pass filter on top of analog input in 'motherboard'
+
+
+# Fri Jul 19 06:44:38 PM EDT 2024
+
+Switch on/off drawing [here](https://cdn-shop.adafruit.com/datasheets/EG1218draw.pdf) 
+
+![](/img/uvf/iter_1.png)
+
+
+# Mon Jul 22 09:53:46 PM EDT 2024
+
+![](/img/uvf/uva254_ctrl_layout.png)
+
+![](/img/uvf/uva254_ctrl_3d.png)
