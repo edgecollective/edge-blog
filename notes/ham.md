@@ -1006,4 +1006,9 @@ This is what worked for updating the feather nrf52 express bootloader -- the com
 
 GPS alternative, $11 on Amazon [here](https://www.amazon.com/gp/product/B084MK8BS2/ref=ox_sc_act_image_1?smid=A2QTZX14X1D97I&psc=1): ![](/img/radio/black_gps.jpg)
 
+inexpensive digital modes 
 
+
+# Mon Oct  7 07:59:51 PM EDT 2024
+
+[https://qrper.com/2024/04/getting-started-with-hf-digital-modes-without-breaking-the-bank/](https://qrper.com/2024/04/getting-started-with-hf-digital-modes-without-breaking-the-bank/)
