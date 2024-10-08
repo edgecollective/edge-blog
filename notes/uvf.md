@@ -731,3 +731,12 @@ Switch on/off drawing [here](https://cdn-shop.adafruit.com/datasheets/EG1218draw
 ![](/img/uvf/uva254_ctrl_layout.png)
 
 ![](/img/uvf/uva254_ctrl_3d.png)
+
+
+# Tue Oct  8 07:01:59 PM EDT 2024
+
+![](/img/uvf/detector_connector_spacing.png)
+
+optical_column_pcb_3.scad:
+
+![](/img/uvf/optical_pcb_column_v3.png)

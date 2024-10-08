@@ -155,3 +155,21 @@ rocket stove instructions [https://www.ywambelt.org/wp-content/uploads/Rocket-St
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DkwQgG65xHQ?si=Djq7ooA9Qgn4CRS3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nY-Vt7f3tAI?si=xQSWVbbGWUkYmE50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+# Mon Oct  7 08:29:40 PM EDT 2024
+
+[https://www.backwoodshome.com/build-a-barrel-stove/](https://www.backwoodshome.com/build-a-barrel-stove/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7-kuWcngM9E?si=-l-oT3oUivmqxmNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+# Tue Oct  8 04:41:39 PM EDT 2024
+
+Electric heating pad [https://www.adafruit.com/product/1481?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vB6VhRWhjN-pz8BUratxuM1-BZRXKT3Kb8RfhVtBQ4UM1qhkqVN7AoaAlWzEALw_wcB](https://www.adafruit.com/product/1481?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vB6VhRWhjN-pz8BUratxuM1-BZRXKT3Kb8RfhVtBQ4UM1qhkqVN7AoaAlWzEALw_wcB)
+
+Lightweight heated vest on Amazon: [https://www.amazon.com/ororo-Lightweight-Heated-Battery-Large/dp/B01H50RF4Q](https://www.amazon.com/ororo-Lightweight-Heated-Battery-Large/dp/B01H50RF4Q)
+
+$1 heating pads on aliexpress [here](https://www.aliexpress.us/item/3256805786054229.html)
+
+well-reviewed heating vest [here](https://www.amazon.com/dp/B08F4WSJP3)
