@@ -1,4 +1,5 @@
 #!/bin/bash
 
-eleventy --serve
+npx @11ty/eleventy --serve
+#eleventy --serve
 #eleventy --serve --formats=png
