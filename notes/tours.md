@@ -3,7 +3,7 @@ pageTitle:  Tours and events in the Boston area
 layout: layout.njk
 date: Last Modified
 updated: 2024-02-25
-tags: notes 
+tags: draft 
 image: /img/placeholder.png
 blurb: With special relevance to homeschooling 
 ---

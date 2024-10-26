@@ -3,7 +3,7 @@ pageTitle: Estimating fitness levels
 layout: layout.njk
 date: Last Modified 
 updated: Last Modified 
-tags: notes 
+tags: draft 
 image: img/placeholder.png
 blurb: DIY ways of measuring fitness over time 
 ---
