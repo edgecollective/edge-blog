@@ -4,7 +4,7 @@ layout: layout.njk
 date: Last Modified
 updated: 2023-05-26
 tags: notes 
-image: /img/placeholder.png
+image: /img/lorad/lora_net.png
 blurb: Notes on wireless montioring (focused on LoRa).
 ---
 
