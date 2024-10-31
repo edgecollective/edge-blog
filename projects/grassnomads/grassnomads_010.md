@@ -47,12 +47,4 @@ The procedure requires:
 | **Fig. 3.** |
 
 
-# Fri Oct 25 08:28:20 PM EDT 2024
 
-Adding uarts to IB M4 -- [https://docs.micropython.org/en/latest/samd/pinout.html#samd-pinout](https://docs.micropython.org/en/latest/samd/pinout.html#samd-pinout)
-
-especially: 
-
-![](/img/ojofeliz/ibm4_uarts.png)
-
-Forum topic on adding a uart here: [https://forums.adafruit.com/viewtopic.php?t=154700](https://forums.adafruit.com/viewtopic.php?t=154700)
