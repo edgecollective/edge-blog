@@ -83,4 +83,10 @@ There are periodic errors on the depth sensor -- reading an 'error' -- when send
 Testing new uart code.  Another source of 'error' might've been the code for reading from the uart -- I think the earlier version wouldn't immediately return the depth once a reasonable depth was reported
 
 Q: if we do get any 999 values, i wonder if we can re-query? 
+
  
+# Tue Nov 19 12:17:18 PM EST 2024
+
+Looks like things are pretty solid ... using 'second_test.py' in sweet-p firmware version 4a
+
+![](/img/ojofeliz/regular_pings.png)
