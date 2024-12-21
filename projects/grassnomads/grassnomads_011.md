@@ -90,3 +90,30 @@ Q: if we do get any 999 values, i wonder if we can re-query?
 Looks like things are pretty solid ... using 'second_test.py' in sweet-p firmware version 4a
 
 ![](/img/ojofeliz/regular_pings.png)
+
+# Fri 20 Dec 2024 05:31:22 PM EST
+
+Recent experiment indicated that the problem is not with the battery, but with the sensor.
+
+On a very cold morning, the system starting reading '999'.  When I swapped in a 'warm' battery, it still read '999'. 
+
+Seems that the sensor itself doesn't do well in the cold.
+
+So, new plan:  
+
+- we'll always try to send whatever data we get, goofy or not, at 5 AM and 1 PM
+- if we ever get goofy data, afterwards we'll keep trying every 30 minutes to get 'good' data until we get a good reading we can send
+
+
+so, when sending ...
+
+now we need to start recording the value of what was sent ...
+
+if last reading was '999' or '-1', and the current value isn't either of those, then should send
+
+okay -- attempting this with code ver 0.4.5
+
+
+
+
+
