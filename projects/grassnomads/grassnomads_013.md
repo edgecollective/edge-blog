@@ -32,3 +32,17 @@ Perhaps here we are seeing a condensation effect that tends only to occur overni
 
 ![](/img/ojofeliz/temperature_short_span.png)
 
+
+# Freezer Test
+
+Sat 18 Jan 2025 06:33:43 PM EST
+
+Placed sensor and transmitter box in freezer overnight.  Battery was external.
+
+Data collected in Google Sheet [here](https://docs.google.com/spreadsheets/d/1mJ8qVnuQJmU5uoP2Sm58hgTvAEl6rDbXpHaZQ1jVGdk/edit?usp=sharing).
+
+![](/img/ojofeliz/temp_vs_time_jan17.png)
+
+![](/img/ojofeliz/distance_vs_time_jan17.png)
+
+

@@ -1012,3 +1012,39 @@ inexpensive digital modes
 # Mon Oct  7 07:59:51 PM EDT 2024
 
 [https://qrper.com/2024/04/getting-started-with-hf-digital-modes-without-breaking-the-bank/](https://qrper.com/2024/04/getting-started-with-hf-digital-modes-without-breaking-the-bank/)
+
+
+## Grid-down comm options
+
+Sat 11 Jan 2025 07:54:13 PM EST
+
+All things considered, though, I'm tending (based on a lot of awesome collective brainstorming in the first session) to lean towards something like Meshtastic as one project to begin with (among others) ...
+- it allows grid-down communication with a range of 1 km pretty easily, and 5 or 10 km if you put some elbow grease in (put a node up on a mountain / building)
+- it's a fairly inexpensive ($30 ish) add-on to a smart phone
+- it is text-based, so it's more or less like using another text-based app
+
+## (tr)uSDX off-grid 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vfqVPSUn2JU?si=FusDXaVp60ZjTWB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Nice youtube channel with ham info [https://www.youtube.com/@R4NCU/shorts](https://www.youtube.com/@R4NCU/shorts)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B5h0TDW8jHg?si=1TAYcwE2uRD3AEpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Off-grid ham radio solutions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kdslE4r8VyY?si=oVUC-x4rYQF9fu8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Related blog post: [https://oh8stn.org/blog/2023/03/24/qrp-nvis-data-modes-go-kit-trusdx/](https://oh8stn.org/blog/2023/03/24/qrp-nvis-data-modes-go-kit-trusdx/)
+
+## Portable antenna radio strategy
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OEpFwZhSdMo?si=-R3Nd9AAxHs-ltKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Hip-bag portable radio 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s3KHSPTLllI?si=hDahuyvQKznpTeBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Digirig Mobile
+
+Digirig is $70 [on Amazon](https://www.amazon.com/Digirig-Mobile-Integrated-Digital-Interface/dp/B095B9C15R)
