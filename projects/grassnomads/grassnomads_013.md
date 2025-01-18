@@ -41,8 +41,13 @@ Placed sensor and transmitter box in freezer overnight.  Battery was external.
 
 Data collected in Google Sheet [here](https://docs.google.com/spreadsheets/d/1mJ8qVnuQJmU5uoP2Sm58hgTvAEl6rDbXpHaZQ1jVGdk/edit?usp=sharing).
 
-![](/img/ojofeliz/temp_vs_time_jan17.png)
+| ![](/img/ojofeliz/temp_vs_time_jan17.png) |
+|:--:|
+| **Temperature in freezer overnight.** Looks like it takes a while for compressor to kick in to knock freezer temp down to around -15. |
 
-![](/img/ojofeliz/distance_vs_time_jan17.png)
+| ![](/img/ojofeliz/distance_vs_time_jan17.png) |
+|:--:|
+| **Distance measurement in freezer overnight.**  Distance changed by 1 cm over course of experiment.  As temperature decreases, speed of sound decreases, so the sensor will think the object is further away; so a 1 cm increase is explained by lack of temperature compensation; but from the timing, it seems as though the increase happened before the temperature really dropped, so this might simply be 'noise'.| 
+
 
 
