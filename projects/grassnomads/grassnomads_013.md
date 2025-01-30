@@ -49,5 +49,9 @@ Data collected in Google Sheet [here](https://docs.google.com/spreadsheets/d/1mJ
 |:--:|
 | **Distance measurement in freezer overnight.**  Distance changed by 1 cm over course of experiment.  As temperature decreases, speed of sound decreases, so the sensor will think the object is further away; so a 1 cm increase is explained by lack of temperature compensation; but from the timing, it seems as though the increase happened before the temperature really dropped, so this might simply be 'noise'.| 
 
+## TODO
+
+- Add humidity sensor to outdoor setup
+- Try putting battery inside freezer
 
 
