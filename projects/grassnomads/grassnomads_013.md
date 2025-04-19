@@ -54,9 +54,8 @@ Data collected in Google Sheet [here](https://docs.google.com/spreadsheets/d/1mJ
 - Add humidity sensor to outdoor setup
 - Try putting battery inside freezer
 
-# Working system
 
-Sun 09 Feb 2025 09:50:32 AM EST
+# Sun 09 Feb 2025 09:50:32 AM
 
 Sensor seems to have worked nicely at low temperatures, now.  Main issue is battery chemistry.  Large (car-like) battery worked fine at very low temps;  smaller battery (SLA -- sealed lead acid?) didn't seem to work below 5C.
 
@@ -66,5 +65,14 @@ Next steps:
 - extend power cable to 3'
 - create lasercut mount for sensor
 
+# Sat 19 Apr 2025 11:17:17 AM EDT
+
+Issue:  missing some morning readings recently
+
+![](/img/ojofeliz/distance_mar_apr_2025.png)
+
+![](/img/ojofeliz/battery_mar_apr_2025.png)
+
+![](/img/ojofeliz/temperature_mar_apr_2025.png)
 
 
