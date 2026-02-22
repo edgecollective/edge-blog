@@ -87,90 +87,89 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
 
 -->
 
-# <a name="projects"></a>Projects
-
+<section class="section-container" id="projects">
+<h2><a name="projects"></a>Projects</h2>
+<p class="back-to-top"><a href="#">&uarr; Back to Top</a></p>
 <div class="posts-area">
 {% for project in collections.projects reversed %}
-  <div class="post">
-    <div class="project-contents">
-      <div class="image">
-        <a href="{{ project.url }}">
-          <img src="{{ project.data.image }}"/>
-        </a>
-      </div>
-      <div class="text">
-        <h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
-        <p>{{ project.data.blurb }}</p>
-        <em>Updated: {{ project.date | date: "%Y-%m-%d" }}</em>
-      </div>
-    </div>
-  </div>
+<article class="post project-card">
+<div class="image">
+<a href="{{ project.url }}">
+<img src="{{ project.data.image }}"/>
+</a>
+</div>
+<div class="text">
+<h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
+<p>{{ project.data.blurb }}</p>
+<em>Updated: {{ project.date | date: "%Y-%m-%d" }}</em>
+</div>
+</article>
 {% endfor %}
 </div>
+</section>
 
-# <a name="notebook"></a>Research Notebook
-
+<section class="section-container" id="notebook">
+<h2><a name="notebook"></a>Research Notebook</h2>
+<p class="back-to-top"><a href="#">&uarr; Back to Top</a></p>
 <div class="posts-area">
-
 {% for note in collections.notes reversed %}
-  <div class="post">
-    <div class="note-contents">
-      <div class="image">
-        <a href="{{ note.url }}">
-          <img src="{{ note.data.image }}"/>
-        </a>
-      </div>
-      <div class="text">
-        <h3><a href="{{ note.url }}">{{ note.data.pageTitle }}</a></h3>
-        <p>{{ note.data.blurb }}</p>
-        <em>Updated: {{ note.date | date: "%Y-%m-%d" }}</em>
-      </div>
-    </div>
-  </div>
+<article class="post note-card">
+<div class="image">
+<a href="{{ note.url }}">
+<img src="{{ note.data.image }}"/>
+</a>
+</div>
+<div class="text">
+<h3><a href="{{ note.url }}">{{ note.data.pageTitle }}</a></h3>
+<p>{{ note.data.blurb }}</p>
+<em>Updated: {{ note.date | date: "%Y-%m-%d" }}</em>
+</div>
+</article>
 {% endfor %}
 </div>
+</section>
 
-# <a name="talks"></a>Presentations
-
+<section class="section-container" id="talks">
+<h2><a name="talks"></a>Presentations</h2>
+<p class="back-to-top"><a href="#">&uarr; Back to Top</a></p>
 <div class="posts-area">
 {% for talk in collections.talks reversed %}
-  <div class="post">
-    <div class="talk-contents">
-      <div class="image">
-        <a href="{{ talk.url }}">
-          <img src="{{ talk.data.image }}"/>
-        </a>
-      </div>
-      <div class="text">
-        <h3><a href="{{ talk.url }}">{{ talk.data.pageTitle }}</a></h3>
-        <p>{{ talk.data.blurb }}</p>
-        <em>Updated: {{ talk.date | date: "%Y-%m-%d" }}</em>
-      </div>
-    </div>
-  </div>
+<article class="post talk-card">
+<div class="image">
+<a href="{{ talk.url }}">
+<img src="{{ talk.data.image }}"/>
+</a>
+</div>
+<div class="text">
+<h3><a href="{{ talk.url }}">{{ talk.data.pageTitle }}</a></h3>
+<p>{{ talk.data.blurb }}</p>
+<em>Updated: {{ talk.date | date: "%Y-%m-%d" }}</em>
+</div>
+</article>
 {% endfor %}
 </div>
+</section>
 
-# <a name="guides"></a>Guides
-
+<section class="section-container" id="guides">
+<h2><a name="guides"></a>Guides</h2>
+<p class="back-to-top"><a href="#">&uarr; Back to Top</a></p>
 <div class="posts-area">
 {% for workshop in collections.pedagogy reversed %}
-  <div class="post">
-    <div class="pedagogy-contents">
-      <div class="image">
-        <a href="{{ workshop.url }}">
-          <img src="{{ workshop.data.image }}"/>
-        </a>
-      </div>
-      <div class="text">
-        <h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
-        <p>{{ workshop.data.blurb }}</p>
-        <em>Updated: {{ workshop.date | date: "%Y-%m-%d" }}</em>
-      </div>
-    </div>
-  </div>
+<article class="post pedagogy-card">
+<div class="image">
+<a href="{{ workshop.url }}">
+<img src="{{ workshop.data.image }}"/>
+</a>
+</div>
+<div class="text">
+<h3><a href="{{ workshop.url }}">{{ workshop.data.pageTitle }}</a></h3>
+<p>{{ workshop.data.blurb }}</p>
+<em>Updated: {{ workshop.date | date: "%Y-%m-%d" }}</em>
+</div>
+</article>
 {% endfor %}
 </div>
+</section>
 
 
 

@@ -210,109 +210,117 @@ a:visited{
   box-sizing: border-box;
 }
 
+.section-container {
+    background: #ffffff;
+    border: 1px solid #e6e6e3;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    margin-bottom: 2rem;
+}
+
+.section-container h2 {
+    color: #1c4d3a;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 0 0.5rem;
+}
+
+.section-container .section-desc {
+    color: #6b6b6b;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 0.95rem;
+}
+
+.section-container .back-to-top {
+    text-align: center;
+    margin: 0 0 0.5rem;
+}
+
+.section-container .back-to-top a {
+    font-size: 0.8rem;
+    color: #6b6b6b;
+}
+
 .posts-area {
-    width: 100%;
-    padding-top: 10px;
-    #padding-right: 10px;
-}
-
-.posts-area:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.post {
-    float: left;
-    width: 33.33%;
-    padding: 0 20px 20px 0;
-
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
 }
 
 .contribute {
-
-width: 100%;
-padding-top: 10px;
-
-
+    width: 100%;
+    padding-top: 10px;
 }
 
-.post .post-contents {
-    #background: #f7f7f7;
-    background: ;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
+.post {
+    background: #ffffff;
+    border: 1px solid #e6e6e3;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    display: flex;
+    flex-direction: column;
 }
 
-.post .project-contents {
-    #background: #f7f7f7;
-    background: lightblue;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
-}
+.post.project-card { border-top: 3px solid #5b8fd4; }
+.post.note-card { border-top: 3px solid #9370db; }
+.post.pedagogy-card { border-top: 3px solid #6b9b4d; }
+.post.talk-card { border-top: 3px solid #cd5c5c; }
+.post.podcast-card { border-top: 3px solid #d4a574; }
 
-.post .project-updated {
-    #background: #f7f7f7;
-    #background: lightblue;
-    #border-radius: 10px;
-    #padding: 20px 20px 10px 20px;
-    font-size:6px;
-}
-
-.post .podcast-contents {
-    #background: #f7f7f7;
-    background: DarkSalmon;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
-}
-
-.post .note-contents {
-    #background: HoneyDew;
-    #background: F1F1F1;
-    background: Lavender;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
-}
-
-
-
-.post .pedagogy-contents {
-    #background: #f7f7f7;
-    background: lightgreen;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
-}
-
-.post .talk-contents {
-    #background: #f7f7f7;
-    background: pink;
-    border-radius: 10px;
-    padding: 20px 20px 10px 20px;
-}
-
-
-.post .inter-contents {
-    background: lightblue;
-    border-radius: 5px;
+.post .image {
+    aspect-ratio: 4/3;
+    background: #dcdcd7;
+    overflow: hidden;
+    position: relative;
 }
 
 .post .image a {
     display: block;
-    overflow: hidden;
-    height: 214px;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
 }
 
-.post img {
- object-fit: cover;
-   width: 100%;
-   height: 100%;
+.post .image img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
 }
 
+.post .text {
+    padding: 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.post .text h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+}
+
+.post .text p {
+    color: #6b6b6b;
+    font-size: .85rem;
+    margin: 4px 0 0;
+    line-height: 1.4;
+}
+
+.post .text em {
+    color: #6b6b6b;
+    font-size: .8rem;
+    margin-top: auto;
+    padding-top: 8px;
+}
 
 img {
-        #max-height: 500px;
-        max-width: 100%;   
-     }
+    max-width: 100%;
+}
 
 
 table {
@@ -336,15 +344,8 @@ td {
     font-size:15;
 }
 
-.post .text {
-    min-height: 250px;
-    padding: 5px;
-}
-
 .post .inter-text {
-    height: 250px;
-    #padding: 20px;
-    #color: white;
+    padding: 14px;
 }
 
 audio {
@@ -356,19 +357,19 @@ figure {
 font-size:20;
 }
 
-@media (max-width: 1100px) {
-    .post {
-        width: 100%;
+@media (max-width: 880px) {
+    .posts-area {
+        grid-template-columns: 1fr 1fr;
     }
     table {
         width: 100%;
     }
-    /*img {
-        max-height: 500px;
-        max-width: 20%;     
-     }
-     */
-    
+}
+
+@media (max-width: 560px) {
+    .posts-area {
+        grid-template-columns: 1fr;
+    }
 }
 
 .video-container {
