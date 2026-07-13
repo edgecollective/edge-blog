@@ -52,7 +52,7 @@ pageTitle: Solar Charge Controller Board — Edge Collective Shop
 <img src="/img/ec_flower_logo_small.png" alt="Solar Charge Controller Board" />
 </div>
 
-<div class="product-page-price">$28.00</div>
+<div class="product-page-price">$5.00</div>
 
 <!-- ── Configuration & Add to Cart ── -->
 <div class="product-options">
@@ -94,7 +94,7 @@ pageTitle: Solar Charge Controller Board — Edge Collective Shop
   <button class="snipcart-add-item" id="solar-btn"
     data-item-id="solar-charge-controller"
     data-item-name="Solar Charge Controller Board"
-    data-item-price="28.00"
+    data-item-price="5.00"
     data-item-url="/shop/solar-charge-controller/"
     data-item-description="LiFePO4 solar charge controller board"
     data-item-image="/img/ec_flower_logo_small.png"
@@ -140,7 +140,7 @@ A simple, open-source LiFePO4 solar charge controller designed for small off-gri
 <button class="snipcart-add-item"
   data-item-id="solar-charge-controller"
   data-item-name="Solar Charge Controller Board"
-  data-item-price="28.00"
+  data-item-price="5.00"
   data-item-url="/shop/solar-charge-controller/"
   data-item-description="LiFePO4 solar charge controller board"
   data-item-image="/img/ec_flower_logo_small.png"
@@ -173,5 +173,4 @@ document.querySelectorAll('.product-options select').forEach(function(sel) {
 });
 </script>
 
-<div id="snipcart" data-api-key="YWMwMTNjOGItODA1MS00YmFlLWE0MWYtNmYyNzU3YTg3Y2Y5NjM5MDczMTU2MTI1ODk3MDU1" data-config-modal-style="side" hidden></div>
-<script async src="https://cdn.snipcart.com/themes/v3.7.1/default/snipcart.js"></script>
+{% include 'snipcart.html' %}

@@ -209,7 +209,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Board</span>
       <h3>Solar Charge Controller Board</h3>
-      <div class="product-price">$28.00</div>
+      <div class="product-price">$5.00</div>
       <p class="product-desc">
         A simple LiFePO4 solar charge controller for small off-grid setups.
         Accepts 6V–20V panels, charges a single 3.2V LiFePO4 cell, and provides
