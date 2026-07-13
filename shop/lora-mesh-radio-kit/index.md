@@ -1,5 +1,7 @@
 ---
 layout: front.njk
+permalink: false
+eleventyExcludeFromCollections: true
 pageTitle: LoRa Mesh Radio Kit — Edge Collective Shop
 ---
 

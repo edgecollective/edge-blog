@@ -1,5 +1,7 @@
 ---
 layout: front.njk
+permalink: false
+eleventyExcludeFromCollections: true
 pageTitle: Solar Charge Controller Board — Edge Collective Shop
 ---
 

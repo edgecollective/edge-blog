@@ -1,5 +1,7 @@
 ---
 layout: front.njk
+permalink: false
+eleventyExcludeFromCollections: true
 pageTitle: Water Quality Sensor Kit — Edge Collective Shop
 ---
 

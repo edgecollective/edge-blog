@@ -1,5 +1,7 @@
 ---
 layout: front.njk
+permalink: false
+eleventyExcludeFromCollections: true
 pageTitle: CO2 Monitor Kit — Edge Collective Shop
 ---
 
