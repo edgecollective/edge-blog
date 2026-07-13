@@ -93,7 +93,7 @@ pageTitle: Intro to Mesh Radio Kit — Edge Collective Shop
 </div>
 
 <div class="product-page-image">
-<img src="/img/ec_flower_logo_small.png" alt="Intro to Mesh Radio Kit" />
+<img src="/img/mesh/mesh_starter_kit.png" alt="Intro to Mesh Radio Kit: MeshCore repeater (Heltec V3) plus two MeshCore clients with GPS (Heltec V4)" />
 </div>
 
 <div class="product-page-price">$120.00</div>
@@ -114,7 +114,7 @@ pageTitle: Intro to Mesh Radio Kit — Edge Collective Shop
     data-item-price="120.00"
     data-item-url="/shop/intro-mesh-radio-kit/"
     data-item-description="Three-node MeshCore starter kit: two Heltec V4 client nodes with GPS and battery, plus a Heltec V3 repeater"
-    data-item-image="/img/ec_flower_logo_small.png"
+    data-item-image="/img/mesh/mesh_starter_kit_4x3.png"
     data-item-weight="700"
     data-item-quantity="1"
     data-item-max-quantity="5">
@@ -158,7 +158,7 @@ The fastest way to get started with off-grid mesh radio: a complete **three-node
   data-item-price="120.00"
   data-item-url="/shop/intro-mesh-radio-kit/"
   data-item-description="Three-node MeshCore starter kit: two Heltec V4 client nodes with GPS and battery, plus a Heltec V3 repeater"
-  data-item-image="/img/ec_flower_logo_small.png"
+  data-item-image="/img/mesh/mesh_starter_kit_4x3.png"
   data-item-weight="700"
   data-item-max-quantity="5">
   Add to Cart

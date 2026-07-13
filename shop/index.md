@@ -187,7 +187,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
   <!-- Product: Intro to Mesh Radio Kit -->
   <div class="product-card">
     <div class="product-thumb">
-      <img src="/img/ec_flower_logo_small.png" alt="Intro to Mesh Radio Kit" />
+      <img src="/img/mesh/mesh_starter_kit_4x3.png" alt="Intro to Mesh Radio Kit: MeshCore repeater and two GPS client nodes" />
     </div>
     <div class="product-body">
       <span class="badge-tag">Kit</span>
