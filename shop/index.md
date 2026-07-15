@@ -227,7 +227,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
 
   <div class="product-card">
     <div class="product-thumb">
-      <img src="/img/mesh/bric/sensor_package_4x3.png" alt="Outdoor Sensor Kit: enclosure, solar panel, ultrasonic sensor, and battery" />
+      <img src="/img/mesh/bric/sensor_package_listing_4x3.png" alt="Outdoor Sensor Kit: enclosure, solar panel, ultrasonic sensor, and battery" />
     </div>
     <div class="product-body">
       <span class="badge-tag">Kit</span>
