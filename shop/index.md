@@ -234,8 +234,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
       <h3>Mesh Radio Water Level Kit</h3>
       <div class="product-price">$275.00</div>
       <p class="product-desc">
-        The repeater platform plus a weatherproof ultrasonic sensor:
-        solar-powered water-level and distance monitoring that reports
+        Solar-powered water-level and distance monitoring that reports
         over your MeshCore mesh. Flood, tank, and tide tracking off-grid.
       </p>
       <a href="/shop/outdoor-sensor-kit/" class="learn-more-link">Learn more</a>
