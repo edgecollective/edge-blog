@@ -1,6 +1,6 @@
 ---
 layout: front.njk
-pageTitle: Outdoor Sensor Kit — Edge Collective Shop
+pageTitle: Mesh Radio Water Level Kit — Edge Collective Shop
 ---
 
 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.1/default/snipcart.css" />
@@ -81,12 +81,12 @@ pageTitle: Outdoor Sensor Kit — Edge Collective Shop
 <div class="product-page-header">
 <span class="badge-tag">Kit</span>
 
-## Outdoor Sensor Kit
+## Mesh Radio Water Level Kit
 
 </div>
 
 <div class="product-page-image">
-<img src="/img/mesh/bric/sensor_package_listing.png" alt="Outdoor Sensor Kit: weatherproof enclosure, solar panel, ultrasonic sensor, and 3000mAh battery" />
+<img src="/img/mesh/bric/sensor_package_listing.png" alt="Mesh Radio Water Level Kit: weatherproof enclosure, solar panel, ultrasonic sensor, and 3000mAh battery" />
 </div>
 
 <div class="product-page-price">$275.00</div>
@@ -103,7 +103,7 @@ pageTitle: Outdoor Sensor Kit — Edge Collective Shop
 <div class="options-add-btn">
   <button class="snipcart-add-item" id="sensor-btn"
     data-item-id="outdoor-sensor-kit"
-    data-item-name="Outdoor Sensor Kit"
+    data-item-name="Mesh Radio Water Level Kit"
     data-item-price="275.00"
     data-item-url="/shop/outdoor-sensor-kit/"
     data-item-description="Solar-powered, weatherproof MeshCore sensor node kit: rook board, ultrasonic sensor, 3000mAh battery, enclosure, and solar panel"
@@ -141,7 +141,7 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
 <div class="product-page-actions">
 <button class="snipcart-add-item"
   data-item-id="outdoor-sensor-kit"
-  data-item-name="Outdoor Sensor Kit"
+  data-item-name="Mesh Radio Water Level Kit"
   data-item-price="275.00"
   data-item-url="/shop/outdoor-sensor-kit/"
   data-item-description="Solar-powered, weatherproof MeshCore sensor node kit: rook board, ultrasonic sensor, 3000mAh battery, enclosure, and solar panel"
