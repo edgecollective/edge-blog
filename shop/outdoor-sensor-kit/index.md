@@ -130,7 +130,7 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
 
 **What's in the kit:**
 
-- **rook** LoRa board, pre-loaded with MeshCore firmware (915 MHz)
+- **rook** low-power LoRa board, pre-loaded with MeshCore firmware (915 MHz)
 - Weatherproof ultrasonic distance sensor for water-level and distance monitoring
 - 3000mAh lithium-ion battery — rides through nights and cloudy stretches
 - Solar panel — keeps the battery topped up indefinitely in reasonable sun
