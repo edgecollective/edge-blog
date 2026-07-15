@@ -196,7 +196,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
       <p class="product-desc">
         A complete three-node MeshCore network in a box: two GPS-equipped,
         battery-powered Heltec V4 client nodes plus a Heltec V3 dedicated
-        repeater. Power up, pair your phone, and you're on the mesh.
+        repeater.
       </p>
       <a href="/shop/intro-mesh-radio-kit/" class="learn-more-link">Learn more</a>
     </div>
