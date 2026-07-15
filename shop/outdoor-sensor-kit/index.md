@@ -89,7 +89,7 @@ pageTitle: Outdoor Sensor Kit — Edge Collective Shop
 <img src="/img/mesh/bric/sensor_package_listing.png" alt="Outdoor Sensor Kit: weatherproof enclosure, solar panel, ultrasonic sensor, and 3000mAh battery" />
 </div>
 
-<div class="product-page-price">$265.00</div>
+<div class="product-page-price">$275.00</div>
 
 <!-- ── Order ── -->
 <div class="product-options">
@@ -104,7 +104,7 @@ pageTitle: Outdoor Sensor Kit — Edge Collective Shop
   <button class="snipcart-add-item" id="sensor-btn"
     data-item-id="outdoor-sensor-kit"
     data-item-name="Outdoor Sensor Kit"
-    data-item-price="265.00"
+    data-item-price="275.00"
     data-item-url="/shop/outdoor-sensor-kit/"
     data-item-description="Solar-powered, weatherproof MeshCore sensor node kit: rook board, ultrasonic sensor, 3000mAh battery, enclosure, and solar panel"
     data-item-image="/img/mesh/bric/sensor_package_listing_4x3.png"
@@ -142,7 +142,7 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
 <button class="snipcart-add-item"
   data-item-id="outdoor-sensor-kit"
   data-item-name="Outdoor Sensor Kit"
-  data-item-price="265.00"
+  data-item-price="275.00"
   data-item-url="/shop/outdoor-sensor-kit/"
   data-item-description="Solar-powered, weatherproof MeshCore sensor node kit: rook board, ultrasonic sensor, 3000mAh battery, enclosure, and solar panel"
   data-item-image="/img/mesh/bric/sensor_package_listing_4x3.png"

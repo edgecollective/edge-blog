@@ -232,7 +232,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Kit</span>
       <h3>Outdoor Sensor Kit</h3>
-      <div class="product-price">$265.00</div>
+      <div class="product-price">$275.00</div>
       <p class="product-desc">
         The repeater platform plus a weatherproof ultrasonic sensor:
         solar-powered water-level and distance monitoring that reports
