@@ -118,7 +118,7 @@ pageTitle: Outdoor Sensor Kit — Edge Collective Shop
 
 <div class="product-page-details">
 
-A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. The same rugged platform as our Outdoor Repeater Kit, plus a weatherproof ultrasonic distance sensor — point it at a stream, culvert, tank, or tide line and get continuous level readings relayed across the mesh, no cell service or WiFi required.
+A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. A rugged outdoor platform with a weatherproof ultrasonic distance sensor — point it at a stream, culvert, tank, or tide line and get continuous level readings relayed across the mesh, no cell service or WiFi required.
 
 **What's in the kit:**
 
@@ -133,7 +133,7 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
 - Sensing: ultrasonic ranging, ideal for flood monitoring, tank levels, and tide tracking
 - Range: 1–5+ km line-of-sight per mesh hop — extend further with repeaters
 - Frequency: 915 MHz (US ISM band)
-- Pairs naturally with the [Outdoor Repeater Kit](/shop/outdoor-repeater-kit/) and [Intro to Mesh Radio Kit](/shop/intro-mesh-radio-kit/)
+- Pairs naturally with the [Intro to Mesh Radio Kit](/shop/intro-mesh-radio-kit/)
 
 </div>
 
