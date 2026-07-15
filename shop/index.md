@@ -202,6 +202,46 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     </div>
   </div>
 
+  {% comment %} STAGED — to publish: change this comment block to plain markup,
+     and remove `permalink: false` + `eleventyExcludeFromCollections: true`
+     from each kit's front matter:
+
+  <div class="product-card">
+    <div class="product-thumb">
+      <img src="/img/ec_flower_logo_small.png" alt="Outdoor Repeater Kit" />
+    </div>
+    <div class="product-body">
+      <span class="badge-tag">Kit</span>
+      <h3>Outdoor Repeater Kit</h3>
+      <div class="product-price">$149.00</div>
+      <p class="product-desc">
+        A solar-powered, weatherproof MeshCore repeater: rook LoRa board,
+        3000mAh battery, solar panel, and outdoor enclosure. Mount it high
+        and extend your mesh year-round, no wiring required.
+      </p>
+      <a href="/shop/outdoor-repeater-kit/" class="learn-more-link">Learn more</a>
+    </div>
+  </div>
+
+  {% endcomment %}
+
+  <div class="product-card">
+    <div class="product-thumb">
+      <img src="/img/mesh/bric/sensor_package_4x3.png" alt="Outdoor Sensor Kit: enclosure, solar panel, ultrasonic sensor, and battery" />
+    </div>
+    <div class="product-body">
+      <span class="badge-tag">Kit</span>
+      <h3>Outdoor Sensor Kit</h3>
+      <div class="product-price">$329.00</div>
+      <p class="product-desc">
+        The repeater platform plus a weatherproof ultrasonic sensor:
+        solar-powered water-level and distance monitoring that reports
+        over your MeshCore mesh. Flood, tank, and tide tracking off-grid.
+      </p>
+      <a href="/shop/outdoor-sensor-kit/" class="learn-more-link">Learn more</a>
+    </div>
+  </div>
+
 </div><!-- /product-grid -->
 
 <div class="shop-footer">
