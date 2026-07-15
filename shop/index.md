@@ -8,6 +8,7 @@ pageTitle: Edge Collective — Shop
 .shop-wrap {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 16px;
   text-align: left;
 }
 .shop-intro {
@@ -39,11 +40,12 @@ pageTitle: Edge Collective — Shop
   background: #f0f0f0;
 }
 
-/* Product grid */
+/* Product grid — fixed-width cards, centered as a group */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 320px);
+  justify-content: center;
+  gap: 24px;
 }
 
 .product-card {
@@ -165,7 +167,7 @@ pageTitle: Edge Collective — Shop
 
 @media (max-width: 700px) {
   .product-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 400px);
   }
 }
 </style>
