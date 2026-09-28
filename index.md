@@ -94,12 +94,12 @@ And if you'd like to help support our podcast, you can now do so via [Patreon](h
 {% for project in collections.projects reversed %}
 <article class="post project-card">
 <div class="image">
-<a href="{{ project.url }}">
+<a href="{{ project.data.externalUrl | default: project.url }}">
 <img src="{{ project.data.image }}"/>
 </a>
 </div>
 <div class="text">
-<h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
+<h3><a href="{{ project.data.externalUrl | default: project.url }}">{{ project.data.pageTitle }}</a></h3>
 <p>{{ project.data.blurb }}</p>
 <em>Updated: {{ project.date | date: "%Y-%m-%d" }}</em>
 </div>

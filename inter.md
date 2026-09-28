@@ -8,12 +8,12 @@ layout: front.njk
 {% for project in collections.projects %}
   <article class="post project-card">
     <div class="image">
-      <a href="{{ project.url }}">
+      <a href="{{ project.data.externalUrl | default: project.url }}">
         <img src="{{ project.data.image }}"/>
       </a>
     </div>
     <div class="text">
-      <h3><a href="{{ project.url }}">{{ project.data.pageTitle }}</a></h3>
+      <h3><a href="{{ project.data.externalUrl | default: project.url }}">{{ project.data.pageTitle }}</a></h3>
       <p>{{ project.data.blurb }}</p>
     </div>
   </article>
