@@ -69,6 +69,6 @@ The full build recipe covers:
 - Mounting over the water
 - Gateway setup, plus flashing both devices from the browser
 
-Firmware is at [github.com/edgecollective/MeshCore-simple-sensor](https://github.com/edgecollective/MeshCore-simple-sensor). A ready-to-deploy version is available as the [Mesh Radio Water Level Kit](/shop/outdoor-sensor-kit/).
+**Firmware:** [edgecollective.io/MeshCore-simple-sensor](https://edgecollective.io/MeshCore-simple-sensor/) explains how the firmware works, how readings reach Bayou, and how to flash and configure both devices from the browser. The source is at [github.com/edgecollective/MeshCore-simple-sensor](https://github.com/edgecollective/MeshCore-simple-sensor). A ready-to-deploy version is available as the [Mesh Radio Water Level Kit](/shop/outdoor-sensor-kit/).
 
 **[Read the full build recipe →](https://edgecollective.io/mesh-water-level/)**
