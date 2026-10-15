@@ -23,7 +23,7 @@ One reason we're excited about **mesh radio** in particular is that it's increas
 
 <p style="text-align:center;font-size:0.9em;margin-top:-0.4em"><i>Where this design sits among other ways of getting data out of a sensor. More in our research note, <a href="/notes/comms-types/">A map of sensor communications</a>.</i></p>
 
-### System Overview
+## System Overview
 
 | [![Diagram: a solar-powered sensor node over water storage sends readings over a LoRa mesh, via a hilltop repeater, to a gateway node at home that uplinks to an internet database over Wi-Fi. Within the local mesh, an e-ink kiosk and a phone paired by Bluetooth to a mesh radio can also read the level, even with the grid and internet down.](/img/mesh_water_level/water-level-mesh-diagram.svg)](/img/mesh_water_level/water-level-mesh-diagram.svg) |
 |:--:|
