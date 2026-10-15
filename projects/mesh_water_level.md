@@ -23,6 +23,10 @@ One reason we're excited about **mesh radio** in particular is that it's increas
 
 <p style="text-align:center;font-size:0.9em;margin-top:-0.4em"><i>Where this design sits among other ways of getting data out of a sensor. More in our research note, <a href="/notes/comms-types/">A map of sensor communications</a>.</i></p>
 
+## Social Ergonomics of Mesh Radio
+
+One of the ideas we think is key to this project is the good **social ergonomics** of mesh radio. Mesh radio is being widely adopted right now: there's a lot of interest, and people are eager to set up repeaters for everyday off-grid communication. That creates **overlapping incentives**. The same repeaters people maintain so they can message each other off-grid also carry water-level readings. Maintenance is often where community technology projects fail, so building on infrastructure that people already have their own reasons to keep running gives this one a much better chance of lasting.
+
 ## System Overview
 
 | [![Diagram: a solar-powered sensor node over water storage sends readings over a LoRa mesh, via a hilltop repeater, to a gateway node at home that uplinks to an internet database over Wi-Fi. Within the local mesh, an e-ink kiosk and a phone paired by Bluetooth to a mesh radio can also read the level, even with the grid and internet down.](/img/mesh_water_level/water-level-mesh-diagram.svg)](/img/mesh_water_level/water-level-mesh-diagram.svg) |
