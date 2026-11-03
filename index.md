@@ -20,7 +20,7 @@ layout: front.njk
 [Podcast](#podcast) | [Projects](#projects) | [Guides](#guides) | [Presentations](#talks) | [Research](#notebook)
 -->
 
-[Projects](#projects) | [Research](#notebook) | [Presentations](#talks) |  [Guides](#guides) | [Journal](/journal)
+[Projects](#projects) | [Research](#notebook) | [Presentations](#talks) |  [Guides](#guides) | [Journal](/journal) | [Election 2026](/ma-election-2026/)
 
 <div id='intro'>
 
