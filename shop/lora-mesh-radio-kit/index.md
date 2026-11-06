@@ -74,6 +74,7 @@ pageTitle: LoRa Mesh Radio Kit — Edge Collective Shop
 .options-add-btn {
   text-align: center;
 }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -143,7 +144,7 @@ pageTitle: LoRa Mesh Radio Kit — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="lora-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="lora-btn"
     data-item-id="lora-mesh-radio-kit"
     data-item-name="LoRa Mesh Radio Kit"
     data-item-price="45.00"
@@ -161,8 +162,8 @@ pageTitle: LoRa Mesh Radio Kit — Edge Collective Shop
     data-item-custom3-options="No battery (USB-C powered)|1200mAh LiPo battery[+9.00]"
     data-item-custom4-name="Firmware"
     data-item-custom4-options="Meshtastic (pre-loaded)|Blank (no firmware)">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -193,7 +194,7 @@ Everything you need to build an off-grid mesh radio communicator. This kit is de
 
 <!-- Repeat Add to Cart at bottom -->
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="lora-mesh-radio-kit"
   data-item-name="LoRa Mesh Radio Kit"
   data-item-price="45.00"
@@ -210,8 +211,8 @@ Everything you need to build an off-grid mesh radio communicator. This kit is de
   data-item-custom3-options="No battery (USB-C powered)|1200mAh LiPo battery[+9.00]"
   data-item-custom4-name="Firmware"
   data-item-custom4-options="Meshtastic (pre-loaded)|Blank (no firmware)">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

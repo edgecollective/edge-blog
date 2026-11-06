@@ -30,6 +30,7 @@ pageTitle: Solar Charge Controller Board — Edge Collective Shop
 .option-group select, .option-group input[type="number"] { width: 100%; padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; background: #fff; color: #333; }
 .option-group input[type="number"] { width: 80px; }
 .options-add-btn { text-align: center; }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -93,7 +94,7 @@ pageTitle: Solar Charge Controller Board — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="solar-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="solar-btn"
     data-item-id="solar-charge-controller"
     data-item-name="Solar Charge Controller Board"
     data-item-price="5.00"
@@ -109,8 +110,8 @@ pageTitle: Solar Charge Controller Board — Edge Collective Shop
     data-item-custom2-options="No panel|6V 1W mini panel[+6.00]|6V 3.5W panel[+14.00]"
     data-item-custom3-name="Add-on: LiFePO4 Battery"
     data-item-custom3-options="No battery|3.2V 1500mAh LiFePO4 cell[+8.00]|3.2V 3000mAh LiFePO4 cell[+14.00]">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -139,7 +140,7 @@ A simple, open-source LiFePO4 solar charge controller designed for small off-gri
 </div>
 
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="solar-charge-controller"
   data-item-name="Solar Charge Controller Board"
   data-item-price="5.00"
@@ -154,8 +155,8 @@ A simple, open-source LiFePO4 solar charge controller designed for small off-gri
   data-item-custom2-options="No panel|6V 1W mini panel[+6.00]|6V 3.5W panel[+14.00]"
   data-item-custom3-name="Add-on: LiFePO4 Battery"
   data-item-custom3-options="No battery|3.2V 1500mAh LiFePO4 cell[+8.00]|3.2V 3000mAh LiFePO4 cell[+14.00]">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

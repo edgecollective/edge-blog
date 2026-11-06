@@ -30,6 +30,7 @@ pageTitle: CO2 Monitor Kit — Edge Collective Shop
 .option-group select, .option-group input[type="number"] { width: 100%; padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; background: #fff; color: #333; }
 .option-group input[type="number"] { width: 80px; }
 .options-add-btn { text-align: center; }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -99,7 +100,7 @@ pageTitle: CO2 Monitor Kit — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="co2-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="co2-btn"
     data-item-id="co2-monitor-kit"
     data-item-name="CO2 Monitor Kit"
     data-item-price="35.00"
@@ -117,8 +118,8 @@ pageTitle: CO2 Monitor Kit — Edge Collective Shop
     data-item-custom3-options="Display-only firmware|WiFi logging firmware"
     data-item-custom4-name="USB-C Cable"
     data-item-custom4-options="1m USB-C cable (included)|3m USB-C cable[+3.00]">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -150,7 +151,7 @@ Build your own indoor air quality monitor. CO2 levels are one of the best indica
 </div>
 
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="co2-monitor-kit"
   data-item-name="CO2 Monitor Kit"
   data-item-price="35.00"
@@ -167,8 +168,8 @@ Build your own indoor air quality monitor. CO2 levels are one of the best indica
   data-item-custom3-options="Display-only firmware|WiFi logging firmware"
   data-item-custom4-name="USB-C Cable"
   data-item-custom4-options="1m USB-C cable (included)|3m USB-C cable[+3.00]">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

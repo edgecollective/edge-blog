@@ -170,6 +170,7 @@ pageTitle: Edge Collective — Shop
     grid-template-columns: minmax(0, 400px);
   }
 }
+.product-price .oos { color: #a33; font-size: 0.85em; font-weight: 600; }
 </style>
 
 <div class="shop-wrap">
@@ -194,7 +195,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Kit</span>
       <h3>Intro to Mesh Radio Kit</h3>
-      <div class="product-price">$120.00</div>
+      <div class="product-price">$120.00 <span class="oos">· Out of stock</span></div>
       <p class="product-desc">
         A complete three-node MeshCore network in a box: two GPS-equipped,
         battery-powered Heltec V4 client nodes plus a Heltec V3 dedicated
@@ -215,7 +216,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Kit</span>
       <h3>Outdoor Repeater Kit</h3>
-      <div class="product-price">$149.00</div>
+      <div class="product-price">$149.00 <span class="oos">· Out of stock</span></div>
       <p class="product-desc">
         A solar-powered, weatherproof MeshCore repeater: rook LoRa board,
         3000mAh battery, solar panel, and outdoor enclosure. Mount it high
@@ -234,7 +235,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Board</span>
       <h3>Rook v4</h3>
-      <div class="product-price">from $10.00</div>
+      <div class="product-price">from $10.00 <span class="oos">· Out of stock</span></div>
       <p class="product-desc">
         Our small, low-power LoRa board for battery-powered mesh nodes and remote
         sensors. Available assembled and flashed with MeshCore, or as a bare PCB.
@@ -250,7 +251,7 @@ Kits, boards, and hardware for off-grid communication, environmental monitoring,
     <div class="product-body">
       <span class="badge-tag">Kit</span>
       <h3>Mesh Radio Water Level Kit</h3>
-      <div class="product-price">$275.00</div>
+      <div class="product-price">$275.00 <span class="oos">· Out of stock</span></div>
       <p class="product-desc">
         Solar-powered water-level and distance monitoring that reports
         over your MeshCore mesh. Flood, tank, and tide tracking off-grid.

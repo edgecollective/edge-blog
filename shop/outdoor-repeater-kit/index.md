@@ -75,6 +75,7 @@ eleventyExcludeFromCollections: true
   .product-page-actions .snipcart-add-item { display: block; width: 100%; }
   .product-page-price { font-size: 21px; }
 }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -111,7 +112,7 @@ eleventyExcludeFromCollections: true
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="repeater-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="repeater-btn"
     data-item-id="outdoor-repeater-kit"
     data-item-name="Outdoor Repeater Kit"
     data-item-price="149.00"
@@ -121,8 +122,8 @@ eleventyExcludeFromCollections: true
     data-item-weight="1400"
     data-item-quantity="1"
     data-item-max-quantity="5">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -147,7 +148,7 @@ Put a permanent MeshCore repeater anywhere the sun shines. This kit packs a LoRa
 
 <!-- Repeat Add to Cart at bottom -->
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="outdoor-repeater-kit"
   data-item-name="Outdoor Repeater Kit"
   data-item-price="149.00"
@@ -156,8 +157,8 @@ Put a permanent MeshCore repeater anywhere the sun shines. This kit packs a LoRa
   data-item-image="/img/ec_flower_logo_small.png"
   data-item-weight="1400"
   data-item-max-quantity="5">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

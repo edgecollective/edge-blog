@@ -82,6 +82,7 @@ pageTitle: Rook v4 — Edge Collective Shop
   .variant-grid { grid-template-columns: minmax(0, 1fr); }
   .snipcart-add-item { display: block; width: 100%; }
 }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -133,7 +134,7 @@ pageTitle: Rook v4 — Edge Collective Shop
       <input type="number" id="qty-rook-assembled" min="1" max="10" value="1"
         onchange="document.getElementById('rook-assembled-btn').setAttribute('data-item-quantity', this.value)" />
     </div>
-    <button class="snipcart-add-item" id="rook-assembled-btn"
+    <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="rook-assembled-btn"
       data-item-id="rook-v4-assembled"
       data-item-name="Rook v4 — assembled"
       data-item-price="65.00"
@@ -143,7 +144,7 @@ pageTitle: Rook v4 — Edge Collective Shop
       data-item-weight="60"
       data-item-quantity="1"
       data-item-max-quantity="10">
-      Add to Cart
+      Out of stock
     </button>
   </div>
 
@@ -164,7 +165,7 @@ pageTitle: Rook v4 — Edge Collective Shop
       <input type="number" id="qty-rook-pcb" min="1" max="20" value="1"
         onchange="document.getElementById('rook-pcb-btn').setAttribute('data-item-quantity', this.value)" />
     </div>
-    <button class="snipcart-add-item" id="rook-pcb-btn"
+    <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="rook-pcb-btn"
       data-item-id="rook-v4-pcb"
       data-item-name="Rook v4 — bare PCB"
       data-item-price="10.00"
@@ -174,7 +175,7 @@ pageTitle: Rook v4 — Edge Collective Shop
       data-item-weight="40"
       data-item-quantity="1"
       data-item-max-quantity="20">
-      Add to Cart
+      Out of stock
     </button>
   </div>
 

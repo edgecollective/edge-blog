@@ -80,6 +80,7 @@ pageTitle: Intro to Mesh Radio Kit — Edge Collective Shop
   .product-page-actions .snipcart-add-item { display: block; width: 100%; }
   .product-page-price { font-size: 21px; }
 }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -116,7 +117,7 @@ pageTitle: Intro to Mesh Radio Kit — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="intro-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="intro-btn"
     data-item-id="intro-mesh-radio-kit"
     data-item-name="Intro to Mesh Radio Kit"
     data-item-price="120.00"
@@ -126,8 +127,8 @@ pageTitle: Intro to Mesh Radio Kit — Edge Collective Shop
     data-item-weight="700"
     data-item-quantity="1"
     data-item-max-quantity="5">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -160,7 +161,7 @@ The fastest way to get started with off-grid mesh radio: a complete **three-node
 
 <!-- Repeat Add to Cart at bottom -->
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="intro-mesh-radio-kit"
   data-item-name="Intro to Mesh Radio Kit"
   data-item-price="120.00"
@@ -169,8 +170,8 @@ The fastest way to get started with off-grid mesh radio: a complete **three-node
   data-item-image="/img/mesh/mesh_starter_kit_4x3.png"
   data-item-weight="700"
   data-item-max-quantity="5">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

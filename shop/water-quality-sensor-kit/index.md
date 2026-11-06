@@ -30,6 +30,7 @@ pageTitle: Water Quality Sensor Kit — Edge Collective Shop
 .option-group select, .option-group input[type="number"] { width: 100%; padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; background: #fff; color: #333; }
 .option-group input[type="number"] { width: 80px; }
 .options-add-btn { text-align: center; }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -98,7 +99,7 @@ pageTitle: Water Quality Sensor Kit — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="water-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="water-btn"
     data-item-id="water-quality-sensor-kit"
     data-item-name="Water Quality Sensor Kit"
     data-item-price="55.00"
@@ -116,8 +117,8 @@ pageTitle: Water Quality Sensor Kit — Edge Collective Shop
     data-item-custom3-options="USB-C powered|Solar charge controller bundle[+24.00]"
     data-item-custom4-name="MicroSD Card"
     data-item-custom4-options="No microSD card|16GB microSD card[+5.00]">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -147,7 +148,7 @@ A DIY conductivity and salinity sensor with optional LoRa telemetry — designed
 </div>
 
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="water-quality-sensor-kit"
   data-item-name="Water Quality Sensor Kit"
   data-item-price="55.00"
@@ -164,8 +165,8 @@ A DIY conductivity and salinity sensor with optional LoRa telemetry — designed
   data-item-custom3-options="USB-C powered|Solar charge controller bundle[+24.00]"
   data-item-custom4-name="MicroSD Card"
   data-item-custom4-options="No microSD card|16GB microSD card[+5.00]">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>

@@ -73,6 +73,7 @@ pageTitle: Mesh Radio Water Level Kit — Edge Collective Shop
   .product-page-actions .snipcart-add-item { display: block; width: 100%; }
   .product-page-price { font-size: 21px; }
 }
+.snipcart-add-item.out-of-stock, .snipcart-add-item.out-of-stock:hover { background: #b9b9b4; cursor: not-allowed; }
 </style>
 
 <div class="product-page">
@@ -109,7 +110,7 @@ pageTitle: Mesh Radio Water Level Kit — Edge Collective Shop
 </div>
 
 <div class="options-add-btn">
-  <button class="snipcart-add-item" id="sensor-btn"
+  <button class="snipcart-add-item out-of-stock" disabled aria-disabled="true" id="sensor-btn"
     data-item-id="outdoor-sensor-kit"
     data-item-name="Mesh Radio Water Level Kit"
     data-item-price="275.00"
@@ -119,8 +120,8 @@ pageTitle: Mesh Radio Water Level Kit — Edge Collective Shop
     data-item-weight="1700"
     data-item-quantity="1"
     data-item-max-quantity="5">
-    Add to Cart
-  </button>
+      Out of stock
+    </button>
 </div>
 </div>
 
@@ -147,7 +148,7 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
 
 <!-- Repeat Add to Cart at bottom -->
 <div class="product-page-actions">
-<button class="snipcart-add-item"
+<button class="snipcart-add-item out-of-stock" disabled aria-disabled="true"
   data-item-id="outdoor-sensor-kit"
   data-item-name="Mesh Radio Water Level Kit"
   data-item-price="275.00"
@@ -156,8 +157,8 @@ A solar-powered, weatherproof sensor node that reports over your MeshCore mesh. 
   data-item-image="/img/mesh/bric/sensor_package_listing_4x3.png"
   data-item-weight="1700"
   data-item-max-quantity="5">
-  Add to Cart
-</button>
+      Out of stock
+    </button>
 </div>
 
 </div>
